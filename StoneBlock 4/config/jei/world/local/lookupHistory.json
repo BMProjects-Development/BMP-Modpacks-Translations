@@ -1,9 +1,17 @@
 [
   {"version":1},
+  {"ingredient":{"id":"custommachinery:custom_machine_item","components":{"custommachinery:machine":"ftb:snowmaker"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"custommachinery:custom_machine_item","components":{"custommachinery:machine":"ftb:circuit_fabricator"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"custommachinery:custom_machine_item","components":{"custommachinery:machine":"ftb:advanced_coke_oven"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"custommachinery:custom_machine_item","components":{"custommachinery:machine":"ftb:neutron_activator"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"custommachinery:custom_machine_item","components":{"custommachinery:machine":"ftb:world_engine"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cognition:cognitive_amalgam"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cognition:cognitive_alloy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cognition:cognitive_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"draconicevolution:crafting_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"justdirethings:time_fluid_source"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"avaritia:infinity_catalyst"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"avaritia:infinity_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"avaritia:infinity_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"custommachinery:custom_machine_item","components":{"custommachinery:machine":"ftb:world_engine"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"create:shadow_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
