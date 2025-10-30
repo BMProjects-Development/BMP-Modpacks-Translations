@@ -1,22 +1,22 @@
 ---
 navigation:
-  title: Awakened Core
+  title: Пробужденное ядро
   position: 1
   parent: ftb:t5_upgrades.md
   icon: "draconicevolution:awakened_draconium_block"
 item_ids:
   - draconicevolution:awakened_draconium_block
 ---
-# Awakened Core Upgrade
+# Улучшение "Пробужденное ядро"
 
 <ItemImage id="draconicevolution:awakened_draconium_block" scale="3" />
 
-The <Color id="gold">Awakened Core Upgrade</Color> is a major upgrade that unlocks the <Color id="gold">Infinity</Color> crafts in the <Color id="gold">World Engine</Color>.
+<Color id="gold">"Пробужденное ядро"</Color> необходимое улучшение которое разблокирует <Color id="gold">"Бесконечность"</Color>, которое создается в <Color id="gold">Мировом двигателе</Color>.
 
-It requires a Tier 8 Energy Core, which needs 378 <Color id="gold">Awakened Draconium Blocks</Color> and 786 <Color id="light_purple">Draconium Blocks</Color>.
+Улучшение требует энергетическое ядро 8 уровня, которое требует 378 <Color id="gold">Пробужденных дракониумовых блоков</Color> и 786 <Color id="light_purple">Дракониумовых блоков</Color>.
 
 
-## Recipe Unlocks
+## Разблокируемые рецепты
 
 <ItemGrid>
   <ItemIcon id="avaritia:infinity_sword" />

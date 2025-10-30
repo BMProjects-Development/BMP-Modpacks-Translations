@@ -1,21 +1,21 @@
 ---
 navigation:
-  title: Twilight
+  title: Сумерки
   position: 4
   parent: ftb:t4_upgrades.md
   icon: "twilightforest:knight_phantom_trophy"
 item_ids:
   - twilightforest:knight_phantom_trophy
 ---
-# Twilight Upgrade
+# Улучшение "Сумеречный Лес"
 
 <ItemImage id="twilightforest:knight_phantom_trophy" scale="3" />
 
-The <Color id="light_purple">Twilight Upgrade</Color> is a minor upgrade that unlocks more advanced <Color id="gold">Ars Nouveau</Color> <Color id="gold">World Engine</Color> crafts.
+<Color id="light_purple">"Сумеречный Лес"</Color> дополнительное улучшение, которое разблокирует больше продвинутых рецептов <Color id="gold">Ars Nouveau</Color> для <Color id="gold">Мирового двигателя</Color>.
 
-This requires all 4 trophies from the Twilight bosses.
+Для создания необходимо 4 трофея из измерения Сумеречного Леса.
 
-## Recipe Unlocks
+## Разблокируемые рецепты
 
 <ItemGrid>
   <ItemIcon id="ars_nouveau:warp_scroll" />

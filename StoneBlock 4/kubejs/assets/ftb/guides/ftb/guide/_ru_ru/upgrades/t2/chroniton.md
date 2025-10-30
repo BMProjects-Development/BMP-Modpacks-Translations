@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Chroniton Glass
+  title: Хронитоновое стекло
   position: 3
   parent: ftb:t2_upgrades.md
   icon: "ftb:chroniton_glass"
 item_ids:
   - ftb:chroniton_glass
 ---
-# Chroniton Glass Upgrade
+# Улучшение "Хронитоновое стекло"
 
 <ItemImage id="ftb:chroniton_glass" scale="3" />
 
-The <Color id="green">Chroniton Glass</Color> is a minor upgrade that unlocks a bunch of useful  <Color id="gold">World Engine</Color> crafts, including the start of generating EMC.
+<Color id="green">"Хронитоновое стекло"</Color> дополнительное улучшение, которое открывает множество полезных рецептов в <Color id="gold">Мировом двигателе</Color>, включая начало выработки EMC.
 
-## Recipe Unlocks
+## Разблокируемые рецепты
 
 <ItemGrid>
   <ItemIcon id="enderstorage:ender_chest" />

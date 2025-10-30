@@ -1,21 +1,21 @@
 ---
 navigation:
-  title: Resonant Void
+  title: Резонансная пустота
   position: 3
   parent: ftb:t4_upgrades.md
   icon: "ftb:resonant_void"
 item_ids:
   - ftb:resonant_void
 ---
-# Resonant Void Upgrade
+# Улучшение "Резонансная пустота"
 
 <ItemImage id="ftb:resonant_void" scale="3" />
 
-The <Color id="light_purple">Resonant Void</Color> is a major upgrade that unlocks a few OP items in the <Color id="gold">World Engine</Color>.
+<Color id="light_purple">"Резонансная пустота"</Color> необходимое улучшение, которое разблокирует несколько мощных предметов для создания на <Color id="gold">Мировом двигателе</Color>.
 
-This upgrade will also need the <Color id="red">Advanced Machine Block</Color> upgrade for its recipe unlocks.
+Для этого улучшения необходимо улучшение <Color id="red">"Усовершенствованный корпус механизма"</Color>, чтобы его рецепт разблокировался.
 
-## Recipe Unlocks
+## Разблокируемые рецепты
 
 <ItemGrid>
   <ItemIcon id="justdirethings:time_crystal" />

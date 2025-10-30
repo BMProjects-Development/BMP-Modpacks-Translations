@@ -1,23 +1,23 @@
 ---
 navigation:
-  title: Heater
+  title: Нагреватель
   position: 1
   parent: ftb:t2_upgrades.md
   icon: "mekanism:resistive_heater"
 item_ids:
   - mekanism:resistive_heater
 ---
-# Heater Upgrade
+# Улучшение "Нагреватель"
 
 <ItemImage id="mekanism:resistive_heater" scale="3" />
 
-The <Color id="green">Heater</Color> is a major upgrade that allows you to pump in heat into the <Color id="gold">World Engine Controller</Color>.
+<Color id="green">"Нагреватель"</Color> это необходимое улучшение, которое повзоляет вам подавать тепло в <Color id="gold">Контроллер Мирового двигателя</Color>.
 
-It is suggested to use a <Color id="green">Resistive Heater</Color> so that you can set a specific amount of power to create enough heat for the controller. Later on, you might even use a Reactor to provide heat instead.
+Рекомендуется использовать  <Color id="green">резестивный нагреватель</Color>, чтобы вы могли установить точное количество энергии для создания достаточного количества тепла для контроллера. Позже вы даже сможете использовать реактор для подачи тепла.
 
-This upgrade unlocks the <Color id="gold">Energizing Orb</Color> to continue progressing in <Color id="gold">Powah</Color>.
+Это улучшение ризблокирует <Color id="gold">Сферу зарядки</Color> для продолжения развития в <Color id="gold">Powah</Color>.
 
-## Recipe Unlocks
+## Разблокируемые рецепты
 
 <ItemGrid>
   <ItemIcon id="powah:energizing_orb" />

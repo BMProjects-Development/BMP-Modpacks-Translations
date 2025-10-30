@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Nitro Ender Cell
+  title: Энергоячейка (Нитро)
   position: 1
   parent: ftb:t3_upgrades.md
   icon: "powah:ender_cell_nitro"
 item_ids:
   - powah:ender_cell_nitro
 ---
-# Nitro Ender Cell Upgrade
+# Улучшение "Энергоячейка (Нитро)"
 
 <ItemImage id="powah:ender_cell_nitro" scale="3" />
 
-The <Color id="red">Nitro Ender Cell</Color> is a major upgrade that unlocks a lot of great wireless power crafts in the <Color id="gold">World Engine</Color>, including <Color id="light_purple">Flux Networks</Color>!
+<Color id="red">"Энергоячейка (Нитро)"</Color> необходимое улучшение, которое разблокирует множество вариантов беспроводной передачи жнергии на <Color id="gold">Мировом двигателе</Color>, включая <Color id="light_purple">Flux сеть</Color>!
 
-## Recipe Unlocks
+## Разблокируемые рецепты
 
 <ItemGrid>
   <ItemIcon id="fluxnetworks:flux_dust" />

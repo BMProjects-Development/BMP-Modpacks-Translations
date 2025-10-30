@@ -1,9 +1,9 @@
 ---
 navigation:
-  title: Tier 5 Upgrades
+  title: Уровень улучшения 5
   position: 6
 ---
-# Tier 5 World Engine Upgrades
+# Уровень улучшения Мирового двигателя 5
 
 <SubPages />
 

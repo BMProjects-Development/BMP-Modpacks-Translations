@@ -1,23 +1,23 @@
 ---
 navigation:
-  title: Quantum Tunnel
+  title: Квантовый туннель
   position: 6
   parent: ftb:t3_upgrades.md
   icon: "ae2:quantum_ring"
 item_ids:
   - ae2:quantum_ring
 ---
-# Quantum Tunnel Upgrade
+# Улучшение "Квантовый туннель"
 
 <ItemImage id="ae2:quantum_ring" scale="3" />
 
-The <Color id="aqua">Quantum Tunnel</Color> is a minor upgrade that unlocks the ability to automate <Color id="gold">World Engine</Color> crafts. 
+<Color id="aqua">"Квантовый туннель"</Color> дополнительное улучшение, которое разблокирует возможность автоматизировать крафт на <Color id="gold">Мировом двигателе</Color>. 
 
-You will need to set up a Quantum Ring connected to your AE2 system and make sure that it is chunk loaded. The World Engine already chunk loaded.
+Вам нужно будет установить квантовое кольцо, подключенное к вашей AE2 системе, и быть уверенным что чанк прогружается. Мировой двигатель уже имеет загрузчик чанков.
 
-This upgrade will also need the <Color id="red">Advanced Machine Block</Color> upgrade for its recipe unlocks.
+Для этого улучшения необходимо улучшение <Color id="red">"Усовершенствованный корпус механизма"</Color>, чтобы его рецепт разблокировался.
 
-## Recipe Unlocks
+## Разблокируемые рецепты
 
 <ItemGrid>
   <ItemIcon id="advanced_ae:reaction_chamber" />

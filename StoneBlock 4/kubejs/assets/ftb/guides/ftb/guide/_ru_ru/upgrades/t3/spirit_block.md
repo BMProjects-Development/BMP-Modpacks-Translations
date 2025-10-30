@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Spirit Block
+  title: Призрачный блок
   position: 4
   parent: ftb:t3_upgrades.md
   icon: "ftb:spirit_block"
 item_ids:
   - ftb:spirit_block
 ---
-# Spirit Block Upgrade
+# Улучшение "Призрачный корпус"
 
 <ItemImage id="ftb:spirit_block" scale="3" />
 
-The <Color id="light_purple">Spirit Block</Color> is a minor upgrade that unlocks a few soul related unlocks in the <Color id="gold">World Engine</Color>, including the <Color id="light_purple">Vitality Blade</Color>.
+<Color id="light_purple">"Призрачный корпус"</Color> дополнительное улучшение, которое разблокирует несколько, связанных с душой, предметов в <Color id="gold">Мировом двигателе</Color>, например <Color id="light_purple">Кровожадный клинок</Color>.
 
-## Recipe Unlocks
+## Разблокируемые предметы
 
 <ItemGrid>
   <ItemIcon id="deepdarkdimdungeons:deep_dark_catalyst" />

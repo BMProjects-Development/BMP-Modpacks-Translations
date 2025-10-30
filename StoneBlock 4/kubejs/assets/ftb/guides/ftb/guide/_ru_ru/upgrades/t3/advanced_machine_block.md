@@ -1,23 +1,23 @@
 ---
 navigation:
-  title: Advanced Machine Block
+  title: Усовершенствованный корпус механизма
   position: 3
   parent: ftb:t3_upgrades.md
   icon: "ftb:world_engine_advanced_machine_block"
 item_ids:
   - ftb:world_engine_advanced_machine_block
 ---
-# Advanced Machine Block Upgrade
+# Улучшение "Усовершенствованный корпус механизма"
 
 <ItemImage id="ftb:world_engine_advanced_machine_block" scale="3" />
 
-The <Color id="red">Advanced Machine Block</Color> is a major upgrade that is needed for a lot of advanced <Color id="gold">World Engine</Color> crafts.
+<Color id="red">"Усовершенствованный корпус механизма"</Color> необходимое улучшение, которое требуется для множества продвинутых крафтов на <Color id="gold">Мировом двигателе</Color>.
 
-There are several other upgrades that also require this major upgrade, and is a requirement for progression in Tier 4.
+Здесь есть множество других улучшение, которые требуют это улучшение, и которые необходимы в будущем для 4-го тира.
 
-By itself, this upgrade only unlocks one recipe.
+Саможе оно разблокирует всего один рецепт.
 
-## Recipe Unlocks
+## Разблокируемые рецепты
 
 <ItemGrid>
   <ItemIcon id="entangled:block" />

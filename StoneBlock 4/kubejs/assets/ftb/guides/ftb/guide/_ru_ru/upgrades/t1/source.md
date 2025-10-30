@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Source Upgrade
+  title: Обновление источника
   position: 2
   parent: ftb:t1_upgrades.md
   icon: "ars_nouveau:relay"
@@ -8,15 +8,15 @@ item_ids:
   - ars_nouveau:relay
   - ars_nouveau:sourcestone
 ---
-# Ars Source Upgrade
+# Улучшение "Источник Ars"
 
 <ItemImage id="ars_nouveau:sourcestone" scale="3" />
 
-One of the first world engine upgrades that you can unlock is the <Color id="light_purple">Ars Source</Color> upgrade. This minor upgrade allows you to direct <Color id="light_purple">Source</Color> into the <Color id="gold">World Engine Controller</Color>.
+Одно из первых улучшений мирового двигателя, которое ты можешь открыть это <Color id="light_purple">"Источник Ars"</Color>. Это дополнительное улучшение позволит тебе направить <Color id="light_purple">Источник</Color> в <Color id="gold">Контроллер Мирового двигателя</Color>.
 
-To start with, you will need to bring a <Color id="green">Filled Source Jar</Color> and a <Color id="light_purple">Dominion Wand</Color> to bind the flow of <Color id="light_purple">Source</Color> into the controller from the jar. You will eventually want to use a <Color id="light_purple">Source Relay: Warper</Color> to teleport the source directly from your base.
+Для начала вам понадобится принести <Color id="green">заполненный сосуд с источником</Color> и <Color id="light_purple">Жезл Владычества</Color> чтобы связать поток <Color id="light_purple">Источника</Color> в контроллер из сосуда. В дальнейшем вы сможете использовать <Color id="light_purple">"Ретранслятор источника: Передача"</Color>, чтобы передавать источник прямо из вашей базы.
 
-## Recipe Unlocks
+## Разблокируемые рецепты
 
 <ItemGrid>
   <ItemIcon id="ars_nouveau:enchanting_apparatus" />

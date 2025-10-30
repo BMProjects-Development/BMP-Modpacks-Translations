@@ -1,16 +1,16 @@
 ---
 navigation:
-  title: Infinity
+  title: Бесконечность
   position: 3
   parent: ftb:t5_upgrades.md
   icon: "avaritia:infinity_block"
 item_ids:
   - avaritia:infinity_block
 ---
-# Infinity Upgrade
+# Улучшение "Бесконечность"
 
 <ItemImage id="avaritia:infinity_block" scale="3" />
 
-The <Color id="gold">Infinity Upgrade</Color> is the final upgrade for the <Color id="gold">World Engine</Color>.
+<Color id="gold">"Бесконечность"</Color> последнее улучшение для <Color id="gold">Мирового двигателя</Color>.
 
-This upgrade unlocks all of the creative crafts, and also essentially means you have completed the pack. Congrats!
+Это улучшение разблокирует все крафты из креатива, а также, это подразумевает что ты прошел данную сборку. Тройное ура!

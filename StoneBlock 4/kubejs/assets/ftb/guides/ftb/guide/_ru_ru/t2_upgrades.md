@@ -1,9 +1,9 @@
 ---
 navigation:
-  title: Tier 2 Upgrades
+  title: Уровень улучшения 1
   position: 3
 ---
-# Tier 2 World Engine Upgrades
+# Уровень улучшения Мирового двигателя 2
 
 <SubPages />
 

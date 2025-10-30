@@ -1,21 +1,21 @@
 ---
 navigation:
-  title: Enderium Block
+  title: Эндериумовый блок
   position: 2
   parent: ftb:t3_upgrades.md
   icon: "ftb:enderium_block"
 item_ids:
   - ftb:enderium_block
 ---
-# Enderium Block Upgrade
+# Улучшение "Эндериумовый корпус"
 
 <ItemImage id="ftb:enderium_block" scale="3" />
 
-The <Color id="red">Enderium Block</Color> is a major upgrade that unlocks a lot of <Color id="gold">ProjectE</Color>upgrades using the <Color id="gold">World Engine</Color>.
+<Color id="red">"эндериумовый корпус"</Color> необходимое улучшение, которое разблокирует множество улучшений <Color id="gold">ProjectE</Color> используя <Color id="gold">Мировой двигатель</Color>.
 
-This upgrade is also need to craft the <Color id="gold">Advanced Machine Block</Color> upgrade.
+ThДля этого улучшения необходимо улучшение <Color id="red">"Усовершенствованный корпус механизма"</Color>.
 
-## Recipe Unlocks
+## Разблокируемые рецепты
 
 <ItemGrid>
   <ItemIcon id="projecte:collector_mk2" />

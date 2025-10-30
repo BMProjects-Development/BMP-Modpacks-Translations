@@ -1,20 +1,20 @@
 ---
 navigation:
-  title: Dark Void
+  title: Тёмная пустота
   position: 2
   parent: ftb:t5_upgrades.md
   icon: "xycraft_machines:void_container"
 item_ids:
   - xycraft_machines:void_container
 ---
-# Dark Void Upgrade
+# Улучшение "Пустота"
 
 <ItemImage id="xycraft_machines:void_container" scale="3" />
 
-The <Color id="dark_purple">Dark Void Upgrade</Color> is a major upgrade that unlocks the <Color id="gold">Singularity</Color> crafts in the <Color id="gold">World Engine</Color>.
+<Color id="dark_purple">"Пустота"</Color> необзодимое улучшение, которое разблокирует <Color id="gold">Сингулярность</Color> создаваемую в <Color id="gold">Мировом двигателе</Color>.
 
 
-## Recipe Unlocks
+## Разблокируемые рецепты
 
 <ItemGrid>
   <ItemIcon id="mekanism:ultimate_tier_installer" />

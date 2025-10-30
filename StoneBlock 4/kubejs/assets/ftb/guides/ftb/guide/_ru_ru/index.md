@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: The World Engine
+  title: Мировой двигатель
   position: 1
   icon: "ftb:world_engine_machine_block"
   item_ids:
   - ftb:world_engine_machine_block
 ---
-# Getting Started
+# Давайте начнем
 
-The <Color id="gold">World Engine</Color> is the main crafting machine in <Color id="gold">Stoneblock 4</Color>. As you progress, you will unlock new recipes for the engine by installing <Color id="green">upgrades</Color>.
+<Color id="gold">Мировой двигатель</Color> 'основная машина для создания предметов в сборке' <Color id="gold">Stoneblock 4</Color>. По мере прохождения вы будете разблокировать новые рецепты для двигателя, устанавливая <Color id="green">улучшения</Color>.
 
-The <Color id="gold">World Engine</Color> has a ton of different upgrades!
+У <Color id="gold">Мирового двигателя</Color> невероятно много различных улучшений!
 
-<Color id="gold">Major Upgrades</Color> are required for progression, and unlock crucial crafting recipes for your playthrough.
+<Color id="gold">Основные обновления</Color> - необходимы для прогресса. Они открывают важнейшие рецепты для прохождения игры.
 
-<Color id="green">Minor Upgrades</Color> aren't required, and allow you to make a choice on which mods of the pack you want to explore.
+<Color id="green">Дополнительные улучшения</Color> - не необходимы. Они позволяют вам сделать выбор в какие из модов вы хотите погрузится.
 
 

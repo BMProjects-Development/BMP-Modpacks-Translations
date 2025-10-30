@@ -1,21 +1,21 @@
 ---
 navigation:
-  title: Machine Block
+  title: Машинный блок
   position: 1
   parent: ftb:t1_upgrades.md
   icon: "ftb:world_engine_machine_block"
 item_ids:
   - ftb:world_engine_machine_block
 ---
-# Basic Machine Block Upgrade
+# Базовое улучшение "Корпус механизма"
 
 <ItemImage id="ftb:world_engine_machine_block" scale="3" />
 
-The <Color id="green">World Engine Machine Block</Color> upgrade is the first major upgrade to the <Color id="gold">World Engine</Color>.
+Улучшение <Color id="green">"Корпус механизма" Мирового двигателя</Color>, это первое необходимое улучшение для <Color id="gold">Мирового двигателя</Color>.
 
-This upgrade unlocks a lot of the basic machinery you will need as you progress in the pack, including the start of <Color id="gold">AE2</Color>.
+Это улучшение разблокирует множество базовых механизмов, которые понадобятся для твоего прогресса в сборке, включая начальные этапы в <Color id="gold">AE2</Color>.
 
-## Recipe Unlocks
+## Разблокируемые рецепты
 
 <ItemGrid>
   <ItemIcon id="pipez:item_pipe" />

@@ -1,23 +1,23 @@
 ---
 navigation:
-  title: Draconic
+  title: Дракониум
   position: 1
   parent: ftb:t4_upgrades.md
   icon: "draconicevolution:energy_core_stabilizer"
 item_ids:
   - draconicevolution:energy_core_stabilizer
 ---
-# Resonant Void Upgrade
+# Улучшение "Дракониум"
 
 <ItemImage id="draconicevolution:energy_core_stabilizer" scale="3" />
 
-The <Color id="light_purple">Draconic Upgrade</Color> is a major upgrade that unlocks more advanced items like <Color id="gold">Awakened Draconium</Color> from <Color id="gold">World Engine</Color> crafts.
+<Color id="light_purple">"Драконикум"</Color> необходимое улучшение, которое разблокирует более продвинутые предметы, например <Color id="gold">Пробужденный дракониум</Color> для рецептов <Color id="gold">Мирового двигателя</Color> crafts.
 
-It is also required to craft the <Color id="light_purple">Resonant Void</Color> upgrade.
+Для этого улучшения необходимо улучшение <Color id="light_purple">"Резонансная пустота"</Color>.
 
-This upgrade will need the <Color id="red">Advanced Machine Block</Color> upgrade for its recipe unlocks.
+Для этого улучшения необходимо улучшение <Color id="red">"Усовершенствованный корпус механизма"</Color>, чтобы его рецепт разблокировался.
 
-## Recipe Unlocks
+## Разблокируемые рецепты
 
 <ItemGrid>
   <ItemIcon id="apotheosis:mythic_material" />

@@ -1,21 +1,21 @@
 ---
 navigation:
-  title: Shadow Casing
+  title: Теневой корпус
   position: 3
   parent: ftb:t1_upgrades.md
   icon: "create:shadow_steel_casing"
 item_ids:
   - create:shadow_steel_casing
 ---
-# Create Shadow Casing Upgrade
+# Улучшение теневого корпуса для Create
 
 <ItemImage id="create:shadow_steel_casing" scale="3" />
 
-The <Color id="green">Shadow Casing</Color> minor upgrade shows your basic knowledge of <Color id="gold">Create</Color>.
+<Color id="green">"Теневой корпус"</Color> дополнительное улучшение дающее вам базовые знания в <Color id="gold">Create</Color>.
 
-This upgrade unlocks several advanced <Color id="gold">Create</Color> machines, as well as some helpful <Color id="gold">ProjectE</Color> machines.
+Это улучшение разблокирует несколько улучшенных механизмов из <Color id="gold">Create</Color>, а также некоторые полезные механизмы из <Color id="gold">ProjectE</Color>.
 
-## Recipe Unlocks
+## Разблокируемые рецепты
 
 <ItemGrid>
   <ItemIcon id="createaddition:electric_motor" />
