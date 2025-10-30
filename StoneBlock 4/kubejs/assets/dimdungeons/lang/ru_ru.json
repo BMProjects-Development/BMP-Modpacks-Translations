@@ -1,0 +1,20 @@
+{
+    "itemGroup.dimdungeons": "Dimensional Dungeons",
+
+	"biome.dimdungeons.biome_dungeon": "Подземелье",
+	"dimension.dimdungeons.dimension_dungeon": "Измерение подземелья",
+
+	"dimdungeons:activate_key": "Активация ключа", // JEI
+
+    "block.dimdungeons.block_gilded_portal": "Одушевленный портальный блок",
+    "block.dimdungeons.block_gold_portal": "Портал в подземелье",
+    "block.dimdungeons.block_portal_crown": "Блок улучшения портала",
+    "error.dimdungeons.portal_error_4": "Портальные рамы должны быть изготовлены из глубинносланцевого кирпича, а не из ",
+    "error.dimdungeons.portal_error_6": "Шпиль портала должен быть построен из глубинносланцевого кирпича, а не из ",
+    "error.dimdungeons.portal_error_7": "На вершине портальных шпилей должен быть портал с душой, а не ",
+    "error.dimdungeons.portal_error_8": "Вы должны добавить два блока улучшения портала в верхнюю часть рамы.",
+	"advancements.dimdungeons.dungeons.find_crown.description": "Найдите в подземелье два блока для улучшения портала.",
+	"npart.dimdungeons.theme_1": "Древняя арена",
+    "npart.dimdungeons.theme_2": "Одухотворенная арена",
+    "npart.dimdungeons.theme_3": "Древняя арена"
+}
