@@ -1,0 +1,112 @@
+{
+	icon: {
+		components: {
+			"relics:data": {
+				abilities: {
+					abilities: {
+						backstab: {
+							extender: {
+								cooldown: 0
+								cooldownCap: 0
+								ticking: 0b
+							}
+							lock: {
+								breaks: 5
+							}
+							points: 0
+							research: {
+								links: { }
+								researched: 0b
+							}
+							stats: {
+								damage: {
+									initialValue: 1.25d
+								}
+								distance: {
+									initialValue: 20.0d
+								}
+							}
+						}
+						vanish: {
+							extender: {
+								cooldown: 0
+								cooldownCap: 0
+								ticking: 1b
+							}
+							lock: {
+								breaks: 5
+							}
+							points: 0
+							research: {
+								links: { }
+								researched: 0b
+							}
+							stats: {
+								light: {
+									initialValue: 1.0d
+								}
+								speed: {
+									initialValue: 0.1d
+								}
+							}
+						}
+					}
+				}
+				leveling: {
+					experience: 0
+					level: 10
+					luck: 0
+					points: 0
+				}
+			}
+		}
+		id: "relics:midnight_robe"
+	}
+	id: "2CB2563E52E0EEFC"
+	loot_crate: {
+		color: 16733525
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "ftb.shop.title.loot_crate.combat_relic.greater"
+		string_id: "random_greater_combat_relic"
+	}
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ id: "61B60B4FBF78D8AA", item: { components: { "relics:data": { abilities: { abilities: { infectious_bloom: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.1d }, damage: { initialValue: 0.75d }, drops: { initialValue: 2.0d }, max_attacks: { initialValue: 1.0d } } }, rage_consumption: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount_restored: { initialValue: 50.0d }, multiplier: { initialValue: 0.4d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_twilight_forest:parasite_116" } }
+		{ id: "0ADC34807E01DE72", item: { components: { "relics:data": { abilities: { abilities: { stasis: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 30.0d }, duration: { initialValue: 5.0d }, levitation: { initialValue: 2.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_ars_nouveau:quantum_bubble" } }
+		{ id: "0FF427CAFC4E4A43", item: { components: { "relics:data": { abilities: { abilities: { cicada_infestation: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.1d }, duration: { initialValue: 60.0d } } } } }, leveling: { experience: 0, level: 5, luck: 0, points: 0 } } }, count: 1, id: "reliquified_twilight_forest:cicada_bottle" } }
+		{ id: "3FE941B566CC19B7", item: { components: { "relics:data": { abilities: { abilities: { striker: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.4d }, cooldown: { initialValue: 20.0d }, count: { initialValue: 4.0d }, damage: { initialValue: 2.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_ars_nouveau:ballistarian_bracer" } }
+		{ id: "074CF6D862DF0045", item: { components: { "relics:data": { abilities: { abilities: { hydra_fire: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.15d }, damage: { initialValue: 1.0d }, lifetime: { initialValue: 80.0d } } } } }, leveling: { experience: 0, level: 5, luck: 0, points: 0 } } }, count: 1, id: "reliquified_twilight_forest:hydra_heart" } }
+		{ id: "4938DEA85ADB89BC", item: { components: { "relics:data": { abilities: { abilities: { iron_guard: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.1d }, damage: { initialValue: 4.0d }, flat_armor: { initialValue: 0.2d }, stun_duration: { initialValue: 10.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_twilight_forest:steel_cape" } }
+		{ id: "336800AAF27FE134", item: { components: { "relics:data": { abilities: { abilities: { caster: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.2d }, damage: { initialValue: 0.05d }, duration: { initialValue: 30.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "artifacts:fire_gauntlet" } }
+		{ id: "021BD2CCA0E9E15D", item: { components: { "relics:data": { abilities: { abilities: { claws: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.05d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "artifacts:feral_claws" } }
+		{ id: "3D549CBEF5CDAFD2", item: { components: { "relics:data": { abilities: { abilities: { hibernation: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 60.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_ars_nouveau:ring_of_last_will" } }
+		{ id: "2973EA80FEBE81A0", item: { components: { "relics:data": { abilities: { abilities: { spawn_vortex: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 30.0d }, damage: { initialValue: 6.0d }, height: { initialValue: 3.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_lenders_cataclysm:void_vortex_in_bottle" } }
+		{ id: "71C1C33A568EAE79", item: { components: { "ars_nouveau:spell_caster": { spells: { 0: { color: { b: 180, g: 25, id: "ars_nouveau:constant", r: 255 }, name: "", particleTimeline: { }, recipe: [ ], sound: { } } } }, "relics:data": { abilities: { abilities: { repulse: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 20.0d }, count: { initialValue: 2.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_ars_nouveau:emblem_of_defense" } }
+		{ id: "2B8D6BF09DEE0AB8", item: { components: { "ars_nouveau:spell_caster": { spells: { 0: { color: { b: 180, g: 25, id: "ars_nouveau:constant", r: 255 }, name: "", particleTimeline: { }, recipe: [ ], sound: { } } } }, "relics:data": { abilities: { abilities: { effort: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 25.0d }, count: { initialValue: 2.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_ars_nouveau:emblem_of_assault" } }
+		{ id: "532327CA0C2C1B6B", item: { components: { "ars_nouveau:spell_caster": { spells: { 0: { color: { b: 180, g: 25, id: "ars_nouveau:constant", r: 255 }, name: "", particleTimeline: { }, recipe: [ ], sound: { } } } }, "relics:data": { abilities: { abilities: { devotion: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { count: { initialValue: 1.0d }, periodicity: { initialValue: 30.0d }, size: { initialValue: 2.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_ars_nouveau:emblem_of_devotion" } }
+		{ id: "5E81A506FE5C9D70", item: { components: { "relics:data": { abilities: { abilities: { spikes: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 2.0d }, threshold: { initialValue: 0.1d }, time: { initialValue: 8.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_ars_nouveau:spiked_cloak" } }
+		{ id: "284F7FBAD5655939", item: { components: { "relics:data": { abilities: { abilities: { sugar_rush: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.1d }, regen_multiplier: { initialValue: 0.3d }, regen_time: { initialValue: 140.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_twilight_forest:maple_syrup_bottle" } }
+		{ id: "3900F2B831E00658", item: { components: { "relics:data": { abilities: { abilities: { summoner: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_ars_nouveau:horn_of_the_wild_hunter" } }
+		{ id: "6F171C83220C13FC", item: { components: { "relics:data": { abilities: { abilities: { charm_storage: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { max_slots: { initialValue: 1.0d }, repair_time: { initialValue: 30.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_twilight_forest:charm_backpack" } }
+		{ id: "143C89936732C310", item: { components: { "relics:data": { abilities: { abilities: { poking: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.0d }, paralyze_chance: { initialValue: 0.05d }, paralyze_duration: { initialValue: 10.0d } } }, thorn_shield: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_twilight_forest:thorn_crown" } }
+		{ id: "629B03449D1C07EF", item: { components: { "relics:data": { abilities: { abilities: { slots: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { charm: { initialValue: 1.0d } } }, training: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.25d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "relics:hunter_belt" } }
+		{ id: "53DF0696AB608EDA", item: { components: { "relics:data": { abilities: { abilities: { illusion: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.1d }, duration: { initialValue: 5.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_ars_nouveau:illusionists_mantle" } }
+		{ id: "016D769C0F4FE5BC", item: { components: { "relics:data": { abilities: { abilities: { infectious_bloom: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.075d }, damage: { initialValue: 0.5d }, drops: { initialValue: 1.0d }, max_attacks: { initialValue: 1.0d } } } } }, leveling: { experience: 0, level: 5, luck: 0, points: 0 } } }, count: 1, id: "reliquified_twilight_forest:parasite_115" } }
+		{ id: "58BAFB5C5B950F10", item: { components: { "relics:data": { abilities: { abilities: { protective_bubble: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { attack_blocks: { initialValue: 2.0d }, cooldown: { initialValue: 30.0d }, damage: { initialValue: 0.4d }, projectiles: { initialValue: 16.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "reliquified_lenders_cataclysm:void_bubble" } }
+		{ id: "0845399AC03BC697", item: { components: { "relics:data": { abilities: { abilities: { heart: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 2.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "artifacts:crystal_heart" } }
+		{ id: "2B4C6FBBF4AAB7E8", item: { components: { "relics:data": { abilities: { abilities: { antidote: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.2d } } }, devourer: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 1.0d } } } } }, leveling: { experience: 0, level: 15, luck: 0, points: 0 } } }, count: 1, id: "artifacts:antidote_vessel" } }
+		{ id: "677B7D16B04ED87F", item: { components: { "relics:data": { abilities: { abilities: { poison: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.1d }, multiplier: { initialValue: 0.05d }, time: { initialValue: 2.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "artifacts:thorn_pendant" } }
+		{ id: "047851264293EF36", item: { components: { "relics:data": { abilities: { abilities: { fire: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.2d }, time: { initialValue: 2.0d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "artifacts:flame_pendant" } }
+		{ id: "1D356CBD0F2AAC1F", item: { components: { "relics:data": { abilities: { abilities: { lightning: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.1d }, damage: { initialValue: 1.0d } } }, passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "artifacts:shock_pendant" } }
+		{ id: "6087CF9E82A33F21", item: { components: { "relics:data": { abilities: { abilities: { invulnerability: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.3d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "artifacts:cross_necklace" } }
+		{ id: "439688D2897D0739", item: { components: { "relics:data": { abilities: { abilities: { backstab: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.25d }, distance: { initialValue: 20.0d } } }, vanish: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { light: { initialValue: 1.0d }, speed: { initialValue: 0.1d } } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "relics:midnight_robe" } }
+		{ id: "620E0709D8178019", item: { components: { "relics:data": { abilities: { abilities: { paralysis: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 0.5d } } }, shock: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 0.5d } } }, unsinkable: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 10, luck: 0, points: 0 } } }, count: 1, id: "relics:jellyfish_necklace" } }
+	]
+	use_title: true
+}

@@ -1,0 +1,16 @@
+filename = 'Lychee-1.21.1-NeoForge-6.4.2.jar'
+name = 'Lychee (Neo/Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '670c2e43752b8d1903e84d9467895f7b372e9f9a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7014990
+project-id = 567403

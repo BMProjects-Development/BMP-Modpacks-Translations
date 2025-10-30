@@ -1,0 +1,16 @@
+filename = 'oracle_index-neoforge-0.4.1.jar'
+name = 'Oracle Index'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '27990cddd4778dc05c2c4e303fc0058cefb6b176'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6904573
+project-id = 1206582

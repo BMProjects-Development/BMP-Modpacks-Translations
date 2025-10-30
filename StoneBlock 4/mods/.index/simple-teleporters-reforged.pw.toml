@@ -1,0 +1,16 @@
+filename = 'SimpleTeleportersReforged-1.21-2.0.0.jar'
+name = 'Simple Teleporters Reforged'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5ec0593a52d5b0e8ba7067f023e0fbe3d21101bd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5575801
+project-id = 998602

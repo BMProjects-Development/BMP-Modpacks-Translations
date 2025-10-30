@@ -1,0 +1,47 @@
+{
+	icon: {
+		id: "sophisticatedstorage:stack_upgrade_omega_tier"
+	}
+	id: "5E58BEB7F462AA87"
+	loot_crate: {
+		color: 10197812
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "ftb.shop.title.loot_crate.soph_addon"
+		string_id: "random_chest_addon"
+	}
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ id: "34677B1361405A8E", item: { count: 1, id: "sophisticatedstorage:pickup_upgrade" } }
+		{ id: "2E763582FE41EC25", item: { count: 1, id: "sophisticatedstorage:filter_upgrade" } }
+		{ id: "28A8AAE87284E1EE", item: { count: 1, id: "sophisticatedstorage:magnet_upgrade" } }
+		{ id: "2B12683233C4E0CB", item: { count: 1, id: "sophisticatedstorage:feeding_upgrade" } }
+		{ id: "250FA3D90EA2CE91", item: { count: 1, id: "sophisticatedstorage:compacting_upgrade" } }
+		{ id: "59E48286630F02A7", item: { count: 1, id: "sophisticatedstorage:void_upgrade" } }
+		{ id: "2682823BB6D94150", item: { count: 1, id: "sophisticatedstorage:smelting_upgrade" } }
+		{ id: "487478A3D5BA485B", item: { count: 1, id: "sophisticatedstorage:smoking_upgrade" } }
+		{ id: "5BDF0FD4427B0864", item: { count: 1, id: "sophisticatedstorage:blasting_upgrade" } }
+		{ id: "56F138CFDAAD5E4A", item: { count: 1, id: "sophisticatedstorage:crafting_upgrade" } }
+		{ id: "3C22BE7E5696DFE5", item: { count: 1, id: "sophisticatedstorage:stonecutter_upgrade" } }
+		{ id: "56244F6F63A7D834", item: { count: 1, id: "sophisticatedstorage:stack_upgrade_tier_1" } }
+		{ id: "4442DDE5A200141F", item: { count: 1, id: "sophisticatedstorage:stack_downgrade_tier_1" } }
+		{ id: "269966CB8496A7CE", item: { count: 1, id: "sophisticatedstorage:jukebox_upgrade" } }
+		{ id: "78A95681B153807E", item: { count: 1, id: "sophisticatedstorage:pump_upgrade" } }
+		{ id: "725E0E3FB9F1F85A", item: { count: 1, id: "sophisticatedstorage:compression_upgrade" } }
+		{ id: "5EE9900317FDB7F4", item: { count: 1, id: "sophisticatedstorage:hopper_upgrade" } }
+		{ id: "73FD569E8223653F", item: { count: 1, id: "sophisticatedstorage:alchemy_upgrade" } }
+		{ id: "1F9119A300C0D242", item: { count: 1, id: "sophisticatedstorage:chipped/botanist_workbench_upgrade" } }
+		{ id: "1F3FA3BD3C287CE6", item: { count: 1, id: "sophisticatedstorage:chipped/glassblower_upgrade" } }
+		{ id: "5E8C52993E0761F6", item: { count: 1, id: "sophisticatedstorage:chipped/carpenters_table_upgrade" } }
+		{ id: "1DF7FF71735412FC", item: { count: 1, id: "sophisticatedstorage:chipped/loom_table_upgrade" } }
+		{ id: "6E57F9BF3C8EC243", item: { count: 1, id: "sophisticatedstorage:chipped/mason_table_upgrade" } }
+		{ id: "2185285711F2C37D", item: { count: 1, id: "sophisticatedstorage:chipped/alchemy_bench_upgrade" } }
+		{ id: "5F2F34A6CB2DEDF6", item: { count: 1, id: "sophisticatedstorage:chipped/tinkering_table_upgrade" } }
+	]
+	use_title: true
+}

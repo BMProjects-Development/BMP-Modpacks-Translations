@@ -1,0 +1,607 @@
+{
+  "type": "simple",
+  "id": "worlds_configuration",
+  "title": {
+    "translate": "rgp_client.gui.worlds_configuration.title"
+  },
+  "back": {
+    "action": "open_screen",
+    "id": "$parentScreen"
+  },
+  "entries": [
+  ],
+  "refresh_rate": 5,
+  "on_refresh": {
+    "action": "request",
+    "request": "player_server_state",
+    "variables": {
+      "gameServerId": "$gameServerId"
+    },
+    "store_variables": {
+      "gameServer.state": "state",
+      "gameServer.info.onlineState.playerCount": "playerCount",
+      "loader:startable": "startable"
+    },
+    "on_complete": {
+      "action": "open_screen",
+      "id": "worlds_configuration",
+      "pass_storage": true
+    }
+  },
+  "elements": [
+    {
+      "type": "text",
+      "id": "title",
+      "text": {
+        "translate": "rgp_client.gui.worlds_configuration.title"
+      },
+      "alignment": "center",
+      "position": {
+        "x": 0,
+        "y": 15,
+        "pivot": "top_center"
+      }
+    },
+    {
+      "type": "panel",
+      "id": "invited_players",
+      "render_background": true,
+      "elements": [
+        {
+          "type": "text",
+          "id": "invited_players_name",
+          "text": {
+            "translate": "rgp_client.gui.worlds_configuration.invited_players",
+            "color": "dark_gray"
+          },
+          "alignment": "left",
+          "position": {
+            "x": 5,
+            "y": 5,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "simple_button",
+          "id": "create_invite",
+          "required_variable": "!ownerSuspended",
+          "text": {
+            "translate": "rgp_client.gui.worlds_configuration.create_invite"
+          },
+          "position": {
+            "x": -49,
+            "y": -5,
+            "pivot": "bottom_center"
+          },
+          "options": {
+            "width": 93,
+            "height": 20
+          },
+          "callback": {
+            "action": "open_screen",
+            "id": "worlds_create_invite",
+            "pass_storage": true
+          }
+        },
+        {
+          "type": "simple_button",
+          "id": "view_codes",
+          "required_variable": "!ownerSuspended",
+          "text": {
+            "translate": "rgp_client.gui.worlds_configuration.view_codes"
+          },
+          "position": {
+            "x": 48,
+            "y": -5,
+            "pivot": "bottom_center"
+          },
+          "options": {
+            "width": 93,
+            "height": 20
+          },
+          "callback": {
+            "action": "open_screen",
+            "id": "worlds_invite_management",
+            "pass_storage": true
+          }
+        },
+        {
+          "type": "panel_list",
+          "id": "player_list",
+          "scroll": true,
+          "render_background": true,
+          "render_type": "slot",
+          "elements": [
+          ],
+          "entry_loader": {
+            "type": "player_list_entry",
+            "widget_height": 20,
+            "entry_template": {
+              "id": "$playerId",
+              "elements": [
+                {
+                  "type": "panel",
+                  "id": "player",
+                  "render_background": true,
+                  "render_type": "list",
+                  "elements": [
+                    {
+                      "type": "player_face",
+                      "id": "server_icon",
+                      "uuid": "$playerId",
+                      "position": {
+                        "x": 2,
+                        "y": 0,
+                        "pivot": "middle_left"
+                      },
+                      "options": {
+                        "size": 16
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "player_name",
+                      "text": "$playerName",
+                      "alignment": "left",
+                      "position": {
+                        "x": 26,
+                        "y": 0,
+                        "pivot": "middle_left"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "id": "remove",
+                      "icon": "ftblibrary:textures/icons/remove.png",
+                      "tooltip": {
+                        "translate": "rgp_client.gui.worlds_configuration.remove_player"
+                      },
+                      "callback": {
+                        "action": "confirmation",
+                        "prompt": {
+                          "translate": "rgp_client.gui.worlds_configuration.remove_player_confirmation",
+                          "with": [
+                            "$playerName"
+                          ]
+                        },
+                        "on_accept": {
+                          "action": "request",
+                          "request": "invite_approval_response",
+                          "variables": {
+                            "gameServerId": "$gameServerId",
+                            "userId": "$playerId",
+                            "approved": false
+                          },
+                          "on_complete": {
+                            "action": "open_screen",
+                            "id": "worlds_configuration",
+                            "pass_storage": true
+                          }
+                        }
+                      },
+                      "position": {
+                        "x": -5,
+                        "y": 0,
+                        "pivot": "middle_right"
+                      },
+                      "options": {
+                        "width": 16,
+                        "height": 16
+                      }
+                    }
+                  ],
+                  "options": {
+                    "width": 188,
+                    "height": 20
+                  },
+                  "position": {
+                    "x": 1,
+                    "y": 1,
+                    "pivot": "top_left"
+                  }
+                }
+              ]
+            },
+            "pending_entry_template": {
+              "id": "$playerId",
+              "elements": [
+                {
+                  "type": "panel",
+                  "id": "player",
+                  "render_background": true,
+                  "render_type": "list",
+                  "elements": [
+                    {
+                      "type": "player_face",
+                      "id": "server_icon",
+                      "uuid": "$playerId",
+                      "position": {
+                        "x": 2,
+                        "y": 0,
+                        "pivot": "middle_left"
+                      },
+                      "options": {
+                        "size": 16
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "player_name",
+                      "text": "$playerName",
+                      "alignment": "left",
+                      "position": {
+                        "x": 26,
+                        "y": 0,
+                        "pivot": "middle_left"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "id": "approve",
+                      "icon": "ftblibrary:textures/icons/accept.png",
+                      "tooltip": {
+                        "translate": "rgp_client.gui.worlds_configuration.approve_invite"
+                      },
+                      "position": {
+                        "x": -24,
+                        "y": 0,
+                        "pivot": "middle_right"
+                      },
+                      "options": {
+                        "width": 16,
+                        "height": 16
+                      },
+                      "callback": {
+                        "action": "request",
+                        "request": "invite_approval_response",
+                        "variables": {
+                          "gameServerId": "$gameServerId",
+                          "userId": "$playerId",
+                          "approved": true
+                        },
+                        "on_complete": {
+                          "action": "open_screen",
+                          "id": "worlds_configuration",
+                          "pass_storage": true
+                        }
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "id": "decline",
+                      "icon": "ftblibrary:textures/icons/cancel.png",
+                      "tooltip": {
+                        "translate": "rgp_client.gui.worlds_configuration.decline_invite"
+                      },
+                      "callback": {
+                        "action": "confirmation",
+                        "prompt": {
+                          "translate": "rgp_client.gui.worlds_configuration.decline_invite_confirmation",
+                          "with": [
+                            "$playerName"
+                          ]
+                        },
+                        "on_accept": {
+                          "action": "request",
+                          "request": "invite_approval_response",
+                          "variables": {
+                            "gameServerId": "$gameServerId",
+                            "userId": "$playerId",
+                            "approved": false
+                          },
+                          "on_complete": {
+                            "action": "open_screen",
+                            "id": "worlds_configuration",
+                            "pass_storage": true
+                          }
+                        }
+                      },
+                      "position": {
+                        "x": -5,
+                        "y": 0,
+                        "pivot": "middle_right"
+                      },
+                      "options": {
+                        "width": 16,
+                        "height": 16
+                      }
+                    }
+                  ],
+                  "options": {
+                    "width": 188,
+                    "height": 20
+                  },
+                  "position": {
+                    "x": 1,
+                    "y": 1,
+                    "pivot": "top_left"
+                  }
+                }
+              ]
+            }
+          },
+          "options": {
+            "width": 190,
+            "height": 115
+          },
+          "position": {
+            "x": 5,
+            "y": 16,
+            "pivot": "top_left"
+          }
+        }
+      ],
+      "options": {
+        "width": 200,
+        "height": 160
+      },
+      "position": {
+        "x": -53,
+        "y": 0,
+        "pivot": "center"
+      }
+    },
+    {
+      "type": "panel",
+      "id": "server_management",
+      "render_background": true,
+      "elements": [
+        {
+          "type": "text",
+          "id": "server_management_name",
+          "text": {
+            "translate": "rgp_client.gui.worlds_configuration.server_management",
+            "color": "dark_gray"
+          },
+          "alignment": "left",
+          "position": {
+            "x": 5,
+            "y": 5,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "image",
+          "id": "player_count_icon",
+          "icon": "ftblibrary:textures/icons/friends.png",
+          "options": {
+            "width": 8,
+            "height": 8
+          },
+          "position": {
+            "x": 5,
+            "y": 25,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "player_count",
+          "text": {
+            "text": "$playerCount",
+            "color": "dark_gray"
+          },
+          "alignment": "left",
+          "position": {
+            "x": 15,
+            "y": 25,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "image",
+          "id": "state_icon",
+          "icon": "ftblibrary:textures/icons/info.png",
+          "options": {
+            "width": 8,
+            "height": 8
+          },
+          "position": {
+            "x": 5,
+            "y": 35,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "state",
+          "text": {
+            "text": "$state",
+            "color": "dark_gray"
+          },
+          "alignment": "left",
+          "formatter": "capitalization",
+          "position": {
+            "x": 15,
+            "y": 35,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "simple_button",
+          "id": "start_server",
+          "text": {
+            "translate": "rgp_client.gui.worlds_configuration.start_world"
+          },
+          "required_variable": "!ownerSuspended & !differentModpack",
+          "required_display_variable": "startable",
+          "tooltips": [
+            {
+              "required_variable": "differentModpack",
+              "tooltip": {
+                "translate": "rgp_client.gui.worlds_configuration.cannot_start_different_modpack"
+              }
+            }
+          ],
+          "options": {
+            "width": 93,
+            "height": 20
+          },
+          "position": {
+            "x": 0,
+            "y": -80,
+            "pivot": "bottom_center"
+          },
+          "callback": {
+            "action": "request",
+            "request": "start_player_server",
+            "rate_limit": 5,
+            "variables": {
+              "gameServerId": "$gameServerId",
+              "versionId": "$versionId"
+            },
+            "on_complete": {
+              "action": "store_variables",
+              "variables": [
+                {
+                  "key": "state",
+                  "value": "STARTING"
+                },
+                {
+                  "key": "startable",
+                  "value": false
+                }
+              ],
+              "on_complete": {
+                "action": "open_screen",
+                "id": "worlds_configuration",
+                "pass_storage": true
+              }
+            }
+          }
+        },
+        {
+          "type": "simple_button",
+          "id": "stop_server",
+          "text": {
+            "translate": "rgp_client.gui.worlds_configuration.stop_world",
+            "color": "red"
+          },
+          "required_display_variable": "!startable",
+          "options": {
+            "width": 95,
+            "height": 20
+          },
+          "position": {
+            "x": 0,
+            "y": -80,
+            "pivot": "bottom_center"
+          },
+          "callback": {
+            "action": "request",
+            "request": "stop_player_server",
+            "rate_limit": 5,
+            "variables": {
+              "gameServerId": "$gameServerId"
+            },
+            "on_complete": {
+              "action": "store_variables",
+              "variables": [
+                {
+                  "key": "state",
+                  "value": "STOPPING"
+                }
+              ],
+              "on_complete": {
+                "action": "open_screen",
+                "id": "worlds_configuration",
+                "pass_storage": true
+              }
+            }
+          }
+        },
+        {
+          "type": "simple_button",
+          "id": "rename_world",
+          "required_variable": "!ownerSuspended",
+          "text": {
+            "translate": "rgp_client.gui.worlds_edit.rename"
+          },
+          "options": {
+            "width": 95,
+            "height": 20
+          },
+          "position": {
+            "x": 0,
+            "y": -55,
+            "pivot": "bottom_center"
+          },
+          "callback": {
+            "action": "open_screen",
+            "id": "worlds_configuration_rename",
+            "pass_storage": true
+          }
+        },
+        {
+          "type": "simple_button",
+          "id": "manage_worlds",
+          "text": {
+            "translate": "rgp_client.gui.worlds_configuration.manage_worlds"
+          },
+          "options": {
+            "width": 95,
+            "height": 20
+          },
+          "position": {
+            "x": 0,
+            "y": -30,
+            "pivot": "bottom_center"
+          },
+          "callback": {
+            "action": "open_screen",
+            "id": "worlds_edit_world_selection",
+            "pass_storage": true
+          }
+        },
+        {
+          "type": "simple_button",
+          "id": "manage_billing",
+          "text": {
+            "translate": "rgp_client.gui.worlds_configuration.manage_billing"
+          },
+          "options": {
+            "width": 95,
+            "height": 20
+          },
+          "position": {
+            "x": 0,
+            "y": -5,
+            "pivot": "bottom_center"
+          },
+          "callback": {
+            "action": "manage_billing"
+          }
+        }
+      ],
+      "options": {
+        "width": 98,
+        "height": 160
+      },
+      "position": {
+        "x": 105,
+        "y": 0,
+        "pivot": "center"
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "back",
+      "text": {
+        "translate": "gui.back"
+      },
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "$parentScreen"
+      }
+    }
+  ]
+}

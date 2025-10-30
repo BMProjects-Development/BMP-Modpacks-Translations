@@ -1,0 +1,128 @@
+{
+  "name": "ftb.machine.advanced_coke_oven",
+  "appearance": {
+    "running": {
+      "custommachinery:block": "ftb:machine/advanced_coke_oven_active#standalone",
+      "custommachinery:light": 15
+    },
+    "custommachinery:ambient_sound": {
+      "sound": "minecraft:"
+    },
+    "custommachinery:block": "ftb:machine/advanced_coke_oven#standalone",
+    "custommachinery:color": 43690,
+    "custommachinery:interaction_sound": {
+      "step": "minecraft:block.metal.step",
+      "place": "minecraft:block.metal.place",
+      "hit": "minecraft:block.metal.hit",
+      "fall": "minecraft:block.metal.fall",
+      "break": "minecraft:block.metal.break"
+    },
+    "custommachinery:item": "immersiveengineering:cokebrick",
+    "custommachinery:keep_inventory": true,
+    "custommachinery:resistance": 8.449836
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "max_input": 0,
+      "id": "fluid_output",
+      "capacity": 16000
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_fuel",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "fuel_input",
+      "mode": "input"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 73,
+      "y": 19
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_output",
+      "x": 164,
+      "y": 19
+    },
+    {
+      "type": "custommachinery:fuel",
+      "x": 117,
+      "y": 54,
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 105
+    },
+    {
+      "type": "custommachinery:progress",
+      "priority": -1,
+      "x": 116,
+      "y": 33
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "fuel_input",
+      "x": 97,
+      "y": 32,
+      "ghost": {
+        "items": {
+          "item": "minecraft:coal"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "priority": -2,
+      "x": 141,
+      "y": 32
+    }
+  ],
+  "tooltips": {
+    "text": "§aⓘ§f A §eMore Efficient§f and §dFast Alternative§f to Basic §6Coke Ovens§f."
+  }
+}

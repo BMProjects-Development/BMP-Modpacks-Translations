@@ -1,0 +1,16 @@
+filename = 'ImmediatelyFast-NeoForge-1.6.7+1.21.1.jar'
+name = 'ImmediatelyFast'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '820e7b79c123d2a884410a6ab9882b0ae0e2d1a6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7032371
+project-id = 686911

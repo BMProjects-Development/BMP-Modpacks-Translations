@@ -1,0 +1,215 @@
+{
+	icon: {
+		id: "draconicevolution:wyvern_core"
+	}
+	id: "16E7488E801B3DAA"
+	loot_crate: {
+		color: 9111745
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "ftb.shop.title.loot_crate.wyvern_draconic"
+		string_id: "random_wyvern_draconic_gear"
+	}
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			command: "/give @s draconicevolution:wyvern_sword"
+			id: "20DD8D5AAA044A24"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			command: "/give @s draconicevolution:wyvern_pickaxe"
+			id: "3CC21684802E95E5"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			command: "/give @s draconicevolution:wyvern_axe"
+			id: "1A219FE0647ED732"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			command: "/give @s draconicevolution:wyvern_shovel"
+			id: "1B215A9431DBAF6F"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			command: "/give @s draconicevolution:wyvern_bow"
+			id: "07015FDD343B3E88"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			command: "/give @s draconicevolution:wyvern_capacitor"
+			id: "3E2DC10E8591B9CC"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			command: "/give @s draconicevolution:wyvern_chestpiece"
+			id: "7AA9A619B211B53A"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			id: "052EC2A49E1071D0"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_aoe"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "6015BAC72BBEA7F9"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_auto_feed"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "68307062BE150B7A"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_damage"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "42BF3F4487809931"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_energy"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "0FB4925025ED8BE6"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_flight"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "466EBE786CC04C04"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_jump"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "079F0C559C119961"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_large_shield_capacity"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "4DA60D4EE2820E48"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_proj_accuracy"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "65BD911846CADC21"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_proj_damage"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "626C8507DFB906EE"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_proj_grav_comp"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "2B85A491AAED13E3"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_proj_penetration"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "322A157A9A1AC15A"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_proj_velocity"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "65EB1566AF2945BF"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_shield_capacity"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "0F7A221225726AD7"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_shield_control"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "4FC7546EEEB8AA28"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_shield_recovery"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "66F021CE0AA7C8E2"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_speed"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "239A90771BF4D0D4"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_tree_harvest"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "46F0E284775E1331"
+			item: {
+				count: 1
+				id: "draconicevolution:item_wyvern_undying"
+			}
+			weight: 10.0f
+		}
+	]
+	use_title: true
+}

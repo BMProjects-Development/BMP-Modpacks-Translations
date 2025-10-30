@@ -1,0 +1,9 @@
+{
+  "multipart": [
+    { "apply": { "model": "ftb:block/world_engine_fence_plating_post" } },
+    { "when": { "north": "true" }, "apply": { "model": "ftb:block/world_engine_fence_plating_side", "uvlock": true } },
+    { "when": { "east":  "true" }, "apply": { "model": "ftb:block/world_engine_fence_plating_side", "y": 90,  "uvlock": true } },
+    { "when": { "south": "true" }, "apply": { "model": "ftb:block/world_engine_fence_plating_side", "y": 180, "uvlock": true } },
+    { "when": { "west":  "true" }, "apply": { "model": "ftb:block/world_engine_fence_plating_side", "y": 270, "uvlock": true } }
+  ]
+}

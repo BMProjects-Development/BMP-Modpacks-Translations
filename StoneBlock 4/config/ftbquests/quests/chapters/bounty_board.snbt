@@ -1,0 +1,1891 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "bounty_board"
+	group: "337473E1389D8A71"
+	icon: {
+		components: {
+			"ftbquests:icon": "apotheosis:textures/gui/sword_full.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "4F0F16931654DF58"
+	images: [
+		{
+			height: 1.0d
+			image: "ftb:textures/quests/other_titles_and_logos/bountytext2.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			height: 1.8d
+			image: "ftb:textures/quests/theme_assets/textbox.png"
+			order: -6
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				id: "cataclysm:abyssal_sacrifice"
+			}
+			id: "67D1E0D81B2C5D8D"
+			rewards: [{
+				amount: 55
+				id: "403D8518392C545A"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "1B4D85928A33FFE4"
+					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+					type: "item"
+				}
+				{
+					id: "5C3A03650166A961"
+					structure: "ftb:water_orb"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "79B58E484D4196CD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "4009127EE81601C6"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "5455CF5D3C37ECA9"
+			rewards: [{
+				amount: 45
+				id: "162AEEF3F8C65370"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "27B5B3E2F6360E5F"
+					structure: "cataclysm:soul_black_smith"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					icon: {
+						id: "cataclysm:monstrous_eye"
+					}
+					id: "0C13FA83021AE4C5"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "553E2E245BD16D6A"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:void_core"
+			}
+			id: "040795388568AB69"
+			rewards: [{
+				amount: 40
+				id: "644A3C67367BABB0"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "7D9038B9019EBFEC"
+					structure: "cataclysm:ruined_citadel"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: {
+						id: "cataclysm:void_core"
+					}
+					id: "5B82C7AEA857BED3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "135A92EF1CA22FD9"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:mech_eye"
+			}
+			id: "7913B52AD9D28D2B"
+			rewards: [{
+				amount: 30
+				id: "1AD40729E8DC0A3B"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "226AB3512612624B"
+					structure: "cataclysm:ancient_factory"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:the_harbinger"
+					icon: {
+						id: "cataclysm:mech_eye"
+					}
+					id: "0707B05028ADBA69"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "6BEB322262E5EAF8"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:remnant_skull"
+			}
+			id: "0065DA4214B7B303"
+			rewards: [{
+				amount: 40
+				id: "4998431569106ACD"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "2C540B93320B1588"
+					structure: "ftb:dungeons/otherworld"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:ancient_remnant"
+					icon: {
+						components: {
+							"ftbquests:icon": "cataclysm:item/remnant_skull"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "55E36C96A2424F59"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "257444FAB277BA50"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "irons_spellbooks:catacombs_zombie"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "59C71582F19E8554"
+			rewards: [{
+				amount: 5
+				id: "3D86769449563ACB"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: {
+						id: "minecraft:zombie_head"
+					}
+					id: "6347BBAD2ED20F25"
+					type: "kill"
+					value: 20L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "4B20B5C5E0F87281"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:skeleton"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7D23D1C9DE75721F"
+			rewards: [{
+				amount: 5
+				id: "3C5E72438F0E962D"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:skeleton"
+					icon: {
+						id: "minecraft:skeleton_skull"
+					}
+					id: "268F689AFA620C03"
+					type: "kill"
+					value: 20L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "5D6384EA6154EF7C"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:enderman"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6DC738A434C5B02F"
+			rewards: [{
+				amount: 10
+				id: "15B863C5712DC34B"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:enderman"
+					icon: {
+						id: "minecraft:ender_pearl"
+					}
+					id: "4087591E474FC477"
+					type: "kill"
+					value: 10L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "0DCA427A0337668D"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "chipped:block/ancient_debris/creeper_ancient_debris_carving"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "77F964631F38EA2E"
+			rewards: [{
+				amount: 5
+				id: "6600D6457DD85A90"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:creeper"
+					icon: {
+						id: "minecraft:gunpowder"
+					}
+					id: "79684EDD87FFB47C"
+					type: "kill"
+					value: 20L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "2CADC968F4897489"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:spider"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2EE5352D8E5F715F"
+			rewards: [{
+				amount: 5
+				id: "3ABFA6B5B150E93D"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:spider"
+					icon: {
+						id: "minecraft:spider_eye"
+					}
+					id: "3F437642D1B08EBF"
+					type: "kill"
+					value: 20L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "05300BCA326E091F"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:blaze"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3D687BF735E54AE8"
+			rewards: [{
+				amount: 7
+				id: "2DF4C6DD04450531"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					icon: {
+						id: "minecraft:blaze_powder"
+					}
+					id: "05BA59C2F9E1F43B"
+					type: "kill"
+					value: 10L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "5091E1D8C2C9437F"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:wither_skeleton"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "708DD6CD3AE7F0FE"
+			rewards: [{
+				amount: 10
+				id: "6F6CA6B60E7A90C8"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:wither_skeleton"
+					icon: {
+						id: "minecraft:wither_skeleton_skull"
+					}
+					id: "7B71A001741520D3"
+					type: "kill"
+					value: 10L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "49801B19B9E8E368"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:zombified_piglin"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3E0D5504617365AD"
+			rewards: [{
+				amount: 5
+				id: "64488C5D5985B412"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:zombified_piglin"
+					icon: {
+						id: "minecraft:gold_nugget"
+					}
+					id: "6C730129357A78D0"
+					type: "kill"
+					value: 10L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "31A3C0311BE72050"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:wither"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			icon_scale: 2.0d
+			id: "1237537100194BED"
+			rewards: [{
+				amount: 25
+				id: "0557C07388AAE669"
+				type: "currency"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					icon: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:wither"
+						}
+						id: "hostilenetworks:data_model"
+					}
+					id: "491E250D69066BBC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "0645EC76DE0EB57B"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:warden"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			icon_scale: 2.0d
+			id: "7A8669713BE28E8F"
+			rewards: [{
+				amount: 40
+				id: "4D8089814646119A"
+				type: "currency"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					icon: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:warden"
+						}
+						id: "hostilenetworks:data_model"
+					}
+					id: "61C0F35123FBB85E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "275981DE51204FB4"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:slime"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "67078BCAD52BC4B4"
+			rewards: [{
+				amount: 5
+				id: "2956919E15D63FFC"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:slime"
+					icon: {
+						id: "minecraft:slime_ball"
+					}
+					id: "58687506041183E7"
+					type: "kill"
+					value: 20L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "510157E7876C7332"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:textures/faces/minecraft/shulker.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1CA8D89EE7C50CFD"
+			rewards: [
+				{
+					amount: 10
+					id: "7DF845C439F88E2D"
+					type: "currency"
+				}
+				{
+					id: "26E16B63A126978E"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:shulker"
+					icon: {
+						id: "minecraft:shulker_shell"
+					}
+					id: "5B97CEFB80FF361B"
+					type: "kill"
+					value: 10L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "2CEBEF58554AD915"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/archevoker_helmet"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5119EFBB9FB39CDE"
+			rewards: [{
+				amount: 15
+				id: "16512912541E559C"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					entity: "irons_spellbooks:archevoker"
+					icon: {
+						id: "irons_spellbooks:archevoker_helmet"
+					}
+					id: "58DC7CD2A4F595DD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "6FD8E3AAD2A0F9EC"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "irons_spellbooks:cultist_helmet"
+			}
+			id: "1FE2B36C234A35C9"
+			rewards: [{
+				amount: 10
+				id: "60023699A03B5A45"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "49C0CBB8FFE8E6BE"
+					item: { components: { "gateways:gateway": "gateways:iron_spells/apothehostage_situation" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					optional_task: true
+					type: "item"
+				}
+				{
+					entity: "irons_spellbooks:apothecarist"
+					icon: {
+						id: "irons_spellbooks:cultist_helmet"
+					}
+					id: "6064031AABA0D8D1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "09D3F1EFF0A49CE5"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/cryomancer_helmet"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5A8CEB600CAADCD2"
+			rewards: [{
+				amount: 10
+				id: "639598ADEDDBDB28"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "2CA8E43529521390"
+					item: { components: { "gateways:gateway": "gateways:iron_spells/simple_cryomage" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					optional_task: true
+					type: "item"
+				}
+				{
+					entity: "irons_spellbooks:cryomancer"
+					icon: {
+						id: "irons_spellbooks:cryomancer_helmet"
+					}
+					id: "671339615BA68B10"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "7A46B063C798C2D5"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/pyromancer_helmet"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2B86CBB61E10051F"
+			rewards: [{
+				amount: 10
+				id: "63554E2C820F1A1F"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "08BD3F5E675ECC9F"
+					item: { components: { "gateways:gateway": "gateways:iron_spells/pyrohostage_situation" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					optional_task: true
+					type: "item"
+				}
+				{
+					entity: "irons_spellbooks:pyromancer"
+					icon: {
+						id: "irons_spellbooks:pyromancer_helmet"
+					}
+					id: "327D6E2AE8863BC1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "4091B80117F5E02D"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "irons_spellbooks:priest_helmet"
+			}
+			id: "099481C1F0718B67"
+			rewards: [{
+				amount: 10
+				id: "1D91F45A6DB3E7C1"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "243AF6365F5682FA"
+					item: { components: { "gateways:gateway": "gateways:iron_spells/holyhostage_situation" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					optional_task: true
+					type: "item"
+				}
+				{
+					entity: "irons_spellbooks:priest"
+					icon: {
+						id: "irons_spellbooks:priest_helmet"
+					}
+					id: "7AC3BD79A70049CA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "7420FCF5C9A3AAD9"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/tarnished_crown"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2B21D8D19E0413AC"
+			rewards: [{
+				amount: 25
+				id: "6FE82F1E5C66F1AD"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					entity: "irons_spellbooks:dead_king"
+					icon: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+						id: "irons_spellbooks:tarnished_helmet"
+					}
+					id: "5FD1AC346811740C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "488B1E7E0EBA64D2"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "chipped:block/glowstone/wither_engraved_glowstone"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6DD9A75EE8C97710"
+			rewards: [{
+				amount: 5
+				id: "6D9E07A27E44C781"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					entity: "irons_spellbooks:necromancer"
+					icon: {
+						components: {
+							"ftbquests:icon": "chipped:block/glowstone/wither_engraved_glowstone"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1B724AA2EDADE92A"
+					type: "kill"
+					value: 5L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "3B6C91B5C18A81B5"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:wandering_trader"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5C2C0986D6014ADD"
+			min_width: 250
+			optional: true
+			rewards: [{
+				amount: 3
+				id: "162390D3E7D61CED"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:wandering_trader"
+					icon: {
+						components: {
+							"!ftbquests:icon": { }
+							"ftbquests:entity_face": "minecraft:wandering_trader"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4461612C1C9D3F92"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "343B28028FE3BC73"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "irons_spellbooks:cinderous_soulcaller"
+			}
+			id: "50BB7069AC5A1A14"
+			rewards: [{
+				amount: 30
+				id: "7F22054509AF47F8"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "7D7D46E78BC729BC"
+					item: { count: 1, id: "irons_spellbooks:cinderous_soulcaller" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "irons_spellbooks:cinderous_soul_rune"
+					}
+					id: "6B957BA447FEB4F1"
+					structure: "irons_spellbooks:citadel"
+					type: "structure"
+				}
+				{
+					entity: "irons_spellbooks:fire_boss"
+					icon: {
+						components: {
+							"ftbquests:icon": "minecraft:textures/painting/burning_skull.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2FB8AB5ADB1F8D26"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "316ACB19493821AC"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						BaseBlock: "air"
+						Name: "Trophy"
+						OffsetY: -1.0d
+						Scale: 0.5d
+						TrophyEntity: {
+							entityType: "mecrh:ender_chicken"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "trophymanager:trophy"
+			}
+			id: "34C8824842867F5D"
+			rewards: [{
+				amount: 30
+				id: "31864C0FB4427893"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "mecrh:ender_chicken"
+					id: "3EBAF104991E89BF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "115D12D9D3CB1F13"
+					tags: ["daily"]
+					type: "custom"
+				}
+				{
+					id: "130C73691CB1F176"
+					item: { count: 1, id: "chicken_roost:chicken_stick" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "ftbmaterials:steel_plate"
+			}
+			id: "6E458E2978B64C77"
+			rewards: [{
+				amount: 15
+				id: "27DF6F059A960E52"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "21A32270D37B3911"
+					item: { count: 1, id: "ftbmaterials:steel_plate" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "4EF42C21DDEAAB6F"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:shadow_steel_casing"
+			}
+			id: "37A6FBA47B056D57"
+			rewards: [{
+				amount: 10
+				id: "779977FFC836BC02"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 320L
+					id: "03B5402EA88F8194"
+					item: { count: 1, id: "create:shadow_steel_casing" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "6976A5FDA39CFA13"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "ars_nouveau:creative_source_jar"
+			}
+			id: "706E469302F9F383"
+			rewards: [{
+				amount: 15
+				id: "1950444738C59479"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					fluid: {
+						amount: 200000
+						id: "sauce:source_fluid"
+					}
+					id: "0EB198ADE15DF9B7"
+					type: "fluid"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "1C618817AA660A51"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "ftb:chroniton_glass"
+			}
+			id: "51F3F949B8426B43"
+			rewards: [{
+				amount: 15
+				id: "79EE0E9BFD008418"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "0EE8AA0D94C2FFA4"
+					item: { count: 1, id: "ftb:chroniton_glass" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "312106B702AEDBB7"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "ftb:fortron_infused_block"
+			}
+			id: "160C4C63A3CEACE1"
+			rewards: [{
+				amount: 25
+				id: "02321E2F2228DD3E"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "2B0EC17B1D70B6DA"
+					item: { count: 1, id: "ftb:fortron_infused_block" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "6DA9798B3428C3AB"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "fancymenu:textures/warning_framed_24x24.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "20D7DA6055C540FA"
+			rewards: [{
+				id: "0FEAD48C94172E3C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0DA7FD2807842E41"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "ars_elemental:mark_of_mastery"
+			}
+			id: "2D178651FB267E91"
+			rewards: [{
+				amount: 25
+				id: "1B974D72B9B6DA8E"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "0BF966F9452BF470"
+					item: { count: 1, id: "ars_elemental:mark_of_mastery" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "24555C39800B508A"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						BaseBlock: "air"
+						Name: "Trophy"
+						OffsetY: -1.0d
+						Scale: 1.0d
+						TrophyEntity: {
+							entityType: "ars_nouveau:wilden_boss"
+						}
+						TrophyType: "entity"
+					}
+				}
+				id: "trophymanager:trophy"
+			}
+			id: "2A456EFB14ECA6C2"
+			rewards: [{
+				amount: 20
+				id: "0A93D55849B012B9"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					entity: "ars_nouveau:wilden_boss"
+					icon: {
+						id: "ars_nouveau:wilden_tribute"
+					}
+					id: "5A060A616C635858"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "2B1D6D217FEE192B"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "cataclysm:ignitium_block"
+			}
+			id: "5D2936B7F8D0F8FA"
+			rewards: [{
+				amount: 75
+				id: "30E3E1D2455FAAA9"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					id: "7C1F2A2265294758"
+					item: { count: 1, id: "cataclysm:ignitium_block" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "5A1A66486604C7B8"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "draconicevolution:awakened_draconium_block"
+			}
+			id: "19C696F8143FB1B6"
+			rewards: [{
+				amount: 200
+				id: "4C6182D3A4122630"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "3A621FA2673D973B"
+					item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "0EFEB7A9C3BC6904"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "avaritia:infinity_block"
+			}
+			id: "7E8C48A1F0A2F37A"
+			rewards: [{
+				amount: 1000
+				id: "34CCBFCFFF271577"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "4D72B73A15C8C221"
+					item: { count: 1, id: "avaritia:infinity_block" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "3806016FFDCF244F"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "ftb:world_engine_advanced_machine_block"
+			}
+			id: "2EC3F054AB506916"
+			rewards: [{
+				amount: 30
+				id: "53D8D02F8882011D"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 320L
+					id: "771EAFC968D92A8E"
+					item: { count: 1, id: "ftb:world_engine_advanced_machine_block" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "47304646719F0174"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "twilightforest:knight_phantom_trophy"
+			}
+			id: "7EACA525066908E0"
+			rewards: [{
+				amount: 50
+				id: "0CED042E4E338F1C"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					entity: "twilightforest:lich"
+					icon: {
+						id: "twilightforest:lich_trophy"
+					}
+					id: "6403B80C8DFFEB46"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:alpha_yeti"
+					icon: {
+						id: "twilightforest:alpha_yeti_trophy"
+					}
+					id: "6EE5745FE00E4ACC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:hydra"
+					icon: {
+						id: "twilightforest:hydra_trophy"
+					}
+					id: "0F4B5618923F3F8B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:snow_queen"
+					icon: {
+						id: "twilightforest:snow_queen_trophy"
+					}
+					id: "61D984A3215E20D1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:knight_phantom"
+					icon: {
+						id: "twilightforest:knight_phantom_trophy"
+					}
+					id: "38F70B93B01BA8DA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "4E420DE1DCD90644"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "draconicevolution:wyvern_core"
+			}
+			id: "388FDE6183B26A5E"
+			rewards: [{
+				amount: 75
+				id: "47DEBB48D834E04B"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "782C20635676F35C"
+					item: { count: 1, id: "draconicevolution:wyvern_core" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "04CBB64F2C10DB0E"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "mekanism:pellet_antimatter"
+			}
+			id: "735CB0E29FB372C1"
+			rewards: [{
+				amount: 150
+				id: "63529B4B336BDD5F"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "1CDD6840678D25EA"
+					item: { count: 1, id: "mekanism:pellet_antimatter" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "5FFC4927DA3051EE"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "oritech:black_hole_block"
+			}
+			id: "744AB20A66A1835E"
+			rewards: [{
+				amount: 200
+				id: "76B73A9CD0C64DA5"
+				type: "currency"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "3DB1B595D5566A21"
+					item: { count: 1, id: "oritech:black_hole_block" }
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "2EE249AC7D3DFA9A"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			id: "5A284AE3AC14D070"
+			rewards: [
+				{
+					amount: 10
+					id: "7B52F27AFDE0765F"
+					type: "currency"
+				}
+				{
+					id: "75C4870445DA66B3"
+					team_reward: false
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				icon: {
+					id: "minecraft:oak_log"
+				}
+				id: "257DB4A574FF1E69"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 72000
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5A284AE3AC14D070"]
+			id: "0DF48D4589272952"
+			rewards: [
+				{
+					amount: 25
+					id: "08C86264DDA9794B"
+					type: "currency"
+				}
+				{
+					id: "071505331BDC2983"
+					team_reward: false
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				icon: {
+					id: "minecraft:stone"
+				}
+				id: "6FA6CE6F848C29EC"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 720000
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DF48D4589272952"]
+			id: "72766EEF59130E19"
+			rewards: [
+				{
+					amount: 50
+					id: "02D6B61E36F1A82B"
+					type: "currency"
+				}
+				{
+					id: "7C201104E1BBC177"
+					team_reward: false
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				icon: {
+					id: "minecraft:iron_block"
+				}
+				id: "7224F301AE8ED1E3"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1800000
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["72766EEF59130E19"]
+			id: "47C45A0552FBC1BD"
+			rewards: [
+				{
+					amount: 100
+					id: "4E044BCC3B3FEE7E"
+					type: "currency"
+				}
+				{
+					id: "3CC3C3413AE094AE"
+					team_reward: false
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				icon: {
+					id: "minecraft:gold_block"
+				}
+				id: "2B2473620B056467"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 3600000
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["47C45A0552FBC1BD"]
+			id: "4DBD57AF035CAA6B"
+			rewards: [
+				{
+					amount: 250
+					id: "24839980CE13C04E"
+					type: "currency"
+				}
+				{
+					id: "02DE6B4A2CD8F21E"
+					team_reward: false
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				icon: {
+					id: "minecraft:diamond_block"
+				}
+				id: "5312722528B8561B"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 7200000
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+	]
+}

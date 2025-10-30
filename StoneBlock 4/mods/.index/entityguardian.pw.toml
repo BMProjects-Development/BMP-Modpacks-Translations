@@ -1,0 +1,16 @@
+filename = 'entityguardian-1.0.jar'
+name = 'EntityGuardian'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1ee0a98642fb5c5a40a97f3630041f387b0600c8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6806054
+project-id = 1313091

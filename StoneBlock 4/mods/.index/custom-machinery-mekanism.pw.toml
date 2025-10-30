@@ -1,0 +1,16 @@
+filename = 'CustomMachineryMekanism-1.21.1-1.4.15.jar'
+name = 'Custom Machinery Mekanism'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c1cadf63d29b8bc030bd977e795b43e5e256a582'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7102843
+project-id = 721079

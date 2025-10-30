@@ -1,0 +1,52 @@
+{
+  "perks": [
+    {
+      "id": "air_air_power_1",
+      "perk": "PASSIVE_AIR_POWER",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 1
+    },
+    {
+      "id": "air_air_resistance_1",
+      "perk": "PASSIVE_AIR_RESISTANCE",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 200,
+      "prerequisites": ["air_air_power_1"]
+    },
+    {
+      "id": "air_air_power_2",
+      "perk": "PASSIVE_AIR_POWER",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 2,
+      "prerequisites": ["air_air_power_1"]
+    },
+    {
+      "id": "air_air_resistance_2",
+      "perk": "PASSIVE_AIR_RESISTANCE",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 300,
+      "prerequisites": ["air_air_resistance_1"]
+    },
+    {
+      "id": "air_dash_1",
+      "perk": "ACTIVE_AIR_DASH",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "ACTIVE",
+      "manaCost": 0.2,
+      "cooldown": 100,
+      "dashLength": 10.0,
+      "dashDuration": 0.3,
+      "prerequisites": ["air_air_power_2", "air_air_resistance_2"],
+      "prerequisite_glyph": "ars_nouveau:glyph_leap"
+    }
+  ]
+}

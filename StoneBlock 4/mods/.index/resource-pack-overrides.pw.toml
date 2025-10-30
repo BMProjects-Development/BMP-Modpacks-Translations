@@ -1,0 +1,16 @@
+filename = 'ResourcePackOverrides-v21.1.0-1.21.1-NeoForge.jar'
+name = 'Resource Pack Overrides'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '42dddb70cc645a864596439ea95bd56e7a5561ed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5733968
+project-id = 832644

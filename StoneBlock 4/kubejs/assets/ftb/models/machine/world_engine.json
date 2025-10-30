@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "ftb:block/engine/world_engine_side",
+    "north":   "ftb:block/engine/world_engine_front_inactive",
+    "east":    "ftb:block/engine/world_engine_side",
+    "south":   "ftb:block/engine/world_engine_bottom",
+    "west":    "ftb:block/engine/world_engine_side",
+    "up":      "ftb:block/engine/world_engine_bottom",
+    "down":    "ftb:block/engine/world_engine_bottom"
+  }
+}

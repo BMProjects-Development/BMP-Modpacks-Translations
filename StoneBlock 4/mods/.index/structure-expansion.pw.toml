@@ -1,0 +1,16 @@
+filename = 'structure-expansion-neoforge-88.0.1.jar'
+name = 'Structure Expansion'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '73dbedaa61d5e52297e63bfb7361ea501deaa6b7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6753853
+project-id = 398430

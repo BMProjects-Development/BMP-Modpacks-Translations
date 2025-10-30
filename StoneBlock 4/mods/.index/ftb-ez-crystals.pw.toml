@@ -1,0 +1,16 @@
+filename = 'ftb-ez-crystals-21.1.0.jar'
+name = 'FTB Ez Crystals'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '130d2b20417bada8446375240919b259f7c154db'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6558989
+project-id = 1271909

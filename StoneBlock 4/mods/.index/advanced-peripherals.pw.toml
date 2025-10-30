@@ -1,0 +1,16 @@
+filename = 'AdvancedPeripherals-1.21.1-0.7.57b.jar'
+name = 'Advanced Peripherals'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '0eedc456d3bc8dc472c022f3989bc92c5b583bc6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7043026
+project-id = 431725

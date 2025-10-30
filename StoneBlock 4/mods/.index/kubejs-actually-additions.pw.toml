@@ -1,0 +1,16 @@
+filename = 'kubejs_actuallyadditions-neoforge-1.21.1-0.2.3.jar'
+name = 'KubeJS Actually Additions'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '650b3271f10d8fe25bf3058144da99f5162b0401'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7073137
+project-id = 1126546

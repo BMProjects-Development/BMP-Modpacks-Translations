@@ -1,0 +1,62 @@
+	[storageblocks.item]
+		#item storage blocks energy usage
+		# Default: 12
+		# Range: > 0
+		256k = 12
+		# Default: 14
+		# Range: > 0
+		1024k = 14
+		# Default: 16
+		# Range: > 0
+		4096k = 16
+		# Default: 18
+		# Range: > 0
+		16384k = 18
+		# Default: 20
+		# Range: > 0
+		65536k = 20
+		# Default: 22
+		# Range: > 0
+		262144k = 22
+		# Default: 24
+		# Range: > 0
+		1048576k = 24
+		# Default: 26
+		# Range: > 0
+		infinite = 26
+
+	[storageblocks.fluid]
+		#fluid storage blocks energy usage
+		# Default: 12
+		# Range: > 0
+		16384b = 12
+		# Default: 14
+		# Range: > 0
+		65536b = 14
+		# Default: 16
+		# Range: > 0
+		262144b = 16
+		# Default: 18
+		# Range: > 0
+		1048576b = 18
+		# Default: 20
+		# Range: > 0
+		infinite = 20
+
+	[storageblocks.chemical]
+		#chemical storage blocks energy usage
+		# Default: 12
+		# Range: > 0
+		65536b = 12
+		# Default: 14
+		# Range: > 0
+		262144b = 14
+		# Default: 16
+		# Range: > 0
+		1048576b = 16
+		# Default: 18
+		# Range: > 0
+		8388608b = 18
+		# Default: 20
+		# Range: > 0
+		infinite = 20

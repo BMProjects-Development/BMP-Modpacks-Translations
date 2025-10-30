@@ -1,0 +1,16 @@
+filename = 'AE2AddonLib-1.0.2.jar'
+name = 'AE2AddonLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b2804f82f297e0fb12cae15cd90c8087a7a5619c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7135239
+project-id = 1366135

@@ -1,0 +1,749 @@
+{
+	icon: {
+		id: "stonechest:chest_smooth_stone"
+	}
+	id: "0C5DDA99EE8027D3"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			id: "11A553146CF97DDB"
+			item: {
+				components: {
+					"justdirethings:forge_energy": 100000
+				}
+				count: 1
+				id: "justdirethings:portalgun"
+			}
+			weight: 100.0f
+		}
+		{
+			count: 2
+			id: "28EE0BB3E39D7CB3"
+			item: {
+				count: 1
+				id: "enderstorage:ender_chest"
+			}
+			weight: 100.0f
+		}
+		{
+			count: 2
+			id: "530FC6DBEFFFE24C"
+			item: {
+				count: 1
+				id: "tesseract:tesseract"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "5CB81C2DFBE12D10"
+			item: {
+				count: 1
+				id: "ftbstuff:netherite_basalt_generator"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "2DC72C3C562E9488"
+			item: {
+				components: {
+					"minecraft:enchantments": {
+						levels: {
+							"minecraft:efficiency": 5
+							"minecraft:unbreaking": 10
+						}
+					}
+				}
+				count: 1
+				id: "ftbstuff:netherite_hammer"
+			}
+			weight: 60.0f
+		}
+		{
+			id: "1181DDEDF61462AA"
+			item: {
+				components: {
+					"minecraft:enchantments": {
+						levels: {
+							"minecraft:protection": 5
+							"minecraft:unbreaking": 10
+						}
+					}
+				}
+				count: 1
+				id: "justdirethings:blazegold_helmet"
+			}
+			weight: 60.0f
+		}
+		{
+			id: "2C9293A83F7DD54B"
+			item: {
+				components: {
+					"minecraft:enchantments": {
+						levels: {
+							"minecraft:protection": 5
+							"minecraft:unbreaking": 10
+						}
+					}
+				}
+				count: 1
+				id: "justdirethings:blazegold_chestplate"
+			}
+			weight: 60.0f
+		}
+		{
+			id: "1D4D7C3F76ED686D"
+			item: {
+				components: {
+					"minecraft:enchantments": {
+						levels: {
+							"minecraft:protection": 5
+							"minecraft:unbreaking": 10
+						}
+					}
+				}
+				count: 1
+				id: "justdirethings:blazegold_leggings"
+			}
+			weight: 60.0f
+		}
+		{
+			id: "7EE442148FA05E10"
+			item: {
+				components: {
+					"minecraft:enchantments": {
+						levels: {
+							"minecraft:protection": 5
+							"minecraft:unbreaking": 10
+						}
+					}
+				}
+				count: 1
+				id: "justdirethings:blazegold_boots"
+			}
+			weight: 60.0f
+		}
+		{
+			id: "5DB9BA2C2DEEB9D6"
+			item: {
+				components: {
+					"apotheosis:affixes": { }
+					"minecraft:custom_name": "\"Slowpoke's Ultimate Balance\""
+					"minecraft:enchantments": {
+						levels: {
+							"apothic_enchanting:knowledge_of_the_ages": 3
+							"apothic_enchanting:scavenger": 3
+							"minecraft:mending": 1
+						}
+					}
+					"minecraft:repair_cost": 7
+				}
+				count: 1
+				id: "minecraft:clay_ball"
+			}
+			weight: 60.0f
+		}
+		{
+			id: "720B8E11A73BACCB"
+			item: {
+				count: 1
+				id: "ars_nouveau:ring_of_greater_discount"
+			}
+			weight: 60.0f
+		}
+		{
+			id: "6121930C6AE6E38A"
+			item: {
+				count: 1
+				id: "artifacts:eternal_steak"
+			}
+			weight: 60.0f
+		}
+		{
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								discount: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 10
+									research: {
+										links: { }
+										researched: 1b
+									}
+									stats: {
+										multiplier: {
+											initialValue: 20.0d
+										}
+									}
+								}
+								passive: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 1b
+									}
+									stats: { }
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 10
+							luck: 0
+							points: 0
+						}
+					}
+				}
+				id: "artifacts:villager_hat"
+			}
+			id: "659B5485A5E35EB0"
+			item: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								discount: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										multiplier: {
+											initialValue: 17.97113d
+										}
+									}
+								}
+								passive: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: { }
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
+				count: 1
+				id: "artifacts:villager_hat"
+			}
+			weight: 60.0f
+		}
+		{
+			id: "56B14C76EA84E63E"
+			item: {
+				count: 1
+				id: "cognition:experience_obelisk"
+			}
+			weight: 60.0f
+		}
+		{
+			id: "206570B1B322D1D8"
+			item: {
+				components: {
+					"tempad:chronon_content_tempad": 4010
+					"tempad:chronon_content_time_twister": 0
+				}
+				count: 1
+				id: "tempad:tempad"
+			}
+			weight: 60.0f
+		}
+		{
+			id: "0D39D59876E2BF7B"
+			item: {
+				count: 1
+				id: "ironfurnaces:netherite_furnace"
+			}
+			weight: 60.0f
+		}
+		{
+			id: "46CD4AE2BA71FE93"
+			item: {
+				count: 1
+				id: "gag:time_sand_pouch"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "5AF55FEBCD089CA5"
+			item: {
+				count: 1
+				id: "gaze:adaptive_wheel"
+			}
+			weight: 30.0f
+		}
+		{
+			count: 2
+			id: "1AB515D52C7ED0B6"
+			item: {
+				count: 1
+				id: "apotheosis:mythic_material"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "2CA4DA1AFECECEF0"
+			item: {
+				components: {
+					"bhc:hearts": [
+						{
+							item: {
+								count: 10
+								id: "bhc:red_heart_canister"
+							}
+							slot: 0
+						}
+						{
+							item: {
+								count: 10
+								id: "bhc:yellow_heart_canister"
+							}
+							slot: 1
+						}
+						{
+							item: {
+								count: 5
+								id: "bhc:green_heart_canister"
+							}
+							slot: 2
+						}
+					]
+				}
+				count: 1
+				id: "bhc:heart_amulet"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "44209032A8F47FAF"
+			item: {
+				count: 1
+				id: "projecte:collector_mk3"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "60E6A0E28A0C2933"
+			item: {
+				count: 1
+				id: "ftbunearthed:unbreakable_brush"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "73F3F330F745BD8E"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:netherite_backpack"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "03E22CAE49C50068"
+			item: {
+				components: {
+					"justdirethings:dropteleport_upgrade_installed": 1b
+					"justdirethings:forge_energy": 500000
+				}
+				count: 1
+				id: "justdirethings:eclipsealloy_paxel"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "24AC19B6159157E9"
+			item: {
+				count: 1
+				id: "projecte:swiftwolf_rending_gale"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "1A2FC890065A2191"
+			item: {
+				components: {
+					"minecraft:custom_name": "\"The World Breaker\""
+					"minecraft:enchantments": {
+						levels: {
+							"minecraft:efficiency": 5
+							"minecraft:unbreaking": 50
+						}
+					}
+				}
+				count: 1
+				id: "justhammers:netherite_reinforced_hammer"
+			}
+			weight: 30.0f
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "projecte:item/repair_talisman"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5FE283D353897F65"
+			item: {
+				count: 1
+				id: "projecte:repair_talisman"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "0689EC39B4491CF1"
+			item: {
+				count: 1
+				id: "chicken_roost:c_netherstar"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "35DED06572364B52"
+			item: {
+				count: 1
+				id: "projecte:watch_of_flowing_time"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "3F28DBB3D57DB1F8"
+			item: {
+				components: {
+					"bhc:hearts": [
+						{
+							item: {
+								count: 10
+								id: "bhc:red_heart_canister"
+							}
+							slot: 0
+						}
+						{
+							item: {
+								count: 10
+								id: "bhc:yellow_heart_canister"
+							}
+							slot: 1
+						}
+						{
+							item: {
+								count: 10
+								id: "bhc:green_heart_canister"
+							}
+							slot: 2
+						}
+						{
+							item: {
+								count: 10
+								id: "bhc:blue_heart_canister"
+							}
+							slot: 3
+						}
+						{
+							item: {
+								count: 1
+								id: "bhc:soul_heart_canister"
+							}
+							slot: 4
+						}
+					]
+				}
+				count: 1
+				id: "bhc:soul_heart_amulet"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "535A1A373E12A3BA"
+			item: {
+				components: {
+					"apotheosis:affix_name": {
+						color: "#ED7014"
+						italic: 1b
+						translate: "%2$s"
+						with: [
+							""
+							""
+						]
+					}
+					"apotheosis:affixes": {
+						"apotheosis:breaker/ability/enlightened": 1.0f
+						"apotheosis:breaker/attribute/destructive": 1.5f
+						"apotheosis:breaker/attribute/lengthy": 1.5f
+						"apotheosis:breaker/attribute/submerged": 1.5f
+						"apotheosis:breaker/effect/omnetic": 1.5f
+						"apotheosis:breaker/mob_effect/swift": 1.5f
+						"apotheosis:generic/attribute/lucky": 1.5f
+					}
+					"apotheosis:durability_bonus": 1.0f
+					"apotheosis:rarity": "apotheosis:mythic"
+					"apotheosis:sockets": 4
+					"minecraft:custom_name": "\"World Shaper\""
+					"minecraft:enchantments": {
+						levels: {
+							"minecraft:efficiency": 25
+							"minecraft:silk_touch": 1
+							"minecraft:unbreaking": 255
+						}
+					}
+				}
+				count: 1
+				id: "justhammers:netherite_destructor_hammer"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "21616CD50EDD3507"
+			item: {
+				components: {
+					"apotheosis:affix_name": {
+						color: "#ED7014"
+						italic: 1b
+						translate: "%2$s"
+						with: [
+							""
+							""
+						]
+					}
+					"apotheosis:affixes": {
+						"apotheosis:melee/attribute/forceful": 1.5f
+						"apotheosis:melee/attribute/intricate": 1.5f
+						"apotheosis:melee/attribute/murderous": 1.5f
+						"apotheosis:melee/attribute/piercing": 1.5f
+						"apotheosis:melee/cleaving": 1.5f
+						"apotheosis:melee/mob_effect/sophisticated": 1.5f
+						"apothic_compats:melee/mob_effect/snaring": 1.5f
+					}
+					"apotheosis:durability_bonus": 0.6104035f
+					"apotheosis:rarity": "apotheosis:mythic"
+					"apotheosis:sockets": 5
+					"apothic_attributes:bonus_stack_attribute_modifiers": {
+						modifiers: [{
+							amount: 0.25d
+							id: "apothic_attributes:command_generated_656653031"
+							operation: "add_value"
+							slot: "apothic_attributes:mainhand"
+							type: "apothic_attributes:current_hp_damage"
+						}]
+					}
+					"minecraft:custom_name": "\"AlfredGG's Meat Shredder of Destruction\""
+				}
+				count: 1
+				id: "cataclysm:meat_shredder"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "3C0A3265F7214993"
+			item: {
+				components: {
+					"apotheosis:affix_name": {
+						color: "#ED7014"
+						italic: 1b
+						translate: "%2$s"
+						with: [
+							""
+							""
+						]
+					}
+					"apotheosis:affixes": {
+						"apotheosis:armor/attribute/blessed": 1.5f
+						"apotheosis:armor/attribute/fireproof": 1.5f
+						"apotheosis:armor/attribute/ironforged": 1.5f
+						"apotheosis:armor/dmg_reduction/deflective": 1.5f
+						"apotheosis:armor/dmg_reduction/grounded": 1.5f
+						"apotheosis:generic/attribute/lucky": 1.5f
+						"irons_apothic:armor/spell/cleanse": 1.5f
+					}
+					"apotheosis:durability_bonus": 0.71055126f
+					"apotheosis:rarity": "apotheosis:mythic"
+					"apotheosis:sockets": 4
+					"minecraft:custom_name": "\"Everlipse's Reality-Twisting Helm\""
+				}
+				count: 1
+				id: "projecte:gem_helmet"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "3907E68F67973232"
+			item: {
+				components: {
+					"apotheosis:affix_name": {
+						color: "#ED7014"
+						italic: 1b
+						translate: "%2$s"
+						with: [
+							""
+							""
+						]
+					}
+					"apotheosis:affixes": {
+						"apotheosis:armor/attribute/adamantine": 1.5f
+						"apotheosis:armor/attribute/blessed": 1.5f
+						"apotheosis:armor/attribute/ironforged": 1.5f
+						"apotheosis:armor/attribute/spiritual": 1.0f
+						"apotheosis:armor/attribute/steel_touched": 1.5f
+						"apotheosis:armor/attribute/unbound": 1.5f
+						"apotheosis:armor/dmg_reduction/blast_forged": 1.5f
+						"apotheosis:armor/dmg_reduction/blockading": 1.5f
+						"apotheosis:armor/dmg_reduction/deflective": 1.5f
+					}
+					"apotheosis:durability_bonus": 0.5590386f
+					"apotheosis:rarity": "apotheosis:mythic"
+					"apotheosis:sockets": 4
+					"minecraft:custom_name": "\"Rylex's Celestial Mantle\""
+				}
+				count: 1
+				id: "projecte:gem_chestplate"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "1373F9C168074E3C"
+			item: {
+				components: {
+					"apotheosis:affix_name": {
+						color: "#ED7014"
+						italic: 1b
+						translate: "%2$s"
+						with: [
+							""
+							""
+						]
+					}
+					"apotheosis:affixes": {
+						"apotheosis:armor/attribute/adamantine": 1.5f
+						"apotheosis:armor/attribute/blessed": 1.5f
+						"apotheosis:armor/attribute/ironforged": 1.5f
+						"apotheosis:armor/attribute/spiritual": 1.5f
+						"apotheosis:armor/attribute/steel_touched": 1.5f
+						"apotheosis:armor/mob_effect/bolstering": 1.5f
+						"apotheosis:armor/mob_effect/revitalizing": 1.5f
+						"irons_apothic:armor/spell/ball_lightning": 1.5f
+					}
+					"apotheosis:durability_bonus": 0.48514473f
+					"apotheosis:rarity": "apotheosis:mythic"
+					"apotheosis:sockets": 4
+					"minecraft:custom_name": "\"Max's Steadfast Slacker Leggings\""
+				}
+				count: 1
+				id: "projecte:gem_leggings"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "6B6A8B7BA92AB73C"
+			item: {
+				components: {
+					"apotheosis:affix_name": {
+						color: "#ED7014"
+						italic: 1b
+						translate: "%2$s"
+						with: [
+							""
+							""
+						]
+					}
+					"apotheosis:affixes": {
+						"apotheosis:armor/attribute/aquatic": 1.5f
+						"apotheosis:armor/attribute/fortunate": 1.5f
+						"apotheosis:armor/attribute/stalwart": 1.5f
+						"apotheosis:armor/dmg_reduction/grounded": 1.5f
+						"apotheosis:armor/mob_effect/nimble": 1.5f
+						"apotheosis:generic/attribute/lucky": 1.5f
+						"irons_apothic:armor/spell/evasive": 1.5f
+					}
+					"apotheosis:durability_bonus": 0.50149965f
+					"apotheosis:rarity": "apotheosis:mythic"
+					"apotheosis:sockets": 4
+					"minecraft:custom_name": "\"Saereth's Quickstep Boots\""
+				}
+				count: 1
+				id: "projecte:gem_boots"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "0BADE32C9A1A7709"
+			item: {
+				components: {
+					"apotheosis:affix_name": {
+						color: "#ED7014"
+						italic: 1b
+						translate: "%2$s"
+						with: [
+							""
+							""
+						]
+					}
+					"apotheosis:affixes": {
+						"apotheosis:melee/attribute/berserking": 1.5f
+						"apotheosis:melee/attribute/intricate": 1.5f
+						"apotheosis:melee/attribute/lacerating": 1.5f
+						"apotheosis:melee/attribute/murderous": 1.5f
+						"apotheosis:melee/festive": 1.5f
+						"apotheosis:melee/mob_effect/sophisticated": 1.5f
+						"apotheosis:melee/thunderstruck": 1.5f
+					}
+					"apotheosis:durability_bonus": 0.66640955f
+					"apotheosis:rarity": "apotheosis:mythic"
+					"apotheosis:sockets": 4
+					"minecraft:custom_name": "\"Sunekaer's Skullfire Sword\""
+					"minecraft:enchantments": {
+						levels: {
+							"minecraft:looting": 25
+							"minecraft:sharpness": 50
+							"minecraft:unbreaking": 25
+						}
+					}
+				}
+				count: 1
+				id: "avaritia:skullfire_sword"
+			}
+			weight: 10.0f
+		}
+	]
+	use_title: true
+}

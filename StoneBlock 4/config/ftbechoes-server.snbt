@@ -1,0 +1,15 @@
+# Server-specific configuration for FTB Echoes
+# Modpack defaults should be defined in <instance>/config/ftbechoes-server.snbt
+#   (may be overwritten on modpack update)
+# Server admins may locally override this by copying into <instance>/world/serverconfig/ftbechoes-server.snbt
+#   (will NOT be overwritten on modpack update)
+
+{
+	general: {
+		# If true, player entity tags (used for game stages) are sync'd to the client on login.
+		# If another mod is handling this (e.g. KubeJS), you can set this to false to save a little network traffic
+		# But leave as true otherwise, or Echo progression will break!
+		# Default: true
+		sync_stage_tags: true
+	}
+}

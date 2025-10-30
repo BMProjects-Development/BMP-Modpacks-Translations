@@ -1,0 +1,16 @@
+filename = 'renderjs-neoforge-2101.2.3.jar'
+name = 'RenderJS'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'abd85790c811bf7f96a3cb81a646d5064c0d800f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6358749
+project-id = 1064413

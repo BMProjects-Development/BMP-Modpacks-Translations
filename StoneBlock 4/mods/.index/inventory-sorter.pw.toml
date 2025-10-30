@@ -1,0 +1,16 @@
+filename = 'inventorysorter-1.21-24.0.20.jar'
+name = 'Inventory Sorter'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '48b36fdde95ceedf5a4560bb0b614f4975fbb21e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6235889
+project-id = 240633

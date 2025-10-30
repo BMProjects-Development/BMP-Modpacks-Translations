@@ -1,0 +1,32 @@
+#General settings
+[general]
+
+	[general.skullfireSword]
+		#DropChange
+		# Default: 100
+		# Range: 0 ~ 100
+		dropChange = 100
+
+	[general.infinityArmor]
+		#NightVision
+		nightVision = true
+		#ClearBadEffect
+		clearBadEffect = true
+		#ClearFire
+		clearFire = true
+		#HighJump
+		highJump = true
+		#StepHeight
+		stepHeight = true
+		#Speed
+		speed = true
+		#SpeedValue
+		# Default: 1.0
+		# Range: 0.1 ~ 2.0
+		speedValue = 1.0
+
+	[general.infinityChest]
+		#MaxStackSize
+		# Default: 2147483647
+		# Range: > 64
+		maxStackSize = 2147483647

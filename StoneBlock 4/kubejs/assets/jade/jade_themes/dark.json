@@ -1,0 +1,12 @@
+{
+	"version": 100,
+	"tooltipStyle": {
+		"backgroundColor": "#131313",
+		"borderColor": [
+			"#FFC95C",
+			"#FFC95C",
+			"#FFB92E",
+			"#FFB92E"
+		]
+	}
+}

@@ -1,0 +1,143 @@
+{
+	autofocus_id: "2F15D918EF183051"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: {
+		components: {
+			"minecraft:custom_data": {
+				BaseBlock: "air"
+				Name: ""
+				OffsetY: 0.0d
+				Scale: 4.0d
+				TrophyItem: {
+					id: "ftb:stone_pebble"
+				}
+				TrophyType: "item"
+			}
+		}
+		id: "trophymanager:trophy"
+	}
+	id: "1C63D973F178FD60"
+	images: [
+		{
+			alpha: 50
+			color: 0
+			height: 2.5d
+			image: "ftbquests:textures/shapes/hexagon/shape.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			click: "https://discord.com/invite/X5UGvBs"
+			height: 1.0d
+			hover: ["Join The Discord!"]
+			image: "ftbpc:textures/gui/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			click: "https://github.com/FTBTeam/FTB-Modpack-Issues/issues"
+			height: 1.0d
+			hover: ["Report A Bug"]
+			image: "ftbquests:textures/gui/alert.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			height: 5.0d
+			image: "ftb:textures/quests/other_titles_and_logos/sb4_logo.png"
+			rotation: 0.0d
+			width: 13.8d
+			x: -1.5d
+			y: -4.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						BaseBlock: "air"
+						Name: ""
+						OffsetY: 0.0d
+						Scale: 4.0d
+						TrophyItem: {
+							id: "ftb:stone_pebble"
+						}
+						TrophyType: "item"
+					}
+				}
+				id: "trophymanager:trophy"
+			}
+			id: "2F15D918EF183051"
+			min_width: 300
+			rewards: [{
+				id: "125B5DADB9F2436C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5434F149E894EFA6"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/notes"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "77FC846DC0EF4ED2"
+			min_width: 350
+			rewards: [{
+				id: "7F17B8B0FADD1AB7"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2988CAF299690CDB"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:textures/gui/missing_image.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2B02D9425E19F560"
+			rewards: [{
+				id: "6EF52BA195B2C10C"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "519E1F80092719D1"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+	]
+}

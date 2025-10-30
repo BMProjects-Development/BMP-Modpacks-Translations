@@ -1,0 +1,23 @@
+[COINS]
+	#The value of a silver coin
+	# Default: 1
+	# Range: 1 ~ 100
+	silverMagicValue = 1
+	#The value of a gold coin
+	# Default: 50
+	# Range: 1 ~ 500
+	goldMagicValue = 5
+	#The value of a crystal coin
+	# Default: 2500
+	# Range: 1 ~ 25000
+	crystalMagicValue = 25
+
+[DEATH]
+	#The percentage of coins save on death
+	# Default: 50
+	# Range: 0 ~ 100
+	percentageCoinsSaveOnDeath = 100
+
+[LOOTS]
+	#Should coins be lootable from chests
+	coinsLootChests = false

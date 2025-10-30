@@ -1,0 +1,215 @@
+{
+	icon: {
+		id: "draconicevolution:awakened_core"
+	}
+	id: "1D31E6EC121FF83B"
+	loot_crate: {
+		color: 16761859
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "ftb.shop.title.loot_crate.awakened_draconic"
+		string_id: "random_awakened_draconic_gear"
+	}
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			id: "3C0CD90D5646E7B6"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_aoe"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "0661BC905DB2BF45"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_auto_feed"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "78593DBEA84BF015"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_damage"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "236FF7FA4BB14A01"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_energy"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "1AD5EADBEB48C031"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_flight"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "44D988C67D2CD8A7"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_jump"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "6C3852126D058B92"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_large_shield_capacity"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "39028CEF50D6D3AD"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_proj_accuracy"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "75E031430B9087D9"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_proj_damage"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "5E0E7FB1342A7891"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_proj_grav_comp"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "2C3A3FCF1D8892EA"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_proj_penetration"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "7FD634354B5561AA"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_proj_velocity"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "4198A039A98EEDBB"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_shield_capacity"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "790231612E02EC4F"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_shield_control"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "3CEE480BF199506F"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_shield_recovery"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "375E3F1BAD4FC1B4"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_speed"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "5EFE81F7E848ABA2"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_tree_harvest"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "64C017E10E697EBD"
+			item: {
+				count: 1
+				id: "draconicevolution:item_draconic_undying"
+			}
+			weight: 10.0f
+		}
+		{
+			command: "/give @s draconicevolution:draconic_sword"
+			id: "6A0011BF8C25D4FA"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			command: "/give @s draconicevolution:draconic_pickaxe"
+			id: "6AA784677A036A36"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			command: "/give @s draconicevolution:draconic_axe"
+			id: "4A3B5AA97272B2D2"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			command: "/give @s draconicevolution:draconic_bow"
+			id: "476F60C6DEB324A9"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			command: "/give @s draconicevolution:draconic_capacitor"
+			id: "2B0BC74A9E61D881"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			command: "/give @s draconicevolution:draconic_chestpiece"
+			id: "6E2831AAACB7E9AD"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			command: "/give @s draconicevolution:draconic_shovel"
+			id: "1ADD62DBE8217E40"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+	]
+	use_title: true
+}

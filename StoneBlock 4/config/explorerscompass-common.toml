@@ -1,0 +1,17 @@
+[General]
+	#Allows a player to teleport to a located structure when in creative mode, opped, or in cheat mode.
+	allowTeleport = true
+	#Allows players to view the precise coordinates and distance of a located structure on the HUD, rather than relying on the direction the compass is pointing.
+	displayCoordinates = true
+	#The maximum radius that will be searched for a structure. Raising this value will increase search accuracy but will potentially make the process more resource intensive.
+	# Default: 10000
+	# Range: 0 ~ 1000000
+	maxRadius = 3500
+	#A list of structures that the compass will not display in the GUI and will not be able to search for. Wildcard character * can be used to match any number of characters, and ? can be used to match one character. Ex: ["minecraft:stronghold", "minecraft:endcity", "minecraft:*village*"]
+	structureBlacklist = ["cataclysm:acropolis", "cataclysm:burning_arena", "cataclysm:cursed_pyramid", "cataclysm:sunken_city", "irons_spellbooks:ancient_battleground", "irons_spellbooks:citadel", "irons_spellbooks:evoker_fort", "irons_spellbooks:ice_spider_den", "irons_spellbooks:impaled_icebreaker", "irons_spellbooks:mangrove_hut", "irons_spellbooks:mountain_tower", "irons_spellbooks:pyromancer_tower", "twilightforest:*", "minecraft:swamp_hut", "minecraft:desert_pyramid", "minecraft:jungle_pyramid", "minecraft:pillager_outpost", "minecraft:ruined_portal", "minecraft:ruined_portal_desert", "minecraft:ruined_portal_jungle", "minecraft:ruined_portal_mountain", "ars_elemental:starbuncle_shrine", "ftbteambases:start", "minecraft:ruined_portal_nether", "minecraft:ruined_portal_ocean", "minecraft:ruined_portal_swamp", "minecraft:shipwreck", "minecraft:shipwreck_beached", "minecraft:stronghold", "minecraft:village*", "minecraft:end_city", "minecraft:endcity", "minecraft:fortress", "minecraft:buried_treasure", "minecraft:mansion", "minecraft:igloo", "minecraft:mineshaft", "minecraft:mineshaft_mesa", "minecraft:monument", "minecraft:nether_fossil", "minecraft:ocean_ruin_cold", "minecraft:ocean_ruin_warm", "minecraft:trail_ruins", "ae2:meteorite", "apotheosis:tower_leaf", "apotheosis:tower_main", "apotheosis:tower_sand", "apotheosis:tower_spruce", "ars_nouveau:guardian_wilden_den", "ars_nouveau:hunter_wilden_den", "ars_nouveau:stalker_wilden_den", "dimensionaltrialchambers:end_trial_chamber", "dimensionaltrialchambers:nether_trial_chamber", "malum:weeping_well", "supplementaries:way_sign", "xycraft_world:surface_geyser", "xycraft_world:underground_geyser"]
+	#The maximum number of samples to be taken when searching for a structure.
+	# Default: 100000
+	# Range: 0 ~ 100000000
+	maxSamples = 4500
+	#If this option is enabled, then the compass will clear the cache of previously found structures when the structure couldn't found.
+	cleanCache = false

@@ -1,0 +1,16 @@
+filename = 'mekanismcurios-1.21.1-1.2.1.jar'
+name = 'Mekanism Curios'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '652371b8622d60d8d4d9528493095beb0c903aa8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6602973
+project-id = 1251061

@@ -1,0 +1,16 @@
+filename = 'lionfishapi-2.6.jar'
+name = 'Lionfish API'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3d9059ea05839e0daab926848d91ecb14ca5a4d4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6168249
+project-id = 1001614

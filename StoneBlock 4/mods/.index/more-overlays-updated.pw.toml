@@ -1,0 +1,16 @@
+filename = 'moreoverlays-1.24.2-mc1.21.1-neoforge.jar'
+name = 'More Overlays Updated'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '21e8bd61c5e146a9574266015d3f64621c2d9e18'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6981252
+project-id = 391382

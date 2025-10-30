@@ -1,0 +1,66 @@
+{
+  "name": "ftb.machine.snowmaker",
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "mekanism:tile.machine.resistive_heater",
+        "pitch": 2.0
+      },
+      "custommachinery:block": "ftb:machine/snowmaker_active#standalone"
+    },
+    "errored": {
+      "custommachinery:block": "ftb:machine/snowmaker#standalone"
+    },
+    "paused": {
+      "custommachinery:block": "ftb:machine/snowmaker_idle#standalone"
+    },
+    "custommachinery:block": "ftb:machine/snowmaker#standalone",
+    "idle": {
+      "custommachinery:block": "ftb:machine/snowmaker_idle#standalone"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "item_output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 230,
+      "y": 5
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 100
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "BOTTOM",
+      "x": 114,
+      "y": 23,
+      "width": 26,
+      "height": 45
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_output",
+      "priority": 1,
+      "x": 119,
+      "y": 77
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 5,
+      "y": 5
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+filename = 'dimdungeons-203-neoforge-1.21.0.jar'
+name = 'Dimensional Dungeons'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e40d7532ab81a06bd21bd4fcede85d6cd83a9e3b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6989249
+project-id = 352222

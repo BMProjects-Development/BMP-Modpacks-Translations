@@ -1,0 +1,9 @@
+{
+	general: {
+		# Default village type for villager tokens in creative/JEI
+		# This should be a valid resource location for a village type in the VILLAGER_TYPE registry
+		# e.g. "minecraft:plains", "minecraft:savanna" etc., or a custom type such as "ftb:stone"
+		# Default: "minecraft:plains"
+		default_villager_type: "ftb:stone"
+	}
+}

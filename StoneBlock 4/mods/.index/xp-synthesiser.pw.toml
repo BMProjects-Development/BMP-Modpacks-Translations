@@ -1,0 +1,16 @@
+filename = 'xp_synthesiser-1.0.3.jar'
+name = 'XP Synthesiser'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5d80c0fe66ddd53e3330fbf6fdc0b22e050ecbbc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6830972
+project-id = 1158580

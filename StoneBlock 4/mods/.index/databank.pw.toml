@@ -1,0 +1,16 @@
+filename = 'databank-1.2.2.jar'
+name = 'Databank'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3916caac7f8c80a666cc036acd62003be29a0d0c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7007287
+project-id = 1181408

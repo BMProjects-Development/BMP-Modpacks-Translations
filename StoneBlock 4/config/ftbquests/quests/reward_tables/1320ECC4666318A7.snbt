@@ -1,0 +1,46 @@
+{
+	icon: {
+		id: "ars_nouveau:glyph_heal"
+	}
+	id: "1320ECC4666318A7"
+	loot_crate: {
+		color: 11206650
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "ftb.shop.title.loot_crate.glyphs"
+		string_id: "random_glyph"
+	}
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			id: "594E158A9C86929B"
+			item: {
+				count: 1
+				id: "ftb:codex_glyph_1"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "742CB3E07E4CCEB1"
+			item: {
+				count: 1
+				id: "ftb:codex_glyph_2"
+			}
+			weight: 35.0f
+		}
+		{
+			id: "6B6E3D9E6F38918E"
+			item: {
+				count: 1
+				id: "ftb:codex_glyph_3"
+			}
+			weight: 15.0f
+		}
+	]
+	use_title: true
+}

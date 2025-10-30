@@ -1,0 +1,16 @@
+filename = 'enchdesc-neoforge-1.21.1-21.1.9.jar'
+name = 'Enchantment Descriptions'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e4fa515c5deab3165f250f2a1297ac836d496064'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7039849
+project-id = 250419

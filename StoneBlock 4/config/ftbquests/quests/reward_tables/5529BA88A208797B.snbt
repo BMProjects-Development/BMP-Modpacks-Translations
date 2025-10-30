@@ -1,0 +1,40 @@
+{
+	id: "5529BA88A208797B"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{
+			auto: "no_toast"
+			command: "/endershard @s 8 131 -1561 End North"
+			id: "15B421B3ACE269E3"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s 8 131 1575 End South"
+			id: "1EA85DCE2A9227C3"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s 1576 131 7 End East"
+			id: "31A55C1C7979AC74"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s -1560 131 7 End West"
+			id: "042C6860A26F6057"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,16 @@
+filename = 'relics-1.21.1-0.10.7.6.jar'
+name = 'Relics'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd01514adde52d511bc857495d35e9b6a7b1423a7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6879532
+project-id = 445274

@@ -1,0 +1,16 @@
+filename = 'megacells-4.10.1.jar'
+name = 'MEGA Cells'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '649780cc164bb39060ff7396cc24b6cbd3607167'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6853076
+project-id = 622112

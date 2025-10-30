@@ -1,0 +1,545 @@
+{
+  "type": "list",
+  "id": "worlds_list",
+  "title": {
+    "translate": "rgp_client.gui.worlds_list.title"
+  },
+  "back": {
+    "action": "open_screen",
+    "id": "title"
+  },
+  "refresh_rate": 10,
+  "entries": [
+  ],
+  "empty_entry": {
+    "translate": "rgp_client.gui.no_worlds"
+  },
+  "entry_loader": {
+    "type": "server_entry",
+    "entry_template": {
+      "id": "$gameServerId",
+      "elements": [
+        {
+          "type": "player_face",
+          "id": "server_icon",
+          "uuid": "$ownerId",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "server_name",
+          "text": "$serverName",
+          "position": {
+            "x": 35,
+            "y": 0,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "player_count",
+          "text": {
+            "text": "$playerCount",
+            "color": "gray"
+          },
+          "alignment": "right",
+          "position": {
+            "x": -30,
+            "y": 3,
+            "pivot": "top_right"
+          }
+        },
+        {
+          "type": "image",
+          "id": "player_count_icon",
+          "icon": "ftblibrary:textures/icons/friends.png",
+          "tooltip": {
+            "text": "$onlinePlayers"
+          },
+          "options": {
+            "width": 8,
+            "height": 8
+          },
+          "position": {
+            "x": -20,
+            "y": 3,
+            "pivot": "top_right"
+          }
+        },
+        {
+          "type": "text",
+          "id": "motd",
+          "text": {
+            "translate": "rgp_client.gui.worlds_list.world_name",
+            "color": "gray",
+            "with": [
+              "$selectedWorldName"
+            ]
+          },
+          "position": {
+            "x": 35,
+            "y": 12,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "pack_name",
+          "text": {
+            "text": "$packName",
+            "color": "dark_gray"
+          },
+          "position": {
+            "x": 35,
+            "y": 24,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "status_lights",
+          "id": "status_lights",
+          "game_server_key": "gameServerInstance",
+          "position": {
+            "x": -5,
+            "y": 2,
+            "pivot": "top_right"
+          }
+        }
+      ],
+      "selected_callback": {
+        "action": "store_variables",
+        "variables": [
+          {
+            "key": "selectedServer",
+            "value": "$gameServerInstance"
+          },
+          {
+            "key": "gameServerId",
+            "value": "$gameServerId"
+          },
+          {
+            "key": "loadoutId",
+            "value": "$loadoutId"
+          },
+          {
+            "key": "regionId",
+            "value": "$region"
+          },
+          {
+            "key": "serverIp",
+            "value": "$serverIp"
+          },
+          {
+            "key": "serverPort",
+            "value": "$serverPort"
+          },
+          {
+            "key": "state",
+            "value": "$state"
+          },
+          {
+            "key": "isOwner",
+            "value": "$isOwner"
+          },
+          {
+            "key": "ownerSuspended",
+            "value": "$ownerSuspended"
+          },
+          {
+            "key": "joinable",
+            "value": "$joinable"
+          },
+          {
+            "key": "startable",
+            "value": "$startable"
+          },
+          {
+            "key": "playerCount",
+            "value": "$playerCount"
+          },
+          {
+            "key": "ping",
+            "value": "$ping"
+          },
+          {
+            "key": "selectedWorldName",
+            "value": "$selectedWorldName"
+          },
+          {
+            "key": "selectedWorldId",
+            "value": "$selectedWorldId"
+          },
+          {
+            "key": "serverName",
+            "value": "$serverName"
+          },
+          {
+            "key": "worldCount",
+            "value": "$worldCount"
+          },
+          {
+            "key": "maxWorldSlots",
+            "value": "$maxWorldSlots"
+          },
+          {
+            "key": "differentModpack",
+            "value": "$differentModpack"
+          }
+        ],
+        "on_complete": {
+          "action": "refresh",
+          "refresh_list_entries": false
+        }
+      },
+      "required_double_click_variable": "joinable & !differentModpack",
+      "callback": {
+        "action": "play",
+        "address": "$serverIp:$serverPort",
+        "loading_screen": {
+          "type": "pending",
+          "title": {
+            "translate": "rgp_client.gui.worlds_list.joining"
+          },
+          "elements": [
+            {
+              "type": "text",
+              "id": "title",
+              "text": {
+                "translate": "rgp_client.gui.worlds_list.joining"
+              },
+              "alignment": "center",
+              "position": {
+                "x": 0,
+                "y": 80,
+                "pivot": "top_center"
+              }
+            },
+            {
+              "type": "simple_button",
+              "id": "back",
+              "text": {
+                "translate": "gui.back"
+              },
+              "options": {
+                "width": 200,
+                "height": 20
+              },
+              "position": {
+                "x": 0,
+                "y": -30,
+                "pivot": "bottom_center"
+              },
+              "callback": {
+                "action": "open_screen",
+                "id": "worlds_list"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "elements": [
+    {
+      "type": "image",
+      "id": "logo",
+      "icon": "rgp_client:textures/gui/ftb_worlds_logo.png",
+      "options": {
+        "width": 112,
+        "height": 56
+      },
+      "position": {
+        "x": 0,
+        "y": -6,
+        "pivot": "top_center"
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "info",
+      "text": {
+        "translate": "rgp_client.gui.worlds_list.more_info"
+      },
+      "options": {
+        "width": 110,
+        "height": 20
+      },
+      "position": {
+        "x": -12,
+        "y": 12,
+        "pivot": "top_right"
+      },
+      "callback": {
+        "action": "open_link",
+        "link": "https://worlds.feed-the-beast.com/"
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "play",
+      "text": {
+        "translate": "rgp_client.gui.worlds_list.play"
+      },
+      "required_variable": "joinable & !differentModpack",
+      "tooltips": [
+        {
+          "required_variable": "differentModpack",
+          "tooltip": {
+            "translate": "rgp_client.gui.worlds_configuration.cannot_join_different_modpack"
+          }
+        }
+      ],
+      "options": {
+        "width": 100,
+        "height": 20
+      },
+      "position": {
+        "x": -105,
+        "y": -35,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "play",
+        "address": "$serverIp:$serverPort",
+        "loading_screen": {
+          "type": "pending",
+          "title": {
+            "translate": "rgp_client.gui.worlds_list.joining"
+          },
+          "elements": [
+            {
+              "type": "text",
+              "id": "title",
+              "text": {
+                "translate": "rgp_client.gui.worlds_list.joining"
+              },
+              "alignment": "center",
+              "position": {
+                "x": 0,
+                "y": 80,
+                "pivot": "top_center"
+              }
+            },
+            {
+              "type": "simple_button",
+              "id": "back",
+              "text": {
+                "translate": "gui.back"
+              },
+              "options": {
+                "width": 200,
+                "height": 20
+              },
+              "position": {
+                "x": 0,
+                "y": -30,
+                "pivot": "bottom_center"
+              },
+              "callback": {
+                "action": "open_screen",
+                "id": "worlds_list"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "join_world",
+      "text": {
+        "translate": "rgp_client.gui.worlds_list.join_world"
+      },
+      "options": {
+        "width": 100,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -35,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_join_world"
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "create_world",
+      "text": {
+        "translate": "rgp_client.gui.worlds_list.create_world",
+        "color": "yellow"
+      },
+      "options": {
+        "width": 100,
+        "height": 20
+      },
+      "position": {
+        "x": 105,
+        "y": -35,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "store_variables",
+        "variables": [
+          {
+            "key": "checkoutParentScreen",
+            "value": "worlds_creation_simple"
+          }
+        ],
+        "on_complete": {
+          "action": "remove_variables",
+          "variables": [
+            "gameServerId"
+          ],
+          "on_complete": {
+            "action": "open_screen",
+            "id": "worlds_creation_simple",
+            "pass_storage": true
+          }
+        }
+      }
+    },
+    {
+      "type": "image",
+      "id": "free_trial",
+      "icon": "assets/misc/free_trial.png",
+      "required_display_variable": "is_trial_claimable",
+      "options": {
+        "width": 52,
+        "height": 13
+      },
+      "position": {
+        "x": 140,
+        "y": -50,
+        "pivot": "bottom_center"
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "configure",
+      "text": {
+        "translate": "rgp_client.gui.worlds_list.configure"
+      },
+      "required_variable": "isOwner",
+      "options": {
+        "width": 100,
+        "height": 20
+      },
+      "position": {
+        "x": -105,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "store_variables",
+        "variables": [
+          {
+            "key": "parentScreen",
+            "value": "worlds_list"
+          }
+        ],
+        "on_complete": {
+          "action": "open_screen",
+          "id": "worlds_configuration",
+          "pass_storage": true
+        }
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "renew",
+      "text": {
+        "translate": "rgp_client.gui.worlds_list.renew"
+      },
+      "required_variable": "ownerSuspended",
+      "required_display_variable": "isOwner",
+      "options": {
+        "width": 100,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "store_variables",
+        "variables": [
+          {
+            "key": "checkoutParentScreen",
+            "value": "worlds_list"
+          }
+        ],
+        "on_complete": {
+          "action": "renew_server",
+          "on_complete": {
+            "action": "open_screen",
+            "id": "worlds_creation_simple_checkout",
+            "pass_storage": true
+          }
+        }
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "leave",
+      "text": {
+        "translate": "rgp_client.gui.worlds_list.leave"
+      },
+      "required_variable": "selectedWorldId",
+      "required_display_variable": "!isOwner",
+      "options": {
+        "width": 100,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "confirmation",
+        "prompt": {
+          "translate": "rgp_client.gui.worlds_list.leave_confirmation"
+        },
+        "on_accept": {
+          "action": "request",
+          "request": "leave_server",
+          "variables": {
+            "gameServerId": "$gameServerId"
+          },
+          "on_complete": {
+            "action": "open_screen",
+            "id": "worlds_list"
+          }
+        }
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "back",
+      "text": {
+        "translate": "gui.back"
+      },
+      "options": {
+        "width": 100,
+        "height": 20
+      },
+      "position": {
+        "x": 105,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "title"
+      }
+    }
+  ]
+}

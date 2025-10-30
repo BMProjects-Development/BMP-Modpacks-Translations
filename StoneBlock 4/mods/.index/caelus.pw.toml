@@ -1,0 +1,16 @@
+filename = 'caelus-neoforge-7.0.1+1.21.1.jar'
+name = 'Caelus API'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e4c2e1af4e3082d68f7df75f7c8ce30116d71515'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5694215
+project-id = 308989

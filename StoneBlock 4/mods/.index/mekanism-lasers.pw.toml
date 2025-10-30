@@ -1,0 +1,16 @@
+filename = 'MekanismLasers-1.12.1-1.1.10.2.jar'
+name = 'Mekanism Lasers'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5328bd8e1ed3e3b04b53e761c1291e4336167404'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6516131
+project-id = 1060096

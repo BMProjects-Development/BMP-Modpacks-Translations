@@ -1,0 +1,16 @@
+filename = 'jearchaeology-1.21.1-1.1.6.jar'
+name = 'Just Enough Archaeology'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6f69ac6b014838f0732cfb67245c9d03ae54a446'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6329637
+project-id = 890755

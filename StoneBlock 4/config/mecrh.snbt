@@ -1,0 +1,217 @@
+# Server-specific configuration for Mighty Ender Chicken Rehatched
+# Modpack defaults should be defined in <instance>/config/mecrh-server.snbt
+#   (may be overwritten on modpack update)
+# Server admins may locally override this by copying into <instance>/world/serverconfig/mecrh-server.snbt
+#   (will NOT be overwritten on modpack update)
+
+{
+	charge_attack: {
+		# Damage the chicken will do to entities hit by the charge attack
+		# Default: 15.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		charge_damage: 15.0d
+		
+		# Speed multiplier for the charge attack
+		# Default: 1.0
+		# Range: 0.1 ~ 10.0
+		charge_speed: 1.2d
+		
+		# Warmup/warning time for the charge attack
+		# Default: 12
+		# Range: 1 ~ 600
+		charge_warmup_time: 10
+		
+		# Max distance in blocks that the chicken will charge
+		# Default: 16.0
+		# Range: 5.0 ~ 1.7976931348623157E308
+		max_charge_dist: 24.0d
+		
+		# Max time in ticks that the chicken will spend charging
+		# Default: 100
+		# Range: 20 ~ 2147483647
+		max_charge_time: 120
+		
+		# Minimum interval in ticks for the charge attack
+		# Default: 300
+		# Range: 20 ~ 2147483647
+		max_interval: 340
+		
+		# Minimum interval in ticks for the charge attack
+		# Default: 240
+		# Range: 20 ~ 2147483647
+		min_interval: 200
+	}
+	cluckstorm: {
+		# Number of chicken-riding strays which are spawned in
+		# Default: 6
+		# Range: 1 ~ 64
+		stray_count: 8
+	}
+	forcefield: {
+		# Number of ticks after breaking the chicken's forcefield that it comes back up
+		# Default: 600
+		# Range: 100 ~ 2147483647
+		forcefield_interval: 600
+		
+		# Number of hits with an item in the `ftb:chicken_stick` item tag to break the chicken's forcefield
+		# Default: 4
+		# Range: 1 ~ 2147483647
+		forcefield_level: 4
+		
+		# If true, non-player damage sources ignore the chicken shield
+		# Intended for testing; normally leave this as false.
+		# Default: false
+		non_players_ignore_shield: false
+	}
+	general: {
+		# The radius of the fight arena: the chicken is spawned in the center of this arena,
+		# and will stay within the arena (teleporting back to center if it somehow ends up outside)
+		# Chicken will despawn if no players are in the arena for 30 seconds
+		# Default: 24
+		# Range: 10 ~ 2147483647
+		arena_radius: 32
+		
+		# Time in seconds after which the chicken will despawn if no players are within the arena
+		# Set to 0 to disable despawn
+		# Default: 30
+		# Range: 0 ~ 2147483647
+		despawn_time_no_players: 30
+		
+		# If true, any blocks broken by the chicken will drop items as normal
+		# Default: false
+		drop_blocks: false
+		
+		# Max amount of incoming damage that the chicken can take in one hit
+		# Default: 25
+		# Range: 1 ~ 2147483647
+		max_incoming_damage: 25
+		
+		# Max number of special attacks which can be used at one time
+		# Default: 2
+		# Range: 0 ~ 2147483647
+		max_skills_at_once: 2
+		
+		# If true, Ender Chicken targets all living entities not in the `ftb:ender_chicken_friends` entity tag
+		# If false, Ender Chicken only targets players, and entities which attack it
+		# Default: true
+		target_all_living: true
+		
+		# Height in blocks above chicken's foot position that the zombie rider initially spawns
+		# Default: 10
+		# Range: 0 ~ 50
+		zombie_rider_spawn_height: 10
+	}
+	laser_attack: {
+		# Damage dealt by the laser to entities it hits (ignores armor)
+		# Default: 4.0
+		# Range: 1.0 ~ 1.7976931348623157E308
+		damage: 4.0d
+		
+		# Damage increase (multiplicative) for the laser every second an entity remains in the laser beam
+		# Default: 1.25
+		# Range: 1.0 ~ 10.0
+		damage_increase: 1.25d
+		
+		# Number of ticks the laser will set entities on fire for
+		# Default: 60
+		# Range: 0 ~ 2147483647
+		fire_ticks: 60
+		
+		# Invulnerability ticks (iframes) for entities hit by the laser
+		# Default: 10
+		# Range: 1 ~ 2147483647
+		invulnerability_ticks: 10
+		
+		# Maximum interval in ticks for the laser attack
+		# Default: 360
+		# Range: 20 ~ 2147483647
+		max_interval: 360
+		
+		# Minimum interval in ticks for the laser attack
+		# Default: 180
+		# Range: 20 ~ 2147483647
+		min_interval: 180
+	}
+	peck_of_doom: {
+		# Number of blocks above target the chicken will fly to
+		# Default: 6.0
+		# Range: 1.0 ~ 1.7976931348623157E308
+		distance_above_target: 6.0d
+		
+		# Maximum time the chicken will take to drop onto the target
+		# Default: 20
+		# Range: 5 ~ 2147483647
+		drop_time: 20
+		
+		# Maximum time in ticks the chicken will spend trying to reach the target
+		# Default: 100
+		# Range: 20 ~ 2147483647
+		max_charge_time: 120
+		
+		# Maximum interval in ticks for the peck of doom (leap/drop) attack
+		# Default: 600
+		# Range: 20 ~ 2147483647
+		max_interval: 600
+		
+		# Minimum interval in ticks for the peck of doom (leap/drop) attack
+		# Default: 600
+		# Range: 20 ~ 2147483647
+		min_interval: 600
+		
+		# Warmup/warning time for the peck of doom attack
+		# Default: 12
+		# Range: 1 ~ 600
+		warmup_time: 12
+	}
+	spin_attack: {
+		# Should egg bomb explosions damage terrain?
+		# Default: true
+		egg_bomb_damage_terrain: true
+		
+		# Egg bomb explosion power (2 = creeper, 4 = TNT
+		# Default: 2.0
+		# Range: 0.01 ~ 100.0
+		egg_bomb_explosion_power: 3.0d
+		
+		# Maximum speed for launched egg bombs
+		# Default: 0.25
+		# Range: 0.001 ~ 5.0
+		egg_bomb_speed_max: 0.25d
+		
+		# Minimum speed for launched egg bombs
+		# Default: 0.05
+		# Range: 0.001 ~ 5.0
+		egg_bomb_speed_min: 0.05d
+		
+		# Maximum interval in ticks for the spin/egg-bomb attack
+		# Default: 600
+		# Range: 20 ~ 2147483647
+		max_interval: 600
+		
+		# Minimum interval in ticks for the spin/egg-bomb attack
+		# Default: 400
+		# Range: 20 ~ 2147483647
+		min_interval: 400
+	}
+	stampede_attack: {
+		# Maximum interval in ticks for the stampede/zombie spawn attack
+		# Default: 500
+		# Range: 20 ~ 2147483647
+		max_interval: 500
+		
+		# Minimum interval in ticks for the stampede/zombie spawn attack
+		# Default: 500
+		# Range: 20 ~ 2147483647
+		min_interval: 500
+		
+		# Maximum number of baby zombies spawned in the stampede
+		# Default: 10
+		# Range: 1 ~ 64
+		zombie_count_max: 12
+		
+		# Minimum number of baby zombies spawned in the stampede
+		# Default: 6
+		# Range: 1 ~ 64
+		zombie_count_min: 6
+	}
+}

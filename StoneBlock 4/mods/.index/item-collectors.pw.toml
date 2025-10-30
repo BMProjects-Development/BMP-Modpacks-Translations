@@ -1,0 +1,16 @@
+filename = 'itemcollectors-1.1.10-neoforge-mc1.21.jar'
+name = 'Item Collectors'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2019bdbb89da0f61ce40448164bdd9a5b13cb2d7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5550187
+project-id = 395620

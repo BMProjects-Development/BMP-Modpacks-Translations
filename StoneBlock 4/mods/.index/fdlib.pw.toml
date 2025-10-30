@@ -1,0 +1,16 @@
+filename = 'fdlib-1.0.4-1.21.1.jar'
+name = 'FDLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'aed3517de2e8c46e1ad7f64b16a7d10b4672dbf1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7061918
+project-id = 1271749

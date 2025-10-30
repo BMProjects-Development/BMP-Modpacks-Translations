@@ -1,0 +1,52 @@
+{
+	# If non-zero, set the base health of all mobs to be multiplied by this value. Set to 0 to disable.
+	# Default: 0.0
+	# Range: 0.0 ~ 1000.0
+	modify_mob_base_health: 0.0d
+	performance: {
+		# Improve reloading performance by disabling block cache rebuild on client tag data reload
+		# Default: true
+		skip_block_cache_rebuild: true
+	}
+	spawners: {
+		# When enabled, broken spawner blocks will be remembered and will respawn at a given interval.
+		# Default: false
+		allow_respawn: false
+		
+		# Default: false
+		punish_for_breaking_spawners: true
+		
+		# A list of entity types that will be used to replace broken spawners. Set to an empty list to disable.
+		# Default: []
+		random_entity: [ ]
+		
+		# The interval in minutes at which spawners will respawn.
+		# Default: 60
+		# Range: 0 ~ 1440
+		respawn_interval: 60
+	}
+	villagers: {
+		# If true, Wandering Traders will no longer drink invisibility potions at night
+		# (or milk buckets to remove their invisibility when it's day)
+		# Default: false
+		no_wandering_trader_invis_potions: true
+	}
+	worldgen: {
+		structure_rotation_override: {
+			"ftb:vaults/twilight_forest/yeti/start": "none"
+			"ftb:vaults/twilight_forest/snow_queen/start": "none"
+			"minecraft:ancient_city/city_center": "none"
+			"ftb:dungeons/end": "none"
+			"ftb:telepad": "none"
+			"ftb:vaults/twilight_forest/hydra/start": "none"
+			"ftb:vaults/chicken_jockey": "none"
+			"ftb:vaults/mffs/start": "none"
+			"ftb:vaults/portal": "none"
+			"ftb:vaults/twilight_forest/knight/start": "none"
+			"ftb:vaults/burning_disco": "none"
+			"ftb:arcane_grove/start": "none"
+			"ftb:vaults/twilight_forest/lich/start": "none"
+			"ftb:vaults/create_vault/start_zone": "none"
+		}
+	}
+}

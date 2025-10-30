@@ -1,0 +1,16 @@
+filename = 'bonsaitrees4-4.0.9.jar'
+name = 'Bonsai Trees 4'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '06926c7dc020fa89737c3f2e4a0a722e36b89c81'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7094632
+project-id = 278993

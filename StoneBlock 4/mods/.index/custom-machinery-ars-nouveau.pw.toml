@@ -1,0 +1,16 @@
+filename = 'CustomMachineryArsNoveau-1.2.0.jar'
+name = 'Custom Machinery Ars Nouveau'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6a43465f60cd39c054ad5e0db70ed733c6b305bd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6988765
+project-id = 969074

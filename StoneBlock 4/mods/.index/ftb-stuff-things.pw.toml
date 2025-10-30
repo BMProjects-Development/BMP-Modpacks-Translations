@@ -1,0 +1,16 @@
+filename = 'ftb-stuff-things-21.1.11.jar'
+name = 'FTB Stuff & Things'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '18c0f5048dc15cb18a624fb5fc8a6bfcb4ae0711'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6965703
+project-id = 1197860

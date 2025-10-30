@@ -1,0 +1,13 @@
+{
+    "block.dimdungeons.block_gilded_portal": "附魂传送门方块",
+    "block.dimdungeons.block_gold_portal": "地牢传送门",
+    "block.dimdungeons.block_portal_crown": "传送门强化方块",
+    "error.dimdungeons.portal_error_4": "传送门框架应使用深板岩砖搭建，而非",
+    "error.dimdungeons.portal_error_6": "传送门框架应使用深板岩砖搭建，而非",
+    "error.dimdungeons.portal_error_7": "传送门尖顶顶部需放置附魂传送门方块，而非",
+    "error.dimdungeons.portal_error_8": "必须在传送门框架顶部添加两个传送门强化方块。",
+    "advancements.dimdungeons.dungeons.find_crown.description": "在地牢中找到两个传送门强化方块。",
+    "npart.dimdungeons.theme_1": "远古竞技场",
+    "npart.dimdungeons.theme_2": "附魂竞技场",
+    "npart.dimdungeons.theme_3": "远古竞技场"
+}

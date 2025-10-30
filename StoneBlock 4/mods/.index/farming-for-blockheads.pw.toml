@@ -1,0 +1,16 @@
+filename = 'farmingforblockheads-neoforge-1.21.1-21.1.9.jar'
+name = 'Farming for Blockheads'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4c08ed279bff461f67150896f01abeee86c71f4e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7048916
+project-id = 261924

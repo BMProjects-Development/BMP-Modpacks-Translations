@@ -1,0 +1,217 @@
+{
+  "type": "simple",
+  "id": "worlds_invite_management",
+  "title": {
+    "translate": "rgp_client.gui.worlds_invite_management.title"
+  },
+  "back": {
+    "action": "open_screen",
+    "id": "worlds_configuration",
+    "pass_storage": true
+  },
+  "entries": [
+  ],
+  "elements": [
+    {
+      "type": "text",
+      "id": "title",
+      "text": {
+        "translate": "rgp_client.gui.worlds_invite_management.title"
+      },
+      "alignment": "center",
+      "position": {
+        "x": 0,
+        "y": 15,
+        "pivot": "top_center"
+      }
+    },
+    {
+      "type": "panel",
+      "id": "invite_management",
+      "render_background": true,
+      "elements": [
+        {
+          "type": "text",
+          "id": "invites_player",
+          "text": {
+            "translate": "rgp_client.gui.worlds_invite_management.invites",
+            "color": "dark_gray"
+          },
+          "alignment": "left",
+          "position": {
+            "x": 5,
+            "y": 5,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "simple_button",
+          "id": "create_invite",
+          "text": {
+            "translate": "rgp_client.gui.worlds_configuration.create_invite"
+          },
+          "position": {
+            "x": 0,
+            "y": -5,
+            "pivot": "bottom_center"
+          },
+          "options": {
+            "width": 200,
+            "height": 20
+          },
+          "callback": {
+            "action": "open_screen",
+            "id": "worlds_create_invite",
+            "pass_storage": true
+          }
+        },
+        {
+          "type": "panel_list",
+          "id": "invite_list",
+          "scroll": true,
+          "render_background": true,
+          "render_type": "slot",
+          "elements": [
+          ],
+          "entry_loader": {
+            "type": "invite_list_entry",
+            "widget_height": 24,
+            "entry_template": {
+              "id": "$inviteCode",
+              "elements": [
+                {
+                  "type": "panel",
+                  "id": "player",
+                  "render_background": true,
+                  "render_type": "list",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "id": "invite_code",
+                      "text": {
+                        "translate": "rgp_client.gui.worlds_invite_management.invite_code",
+                        "with": [
+                          "$inviteCode",
+                          "$autoAcceptDisplay"
+                        ]
+                      },
+                      "tooltip": {
+                        "translate": "rgp_client.gui.worlds_invite_management.copy_invite_code_to_clipboard"
+                      },
+                      "alignment": "left",
+                      "position": {
+                        "x": 2,
+                        "y": 0,
+                        "pivot": "middle_left"
+                      },
+                      "callback": {
+                        "action": "copy_to_clipboard",
+                        "content": "$inviteCode",
+                        "on_complete": {
+                          "action": "toast",
+                          "icon": "ftblibrary:textures/icons/info.png",
+                          "display_time": 5,
+                          "title": {
+                            "translate": "rgp_client.gui.worlds_invite_management.invite_code_copied"
+                          },
+                          "content": {
+                            "translate": "rgp_client.gui.worlds_invite_management.invite_code_copied_to_clipboard"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "id": "remove",
+                      "icon": "ftblibrary:textures/icons/remove.png",
+                      "tooltip": {
+                        "translate": "rgp_client.gui.worlds_invite_management.remove_invite_code"
+                      },
+                      "callback": {
+                        "action": "confirmation",
+                        "prompt": {
+                          "translate": "rgp_client.gui.worlds_invite_management.remove_invite_code_confirmation"
+                        },
+                        "on_accept": {
+                          "action": "request",
+                          "request": "edit_invite_code",
+                          "variables": {
+                            "gameServerId": "$gameServerId",
+                            "code": "$inviteCode",
+                            "usesRemaining": 0
+                          },
+                          "on_complete": {
+                            "action": "open_screen",
+                            "id": "worlds_invite_management",
+                            "pass_storage": true
+                          }
+                        }
+                      },
+                      "position": {
+                        "x": -5,
+                        "y": 0,
+                        "pivot": "middle_right"
+                      },
+                      "options": {
+                        "width": 16,
+                        "height": 16
+                      }
+                    }
+                  ],
+                  "options": {
+                    "width": 293,
+                    "height": 24
+                  },
+                  "position": {
+                    "x": 1,
+                    "y": 1,
+                    "pivot": "top_left"
+                  }
+                }
+              ]
+            }
+          },
+          "options": {
+            "width": 295,
+            "height": 115
+          },
+          "position": {
+            "x": 5,
+            "y": 16,
+            "pivot": "top_left"
+          }
+        }
+      ],
+      "options": {
+        "width": 307,
+        "height": 160
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "pivot": "center"
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "back",
+      "text": {
+        "translate": "gui.back"
+      },
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_configuration",
+        "pass_storage": true
+      }
+    }
+  ]
+}

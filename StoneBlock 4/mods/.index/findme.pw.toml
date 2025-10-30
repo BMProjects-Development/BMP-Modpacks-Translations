@@ -1,0 +1,16 @@
+filename = 'findme-3.3.3-neoforge.jar'
+name = 'FindMe'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '096121af0007724cc8666994d5b5df669475a145'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6464161
+project-id = 291936

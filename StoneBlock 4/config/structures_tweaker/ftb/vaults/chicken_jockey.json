@@ -1,0 +1,22 @@
+{
+  "configVersion": 2,
+  "config": {
+    "canBreakBlocks": true,
+    "canInteract": true,
+    "canPlaceBlocks": false,
+    "allowPlayerPVP": true,
+    "allowCreatureSpawning": false,
+    "allowFireSpread": false,
+    "allowExplosions": true,
+    "allowItemPickup": true,
+    "onlyProtectOriginalBlocks": false,
+    "allowElytraFlight": true,
+    "allowEnderPearls": true,
+    "allowRiptide": true,
+    "itemUseWhitelist": ["simpletomb:grave_key"],
+    "interactionWhitelist": ["simpletomb:grave_cross", "simpletomb:grave_normal","simpletomb:grave_simple"],
+    "blockBreakWhitelist": ["simpletomb:grave_cross", "simpletomb:grave_normal","simpletomb:grave_simple"],
+    "blockPlaceWhitelist": ["simpletomb:grave_cross", "simpletomb:grave_normal","simpletomb:grave_simple"]
+   
+  }
+}

@@ -1,0 +1,16 @@
+filename = 'morejs-neoforge-1.21-0.14.1.jar'
+name = 'MoreJS'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b37a51415f95eec2276a79d4b0dc25397ba43cda'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5884698
+project-id = 666198

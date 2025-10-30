@@ -1,0 +1,16 @@
+filename = 'CarbonConfig-Neoforge-1.21-1.2.9.6.jar'
+name = 'Carbon Config'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '228ac31b8407d71d381e0bbd10180b050eef124d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7036782
+project-id = 898104

@@ -1,0 +1,27 @@
+{
+	icon: {
+		id: "industrialforegoing:mycelial_reactor"
+	}
+	id: "70ADF260F7A38A21"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ id: "28986BD450FDED92", item: { count: 1, id: "industrialforegoing:mycelial_reactor" } }
+		{ id: "307F4BD8097A1570", item: { count: 1, id: "industrialforegoing:mycelial_furnace" } }
+		{ id: "3E4A94089613A25E", item: { count: 1, id: "industrialforegoing:mycelial_slimey" } }
+		{ id: "2445761AE31A2BA5", item: { count: 1, id: "industrialforegoing:mycelial_culinary" } }
+		{ id: "41272FEE28E97D23", item: { count: 1, id: "industrialforegoing:mycelial_potion" } }
+		{ id: "481B237379332FB2", item: { count: 1, id: "industrialforegoing:mycelial_disenchantment" } }
+		{ id: "49E1CEF63361E844", item: { count: 1, id: "industrialforegoing:mycelial_ender" } }
+		{ id: "5DBD14063623B3C8", item: { count: 1, id: "industrialforegoing:mycelial_explosive" } }
+		{ id: "5D3F518330ED3993", item: { count: 1, id: "industrialforegoing:mycelial_frosty" } }
+		{ id: "15C9A8D1CD16546B", item: { count: 1, id: "industrialforegoing:mycelial_halitosis" } }
+		{ id: "475EB6D7C29D956F", item: { count: 1, id: "industrialforegoing:mycelial_magma" } }
+		{ id: "79F0B9B4FE6F9747", item: { count: 1, id: "industrialforegoing:mycelial_pink" } }
+		{ id: "0F5838679E950031", item: { count: 1, id: "industrialforegoing:mycelial_netherstar" } }
+		{ id: "3B71BF2EEDAFB810", item: { count: 1, id: "industrialforegoing:mycelial_death" } }
+		{ id: "587B190FEC8594E7", item: { count: 1, id: "industrialforegoing:mycelial_rocket" } }
+		{ id: "6EE30301E908C456", item: { count: 1, id: "industrialforegoing:mycelial_crimed" } }
+		{ id: "3A5D7D511F9B23FA", item: { count: 1, id: "industrialforegoing:mycelial_meatallurgic" } }
+	]
+}

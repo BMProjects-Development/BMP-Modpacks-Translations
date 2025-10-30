@@ -1,0 +1,17 @@
+{
+	advanced: {
+		# (Advanced) If true, base definition types marked as 'dev_mode: true' will be shown in the base selection GUI. These bases are intended for development mode debugging, and are not generally useful for players.
+		# Default: false
+		show_dev_mode: false
+	}
+	general: {
+		# If true, suppress the void fog effect that appears at low Y levels while in void team dimensions
+		# Default: true
+		hide_void_fog: true
+		
+		# In void team dimensions, the Y level of the horizon; the lower sky turns black if the player's eye position is below this level
+		# Default: 0.0
+		# Range: -Infinity ~ Infinity
+		void_horizon: 0.0d
+	}
+}

@@ -1,0 +1,16 @@
+filename = 'monocle-0.2.2.ms.jar'
+name = 'Monocle'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '9ba9abc90d71bf2e8c5fa56d2fad1ecff3e782ae'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6803201
+project-id = 1007288

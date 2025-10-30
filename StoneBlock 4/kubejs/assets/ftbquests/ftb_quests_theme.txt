@@ -1,0 +1,461 @@
+[!1]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_stonebrick1.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
+# Welcome
+[1C63D973F178FD60]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+
+# Getting Started
+[41A8FE9D26EFA401]
+background: ftb:textures/quests/backgrounds/spawnbackground8.png
+dependency_line_texture: ftb:textures/quests/theme_assets/stonehole3.png
+dependency_line_selected_speed: 2.0d
+dependency_line_thickness: 0.3d
+dependency_line_unselected_speed: 0.5d
+dependency_line_uncompleted_color: #cbb392ff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+quest_view_border: white
+
+[e]
+background: ftb:textures/quests/pyramid_background.png
+
+# Tier 1
+[1769B71219D1B9F7]
+background: ftb:textures/quests/backgrounds/tier1_noechoes_bg_nobars.png
+dependency_line_texture: ftb:textures/quests/theme_assets/stonehole3.png
+dependency_line_selected_speed: 2.0d
+dependency_line_thickness: 0.3d
+dependency_line_unselected_speed: 0.5d
+dependency_line_uncompleted_color: #cbb392ff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+quest_view_border: white
+
+# Tier2
+[2FFD2690C1D8029D]
+background: ftb:textures/quests/backgrounds/tier2_noechoes_bg_nobars.png
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_deepslate2.png
+dependency_line_selected_speed: 2.0d
+dependency_line_thickness: 0.2d
+dependency_line_unselected_speed: 0.5d
+dependency_line_uncompleted_color: #66FFFFFF
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+quest_view_border: white
+
+# Tier3
+[39E1055DAEF9F36E]
+background: ftb:textures/quests/backgrounds/tier3_noechoes_bg_nobars.png
+dependency_line_texture: ftb:textures/quests/theme_assets/star2.png
+dependency_line_selected_speed: 2.0d
+dependency_line_thickness: 0.3d
+dependency_line_unselected_speed: 0.5d
+dependency_line_uncompleted_color: #cbb392ff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+quest_view_border: white
+
+# Tier4
+[7ECE17AB1DD3E736]
+background: ftb:textures/quests/backgrounds/tier4_noechoes_bg_nobars.png
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_voidbeam.png
+dependency_line_selected_speed: 1.0d
+dependency_line_thickness: 0.5d
+dependency_line_unselected_speed: 0.5d
+dependency_line_uncompleted_color: #cbb392ff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+quest_view_border: white
+
+# Tier5
+[2523CB3E44086BA3]
+background: ftb:textures/quests/backgrounds/tier5_noechoes_bg_nobars.png
+dependency_line_texture: ftb:textures/quests/theme_assets/line_abyss.png
+dependency_line_selected_speed: 1.0d
+dependency_line_thickness: 0.6d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #cbb392ff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+quest_view_border: white
+
+# Bounty Board
+[4F0F16931654DF58]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_stonebrick1.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
+# Exploration
+[08EC6A07A9C7A8F2]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_stonebrick1.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
+# Gearing Up
+[2EF5133328945047]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_stonebrick1.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
+# Generating Resources
+[7ECA39E2497C35D1]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_stonebrick1.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
+# Logistics and Automation
+[5653350BC99D4290]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_stonebrick1.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
+# Magic
+[091DB004D9DE93BA]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_stonebrick1.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
+# Power
+[391B65CD04A90459]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_stonebrick1.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
+# Storage
+[65414C40BFA33425]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_stonebrick1.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
+# Useful Items and Tips
+[3B99F85218D37371]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_stonebrick1.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
+#Genreal Tech
+[446E3CE6936F2CAE]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_stonebrick1.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
+# Mekanism
+[0C812DF8D14584AB]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_stonebrick1.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
+# Oritech
+[1FD2F304ADC237D0]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_stonebrick1.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
+#Draconic Evolution
+[5BBD28643F4FD3B6]
+background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_stonebrick1.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white

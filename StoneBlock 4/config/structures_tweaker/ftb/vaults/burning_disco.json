@@ -1,0 +1,21 @@
+{
+  "configVersion": 2,
+  "config": {
+    "canBreakBlocks": false,
+    "canInteract": true,
+    "canPlaceBlocks": false,
+    "allowPlayerPVP": true,
+    "allowCreatureSpawning": false,
+    "allowFireSpread": true,
+    "allowExplosions": true,
+    "allowItemPickup": true,
+    "onlyProtectOriginalBlocks": false,
+    "allowElytraFlight": true,
+    "allowEnderPearls": true,
+    "allowRiptide": true,
+    "itemUseWhitelist": ["simpletomb:grave_key"],
+    "interactionWhitelist": ["simpletomb:grave_cross", "simpletomb:grave_normal","simpletomb:grave_simple", "supplementaries:netherite_door","minecraft:jukebox","minecraft:note_block"],
+    "blockBreakWhitelist": ["minecraft:red_nether_brick_wall","simpletomb:grave_cross", "simpletomb:grave_normal","simpletomb:grave_simple"],
+    "blockPlaceWhitelist": ["simpletomb:grave_cross", "simpletomb:grave_normal","simpletomb:grave_simple"]
+  }
+}

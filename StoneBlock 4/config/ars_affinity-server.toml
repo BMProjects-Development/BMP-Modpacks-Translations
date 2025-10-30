@@ -1,0 +1,105 @@
+#Affinity System
+[affinity]
+	#Percentage of affinity gain that opposing schools lose (0.0 to 1.0)
+	# Default: 0.66
+	# Range: 0.0 ~ 1.0
+	opposingSchoolPenaltyPercentage = 0.66
+	#Multiplier for affinity gain per mana spent. Higher values = faster progression (0.0001 to 0.1)
+	# Default: 0.001
+	# Range: 1.0E-4 ~ 0.1
+	affinityGainMultiplier = 0.001
+	#Duration in seconds for affinity consumable cooldown effect (default 30 minutes = 1800 seconds)
+	# Default: 1800
+	# Range: 60 ~ 7200
+	affinityConsumableCooldownDuration = 1800
+	#Y coordinate threshold for deep underground detection. Players below this Y level are considered deep underground
+	# Default: 20
+	# Range: -64 ~ 320
+	deepUndergroundYThreshold = 20
+	#Minimum affinity percentage required to reach Tier 1 (0.0 to 100.0)
+	# Default: 25.0
+	# Range: 0.0 ~ 100.0
+	tier1ThresholdPercentage = 25.0
+	#Minimum affinity percentage required to reach Tier 2 (0.0 to 100.0)
+	# Default: 50.0
+	# Range: 0.0 ~ 100.0
+	tier2ThresholdPercentage = 50.0
+	#Minimum affinity percentage required to reach Tier 3 (0.0 to 100.0)
+	# Default: 75.0
+	# Range: 0.0 ~ 100.0
+	tier3ThresholdPercentage = 75.0
+	#How quickly affinity gain decreases as affinity increases (1.0 = linear, 2.0 = exponential, higher = more aggressive decay)
+	# Default: 1.7
+	# Range: 0.5 ~ 5.0
+	affinityScalingDecayStrength = 1.7
+	#Minimum percentage of original gain that can be applied (0.1 = 10%, 0.05 = 5%)
+	# Default: 0.1
+	# Range: 0.01 ~ 0.5
+	affinityScalingMinimumFactor = 0.1
+	#How quickly affinity gain decreases as total points across all schools increase (1.0 = linear, 2.0 = exponential, higher = more aggressive decay)
+	# Default: 1.3
+	# Range: 0.5 ~ 5.0
+	globalScalingDecayStrength = 1.3
+	#Minimum percentage of original gain when you have many total points (0.1 = 10%, 0.05 = 5%)
+	# Default: 0.2
+	# Range: 0.01 ~ 0.5
+	globalScalingMinimumFactor = 0.2
+
+#ICE BLAST Active Ability Configuration
+[ice_blast]
+	#Default mana cost percentage for ICE BLAST ability (0.0 to 1.0)
+	# Default: 0.3
+	# Range: 0.1 ~ 0.8
+	defaultManaCost = 0.3
+	#Default cooldown in ticks for ICE BLAST ability (20 ticks = 1 second)
+	# Default: 200
+	# Range: 60 ~ 1200
+	defaultCooldown = 200
+	#Default damage for ICE BLAST ability
+	# Default: 8.0
+	# Range: 1.0 ~ 20.0
+	defaultDamage = 8.0
+	#Default freeze time in ticks for ICE BLAST ability (20 ticks = 1 second)
+	# Default: 100
+	# Range: 20 ~ 400
+	defaultFreezeTime = 100
+	#Default radius for ICE BLAST ability
+	# Default: 6.0
+	# Range: 2.0 ~ 15.0
+	defaultRadius = 6.0
+
+#GROUND SLAM Configuration
+[ground_slam]
+	#Max drop distance used for logarithmic scaling (blocks)
+	# Default: 10.0
+	# Range: 1.0 ~ 64.0
+	maxDropDistance = 10.0
+	#Max affect radius (blocks)
+	# Default: 5.0
+	# Range: 1.0 ~ 16.0
+	maxRadius = 5.0
+
+#Summon Distance Override Configuration
+[summon_distance_override]
+	#Minimum distance before summons start following player when PASSIVE_SUMMONING_POWER is active (blocks)
+	# Default: 50.0
+	# Range: 25.0 ~ 100.0
+	minDistance = 50.0
+	#Maximum distance before summons stop following player when PASSIVE_SUMMONING_POWER is active (blocks)
+	# Default: 75.0
+	# Range: 50.0 ~ 150.0
+	maxDistance = 75.0
+	#Distance at which summons teleport back to player when PASSIVE_SUMMONING_POWER is active (blocks)
+	# Default: 100.0
+	# Range: 75.0 ~ 200.0
+	teleportDistance = 100.0
+
+#Glyph Blacklist Configuration
+[glyph_blacklist]
+	#List of glyph IDs to ignore for affinity progress tracking. Use format 'modid:glyph_name' (e.g., 'ars_nouveau:glyph_break')
+	blacklistedGlyphs = ["ars_nouveau:glyph_break", "ars_nouveau:glyph_craft"]
+
+#UI Configuration
+[ui]
+	#Enable the Ars Affinity button in the spell book GUI
+	enableSpellBookButton = true

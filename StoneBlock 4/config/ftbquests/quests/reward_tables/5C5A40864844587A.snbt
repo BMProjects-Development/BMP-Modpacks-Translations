@@ -1,0 +1,39 @@
+{
+	id: "5C5A40864844587A"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{
+			auto: "no_toast"
+			command: "/endershard @s 8 131 -3593 Void Chasm North"
+			id: "27EBCAD2651AD138"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s 8 131 3607 Void Chasm South"
+			id: "00EC1162EB842D86"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s 3608 131 7 Void Chasm East"
+			id: "0D23EB824CB0A0C2"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s -3592 131 7 Void Chasm West"
+			id: "59AD0E3C98FC5EA2"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+	]
+}

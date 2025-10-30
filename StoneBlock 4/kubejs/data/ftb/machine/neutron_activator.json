@@ -1,0 +1,127 @@
+{
+  "name": "ftb.machine.neutron_activator",
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "mekanism:tile.machine.resistive_heater",
+        "pitch": 2.0
+      },
+      "custommachinery:block": "ftb:machine/neutron_activator_active#standalone"
+    },
+    "errored": {
+      "custommachinery:block": "ftb:machine/neutron_activator#standalone"
+    },
+    "paused": {
+      "custommachinery:block": "ftb:machine/neutron_activator_idle#standalone"
+    },
+    "custommachinery:block": "ftb:machine/neutron_activator#standalone",
+    "idle": {
+      "custommachinery:block": "ftb:machine/neutron_activator_idle#standalone"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:chemical",
+      "radiations": true,
+      "max_output": 10000,
+      "mode": "input",
+      "whitelist": [
+        "mekanism:nuclear_waste",
+        "mekanism:lithium"
+      ],
+      "id": "chemical_input",
+      "capacity": 120000
+    },
+    {
+      "type": "custommachinery:chemical",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "radiations": true,
+      "max_output": 10000,
+      "mode": "output",
+      "whitelist": [
+        "mekanism:polonium",
+        "mekanismgenerators:tritium"
+      ],
+      "id": "chemical_output",
+      "capacity": 120000
+    },
+    {
+      "type": "custommachinery:heat"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input",
+      "mode": "input"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:chemical",
+      "id": "chemical_input",
+      "x": 88,
+      "y": 8
+    },
+    {
+      "type": "custommachinery:chemical",
+      "id": "chemical_output",
+      "x": 150,
+      "y": 8
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 230,
+      "y": 5
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 198,
+      "y": 8,
+      "component": "custommachinery:chemical"
+    },
+    {
+      "type": "custommachinery:heat",
+      "x": 119,
+      "y": 36,
+      "height": 44
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 100
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 116,
+      "y": 16
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input",
+      "x": 119,
+      "y": 81,
+      "ghost": {
+        "items": {
+          "item": "avaritia:neutron_pile"
+        },
+        "always_render": true
+      }
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 5,
+      "y": 5
+    }
+  ]
+}

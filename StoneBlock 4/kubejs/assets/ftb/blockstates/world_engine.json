@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "mode=inactive,facing=south": { "model": "ftb:block/world_engine_inactive" },
+    "mode=inactive,facing=west":  { "model": "ftb:block/world_engine_inactive", "y": 270 },
+    "mode=inactive,facing=north": { "model": "ftb:block/world_engine_inactive", "y": 180 },
+    "mode=inactive,facing=east":  { "model": "ftb:block/world_engine_inactive", "y": 90 },
+
+    "mode=active,facing=south":   { "model": "ftb:block/world_engine_active" },
+    "mode=active,facing=west":    { "model": "ftb:block/world_engine_active", "y": 270 },
+    "mode=active,facing=north":   { "model": "ftb:block/world_engine_active", "y": 180 },
+    "mode=active,facing=east":    { "model": "ftb:block/world_engine_active", "y": 90 },
+
+    "mode=paused,facing=south":   { "model": "ftb:block/world_engine_paused" },
+    "mode=paused,facing=west":    { "model": "ftb:block/world_engine_paused", "y": 270 },
+    "mode=paused,facing=north":   { "model": "ftb:block/world_engine_paused", "y": 180 },
+    "mode=paused,facing=east":    { "model": "ftb:block/world_engine_paused", "y": 90 },
+
+    "mode=errored,facing=south":  { "model": "ftb:block/world_engine_errored" },
+    "mode=errored,facing=west":   { "model": "ftb:block/world_engine_errored", "y": 270 },
+    "mode=errored,facing=north":  { "model": "ftb:block/world_engine_errored", "y": 180 },
+    "mode=errored,facing=east":   { "model": "ftb:block/world_engine_errored", "y": 90 }
+  }
+}

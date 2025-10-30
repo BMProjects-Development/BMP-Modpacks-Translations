@@ -1,0 +1,16 @@
+filename = 'connectedglass-1.1.14-neoforge-mc1.21.jar'
+name = 'Connected Glass'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0a44c13d6744e0eeec5bf38f58756a8e86e96f55'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6811960
+project-id = 383129

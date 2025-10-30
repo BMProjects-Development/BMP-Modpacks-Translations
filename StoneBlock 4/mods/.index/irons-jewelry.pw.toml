@@ -1,0 +1,16 @@
+filename = 'irons_jewelry-1.21.1-1.5.3.jar'
+name = "Iron's Gems 'n Jewelry"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3b4195972f4324beda568df790b6e0baf968b4b2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7084345
+project-id = 1101111

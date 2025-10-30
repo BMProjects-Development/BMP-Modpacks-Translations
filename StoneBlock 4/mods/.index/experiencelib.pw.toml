@@ -1,0 +1,16 @@
+filename = 'experiencelib-1.21.1-1.1.1.jar'
+name = 'ExperienceLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '334df17d784f1e8cb70a09bca6a9865345f9d209'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6616717
+project-id = 1156551

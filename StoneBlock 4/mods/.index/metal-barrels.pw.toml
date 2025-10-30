@@ -1,0 +1,16 @@
+filename = 'metalbarrels-neoforge-1.21.1-7.jar'
+name = 'Metal Barrels'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f137dc4930e2bb50e28ed16bd11d4aa9015dc0c3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6111347
+project-id = 324985

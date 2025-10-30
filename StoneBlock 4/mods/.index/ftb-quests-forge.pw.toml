@@ -1,0 +1,16 @@
+filename = 'ftb-quests-neoforge-2101.1.17.jar'
+name = 'FTB Quests (Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd69cd902ae3073122b3610fe974a28fd5a3362dd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7133722
+project-id = 289412

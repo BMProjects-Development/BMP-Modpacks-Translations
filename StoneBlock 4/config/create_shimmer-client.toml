@@ -1,0 +1,13 @@
+#.
+#The vision range through Liquid Experience will be multiplied by this factor
+# Default: 1.0
+# Range: 1.0 ~ 256.0
+experienceVisionMultiplier = 1.0
+#.
+#Enable FOV modification when player has shimmer effect
+shimmerFovEnabled = true
+#.
+#FOV multiplier for shimmer effect (lower = more zoomed in, higher = more zoomed out). Default: 0.85
+# Default: 0.8500000238418579
+# Range: 0.10000000149011612 ~ 2.0
+shimmerFovMultiplier = 0.8500000238418579

@@ -1,0 +1,16 @@
+filename = 'petrock-neo-0.18.6.jar'
+name = 'Petrock - Forge'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '73eef48fa01e79ef71b0cdb6b341a0aa02195804'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7148481
+project-id = 230556

@@ -1,0 +1,36 @@
+{
+	general: {
+		# When encoding a villager, should the villager's level be preserved?
+		# Setting this to true makes the Encoder a convenient way to move villagers around...
+		# Default: false
+		encoder_keeps_village_level: false
+		
+		# Maximum number of times an encode may be used
+		# Default: 10
+		# Range: 1 ~ 2147483647
+		encoder_max_uses: 10
+		
+		# Recipe duration multiplier for manual brushing, higher is faster
+		# Recipe duration is divided by this value when using a brush manually.
+		# Default: 4.0
+		# Range: 0.05 ~ 1.7976931348623157E308
+		manual_brushing_speedup: 1.5d
+	}
+	unearther: {
+		# Used to multiply the amount of saturation a food item can provide
+		# Food saturation determines how long the speed boost will last
+		# Default: 1
+		# Range: 1 ~ 2147483647
+		food_saturation_multiplier: 2
+		
+		# Used to multiply the amount of speed boost a food item can provide
+		# Default: 1
+		# Range: 1 ~ 2147483647
+		food_speed_boost_multiplier: 5
+		
+		# Maximum amount of food points (drumsticks) that can be stored in an Unearther
+		# Default: 24000
+		# Range: 1 ~ 2147483647
+		max_food_buffer: 24000
+	}
+}

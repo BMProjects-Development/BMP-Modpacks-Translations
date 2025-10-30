@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "top":      "ftb:block/engine/world_engine_plating",
+    "bottom":   "ftb:block/engine/world_engine_plating",
+    "side":     "ftb:block/engine/world_engine_slab_plating",
+    "particle": "ftb:block/engine/world_engine_plating"
+  }
+}

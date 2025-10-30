@@ -1,0 +1,16 @@
+filename = 'shield_api-neoforge-2.1.0.jar'
+name = 'Shield API'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9ebcfaa021002332d57de76f2f2bef63f9833c42'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7006594
+project-id = 1048720

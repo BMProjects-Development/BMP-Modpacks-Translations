@@ -1,0 +1,2961 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "thebackrooms"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:textures/mob_effect/blindness.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "33808F1AE9F1266A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "27EFEC10CAA8466D"
+			rewards: [{
+				id: "0EE7D3BEEC77D6D5"
+				item: {
+					components: {
+						"minecraft:rarity": "rare"
+						"psi:spell": {
+							modsRequired: [{
+								modName: "psi"
+								modVersion: "2.0.0"
+							}]
+							spellList: {
+								spellList: [
+									{
+										data: {
+											key: "psi:operator_entity_position"
+											params: {
+												_target: 2
+											}
+										}
+										x: 2
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:selector_focal_point"
+										}
+										x: 2
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:operator_entity_position"
+											params: {
+												_target: 1
+											}
+										}
+										x: 2
+										y: 4
+									}
+									{
+										data: {
+											constantValue: "3"
+											key: "psi:constant_number"
+										}
+										x: 2
+										y: 5
+									}
+									{
+										data: {
+											constantValue: "20"
+											key: "psi:constant_number"
+										}
+										x: 2
+										y: 6
+									}
+									{
+										data: {
+											key: "psi:operator_vector_raycast"
+											params: {
+												_max: 0
+												_position: 3
+												_ray: 2
+											}
+										}
+										x: 3
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:operator_entity_look"
+											params: {
+												_target: 3
+											}
+										}
+										x: 3
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:operator_vector_raycast_axis"
+											params: {
+												_max: 0
+												_position: 3
+												_ray: 1
+											}
+										}
+										x: 3
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:trick_delay"
+											params: {
+												_time: 3
+											}
+										}
+										x: 3
+										y: 5
+									}
+									{
+										data: {
+											key: "psi:trick_conjure_light"
+											params: {
+												_position: 4
+												_time: 3
+											}
+										}
+										x: 3
+										y: 6
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 3
+											}
+										}
+										x: 4
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:trick_move_block"
+											params: {
+												_position: 1
+												_target: 2
+											}
+										}
+										x: 4
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 3
+											}
+										}
+										x: 4
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 4
+											}
+										}
+										x: 4
+										y: 5
+									}
+									{
+										data: {
+											key: "psi:operator_vector_subtract"
+											params: {
+												_vector1: 1
+												_vector2: 4
+												_vector3: 0
+											}
+										}
+										x: 4
+										y: 6
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 3
+											}
+										}
+										x: 5
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 1
+											}
+										}
+										x: 5
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:operator_vector_sum"
+											params: {
+												_vector1: 1
+												_vector2: 3
+												_vector3: 0
+											}
+										}
+										x: 5
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:operator_vector_raycast"
+											params: {
+												_max: 0
+												_position: 1
+												_ray: 4
+											}
+										}
+										x: 5
+										y: 5
+									}
+									{
+										data: {
+											key: "psi:operator_vector_construct"
+											params: {
+												_x: 0
+												_y: 4
+												_z: 0
+											}
+										}
+										x: 5
+										y: 6
+									}
+									{
+										data: {
+											key: "psi:error_suppressor"
+										}
+										x: 6
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:trick_collapse_block"
+											params: {
+												_position: 2
+											}
+										}
+										x: 6
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 3
+											}
+										}
+										x: 6
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:operator_vector_construct"
+											params: {
+												_x: 0
+												_y: 2
+												_z: 0
+											}
+										}
+										x: 6
+										y: 5
+									}
+									{
+										data: {
+											constantValue: "-1"
+											key: "psi:constant_number"
+										}
+										x: 6
+										y: 6
+									}
+								]
+							}
+							spellName: "Silk Touch Harvest!"
+							uuidLeast: -6975839977868760711L
+							uuidMost: -2096169993696031826L
+							validSpell: 1b
+						}
+					}
+					count: 1
+					id: "psi:spell_bullet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C4F6F7CCB752E40"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "39591758177F9B88"
+			rewards: [{
+				id: "2AEA75A5F2440A03"
+				item: {
+					components: {
+						"minecraft:rarity": "rare"
+						"psi:spell": {
+							modsRequired: [{
+								modName: "psi"
+								modVersion: "2.0.0"
+							}]
+							spellList: {
+								spellList: [
+									{
+										data: {
+											constantValue: "2"
+											key: "psi:constant_number"
+										}
+										x: 2
+										y: 2
+									}
+									{
+										data: {
+											constantValue: "1"
+											key: "psi:constant_number"
+										}
+										x: 2
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:trick_conjure_block"
+											params: {
+												_position: 4
+												_time: 2
+											}
+										}
+										x: 2
+										y: 5
+									}
+									{
+										data: {
+											constantValue: "1"
+											key: "psi:constant_number"
+										}
+										x: 2
+										y: 6
+									}
+									{
+										data: {
+											key: "psi:trick_add_motion"
+											params: {
+												_direction: 2
+												_speed: 3
+												_target: 4
+											}
+										}
+										x: 3
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:operator_vector_construct"
+											params: {
+												_x: 0
+												_y: 3
+												_z: 0
+											}
+										}
+										x: 3
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:operator_vector_sum"
+											params: {
+												_vector1: 4
+												_vector2: 1
+												_vector3: 0
+											}
+										}
+										x: 3
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:operator_vector_sum"
+											params: {
+												_vector1: 1
+												_vector2: 2
+												_vector3: 0
+											}
+										}
+										x: 3
+										y: 5
+									}
+									{
+										data: {
+											key: "psi:operator_vector_construct"
+											params: {
+												_x: 0
+												_y: 4
+												_z: 0
+											}
+										}
+										x: 3
+										y: 6
+									}
+									{
+										data: {
+											key: "psi:operator_focused_entity"
+											params: {
+												_target: 4
+											}
+										}
+										x: 4
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:operator_entity_position"
+											params: {
+												_target: 1
+											}
+										}
+										x: 4
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 1
+											}
+										}
+										x: 4
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 1
+											}
+										}
+										x: 4
+										y: 5
+									}
+									{
+										data: {
+											constantValue: "3"
+											key: "psi:constant_number"
+										}
+										x: 4
+										y: 6
+									}
+									{
+										data: {
+											key: "psi:selector_caster"
+										}
+										x: 5
+										y: 2
+									}
+									{
+										data: {
+											constantValue: "1.43"
+											key: "psi:constant_number"
+										}
+										x: 5
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:trick_explode"
+											params: {
+												_position: 3
+												_power: 1
+											}
+										}
+										x: 5
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:trick_conjure_block"
+											params: {
+												_position: 3
+												_time: 2
+											}
+										}
+										x: 5
+										y: 5
+									}
+									{
+										data: {
+											constantValue: "1"
+											key: "psi:constant_number"
+										}
+										x: 5
+										y: 6
+									}
+									{
+										data: {
+											key: "psi:error_suppressor"
+										}
+										x: 6
+										y: 0
+									}
+									{
+										data: {
+											key: "psi:trick_delay"
+											params: {
+												_time: 2
+											}
+										}
+										x: 6
+										y: 2
+									}
+									{
+										data: {
+											constantValue: "3"
+											key: "psi:constant_number"
+										}
+										x: 6
+										y: 3
+									}
+								]
+							}
+							spellName: "Explosion!"
+							uuidLeast: -7064451262266278609L
+							uuidMost: 7275445703071976114L
+							validSpell: 1b
+						}
+					}
+					count: 1
+					id: "psi:spell_bullet_grenade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "790E980439FC4650"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			id: "27E32F12C9434D5F"
+			rewards: [{
+				id: "73B2E9F1A96380E6"
+				item: {
+					components: {
+						"minecraft:rarity": "rare"
+						"psi:spell": {
+							modsRequired: [{
+								modName: "psi"
+								modVersion: "2.0.0"
+							}]
+							spellList: {
+								spellList: [
+									{
+										data: {
+											key: "psi:error_suppressor"
+										}
+										x: 0
+										y: 0
+									}
+									{
+										data: {
+											key: "psi:selector_caster"
+										}
+										x: 1
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 2
+											}
+										}
+										x: 1
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 2
+											}
+										}
+										x: 1
+										y: 5
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 4
+											}
+										}
+										x: 1
+										y: 6
+									}
+									{
+										data: {
+											key: "psi:operator_entity_look"
+											params: {
+												_target: 3
+											}
+										}
+										x: 2
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:operator_vector_raycast"
+											params: {
+												_max: 0
+												_position: 3
+												_ray: 1
+											}
+										}
+										x: 2
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:operator_vector_subtract"
+											params: {
+												_vector1: 1
+												_vector2: 2
+												_vector3: 0
+											}
+										}
+										x: 2
+										y: 5
+									}
+									{
+										data: {
+											key: "psi:operator_entity_position"
+											params: {
+												_target: 4
+											}
+										}
+										x: 2
+										y: 6
+									}
+									{
+										data: {
+											key: "psi:trick_blink"
+											params: {
+												_distance: 2
+												_target: 4
+											}
+										}
+										x: 3
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:constant_wrapper"
+											params: {
+												_constant: 4
+												_target: 2
+											}
+										}
+										x: 3
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 2
+											}
+										}
+										x: 3
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:operator_vector_magnitude"
+											params: {
+												_target: 3
+											}
+										}
+										x: 3
+										y: 5
+									}
+									{
+										data: {
+											key: "psi:selector_caster"
+										}
+										x: 3
+										y: 6
+									}
+									{
+										data: {
+											key: "psi:selector_caster"
+										}
+										x: 4
+										y: 2
+									}
+									{
+										data: {
+											constantValue: "10"
+											key: "psi:constant_number"
+										}
+										x: 4
+										y: 3
+									}
+								]
+							}
+							spellName: "Blink!"
+							uuidLeast: -5278800079942739071L
+							uuidMost: 3994258296351967924L
+							validSpell: 1b
+						}
+					}
+					count: 1
+					id: "psi:spell_bullet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F1C143FA5B837E0"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			id: "31C0030BC01A7371"
+			rewards: [{
+				id: "25F33162429E3EC4"
+				item: {
+					components: {
+						"minecraft:rarity": "rare"
+						"psi:spell": {
+							modsRequired: [{
+								modName: "psi"
+								modVersion: "2.0.0"
+							}]
+							spellList: {
+								spellList: [
+									{
+										data: {
+											key: "psi:operator_entity_look"
+											params: {
+												_target: 2
+											}
+										}
+										x: 2
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:selector_caster"
+										}
+										x: 2
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:operator_entity_look"
+											params: {
+												_target: 1
+											}
+										}
+										x: 2
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:operator_vector_raycast"
+											params: {
+												_max: 0
+												_position: 2
+												_ray: 3
+											}
+										}
+										x: 3
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:operator_entity_position"
+											params: {
+												_target: 3
+											}
+										}
+										x: 3
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:operator_vector_raycast_axis"
+											params: {
+												_max: 0
+												_position: 1
+												_ray: 3
+											}
+										}
+										x: 3
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 3
+											}
+										}
+										x: 4
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:operator_vector_sum"
+											params: {
+												_vector1: 2
+												_vector2: 1
+												_vector3: 0
+											}
+										}
+										x: 4
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 3
+											}
+										}
+										x: 4
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:trick_conjure_light"
+											params: {
+												_position: 3
+												_time: 0
+											}
+										}
+										x: 5
+										y: 3
+									}
+								]
+							}
+							spellName: "Conjure Light!"
+							uuidLeast: -8078344555296220325L
+							uuidMost: -4154415476417477216L
+							validSpell: 1b
+						}
+					}
+					count: 1
+					id: "psi:spell_bullet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78918E2B71F9DBDC"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			id: "1D5E4FE4560B115C"
+			rewards: [{
+				id: "4341A72F0E3AAB8D"
+				item: {
+					components: {
+						"minecraft:rarity": "rare"
+						"psi:spell": {
+							modsRequired: [{
+								modName: "psi"
+								modVersion: "2.0.0"
+							}]
+							spellList: {
+								spellList: [
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 4
+											}
+										}
+										x: 0
+										y: 0
+									}
+									{
+										data: {
+											key: "psi:connector"
+											params: {
+												_target: 1
+											}
+										}
+										x: 0
+										y: 1
+									}
+									{
+										data: {
+											key: "psi:operator_entity_look"
+											params: {
+												_target: 1
+											}
+										}
+										x: 0
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:selector_caster"
+										}
+										x: 1
+										y: 0
+									}
+									{
+										data: {
+											key: "psi:operator_entity_position"
+											params: {
+												_target: 1
+											}
+										}
+										x: 1
+										y: 1
+									}
+									{
+										data: {
+											key: "psi:operator_vector_multiply"
+											params: {
+												_number2: 2
+												_vector1: 3
+											}
+										}
+										x: 1
+										y: 2
+									}
+									{
+										data: {
+											constantValue: "99999"
+											key: "psi:constant_number"
+										}
+										x: 1
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:operator_vector_construct"
+											params: {
+												_x: 0
+												_y: 4
+												_z: 0
+											}
+										}
+										x: 2
+										y: 0
+									}
+									{
+										data: {
+											key: "psi:operator_vector_subtract"
+											params: {
+												_vector1: 3
+												_vector2: 1
+												_vector3: 0
+											}
+										}
+										x: 2
+										y: 1
+									}
+									{
+										data: {
+											key: "psi:trick_conjure_block_sequence"
+											params: {
+												_max: 2
+												_position: 1
+												_target: 3
+												_time: 4
+											}
+										}
+										x: 2
+										y: 2
+									}
+									{
+										data: {
+											constantValue: "16"
+											key: "psi:constant_number"
+										}
+										x: 2
+										y: 3
+									}
+									{
+										data: {
+											constantValue: "2"
+											key: "psi:constant_number"
+										}
+										x: 3
+										y: 0
+									}
+									{
+										data: {
+											constantValue: "300"
+											key: "psi:constant_number"
+										}
+										x: 3
+										y: 2
+									}
+								]
+							}
+							spellName: "Light Bridge!"
+							uuidLeast: -5693829950797502861L
+							uuidMost: 6379257778797035777L
+							validSpell: 1b
+						}
+					}
+					count: 1
+					id: "psi:spell_bullet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FD699B15DB9BFF3"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			id: "07883932FC21CFAA"
+			rewards: [{
+				id: "710B276F6BB88D96"
+				item: {
+					components: {
+						"minecraft:rarity": "rare"
+						"psi:spell": {
+							modsRequired: [{
+								modName: "psi"
+								modVersion: "2.0.0"
+							}]
+							spellList: {
+								spellList: [
+									{
+										data: {
+											key: "psi:selector_caster"
+										}
+										x: 0
+										y: 0
+									}
+									{
+										data: {
+											key: "psi:operator_entity_look"
+											params: {
+												_target: 1
+											}
+										}
+										x: 0
+										y: 1
+									}
+									{
+										data: {
+											constantValue: "31"
+											key: "psi:constant_number"
+										}
+										x: 0
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:selector_caster"
+										}
+										x: 0
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:error_suppressor"
+										}
+										x: 0
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:operator_vector_construct"
+											params: {
+												_x: 0
+												_y: 4
+												_z: 0
+											}
+										}
+										x: 1
+										y: 0
+									}
+									{
+										data: {
+											key: "psi:operator_vector_sum"
+											params: {
+												_vector1: 1
+												_vector2: 3
+												_vector3: 0
+											}
+										}
+										x: 1
+										y: 1
+									}
+									{
+										data: {
+											key: "psi:selector_nearby_living"
+											params: {
+												_position: 2
+												_radius: 3
+											}
+										}
+										x: 1
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:operator_entity_position"
+											params: {
+												_target: 3
+											}
+										}
+										x: 1
+										y: 3
+									}
+									{
+										data: {
+											constantValue: "31"
+											key: "psi:constant_number"
+										}
+										x: 1
+										y: 4
+									}
+									{
+										data: {
+											constantValue: "0.3"
+											key: "psi:constant_number"
+										}
+										x: 2
+										y: 0
+									}
+									{
+										data: {
+											key: "psi:trick_add_motion"
+											params: {
+												_direction: 3
+												_speed: 4
+												_target: 2
+											}
+										}
+										x: 2
+										y: 1
+									}
+									{
+										data: {
+											key: "psi:operator_closest_to_line"
+											params: {
+												_list: 3
+												_ray_end: 2
+												_ray_start: 4
+											}
+										}
+										x: 2
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:operator_vector_sum"
+											params: {
+												_vector1: 3
+												_vector2: 2
+												_vector3: 0
+											}
+										}
+										x: 2
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:operator_vector_multiply"
+											params: {
+												_number2: 3
+												_vector1: 4
+											}
+										}
+										x: 2
+										y: 4
+									}
+									{
+										data: {
+											constantValue: "7"
+											key: "psi:constant_number"
+										}
+										x: 3
+										y: 1
+									}
+									{
+										data: {
+											key: "psi:operator_vector_sum"
+											params: {
+												_vector1: 4
+												_vector2: 2
+												_vector3: 0
+											}
+										}
+										x: 3
+										y: 2
+									}
+									{
+										data: {
+											key: "psi:operator_vector_multiply"
+											params: {
+												_number2: 4
+												_vector1: 2
+											}
+										}
+										x: 3
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:operator_entity_look"
+											params: {
+												_target: 4
+											}
+										}
+										x: 3
+										y: 4
+									}
+									{
+										data: {
+											key: "psi:selector_caster"
+										}
+										x: 4
+										y: 1
+									}
+									{
+										data: {
+											key: "psi:operator_entity_position"
+											params: {
+												_target: 1
+											}
+										}
+										x: 4
+										y: 2
+									}
+									{
+										data: {
+											constantValue: "3"
+											key: "psi:constant_number"
+										}
+										x: 4
+										y: 3
+									}
+									{
+										data: {
+											key: "psi:selector_caster"
+										}
+										x: 4
+										y: 4
+									}
+								]
+							}
+							spellName: "Unrelenting Force!"
+							uuidLeast: -8169893366352772169L
+							uuidMost: 2876730475021487419L
+							validSpell: 1b
+						}
+					}
+					count: 1
+					id: "psi:spell_bullet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "122C939DA69AC47A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "simpleteleporters:teleporter"
+			}
+			id: "19C13B2B7F137956"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "7B1441E63450316B"
+					item: {
+						count: 1
+						id: "simpleteleporters:teleporter"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "520AED309C2507BF"
+					item: {
+						count: 1
+						id: "simpleteleporters:ender_shard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1986452842DD2E46"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "mekanism:teleporter"
+			}
+			id: "2E7B0F8AF8BA8041"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "7012470E5C2A1F30"
+					item: {
+						count: 1
+						id: "mekanism:teleporter"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					count: 9
+					id: "50A3CBC95C967841"
+					item: {
+						count: 1
+						id: "mekanism:teleporter_frame"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B60BAD2A4BEA950"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			id: "0A3D2C7C9F50E884"
+			rewards: [{
+				auto: "invisible"
+				id: "436557A602060DB3"
+				ignore_reward_blocking: true
+				stage: "tf_unlock_yeti"
+				type: "gamestage"
+			}]
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "39A68C32C5D8DD21"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			id: "2FBA9D74EF6EABB6"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "5BDF0243AB3CD33D"
+					stage: "tf_unlock_snow"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "09212347B112A30B"
+					stage: "tf_unlock_hydra"
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "7BA140058CEB999F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			id: "0A2A206401701D89"
+			rewards: [{
+				auto: "invisible"
+				id: "54EEBEB80DB91345"
+				stage: "tf_unlock_knight"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					entity: "twilightforest:hydra"
+					id: "30661F63642D839E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:snow_queen"
+					id: "719228A9CFEDDE94"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			id: "22A2B39C3AD7F569"
+			tasks: [{
+				id: "76D42E59F98B63FA"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			id: "78610F56E29472F7"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "2785D1379001D147"
+					ignore_reward_blocking: true
+					stage: "echo_guidance_interact"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "4C656BD1CB90E7CF"
+					ignore_reward_blocking: true
+					stage: "parkour_vault"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				id: "45B1F245887F1BCB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ftbechoes:echo"
+				type: "observation"
+			}]
+			x: -23.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6120A9478D66C2F9"
+				"78610F56E29472F7"
+			]
+			disable_toast: true
+			id: "4C52D3DE2F7701D0"
+			rewards: [
+				{
+					auto: "enabled"
+					description: "ftb.shop.notification.guidance"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2D7E2A69C45D8ABD"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "22BF8B76D80DE3D3"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "50BB619C3A042223"
+				stage: "echo_guidance_stage1_task1_check"
+				type: "gamestage"
+			}]
+			x: -22.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6D5A9E9E8B0D8AC2"
+				"4C52D3DE2F7701D0"
+			]
+			disable_toast: true
+			id: "1617D99EA1AE47E4"
+			rewards: [
+				{
+					id: "6249EC37A840C6A5"
+					item: {
+						components: {
+							"minecraft:custom_name": "\"Worn-Out Ender Lead\""
+							"minecraft:damage": 48
+						}
+						count: 1
+						id: "apothic_enchanting:ender_lead"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "ftb.shop.notification.guidance"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1A2533930620554A"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "6822618286652F23"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2B89423DF7AB36C8"
+				stage: "echo_guidance_stage1_task2_check"
+				type: "gamestage"
+			}]
+			x: -21.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"17AC5EBEBDC124E9"
+				"1617D99EA1AE47E4"
+			]
+			disable_toast: true
+			id: "7D1FB9A40B5CAE97"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "4D3425E957D5A974"
+					ignore_reward_blocking: true
+					stage: "echo_quartermaster_unlock"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "052BD091E892E651"
+					ignore_reward_blocking: true
+					stage: "echo_magician_unlock"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "7945A70D89BE8D46"
+					ignore_reward_blocking: true
+					stage: "echo_machinist_unlock"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				id: "275CBA2077DB22E7"
+				stage: "echo_guidance_stage1_task3_check"
+				type: "gamestage"
+			}]
+			x: -20.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2950D495BCF2D52D"
+				"2D0E345C7C7B3AC0"
+			]
+			disable_toast: true
+			id: "3C0A24054C75BF91"
+			rewards: [
+				{
+					auto: "enabled"
+					description: "ftb.shop.notification.quartermaster"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2AA4A91EF3A6EE48"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "57E96E505D3BD595"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "51B14FCEF2275E2B"
+				stage: "echo_quartermaster_stage1_task1_check"
+				type: "gamestage"
+			}]
+			x: -17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7F7C0B1523AA28C4"
+				"58BC57B1119204CA"
+			]
+			disable_toast: true
+			id: "50AC369D1F5B7DD8"
+			rewards: [
+				{
+					auto: "enabled"
+					description: "ftb.shop.notification.magician"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4CF243911064BB93"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "5F5C22FD989DD192"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "707CDCD86016358A"
+				stage: "echo_magician_stage1_task1_check"
+				type: "gamestage"
+			}]
+			x: -17.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"22B94BDDC08B3FA9"
+				"487BD65BA8F5337D"
+			]
+			disable_toast: true
+			id: "2646D51DBAD8AD42"
+			rewards: [
+				{
+					auto: "enabled"
+					description: "ftb.shop.notification.machinist"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "13B35A67AAF5C0DF"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "5992FF3C34992AD9"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3D0D830FB254A606"
+				stage: "echo_machinist_stage1_task1_check"
+				type: "gamestage"
+			}]
+			x: -17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2646D51DBAD8AD42"
+				"6B391D0B32AF8529"
+			]
+			disable_toast: true
+			id: "78D488A506FD3EB8"
+			tasks: [{
+				id: "3AB95366D8408D00"
+				stage: "echo_machinist_stage1_task2_check"
+				type: "gamestage"
+			}]
+			x: -16.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"50AC369D1F5B7DD8"
+				"275C5A38C3231690"
+			]
+			disable_toast: true
+			id: "4426687CCCDD759A"
+			tasks: [{
+				id: "0DFADA5EB73CF7BB"
+				stage: "echo_magician_stage1_task2_check"
+				type: "gamestage"
+			}]
+			x: -16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3C0A24054C75BF91"
+				"3E89531AEC1CF0DA"
+			]
+			disable_toast: true
+			id: "62CEFEB50E7D4489"
+			tasks: [{
+				id: "6DFF2F80CD9F6DC9"
+				stage: "echo_quartermaster_stage1_task2_check"
+				type: "gamestage"
+			}]
+			x: -16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"78D488A506FD3EB8"
+				"4426687CCCDD759A"
+			]
+			dependency_requirement: "one_completed"
+			id: "3B06321F0E2F0EC9"
+			rewards: [{
+				auto: "invisible"
+				id: "0A4E1E2E149BA299"
+				ignore_reward_blocking: true
+				stage: "echo_stage1_or_check"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "763427A1BF70A881"
+					optional_task: true
+					stage: "echo_magician_stage1_task2_check"
+					type: "gamestage"
+				}
+				{
+					id: "6795DF86789B032C"
+					optional_task: true
+					stage: "echo_machinist_stage1_task2_check"
+					type: "gamestage"
+				}
+			]
+			x: -15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3B06321F0E2F0EC9"
+				"62CEFEB50E7D4489"
+			]
+			id: "7408FB23D476F791"
+			rewards: [{
+				auto: "invisible"
+				id: "5B254AD78975E6B6"
+				ignore_reward_blocking: true
+				stage: "echo_guidance_stage1_final_completed"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "1CE6C0D97A224B36"
+					stage: "echo_quartermaster_stage1_task2_check"
+					type: "gamestage"
+				}
+				{
+					id: "2536467173592D22"
+					stage: "echo_stage1_or_check"
+					type: "gamestage"
+				}
+			]
+			x: -14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7408FB23D476F791"
+				"4D754E91D203A89A"
+			]
+			disable_toast: true
+			id: "4FCD78F6E1712BD8"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "2121CF71360672B9"
+					ignore_reward_blocking: true
+					stage: "echo_fabricator_unlock"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "5BE7A90EFC784449"
+					ignore_reward_blocking: true
+					stage: "echo_enchanter_unlock"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "447BDA6811AEF89D"
+					ignore_reward_blocking: true
+					stage: "echo_wayfinder_unlock"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				id: "7FE771A0DD6054A0"
+				stage: "echo_guidance_stage1_final_check"
+				type: "gamestage"
+			}]
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7D1FB9A40B5CAE97"
+				"47D745A94C534B48"
+			]
+			disable_toast: true
+			id: "58BC57B1119204CA"
+			tasks: [{
+				id: "25F7E7EC79C4414D"
+				stage: "echo_magician_meet"
+				type: "gamestage"
+			}]
+			x: -18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7D1FB9A40B5CAE97"
+				"0484D6030DF690BD"
+			]
+			disable_toast: true
+			id: "487BD65BA8F5337D"
+			tasks: [{
+				id: "5E3002517C5A8977"
+				stage: "echo_machinist_meet"
+				type: "gamestage"
+			}]
+			x: -18.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7D1FB9A40B5CAE97"
+				"0448DC5884C8ED55"
+			]
+			disable_toast: true
+			id: "2D0E345C7C7B3AC0"
+			tasks: [{
+				id: "11B4ABD24F3737BF"
+				stage: "echo_quartermaster_meet"
+				type: "gamestage"
+			}]
+			x: -18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4FCD78F6E1712BD8"
+				"3E1DB27DAB197F6B"
+			]
+			id: "23DC842244086CB9"
+			tasks: [{
+				id: "635354D4093EF3EC"
+				stage: "echo_wayfinder_meet"
+				type: "gamestage"
+			}]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4FCD78F6E1712BD8"
+				"4BFF8EE3F588E006"
+			]
+			disable_toast: true
+			id: "35412128EF4B8692"
+			tasks: [{
+				id: "3FC8DF401EE7ED88"
+				stage: "echo_enchanter_meet"
+				type: "gamestage"
+			}]
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4FCD78F6E1712BD8"
+				"2AB58696A843E9C2"
+			]
+			id: "317FE947A23C965A"
+			tasks: [{
+				id: "6EF868E388DEDDDF"
+				stage: "echo_fabricator_meet"
+				type: "gamestage"
+			}]
+			x: -11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"53D550D3FD459ED2"
+				"3819423319D1A414"
+			]
+			disable_toast: true
+			id: "1D52FC5D0EAD911B"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "3B9C2576AFEF58C0"
+					ignore_reward_blocking: true
+					stage: "echo_catalyst_unlock"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "11ED9F5D42516D54"
+					ignore_reward_blocking: true
+					stage: "echo_infernal_unlock"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "034833B138ECD561"
+					ignore_reward_blocking: true
+					stage: "echo_light_bender_unlock"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				id: "645CB7CE69C86067"
+				stage: "echo_guidance_stage2_task1_check"
+				type: "gamestage"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0A3C1CD48C85E17D"
+				"35412128EF4B8692"
+			]
+			disable_toast: true
+			id: "32A6859ECF7E775F"
+			rewards: [
+				{
+					auto: "enabled"
+					description: "ftb.shop.notification.enchanter"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2392A43EE7851C85"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "035D6786E1BE4C04"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "08105020B1962F4C"
+				stage: "echo_enchanter_stage2_task1_check"
+				type: "gamestage"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"317FE947A23C965A"
+				"456B067C9CC123AD"
+			]
+			id: "0355F5FB00143754"
+			tasks: [{
+				id: "0F269804D32736F1"
+				stage: "echo_fabricator_stage2_task1_check"
+				type: "gamestage"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"32A6859ECF7E775F"
+				"6E149F8E8B3F150B"
+			]
+			id: "7E1A18D82B74B6CC"
+			tasks: [{
+				id: "24B8CA24A7120A55"
+				stage: "echo_enchanter_stage2_task2_check"
+				type: "gamestage"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7E1A18D82B74B6CC"
+				"2323A6EEDF97BE96"
+				"0355F5FB00143754"
+			]
+			id: "53D550D3FD459ED2"
+			min_required_dependencies: 2
+			rewards: [{
+				auto: "invisible"
+				id: "1EA6309C93207C52"
+				ignore_reward_blocking: true
+				stage: "echo_guidance_stage2_task1_completed"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "791CDF83988C8022"
+					optional_task: true
+					stage: "echo_fabricator_stage2_task1_check"
+					type: "gamestage"
+				}
+				{
+					id: "7DE7B6EEA93B6F07"
+					optional_task: true
+					stage: "echo_enchanter_stage2_task2_check"
+					type: "gamestage"
+				}
+				{
+					id: "7771223200D7FF32"
+					optional_task: true
+					stage: "echo_wayfinder_stage2_task1_check"
+					type: "gamestage"
+				}
+			]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"23DC842244086CB9"
+				"7191726ECAAFE40F"
+			]
+			id: "2323A6EEDF97BE96"
+			tasks: [{
+				id: "68407D47A81F9C46"
+				stage: "echo_wayfinder_stage2_task1_check"
+				type: "gamestage"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1D52FC5D0EAD911B"
+				"787BD711CFF837C6"
+			]
+			id: "5E2764E8DB1B789B"
+			tasks: [{
+				id: "6FD68EA32BE21762"
+				stage: "echo_light_bender_meet"
+				type: "gamestage"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"695B2CCD18E5DDFE"
+				"1D52FC5D0EAD911B"
+			]
+			id: "375DBC764A420D98"
+			tasks: [{
+				id: "79C3DBBB466E5818"
+				stage: "echo_infernal_meet"
+				type: "gamestage"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"500074C1D4EC9591"
+				"1D52FC5D0EAD911B"
+			]
+			id: "206F8B25D5A3CB7E"
+			tasks: [{
+				id: "0E30468FAD290B9E"
+				stage: "echo_catalyst_meet"
+				type: "gamestage"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0B69B9E1209A9234"
+				"206F8B25D5A3CB7E"
+			]
+			id: "55DF810785A9B938"
+			rewards: [
+				{
+					auto: "enabled"
+					description: "ftb.shop.notification.catalyst"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "07FDE2A45E2F6200"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "7803CF762070089C"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2B9B045385AAD723"
+				stage: "echo_catalyst_stage3_task1_check"
+				type: "gamestage"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"71F25B7D688EE182"
+				"5E2764E8DB1B789B"
+			]
+			id: "1E307C13D534A75C"
+			rewards: [
+				{
+					auto: "enabled"
+					description: "ftb.shop.notification.light_bender"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5EE4C3B77DCAD15A"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "1D9995F5CC4AC893"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "500AEA2E607B504B"
+				stage: "echo_light_bender_stage3_task1_check"
+				type: "gamestage"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"55DF810785A9B938"
+				"0E7AD6BCF9F8605F"
+			]
+			id: "2D99F429A18BEED1"
+			rewards: [
+				{
+					auto: "enabled"
+					description: "ftb.shop.notification.catalyst"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1F113E78DDABE6A6"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "17F2A9411E1A44F2"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "1D0594B06168294F"
+				stage: "echo_catalyst_stage3_task2_check"
+				type: "gamestage"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2D99F429A18BEED1"
+				"26F3ECD3CC9E7CDA"
+			]
+			id: "3F8D9684ADAC01E8"
+			tasks: [{
+				id: "4040D78EF3E3FF58"
+				stage: "echo_catalyst_stage3_task3_check"
+				type: "gamestage"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3F8D9684ADAC01E8"
+				"2AB07DEF9E14C784"
+			]
+			id: "106A9E7AD6051D8C"
+			rewards: [{
+				auto: "invisible"
+				id: "615C1FD5DD4A9ED7"
+				ignore_reward_blocking: true
+				stage: "echo_guidance_stage3_task1_completed"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "75E2655468661DCB"
+					stage: "echo_catalyst_stage3_task3_check"
+					type: "gamestage"
+				}
+				{
+					id: "1F7D04C9CB664695"
+					stage: "echo_stage3_or_check"
+					type: "gamestage"
+				}
+			]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"375DBC764A420D98"
+				"11BB3C62703E0B3E"
+			]
+			id: "73FEE6C6149817E7"
+			tasks: [{
+				id: "28B24BEE7982BFE4"
+				stage: "echo_infernal_stage3_task1_check"
+				type: "gamestage"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"73FEE6C6149817E7"
+				"0071ADE2804C1B24"
+			]
+			dependency_requirement: "one_completed"
+			id: "2AB07DEF9E14C784"
+			rewards: [{
+				auto: "invisible"
+				id: "005F296736184692"
+				ignore_reward_blocking: true
+				stage: "echo_stage3_or_check"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "1728CB43BC834A89"
+					optional_task: true
+					stage: "echo_infernal_stage3_task1_check"
+					type: "gamestage"
+				}
+				{
+					id: "7D61748E5F7F9C6E"
+					optional_task: true
+					stage: "echo_light_bender_stage1_task2_check"
+					type: "gamestage"
+				}
+			]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1E307C13D534A75C"
+				"7E7745D3E460831F"
+			]
+			id: "0071ADE2804C1B24"
+			tasks: [{
+				id: "6970791A82051920"
+				stage: "echo_light_bender_stage3_task2_check"
+				type: "gamestage"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"106A9E7AD6051D8C"
+				"3DCD6DC36B31EEF4"
+			]
+			disable_toast: true
+			id: "068C117DD3DD10C2"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "3EAB5831E7E743A4"
+					ignore_reward_blocking: true
+					stage: "echo_wyrmwright_unlock"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "5D2F4F7AD8624538"
+					stage: "echo_twilight_ancients_unlock"
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				id: "62400C977847F808"
+				stage: "echo_guidance_stage3_task1_check"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"068C117DD3DD10C2"
+				"1F0F37429F1177DF"
+			]
+			id: "0BD2630DFA958C65"
+			tasks: [{
+				id: "5F9A79E270AA0E85"
+				stage: "echo_twilight_meet"
+				type: "gamestage"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"068C117DD3DD10C2"
+				"27439A8D79B21B73"
+			]
+			id: "0B3FD3C2AD980AD7"
+			tasks: [{
+				id: "69FD03C63BD5BFB4"
+				stage: "echo_ancient_meet"
+				type: "gamestage"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"03E48CD6E5DB806F"
+				"068C117DD3DD10C2"
+			]
+			id: "30453DA99EE2BCBF"
+			tasks: [{
+				id: "7902EE94E19C51C3"
+				stage: "echo_wyrmwright_meet"
+				type: "gamestage"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0B3FD3C2AD980AD7"
+				"775BE99DF402AF0D"
+			]
+			id: "091F82E2770F3011"
+			tasks: [{
+				id: "732D6C85B4A7BC52"
+				stage: "echo_ancient_stage4_task1_check"
+				type: "gamestage"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0BD2630DFA958C65"
+				"665C261B98E4D20B"
+			]
+			id: "67AA6621E5A00E37"
+			tasks: [{
+				id: "05FBFA2186452330"
+				stage: "echo_twilight_stage4_task1_check"
+				type: "gamestage"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"30453DA99EE2BCBF"
+				"15DE76B303680F79"
+			]
+			id: "67181BD1F2434E2C"
+			rewards: [
+				{
+					auto: "enabled"
+					description: "ftb.shop.notification.wyrmwright"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "12C21B2BC1C5906A"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "73A61870DF884306"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2D2E8DEAD23247C3"
+				stage: "echo_wyrmwright_stage4_task1_check"
+				type: "gamestage"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"67181BD1F2434E2C"
+				"0F48353EDD296510"
+			]
+			id: "65C1A809B6A22758"
+			tasks: [{
+				id: "57CC2CE5DB3EC04C"
+				stage: "echo_wyrmwright_stage4_task2_check"
+				type: "gamestage"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"65C1A809B6A22758"
+				"375A2BF4EA6F4EA9"
+			]
+			id: "43A632369D0E2CE0"
+			rewards: [{
+				auto: "invisible"
+				id: "728DC60A2908EDD0"
+				ignore_reward_blocking: true
+				stage: "echo_guidance_stage4_task1_completed"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "7762922F1057AE7D"
+					stage: "echo_wyrmwright_stage4_task2_check"
+					type: "gamestage"
+				}
+				{
+					id: "3F35D79FAF7C7483"
+					stage: "echo_stage3_or_check"
+					type: "gamestage"
+				}
+			]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"091F82E2770F3011"
+				"67AA6621E5A00E37"
+			]
+			dependency_requirement: "one_completed"
+			id: "375A2BF4EA6F4EA9"
+			rewards: [{
+				auto: "invisible"
+				id: "65650B8BD817B4A5"
+				stage: "echo_stage4_or_check"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "6A6ED330E6B1AF66"
+					optional_task: true
+					stage: "echo_twilight_stage4_task1_check"
+					type: "gamestage"
+				}
+				{
+					id: "0E808CBF7247B617"
+					optional_task: true
+					stage: "echo_ancient_stage4_task1_check"
+					type: "gamestage"
+				}
+			]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"37CC00D0136EFDAE"
+				"309D995CCCDB3AEE"
+			]
+			id: "6B31A5D836677A89"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "75001C69939C3905"
+					ignore_reward_blocking: true
+					stage: "echo_guidance_stage4_task2_completed"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "6A14CC1294E7C8E6"
+					stage: "echo_radiance_unlock"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "162E0C03DCC403EF"
+					stage: "echo_infinity_unlock"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "1EAD616B5F429F04"
+					stage: "echo_chaos_unlock"
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				id: "17BEE20171A7C667"
+				stage: "echo_wyrmwright_stage5_task2_check"
+				type: "gamestage"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3371E3F69A27D1E5"
+				"43A632369D0E2CE0"
+			]
+			disable_toast: true
+			id: "37CC00D0136EFDAE"
+			rewards: [{
+				auto: "invisible"
+				id: "1F4829BED674DA6D"
+				stage: "echo_wyrmwright_stage5_task1_completed"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "357809578F6803F2"
+				stage: "echo_guidance_stage4_task1_check"
+				type: "gamestage"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "mekanismgenerators:fusion_reactor_controller"
+			}
+			id: "28DB6A7095E20B2A"
+			rewards: [
+				{
+					id: "505FF45C0235F1A6"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fusion_reactor_controller"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "363A09F592BA1AC9"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fusion_reactor_port"
+					}
+					type: "item"
+				}
+				{
+					id: "33F3B305E125C7A8"
+					item: {
+						count: 1
+						id: "mekanismgenerators:laser_focus_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "0BF2B62BAA4372EE"
+					item: {
+						components: {
+							"mekanismgenerators:active_cooled": 0b
+						}
+						count: 1
+						id: "mekanismgenerators:fusion_reactor_logic_adapter"
+					}
+					type: "item"
+				}
+				{
+					count: 61
+					id: "6C6EDCD164CFEF0D"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fusion_reactor_frame"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79699F714DC8599E"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "industrialforegoing:mycelial_reactor"
+			}
+			id: "71EF740F3234EA08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01A656B76F5708E9"
+				table_id: 8119412201504344609L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "7756052D882413A5"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"71BDC5B453B8CAB4"
+				"6B31A5D836677A89"
+			]
+			id: "1F052C1F0AC1330C"
+			tasks: [{
+				id: "09C1D5FBF6DA076A"
+				stage: "echo_radiance_meet"
+				type: "gamestage"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7C94432EFD49611F"
+				"6B31A5D836677A89"
+				"0C2DAB30B7A2A7C0"
+			]
+			id: "027E1E97D874D0EB"
+			tasks: [{
+				id: "1CBC3CFCC853513A"
+				stage: "echo_infinity_meet"
+				type: "gamestage"
+			}]
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0415C8A3274EF9D1"
+				"6B31A5D836677A89"
+			]
+			id: "1DE16238ECFB074D"
+			tasks: [{
+				id: "62F9B63FDC985A93"
+				stage: "echo_chaos_meet"
+				type: "gamestage"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1DE16238ECFB074D"
+				"527A754FEFC95F4C"
+			]
+			id: "6C293F6A07C1657A"
+			tasks: [{
+				id: "22E52B991F176145"
+				stage: "echo_chaos_stage5_task1_check"
+				type: "gamestage"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"027E1E97D874D0EB"
+				"046FCE929A728A34"
+			]
+			id: "31042D7EBA3B39AD"
+			tasks: [{
+				id: "58DB660E017ECC26"
+				stage: "echo_infinity_stage5_task1_check"
+				type: "gamestage"
+			}]
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1F052C1F0AC1330C"
+				"19C9BB7952E89BA7"
+			]
+			id: "555BB3F7C11CD6F9"
+			tasks: [{
+				id: "1452553B002718DE"
+				stage: "echo_radiance_stage5_task1_check"
+				type: "gamestage"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["31042D7EBA3B39AD"]
+			id: "0DE73FC2EE3C60A9"
+			rewards: [{
+				auto: "invisible"
+				id: "07BCEE90A3EECA9A"
+				ignore_reward_blocking: true
+				stage: "echo_guidance_stage5_task1_completed"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "653C6205F3F6CE55"
+					stage: "echo_chaos_stage5_task1_check"
+					type: "gamestage"
+				}
+				{
+					id: "0084A7FF13FB5259"
+					stage: "echo_infinity_stage5_task1_check"
+					type: "gamestage"
+				}
+				{
+					id: "2A52E94E2D2D390C"
+					stage: "echo_radiance_stage5_task1_check"
+					type: "gamestage"
+				}
+			]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6C293F6A07C1657A"
+				"555BB3F7C11CD6F9"
+			]
+			id: "0C2DAB30B7A2A7C0"
+			rewards: [{
+				auto: "invisible"
+				id: "5DA6EB0BA82F1D91"
+				ignore_reward_blocking: true
+				stage: "echo_stage5_and_check"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "1633C25DA34E9638"
+					stage: "echo_chaos_stage5_task1_check"
+					type: "gamestage"
+				}
+				{
+					id: "03EEFD0598713D09"
+					stage: "echo_radiance_stage5_task1_check"
+					type: "gamestage"
+				}
+			]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "simpleteleporters:ender_shard"
+			}
+			id: "364AA0C55F3312DE"
+			rewards: [{
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				id: "2F8913A8803187DE"
+				table_id: 7715934798614568740L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "02CC4D7DB653D0B6"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "simpleteleporters:ender_shard"
+			}
+			id: "300503F48627E3DB"
+			rewards: [{
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				id: "2484A4394A19D746"
+				table_id: 7312320355766548436L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "69A10E50E3B5403D"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "simpleteleporters:ender_shard"
+			}
+			id: "5777C137BF472784"
+			rewards: [{
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				id: "2778C3A0ACF8E673"
+				table_id: 6136641063265794427L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "2F6A260008E1E6E3"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "simpleteleporters:ender_shard"
+			}
+			id: "4E0BAFDCADC617C5"
+			rewards: [{
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				id: "11B2D56344D92748"
+				table_id: 6991226218517963694L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "40FA733233F38BAA"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "simpleteleporters:ender_shard"
+			}
+			id: "35A0BC59FB62D5F9"
+			rewards: [{
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				id: "6AAE6F64DFF68C93"
+				table_id: 4611501721502039447L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "263C21E239B346DB"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "simpleteleporters:ender_shard"
+			}
+			id: "26727A01D814C5A9"
+			rewards: [{
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				id: "4B34585C711D421C"
+				table_id: 6654702344875563130L
+				type: "all_table"
+			}]
+			tasks: [{
+				id: "223F8518EBC9EFF4"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+	]
+}

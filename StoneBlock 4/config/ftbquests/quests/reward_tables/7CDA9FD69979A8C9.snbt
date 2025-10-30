@@ -1,0 +1,118 @@
+{
+	icon: {
+		id: "apothic_enchanting:extraction_tome"
+	}
+	id: "7CDA9FD69979A8C9"
+	loot_crate: {
+		color: 16752103
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "ftb.shop.title.loot_crate.apoth_tomes"
+		string_id: "random_apotheosis_tome"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			id: "45D4FC4E573FB3E2"
+			item: {
+				count: 1
+				id: "apothic_enchanting:helmet_tome"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "3ED58152AC62C069"
+			item: {
+				count: 1
+				id: "apothic_enchanting:chestplate_tome"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "4D8C0885BA7E00CD"
+			item: {
+				count: 1
+				id: "apothic_enchanting:leggings_tome"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "7AF03CBE192EBA2A"
+			item: {
+				count: 1
+				id: "apothic_enchanting:boots_tome"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "5BE4EDA12959A6B6"
+			item: {
+				count: 1
+				id: "apothic_enchanting:weapon_tome"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "1CB5DA6845030937"
+			item: {
+				count: 1
+				id: "apothic_enchanting:bow_tome"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "53496C4FE40D9414"
+			item: {
+				count: 1
+				id: "apothic_enchanting:pickaxe_tome"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "1E15B25C458019F6"
+			item: {
+				count: 1
+				id: "apothic_enchanting:fishing_tome"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "098EB2FCCED867C5"
+			item: {
+				count: 1
+				id: "apothic_enchanting:other_tome"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "012290250525C10A"
+			item: {
+				count: 1
+				id: "apothic_enchanting:scrap_tome"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "485A79AA16966CCF"
+			item: {
+				count: 1
+				id: "apothic_enchanting:improved_scrap_tome"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "421CD2AB1E0D1E51"
+			item: {
+				count: 1
+				id: "apothic_enchanting:extraction_tome"
+			}
+			weight: 25.0f
+		}
+	]
+	use_title: true
+}

@@ -1,0 +1,18 @@
+#RocketClientMod configuration
+[ui]
+	#X position of the server button
+	# Default: -1
+	# Range: > -1
+	titleScreenButtonX = -1
+	#Y position of the server button
+	# Default: -1
+	# Range: > -1
+	titleScreenButtonY = -1
+	#Layout of the title screen
+	titleScreenLayout = "worlds_list"
+	#Layout of the config screen
+	configScreenLayout = "worlds_configuration"
+
+[api]
+	#The tenant to run API calls for
+	tenant = "ftb"

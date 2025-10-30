@@ -1,0 +1,16 @@
+filename = 'actuallyadditions-1.3.20+mc1.21.1.jar'
+name = 'Actually Additions'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '3955cece4d2930a40c663669511744f60fff4b19'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7023825
+project-id = 228404

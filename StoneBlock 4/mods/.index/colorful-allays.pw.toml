@@ -1,0 +1,16 @@
+filename = 'colorfulallays-1.21.1-1.0.0.jar'
+name = 'Colorful Allays'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cecfeb16d5e5f87186cf861b70bd6b9a6cb5dd60'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6897098
+project-id = 1329263

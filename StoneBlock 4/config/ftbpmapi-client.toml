@@ -1,0 +1,23 @@
+#Enable the Pause Menu API
+enabled = true
+
+[builtInFeatures]
+	#Built in features that can be enabled or disabled
+	#Enable the Go To Original button on the main menu
+	enableGoToOriginal = false
+	#Enable the built in support links to the main menu
+	enableSupportLinks = true
+
+[supportLinks]
+	#Support links that can be configured for the built in support links
+	#The Discord link to open when the Discord button is clicked
+	discordLink = ""
+	#The GitHub link to open when the GitHub button is clicked
+	githubLink = ""
+
+[removeButtons]
+	#Remove buttons from the stock pause menu
+	#Remove the Advancements button from the pause menu
+	removeAdvancementsButton = false
+	#Remove the Stats button from the pause menu
+	removeStatsButton = false

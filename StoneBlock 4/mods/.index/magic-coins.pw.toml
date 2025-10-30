@@ -1,0 +1,16 @@
+filename = 'magic_coins-1.0.9.jar'
+name = 'Magic Coins'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8b68792e9efb1e86e1e45318e10e7bf74667a57e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6905939
+project-id = 597281

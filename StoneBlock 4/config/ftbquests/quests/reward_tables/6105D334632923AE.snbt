@@ -1,0 +1,40 @@
+{
+	id: "6105D334632923AE"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{
+			auto: "no_toast"
+			command: "/endershard @s 8 131 -2057 Twilight North"
+			id: "7834CF7F86C29EE0"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s 8 131 2071 Twilight South"
+			id: "37851CF3F949515A"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s 2072 131 7 Twilight East"
+			id: "2CA4C34FFD72EA33"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s -2056 131 7 Twilight West"
+			id: "7DB306ACACBC5FA3"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+	]
+	use_title: true
+}

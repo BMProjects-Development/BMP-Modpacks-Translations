@@ -1,0 +1,16 @@
+filename = 'just-hammers-neoforge-21.1.1.jar'
+name = 'JustHammers'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e110cfcebc3280283b9f3e5b4a0d4e5df0955057'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6843247
+project-id = 681606

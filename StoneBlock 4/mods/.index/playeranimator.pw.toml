@@ -1,0 +1,16 @@
+filename = 'player-animation-lib-forge-2.0.1+1.21.1.jar'
+name = 'playerAnimator'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'c0a3d0cf0569b61302e17f35dc158ee75813f80f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6024462
+project-id = 658587

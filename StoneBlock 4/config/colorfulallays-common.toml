@@ -1,0 +1,36 @@
+#Natural spawning configuration for Allays
+[spawning]
+	#Enable natural spawning of Allays in the world
+	enableNaturalSpawning = false
+	#Weight for natural Allay spawning (higher = more common, 0 = disabled)
+	naturalSpawnWeight = 5
+	#Minimum group size for natural Allay spawning
+	naturalSpawnMinGroup = 1
+	#Maximum group size for natural Allay spawning
+	naturalSpawnMaxGroup = 2
+	#Make naturally spawned Allays persistent when a player interacts with them
+	enableInteractionPersistence = false
+
+#Color randomization settings
+[colors]
+	#Enable random color assignment when Allays spawn naturally
+	enableRandomColorSpawning = true
+
+	#Color weights: higher values = more common spawns (0 = disabled, max 1000)
+	[colors.weights]
+		white = 10
+		orange = 8
+		magenta = 6
+		lightBlue = 15
+		yellow = 8
+		lime = 7
+		pink = 8
+		gray = 5
+		lightGray = 7
+		cyan = 6
+		purple = 5
+		blue = 8
+		brown = 4
+		green = 6
+		red = 7
+		black = 3

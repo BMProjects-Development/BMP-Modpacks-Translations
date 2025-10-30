@@ -1,0 +1,8 @@
+{
+	general: {
+		# If true, dev/testing recipes will be available outside a development environment
+		# Leave this false unless actually testing the mod.
+		# Default: false
+		include_dev_recipes: false
+	}
+}

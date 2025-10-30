@@ -1,0 +1,72 @@
+{
+  "registeredProperties": [
+    "canBreakBlocks",
+    "canInteract",
+    "canPlaceBlocks",
+    "allowPlayerPVP",
+    "allowCreatureSpawning",
+    "preventHostileSpawns",
+    "preventPassiveSpawns",
+    "allowFireSpread",
+    "allowExplosions",
+    "allowItemPickup",
+    "onlyProtectOriginalBlocks",
+    "allowElytraFlight",
+    "allowEnderPearls",
+    "allowRiptide",
+    "allowCreativeFlight",
+    "allowEnderTeleportation",
+    "creativeBypass",
+    "preventMobGriefing",
+    "interactionWhitelist",
+    "interactionBlacklist",
+    "itemUseBlacklist",
+    "itemUseWhitelist",
+    "blockBreakWhitelist",
+    "blockBreakBlacklist",
+    "blockPlaceWhitelist",
+    "blockPlaceBlacklist"
+  ],
+  "config": {
+    "canBreakBlocks": true,
+    "canInteract": true,
+    "canPlaceBlocks": true,
+    "allowPlayerPVP": true,
+    "allowCreatureSpawning": true,
+    "preventHostileSpawns": false,
+    "preventPassiveSpawns": false,
+    "allowFireSpread": true,
+    "allowExplosions": true,
+    "allowItemPickup": true,
+    "onlyProtectOriginalBlocks": false,
+    "allowElytraFlight": true,
+    "allowEnderPearls": true,
+    "allowRiptide": true,
+    "allowCreativeFlight": true,
+    "allowEnderTeleportation": true,
+    "creativeBypass": true,
+    "preventMobGriefing": false,
+    "interactionWhitelist": [
+      "simpletomb:grave_cross",
+      "simpletomb:grave_normal",
+      "simpletomb:grave_simple"
+    ],
+    "interactionBlacklist": [],
+    "itemUseBlacklist": [],
+    "itemUseWhitelist": [
+      "simpletomb:grave_key"
+    ],
+    "blockBreakWhitelist": [
+      "simpletomb:grave_cross",
+      "simpletomb:grave_normal",
+      "simpletomb:grave_simple"
+    ],
+    "blockBreakBlacklist": [],
+    "blockPlaceWhitelist": [
+      "simpletomb:grave_cross",
+      "simpletomb:grave_normal",
+      "simpletomb:grave_simple"
+    ],
+    "blockPlaceBlacklist": []
+  }
+}

@@ -1,0 +1,16 @@
+filename = 'kubejs-neoforge-2101.7.1-build.181.jar'
+name = 'KubeJS'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'be525f7d4d8d71a18b07718352035b3e59e50ebd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5810100
+project-id = 238086

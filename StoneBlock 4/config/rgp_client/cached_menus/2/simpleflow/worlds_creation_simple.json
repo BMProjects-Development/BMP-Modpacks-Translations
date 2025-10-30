@@ -1,0 +1,183 @@
+{
+  "type": "list",
+  "id": "worlds_creation_simple",
+  "title": "Worlds Creation",
+  "back": {
+    "action": "open_screen",
+    "id": "worlds_list"
+  },
+  "entries": [
+  ],
+  "elements": [
+    {
+      "type": "text",
+      "id": "title",
+      "text": {
+        "translate": "rgp_client.gui.worlds_creation.select_region"
+      },
+      "alignment": "center",
+      "position": {
+        "x": 0,
+        "y": 15,
+        "pivot": "top_center"
+      }
+    },
+    {
+      "type": "panel_list",
+      "id": "region_selection_panel",
+      "scroll": true,
+      "render_background": false,
+      "elements": [
+      ],
+      "entry_loader": {
+        "type": "modpack_region_entry",
+        "auto_load_loadouts": true,
+        "carousel": true,
+        "widget_width": 96,
+        "entry_template": {
+          "id": "$regionId",
+          "elements": [
+            {
+              "type": "panel",
+              "id": "region_panel",
+              "elements": [
+                {
+                  "type": "image",
+                  "id": "region_icon",
+                  "icon": "$regionAssetUrl",
+                  "required_variable": "regionPurchasable",
+                  "hover_border": true,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "pivot": "center"
+                  },
+                  "options": {
+                    "width": 96,
+                    "height": 96
+                  },
+                  "callback": {
+                    "action": "store_variables",
+                    "variables": [
+                      {
+                        "key": "selectedRegionId",
+                        "value": "$regionId"
+                      },
+                      {
+                        "key": "selectedRegionName",
+                        "value": "$regionName"
+                      },
+                      {
+                        "key": "selectedLoadoutId",
+                        "value": "$loadoutId"
+                      },
+                      {
+                        "key": "selectedLoadoutName",
+                        "value": "$loadoutName"
+                      },
+                      {
+                        "key": "selectedLoadoutDescription",
+                        "value": "$loadoutDescription"
+                      },
+                      {
+                        "key": "selectedLoadoutNote",
+                        "value": "$loadoutNote"
+                      },
+                      {
+                        "key": "selectedPriceTierName",
+                        "value": "$priceTierName"
+                      },
+                      {
+                        "key": "selectedPriceTierPeriod",
+                        "value": "$priceTierPeriod"
+                      },
+                      {
+                        "key": "selectedPriceCost",
+                        "value": "$priceCost"
+                      },
+                      {
+                        "key": "selectedPriceCurrency",
+                        "value": "$priceCurrency"
+                      }
+                    ],
+                    "on_complete": {
+                      "action": "open_screen",
+                      "id": "worlds_creation_simple_checkout",
+                      "pass_storage": true
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "region_name",
+                  "text": "$regionName",
+                  "shadow": true,
+                  "alignment": "center",
+                  "position": {
+                    "x": 0,
+                    "y": 38,
+                    "pivot": "center"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "region_unavailable",
+                  "text": {
+                    "translate": "rgp_client.gui.worlds_creation.region_unavailable",
+                    "color": "red"
+                  },
+                  "required_display_variable": "!regionPurchasable",
+                  "shadow": true,
+                  "alignment": "center",
+                  "position": {
+                    "x": 0,
+                    "y": 28,
+                    "pivot": "center"
+                  }
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": -10,
+                "pivot": "middle_left"
+              },
+              "options": {
+                "width": 96,
+                "height": 96
+              }
+            }
+          ]
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "pivot": "top_left"
+      },
+      "end_position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "back",
+      "text": {
+        "translate": "gui.back"
+      },
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_list"
+      }
+    }
+  ]
+}

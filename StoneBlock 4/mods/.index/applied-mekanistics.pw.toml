@@ -1,0 +1,16 @@
+filename = 'Applied-Mekanistics-1.6.3.jar'
+name = 'Applied Mekanistics'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bec4a47269ec23bca2329742e13409bfde69c5c3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7096962
+project-id = 574300

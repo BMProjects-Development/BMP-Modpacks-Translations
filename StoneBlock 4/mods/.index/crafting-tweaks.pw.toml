@@ -1,0 +1,16 @@
+filename = 'craftingtweaks-neoforge-1.21.1-21.1.6.jar'
+name = 'Crafting Tweaks'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3d2a5546d44de935edb7c71f674ec28e27e408c7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6784518
+project-id = 233071

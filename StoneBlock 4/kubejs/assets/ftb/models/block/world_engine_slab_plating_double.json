@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ftb:block/engine/world_engine_plating",
+    "particle": "ftb:block/engine/world_engine_plating"
+  }
+}

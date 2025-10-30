@@ -1,0 +1,100 @@
+{
+  "perks": [
+    {
+      "id": "conjuration_summoning_power_1",
+      "perk": "PASSIVE_SUMMONING_POWER",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 1
+    },
+    {
+      "id": "conjuration_summon_health_1",
+      "perk": "PASSIVE_SUMMON_HEALTH",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 1,
+      "time": 400,
+      "prerequisites": ["conjuration_summoning_power_1"]
+    },
+    {
+      "id": "conjuration_summon_defense_1",
+      "perk": "PASSIVE_SUMMON_DEFENSE",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 1,
+      "time": 400,
+      "prerequisites": ["conjuration_summoning_power_1"],
+      "prerequisite_glyph": "ars_nouveau:glyph_summon_undead"
+    },
+    {
+      "id": "conjuration_conjuration_resistance_1",
+      "perk": "PASSIVE_CONJURATION_RESISTANCE",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 200,
+      "prerequisites": ["conjuration_summoning_power_1"]
+    },
+    {
+      "id": "conjuration_summon_health_2",
+      "perk": "PASSIVE_SUMMON_HEALTH",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 2,
+      "time": 800,
+      "prerequisites": ["conjuration_summon_health_1"]
+    },
+    {
+      "id": "conjuration_summon_defense_2",
+      "perk": "PASSIVE_SUMMON_DEFENSE",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 2,
+      "time": 400,
+      "prerequisites": ["conjuration_summon_defense_1"]
+    },
+    {
+      "id": "conjuration_summon_health_3",
+      "perk": "PASSIVE_SUMMON_HEALTH",
+      "tier": 3,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 3,
+      "time": 2400,
+      "prerequisites": ["conjuration_summon_health_2"]
+    },
+    {
+      "id": "conjuration_summon_defense_3",
+      "perk": "PASSIVE_SUMMON_DEFENSE",
+      "tier": 3,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 3,
+      "time": 400,
+      "prerequisites": ["conjuration_summon_defense_2"]
+    },
+    {
+      "id": "conjuration_summoning_power_2",
+      "perk": "PASSIVE_SUMMONING_POWER",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 2,
+      "prerequisites": ["conjuration_summoning_power_1"]
+    },
+    {
+      "id": "conjuration_conjuration_resistance_2",
+      "perk": "PASSIVE_CONJURATION_RESISTANCE",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 300,
+      "prerequisites": ["conjuration_conjuration_resistance_1"]
+    }
+  ]
+}

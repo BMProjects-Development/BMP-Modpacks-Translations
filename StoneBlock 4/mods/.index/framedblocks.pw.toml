@@ -1,0 +1,16 @@
+filename = 'FramedBlocks-10.5.1.jar'
+name = 'FramedBlocks'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b9017c290dca4539441ce214466f8674f263603e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7135071
+project-id = 441647

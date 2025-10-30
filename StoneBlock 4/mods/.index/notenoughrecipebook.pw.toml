@@ -1,0 +1,16 @@
+filename = 'Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar'
+name = 'Not Enough Recipe Book [NERB]'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e0c36cd85d3d31cc2afb1bfc6b885f505245252f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6880047
+project-id = 738663

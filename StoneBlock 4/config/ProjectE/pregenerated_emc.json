@@ -1,0 +1,54 @@
+[
+  {
+    "item": "projecte:klein_star_omega",
+    "emc": 1048576
+  },
+  {
+    "item": "projecte:red_matter",
+    "emc": 19456
+  },
+  {
+    "item": "projecte:klein_star_drei",
+    "emc": 16384
+  },
+  {
+    "item": "projecte:red_matter_block",
+    "emc": 77824
+  },
+  {
+    "item": "projecte:klein_star_zwei",
+    "emc": 4096
+  },
+  {
+    "item": "projecte:dark_matter_block",
+    "emc": 23211
+  },
+  {
+    "item": "projecte:aeternalis_fuel",
+    "emc": 341
+  },
+  {
+    "item": "projecte:klein_star_sphere",
+    "emc": 262144
+  },
+  {
+    "item": "projecte:dark_matter",
+    "emc": 5803
+  },
+  {
+    "item": "projecte:klein_star_vier",
+    "emc": 65536
+  },
+  {
+    "item": "projecte:alchemical_coal_block",
+    "emc": 192
+  },
+  {
+    "item": "projecte:aeternalis_fuel_block",
+    "emc": 3072
+  },
+  {
+    "item": "projecte:klein_star_ein",
+    "emc": 1024
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "ftb:block/world_engine_slab_plating" },
+    "type=top":    { "model": "ftb:block/world_engine_slab_plating_top" },
+    "type=double": { "model": "ftb:block/world_engine_slab_plating_double" }
+  }
+}

@@ -1,0 +1,16 @@
+filename = 'randombonemealflowers-1.21.1-4.7.jar'
+name = 'Random Bone Meal Flowers'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8b34385169da9cfc6149a819e6a0e3e90813986b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6185337
+project-id = 345572

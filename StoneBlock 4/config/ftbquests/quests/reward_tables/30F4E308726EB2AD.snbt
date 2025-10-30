@@ -1,0 +1,113 @@
+{
+	icon: {
+		id: "minecraft:ender_pearl"
+	}
+	id: "30F4E308726EB2AD"
+	loot_crate: {
+		color: 9874036
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "ftb.shop.title.loot_crate.teleporter"
+		string_id: "random_teleporter"
+	}
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 8
+			id: "7DEEE18F09F1659C"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 50.0f
+		}
+		{ id: "0C736F1A24B139E8", item: { count: 1, id: "ars_nouveau:warp_scroll" } }
+		{
+			id: "22703C49E6F0A0F3"
+			item: {
+				components: {
+					"justdirethings:forge_energy": 100000
+				}
+				count: 1
+				id: "justdirethings:portalgun"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "409805509E36697C"
+			item: {
+				components: {
+					"justdirethings:fluid_container": {
+						amount: 8000
+						id: "justdirethings:portal_fluid_source"
+					}
+					"justdirethings:forge_energy": 1000000
+				}
+				count: 1
+				id: "justdirethings:portalgun_v2"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "50752F1B075886CB"
+			item: {
+				components: {
+					"actuallyadditions:energy": 250000
+				}
+				count: 1
+				id: "actuallyadditions:teleport_staff"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "318B20533B226F20"
+			item: {
+				components: {
+					"tempad:chronon_content_tempad": 6000
+					"tempad:chronon_content_time_twister": 0
+				}
+				count: 1
+				id: "tempad:tempad"
+			}
+			weight: 25.0f
+		}
+		{
+			command: "/ftbquests change_progress @s complete 1986452842DD2E46"
+			feedback_message: "Teleporter + Ender Shard"
+			icon: {
+				id: "simpleteleporters:teleporter"
+			}
+			id: "68F8EBD48743037D"
+			permission_level: 3
+			silent: true
+			type: "command"
+			weight: 50.0f
+		}
+		{
+			id: "421EFBD4CC9B6B76"
+			item: {
+				count: 1
+				id: "enderio:travel_anchor"
+			}
+			weight: 75.0f
+		}
+		{
+			command: "/ftbquests change_progress @s complete 3B60BAD2A4BEA950"
+			feedback_message: "Mekanism Teleporter"
+			icon: {
+				id: "mekanism:teleporter"
+			}
+			id: "3322D2E72CD06BE1"
+			permission_level: 3
+			silent: true
+			type: "command"
+			weight: 25.0f
+		}
+	]
+	use_title: true
+}

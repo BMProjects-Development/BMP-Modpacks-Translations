@@ -1,0 +1,16 @@
+filename = 'SimpleDiscordRichPresence-neoforge-87.0.1-build.49+mc1.21.jar'
+name = 'Simple Discord Rich Presence (Forge /  Fabric)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c9d24801dc56876284f3e8f6c29e42a19732252a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5577776
+project-id = 334853

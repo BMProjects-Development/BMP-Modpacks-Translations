@@ -1,0 +1,16 @@
+filename = 'underlay-1.21-v0.9.7-f.jar'
+name = 'Underlay'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '84a3832afc6435546e5bbae573c6510df82c4efc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6948803
+project-id = 1263531

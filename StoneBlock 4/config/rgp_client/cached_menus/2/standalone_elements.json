@@ -1,0 +1,70 @@
+{
+  "promo_button": [
+    {
+      "type": "image",
+      "id": "logo",
+      "icon": "rgp_client:textures/gui/ftb_worlds_promo.png",
+      "options": {
+        "width": 32,
+        "height": 32
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "pivot": "top_left"
+      }
+    },
+    {
+      "type": "text",
+      "id": "header",
+      "text": {
+        "text": "Want to easily play with friends?",
+        "color": "yellow"
+      },
+      "alignment": "left",
+      "options": {
+        "width": 250,
+        "height": 12
+      },
+      "position": {
+        "x": 35,
+        "y": 0,
+        "pivot": "top_left"
+      }
+    },
+    {
+      "type": "text",
+      "id": "subheader",
+      "text": {
+        "text": "Create an FTB World with just a few clicks and invite your friends to join you!",
+        "color": "white"
+      },
+      "alignment": "left",
+      "wrap": true,
+      "options": {
+        "width": 250,
+        "height": 24
+      },
+      "position": {
+        "x": 35,
+        "y": 12,
+        "pivot": "top_left"
+      }
+    },
+    {
+      "type": "image",
+      "id": "free_trial",
+      "icon": "assets/misc/free_trial.png",
+      "required_display_variable": "is_trial_claimable",
+      "options": {
+        "width": 40,
+        "height": 10
+      },
+      "position": {
+        "x": 260,
+        "y": 0,
+        "pivot": "top_left"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+filename = 'mekagenjei-1.1-hotfix1.jar'
+name = 'MekaGenJei (Mekanism Generator addon)'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'df9ca9f7f0a48857483010b542b533c8545b140d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7003748
+project-id = 1347827

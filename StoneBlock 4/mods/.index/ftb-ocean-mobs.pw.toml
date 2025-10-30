@@ -1,0 +1,16 @@
+filename = 'ftboceanmobs-21.1.4.jar'
+name = 'FTB Ocean Mobs'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a37f05230275fb49d6d614d74cb6c98c22995c45'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6539516
+project-id = 1197859

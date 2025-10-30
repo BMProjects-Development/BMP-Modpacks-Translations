@@ -1,0 +1,39 @@
+{
+	id: "3FFF5862073B3D97"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{
+			auto: "no_toast"
+			command: "/endershard @s 8 131 -2601 Ocean North"
+			id: "6AE5675C3DAAB1D9"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s 8 131 2615 Ocean South"
+			id: "64CB075D188C05CC"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s 2616 131 7 Ocean East"
+			id: "3FBE85B391697AA3"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s -2600 131 7 Ocean West"
+			id: "397185875416F4D2"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+	]
+}

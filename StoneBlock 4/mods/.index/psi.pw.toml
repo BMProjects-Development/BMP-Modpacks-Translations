@@ -1,0 +1,16 @@
+filename = 'Psi-1.21.1-105.jar'
+name = 'Psi'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd322607526286a296c34f9556387f0e7032ecbae'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6815563
+project-id = 241665

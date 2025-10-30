@@ -1,0 +1,1002 @@
+{
+	autofocus_id: "4BFF8EE3F588E006"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "world_engine__tier_2"
+	group: "4B65568899D62A0C"
+	hide_quest_until_deps_visible: true
+	icon: {
+		id: "minecraft:echo_shard"
+	}
+	id: "2FFD2690C1D8029D"
+	images: [
+		{
+			alpha: 155
+			color: 0
+			height: 9.5d
+			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			alpha: 155
+			color: 0
+			height: 9.5d
+			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			alpha: 155
+			color: 0
+			height: 9.5d
+			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependency: "53D550D3FD459ED2"
+			height: 4.0d
+			image: "malum:textures/gui/book/widgets/soulwood_frame_gilded.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependency: "53D550D3FD459ED2"
+			height: 4.0d
+			image: "ftbquests:tasks/input_only"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependency: "4D754E91D203A89A"
+			height: 2.0d
+			image: "malum:textures/gui/book/widgets/runewood_frame_grand.png"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependency: "370B05FC62884456"
+			height: 2.0d
+			image: "ftbechoes:block/echo_projector_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependency: "370B05FC62884456"
+			height: 1.5d
+			image: "relics:textures/gui/description/ability/reroll_button_active_quick.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependency: "18AF36E1C2375101"
+			height: 2.0d
+			image: "ftbechoes:block/echo_projector_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependency: "1F66695405A4863D"
+			height: 2.0d
+			image: "ftbechoes:block/echo_projector_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependency: "18AF36E1C2375101"
+			height: 1.5d
+			image: "relics:textures/gui/description/ability/page_counter.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependency: "1F66695405A4863D"
+			height: 1.5d
+			image: "relics:textures/gui/description/ability/reroll_button_active_warning.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: 8.0d
+		}
+	]
+	order_index: 2
+	quest_links: [{
+		id: "3F5CEEBD74948658"
+		linked_quest: "4D754E91D203A89A"
+		shape: "diamond"
+		size: 1.75d
+		x: 0.0d
+		y: -3.0d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"4D754E91D203A89A"
+				"4FCD78F6E1712BD8"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "apothic_enchanting:library"
+			}
+			id: "4BFF8EE3F588E006"
+			rewards: [
+				{
+					amount: 20
+					id: "3AEF3E3368D529FA"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					id: "39BF463108B50B5F"
+					ignore_reward_blocking: true
+					stage: "echo_enchanter_meet"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbechoes progress player @s ftbechoes:t2_echo_enchanter set_stage 1"
+					id: "38C1BADF75D3C7AF"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "655EA10D763BC971"
+				ignore_dimension: false
+				position: [I;
+					20
+					-13
+					24
+				]
+				size: [I;
+					20
+					7
+					20
+				]
+				type: "location"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4D754E91D203A89A"
+				"4FCD78F6E1712BD8"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "laserio:laser_wrench"
+			}
+			id: "2AB58696A843E9C2"
+			rewards: [
+				{
+					amount: 20
+					id: "48F521D0928E1743"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					id: "68453F12D19A7729"
+					ignore_reward_blocking: true
+					stage: "echo_fabricator_meet"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbechoes progress player @s ftbechoes:t2_echo_fabricator set_stage 1"
+					id: "2C63666EA2C004A0"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "1D40F0B8F9A522A0"
+				ignore_dimension: false
+				position: [I;
+					42
+					-17
+					-1
+				]
+				size: [I;
+					20
+					7
+					20
+				]
+				type: "location"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4D754E91D203A89A"
+				"4FCD78F6E1712BD8"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "irons_spellbooks:wayward_compass"
+			}
+			id: "3E1DB27DAB197F6B"
+			rewards: [
+				{
+					amount: 20
+					id: "25693FC450F05D27"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					id: "33A48C9FF596694F"
+					ignore_reward_blocking: true
+					stage: "echo_wayfinder_meet"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbechoes progress player @s ftbechoes:t2_echo_wayfinder set_stage 1"
+					id: "5F807089810D118D"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "2E08C0DD181858C1"
+				ignore_dimension: false
+				position: [I;
+					62
+					-14
+					-26
+				]
+				size: [I;
+					20
+					7
+					20
+				]
+				type: "location"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FA9D6A475E4D1C6"]
+			id: "1F66695405A4863D"
+			rewards: [
+				{
+					amount: 75
+					id: "112B1DC17E4C7D0C"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "001BD2E48E00CDD3"
+					table_id: 891108655955453907L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					id: "28DFC574866859F8"
+					ignore_reward_blocking: true
+					stage: "echo_wayfinder_stage2_task1_completed"
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 36L
+				id: "5325D737D258BF3C"
+				item: { count: 1, id: "ftb:chroniton_glass" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4A87B0D25DE57F3F"]
+			id: "0A3C1CD48C85E17D"
+			rewards: [
+				{
+					amount: 25
+					id: "5EF3F6075B3F3971"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					id: "6B39CA36E5C8B6CE"
+					ignore_reward_blocking: true
+					stage: "echo_enchanter_stage2_task1_completed"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AD6D948659BBE09"
+					table_id: 7750792604136724303L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "04065A1951D1A398"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"66E73F99D943365C"
+				"50B7A38F7E66139C"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "irons_spellbooks:item/upgrade_orb_fire"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "370B05FC62884456"
+			rewards: [
+				{
+					amount: 75
+					id: "1D576F0D2464ED97"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BCD2CAFB1D7A6DE"
+					table_id: 891108655955453907L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					id: "38B945498E9C6403"
+					ignore_reward_blocking: true
+					stage: "echo_fabricator_stage2_task1_completed"
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "151AC774CC7E7AC7"
+				item: { count: 1, id: "mekanism:resistive_heater" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4BFF8EE3F588E006"
+				"35412128EF4B8692"
+			]
+			id: "4A87B0D25DE57F3F"
+			rewards: [{
+				amount: 20
+				id: "12CD32C0746CC5BE"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				icon: {
+					id: "minecraft:deepslate"
+				}
+				id: "159400992FB94254"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:deepslate"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2AB58696A843E9C2"
+				"317FE947A23C965A"
+			]
+			id: "66E73F99D943365C"
+			rewards: [{
+				amount: 30
+				id: "14E1AD594F067EE6"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "554CFA5E925AE888"
+				item: { count: 1, id: "mekanism:superheating_element" }
+				type: "item"
+			}]
+			x: -6.75d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"456B067C9CC123AD"
+				"6E149F8E8B3F150B"
+				"7191726ECAAFE40F"
+				"53D550D3FD459ED2"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "relics:item/space_dissector"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3819423319D1A414"
+			min_required_dependencies: 3
+			rewards: [
+				{
+					amount: 10
+					id: "66E860B4F8D80D31"
+					type: "currency"
+				}
+				{
+					auto: "enabled"
+					command: "/ftbunearthed setlevel @s 5"
+					feedback_message: "Your Unearthing Skill Has Reached Max Level"
+					icon: {
+						components: {
+							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active_quick.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "61E89C638FD700C4"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					id: "359D5787451DA677"
+					stage: "ftb:bee_2"
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "7ECEEC776BBA8B53"
+				stage: "echo_guidance_stage2_task1_check"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["30689B890F5E7A03"]
+			icon: {
+				id: "apothic_enchanting:deepshelf"
+			}
+			id: "18AF36E1C2375101"
+			rewards: [
+				{
+					amount: 75
+					id: "6115AD08A73B0ECC"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11458209D9BCA331"
+					table_id: 891108655955453907L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					id: "4C7ABFA34E09C78C"
+					ignore_reward_blocking: true
+					stage: "echo_enchanter_stage2_task2_completed"
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "54B584F051DAC33E"
+					item: { count: 1, id: "apothic_enchanting:deepshelf" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5653C9D07311EF97"
+					item: { count: 1, id: "apothic_enchanting:echoing_deepshelf" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"3E1DB27DAB197F6B"
+				"23DC842244086CB9"
+			]
+			icon: {
+				id: "ftb:fortron_star"
+			}
+			id: "3FA9D6A475E4D1C6"
+			min_width: 350
+			rewards: [
+				{
+					amount: 50
+					id: "5E61F567F4FACCCB"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C11BA70B77F263B"
+					table_id: 7750792604136724303L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					icon: {
+						id: "ftb:portal_gun"
+					}
+					id: "62017C4AEF15B756"
+					structure: "ftb:vaults/portal"
+					type: "structure"
+				}
+				{
+					id: "1D2018896242575D"
+					item: { count: 1, id: "ftb:fortron_star" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0A3C1CD48C85E17D"
+				"32A6859ECF7E775F"
+			]
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "30689B890F5E7A03"
+			min_width: 250
+			rewards: [
+				{
+					amount: 25
+					id: "358DBC09CEDA4C77"
+					type: "currency"
+				}
+				{
+					id: "02302C8E07C2021D"
+					team_reward: false
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6BA04BE9F4ED4007"
+					item: { count: 1, id: "minecraft:enchanting_table" }
+					type: "item"
+				}
+				{
+					id: "794B10BF050056EB"
+					item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:hellshelf)item(apothic_enchanting:seashelf))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4C0AA56C3F1425DC"
+					item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:infused_hellshelf)item(apothic_enchanting:blazing_hellshelf)item(apothic_enchanting:glowing_hellshelf)item(apothic_enchanting:infused_seashelf)item(apothic_enchanting:crystal_seashelf)item(apothic_enchanting:heart_seashelf))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2AB58696A843E9C2"
+				"317FE947A23C965A"
+			]
+			id: "50B7A38F7E66139C"
+			rewards: [{
+				amount: 30
+				id: "32820FB6F477B399"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 8L
+				id: "18380B9921A3AEEC"
+				item: { count: 1, id: "mekanism:ultimate_thermodynamic_conductor" }
+				type: "item"
+			}]
+			x: -5.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["370B05FC62884456"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "456B067C9CC123AD"
+			rewards: [
+				{
+					amount: 25
+					id: "1B13F270F6F13C38"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					description: "ftb.shop.notification.fabricator"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "35FBC3A2C111904A"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "07F3CECCF93C00E2"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "6B46A4D5E6915E1B"
+				stage: "echo_fabricator_stage2_task1_check"
+				type: "gamestage"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["18AF36E1C2375101"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6E149F8E8B3F150B"
+			rewards: [{
+				amount: 25
+				id: "29E3A32BF024C3E2"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "2DD1C42797FC03F0"
+				stage: "echo_enchanter_stage2_task2_check"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1F66695405A4863D"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7191726ECAAFE40F"
+			rewards: [
+				{
+					amount: 25
+					id: "5FEA5D327D190076"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					description: "ftb.shop.notification.wayfinder"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "62E61D9249A89F89"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "08081CE7209DC5DC"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "6A6EB35F2D0397D5"
+				stage: "echo_wayfinder_stage2_task1_check"
+				type: "gamestage"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D754E91D203A89A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "66FF7D88B712C969"
+			rewards: [{
+				command: "/ftbchunks waypoint add \"The Wayfinder\" 55 2 -5 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimed"
+				icon: {
+					id: "minecraft:compass"
+				}
+				id: "307426CA8BF12CAC"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "1BB73680D1CA700A"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -1.125d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D754E91D203A89A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "08000D28B577EF94"
+			optional: true
+			rewards: [{
+				command: "/ftbchunks waypoint add \"The Enchanter\" 22 2 17 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimed"
+				icon: {
+					id: "minecraft:compass"
+				}
+				id: "696B39000701CF3E"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "71EF7138E44BDF05"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.125d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4D754E91D203A89A"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "0B02B72259362345"
+			optional: true
+			rewards: [{
+				command: "/ftbchunks waypoint add \"The Fabricator\" 43 2 4 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimed"
+				icon: {
+					id: "minecraft:compass"
+				}
+				id: "30A58719DB130EE9"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "108D536F5C6428BB"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.125d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E149F8E8B3F150B"]
+			icon: {
+				id: "create:empty_schematic"
+			}
+			id: "50B0E45705EDB5F2"
+			rewards: [{
+				auto: "disabled"
+				command: "/worldengine enchanting_upgrade"
+				exclude_from_claim_all: true
+				feedback_message: "ftb.echo.upgrade.assembling"
+				icon: {
+					components: {
+						"custommachinery:machine": "ftb:world_engine"
+					}
+					id: "custommachinery:custom_machine_item"
+				}
+				id: "1FC841321A5BA9AB"
+				permission_level: 3
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "637ACCDA55C90A58"
+					item: { count: 1, id: "apothic_enchanting:deepshelf" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "60540E8CF60686BF"
+					item: { count: 1, id: "apothic_enchanting:echoing_deepshelf" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7191726ECAAFE40F"]
+			icon: {
+				id: "create:empty_schematic"
+			}
+			id: "101B8D9769D835AB"
+			rewards: [{
+				auto: "disabled"
+				command: "/worldengine chroniton_upgrade"
+				exclude_from_claim_all: true
+				feedback_message: "ftb.echo.upgrade.assembling"
+				icon: {
+					components: {
+						"custommachinery:machine": "ftb:world_engine"
+					}
+					id: "custommachinery:custom_machine_item"
+				}
+				id: "174EEA65827DF6EA"
+				permission_level: 3
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 36L
+				id: "0C7FFA116BAF4999"
+				item: { count: 1, id: "ftb:chroniton_glass" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3E1DB27DAB197F6B"
+				"23DC842244086CB9"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "456904808D93A9E3"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/compass locate ftb:vault/portal"
+				feedback_message: "Wayfinder's Vault Compass Acquired"
+				icon: {
+					id: "explorerscompass:explorerscompass"
+				}
+				id: "29048AE32290DDAB"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [
+				{
+					id: "2F84191A75EBFBB0"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "1194939A262B7C67"
+					tags: ["hourly"]
+					type: "custom"
+				}
+			]
+			x: 6.75d
+			y: 1.125d
+		}
+	]
+}

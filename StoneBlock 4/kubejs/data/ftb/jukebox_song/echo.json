@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "ftb.jukebox_song.echo"
+  },
+  "length_in_seconds": 75.0,
+  "sound_event": "ftb:music_disc.echo"
+}

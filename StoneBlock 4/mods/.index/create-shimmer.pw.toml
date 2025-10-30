@@ -1,0 +1,16 @@
+filename = 'create-shimmer-1.2.4.jar'
+name = 'Create: Shimmer'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1169707446630e6dac3b82b41eab81b50314e8ce'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7081644
+project-id = 1289504

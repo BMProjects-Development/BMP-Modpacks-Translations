@@ -1,0 +1,87 @@
+RecipeViewerEvents.removeEntries("item", (event) => {
+  event.remove("chicken_roost:water_egg")
+  event.remove("chicken_roost:lava_egg")
+  event.remove('ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"minecraft:armorer",type:"ftb:stone"}]'),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"minecraft:butcher",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"minecraft:cartographer",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"minecraft:cleric",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"minecraft:farmer",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"minecraft:fisherman",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"minecraft:fletcher",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"immersiveengineering:engineer",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"advancedperipherals:computer_scientist",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"minecraft:weaponsmith",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"minecraft:toolsmith",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"minecraft:shepherd",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"minecraft:nitwit",type:"ftb:stone"}]'
+    ),
+    event.remove('ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"minecraft:mason",type:"ftb:stone"}]'),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"minecraft:librarian",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"minecraft:leatherworker",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"immersiveengineering:machinist",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"immersiveengineering:electrician",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"immersiveengineering:outfitter",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"immersiveengineering:gunsmith",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"ars_nouveau:shady_wizard",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"actuallyadditions:engineer",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"irons_jewelry:jeweler",type:"ftb:stone"}]'
+    ),
+    event.remove(
+      'ftbunearthed:worker_token[ftbunearthed:worker_data={profession:"ae2:fluix_researcher",type:"ftb:stone"}]'
+    ),
+    event.remove('gateways:gate_pearl[gateways:gateway="ftb:vault/tier_1"]'),
+    event.remove('gateways:gate_pearl[gateways:gateway="ftb:vault/tier_2"]'),
+    event.remove('gateways:gate_pearl[gateways:gateway="ftb:vault/tier_3"]'),
+    event.remove('gateways:gate_pearl[gateways:gateway="ftb:vault/tier_4"]')
+})
+
+RecipeViewerEvents.addEntries("item", (event) => {
+  event.add("chicken_roost:water_egg")
+  event.add("chicken_roost:lava_egg")
+})
+
+RecipeViewerEvents.addInformation('fluid', event => {
+	event.add('justdirethings:portal_fluid_source', [
+		'Made in the End Ring.'
+	])
+})

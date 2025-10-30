@@ -1,0 +1,16 @@
+filename = 'magiccoinstweak-1.0-SNAPSHOT.jar'
+name = 'Magic Coins Tweak'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f2529faa451b40bca6f7cd0ab36894f791ab494f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6995921
+project-id = 1346939

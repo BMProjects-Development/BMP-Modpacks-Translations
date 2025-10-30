@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "ftb:block/engine/world_engine_plating",
+    "particle": "ftb:block/engine/world_engine_plating"
+  }
+}

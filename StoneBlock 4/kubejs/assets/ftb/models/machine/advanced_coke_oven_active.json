@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "ftb:block/advanced_coke_oven/advanced_coke_oven",
+    "north":   "ftb:block/advanced_coke_oven/advanced_coke_oven_active",
+    "east":    "ftb:block/advanced_coke_oven/advanced_coke_oven",
+    "south":   "ftb:block/advanced_coke_oven/advanced_coke_oven",
+    "west":    "ftb:block/advanced_coke_oven/advanced_coke_oven",
+    "up":      "ftb:block/advanced_coke_oven/advanced_coke_oven",
+    "down":    "ftb:block/advanced_coke_oven/advanced_coke_oven"
+  }
+}

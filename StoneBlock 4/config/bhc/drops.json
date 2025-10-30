@@ -1,0 +1,20 @@
+{
+  "heartEntries": {
+    "red": {
+      "hostile": 0.05
+    },
+    "green": {
+      "minecraft:warden": 1.0,
+      "cataclysm:ignis":1.0,
+      "irons_spellbooks:fire_boss":1.0
+    },
+    "blue": {
+      "mecrh:ender_chicken": 1.0,
+      "cataclysm:the_leviathan":1.0,
+      "cataclysm:maledictus":1.0
+    },
+    "yellow": {
+      "boss": 1.0
+    }
+  }
+}

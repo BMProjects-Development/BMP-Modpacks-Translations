@@ -1,0 +1,104 @@
+{
+  "frames": [
+    {
+      "texture": "tooltipoverhaul:textures/overlay/amethyst_frame.png",
+      "items": [
+        "minecraft:dragon_egg",
+        "minecraft:enchanted_golden_apple",
+        "ftb:portal_gun",
+        "ftb:purple_core",
+        "ftb:red_core",
+        "ftb:orange_core",
+        "ftb:blue_core"
+      ],
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#C551C3", "#C551C3", "#C551C3"],
+      "specialEffect": "metal_shining"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/emerald_frame.png",
+      "items": [
+        "gateways:gate_pearl"
+      ],
+      "dividerLineColor": "match_item_name_color",
+      "gradientType": "custom",
+      "borderType": "auto_gradient",
+      "specialEffect": "cinder"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/diamond_frame.png",
+      "items": [
+        "minecraft:end_crystal",
+        "minecraft:beacon",
+        "minecraft:conduit",
+        "minecraft:golden_apple",
+        "minecraft:music_disc_13",
+        "minecraft:music_disc_cat",
+        "minecraft:music_disc_blocks",
+        "minecraft:music_disc_chirp",
+        "minecraft:music_disc_far",
+        "minecraft:music_disc_mall",
+        "minecraft:music_disc_mellohi",
+        "minecraft:music_disc_stal",
+        "minecraft:music_disc_strad",
+        "minecraft:music_disc_ward",
+        "minecraft:music_disc_11",
+        "minecraft:music_disc_wait",
+        "minecraft:music_disc_otherside",
+        "minecraft:music_disc_5",
+        "minecraft:music_disc_relic",
+        "minecraft:music_disc_pigstep"
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient"
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/amber_frame.png",
+      "items": [
+        "minecraft:elytra",
+        "minecraft:experience_bottle",
+        "minecraft:skeleton_skull",
+        "minecraft:wither_skeleton_skull",
+        "minecraft:player_wall_head",
+        "minecraft:creeper_wall_head",
+        "minecraft:zombie_wall_head",
+        "minecraft:dragon_wall_head",
+        "minecraft:piglin_wall_head",
+        "minecraft:nether_star",
+        "minecraft:enchanted_book",
+        "minecraft:dragon_breath",
+        "minecraft:totem_of_undying",
+        "minecraft:heart_of_the_sea",
+        "minecraft:creeper_banner_pattern",
+        "minecraft:skull_banner_pattern"
+      ],
+      "gradientType": "custom",
+      "borderType": "auto_gradient"
+    },
+    {
+      "items": [
+        "celestisynth:frostbound",
+        "celestisynth:keres",
+        "celestisynth:crescentia",
+        "celestisynth:breezebreaker",
+        "celestisynth:poltergeist",
+        "celestisynth:aquaflora",
+        "celestisynth:rainfall_serenity"
+      ],
+      "disableScrolling": true
+    },
+    {
+      "texture": "tooltipoverhaul:textures/overlay/cataclysm_frame.png",
+      "items": [
+        "cataclysm:the_incinerator",
+        "cataclysm:ceraunus",
+        "cataclysm:soul_render"
+      ],
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#3D3A5E", "#3D3A5E", "#3D3A5E"],
+      "specialEffect": "metal_shining"
+    }
+  ]
+}

@@ -1,0 +1,1379 @@
+{
+	autofocus_id: "1F9D3474C8A655A9"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "4B65568899D62A0C"
+	icon: {
+		id: "minecraft:crafting_table"
+	}
+	id: "41A8FE9D26EFA401"
+	images: [
+		{
+			height: 15.0d
+			image: "ftb:textures/quests/backgrounds/portal3d_cutout.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			alpha: 150
+			color: 0
+			height: 40.0d
+			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
+			order: -3
+			rotation: 90.0d
+			width: 8.0d
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependency: "7D1FB9A40B5CAE97"
+			height: 2.5d
+			image: "malum:textures/gui/book/widgets/soulwood_frame_gilded.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependency: "7D1FB9A40B5CAE97"
+			height: 2.5d
+			image: "ftbquests:tasks/input_only"
+			order: -1
+			rotation: 0.0d
+			width: 2.5d
+			x: 25.0d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [{
+		id: "365AC3950F02EC55"
+		linked_quest: "615D1A52ED3A9C78"
+		shape: "hexagon"
+		size: 2.0d
+		x: 25.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "reliquified_twilight_forest:item/invisibility_cloak"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "1F9D3474C8A655A9"
+			rewards: [
+				{
+					amount: 1
+					id: "55DF8FC898B35E4A"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					id: "6E8C72D61D5B35DB"
+					ignore_reward_blocking: true
+					stage: "ftb:bee_1"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					disable_toast: true
+					id: "72121E28134ACE07"
+					ignore_dimension: false
+					position: [I;
+						-75
+						-22
+						15
+					]
+					size: [I;
+						25
+						15
+						25
+					]
+					type: "location"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "immersiveengineering:block/metal_decoration/sign/icon_villager"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "59521977C507A466"
+					stage: "echo_guidance_meet"
+					type: "gamestage"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1F9D3474C8A655A9"
+				"78610F56E29472F7"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ars_nouveau:block/warp_portal"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4194852B70E0ECEB"
+			rewards: [
+				{
+					amount: 1
+					id: "1BE1F4E900011EE5"
+					type: "currency"
+				}
+				{
+					id: "2E521856EFE39CF8"
+					table_id: 8721787916292516836L
+					team_reward: false
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				biome: "#ftb:is_stone"
+				icon: {
+					id: "minecraft:stone"
+				}
+				id: "4F37295B08FFCA81"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B387999FBEE2E9E"]
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "1A84E167BFF8C2E4"
+			rewards: [
+				{
+					amount: 1
+					id: "6B6B09F606B5D47E"
+					type: "currency"
+				}
+				{
+					count: 4
+					id: "3CBC9B638E638C2E"
+					item: {
+						count: 1
+						id: "ftb:stone_pebble"
+					}
+					random_bonus: 12
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5AABB31FEFF8AF54"
+					item: { count: 1, id: "ftb:stone_pebble" }
+					type: "item"
+				}
+				{
+					id: "41D7F578D1C996C4"
+					item: { count: 1, id: "minecraft:crafting_table" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A84E167BFF8C2E4"]
+			icon: {
+				id: "ftbstuff:stone_hammer"
+			}
+			id: "0AAA6858DAF43067"
+			rewards: [
+				{
+					amount: 1
+					id: "220F86259DF75EF2"
+					type: "currency"
+				}
+				{
+					count: 4
+					id: "331614AE8CE65F4E"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C2E78F53FD43073"
+					item: { count: 1, id: "ftbstuff:stone_hammer" }
+					type: "item"
+				}
+				{
+					id: "49CD2F7B5034E715"
+					item: { count: 1, id: "minecraft:gravel" }
+					type: "item"
+				}
+				{
+					id: "7A24DD69AF12C6DB"
+					item: { count: 1, id: "minecraft:dirt" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A84E167BFF8C2E4"]
+			icon: {
+				id: "ftbstuff:stone_crook"
+			}
+			id: "4F27342D2DA7C605"
+			rewards: [{
+				amount: 2
+				id: "0C9B74268FCE7BF2"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "4D532A37DE3D55D0"
+				item: { count: 1, id: "ftbstuff:stone_crook" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4F27342D2DA7C605"
+				"0AAA6858DAF43067"
+			]
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "6089F3DC28FB69C0"
+			rewards: [
+				{
+					amount: 2
+					id: "46B7B85C9FAB84C5"
+					type: "currency"
+				}
+				{
+					id: "6FA3F3DA4D4E0F58"
+					item: {
+						count: 1
+						id: "ftbstuff:stone_crook"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "742022DB9012FEDC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:cherry_sapling)item(minecraft:dark_oak_sapling)item(minecraft:acacia_sapling)item(minecraft:jungle_sapling)item(minecraft:birch_sapling)item(minecraft:spruce_sapling)item(minecraft:oak_sapling))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6089F3DC28FB69C0"]
+			icon: {
+				id: "minecraft:oak_leaves"
+			}
+			id: "0B295CE75D367D59"
+			rewards: [{
+				amount: 2
+				id: "1D9A0AB461F97D69"
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "46967C261D1FBDAF"
+					item: { count: 1, id: "woodenshears:wooden_shears" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:oak_leaves"
+					}
+					id: "5034DC565C8B0377"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:leaves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B295CE75D367D59"]
+			icon: {
+				id: "ftbstuff:wooden_basin"
+			}
+			id: "5868F616B3756FF3"
+			rewards: [{
+				amount: 2
+				id: "1C750AEAF1C5A010"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "02F911D6AB3EEFE7"
+				item: { count: 1, id: "ftbstuff:wooden_basin" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B295CE75D367D59"]
+			icon: {
+				id: "farmersdelight:straw"
+			}
+			id: "036047DE66198D10"
+			rewards: [
+				{
+					amount: 3
+					id: "23390B3C6921BDF4"
+					type: "currency"
+				}
+				{
+					id: "7E0B6C4001766330"
+					item: {
+						count: 1
+						id: "ars_nouveau:starby_gift"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2A3DD4A0E41DECB5"
+					item: { count: 1, id: "minecraft:campfire" }
+					type: "item"
+				}
+				{
+					id: "6790137D28A8A114"
+					item: { count: 1, id: "farmersdelight:straw" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17AC5EBEBDC124E9"]
+			id: "5CD7299E8709E7F6"
+			rewards: [
+				{
+					amount: 5
+					id: "41F1974B070B430F"
+					type: "currency"
+				}
+				{
+					count: 16
+					id: "6001E675690A049B"
+					item: {
+						count: 1
+						id: "oritech:item_pipe"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "66F95497040A9704"
+				item: { count: 1, id: "ftbunearthed:core" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6D5A9E9E8B0D8AC2"
+				"1617D99EA1AE47E4"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:zombie_villager"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3BD07A9C3A6ED05A"
+			min_width: 300
+			rewards: [{
+				amount: 5
+				id: "75B24393C07A7201"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "149EDD07DA46D40F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:villager"
+				type: "observation"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54A433FAF8A65CC0"]
+			id: "17AC5EBEBDC124E9"
+			min_width: 300
+			rewards: [
+				{
+					amount: 25
+					id: "2AC8211BC46F88D5"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57583C3925A90058"
+					table_id: 891108655955453907L
+					type: "loot"
+				}
+				{
+					auto: "disabled"
+					command: "/ftbunearthed setlevel @s 3"
+					feedback_message: "Your Unearthing Skill Has Leveled Up"
+					icon: {
+						components: {
+							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "09DF4A8DBF01CD61"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					id: "5EF124E7084F06BA"
+					ignore_reward_blocking: true
+					stage: "echo_guidance_stage1_task3_completed"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: false
+				id: "13DFF244F8084A8A"
+				item: { count: 1, id: "ftbunearthed:worker_token" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BD07A9C3A6ED05A"]
+			icon: {
+				components: {
+					"custommachinery:machine": "ftb:world_engine"
+				}
+				id: "custommachinery:custom_machine_item"
+			}
+			id: "54A433FAF8A65CC0"
+			min_width: 250
+			rewards: [
+				{
+					amount: 15
+					id: "2C9C3FD7CB674A2A"
+					type: "currency"
+				}
+				{
+					icon: {
+						id: "minecraft:painting"
+					}
+					id: "37F1C940A746F48C"
+					item: {
+						components: {
+							"minecraft:entity_data": {
+								id: "minecraft:painting"
+								variant: "ftb:stoneblock_4"
+							}
+						}
+						count: 1
+						id: "minecraft:painting"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "07103E8ABF9CB34C"
+					item: { count: 1, id: "irons_spellbooks:amethyst_resonance_charm" }
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"custommachinery:machine": "ftb:world_engine"
+						}
+						id: "custommachinery:custom_machine_item"
+					}
+					id: "6F63CD417D16DE7F"
+					observe_type: 0
+					timer: 0L
+					to_observe: "custommachinery:custom_machine_block"
+					type: "observation"
+				}
+				{
+					id: "5A25B31B352D2A1D"
+					item: { count: 1, id: "ftbunearthed:echo_encoder" }
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6120A9478D66C2F9"]
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "0ACCAD3AEF57F2E2"
+			optional: true
+			rewards: [
+				{
+					amount: 2
+					id: "0AFE6CECDFCCC475"
+					type: "currency"
+				}
+				{
+					count: 16
+					id: "68605C183D9452FA"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "04B907866204C559"
+					item: { count: 1, id: "jags:grass_seed" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:grass_block"
+					}
+					id: "45C3B788492E3C09"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:grass_block"
+					type: "observation"
+				}
+			]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7D945B6D1311B741"
+				"4445906BD04FC37D"
+			]
+			id: "6D5A9E9E8B0D8AC2"
+			rewards: [
+				{
+					amount: 10
+					id: "351F822437BF77F5"
+					type: "currency"
+				}
+				{
+					id: "4320E3B4B6CA42EC"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:dreadful_dirt"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "30CF306ECE42930C"
+					item: {
+						count: 1
+						id: "tempad:chronon_generator"
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "568A955FED6B97A7"
+					item: {
+						components: {
+							"minecraft:custom_name": "\"Lost Cell of the Echoes\""
+						}
+						count: 1
+						id: "tempad:chronon_cell"
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					icon: {
+						components: {
+							"custommachinery:machine": "ftb:world_engine"
+						}
+						id: "custommachinery:custom_machine_item"
+					}
+					id: "0E91DBA45C7125BF"
+					ignore_reward_blocking: true
+					stage: "world_engine_unlocked"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "7EE09043A043CE49"
+					ignore_reward_blocking: true
+					stage: "home_unlocked"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "2EE0369071462EAC"
+					ignore_reward_blocking: true
+					stage: "echo_guidance_stage1_task2_completed"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				id: "4D145CCFC3762A00"
+				item: { count: 1, id: "tempad:chronon_generator" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6120A9478D66C2F9"
+				"4C52D3DE2F7701D0"
+			]
+			hide_until_deps_complete: true
+			id: "71205F3FE5AD49B3"
+			min_width: 300
+			rewards: [
+				{
+					amount: 5
+					id: "05242A928C95BBB1"
+					type: "currency"
+				}
+				{
+					auto: "enabled"
+					command: "/ftbunearthed setlevel @s 2"
+					feedback_message: "Your Unearthing Skill Has Leveled Up!"
+					icon: {
+						components: {
+							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2F7B82DA30E186CA"
+					permission_level: 4
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D0EE38E555793D7"
+					table_id: 7750792604136724303L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "554EE9525E2AB801"
+				item: { count: 1, id: "ftbstuff:iron_hammer" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6120A9478D66C2F9"]
+			id: "193690C049F4B4BB"
+			rewards: [
+				{
+					amount: 3
+					id: "051619A2AB971866"
+					type: "currency"
+				}
+				{
+					count: 4
+					id: "2653C8B2CB4DFEF7"
+					item: {
+						count: 1
+						id: "minecraft:sand"
+					}
+					random_bonus: 12
+					type: "item"
+				}
+				{
+					count: 4
+					id: "49EC43C0A06C0236"
+					item: {
+						count: 1
+						id: "ftbstuff:dust"
+					}
+					random_bonus: 12
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "73AF60FCB5DC70FC"
+					item: { count: 1, id: "minecraft:sand" }
+					type: "item"
+				}
+				{
+					id: "7879D610A37D9234"
+					item: { count: 1, id: "ftbstuff:dust" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71205F3FE5AD49B3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/notes"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "47C1E9F93CEF25D3"
+			rewards: [{
+				amount: 1
+				id: "3DF17C2C1C032ABF"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "075F7BA7175B340A"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71205F3FE5AD49B3"]
+			icon: {
+				id: "minecraft:redstone"
+			}
+			id: "4445906BD04FC37D"
+			rewards: [
+				{
+					amount: 3
+					id: "0E44E5340FB37715"
+					type: "currency"
+				}
+				{
+					count: 16
+					id: "7D2F4B153902205F"
+					item: {
+						count: 1
+						id: "ftbstuff:dust"
+					}
+					random_bonus: 16
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7AF4AC5B7D3EADE2"
+					item: { count: 1, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "0B9221E12892287E"
+					item: { count: 1, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["71205F3FE5AD49B3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "relics:item/aqua_walker_bubble"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7D945B6D1311B741"
+			rewards: [{
+				amount: 5
+				id: "56E1F5908393EE4A"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					biome: "ftb:spring"
+					icon: {
+						components: {
+							"ftbquests:icon": "relics:item/aqua_walker_bubble"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5D44C1D4945AB04C"
+					type: "biome"
+				}
+				{
+					id: "2D322B58D78E20DC"
+					item: { count: 1, id: "minecraft:amethyst_shard" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5CD7299E8709E7F6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/notes"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "59E8FEC3758635DF"
+			rewards: [{
+				amount: 1
+				id: "10E6ED05A429CADF"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "18CB8C05E3A9150F"
+				type: "checkmark"
+			}]
+			x: 23.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5CD7299E8709E7F6"]
+			icon: {
+				id: "apotheosis:salvaging_table"
+			}
+			id: "1520491A7804E08E"
+			rewards: [{
+				amount: 4
+				id: "44371E780E4A68C3"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6BF8EC574D1E3D25"
+					item: { count: 1, id: "minecraft:decorated_pot" }
+					type: "item"
+				}
+				{
+					id: "7E3CD729B224D3D0"
+					item: { count: 1, id: "apotheosis:salvaging_table" }
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A84E167BFF8C2E4"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/notes"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "39F6026AB205841A"
+			rewards: [{
+				amount: 1
+				id: "6CFEE45607A5EE14"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "36D65F0F76F3F5E9"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D5A9E9E8B0D8AC2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/notes"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "35791C02AC048594"
+			rewards: [{
+				amount: 1
+				id: "337B91FC322A2EEF"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "379AF15FE59B449C"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["036047DE66198D10"]
+			icon: {
+				id: "ftbunearthed:crude_brush"
+			}
+			id: "6120A9478D66C2F9"
+			min_width: 300
+			rewards: [
+				{
+					amount: 5
+					id: "24075A09499CFAB5"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					id: "5D8D40D899EE89BD"
+					ignore_reward_blocking: true
+					stage: "echo_guidance_stage1_task1_completed"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "013A801245AF5449"
+				item: { count: 1, id: "ftbunearthed:crude_brush" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6089F3DC28FB69C0"]
+			icon: {
+				id: "minecraft:charcoal"
+			}
+			id: "28683BFE22FBCCFC"
+			rewards: [
+				{
+					amount: 2
+					id: "151F2C4079FF7208"
+					type: "currency"
+				}
+				{
+					count: 2
+					id: "2D6A208F96F0910F"
+					item: {
+						count: 1
+						id: "minecraft:charcoal"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0DD5AA84A683F637"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6445B8FF26C5E4B1"
+					item: { count: 1, id: "minecraft:furnace" }
+					type: "item"
+				}
+				{
+					id: "04FC782BB663CD35"
+					item: { count: 1, id: "minecraft:charcoal" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BD07A9C3A6ED05A"]
+			id: "277181E358575312"
+			rewards: [
+				{
+					amount: 5
+					id: "39003C1FCE052937"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DDBE3F56CC482AC"
+					table_id: 7750792604136724303L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1269A76727E0754E"
+				item: { count: 1, id: "minecraft:rotten_flesh" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4194852B70E0ECEB"]
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:bee"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6B387999FBEE2E9E"
+			rewards: [
+				{
+					amount: 1
+					id: "61E45418DB57EDAF"
+					type: "currency"
+				}
+				{
+					auto: "disabled"
+					command: "/events force ftb:loot_bee"
+					icon: {
+						components: {
+							"!ftbquests:icon": { }
+							"ftbquests:entity_face": "minecraft:bee"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "1E8870E07D7F4A99"
+					permission_level: 4
+					team_reward: false
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					id: "0BB9E36ACDDF97A1"
+					ignore_reward_blocking: true
+					stage: "events_enabled"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "68A1DE705F7F836C"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71205F3FE5AD49B3"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "0138DA9E72BF9CE0"
+			optional: true
+			rewards: [{
+				auto: "disabled"
+				command: "/compass locate ftb:healing_spring"
+				feedback_message: "Healing Spring Locator Acquired"
+				icon: {
+					id: "minecraft:compass"
+				}
+				id: "5AE23D826352677E"
+				permission_level: 4
+				silent: true
+				team_reward: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "34E4918707295C02"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6089F3DC28FB69C0"]
+			icon: {
+				id: "justhammers:stone_hammer"
+			}
+			id: "60633295CFD82152"
+			optional: true
+			rewards: [{
+				amount: 5
+				id: "5FB0B0A73893B6C5"
+				type: "currency"
+			}]
+			tasks: [{
+				icon: {
+					id: "justhammers:stone_hammer"
+				}
+				id: "4F171D8BC8C1C8F7"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(justhammers:hammer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["193690C049F4B4BB"]
+			icon: {
+				id: "bonsaitrees4:bonsaipot"
+			}
+			id: "30F922372D95D407"
+			rewards: [
+				{
+					amount: 3
+					id: "74E6CEEF837935A3"
+					type: "currency"
+				}
+				{
+					id: "6F5236123B291074"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "69D90F2965FA299F"
+					item: { count: 1, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+				{
+					id: "19D743E4A4A89586"
+					item: { count: 1, id: "bonsaitrees4:bonsaipot" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54A433FAF8A65CC0"]
+			icon: {
+				id: "bhc:red_heart"
+			}
+			id: "5E90192C6F3011B7"
+			rewards: [{
+				amount: 1
+				id: "2DA804BBB174BEB2"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "180699485CD072B7"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0ACCAD3AEF57F2E2"]
+			id: "5151A30EB06C1122"
+			rewards: [{
+				amount: 2
+				id: "25A7E165BF60E292"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "758C68E8636088F8"
+					item: { count: 1, id: "minecraft:egg" }
+					type: "item"
+				}
+				{
+					id: "63806D8819D6ECA0"
+					item: { count: 1, id: "minecraft:feather" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5CD7299E8709E7F6"]
+			icon: {
+				id: "ftbstuff:stone_cobblestone_generator"
+			}
+			id: "75F6827C1FB52C91"
+			rewards: [
+				{
+					amount: 4
+					id: "354CDBBF55C0ABB6"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D14D9D9723AB597"
+					table_id: 7750792604136724303L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1E31F492D8779AB6"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ftbstuff:stone_cobblestone_generator)item(ftbstuff:iron_cobblestone_generator)item(ftbstuff:gold_cobblestone_generator)item(ftbstuff:diamond_cobblestone_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5B2F539FB8DF8B64"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ftbstuff:iron_auto_hammer)item(ftbstuff:gold_auto_hammer)item(ftbstuff:diamond_auto_hammer)item(ftbstuff:netherite_auto_hammer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17AC5EBEBDC124E9"]
+			icon: {
+				components: {
+					"ftbquests:icon": "clavis:textures/icon/easy.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "455930CEC0C90C0C"
+			rewards: [
+				{
+					amount: 1
+					id: "05A9A6FADEECD1B9"
+					type: "currency"
+				}
+				{
+					id: "7A96C0934A2933AA"
+					item: {
+						count: 1
+						id: "clavis:lock_pick"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "37F6704E46F8E7BC"
+				type: "checkmark"
+			}]
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D5A9E9E8B0D8AC2"]
+			icon: {
+				id: "ftbpc:action_pad"
+			}
+			id: "3DF42A6D832C0492"
+			rewards: [
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "5A4021BAC5FD9392"
+					item: {
+						count: 1
+						id: "ftbpc:action_pad"
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					amount: 1
+					id: "1C6642DD4F3FE630"
+					type: "currency"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2CB20E4080C1B6CC"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["036047DE66198D10"]
+			icon: {
+				components: {
+					"ftbquests:icon": "lychee:textures/gui/sprites/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7B2044D285C9F1E3"
+			rewards: [{
+				amount: 1
+				id: "5B238352AA726B7D"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2D2F59A031BC2E63"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+	]
+}

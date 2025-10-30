@@ -1,0 +1,16 @@
+filename = 'irons_apothic-1.9.0.jar'
+name = "Apotheosis x Iron's Spellbooks Compat"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9a58aeeed9f000558614cb80aff4fb846063a670'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7103795
+project-id = 1244863

@@ -1,0 +1,6 @@
+#Controls whether the weapon crosshair/reticle is a custom color. Otherwise, uses the minecraft style background aware transparent color. Defaults to false
+solid_color_weapon_crosshair = false
+#The color of the weapon crosshair if the solid color crosshair option is enabled. Use a hexadecimal color format prefixed with #.
+weapon_crosshair_color = "#-1"
+#Whether upgrade module icons are always shown instead of needing to hold down SHIFT. (Defaults to false)
+always_show_upgrade_icons = false

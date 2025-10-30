@@ -1,0 +1,16 @@
+filename = 'leaderboards-1.21.1-NeoForge-1.0.0.jar'
+name = 'Leaderboards'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8f9099957263bc0e19723881840949d487afa633'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7123096
+project-id = 1367888

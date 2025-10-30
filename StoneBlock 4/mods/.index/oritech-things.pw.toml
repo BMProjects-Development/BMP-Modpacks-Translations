@@ -1,0 +1,16 @@
+filename = 'oritechthings-0.0.26.jar'
+name = 'Oritech Things'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e801ff94024c1c9855d2364393a789fa607db377'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7062443
+project-id = 1166849

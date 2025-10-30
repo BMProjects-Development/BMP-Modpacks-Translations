@@ -1,0 +1,118 @@
+{
+	icon: {
+		id: "mekanism:ultimate_induction_cell"
+	}
+	id: "20D1BF16232BD665"
+	loot_crate: {
+		color: 16777045
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "ftb.shop.title.loot_crate.rf_source"
+		string_id: "random_rf_source"
+	}
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 36
+			id: "694311419C81AF7D"
+			item: {
+				count: 1
+				id: "powah:reactor_nitro"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "27ABE490947C60C6"
+			item: {
+				count: 1
+				id: "mekanismgenerators:bio_generator"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "4008B88E603826D5"
+			item: {
+				count: 1
+				id: "powah:thermo_generator_nitro"
+			}
+			weight: 75.0f
+		}
+		{
+			count: 8
+			id: "0BA2328971753A20"
+			item: {
+				count: 1
+				id: "immersiveengineering:thermoelectric_generator"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "0C0AF3E1761F3CA1"
+			item: {
+				count: 1
+				id: "oritech:bio_generator_block"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "2550C5083B3E398B"
+			item: {
+				count: 1
+				id: "oritech:lava_generator_block"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "70262DE7E9B3E798"
+			item: {
+				count: 1
+				id: "oritech:fuel_generator_block"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "2FF2A18F6F41F622"
+			item: {
+				count: 1
+				id: "irregular_implements:spectre_coil_number"
+			}
+			weight: 100.0f
+		}
+		{
+			command: "/ftbquests change_progress @s complete 79699F714DC8599E"
+			feedback_message: "Claimed Fusion Reactor"
+			icon: {
+				id: "mekanismgenerators:fusion_reactor_controller"
+			}
+			id: "632965F5B615FA8D"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			command: "/ftbquests change_progress @s complete 7756052D882413A5"
+			icon: {
+				id: "industrialforegoing:mycelial_reactor"
+			}
+			id: "338E0593C527D311"
+			permission_level: 3
+			silent: true
+			type: "command"
+			weight: 15.0f
+		}
+		{
+			id: "1BEAE68F97450738"
+			item: {
+				count: 1
+				id: "mekanismgenerators:gas_burning_generator"
+			}
+			weight: 75.0f
+		}
+	]
+	use_title: true
+}

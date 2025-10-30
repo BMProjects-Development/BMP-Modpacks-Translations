@@ -1,0 +1,39 @@
+{
+	id: "657A949F0952B7D4"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			auto: "no_toast"
+			command: "/endershard @s 8 131 -1145 Nether North"
+			id: "55FBD183C62F244F"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s 8 131 1079 Nether South"
+			id: "08099C03B0628B39"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s 1160 131 7 Nether East"
+			id: "419A1C4D9279BF50"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s -1144 131 7 Nether West"
+			id: "31B152CBB7E9CDAD"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+	]
+}

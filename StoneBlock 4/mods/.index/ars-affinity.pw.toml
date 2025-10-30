@@ -1,0 +1,16 @@
+filename = 'ars_affinity-1.21.1-1.0.0.jar'
+name = 'Ars Affinity'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '89cfe2604be7a0e4033b684dfd88af4cc6784032'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7078544
+project-id = 1319260

@@ -1,0 +1,16 @@
+filename = 'squatgrow-neoforge-21.1.1+mc1.21.1.jar'
+name = 'Squat Grow (Shift / Twerk to grow plants)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '89dd9a83854ef2a240ced913cc46cbe0ab3d022d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7091580
+project-id = 515698

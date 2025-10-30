@@ -1,0 +1,16 @@
+filename = 'pop-21.1.2.jar'
+name = 'Pop (up)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd36c550ea18a7150fee74c63bf8f2cf59a10ab70'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6429194
+project-id = 1231826

@@ -1,0 +1,16 @@
+filename = 'titanium-1.21-4.0.40.jar'
+name = 'Titanium'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '14d3bd564642256849967bbc7e79248c67ca5250'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6875285
+project-id = 287342

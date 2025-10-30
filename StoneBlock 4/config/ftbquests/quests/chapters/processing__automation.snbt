@@ -1,0 +1,437 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "processing__automation"
+	group: "337473E1389D8A71"
+	icon: {
+		id: "create:fluid_pipe"
+	}
+	id: "5653350BC99D4290"
+	images: [
+		{
+			height: 1.0d
+			image: "ftb:textures/quests/other_titles_and_logos/logistics_title.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			height: 6.0d
+			image: "immersiveengineering:textures/models/blueprint_frame.png"
+			order: -2
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: -0.25d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: true
+			icon: {
+				id: "create:belt_connector"
+			}
+			id: "13FE28AF74A357CD"
+			rewards: [
+				{
+					amount: 10
+					id: "39D280EA484DEB92"
+					type: "currency"
+				}
+				{
+					id: "73725EE179D22093"
+					item: {
+						count: 1
+						id: "create:filter"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "7ACAF66680EFFB43"
+					item: { count: 1, id: "create:belt_connector" }
+					type: "item"
+				}
+				{
+					id: "7C972E1F071C029A"
+					item: { components: { "ftbfiltersystem:filter": "or(item(create:brass_funnel)item(create:brass_tunnel)item(create:smart_chute)item(create:chute)item(create:andesite_funnel)item(create:andesite_tunnel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "xnet:controller"
+			}
+			id: "0DF5D2B35FDEE536"
+			optional: true
+			rewards: [{
+				amount: 3
+				id: "22B6E57677E09757"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "7813EDA280801A49"
+					item: { count: 1, id: "xnet:controller" }
+					type: "item"
+				}
+				{
+					id: "4E9D1C67F4EAD926"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(xnet:connectors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "pipez:item_pipe"
+			}
+			id: "0DB5CBE2E76D2FD9"
+			min_width: 300
+			rewards: [
+				{
+					amount: 3
+					id: "5F7EB120D18D6EDE"
+					type: "currency"
+				}
+				{
+					id: "7FFA3EF46C50D35B"
+					item: {
+						count: 1
+						id: "pipez:improved_upgrade"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4723388B7D52CF6E"
+					item: { count: 1, id: "pipez:wrench" }
+					type: "item"
+				}
+				{
+					id: "74854866973A7ED8"
+					item: { components: { "ftbfiltersystem:filter": "or(item(pipez:energy_pipe)item(pipez:gas_pipe)item(pipez:fluid_pipe)item(pipez:item_pipe)item(pipez:universal_pipe))", "minecraft:custom_name": "\"Pipes\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "62DE6121CE506116"
+					item: { components: { "ftbfiltersystem:filter": "or(item(pipez:basic_upgrade)item(pipez:improved_upgrade)item(pipez:advanced_upgrade)item(pipez:ultimate_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "enderio:conduit_facade"
+			}
+			id: "1DA78BAB2A6E2C82"
+			min_width: 300
+			rewards: [{
+				amount: 3
+				id: "67E0D8F57D8ECCEC"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "59380FA7D32F0E39"
+					item: { count: 1, id: "enderio:yeta_wrench" }
+					type: "item"
+				}
+				{
+					id: "034DB0323132B088"
+					item: { components: { "ftbfiltersystem:filter": "or(item(enderio:conduit))", "minecraft:custom_name": "\"Conduits\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "mekanism:basic_logistical_transporter"
+			}
+			id: "1ABA5F2ECAA6D9D2"
+			min_width: 300
+			rewards: [{
+				amount: 3
+				id: "0AF06E3ADBE3BF55"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "54388D97FCF2952D"
+					item: { count: 1, id: "mekanism:configurator" }
+					type: "item"
+				}
+				{
+					id: "0A04058F3A5934FC"
+					item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_universal_cable)item(mekanism:basic_mechanical_pipe)item(mekanism:basic_pressurized_tube)item(mekanism:basic_logistical_transporter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "laserio:laser_connector"
+			}
+			id: "5778BAEC8F095B3D"
+			min_width: 300
+			rewards: [
+				{
+					amount: 3
+					id: "3DAE91206A90B978"
+					type: "currency"
+				}
+				{
+					id: "50A1CDAAFCA078BE"
+					item: {
+						components: {
+							"patchouli:book": "laserio:laseriobook"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "16E7273CEE3D68C0"
+					item: { count: 1, id: "laserio:laser_wrench" }
+					type: "item"
+				}
+				{
+					id: "5F5F4FD11872B885"
+					item: { count: 1, id: "laserio:laser_node" }
+					type: "item"
+				}
+				{
+					id: "5794DE5BAB0F304A"
+					item: { count: 1, id: "laserio:laser_connector" }
+					type: "item"
+				}
+				{
+					id: "0A30227533B57599"
+					item: { components: { "ftbfiltersystem:filter": "or(item(laserio:card_item)item(laserio:card_fluid)item(laserio:card_energy)item(laserio:card_redstone)item(laserio:card_chemical))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "modularrouters:modular_router"
+			}
+			id: "38869642A2E6F8B6"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					amount: 5
+					id: "75EE060BCF20B8D5"
+					type: "currency"
+				}
+				{
+					id: "5CA9CE3FA209CB3C"
+					item: {
+						components: {
+							"patchouli:book": "modularrouters:book"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "1BD0D325FCF7B9E4"
+					item: { count: 1, id: "modularrouters:modular_router" }
+					type: "item"
+				}
+				{
+					id: "576C3A4D28B4D076"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modularrouters:energy_distributor_module)item(modularrouters:vacuum_module)item(modularrouters:fluid_module)item(modularrouters:distributor_module)item(modularrouters:activator_module)item(modularrouters:breaker_module))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "immersiveengineering:block/conveyor/conveyor"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "718C72A43E57B75A"
+			optional: true
+			rewards: [{
+				amount: 1
+				id: "7762E294281EA097"
+				type: "currency"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "6EEDBE793BDCC2D7"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "justdirethings:blockswappert2"
+			}
+			id: "4FA08F4A78785162"
+			rewards: [{
+				amount: 5
+				id: "12F90627CB3F5516"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D75B40EC4AF799A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:blockplacert1)item(justdirethings:fluidplacert1)item(justdirethings:droppert1)item(justdirethings:blockbreakert1)item(justdirethings:fluidcollectort1)item(justdirethings:clickert1))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "oritech:item_pipe"
+			}
+			id: "5CFC04F4F9A4B01D"
+			rewards: [{
+				amount: 1
+				id: "71F3EFC541571C10"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0F87E8B1C4F97923"
+					item: { count: 1, id: "oritech:wrench" }
+					type: "item"
+				}
+				{
+					id: "696DC87210410650"
+					item: { components: { "ftbfiltersystem:filter": "or(item(oritech:item_pipe)item(oritech:fluid_pipe)item(oritech:energy_pipe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "classicpipes:bone_pipe"
+			}
+			id: "61B830759B316300"
+			rewards: [{
+				amount: 5
+				id: "547BEF4B3F9E0B71"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4B7C315189CC7D79"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(classicpipes:pipes/item)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "08145422E66D2B7D"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					amount: 10
+					id: "7042E659010FE446"
+					type: "currency"
+				}
+				{
+					id: "32F6B9CEEDC503BF"
+					item: {
+						count: 1
+						id: "mekanism:quantum_entangloporter"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "3DF8935FBE368CCB"
+				item: { count: 1, id: "mekanism:quantum_entangloporter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "387FB75C400B5D34"
+			optional: true
+			rewards: [
+				{
+					amount: 10
+					id: "322AAF7F8FED2832"
+					type: "currency"
+				}
+				{
+					id: "772B7AA9B272104A"
+					item: {
+						count: 1
+						id: "tesseract:tesseract"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A85670A3DB24026"
+				item: { count: 1, id: "tesseract:tesseract" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+}

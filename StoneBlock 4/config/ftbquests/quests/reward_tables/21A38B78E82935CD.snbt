@@ -1,0 +1,508 @@
+{
+	icon: {
+		components: {
+			"hostilenetworks:data_model": "hostilenetworks:zombie"
+		}
+		id: "hostilenetworks:data_model"
+	}
+	id: "21A38B78E82935CD"
+	loot_crate: {
+		color: 11184810
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "ftb.shop.title.loot_crate.data_model"
+		string_id: "random_data_model"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:sheep"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:chicken"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:pig"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:cow"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:mooshroom"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:squid"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:glow_squid"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:iron_golem"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:polar_bear"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:twilightforest/redcap"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:creeper"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:drowned"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:guardian"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:hoglin"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:magma_cube"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:phantom"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:skeleton"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:slime"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:spider"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:witch"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:zombie"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:twilightforest/raven"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:twilightforest/skeleton_druid"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:twilightforest/wraith"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 75.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:shulker"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:zombified_piglin"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:ars_nouveau/wilden_mobs"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:twilightforest/giant"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:twilightforest/death_tome"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:twilightforest/kobold"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:twilightforest/minotaur"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:twilightforest/goblin"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:twilightforest/yeti"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:blaze"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:enderman"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:ghast"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:vindicator"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:wither_skeleton"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:evoker"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "42D3A191CD9313FE"
+			item: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:elder_guardian"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 10.0f
+		}
+		{ id: "42D3A191CD9313FE", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:ender_dragon" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "42D3A191CD9313FE", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:warden" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "42D3A191CD9313FE", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:wither" }, count: 1, id: "hostilenetworks:data_model" } }
+	]
+	use_title: true
+}

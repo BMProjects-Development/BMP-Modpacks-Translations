@@ -1,0 +1,16 @@
+filename = 'irons_apothic_invaders_1.0.0.jar'
+name = "Iron's Apothic Invaders"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '320585bf9ef2120545fbe481655cbb09650b7e15'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6507251
+project-id = 1260996

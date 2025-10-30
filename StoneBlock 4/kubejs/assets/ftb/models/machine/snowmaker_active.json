@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "ftb:block/snowmaker/snowmaker",
+    "north":   "ftb:block/snowmaker/snowmaker_active",
+    "east":    "ftb:block/snowmaker/snowmaker_side",
+    "south":   "ftb:block/snowmaker/snowmaker_side",
+    "west":    "ftb:block/snowmaker/snowmaker_side",
+    "up":      "ftb:block/snowmaker/snowmaker_top",
+    "down":    "ftb:block/snowmaker/snowmaker_bottom"
+  }
+}

@@ -1,0 +1,21 @@
+#Villager Restocking Configuration
+[restocking]
+	#Cooldown between individual restocks in minutes (default: 2 minutes = 2400 ticks)
+	# Default: 2
+	# Range: > 0
+	restockCooldownMinutes = 2
+	#Time after which the restock counter resets in minutes (default: 10 minutes = 12000 ticks)
+	# Default: 10
+	# Range: > 0
+	restockResetMinutes = 10
+	#Maximum number of restocks allowed per reset period (default: 2)
+	# Default: 2
+	# Range: > 1
+	maxRestocksPerPeriod = 2
+
+#Villager Behavior Configuration
+[behavior]
+	#Prevent villagers from sleeping at night (default: true)
+	preventVillagerSleep = true
+	#Make villagers work all day without schedule changes (No more "Meeting" or "Idle", overwrites preventVillagerSleep) (default: false)
+	alwaysWorking = false

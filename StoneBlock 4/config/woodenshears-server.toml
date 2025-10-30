@@ -1,0 +1,5 @@
+["Balance Options"]
+	#Defines the maximum durability of Wooden Shears. (50 - default value, 0 - deactivates the durability)
+	# Default: 50
+	# Range: 0 ~ 10000
+	durability = 50

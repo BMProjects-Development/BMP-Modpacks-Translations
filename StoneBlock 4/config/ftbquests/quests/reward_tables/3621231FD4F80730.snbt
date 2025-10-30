@@ -1,0 +1,62 @@
+{
+	icon: {
+		id: "ironchest:diamond_chest"
+	}
+	id: "3621231FD4F80730"
+	loot_crate: {
+		color: 2806271
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "ftb.shop.title.loot_crate.chest_upg"
+		string_id: "random_chest_upgrade"
+	}
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			id: "61CEB2F2FFAA6436"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+			}
+			weight: 200.0f
+		}
+		{
+			id: "0FC36D2F4824CBFB"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+			}
+			weight: 150.0f
+		}
+		{
+			id: "5E47881DD1B40C80"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "261488D252678CB4"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "53F9C1337FF00FDD"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
+			}
+			weight: 5.0f
+		}
+	]
+	use_title: true
+}

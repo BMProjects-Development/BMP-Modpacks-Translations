@@ -1,0 +1,53 @@
+{
+  "config": {
+    "canBreakBlocks": false,
+    "canInteract": false,
+    "canPlaceBlocks": false,
+    "allowPlayerPVP": true,
+    "allowCreatureSpawning": false,
+    "preventHostileSpawns": true,
+    "preventPassiveSpawns": true,
+    "allowFireSpread": false,
+    "allowExplosions": false,
+    "allowItemPickup": true,
+    "onlyProtectOriginalBlocks": false,
+    "allowElytraFlight": false,
+    "allowEnderPearls": false,
+    "allowRiptide": false,
+    "allowCreativeFlight": false,
+    "allowEnderTeleportation": false,
+    "blockBreakWhitelist": ["simpletomb:grave_cross", "simpletomb:grave_normal","simpletomb:grave_simple"],
+    "interactionWhitelist": [
+      "minecraft:lever",
+      "minecraft:stone_button",
+      "minecraft:stone_pressure_plate",
+      "minecraft:note_block",
+      "minecraft:barrel",
+      "minecraft:chest",
+      "framedblocks:framed_button",
+      "create:chain_conveyor",
+      "create:copper_valve_handle",
+      "create:mechanical_pump",
+      "create:wrench",
+      "functionalstorage:oak_1",
+      "simpletomb:grave_cross", 
+      "simpletomb:grave_normal",
+      "simpletomb:grave_simple"      
+    ],
+    "interactionBlacklist": [],
+    "blockPlaceWhitelist": [
+      "minecraft:black_stained_glass",
+      "minecraft:water",
+      "create:encased_chain_drive",
+      "simpletomb:grave_cross",
+      "simpletomb:grave_normal",
+      "simpletomb:grave_simple",
+      "create:mechanical_pump"
+    ],
+    "itemUseBlacklist": [],
+    "itemUseWhitelist": [
+      "minecraft:snowball",
+      "create:wrench","simpletomb:grave_key"
+    ]
+  }
+}

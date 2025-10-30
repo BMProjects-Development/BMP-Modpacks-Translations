@@ -1,0 +1,40 @@
+{
+	id: "6B1481D18D7F1F24"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{
+			auto: "no_toast"
+			command: "/endershard @s 8 131 -665 Deepslate North"
+			id: "4EDE4462114C77EE"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s 8 131 679 Deepslate South"
+			id: "59E384F5A05211FC"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s 680 131 7 Deepslate East"
+			id: "4F0943ED6ECF70E6"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "no_toast"
+			command: "/endershard @s -664 131 7 Deepslate West"
+			id: "6A7A635D5039E00E"
+			permission_level: 3
+			silent: true
+			type: "command"
+		}
+	]
+	use_title: true
+}

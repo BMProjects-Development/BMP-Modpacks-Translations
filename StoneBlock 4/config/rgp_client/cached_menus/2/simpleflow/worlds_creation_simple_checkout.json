@@ -1,0 +1,346 @@
+{
+  "type": "simple",
+  "id": "worlds_creation_simple_checkout",
+  "title": "Worlds Creation",
+  "back": {
+    "action": "open_screen",
+    "id": "worlds_creation_simple"
+  },
+  "entries": [
+  ],
+  "elements": [
+    {
+      "type": "text",
+      "id": "title",
+      "text": {
+        "translate": "rgp_client.gui.worlds_creation.checkout"
+      },
+      "alignment": "center",
+      "position": {
+        "x": 0,
+        "y": 15,
+        "pivot": "top_center"
+      }
+    },
+    {
+      "type": "panel",
+      "id": "checkout_info",
+      "render_background": true,
+      "elements": [
+        {
+          "type": "text",
+          "id": "checkout_name",
+          "text": {
+            "translate": "rgp_client.gui.worlds_creation.checkout_info",
+            "color": "dark_gray"
+          },
+          "alignment": "left",
+          "position": {
+            "x": 5,
+            "y": 5,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "panel",
+          "id": "checkout_info_panel",
+          "scroll": true,
+          "render_background": true,
+          "render_type": "slot",
+          "elements": [
+            {
+              "type": "text",
+              "id": "region",
+              "required_display_variable": "selectedRegionName",
+              "text": {
+                "translate": "rgp_client.gui.worlds_creation.region_selection",
+                "with": [
+                  "$selectedRegionName"
+                ]
+              },
+              "position": {
+                "x": 5,
+                "y": 5,
+                "pivot": "top_left"
+              }
+            },
+            {
+              "type": "text",
+              "id": "tier",
+              "required_display_variable": "selectedPriceTierName",
+              "text": {
+                "translate": "rgp_client.gui.worlds_creation.tier_selection",
+                "with": [
+                  "$selectedPriceTierName"
+                ]
+              },
+              "formatter": "capitalization",
+              "position": {
+                "x": 5,
+                "y": 17,
+                "pivot": "top_left"
+              }
+            },
+            {
+              "type": "text",
+              "id": "loadout",
+              "required_display_variable": "selectedLoadoutName",
+              "text": {
+                "translate": "rgp_client.gui.worlds_creation.loadout_selection",
+                "with": [
+                  "$selectedLoadoutName"
+                ]
+              },
+              "position": {
+                "x": 5,
+                "y": 29,
+                "pivot": "top_left"
+              }
+            },
+            {
+              "type": "text",
+              "id": "loadout_note",
+              "wrap": true,
+              "text": {
+                "text": "$selectedLoadoutNote",
+                "color": "yellow"
+              },
+              "alignment": "left",
+              "position": {
+                "x": 5,
+                "y": 41,
+                "pivot": "top_left"
+              },
+              "options": {
+                "width": 180,
+                "height": 80
+              }
+            },
+            {
+              "type": "text",
+              "id": "total",
+              "required_display_variable": "selectedPriceCost",
+              "formatter": "currency",
+              "text": {
+                "translate": "rgp_client.gui.worlds_creation.total",
+                "color": "yellow",
+                "with": [
+                  "$selectedPriceCost $selectedPriceCurrency"
+                ],
+                "extra": [
+                  {
+                    "text": "/",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "$selectedPriceTierPeriod",
+                    "color": "yellow"
+                  }
+                ]
+              },
+              "position": {
+                "x": 5,
+                "y": -5,
+                "pivot": "bottom_left"
+              }
+            }
+          ],
+          "options": {
+            "width": 190,
+            "height": 125
+          },
+          "position": {
+            "x": 5,
+            "y": 16,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "simple_button",
+          "id": "options",
+          "text": {
+            "translate": "options.title"
+          },
+          "options": {
+            "width": 62,
+            "height": 20
+          },
+          "position": {
+            "x": -64,
+            "y": -5,
+            "pivot": "bottom_center"
+          },
+          "callback": {
+            "action": "open_screen",
+            "id": "worlds_creation_simple_options",
+            "pass_storage": true
+          }
+        },
+        {
+          "type": "simple_button",
+          "id": "checkout",
+          "text": {
+            "translate": "rgp_client.gui.worlds_creation.checkout"
+          },
+          "options": {
+            "width": 124,
+            "height": 20
+          },
+          "position": {
+            "x": 33,
+            "y": -5,
+            "pivot": "bottom_center"
+          },
+          "callback": {
+            "action": "checkout",
+            "on_complete": {
+              "action": "complete_purchase",
+              "on_complete": {
+                "action": "play",
+                "address": "$serverIp:$serverPort",
+                "loading_screen": {
+                  "type": "pending",
+                  "title": {
+                    "translate": "rgp_client.gui.worlds_list.joining"
+                  },
+                  "elements": [
+                    {
+                      "type": "text",
+                      "id": "title",
+                      "text": {
+                        "translate": "rgp_client.gui.worlds_list.preparing"
+                      },
+                      "alignment": "center",
+                      "position": {
+                        "x": 0,
+                        "y": 80,
+                        "pivot": "top_center"
+                      }
+                    },
+                    {
+                      "type": "simple_button",
+                      "id": "back",
+                      "text": {
+                        "translate": "gui.back"
+                      },
+                      "options": {
+                        "width": 200,
+                        "height": 20
+                      },
+                      "position": {
+                        "x": 0,
+                        "y": -30,
+                        "pivot": "bottom_center"
+                      },
+                      "callback": {
+                        "action": "open_screen",
+                        "id": "worlds_list"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ],
+      "options": {
+        "width": 200,
+        "height": 170
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "pivot": "center"
+      }
+    },
+    {
+      "type": "panel",
+      "id": "free_trial_info_panel",
+      "render_background": true,
+      "required_display_variable": "is_trial_claimable",
+      "elements": [
+        {
+          "type": "text",
+          "id": "free_trial_title",
+          "wrap": true,
+          "text": {
+            "text": "FREE TRIAL!",
+            "color": "dark_gray",
+            "bold": true
+          },
+          "position": {
+            "x": 5,
+            "y": 5,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "panel",
+          "id": "free_trial_info_panel",
+          "render_background": true,
+          "render_type": "slot",
+          "elements": [
+            {
+              "type": "text",
+              "id": "free_trail_desc",
+              "wrap": true,
+              "text": {
+                "text": "Claim a 5 day free trial with your first FTB World today!",
+                "color": "aqua"
+              },
+              "position": {
+                "x": 5,
+                "y": 5,
+                "pivot": "top_left"
+              },
+              "options": {
+                "width": 110,
+                "height": 40
+              }
+            }
+          ],
+          "options": {
+            "width": 120,
+            "height": 52
+          },
+          "position": {
+            "x": 5,
+            "y": 17,
+            "pivot": "top_left"
+          }
+        }
+      ],
+      "options": {
+        "width": 130,
+        "height": 75
+      },
+      "position": {
+        "x": 180,
+        "y": -30,
+        "pivot": "center"
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "back",
+      "text": {
+        "translate": "gui.back"
+      },
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "$checkoutParentScreen",
+        "pass_storage": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+filename = 'woodenshears-neoforge-1.21-3.2.2.0.jar'
+name = 'Wooden Shears'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '79e8372c4d72bc00e1affd3a227786174d6b86c6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6753566
+project-id = 443192

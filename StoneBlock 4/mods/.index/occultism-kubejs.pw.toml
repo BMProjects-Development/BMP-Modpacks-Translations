@@ -1,0 +1,16 @@
+filename = 'occultism_kubejs-1.21.1-neoforge-1.8.0.jar'
+name = 'Occultism KubeJS'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '21ba180414ba05d39e56eef9edcf300b2455b9df'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5844106
+project-id = 525693

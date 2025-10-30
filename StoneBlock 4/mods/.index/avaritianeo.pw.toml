@@ -1,0 +1,16 @@
+filename = 'AvaritiaNeo-1.21-1.2.5.jar'
+name = 'AvaritiaNeo'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '89af179e794a21910d1836d725983f868ebb653c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7083243
+project-id = 1083158

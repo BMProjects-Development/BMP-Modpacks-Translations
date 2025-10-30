@@ -1,0 +1,62 @@
+#The number of ticks before you can milk a fluid cow again
+# Default: 3600
+# Range: > 0
+defaultMilkingCooldown = 3600
+#Whether fluid cows should spawn naturally
+naturalSpawning = true
+#Milk can be obtained from fluids cows when on cooldown.
+milkCow = false
+#A list of modid:fluid to blacklist from spawning.
+#Can also use modid:* to disable all fluids from a mod.
+fluidBlacklist = [
+    "minecraft:milk", 
+    "minecraft:water", 
+    "productivemetalworks:molten_refined_glowstone", 
+    "productivemetalworks:molten_refined_obsidian", 
+    "productivemetalworks:molten_heavy_core", 
+    "productivemetalworks:molten_obsidian", 
+    "productivemetalworks:molten_glass", 
+    "productivemetalworks:molten_emerald", 
+    "productivemetalworks:molten_diamond", 
+    "productivemetalworks:molten_lapis", 
+    "productivemetalworks:molten_quartz", 
+    "productivemetalworks:molten_ancient_debris", 
+    "productivemetalworks:molten_shulker_shell", 
+    "productivemetalworks:molten_blaze", 
+    "productivemetalworks:molten_magma_cream", 
+    "productivemetalworks:molten_wax", 
+    "productivemetalworks:meat", 
+    "productivemetalworks:molten_netherite", 
+    "ftboceanmobs:*", 
+    "create_dragons_plus:*", 
+    "create_shimmer:*", 
+    "actuallyadditions:*", 
+    "mekanism:*", 
+    "enderio:*", 
+    "justdirethings:*", 
+    "mob_grinding_utils:*", 
+    "create:*", 
+    "createaddition:*", 
+    "create_enchantment_industry:*", 
+    "mekanismgenerators:*", 
+    "sauce:*", 
+    "advanced_ae:*", 
+    "sophisticatedcore:*", 
+    "cognition:*", 
+    "supplementaries:*"
+]
+#Restrict specific fluid cows to spawn only in specific dimensions.
+#Format: 'modid:fluid->modid:dimension'
+#Example: 'minecraft:water->minecraft:overworld'
+#Example: 'minecraft:lava->minecraft:the_nether'
+#Example: 'kubejs:fluid_ender->minecraft:the_end'
+dimensionSpawnRestrictions = []
+#Blacklist specific biomes from spawning fluid cows.
+#Format: 'modid:biome'
+#Example: 'minecraft:deep_dark'
+#Example: 'minecraft:mushroom_fields'
+biomeSpawnBlacklist = ["minecraft:deep_dark"]
+#The amount of fluid the cow jar can hold
+# Default: 32000
+# Range: > 0
+cowJarCapacity = 32000

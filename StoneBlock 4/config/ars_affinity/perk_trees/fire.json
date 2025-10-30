@@ -1,0 +1,79 @@
+{
+  "perks": [
+    {
+      "id": "fire_fire_power_1",
+      "perk": "PASSIVE_FIRE_POWER",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 1
+    },
+    {
+      "id": "fire_thorns_1",
+      "perk": "PASSIVE_FIRE_THORNS",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 0.25,
+      "prerequisites": ["fire_fire_power_1"],
+      "prerequisite_glyph": "ars_nouveau:glyph_ignite"
+    },
+    {
+      "id": "fire_fire_resistance_1",
+      "perk": "PASSIVE_FIRE_RESISTANCE",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 200,
+      "prerequisites": ["fire_fire_power_1"]
+    },
+    {
+      "id": "fire_thorns_2",
+      "perk": "PASSIVE_FIRE_THORNS",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 0.5,
+      "prerequisites": ["fire_thorns_1"]
+    },
+    {
+      "id": "fire_thorns_3",
+      "perk": "PASSIVE_FIRE_THORNS",
+      "tier": 3,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 1.0,
+      "prerequisites": ["fire_thorns_2"]
+    },
+    {
+      "id": "fire_fire_power_2",
+      "perk": "PASSIVE_FIRE_POWER",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 2,
+      "prerequisites": ["fire_fire_power_1"]
+    },
+    {
+      "id": "fire_fire_resistance_2",
+      "perk": "PASSIVE_FIRE_RESISTANCE",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 300,
+      "prerequisites": ["fire_fire_resistance_1"]
+    },
+    {
+      "id": "fire_dash_1",
+      "perk": "ACTIVE_FIRE_DASH",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "ACTIVE",
+      "manaCost": 0.2,
+      "cooldown": 100,
+      "dashLength": 10.0,
+      "dashDuration": 0.3,
+      "prerequisites": ["fire_fire_power_2", "fire_fire_resistance_2", "fire_thorns_2"]
+    }
+  ]
+}

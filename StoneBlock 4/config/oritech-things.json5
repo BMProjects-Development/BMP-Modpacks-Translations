@@ -1,0 +1,96 @@
+{
+  "addonSettings": [
+    {
+      "speedMultiplier": 0.45, 
+      "efficiencyDown": 1.3,
+      "efficiencyUp": 0.5,
+      "capacitorCapacity": 4000000,
+      "capacitorRate": 2000,
+      "acceptorCapacity": 1000000,
+      "acceptorRate": 4000,
+      "processingEfficiency": 2.0,
+      "processingChambers": 2
+    },
+    {
+      "speedMultiplier": 0.4,
+      "efficiencyDown": 1.15,
+      "efficiencyUp": 0.25,
+      "capacitorCapacity": 6000000,
+      "capacitorRate": 3000,
+      "acceptorCapacity": 1500000,
+      "acceptorRate": 6000,
+      "processingEfficiency": 2.5,
+      "processingChambers": 3
+    },
+    {
+      "speedMultiplier": 0.35,
+      "efficiencyDown": 1.22,
+      "efficiencyUp": 0,
+      "capacitorCapacity": 8000000,
+      "capacitorRate": 4000,
+      "acceptorCapacity": 2000000,
+      "acceptorRate": 8000,
+      "processingEfficiency": 3.0,
+      "processingChambers": 4
+    },
+    {
+      "speedMultiplier": 0.3,
+      "efficiencyDown": 1.36,
+      "efficiencyUp": -0.25,
+      "capacitorCapacity": 10000000,
+      "capacitorRate": 5000,
+      "acceptorCapacity": 2500000,
+      "acceptorRate": 10000,
+      "processingEfficiency": 3.5,
+      "processingChambers": 5
+    },
+    {
+      "speedMultiplier": 0.25,
+      "efficiencyDown": 1.6,
+      "efficiencyUp": -0.75,
+      "capacitorCapacity": 12000000,
+      "capacitorRate": 6000,
+      "acceptorCapacity": 3000000,
+      "acceptorRate": 12000,
+      "processingEfficiency": 4.0,
+      "processingChambers": 6
+    },
+    {
+      "speedMultiplier": 0.2,
+      "efficiencyDown": 2.1,
+      "efficiencyUp": -1.5,
+      "capacitorCapacity": 15000000,
+      "capacitorRate": 7000,
+      "acceptorCapacity": 3500000,
+      "acceptorRate": 15000,
+      "processingEfficiency": 4.5,
+      "processingChambers": 7
+    },
+    {
+      "speedMultiplier": 0.1,
+      "efficiencyDown": 3.3,
+      "efficiencyUp": -2.25,
+      "capacitorCapacity": 18000000,
+      "capacitorRate": 9000,
+      "acceptorCapacity": 4000000,
+      "acceptorRate": 18000,
+      "processingEfficiency": 5.0,
+      "processingChambers": 8
+    },
+    {
+      "speedMultiplier": 0.0,
+      "efficiencyDown": 5.0,
+      "efficiencyUp": -4.0,
+      "capacitorCapacity": 25000000,
+      "capacitorRate": 12000,
+      "acceptorCapacity": 5000000,
+      "acceptorRate": 25000,
+      "processingEfficiency": 6.0,
+      "processingChambers": 9
+    }
+  ],
+  "exoJetPackSettings": {
+    "enabledCreativeFlight": false,
+    "rfThreshold": 10000
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "individualOverrides": {
+    "canBreakBlocks": false,
+    "canInteract": true,
+    "canPlaceBlocks": false,
+    "allowPlayerPVP": true,
+    "allowCreatureSpawning": true,
+    "preventHostileSpawns": false,
+    "preventPassiveSpawns": false,
+    "allowFireSpread": false,
+    "allowExplosions": false,
+    "allowItemPickup": true,
+    "onlyProtectOriginalBlocks": true,
+    "allowElytraFlight": true,
+    "allowEnderPearls": true,
+    "allowRiptide": true,
+    "allowCreativeFlight": false,
+    "allowEnderTeleportation": true,
+    "itemUseWhitelist": ["simpletomb:grave_key"],
+    "interactionWhitelist": ["simpletomb:grave_cross", "simpletomb:grave_normal","simpletomb:grave_simple"],
+    "blockBreakWhitelist": ["simpletomb:grave_cross", "simpletomb:grave_normal","simpletomb:grave_simple"],
+    "blockPlaceWhitelist": ["simpletomb:grave_cross", "simpletomb:grave_normal","simpletomb:grave_simple"] 
+  },
+  "note": "Only properties that differ from global config are saved here. See global.json for defaults."
+}

@@ -1,0 +1,415 @@
+{
+  "name": {
+    "text": "ftb.machine.world_engine"
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "draconicevolution:core_sound",
+        "volume": 2.27,
+        "pitch": 0.18
+      },
+      "custommachinery:block": "ftb:machine/world_engine_active",
+      "custommachinery:light": 15
+    },
+    "errored": {
+      "custommachinery:ambient_sound": {
+        "loop": false,
+        "sound": "minecraft:",
+        "volume": 1.02,
+        "pitch": 2.5
+      },
+      "custommachinery:block": "ftb:machine/world_engine_errored",
+      "custommachinery:light": 6
+    },
+    "paused": {
+      "custommachinery:block": "ftb:machine/world_engine_paused",
+      "custommachinery:light": 7
+    },
+    "custommachinery:block": "ftb:machine/world_engine",
+    "custommachinery:color": 468512,
+    "custommachinery:hardness": -1.0,
+    "custommachinery:keep_inventory": true,
+    "custommachinery:mining_level": "minecraft:needs_diamond_tool",
+    "custommachinery:resistance": 2000.0
+  },
+  "components": [
+    {
+      "type": "custommachinery:contraption",
+      "stress_impact": 128.0,
+      "config": {
+        "TOP": "DISABLED",
+        "BOTTOM": "ENABLED",
+        "FRONT": "DISABLED",
+        "RIGHT": "DISABLED",
+        "BACK": "DISABLED",
+        "LEFT": "DISABLED"
+      }
+    },
+    {
+      "type": "custommachinery:energy",
+      "max_output": 0,
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT",
+        "input": true
+      },
+      "capacity": 250000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "fluid_input_1",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_2",
+      "capacity": 10000
+    },
+    {
+      "type": "custommachinery:heat",
+      "insulation": 1000.0,
+      "config": {
+        "TOP": "DISABLED",
+        "BOTTOM": "DISABLED",
+        "FRONT": "DISABLED",
+        "RIGHT": "DISABLED",
+        "BACK": "DISABLED",
+        "LEFT": "ENABLED"
+      },
+      "capacity": 10000.0
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_4",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_5",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_6",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item_1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item_2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item_3",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item_4",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item_5",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_item_6",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:source",
+      "capacity": 100000,
+      "max_input": 10000,
+      "max_output": 0
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "ftb:textures/gui/base_background.png"
+      },
+      "width": 192,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "ftb:textures/gui/base_config_hovered.png"
+      },
+      "texture": {
+        "texture": "ftb:textures/gui/base_config.png"
+      },
+      "x": 107,
+      "y": 51,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 36,
+      "y": 18,
+      "width": 16,
+      "height": 7,
+      "tanks": "fluid_input_1"
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 61,
+      "y": 18,
+      "width": 16,
+      "height": 7,
+      "tanks": "fluid_input_2"
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "ftb:textures/gui/base_energy_storage_filled.png"
+      },
+      "x": 8,
+      "y": 9,
+      "width": 7,
+      "height": 80,
+      "texture_empty": {
+        "texture": "ftb:textures/gui/base_energy_storage_empty.png"
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_1",
+      "texture": {
+        "texture": "ftb:textures/gui/base_fluid_storage.png"
+      },
+      "x": 35,
+      "y": 26,
+      "width": 18,
+      "height": 44
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_2",
+      "texture": {
+        "texture": "ftb:textures/gui/base_fluid_storage.png"
+      },
+      "x": 60,
+      "y": 26,
+      "width": 18,
+      "height": 44
+    },
+    {
+      "type": "custommachinery:heat",
+      "x": 23,
+      "y": 18,
+      "width": 7,
+      "height": 52,
+      "texture_empty": {
+        "texture": "ftb:textures/gui/base_heat_storage.png"
+      },
+      "texture_filled": {
+        "texture": "ftb:textures/gui/base_heat_storage_filled.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "texture": {
+        "texture": "ftb:textures/gui/base_inventory.png"
+      },
+      "x": 15,
+      "y": 107,
+      "width": 162,
+      "height": 76
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "BOTTOM",
+      "x": 150,
+      "y": 40,
+      "width": 16,
+      "height": 24,
+      "texture_empty": {
+        "texture": "ftb:textures/gui/base_progress_empty.png"
+      },
+      "texture_filled": {
+        "texture": "ftb:textures/gui/base_progress_filled.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_1",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 130,
+      "y": 5,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_2",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 149,
+      "y": 5,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_3",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 168,
+      "y": 5,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_4",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 130,
+      "y": 24,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_5",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 149,
+      "y": 24,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_6",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 168,
+      "y": 24,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item_1",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 130,
+      "y": 62,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item_2",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 149,
+      "y": 62,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item_3",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 168,
+      "y": 62,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item_4",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 130,
+      "y": 81,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item_5",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 149,
+      "y": 81,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_item_6",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 168,
+      "y": 81,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:source",
+      "x": 86,
+      "y": 26,
+      "width": 18,
+      "height": 44
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 36,
+      "y": 74,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "processor": {
+    "type": "custommachinery:machine",
+    "amount": 16
+  }
+}

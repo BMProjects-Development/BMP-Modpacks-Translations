@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": { "all": "ftb:block/dry_leaves" },
+  "render_type": "minecraft:cutout_mipped",
+  "ambientocclusion": true
+}

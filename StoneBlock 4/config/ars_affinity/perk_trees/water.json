@@ -1,0 +1,111 @@
+{
+  "perks": [
+    {
+      "id": "water_water_power_1",
+      "perk": "PASSIVE_WATER_POWER",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 1
+    },
+    {
+      "id": "water_hydration_1",
+      "perk": "PASSIVE_HYDRATION",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 0.0,
+      "time": 600,
+      "prerequisites": ["water_water_power_1"]
+    },
+    {
+      "id": "water_cold_walker_1",
+      "perk": "PASSIVE_COLD_WALKER",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 0.0,
+      "prerequisites": ["water_water_power_1"]
+    },
+    {
+      "id": "water_water_resistance_1",
+      "perk": "PASSIVE_WATER_RESISTANCE",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 200,
+      "prerequisites": ["water_water_power_1"]
+    },
+    {
+      "id": "water_water_power_2",
+      "perk": "PASSIVE_WATER_POWER",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 2,
+      "prerequisites": ["water_hydration_1"]
+    },
+    {
+      "id": "water_hydration_2",
+      "perk": "PASSIVE_HYDRATION",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 1.0,
+      "time": 400,
+      "prerequisites": ["water_hydration_1"]
+    },
+    {
+      "id": "water_cold_walker_2",
+      "perk": "PASSIVE_COLD_WALKER",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 0.10,
+      "prerequisites": ["water_cold_walker_1", "water_hydration_1"]
+    },
+
+    {
+      "id": "water_hydration_3",
+      "perk": "PASSIVE_HYDRATION",
+      "tier": 3,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 2.0,
+      "time": 200,
+      "prerequisites": ["water_hydration_2"]
+    },
+    {
+      "id": "water_cold_walker_3",
+      "perk": "PASSIVE_COLD_WALKER",
+      "tier": 3,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 0.3,
+      "prerequisites": ["water_cold_walker_2"]
+    },
+    {
+      "id": "water_ice_blast_1",
+      "perk": "ACTIVE_ICE_BLAST",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "ACTIVE",
+      "manaCost": 0.2,
+      "cooldown": 200,
+      "damage": 8.0,
+      "freezeTime": 100,
+      "radius": 6.0,
+      "prerequisites": ["water_water_power_2", "water_water_resistance_2"],
+      "prerequisite_glyph": "ars_nouveau:glyph_cold_snap"
+    },
+    {
+      "id": "water_water_resistance_2",
+      "perk": "PASSIVE_WATER_RESISTANCE",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 300,
+      "prerequisites": ["water_water_resistance_1"]
+    }
+  ]
+}

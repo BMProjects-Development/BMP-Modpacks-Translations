@@ -1,0 +1,34 @@
+{
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+	}
+	id: "135B4037C1A40D88"
+	loot_crate: {
+		color: 16739626
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "ftb.shop.title.loot_crate.backpack"
+		string_id: "random_backpack_addon"
+	}
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ id: "5E09D4E17F59F217", item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" } }
+		{ id: "60CFE6255B6E4BA8", item: { count: 1, id: "sophisticatedbackpacks:magnet_upgrade" } }
+		{ id: "6A95F11C53780CEB", item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" } }
+		{ id: "3A71E615B217C015", item: { count: 1, id: "sophisticatedbackpacks:compacting_upgrade" } }
+		{ id: "6414DF4A65C0D160", item: { count: 1, id: "sophisticatedbackpacks:void_upgrade" } }
+		{ id: "47C50F8F4C44D307", item: { count: 1, id: "sophisticatedbackpacks:restock_upgrade" } }
+		{ id: "5A11AC2F856F3303", item: { count: 1, id: "sophisticatedbackpacks:deposit_upgrade" } }
+		{ id: "5C9816FB3C359374", item: { count: 1, id: "sophisticatedbackpacks:refill_upgrade" } }
+		{ id: "6A2EF1E56EB7BCD5", item: { count: 1, id: "sophisticatedbackpacks:smelting_upgrade" } }
+		{ id: "71E9E57881CDA87D", item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" } }
+		{ id: "2E9588079111561F", item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_starter_tier" } }
+		{ id: "64640B2B86178BDA", item: { count: 1, id: "sophisticatedbackpacks:tool_swapper_upgrade" } }
+	]
+	use_title: true
+}

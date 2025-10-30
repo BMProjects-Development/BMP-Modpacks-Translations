@@ -1,0 +1,16 @@
+filename = 'structurify-neoforge-1.0.21+mc1.21.1.jar'
+name = 'Structurify'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0e46de82b78244eec41a496b73d333f4538d8b14'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6858562
+project-id = 1087551

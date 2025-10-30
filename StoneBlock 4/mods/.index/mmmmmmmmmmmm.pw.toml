@@ -1,0 +1,16 @@
+filename = 'dummmmmmy-1.21-2.0.9-neoforge.jar'
+name = 'MmmMmmMmmMmm (Target Dummy)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'dd8e3d92088f8b29a35354801fd83a5332b7ec9b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6826533
+project-id = 225738

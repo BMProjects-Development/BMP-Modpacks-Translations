@@ -1,0 +1,196 @@
+{
+  "name": "ftb.machine.circuit_fabricator",
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "immersiveengineering:charge_slow",
+        "volume": 0.19,
+        "pitch": 0.7
+      },
+      "custommachinery:block": "ftb:machine/circuit_fabricator_active#standalone"
+    },
+    "errored": {
+      "custommachinery:block": "ftb:machine/circuit_fabricator#standalone"
+    },
+    "paused": {
+      "custommachinery:block": "ftb:machine/circuit_fabricator_idle#standalone"
+    },
+    "custommachinery:block": "ftb:machine/circuit_fabricator#standalone",
+    "idle": {
+      "custommachinery:block": "ftb:machine/circuit_fabricator_idle#standalone"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 1000000
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "ae2:certus_quartz_crystal",
+        "minecraft:gold_ingot",
+        "minecraft:diamond",
+        "ftbmaterials:silicon_gem",
+        "appflux:charged_redstone",
+        "megacells:sky_steel_ingot",
+        "advanced_ae:quantum_alloy",
+        "extendedae:entro_crystal",
+        "ae2:printed_calculation_processor",
+        "ae2:printed_logic_processor",
+        "ae2:printed_engineering_processor",
+        "appflux:printed_energy_processor",
+        "megacells:printed_accumulation_processor",
+        "advanced_ae:printed_quantum_processor",
+        "extendedae:concurrent_processor_print"
+      ],
+      "id": "input_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "minecraft:redstone",
+      "id": "input_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "ae2:printed_silicon",
+      "id": "input_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_output",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "max_output": 0,
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input_upgrade",
+      "mode": "none",
+      "capacity": 10
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "ftb:textures/gui/circuit_fabricator/base_background.png"
+      },
+      "width": 192,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "ftb:textures/gui/circuit_fabricator/base_config.png"
+      },
+      "texture": {
+        "texture": "ftb:textures/gui/circuit_fabricator/base_config.png"
+      },
+      "x": 116,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "ftb:textures/gui/circuit_fabricator/base_energy_storage_filled.png"
+      },
+      "x": 12,
+      "y": 20,
+      "width": 5,
+      "height": 67,
+      "texture_empty": {
+        "texture": "ftb:textures/gui/circuit_fabricator/base_energy_storage_empty.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "texture": {
+        "texture": "ftb:textures/gui/circuit_fabricator/base_inventory.png"
+      },
+      "x": 12,
+      "y": 106
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 57,
+      "y": 37,
+      "width": 47,
+      "height": 20,
+      "texture_empty": {
+        "texture": "ftb:textures/gui/circuit_fabricator/base_progress_empty.png"
+      },
+      "texture_filled": {
+        "texture": "ftb:textures/gui/circuit_fabricator/base_progress_filled.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_1",
+      "texture": {
+        "texture": "ftb:textures/gui/circuit_fabricator/base_slot.png"
+      },
+      "x": 27,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_2",
+      "texture": {
+        "texture": "ftb:textures/gui/circuit_fabricator/redstone_slot.png"
+      },
+      "x": 27,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_3",
+      "texture": {
+        "texture": "ftb:textures/gui/circuit_fabricator/base_slot.png"
+      },
+      "x": 27,
+      "y": 58
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_upgrade",
+      "texture": {
+        "texture": "ftb:textures/gui/circuit_fabricator/card_slot.png"
+      },
+      "x": 52,
+      "y": 59,
+      "width": 20,
+      "height": 20
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_output",
+      "priority": 1,
+      "texture": {
+        "texture": "ftb:textures/gui/circuit_fabricator/base_slot.png"
+      },
+      "x": 117,
+      "y": 37,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 80,
+      "y": 62
+    }
+  ],
+  "processor": {
+    "type": "custommachinery:machine",
+    "amount": 16
+  }
+}

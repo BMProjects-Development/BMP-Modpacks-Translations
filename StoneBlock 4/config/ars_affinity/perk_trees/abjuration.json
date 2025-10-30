@@ -1,0 +1,88 @@
+{
+  "perks": [
+    {
+      "id": "abjuration_abjuration_power_1",
+      "perk": "PASSIVE_ABJURATION_POWER",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 1
+    },
+    {
+      "id": "abjuration_healing_amplification_1",
+      "perk": "PASSIVE_HEALING_AMPLIFICATION",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 1,
+      "prerequisites": ["abjuration_abjuration_power_1"]
+    },
+    {
+      "id": "abjuration_abjuration_resistance_1",
+      "perk": "PASSIVE_ABJURATION_RESISTANCE",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 200,
+      "prerequisites": ["abjuration_abjuration_power_1"]
+    },
+    {
+      "id": "abjuration_healing_amplification_2",
+      "perk": "PASSIVE_HEALING_AMPLIFICATION",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 2,
+      "prerequisites": ["abjuration_healing_amplification_1"]
+    },
+    {
+      "id": "abjuration_ghost_step_1",
+      "perk": "PASSIVE_GHOST_STEP",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 0.20,
+      "time": 200,
+      "cooldown": 6000,
+      "prerequisites": ["abjuration_abjuration_resistance_1"],
+      "prerequisite_glyph": "ars_nouveau:glyph_invisibility"
+    },
+    {
+      "id": "abjuration_healing_amplification_3",
+      "perk": "PASSIVE_HEALING_AMPLIFICATION",
+      "tier": 3,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 3,
+      "prerequisites": ["abjuration_healing_amplification_2"]
+    },
+    {
+      "id": "abjuration_abjuration_power_2",
+      "perk": "PASSIVE_ABJURATION_POWER",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 2,
+      "prerequisites": ["abjuration_abjuration_power_1"]
+    },
+    {
+      "id": "abjuration_abjuration_resistance_2",
+      "perk": "PASSIVE_ABJURATION_RESISTANCE",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 300,
+      "prerequisites": ["abjuration_abjuration_resistance_1"]
+    },
+    {
+      "id": "abjuration_sanctuary_1",
+      "perk": "ACTIVE_SANCTUARY",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "ACTIVE",
+      "manaCost": 0.2,
+      "cooldown": 200,
+      "prerequisites": ["abjuration_abjuration_power_2", "abjuration_abjuration_resistance_2"]
+    }
+  ]
+}

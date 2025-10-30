@@ -1,0 +1,16 @@
+filename = 'ftb-promoter-21.1.60.jar'
+name = 'FTB Promoter'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f2fab44dfcb9b7d67899fc043e007dd44cf137c9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7028815
+project-id = 1194001

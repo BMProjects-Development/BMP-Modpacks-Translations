@@ -1,0 +1,16 @@
+filename = 'Cognition-v2.4.8-1.21.1.jar'
+name = 'Cognition (Experience Obelisk)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ebe416040ca554f8ff0146e5c4903bf19a1d9b20'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7011991
+project-id = 579484

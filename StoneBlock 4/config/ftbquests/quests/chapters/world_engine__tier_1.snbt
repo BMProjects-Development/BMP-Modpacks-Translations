@@ -1,0 +1,1257 @@
+{
+	autofocus_id: "0448DC5884C8ED55"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "world_engine__tier_1"
+	group: "4B65568899D62A0C"
+	hide_quest_until_deps_visible: true
+	icon: {
+		id: "ars_nouveau:source_gem"
+	}
+	id: "1769B71219D1B9F7"
+	images: [
+		{
+			alpha: 155
+			color: 0
+			height: 10.0d
+			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.0d
+			y: 3.25d
+		}
+		{
+			alpha: 155
+			color: 0
+			height: 10.0d
+			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 3.25d
+		}
+		{
+			alpha: 155
+			color: 0
+			height: 10.0d
+			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: 3.25d
+		}
+		{
+			dependency: "7408FB23D476F791"
+			height: 4.0d
+			image: "malum:textures/gui/book/widgets/runewood_frame_gilded.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependency: "7408FB23D476F791"
+			height: 4.0d
+			image: "ftbquests:tasks/input_only"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependency: "7D1FB9A40B5CAE97"
+			height: 2.0d
+			image: "malum:textures/gui/book/widgets/runewood_frame_grand.png"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependency: "48005B47655AD525"
+			height: 2.0d
+			image: "ftbechoes:block/echo_projector_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependency: "48005B47655AD525"
+			height: 1.5d
+			image: "relics:textures/gui/description/ability/reroll_button_active_quick.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependency: "79EB0239FE299185"
+			height: 1.5d
+			image: "relics:textures/gui/description/ability/page_counter.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependency: "79EB0239FE299185"
+			height: 2.0d
+			image: "ftbechoes:block/echo_projector_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependency: "62531896A7E58F55"
+			height: 2.0d
+			image: "ftbechoes:block/echo_projector_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependency: "62531896A7E58F55"
+			height: 1.5d
+			image: "relics:textures/gui/description/ability/reroll_button_active_warning.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: 8.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7D1FB9A40B5CAE97"
+				"615D1A52ED3A9C78"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "0448DC5884C8ED55"
+			rewards: [
+				{
+					amount: 25
+					id: "5820EB6AC8969458"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "186EDD8EB39DB15E"
+					table_id: 7750792604136724303L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					id: "68957CD816996804"
+					ignore_reward_blocking: true
+					stage: "echo_quartermaster_meet"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbechoes progress player @s ftbechoes:t1_echo_quartermaster set_stage 1"
+					id: "0DB41E9378EE0DDD"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "5DB582096285438A"
+				ignore_dimension: false
+				position: [I;
+					-26
+					-16
+					-28
+				]
+				size: [I;
+					20
+					7
+					20
+				]
+				type: "location"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7D1FB9A40B5CAE97"
+				"615D1A52ED3A9C78"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "ars_nouveau:novice_spell_book"
+			}
+			id: "47D745A94C534B48"
+			rewards: [
+				{
+					amount: 15
+					id: "038ED49289315062"
+					type: "currency"
+				}
+				{
+					command: "/compass locate ftb:arcane_grove"
+					icon: {
+						id: "minecraft:compass"
+					}
+					id: "59039114F2E02EBE"
+					permission_level: 4
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					id: "2B8A706DF102646D"
+					ignore_reward_blocking: true
+					stage: "echo_magician_meet"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbechoes progress player @s ftbechoes:t1_echo_magician set_stage 1"
+					id: "25D64615B89106AC"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "5EA5666395E5AAEC"
+				ignore_dimension: false
+				position: [I;
+					-71
+					-16
+					-38
+				]
+				size: [I;
+					20
+					7
+					20
+				]
+				type: "location"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7D1FB9A40B5CAE97"
+				"615D1A52ED3A9C78"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "create:wrench"
+			}
+			id: "0484D6030DF690BD"
+			rewards: [
+				{
+					amount: 15
+					id: "3A124B8AA4784F11"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					id: "3507BD8E87DF782C"
+					ignore_reward_blocking: true
+					stage: "echo_machinist_meet"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "3C532F10AE78D105"
+				ignore_dimension: false
+				position: [I;
+					-44
+					-21
+					-10
+				]
+				size: [I;
+					20
+					7
+					20
+				]
+				type: "location"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D159FD643581C18"]
+			icon: {
+				id: "create:shadow_steel_casing"
+			}
+			id: "62531896A7E58F55"
+			rewards: [
+				{
+					amount: 40
+					id: "174DC838730F5EC0"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F43A7D900ADE4CB"
+					table_id: 891108655955453907L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					id: "38333F702AC714A3"
+					ignore_reward_blocking: true
+					stage: "echo_machinist_stage1_task2_completed"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 20L
+					id: "03DE0089D941C66F"
+					item: { count: 1, id: "create:shadow_steel_casing" }
+					type: "item"
+				}
+				{
+					id: "381E7B3F5150FC94"
+					item: { count: 1, id: "create:encased_chain_drive" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4C549866DEB8DB61"]
+			id: "79EB0239FE299185"
+			rewards: [
+				{
+					amount: 50
+					id: "07F4EFE3FAD20ABD"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1702782204279FCE"
+					table_id: 891108655955453907L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					id: "309E97DCD090DB64"
+					ignore_reward_blocking: true
+					stage: "echo_quartermaster_stage1_task2_completed"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 64L
+				id: "3EB925959308D200"
+				item: { count: 1, id: "ftb:world_engine_machine_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"47D745A94C534B48"
+				"58BC57B1119204CA"
+			]
+			icon: {
+				id: "ars_nouveau:blue_archwood_sapling"
+			}
+			id: "7F7C0B1523AA28C4"
+			min_width: 300
+			rewards: [
+				{
+					amount: 15
+					id: "19D856B925549650"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5120BA0AB51B9360"
+					table_id: 7750792604136724303L
+					type: "loot"
+				}
+				{
+					id: "6C7D6A23CFC065CD"
+					item: {
+						count: 1
+						id: "ars_nouveau:worn_notebook"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "2BD1AFA4BCBBC4F6"
+					ignore_reward_blocking: true
+					stage: "echo_magician_stage1_task1_completed"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "19893A74AF61880F"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:blue_archwood_sapling)item(ars_nouveau:red_archwood_sapling)item(ars_nouveau:purple_archwood_sapling)item(ars_nouveau:green_archwood_sapling))", "minecraft:custom_name": "\"Archwood Saplings\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "25751343CF8030F5"
+					item: { count: 1, id: "ars_nouveau:archwood_planks" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7F7C0B1523AA28C4"
+				"50AC369D1F5B7DD8"
+			]
+			icon: {
+				id: "ars_nouveau:source_gem"
+			}
+			id: "3F81256B4E65076F"
+			rewards: [
+				{
+					amount: 20
+					id: "3374B29D6D1575F7"
+					type: "currency"
+				}
+				{
+					count: 2
+					id: "15387335BA33EDB8"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "19AB26B279C27AB7"
+					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+					type: "item"
+				}
+				{
+					id: "7AC2F542F7DCEECC"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["584B4C34CBF0E028"]
+			icon: {
+				id: "ars_nouveau:dominion_wand"
+			}
+			id: "48005B47655AD525"
+			rewards: [
+				{
+					amount: 40
+					id: "494F495C34480A73"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AB36599ACC7B72E"
+					table_id: 891108655955453907L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					id: "26BB3DDAD603CE2C"
+					ignore_reward_blocking: true
+					stage: "echo_magician_stage1_task2_completed"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "239327084F62B70D"
+					item: { count: 1, id: "ars_nouveau:dominion_wand" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "03E13C21D022EA84"
+					item: { count: 1, id: "ars_nouveau:sourcestone" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0448DC5884C8ED55"
+				"2D0E345C7C7B3AC0"
+			]
+			icon: {
+				id: "mekanism:metallurgic_infuser"
+			}
+			id: "2950D495BCF2D52D"
+			min_width: 300
+			rewards: [
+				{
+					amount: 20
+					id: "40E8907FEDEFC9CA"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D6324119BFBBB58"
+					table_id: 7750792604136724303L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					id: "5EC9D655A7882496"
+					ignore_reward_blocking: true
+					stage: "echo_quartermaster_stage1_task1_completed"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "2C1D58B8E7565119"
+					item: { components: { "ftbfiltersystem:filter": "or(item(mekanismgenerators:heat_generator)item(justdirethings:generatort1)item(rftoolspower:coalgenerator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "56B61F6066E50AD1"
+					item: { count: 1, id: "mekanism:metallurgic_infuser" }
+					type: "item"
+				}
+				{
+					id: "0A9A129D42FAA73A"
+					item: { count: 1, id: "powah:dielectric_casing" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"18E10F15FD94258B"
+				"325826C9B71AD7E1"
+			]
+			id: "22B94BDDC08B3FA9"
+			rewards: [
+				{
+					amount: 15
+					id: "2D47B348BBF0B6D7"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06738A103F6577D9"
+					table_id: 7750792604136724303L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					id: "3802074E45534739"
+					ignore_reward_blocking: true
+					stage: "echo_machinist_stage1_task1_completed"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "58F3DD96696AAFB6"
+				item: { count: 1, id: "create:railway_casing" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0484D6030DF690BD"
+				"487BD65BA8F5337D"
+			]
+			icon: {
+				id: "minecraft:lava_bucket"
+			}
+			id: "18E10F15FD94258B"
+			rewards: [
+				{
+					amount: 15
+					id: "6D378B698F80B18C"
+					type: "currency"
+				}
+				{
+					id: "54B5F869E882D659"
+					item: {
+						count: 1
+						id: "chicken_roost:c_lava"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0DB1C086D0C7E495"
+					item: {
+						count: 1
+						id: "minecraft:cooked_chicken"
+					}
+					random_bonus: 16
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "3D8F4769284AFF16"
+					item: { count: 1, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
+				{
+					id: "3EF1EE25F6DE7676"
+					item: { count: 1, id: "ftbmaterials:obsidian_plate" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0484D6030DF690BD"
+				"487BD65BA8F5337D"
+			]
+			icon: {
+				id: "ftbmaterials:brass_ingot"
+			}
+			id: "325826C9B71AD7E1"
+			rewards: [{
+				amount: 15
+				id: "1F77A60FCA0D1095"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "3DBB452D837278B1"
+					item: { count: 1, id: "ftbmaterials:brass_ingot" }
+					type: "item"
+				}
+				{
+					id: "7A9620588E1764FC"
+					item: { count: 1, id: "create:brass_casing" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2950D495BCF2D52D"
+				"3C0A24054C75BF91"
+			]
+			icon: {
+				id: "immersiveengineering:component_steel"
+			}
+			id: "4C549866DEB8DB61"
+			rewards: [{
+				amount: 15
+				id: "37A9E137B4E70CE2"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "10BD2A5A6B393D34"
+					item: { count: 1, id: "ftbmaterials:steel_plate" }
+					type: "item"
+				}
+				{
+					id: "6A1D9777D965E54B"
+					item: { count: 1, id: "ftbmaterials:electrum_wire" }
+					type: "item"
+				}
+				{
+					id: "068CB7C47B44133F"
+					item: { count: 1, id: "immersiveengineering:component_steel" }
+					type: "item"
+				}
+				{
+					id: "7E9009B775F0B575"
+					item: { count: 1, id: "mekanism:basic_control_circuit" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"22B94BDDC08B3FA9"
+				"2646D51DBAD8AD42"
+			]
+			hide_dependency_lines: false
+			icon: {
+				id: "create:shadow_steel"
+			}
+			id: "0D159FD643581C18"
+			rewards: [{
+				amount: 15
+				id: "792E8B515A9ACFB3"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:compass"
+					}
+					id: "5A912A97A8A7DB47"
+					structure: "ftb:vaults/create_vault"
+					type: "structure"
+				}
+				{
+					id: "50267A2B793213A8"
+					item: { count: 1, id: "create:shadow_steel" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F81256B4E65076F"]
+			icon: {
+				id: "ars_nouveau:source_jar"
+			}
+			id: "584B4C34CBF0E028"
+			rewards: [{
+				amount: 25
+				id: "499DE60A9DCC0E28"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "410F801E7AA9F735"
+					item: { count: 1, id: "ars_nouveau:source_jar" }
+					type: "item"
+				}
+				{
+					id: "16F92FFAF9B19572"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:agronomic_sourcelink)item(ars_nouveau:volcanic_sourcelink)item(ars_nouveau:alchemical_sourcelink)item(ars_nouveau:vitalic_sourcelink)item(ars_nouveau:mycelial_sourcelink))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"275C5A38C3231690"
+				"3E89531AEC1CF0DA"
+				"6B391D0B32AF8529"
+				"7408FB23D476F791"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "ftbechoes:echo_projector"
+			}
+			id: "4D754E91D203A89A"
+			min_required_dependencies: 3
+			rewards: [
+				{
+					amount: 5
+					id: "52A6C405E1D54F20"
+					type: "currency"
+				}
+				{
+					auto: "disabled"
+					command: "/ftbunearthed setlevel @s 4"
+					feedback_message: "Your Unearthing Skill Has Leveled Up!"
+					icon: {
+						components: {
+							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2730B9B9300AA75C"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "238BCDF15FC7E9CB"
+				stage: "echo_guidance_stage1_final_check"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"17AC5EBEBDC124E9"
+				"7D1FB9A40B5CAE97"
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "owo:textures/gui/config_search.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "615D1A52ED3A9C78"
+			min_width: 300
+			progression_mode: "linear"
+			rewards: [
+				{
+					amount: 5
+					id: "37FFF41A7E7A659A"
+					type: "currency"
+				}
+				{
+					auto: "enabled"
+					description: "ftb.shop.notification.guidance"
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/money_bag"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "235AF7EB3F88D642"
+					type: "toast"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @s run playsound minecraft:block.note_block.bell master @s ~ ~ ~"
+					id: "456523300C783C45"
+					permission_level: 3
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			size: 1.75d
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "5B3A2DEB3DFBA285"
+				stage: "echo_guidance_stage1_task3_check"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["48005B47655AD525"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "275C5A38C3231690"
+			rewards: [{
+				amount: 10
+				id: "778D16F5F220D243"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "2695E2029A6BC6A0"
+				stage: "echo_magician_stage1_task2_check"
+				type: "gamestage"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["79EB0239FE299185"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3E89531AEC1CF0DA"
+			rewards: [{
+				amount: 15
+				id: "187B1BBCC1F7FDA4"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "402164B895BEDB8E"
+				stage: "echo_quartermaster_stage1_task2_check"
+				type: "gamestage"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["62531896A7E58F55"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6B391D0B32AF8529"
+			rewards: [{
+				amount: 15
+				id: "4D028E8F3243DEA8"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				icon: {
+					components: {
+						"!ftbquests:icon": { }
+						"ftbquests:entity_face": "minecraft:villager"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "45E18E3EE8C1D683"
+				stage: "echo_machinist_stage1_task2_check"
+				type: "gamestage"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3E89531AEC1CF0DA"]
+			hide_until_deps_complete: true
+			id: "715F30D0A9B79DD7"
+			rewards: [
+				{
+					amount: 10
+					id: "1D4E6D011DF8F18B"
+					type: "currency"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "695EA125045FF1BD"
+					table_id: 7750792604136724303L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "102FCF8CABBB740B"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["615D1A52ED3A9C78"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "31CCB73669788855"
+			optional: true
+			rewards: [{
+				command: "/ftbchunks waypoint add \"The Machinist\" -40 2 13 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimed"
+				icon: {
+					id: "minecraft:compass"
+				}
+				id: "5CD5D5D173FA5C89"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "7B3908878D77CBC9"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -1.125d
+		}
+		{
+			can_repeat: true
+			dependencies: ["615D1A52ED3A9C78"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "20168B6357665708"
+			optional: true
+			rewards: [{
+				command: "ftbchunks waypoint add \"The Quartermaster\" -28 2 -15 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimable"
+				icon: {
+					id: "minecraft:compass"
+				}
+				id: "08D775729B3EAF3E"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "5D219927A5B4C985"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.125d
+		}
+		{
+			can_repeat: true
+			dependencies: ["615D1A52ED3A9C78"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "15B551FCA8790707"
+			optional: true
+			rewards: [{
+				command: "/ftbchunks waypoint add \"The Magician\" -43 2 -5 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimed"
+				icon: {
+					id: "minecraft:compass"
+				}
+				id: "5FEF5E7E69F4437F"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "0FE18EA47455263E"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.125d
+		}
+		{
+			can_repeat: true
+			dependencies: ["275C5A38C3231690"]
+			icon: {
+				id: "create:empty_schematic"
+			}
+			id: "3917A0EC517F70E6"
+			rewards: [{
+				auto: "disabled"
+				command: "/worldengine source_upgrade"
+				exclude_from_claim_all: true
+				feedback_message: "ftb.echo.upgrade.assembling"
+				icon: {
+					components: {
+						"custommachinery:machine": "ftb:world_engine"
+					}
+					id: "custommachinery:custom_machine_item"
+				}
+				id: "676EC71A125D6E04"
+				permission_level: 3
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "71317D7AC20DC325"
+				item: { count: 1, id: "ars_nouveau:sourcestone" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3E89531AEC1CF0DA"]
+			icon: {
+				id: "create:empty_schematic"
+			}
+			id: "76673B8374630924"
+			rewards: [{
+				auto: "disabled"
+				command: "/worldengine machine_block_upgrade"
+				exclude_from_claim_all: true
+				feedback_message: "ftb.echo.upgrade.assembling"
+				icon: {
+					components: {
+						"custommachinery:machine": "ftb:world_engine"
+					}
+					id: "custommachinery:custom_machine_item"
+				}
+				id: "2C24A3F46426B257"
+				permission_level: 3
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "146ED61A3435586A"
+				item: { count: 1, id: "ftb:world_engine_machine_block" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6B391D0B32AF8529"]
+			icon: {
+				id: "create:empty_schematic"
+			}
+			id: "04E68DA90DC83B45"
+			rewards: [{
+				auto: "disabled"
+				command: "/worldengine shadow_casing_upgrade"
+				exclude_from_claim_all: true
+				feedback_message: "ftb.echo.upgrade.assembling"
+				icon: {
+					components: {
+						"custommachinery:machine": "ftb:world_engine"
+					}
+					id: "custommachinery:custom_machine_item"
+				}
+				id: "31B318A2B60F4CC5"
+				permission_level: 3
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 20L
+					id: "61115CD94ECF91D2"
+					item: { count: 1, id: "create:shadow_steel_casing" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "35FE6DB8B0E1DD33"
+					item: { count: 1, id: "create:encased_chain_drive" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"22B94BDDC08B3FA9"
+				"2646D51DBAD8AD42"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "40DDD27BA5E191FA"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/compass locate ftb:vault/create"
+				feedback_message: "Machinist's Vault Compass Acquired"
+				icon: {
+					id: "explorerscompass:explorerscompass"
+				}
+				id: "4765C42AB1F8D1A6"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [
+				{
+					id: "459AEFEC8F060222"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "2E6525F818D07426"
+					tags: ["hourly"]
+					type: "custom"
+				}
+			]
+			x: 6.75d
+			y: 3.75d
+		}
+	]
+}

@@ -1,0 +1,232 @@
+{
+  "type": "list",
+  "id": "worlds_edit_backup_selection",
+  "title": {
+    "translate": "rgp_client.gui.worlds_edit.select_backup"
+  },
+  "back": {
+    "action": "open_screen",
+    "id": "worlds_edit_world_selection",
+    "pass_storage": true
+  },
+  "on_open": {
+    "action": "remove_variables",
+    "variables": [ "selectedBackupId" ]
+  },
+  "entries": [
+  ],
+  "empty_entry": {
+    "translate": "rgp_client.gui.worlds_edit.no_backups"
+  },
+  "entry_loader": {
+    "type": "backup_entry",
+    "entry_template": {
+      "id": "$backupId",
+      "elements": [
+        {
+          "type": "image",
+          "id": "world_icon",
+          "icon": "textures/misc/unknown_server.png",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "server_name",
+          "text": {
+            "translate": "rgp_client.gui.worlds_edit.backup",
+            "with": [
+              "$backupNumber"
+            ]
+          },
+          "position": {
+            "x": 35,
+            "y": 0,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "backup_time",
+          "text": {
+            "translate": "rgp_client.gui.worlds_edit.backup_time",
+            "color": "gray",
+            "with": [
+              "$backupTakenAt"
+            ]
+          },
+          "position": {
+            "x": 35,
+            "y": 12,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "backup_id",
+          "text": {
+            "translate": "rgp_client.gui.worlds_edit.backup_id",
+            "color": "dark_gray",
+            "with": [
+              "$backupId"
+            ]
+          },
+          "position": {
+            "x": 35,
+            "y": 24,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "backup_id",
+          "text": {
+            "text": "Failed",
+            "color": "dark_red"
+          },
+          "required_display_variable": "!backupDoneSuccessfully",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "pivot": "top_right"
+          },
+          "tooltip": {
+            "text": "This backup failed. If this continues to happen please contact support. You cannot restore from this backup."
+          },
+          "options": {
+            "width": 34,
+            "height": 14
+          }
+        }
+      ],
+      "selected_callback": {
+        "action": "store_variables",
+        "variables": [
+          {
+            "key": "selectedBackupId",
+            "value": "$backupId"
+          },
+          {
+            "key": "selectedBackupDoneSuccessfully",
+            "value": "$backupDoneSuccessfully"
+          }
+        ]
+      }
+    }
+  },
+  "elements": [
+    {
+      "type": "text",
+      "id": "title",
+      "text": {
+        "translate": "rgp_client.gui.worlds_edit.select_backup"
+      },
+      "alignment": "center",
+      "position": {
+        "x": 0,
+        "y": 15,
+        "pivot": "top_center"
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "restore_backup",
+      "text": {
+        "translate": "rgp_client.gui.worlds_edit.restore_backup"
+      },
+      "required_variable": "selectedBackupId & selectedBackupDoneSuccessfully",
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -35,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "confirmation",
+        "prompt": {
+          "translate": "rgp_client.gui.worlds_edit.restore_backup_confirmation"
+        },
+        "on_accept": {
+          "action": "request",
+          "request": "restore_world_backup",
+          "loading_screen": {
+            "type": "loading",
+            "title": {
+              "translate": "rgp_client.gui.worlds_edit.restore_backup"
+            },
+            "elements": [
+              {
+                "type": "text",
+                "id": "title",
+                "text": {
+                  "translate": "rgp_client.gui.worlds_edit.restore_backup"
+                },
+                "alignment": "center",
+                "position": {
+                  "x": 0,
+                  "y": 15,
+                  "pivot": "top_center"
+                }
+              },
+              {
+                "type": "text",
+                "id": "restoring_backup",
+                "text": {
+                  "translate": "rgp_client.gui.worlds_edit.restoring_backup",
+                  "color": "green"
+                },
+                "alignment": "center",
+                "options": {
+                  "width": 75,
+                  "height": 20
+                },
+                "position": {
+                  "x": 0,
+                  "y": -25,
+                  "pivot": "center"
+                }
+              }
+            ]
+          },
+          "variables": {
+            "gameServerId": "$gameServerId",
+            "worldId": "$selectedWorldId",
+            "backupId": "$selectedBackupId"
+          },
+          "on_complete": {
+            "action": "open_screen",
+            "id": "worlds_edit_backup_selection",
+            "pass_storage": true
+          }
+        }
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "back",
+      "text": {
+        "translate": "gui.back"
+      },
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_edit_world_selection",
+        "pass_storage": true
+      }
+    }
+  ]
+}

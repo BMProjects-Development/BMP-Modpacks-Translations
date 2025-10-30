@@ -1,0 +1,16 @@
+filename = 'soulplied_energistics-1.0.2.jar'
+name = 'Soulplied Energistics'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '526f45d5f110d23932d88ac12bf979f5c2f569b6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6771121
+project-id = 1143614

@@ -1,0 +1,16 @@
+filename = 'jags-neo-21.1.5+mc1.21.1.jar'
+name = 'JAGS'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '34e79bc6dbd6b3d9f91c88de85456a50aa43f1aa'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6717206
+project-id = 517003

@@ -1,0 +1,11 @@
+[client]
+	#If true, the scan will be performed radially around the player. If false, it will scan rectangular.
+	scanRadially = true
+	#Show help tooltips in the GUI
+	showHelpTooltips = true
+	#The refresh rate of the scan for nearby cables in ticks (20 ticks = 1 second, max 1200 ticks = 1 minute)
+	# Default: 10
+	# Range: 1 ~ 1200
+	scanRefreshRate = 10
+	#If true, the auto mode only works when the player is crouching
+	autoModeRequiresCrouching = true

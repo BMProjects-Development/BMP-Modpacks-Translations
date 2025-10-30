@@ -1,0 +1,2576 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "general_magic"
+	group: "337473E1389D8A71"
+	icon: {
+		id: "minecraft:enchanting_table"
+	}
+	id: "091DB004D9DE93BA"
+	images: [
+		{
+			height: 2.5d
+			image: "ftb:textures/quests/other_titles_and_logos/malum_logo.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:textures/mob_effect/rejected.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			height: 3.0d
+			image: "malum:textures/gui/book/widgets/runewood_frame_gilded.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "malum:textures/gui/book/widgets/paper_filling_gilded.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "malum:textures/gui/book/widgets/paper_filling_default.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			height: 3.0d
+			image: "malum:textures/gui/book/widgets/withered_frame_default.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			height: 3.0d
+			image: "malum:textures/gui/book/widgets/withered_frame_default.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			height: 1.5d
+			image: "ftb:textures/quests/irons/irons_spellbook_logo.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependency: "7F7C0B1523AA28C4"
+			height: 1.5d
+			image: "ftb:textures/quests/ars/ars_nouveau_title.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "ftb:textures/quests/other_titles_and_logos/occultism_title2.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "malum:textures/gui/book/widgets/paper_filling_default.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			height: 3.0d
+			image: "occultism:textures/gui/book/familiar_headless_ratman.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			height: 3.0d
+			image: "occultism:textures/gui/book/familiar_beholder.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependency: "48005B47655AD525"
+			height: 2.5d
+			image: "ftb:textures/quests/ars/drygmyperch.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependency: "7F7C0B1523AA28C4"
+			height: 1.0d
+			image: "ars_nouveau:block/fire_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.0d
+			y: -1.2000000000000002d
+		}
+		{
+			dependency: "7F7C0B1523AA28C4"
+			height: 1.0d
+			image: "ars_nouveau:block/gilded_sourcestone_basketweave"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.0d
+			y: -0.7000000000000002d
+		}
+		{
+			dependency: "7F7C0B1523AA28C4"
+			height: 1.0d
+			image: "ars_nouveau:block/gilded_sourcestone_basketweave"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -0.7000000000000002d
+		}
+		{
+			dependency: "7F7C0B1523AA28C4"
+			height: 1.0d
+			image: "ars_nouveau:block/fire_2"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -1.2000000000000002d
+		}
+		{
+			dependency: "48005B47655AD525"
+			height: 2.0d
+			image: "ftb:textures/quests/ars/scribetable.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -14.5d
+			y: 6.5d
+		}
+		{
+			height: 1.5d
+			image: "irons_spellbooks:item/cinderous_soulcaller"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:item/upgrade_orb_holy"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			height: 2.0d
+			image: "irons_spellbooks:item/upgrade_orb_base"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			color: 16755200
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/2"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			color: 11141290
+			height: 1.0d
+			image: "occultism:block/chalk_glyph/3"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "occultism:textures/gui/book/pentagram_rose.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			height: 2.5d
+			image: "irons_spellbooks:item/upgrade_orb_lightning"
+			rotation: 0.0d
+			width: 2.5d
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependency: "48005B47655AD525"
+			height: 2.5d
+			image: "ars_elemental:item/_glyph_template_form"
+			rotation: 45.0d
+			width: 2.5d
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			alpha: 80
+			color: 0
+			height: 2.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 11.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 11.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -3
+			rotation: 0.0d
+			width: 8.0d
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			alpha: 80
+			color: 0
+			height: 2.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			alpha: 80
+			color: 0
+			height: 2.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 11.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 11.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			alpha: 80
+			color: 0
+			height: 2.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -1
+			rotation: 0.0d
+			width: 8.0d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "occultism:block/spirit_fire_2"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "occultism:block/spirit_fire_2"
+			rotation: 180.0d
+			width: 2.0d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "irons_spellbooks:item/upgrade_orb_fire"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			height: 1.5d
+			image: "ars_nouveau:block/warp_portal"
+			order: -1
+			rotation: 45.0d
+			width: 1.5d
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			height: 1.5d
+			image: "ars_affinity:textures/gui/perk_tree_frame.png"
+			order: -1
+			rotation: 45.0d
+			width: 1.5d
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:item/edge_of_deliverance_huge"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "malum:textures/mob_effect/pyromaniacs_fervor.png"
+			order: 1
+			rotation: -90.0d
+			width: 2.0d
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			alpha: 55
+			color: 0
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -3
+			rotation: 0.0d
+			width: 16.0d
+			x: -1.5d
+			y: 11.0d
+		}
+	]
+	order_index: 5
+	quest_links: [
+		{
+			id: "78C5FE9641AAC34C"
+			linked_quest: "7F7C0B1523AA28C4"
+			shape: "hexagon"
+			size: 1.5d
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			id: "5006B11AF98921FB"
+			linked_quest: "3F81256B4E65076F"
+			shape: "square"
+			x: -12.5d
+			y: 0.2999999999999998d
+		}
+		{
+			id: "471DC8434E097F27"
+			linked_quest: "584B4C34CBF0E028"
+			shape: "square"
+			x: -12.5d
+			y: 1.2999999999999998d
+		}
+		{
+			id: "1DC10551D21F9F2F"
+			linked_quest: "48005B47655AD525"
+			shape: "square"
+			x: -12.5d
+			y: 2.3d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["726B56E54CAC971B"]
+			icon: {
+				id: "occultism:chalk_white_impure"
+			}
+			id: "3D239E5AD486D419"
+			rewards: [
+				{
+					id: "23CD13F13B32AEE8"
+					item: {
+						count: 1
+						id: "occultism:brush"
+					}
+					type: "item"
+				}
+				{
+					amount: 5
+					id: "5C4EBA2BC19D6DEB"
+					type: "currency"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "739DAFA8AB82AAEC"
+					item: { count: 1, id: "occultism:otherworld_ashes" }
+					type: "item"
+				}
+				{
+					id: "1F408CDC39E1FBFF"
+					item: { count: 1, id: "occultism:chalk_white_impure" }
+					type: "item"
+				}
+				{
+					id: "3308BD537EC27FDA"
+					item: { count: 1, id: "occultism:chalk_yellow_impure" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "occultism:datura_seeds"
+			}
+			id: "4784FDEE62A479D0"
+			rewards: [
+				{
+					id: "7F24AF9E4971D56F"
+					item: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
+					type: "item"
+				}
+				{
+					amount: 2
+					id: "6A66338BDE3E0CA4"
+					type: "currency"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6941ECE9B453CFCD"
+					item: { count: 1, id: "occultism:datura_seeds" }
+					type: "item"
+				}
+				{
+					id: "4B852D2FD7DA1FB2"
+					item: { count: 1, id: "occultism:datura" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F5729C2350E3087"]
+			icon: {
+				id: "occultism:golden_sacrificial_bowl"
+			}
+			id: "726B56E54CAC971B"
+			rewards: [{
+				amount: 5
+				id: "622C0DE97A317349"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6991C46E96F5822F"
+					item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "53E18A1FA06F3DFE"
+					item: { count: 1, id: "occultism:sacrificial_bowl" }
+					type: "item"
+				}
+				{
+					id: "1287C18E6FDED1CD"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:candles)", "minecraft:custom_name": "\"Candles\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "53E5089824C943A6"
+					item: { count: 1, id: "occultism:spirit_attuned_crystal" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "069C2D57F8E5B576"
+					item: { count: 1, id: "minecraft:skeleton_skull" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6962BF708149A57F"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C78823B3EFA3105"]
+			icon: {
+				id: "ars_nouveau:relay"
+			}
+			id: "63BED4D08224B3EF"
+			rewards: [{
+				amount: 5
+				id: "3E1B9ABD9971503D"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4D03EC80801B3FAC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:relay_splitter)item(ars_nouveau:relay_deposit)item(ars_nouveau:relay_warp)item(ars_nouveau:relay_collector))", "minecraft:custom_name": "\"Relay Extras\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F7C0B1523AA28C4"]
+			icon: {
+				id: "ars_nouveau:novice_spell_book"
+			}
+			id: "34EC72BBCD9F197F"
+			min_width: 350
+			rewards: [{
+				amount: 5
+				id: "1E44E607CA689D77"
+				type: "currency"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "37AD27420BAD54C4"
+					item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+					type: "item"
+				}
+				{
+					id: "65107B0448075D09"
+					item: { count: 1, id: "ars_nouveau:scribes_table" }
+					type: "item"
+				}
+				{
+					id: "5B1E5CB3E8671240"
+					item: { count: 1, id: "ars_nouveau:glyph_amplify" }
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: 0.2999999999999998d
+		}
+		{
+			dependencies: ["3F81256B4E65076F"]
+			icon: {
+				id: "ars_nouveau:ritual_brazier"
+			}
+			id: "138CB008CE4C838B"
+			min_width: 300
+			rewards: [
+				{
+					amount: 3
+					id: "0CB9403769995F99"
+					type: "currency"
+				}
+				{
+					id: "18D78ADA8284F50F"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "2E78979859B9C025"
+					item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+					type: "item"
+				}
+				{
+					id: "7CF19FF01749E066"
+					item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 0.2999999999999998d
+		}
+		{
+			dependencies: ["48005B47655AD525"]
+			hide_until_deps_visible: true
+			icon: {
+				id: "ars_nouveau:enchanting_apparatus"
+			}
+			id: "4C78823B3EFA3105"
+			min_width: 300
+			rewards: [
+				{
+					amount: 10
+					id: "0D21CE246A1E5B42"
+					type: "currency"
+				}
+				{
+					count: 2
+					id: "620CD3519391D6F2"
+					item: {
+						count: 1
+						id: "ars_nouveau:arcane_platform"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7FF9C539358B7AA1"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+					type: "item"
+				}
+				{
+					id: "17E9EC412F76AA26"
+					item: { count: 1, id: "ars_nouveau:arcane_core" }
+					type: "item"
+				}
+				{
+					id: "2089A69A9BB4A0C7"
+					item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4784FDEE62A479D0"]
+			icon: {
+				id: "occultism:spirit_fire"
+			}
+			id: "7F5729C2350E3087"
+			rewards: [{
+				amount: 3
+				id: "5A72403FD2B91F23"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					icon: {
+						id: "occultism:spirit_fire"
+					}
+					id: "430EE5142BF4D3CF"
+					observe_type: 0
+					timer: 0L
+					to_observe: "occultism:spirit_fire"
+					type: "observation"
+				}
+				{
+					id: "133D494B2F7F19BE"
+					item: { count: 1, id: "occultism:otherstone" }
+					type: "item"
+				}
+				{
+					id: "45E9F2A5D44A0859"
+					item: { count: 1, id: "occultism:otherworld_sapling_natural" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C78823B3EFA3105"]
+			icon: {
+				id: "ars_nouveau:drygmy_charm"
+			}
+			id: "20F9CC6590B8990C"
+			rewards: [{
+				amount: 5
+				id: "5ABA91EE4D740908"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "79C76BBE4B0FEC37"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:amethyst_golem_charm)item(ars_nouveau:whirlisprig_charm)item(ars_nouveau:drygmy_charm)item(ars_nouveau:bookwyrm_charm)item(ars_nouveau:wixie_charm)item(ars_nouveau:starbuncle_charm))", "minecraft:custom_name": "\"Creature Charms\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "45D0BCEDECE4C50A"
+					item: { count: 1, id: "ars_nouveau:orange_sbed" }
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4C78823B3EFA3105"]
+			icon: {
+				id: "ars_nouveau:arcanist_hood"
+			}
+			id: "41F048EAE6949163"
+			rewards: [{
+				amount: 10
+				id: "7ADDDA649E6EEED6"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5D2C560FB8A84FEB"
+					item: { count: 1, id: "ars_nouveau:magebloom_crop" }
+					type: "item"
+				}
+				{
+					id: "76F68F1B4D3CB1BA"
+					item: { count: 1, id: "ars_nouveau:alteration_table" }
+					type: "item"
+				}
+				{
+					id: "3E6AB44D97494028"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:arcanist_hood)item(ars_nouveau:arcanist_robes)item(ars_nouveau:arcanist_leggings)item(ars_nouveau:arcanist_boots))", "minecraft:custom_name": "\"Arcanist's Set\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "660D1E23E3201D2E"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:sorcerer_hood)item(ars_nouveau:sorcerer_robes)item(ars_nouveau:sorcerer_leggings)item(ars_nouveau:sorcerer_boots))", "minecraft:custom_name": "\"Sorceror's Set\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3A4ABE59C7BBE9A6"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:battlemage_hood)item(ars_nouveau:battlemage_robes)item(ars_nouveau:battlemage_leggings)item(ars_nouveau:battlemage_boots))", "minecraft:custom_name": "\"Battlemage's Set\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0CA75E81F6824B22"]
+			id: "0EE0A8941A69703E"
+			rewards: [
+				{
+					amount: 1
+					id: "413A9482817D85C7"
+					type: "currency"
+				}
+				{
+					id: "301BF17C49835DE3"
+					item: {
+						count: 1
+						id: "irons_spellbooks:common_ink"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2B4476F372A8F740"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0EE0A8941A69703E"]
+			icon: {
+				id: "irons_spellbooks:scroll_forge"
+			}
+			icon_scale: 1.5d
+			id: "1CFD4CE2704F2ADE"
+			rewards: [
+				{
+					amount: 1
+					id: "1C879BAA431AFCBA"
+					type: "currency"
+				}
+				{
+					id: "1EE274704A5FF355"
+					item: {
+						count: 1
+						id: "irons_spellbooks:epic_ink"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "00F90C52CBAECEBB"
+					item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:common_ink)item(irons_spellbooks:uncommon_ink)item(irons_spellbooks:rare_ink)item(irons_spellbooks:epic_ink)item(irons_spellbooks:legendary_ink))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "6F851FC2BE7B0867"
+					item: { count: 1, id: "irons_spellbooks:scroll_forge" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0EE0A8941A69703E"]
+			icon_scale: 1.5d
+			id: "5E3A4A3F00FDDEC0"
+			rewards: [
+				{
+					amount: 1
+					id: "0BAD067D7359D518"
+					type: "currency"
+				}
+				{
+					id: "180588EC5BCB685C"
+					item: {
+						count: 1
+						id: "irons_spellbooks:uncommon_ink"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "682DD051438EB0BE"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0EE0A8941A69703E"]
+			icon: {
+				id: "irons_spellbooks:arcane_essence"
+			}
+			id: "107C26E8BF309BC1"
+			rewards: [{
+				amount: 3
+				id: "5E4D7D6DFE9985FC"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "2CF797458568CB49"
+					item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+					type: "item"
+				}
+				{
+					id: "020D5E9D5315EBF5"
+					item: { count: 1, id: "irons_spellbooks:blank_rune" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "506F41D2CF6C46A4"
+					item: { count: 1, id: "irons_spellbooks:mithril_ore" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["107C26E8BF309BC1"]
+			icon: {
+				id: "irons_spellbooks:cinder_essence"
+			}
+			id: "08766B8721B4E541"
+			min_width: 300
+			rewards: [{
+				amount: 3
+				id: "3856EC1D2A6070A1"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "10810F9D35040CFB"
+					item: { count: 1, id: "irons_spellbooks:cinder_essence" }
+					type: "item"
+				}
+				{
+					id: "6839B1A8570E8A09"
+					item: { count: 1, id: "irons_spellbooks:hogskin" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["107C26E8BF309BC1"]
+			hide_dependent_lines: true
+			id: "664F7957756D84FF"
+			rewards: [{
+				amount: 5
+				id: "4AA76C062CB743D4"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "62A4DA39A9FA1D1E"
+				item: { count: 1, id: "irons_spellbooks:magic_cloth" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["08766B8721B4E541"]
+			id: "32C6E1FD67863F50"
+			rewards: [{
+				amount: 3
+				id: "74E34801FB783B3D"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "549391E66029B2C7"
+				item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["08766B8721B4E541"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: {
+				id: "irons_spellbooks:upgrade_orb"
+			}
+			id: "4D55D9FBE06DAA46"
+			rewards: [{
+				amount: 10
+				id: "035B152B07CB1E93"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2E6799AD7EF2416E"
+					item: { count: 1, id: "irons_spellbooks:upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "7F35273D83753432"
+					item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:cooldown_upgrade_orb)item(irons_spellbooks:mana_upgrade_orb)item(irons_spellbooks:fire_upgrade_orb)item(irons_spellbooks:ice_upgrade_orb)item(irons_spellbooks:ender_upgrade_orb)item(irons_spellbooks:protection_upgrade_orb)item(irons_spellbooks:evocation_upgrade_orb)item(irons_spellbooks:blood_upgrade_orb)item(irons_spellbooks:holy_upgrade_orb)item(irons_spellbooks:nature_upgrade_orb)item(irons_spellbooks:lightning_upgrade_orb))", "minecraft:custom_name": "\"Upgrade Orbs\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["08766B8721B4E541"]
+			id: "201BB935C9972574"
+			optional: true
+			rewards: [{
+				amount: 3
+				id: "4FC922A657C40B90"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "3035A4714B378029"
+				item: { count: 1, id: "irons_spellbooks:lesser_spell_slot_upgrade" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: {
+				id: "irons_spellbooks:wandering_magician_helmet"
+			}
+			id: "0CA75E81F6824B22"
+			rewards: [
+				{
+					amount: 1
+					id: "69E9CF16682767B4"
+					type: "currency"
+				}
+				{
+					id: "4629778462B48269"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:magic_missile"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "09E518A4281A238E"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:burning_dash"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "45CFA4918DE33763"
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:copper_spell_book)item(irons_spellbooks:iron_spell_book))", "minecraft:custom_name": "\"Starter Spellbooks\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["781D7DA09E444B95"]
+			icon: {
+				id: "malum:spirit_altar"
+			}
+			id: "41C439295D5558C2"
+			rewards: [
+				{
+					amount: 1
+					id: "20E15BD0BADD66F0"
+					type: "currency"
+				}
+				{
+					id: "6D7AF4FADA49D872"
+					item: {
+						count: 1
+						id: "malum:spirit_jar"
+					}
+					type: "item"
+				}
+				{
+					id: "70D6E1DBE05FA2E8"
+					item: {
+						count: 1
+						id: "malum:lamplighters_tongs"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7AF6B8151CFCA7D0"
+					item: { count: 1, id: "malum:crude_scythe" }
+					type: "item"
+				}
+				{
+					id: "29E345CAFDAF6555"
+					item: { count: 1, id: "malum:spirit_altar" }
+					type: "item"
+				}
+				{
+					id: "49DF96867DE0BB9D"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(malum:aspected_spirits)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "67573163FCB712A4"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(malum:mob_drops)mod(malum)", "minecraft:custom_name": "\"Soulful Drops\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["41C439295D5558C2"]
+			icon: {
+				id: "malum:soul_stained_steel_ingot"
+			}
+			id: "62C92C8960875611"
+			rewards: [
+				{
+					amount: 5
+					id: "04BE2A2FD36CA3F0"
+					type: "currency"
+				}
+				{
+					count: 2
+					id: "13CC33F38C1B14A7"
+					item: {
+						count: 1
+						id: "malum:hallowed_gold_ingot"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "536B376DB5656CE0"
+					item: {
+						count: 1
+						id: "malum:soul_stained_steel_ingot"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 2L
+					id: "6496D78011B13029"
+					item: { count: 1, id: "malum:hallowed_gold_ingot" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1F004DE0AC1C7A85"
+					item: { count: 1, id: "malum:soul_stained_steel_ingot" }
+					type: "item"
+				}
+				{
+					id: "6B4705703993EA99"
+					item: { count: 1, id: "malum:hex_ash" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41C439295D5558C2"]
+			hide_dependency_lines: true
+			icon: {
+				id: "malum:soulwoven_pouch"
+			}
+			id: "652650C157E16712"
+			rewards: [{
+				amount: 10
+				id: "4A1C893E48298AD7"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "02016A4219DAE98A"
+					item: { count: 1, id: "malum:soulwoven_silk" }
+					type: "item"
+				}
+				{
+					id: "0D30174DC1C58329"
+					item: { count: 1, id: "malum:soulwoven_pouch" }
+					type: "item"
+				}
+				{
+					id: "7CCE37FAC12528D7"
+					item: { components: { "ftbfiltersystem:filter": "or(item(malum:soul_hunter_cloak)item(malum:soul_hunter_robe)item(malum:soul_hunter_leggings)item(malum:soul_hunter_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["41C439295D5558C2"]
+			hide_dependency_lines: true
+			icon: {
+				id: "malum:spirit_crucible"
+			}
+			id: "1C0024A48898FB90"
+			rewards: [
+				{
+					amount: 10
+					id: "5F4F1F1EB541A5D5"
+					type: "currency"
+				}
+				{
+					count: 8
+					id: "7B6B262BB9D70459"
+					item: {
+						count: 1
+						id: "malum:alchemical_calx"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "0DAEA9B511D4FBDF"
+					item: { count: 1, id: "malum:spirit_crucible" }
+					type: "item"
+				}
+				{
+					id: "2BE42CBAB93B5314"
+					item: { count: 1, id: "malum:alchemical_impetus" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1C0024A48898FB90"]
+			icon_scale: 0.7d
+			id: "0AA1977AC1B5E5A9"
+			optional: true
+			rewards: [
+				{
+					amount: 3
+					id: "6AE23904F1DE3AEB"
+					type: "currency"
+				}
+				{
+					count: 8
+					id: "412CD01C822E0F57"
+					item: {
+						count: 1
+						id: "malum:alchemical_calx"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "11CC31F7EE2EC40A"
+				item: { count: 1, id: "malum:repair_pylon" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1C0024A48898FB90"]
+			icon_scale: 0.8d
+			id: "6B971FA156A96BD5"
+			optional: true
+			rewards: [{
+				amount: 3
+				id: "4C77DBC1E53E5A4D"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "08F0D70C3040016A"
+				item: { count: 1, id: "malum:spirit_catalyzer" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1C0024A48898FB90"]
+			icon: {
+				id: "malum:blazing_diode"
+			}
+			id: "7BA228FC749BF70A"
+			optional: true
+			rewards: [
+				{
+					amount: 3
+					id: "7A10791064F8A042"
+					type: "currency"
+				}
+				{
+					id: "65055A84A36C1456"
+					item: {
+						count: 1
+						id: "malum:tuning_fork"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2D6AEF337BEAFA58"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(malum:augments)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["41C439295D5558C2"]
+			hide_dependency_lines: true
+			id: "272E84656D0F133C"
+			min_width: 300
+			rewards: [
+				{
+					amount: 10
+					id: "6B9871D36FF0D163"
+					type: "currency"
+				}
+				{
+					id: "57B0EED5157867A1"
+					item: {
+						count: 1
+						id: "malum:totemic_staff"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "75C5E0916C7B1FA1"
+				item: { count: 1, id: "malum:runewood_totem_base" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["272E84656D0F133C"]
+			icon: {
+				id: "malum:soulwood_sapling"
+			}
+			id: "4D1EBD92C674531E"
+			rewards: [
+				{
+					amount: 5
+					id: "6BFD90D990C85A36"
+					type: "currency"
+				}
+				{
+					id: "67AD778C2D176FD6"
+					item: {
+						count: 1
+						id: "malum:cursed_sap"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "73C731C57707928E"
+					item: {
+						count: 1
+						id: "malum:blightpearl"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7845309BAB352D87"
+					item: { count: 1, id: "malum:soulwood_log" }
+					type: "item"
+				}
+				{
+					id: "2232F6DE41992407"
+					item: { count: 1, id: "malum:soulwood_sapling" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["62C92C8960875611"]
+			hide_dependency_lines: true
+			icon: {
+				id: "malum:soulbinding_brazier"
+			}
+			id: "61B948F3E526ADF9"
+			optional: true
+			rewards: [
+				{
+					amount: 50
+					id: "67F52ACA5C7CD195"
+					type: "currency"
+				}
+				{
+					count: 2
+					id: "054AFC7117C68982"
+					item: {
+						count: 1
+						id: "malum:ether"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "657219F7D1E759B8"
+					item: { count: 1, id: "malum:soulbinding_brazier" }
+					type: "item"
+				}
+				{
+					id: "03265E688CF69208"
+					item: { count: 1, id: "malum:paracausal_flame" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["62C92C8960875611"]
+			icon: {
+				id: "malum:runic_workbench"
+			}
+			id: "39ED88D2EF2F617B"
+			optional: true
+			rewards: [
+				{
+					amount: 10
+					id: "3C9FA2AC6F9407B5"
+					type: "currency"
+				}
+				{
+					count: 16
+					id: "169709A4C8A30E54"
+					item: {
+						count: 1
+						id: "malum:runewood_planks"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6024BC15BAF64800"
+					item: { count: 1, id: "malum:runic_workbench" }
+					type: "item"
+				}
+				{
+					id: "0E7B34D38F84AC11"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:brooch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4A5574B73D5286B1"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:rune)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62C92C8960875611"]
+			icon: {
+				id: "malum:weavers_workbench"
+			}
+			id: "1BC994881BC225ED"
+			optional: true
+			rewards: [{
+				amount: 3
+				id: "142665E49B519C3F"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "10F4FDA62394E24A"
+				item: { count: 1, id: "malum:weavers_workbench" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62C92C8960875611"]
+			hide_dependency_lines: true
+			icon: {
+				id: "malum:soul_stained_steel_scythe"
+			}
+			id: "59497745146C1EFD"
+			rewards: [{
+				amount: 5
+				id: "25CBD7DE0AD4859F"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4C2F88B9AE8BD7DA"
+					item: { components: { "ftbfiltersystem:filter": "or(item(malum:soul_stained_steel_scythe)item(malum:tyrving))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "53399AACBE5CBD31"
+					item: { components: { "ftbfiltersystem:filter": "or(item(malum:soul_stained_steel_helmet)item(malum:soul_stained_steel_chestplate)item(malum:soul_stained_steel_leggings)item(malum:soul_stained_steel_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["62C92C8960875611"]
+			icon: {
+				id: "malum:null_slate"
+			}
+			id: "66545AFE0DEA820F"
+			rewards: [
+				{
+					amount: 3
+					id: "4E1007E709EDB05A"
+					type: "currency"
+				}
+				{
+					id: "4C82E3187490EBAB"
+					item: {
+						count: 1
+						id: "malum:tophat"
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "26F016C7D6C3D7AD"
+					item: {
+						count: 1
+						id: "malum:raw_brilliance"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6E96E1B22FE2A2A9"
+					item: { count: 1, id: "malum:null_slate" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0125A9A673C52D9B"
+					item: { count: 1, id: "malum:void_salts" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "060EC6CEB82000AC"
+					item: { count: 1, id: "malum:mnemonic_fragment" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "32AC16580B43EDE3"
+					item: { count: 1, id: "malum:malignant_lead" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66545AFE0DEA820F"]
+			icon: {
+				id: "malum:malignant_pewter_plating"
+			}
+			id: "70753CD7045AE9E1"
+			rewards: [
+				{
+					amount: 10
+					id: "08E81035E4D6DA34"
+					type: "currency"
+				}
+				{
+					count: 2
+					id: "32C445661D2BB7BD"
+					item: {
+						count: 1
+						id: "malum:malignant_lead"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6A6F6014E6DFBCBE"
+					item: { count: 1, id: "malum:malignant_pewter_ingot" }
+					type: "item"
+				}
+				{
+					id: "10E849EA86CFEDA0"
+					item: { count: 1, id: "malum:malignant_pewter_plating" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["66545AFE0DEA820F"]
+			id: "77074CE5719763BB"
+			optional: true
+			rewards: [
+				{
+					amount: 5
+					id: "141A2AD808FA85CD"
+					type: "currency"
+				}
+				{
+					id: "7502C958803AE6DD"
+					item: {
+						count: 1
+						id: "malum:ring_of_the_endless_well"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E202C624EB90502"
+				item: { count: 1, id: "malum:mnemonic_hex_staff" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["70753CD7045AE9E1"]
+			icon: {
+				id: "malum:malignant_stronghold_helmet"
+			}
+			id: "6BCA2ED05C7D9D4E"
+			optional: true
+			rewards: [
+				{
+					amount: 10
+					id: "38C9FAB55FFA5824"
+					type: "currency"
+				}
+				{
+					count: 4
+					id: "4490BFEE06D97BCA"
+					item: {
+						count: 1
+						id: "malum:malignant_pewter_plating"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3834D102DC589D73"
+					item: {
+						count: 1
+						id: "malum:soulwoven_silk"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2C22485EF787EA9F"
+					item: { count: 1, id: "malum:malignant_stronghold_helmet" }
+					type: "item"
+				}
+				{
+					id: "16F2020915867639"
+					item: { count: 1, id: "malum:malignant_stronghold_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2AEC80355F0355F8"
+					item: { count: 1, id: "malum:malignant_stronghold_leggings" }
+					type: "item"
+				}
+				{
+					id: "06DB96DDEB3D73BB"
+					item: { count: 1, id: "malum:malignant_stronghold_boots" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["70753CD7045AE9E1"]
+			icon: {
+				id: "malum:weight_of_worlds"
+			}
+			id: "4194F3C176E50B7B"
+			optional: true
+			rewards: [
+				{
+					amount: 10
+					id: "4E02BDBFD363C61E"
+					type: "currency"
+				}
+				{
+					count: 2
+					id: "3BFB55813029F683"
+					item: {
+						count: 1
+						id: "malum:malignant_pewter_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "78AB43AA6606D571"
+					item: { count: 1, id: "malum:edge_of_deliverance" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "276A2E3DBA2B8116"
+					item: { count: 1, id: "malum:weight_of_worlds" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0BDE4192A6B083D6"
+					item: { count: 1, id: "malum:erosion_scepter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["66545AFE0DEA820F"]
+			icon: {
+				id: "malum:unwinding_chaos"
+			}
+			id: "5D7BABE1A37EC6D3"
+			optional: true
+			rewards: [
+				{
+					amount: 30
+					id: "4B3B2849EE0D919B"
+					type: "currency"
+				}
+				{
+					count: 32
+					id: "31EDE50D221A666D"
+					item: {
+						count: 1
+						id: "malum:eldritch_spirit"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6E75DB4841ED93B3"
+					item: { count: 1, id: "malum:sundering_anchor" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5423EF4A7FB5A5E0"
+					item: { count: 1, id: "malum:unwinding_chaos" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "malum:void_depot"
+			}
+			icon_scale: 1.4d
+			id: "781D7DA09E444B95"
+			rewards: [
+				{
+					amount: 10
+					id: "671A4D1609F7F2A9"
+					type: "currency"
+				}
+				{
+					id: "692E689A862893CB"
+					item: {
+						count: 1
+						id: "malum:encyclopedia_arcana"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					icon: {
+						id: "malum:void_depot"
+					}
+					id: "58BEE5F1435F017A"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "malum:void_conduit"
+					type: "observation"
+				}
+				{
+					id: "6FF2B7DB98E63996"
+					item: { count: 1, id: "malum:raw_soulstone" }
+					type: "item"
+				}
+				{
+					id: "35CCA9A1F02BC50A"
+					item: { count: 1, id: "malum:runewood_sapling" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["272E84656D0F133C"]
+			icon: {
+				components: {
+					"ftbquests:icon": "malum:textures/mob_effect/sacrificial_empowerment.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7A62B07AD0BCCCEA"
+			rewards: [
+				{
+					amount: 1
+					id: "7887347E1EE2F93E"
+					type: "currency"
+				}
+				{
+					auto: "enabled"
+					count: 6
+					id: "2DF4ED6FD005E15D"
+					item: {
+						count: 1
+						id: "malum:refined_brilliance"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3772CB9C1C8A3D66"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["41C439295D5558C2"]
+			hide_dependency_lines: true
+			icon: {
+				id: "malum:umbral_spirit"
+			}
+			id: "7169587C7DC4C8C0"
+			rewards: [{
+				amount: 10
+				id: "62D4AE480A978FD6"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "24473A0AA35A1540"
+					item: { count: 1, id: "malum:umbral_spirit" }
+					type: "item"
+				}
+				{
+					id: "704B13C98EE2CDCD"
+					item: { components: { "minecraft:damage": 1875 }, count: 1, id: "gaze:veil_dagger" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7169587C7DC4C8C0"]
+			icon: {
+				id: "gaze:splintered_world"
+			}
+			id: "0C5173F51D68317C"
+			rewards: [{
+				amount: 50
+				id: "7335688F163C21A4"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "58E7E47F9F84EEC1"
+				item: { count: 1, id: "gaze:splintered_world" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["107C26E8BF309BC1"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 8
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:gold_spell_book"
+			}
+			id: "03AC1C56F20BB662"
+			rewards: [{
+				amount: 5
+				id: "57995E08392CD1BF"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "220AEB0F13353108"
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:gold_spell_book)item(irons_spellbooks:diamond_spell_book))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D239E5AD486D419"]
+			icon: {
+				components: {
+					"occultism:spirit_name": "Narzirmorn"
+				}
+				id: "occultism:book_of_binding_bound_foliot"
+			}
+			id: "3E2C26828FF869F3"
+			rewards: [{
+				amount: 5
+				id: "2223B9F62F2D46CC"
+				type: "currency"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "707A3003DFCD1DF0"
+					item: { components: { "occultism:spirit_name": "Narzirmorn" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "occultism:textures/gui/book/pentagram_rose.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2BAEE4414B32E48E"
+					observe_type: 5
+					timer: 0L
+					to_observe: "occultism:foliot"
+					type: "observation"
+				}
+			]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E2C26828FF869F3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "occultism:textures/gui/book/summoning.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "42CE9840EED6B540"
+			rewards: [{
+				amount: 5
+				id: "7978CFB3F07470D1"
+				type: "currency"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "033028F36DDB5287"
+					item: { count: 1, id: "occultism:crushed_end_stone" }
+					type: "item"
+				}
+				{
+					id: "42802BB2FDF76359"
+					item: { count: 1, id: "occultism:chalk_purple_impure" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["71F25B7D688EE182"]
+			icon: {
+				id: "psi:cad_assembly_psimetal"
+			}
+			id: "1A2D8034C07D988B"
+			min_width: 300
+			rewards: [
+				{
+					amount: 15
+					id: "3226C759F2835040"
+					type: "currency"
+				}
+				{
+					id: "15E003A299B271A6"
+					item: {
+						components: {
+							"minecraft:custom_name": "\"Gamer Colorizer\""
+						}
+						count: 1
+						id: "psi:cad_colorizer_rainbow"
+					}
+					type: "item"
+				}
+				{
+					id: "4153A54942C2D9E8"
+					item: {
+						components: {
+							"patchouli:book": "psi:encyclopaedia_psionica"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "612C3DDCA60879AF"
+					item: { count: 1, id: "psi:cad_assembler" }
+					type: "item"
+				}
+				{
+					id: "2E6B8DF43B7A85E7"
+					item: { components: { "ftbfiltersystem:filter": "or(item(psi:cad_assembly_iron)item(psi:cad_assembly_gold))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -7.125d
+			y: 11.125d
+		}
+		{
+			dependencies: ["1A2D8034C07D988B"]
+			id: "5BF72200F151FF24"
+			min_width: 300
+			rewards: [{
+				amount: 5
+				id: "6BC5A1620218AC33"
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "260F5899B9722CEA"
+					item: { count: 1, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "2B612B23009BFAFD"
+					item: { count: 1, id: "psi:psidust" }
+					type: "item"
+				}
+			]
+			x: -5.125d
+			y: 11.125d
+		}
+		{
+			dependencies: ["5BF72200F151FF24"]
+			id: "69E90341CD1AD494"
+			min_width: 300
+			rewards: [
+				{
+					amount: 10
+					id: "075D1C7510612E0B"
+					type: "currency"
+				}
+				{
+					id: "2CE6902ABF815C53"
+					item: {
+						count: 1
+						id: "psi:spell_bullet_projectile"
+					}
+					type: "item"
+				}
+				{
+					id: "4C45D6C49439AEAB"
+					item: {
+						count: 1
+						id: "psi:spell_bullet_grenade"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7EA438CFBAAAF5AE"
+					item: { count: 1, id: "psi:programmer" }
+					type: "item"
+				}
+				{
+					id: "5FD5279B772082B4"
+					item: { count: 1, id: "psi:spell_bullet" }
+					type: "item"
+				}
+			]
+			x: -3.125d
+			y: 11.125d
+		}
+		{
+			dependencies: ["69E90341CD1AD494"]
+			id: "7CA687749E953A19"
+			min_width: 400
+			rewards: [{
+				amount: 25
+				id: "4DD58962AC1DE144"
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "710109DA6A738611"
+					item: { count: 1, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+				{
+					id: "6157E4553E339FBF"
+					item: { count: 1, id: "psi:psimetal" }
+					type: "item"
+				}
+			]
+			x: -1.125d
+			y: 11.125d
+		}
+		{
+			dependencies: ["7CA687749E953A19"]
+			id: "7BF4EF06E2D0D763"
+			rewards: [{
+				amount: 10
+				id: "6DE30BFF04A49B51"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "29CAAEC96E2F2953"
+				item: { count: 1, id: "psi:cad_assembly_psimetal" }
+				type: "item"
+			}]
+			x: 0.875d
+			y: 11.125d
+		}
+		{
+			dependencies: ["7BF4EF06E2D0D763"]
+			id: "2F9F60F308C42FB0"
+			rewards: [{
+				amount: 25
+				id: "3AD7840D724D3D57"
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "5AC954A890C968CF"
+					item: { count: 1, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					id: "56F781E674D452A9"
+					item: { count: 1, id: "psi:psigem" }
+					type: "item"
+				}
+			]
+			x: 2.875d
+			y: 11.125d
+		}
+		{
+			dependencies: ["5BF72200F151FF24"]
+			id: "6755CACD4957A4CB"
+			min_width: 300
+			rewards: [{
+				amount: 5
+				id: "0F165B83D5CEA37A"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "3C6DAE48EA8E6850"
+				item: { count: 1, id: "psi:cad_core_basic" }
+				type: "item"
+			}]
+			x: -5.125d
+			y: 9.625d
+		}
+		{
+			dependencies: ["7CA687749E953A19"]
+			id: "4E4434B6CE1F2560"
+			min_width: 300
+			rewards: [{
+				amount: 10
+				id: "379DA0A4A20AEDEA"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "6A0F7469DEB4D145"
+				item: { components: { "ftbfiltersystem:filter": "or(item(psi:cad_core_overclocked)item(psi:cad_core_conductive))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.125d
+			y: 9.625d
+		}
+		{
+			dependencies: ["2F9F60F308C42FB0"]
+			id: "1F1C11D77667DEB4"
+			min_width: 300
+			rewards: [{
+				amount: 20
+				id: "6DE169F9C5649F8A"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "35F9337A21031B7C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(psi:cad_core_hyperclocked)item(psi:cad_core_radiative))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.875d
+			y: 9.625d
+		}
+		{
+			dependencies: ["5BF72200F151FF24"]
+			id: "592A206B63BF556E"
+			min_width: 300
+			rewards: [{
+				amount: 5
+				id: "5D97627640E1FA41"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "486C2D61F17614FE"
+				item: { count: 1, id: "psi:cad_battery_basic" }
+				type: "item"
+			}]
+			x: -6.125d
+			y: 9.625d
+		}
+		{
+			dependencies: ["7CA687749E953A19"]
+			id: "765E218999FC00BD"
+			min_width: 300
+			rewards: [{
+				amount: 10
+				id: "7155A08E36BBD296"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "1CAFF6820A4262D0"
+				item: { count: 1, id: "psi:cad_battery_extended" }
+				type: "item"
+			}]
+			x: -2.125d
+			y: 9.625d
+		}
+		{
+			dependencies: ["2F9F60F308C42FB0"]
+			id: "1E6014F4B7CBE373"
+			rewards: [{
+				amount: 20
+				id: "61DDA5723E908D64"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "06D7AFE08A4DF820"
+				item: { count: 1, id: "psi:cad_battery_ultradense" }
+				type: "item"
+			}]
+			x: 1.875d
+			y: 9.625d
+		}
+		{
+			dependencies: ["5BF72200F151FF24"]
+			id: "7D2A583FBDCE4FC7"
+			min_width: 400
+			rewards: [{
+				amount: 5
+				id: "5E2DF36F62371660"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "631F97662F5D050D"
+				item: { count: 1, id: "psi:cad_socket_basic" }
+				type: "item"
+			}]
+			x: -4.125d
+			y: 9.625d
+		}
+		{
+			dependencies: ["7CA687749E953A19"]
+			id: "62802965CA91E8C9"
+			min_width: 300
+			rewards: [{
+				amount: 10
+				id: "40DB703A70D1E40A"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "53A4AB98C92B3D57"
+				item: { components: { "ftbfiltersystem:filter": "or(item(psi:cad_socket_signaling)item(psi:cad_socket_large))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.125d
+			y: 9.625d
+		}
+		{
+			dependencies: ["2F9F60F308C42FB0"]
+			id: "7131F9C883EE955E"
+			min_width: 300
+			rewards: [{
+				amount: 20
+				id: "7ECD1327D170271F"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "33CC6E4518860815"
+				item: { components: { "ftbfiltersystem:filter": "or(item(psi:cad_socket_transmissive)item(psi:cad_socket_huge))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.875d
+			y: 9.625d
+		}
+		{
+			dependencies: ["5BF72200F151FF24"]
+			id: "3D220672224EDBD7"
+			min_width: 300
+			rewards: [{
+				amount: 5
+				id: "25B8470B227248C9"
+				type: "currency"
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "54900CC98541771C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(psi:cad_colorizer_white)item(psi:cad_colorizer_orange)item(psi:cad_colorizer_magenta)item(psi:cad_colorizer_light_blue)item(psi:cad_colorizer_yellow)item(psi:cad_colorizer_lime)item(psi:cad_colorizer_pink)item(psi:cad_colorizer_gray)item(psi:cad_colorizer_light_gray)item(psi:cad_colorizer_cyan)item(psi:cad_colorizer_purple)item(psi:cad_colorizer_blue)item(psi:cad_colorizer_brown)item(psi:cad_colorizer_green)item(psi:cad_colorizer_red)item(psi:cad_colorizer_black)item(psi:cad_colorizer_psi)item(psi:cad_colorizer_empty))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.125d
+			y: 12.125d
+		}
+		{
+			dependencies: ["2F9F60F308C42FB0"]
+			id: "4B7A9469150AF3A1"
+			rewards: [
+				{
+					amount: 15
+					id: "000861AA2EA90FDD"
+					type: "currency"
+				}
+				{
+					id: "0A3177B8FF71B7E5"
+					item: {
+						count: 1
+						id: "psi:psigem"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "670184B5BF385A24"
+					item: {
+						count: 1
+						id: "psi:psimetal"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56C9F06D62E42184"
+				item: { components: { "ftbfiltersystem:filter": "or(item(psi:psimetal_sword)item(psi:psimetal_pickaxe)item(psi:psimetal_axe)item(psi:psimetal_shovel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.375d
+			y: 12.625d
+		}
+		{
+			dependencies: ["2F9F60F308C42FB0"]
+			id: "32ACE9E47B8A6C87"
+			min_width: 300
+			rewards: [
+				{
+					amount: 15
+					id: "6FE94EF765DC159D"
+					type: "currency"
+				}
+				{
+					id: "70C2429EC51F0034"
+					item: {
+						count: 1
+						id: "psi:psigem"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "4823CE4449B8D27E"
+					item: {
+						count: 1
+						id: "psi:psimetal"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "757B783AC8A9410F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(psi:psimetal_exosuit_helmet)item(psi:psimetal_exosuit_chestplate)item(psi:psimetal_exosuit_leggings)item(psi:psimetal_exosuit_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.375d
+			y: 12.625d
+		}
+		{
+			dependencies: ["7CA687749E953A19"]
+			id: "7A6F14DB74189B67"
+			size: 0.75d
+			tasks: [{
+				id: "30F1965A2A29E58A"
+				type: "checkmark"
+			}]
+			x: -1.125d
+			y: 12.125d
+		}
+		{
+			dependencies: ["2F9F60F308C42FB0"]
+			id: "3E72FB579DF147FE"
+			min_width: 300
+			rewards: [
+				{
+					amount: 25
+					id: "584886CF80BF3760"
+					type: "currency"
+				}
+				{
+					id: "659D585063D711C7"
+					item: {
+						count: 1
+						id: "psi:cad_core_hyperclocked"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "34F064BD38FE398C"
+					item: { components: { "ftbfiltersystem:filter": "or(item(psi:ebony_substance)item(psi:ivory_substance))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "6686A02C1B8BCACB"
+					item: { components: { "ftbfiltersystem:filter": "or(item(psi:cad_assembly_ivory_psimetal)item(psi:cad_assembly_ebony_psimetal))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 4.375d
+			y: 11.125d
+		}
+	]
+}

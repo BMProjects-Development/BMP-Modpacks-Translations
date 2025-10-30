@@ -1,0 +1,16 @@
+filename = 'functionalstorage-1.21.1-1.5.5.jar'
+name = 'Functional Storage'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '52ce3f093bb069eb551e47377b328b612b2f18c2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7061714
+project-id = 556861

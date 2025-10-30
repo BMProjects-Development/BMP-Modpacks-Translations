@@ -1,0 +1,21 @@
+[rules]
+	#If true, Pipe Goggles require energy to operate. If false, they will not consume any energy.
+	requireEnergy = true
+	#The maximum amount of energy a Pipe Goggle can store.
+	# Default: 400000
+	# Range: > 0
+	maxEnergy = 400000
+	#The maximum amount of energy a Pipe Goggle can receive per tick.
+	# Default: 5000
+	# Range: > 1
+	maxEnergyReceive = 5000
+	#The amount of energy consumed per range unit.
+	# Default: 2
+	# Range: > 0
+	energyPerRange = 2
+	#The amount of energy consumed per active color.
+	# Default: 2
+	# Range: > 0
+	energyPerActiveColor = 2
+	#The available range options for Pipe Goggles. The first value is the minimum range and the last value is the maximum range.
+	rangeOptions = [4, 6, 8, 12, 16]

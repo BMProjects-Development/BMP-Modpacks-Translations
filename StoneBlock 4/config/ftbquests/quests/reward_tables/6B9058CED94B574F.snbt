@@ -1,0 +1,138 @@
+{
+	icon: {
+		id: "ftb:stone_pebble"
+	}
+	id: "6B9058CED94B574F"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			count: 8
+			id: "33DE54ED6ACDD58D"
+			item: {
+				count: 1
+				id: "minecraft:honeycomb"
+			}
+		}
+		{ id: "2E732873FFB954D4", item: { count: 1, id: "minecraft:enchanting_table" } }
+		{ id: "0AAC7DA6AD8AC8C6", item: { count: 1, id: "minecraft:sniffer_egg" } }
+		{ id: "5E8D81AD09BB5B85", item: { count: 1, id: "minecraft:repeater" } }
+		{ id: "7D051CD0A959AE7F", item: { count: 1, id: "minecraft:comparator" } }
+		{ id: "7E89D3BFC2F494D7", item: { count: 1, id: "minecraft:ender_eye" } }
+		{ id: "47B6B1DAF3EA8162", item: { count: 1, id: "minecraft:pitcher_plant" } }
+		{
+			count: 4
+			id: "67F4CB29AEDEC84D"
+			item: {
+				count: 1
+				id: "clavis:lock_pick"
+			}
+		}
+		{
+			count: 3
+			id: "46138A5A48238146"
+			item: {
+				count: 1
+				id: "minecraft:wither_skeleton_skull"
+			}
+		}
+		{
+			count: 2
+			id: "5C243CA08A8503A7"
+			item: {
+				count: 1
+				id: "minecraft:hopper"
+			}
+		}
+		{ id: "5B6C0DB1C5D1655D", item: { count: 1, id: "utilitarian:fluid_hopper" } }
+		{ id: "71849F598086E489", item: { count: 1, id: "mob_grinding_utils:absorption_hopper" } }
+		{ id: "2DE5DF3EDC4696E6", item: { count: 1, id: "minecraft:pointed_dripstone" } }
+		{ id: "4A65CBACDEFA6FE2", item: { count: 1, id: "minecraft:observer" } }
+		{ id: "019B39E7620778C9", item: { count: 1, id: "minecraft:calibrated_sculk_sensor" } }
+		{ id: "0D702553666BD932", item: { count: 1, id: "minecraft:crafter" } }
+		{
+			count: 4
+			id: "67AC30807E293720"
+			item: {
+				count: 1
+				id: "create:item_vault"
+			}
+		}
+		{ id: "2EC468A0B5FFAEE7", item: { count: 1, id: "irons_jewelry:moonstone" } }
+		{
+			count: 8
+			id: "77E67C7ECC8E9C8C"
+			item: {
+				count: 1
+				id: "minecraft:glowstone_dust"
+			}
+		}
+		{ id: "7DD84F8595EA9B3A", item: { count: 1, id: "ftbstuff:gold_auto_hammer" } }
+		{ id: "35AE4F0E545FE16D", item: { count: 1, id: "ftbstuff:iron_auto_hammer" } }
+		{ id: "480E36AD9C973BA9", item: { components: { "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_hammer_beheading": 0, "industrialforegoing:infinity_item_power": 0L, "industrialforegoing:infinity_item_selected_tier": "poor", "industrialforegoing:infinity_item_special": 0b }, count: 1, id: "industrialforegoing:infinity_hammer" } }
+		{ id: "162F3F18A4DFDA97", item: { count: 1, id: "irregular_implements:spectre_coil_number" } }
+		{ id: "793452530644CCFB", item: { count: 1, id: "modularrouters:modular_router" } }
+		{ id: "6120000601F12BD3", item: { count: 1, id: "ars_nouveau:stable_warp_scroll" } }
+		{ id: "79CE512ACB39ADFA", item: { count: 1, id: "advanced_ae:quantum_core" } }
+		{ id: "1894CC94BEE1F0B9", item: { count: 1, id: "replication:replica_block" } }
+		{ id: "5C94570B97A7E146", item: { count: 1, id: "justdirethings:paradoxmachine" } }
+		{ id: "549ACE2970070797", item: { count: 1, id: "arseng:me_source_jar" } }
+		{ id: "70BC62F1A67B859F", item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:amulet_of_protection" }, count: 1, id: "irons_jewelry:recipe" } }
+		{ id: "28B55F4CF03FA574", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:dragon_breath", index: 0, level: 10, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{
+			count: 4
+			id: "7E97AA99B626803C"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:basic_tier_upgrade"
+			}
+		}
+		{
+			count: 4
+			id: "6C41DD4104A1CCCA"
+			item: {
+				count: 1
+				id: "draconicevolution:draconium_dust"
+			}
+		}
+		{ id: "2550C5E5A4D0782E", item: { components: { "enderio:energy": 100000 }, count: 1, id: "enderio:staff_of_travelling" } }
+		{
+			count: 2
+			id: "19AA27B55AEE0168"
+			item: {
+				count: 1
+				id: "enderio:travel_anchor"
+			}
+		}
+		{ id: "7DC6413751C6925D", item: { count: 1, id: "draconicevolution:generator" } }
+		{ id: "5336D4C3F387496F", item: { count: 1, id: "draconicevolution:draconium_chest" } }
+		{ id: "495DF49EBBF0B77D", item: { components: { "minecraft:stored_enchantments": { levels: { "apothic_enchanting:boon_of_the_earth": 5 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "54DC27E90D2295BC", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:looting": 8 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "34186D9A02BF619D", item: { count: 1, id: "ae2:mysterious_cube" } }
+		{ id: "3529BE1E5CB7FB6B", item: { count: 1, id: "replication:replicator" } }
+		{
+			count: 32
+			id: "7F853F4D6312EA6E"
+			item: {
+				count: 1
+				id: "productivemetalworks:black_fire_bricks"
+			}
+		}
+		{ id: "0E3A5C8B18E135CB", item: { count: 1, id: "rftoolsutility:crafter3" } }
+		{ id: "4E2EC3E3E11327EF", item: { count: 1, id: "supplementaries:globe" } }
+		{ id: "010FECF7DDBF2C28", item: { count: 1, id: "ae2:spatial_cell_component_128" } }
+		{ id: "721892F01FF4F396", item: { count: 1, id: "oritech:assembler_block" } }
+		{
+			count: 4
+			id: "035AF6BFF999765E"
+			item: {
+				count: 1
+				id: "oritech:machine_core_6"
+			}
+		}
+		{ id: "091576107A2F6592", item: { count: 1, id: "justdirethings:creaturecatcher" } }
+		{ id: "30BBFC9FACD65F21", item: { count: 1, id: "fluxnetworks:flux_controller" } }
+		{ id: "118FF12F35CB0DDC", item: { count: 1, id: "megacells:bulk_cell_component" } }
+	]
+	use_title: true
+}

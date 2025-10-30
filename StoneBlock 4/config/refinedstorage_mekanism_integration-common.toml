@@ -1,0 +1,16 @@
+[chemicalStorageBlock]
+	# Default: 2
+	# Range: 0 ~ 9223372036854775807
+	64bEnergyUsage = 2
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	256bEnergyUsage = 4
+	# Default: 6
+	# Range: 0 ~ 9223372036854775807
+	1024bEnergyUsage = 6
+	# Default: 8
+	# Range: 0 ~ 9223372036854775807
+	8192bEnergyUsage = 8
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	creativeEnergyUsage = 16

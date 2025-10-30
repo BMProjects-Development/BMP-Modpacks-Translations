@@ -1,0 +1,84 @@
+{
+  "type": "loading",
+  "id": "worlds_edit_upload_world",
+  "title": {
+    "translate": "rgp_client.gui.worlds_edit.upload_world"
+  },
+  "back": {
+    "action": "open_screen",
+    "id": "worlds_edit_create_world",
+    "pass_storage": true
+  },
+  "on_open": {
+    "action": "upload_world",
+    "on_complete": {
+      "action": "request",
+      "request": "list_player_server_worlds_count",
+      "variables": {
+        "gameServerId": "$gameServerId"
+      },
+      "store_variables": {
+        "loader:world_count": "worldCount"
+      },
+      "on_complete": {
+        "action": "open_screen",
+        "id": "worlds_edit_world_selection",
+        "pass_storage": true
+      }
+    }
+  },
+  "elements": [
+    {
+      "type": "text",
+      "id": "title",
+      "text": {
+        "translate": "rgp_client.gui.worlds_edit.upload_world"
+      },
+      "alignment": "center",
+      "position": {
+        "x": 0,
+        "y": 15,
+        "pivot": "top_center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "world_upload_world_name",
+      "text": {
+        "translate": "rgp_client.gui.worlds_edit.uploading_world",
+        "color": "green"
+      },
+      "alignment": "center",
+      "options": {
+        "width": 75,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -25,
+        "pivot": "center"
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "cancel",
+      "text": {
+        "translate": "gui.cancel"
+      },
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -30,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_edit_create_world",
+        "pass_storage": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+filename = 'fancymenu_neoforge_3.7.0_MC_1.21.1.jar'
+name = 'FancyMenu'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a7f7feeb0273ebfa0eafacc2ed3169d7abec8ef1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6919001
+project-id = 367706

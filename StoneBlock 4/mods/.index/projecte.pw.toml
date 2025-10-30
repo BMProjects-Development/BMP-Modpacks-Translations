@@ -1,0 +1,16 @@
+filename = 'ProjectE-1.21.1-PE1.1.0.jar'
+name = 'ProjectE'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '24fb5997727453a15e956522761a3f586e646c2a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6611984
+project-id = 226410

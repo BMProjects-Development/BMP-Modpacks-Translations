@@ -1,0 +1,16 @@
+filename = 'mru-1.0.19+LTS+1.21.1+neoforge.jar'
+name = 'M.R.U'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '903f41bce1ff0b4bd13b66d46bfbd21423663bbc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6803126
+project-id = 669659

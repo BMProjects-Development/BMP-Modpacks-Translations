@@ -1,0 +1,16 @@
+filename = 'kube-utils-21.1.1.jar'
+name = 'Kube Utils'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '54dc31b7bfa8bc77298f3452a2cbec3e57d1d41a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6181429
+project-id = 678815

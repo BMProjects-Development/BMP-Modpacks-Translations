@@ -1,0 +1,38 @@
+type = user_variables
+
+variable {
+  name = large_button_height
+  value = 279
+  reset_on_launch = false
+}
+
+variable {
+  name = large_button_scale
+  value = 8
+  reset_on_launch = false
+}
+
+variable {
+  name = small_button_scale
+  value = 6
+  reset_on_launch = false
+}
+
+variable {
+  name = small_button_width
+  value = 287
+  reset_on_launch = false
+}
+
+variable {
+  name = large_button_width
+  value = 1664
+  reset_on_launch = false
+}
+
+variable {
+  name = small_button_height
+  value = 279
+  reset_on_launch = false
+}
+

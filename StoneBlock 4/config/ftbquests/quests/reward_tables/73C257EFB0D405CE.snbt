@@ -1,0 +1,162 @@
+{
+	icon: {
+		id: "projecte:philosophers_stone"
+	}
+	id: "73C257EFB0D405CE"
+	loot_crate: {
+		color: 3947580
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "ftb.shop.title.loot_crate.pe_gear"
+		string_id: "random_projecte_gear"
+	}
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			id: "59CC4237058702EE"
+			item: {
+				count: 1
+				id: "projecte:harvest_goddess_band"
+			}
+			weight: 500.0f
+		}
+		{
+			id: "30C669A1AA7458D6"
+			item: {
+				count: 1
+				id: "projecte:repair_talisman"
+			}
+			weight: 400.0f
+		}
+		{
+			id: "79168E23BA8F3114"
+			item: {
+				count: 1
+				id: "projecte:evertide_amulet"
+			}
+			weight: 500.0f
+		}
+		{
+			id: "2692163A53377FAF"
+			item: {
+				count: 1
+				id: "projecte:volcanite_amulet"
+			}
+			weight: 500.0f
+		}
+		{
+			id: "75873680405D6291"
+			item: {
+				count: 1
+				id: "projecte:arcana_ring"
+			}
+			weight: 250.0f
+		}
+		{
+			id: "2DE73313E13D0B37"
+			item: {
+				count: 1
+				id: "projecte:void_ring"
+			}
+			weight: 400.0f
+		}
+		{
+			id: "06E0D8244FB964EC"
+			item: {
+				count: 1
+				id: "projecte:life_stone"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "368280B65345686A"
+			item: {
+				count: 1
+				id: "projecte:soul_stone"
+			}
+			weight: 250.0f
+		}
+		{
+			id: "69E6EDC0E51601ED"
+			item: {
+				count: 1
+				id: "projecte:body_stone"
+			}
+			weight: 250.0f
+		}
+		{
+			id: "5D0FCDE521FCB3F3"
+			item: {
+				count: 1
+				id: "projecte:dm_helmet"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "7CABC45A6AE2F726"
+			item: {
+				count: 1
+				id: "projecte:dm_chestplate"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "27D93E87B0240301"
+			item: {
+				count: 1
+				id: "projecte:dm_leggings"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "6AD008AB1D904BDA"
+			item: {
+				count: 1
+				id: "projecte:dm_boots"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "3B36C142E97F97D5"
+			item: {
+				count: 1
+				id: "projecte:rm_helmet"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "448CC17D20D0A496"
+			item: {
+				count: 1
+				id: "projecte:rm_chestplate"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "61A2507382C54DFF"
+			item: {
+				count: 1
+				id: "projecte:rm_leggings"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "7D192D2D4E967FEC"
+			item: {
+				count: 1
+				id: "projecte:rm_boots"
+			}
+			weight: 50.0f
+		}
+		{ id: "1F3B5B9864B5D5C1", item: { count: 1, id: "projecte:gem_helmet" } }
+		{ id: "4AF53719328F3BD3", item: { count: 1, id: "projecte:gem_chestplate" } }
+		{ id: "4CD46107EA9ADC63", item: { count: 1, id: "projecte:gem_leggings" } }
+		{ id: "4E6B66E4603E0611", item: { count: 1, id: "projecte:gem_boots" } }
+	]
+	use_title: true
+}

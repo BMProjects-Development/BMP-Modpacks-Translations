@@ -1,0 +1,16 @@
+filename = 'create_connected-1.1.6-mc1.21.1.jar'
+name = 'Create: Connected'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f52b659341fd3f53633d89dedc37c8cbea0f69ad'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6685698
+project-id = 947914

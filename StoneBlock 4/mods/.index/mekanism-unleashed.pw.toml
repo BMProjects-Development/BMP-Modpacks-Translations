@@ -1,0 +1,16 @@
+filename = 'mekanism_unleashed-0.3.2.jar'
+name = 'Mekanism Unleashed'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'd64745d83ca3b67fc6b7d067d966892850eb4e50'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6487994
+project-id = 1072209

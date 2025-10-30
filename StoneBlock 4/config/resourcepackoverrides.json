@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "failed_reloads_per_session": 5,
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "default_packs": [
+    "file/AE2Blackout-V1.2.3.zip",
+    "file/Better SB Upgrades.zip",
+    "file/Better Replication Pipes.zip",
+    "file/LowOnFire 1.21.3.zip",
+    "file/Oritech - Nice Pipes.zip",
+    "file/Pretty X Smart Pipez Mekanism.zip",
+    "file/Slightly-Improved-Font-1.1.5.zip"
+  ]
+}

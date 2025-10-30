@@ -1,0 +1,16 @@
+filename = 'lootjs-neoforge-1.21.1-3.4.3.jar'
+name = 'LootJS: KubeJS Addon'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0351815e16abb96d0fe0a19eb44f92e2fdef32ea'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6867813
+project-id = 570630

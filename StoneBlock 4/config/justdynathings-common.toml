@@ -1,0 +1,339 @@
+#General
+[1-general]
+	#Hello player, Dyna is here !
+	#If you're wondering that this config part
+	#is used as joke , you are right...
+	#Anyway , can I be of help to you ?
+	answer = false
+	#Disable Documentation warning
+	disable_doc_warning = false
+
+#Blocks
+[2-blocks]
+	#Phase Box
+	#Require any wrench to change Phase Box state intend of nothing
+	phase_box_require_wrench = false
+	#Ferricore Clock
+	#Require any wrench to change Ferricore Clock face state intend of nothing
+	ferricore_clock_require_wrench = false
+	#Thermo Generator
+	#Total FE Capacity
+	# Default: 1000000
+	# Range: > 1
+	thermo_generator_max_energy_storage = 1000000
+	#Total Coolant Capacity
+	# Default: 100000
+	# Range: > 1
+	thermo_generator_energy_every_tick = 100000
+	#Blackhole
+	#Keep stored stuff when redstone disable it
+	blackhole_keep_content = true
+	#Total FE Capacity
+	# Default: 2147483647
+	# Range: > 1
+	blackhole_max_energy_storage = 2147483647
+	#FE/t cost
+	# Default: 2147483647
+	# Range: > 1
+	blackhole_energy_every_tick = 2147483647
+	#Total Fluid Capacity
+	# Default: 2147483647
+	# Range: > 1
+	blackhole_max_fluid_storage = 2147483647
+	#MB/t cost
+	# Default: 2147483647
+	# Range: > 1
+	blackhole_fluid_every_tick = 2147483647
+	#Stabilizer
+	#Total FE Capacity
+	# Default: 10000
+	# Range: > 1
+	stabilizer_max_energy_storage = 10000
+	#FE/t cost
+	# Default: 1000
+	# Range: > 1
+	stabilizer_energy_every_tick = 1000
+	#Total MB Capacity
+	# Default: 1000
+	# Range: > 1
+	stabilizer_max_fluid_storage = 1000
+	#MB/t cost
+	# Default: 100
+	# Range: > 1
+	stabilizer_fluid_every_tick = 100
+	#Enable/Disable sound when revitalized a goo
+	stabilizer_emit_sound = true
+
+#Echoing Budding
+[3-echoing_budding]
+	#general_echoing_budding
+	#MB Capacity
+	# Default: 10000
+	# Range: > 1
+	echoing_budding_max_fluid_storage = 10000
+	#MB/t cost
+	# Default: 100
+	# Range: > 1
+	echoing_budding_fluid_every_tick = 100
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	echoing_budding_max_energy_storage = 10000
+	#FE/t cost
+	# Default: 100
+	# Range: > 1
+	echoing_budding_energy_every_tick = 100
+	#Chance to apply FE cost when a cluster will grow
+	echoing_budding_random_energy_cost = true
+	#Chance to apply MB cost when a cluster will grow
+	echoing_budding_random_fluid_cost = true
+	#Enable/Disable sound of buddings when grow
+	echoing_budding_emit_sound = true
+
+#Goo
+[4-goo]
+	#Creative Goo
+	#Enable/Disable sound on goo state change
+	creative_goo_sound_on_change_state = true
+	#Tier of goo
+	# Default: 2147483647
+	# Range: > 1
+	creative_goo_tier = 2147483647
+	#Counter Reducer of goo
+	# Default: 2147483647
+	# Range: > 1
+	creative_goo_counter_reducer = 2147483647
+	#Enable/Disable sound on goo recipe execution
+	creative_goo_sound_on_execution_recipe = true
+	#Generic FE Goo powered
+	#Max FE capacity
+	# Default: 10000
+	# Range: > 1
+	generic_energy_goo_max_energy_storage = 10000
+	#FE/t cost
+	# Default: 100
+	# Range: > 1
+	generic_energy_goo_energy_every_tick = 100
+	#Enable/Disable tier change capacity
+	generic_energy_goo_tier_multiply_energy_capacity = true
+	#Enable/Disable tier change fe cost
+	generic_energy_goo_tier_multiply_energy_cost = true
+	#Enable/Disable sound on goo recipe execution
+	generic_energy_goo_sound_on_execution_recipe = true
+	#Enable/Disable sound on goo recipe execution randomly
+	generic_energy_goo_extra_sound_on_execution = true
+	#Energized Goo
+	#Tier of goo
+	# Default: 5
+	# Range: > 1
+	energized_goo_tier = 5
+	#Counter Reducer of goo
+	# Default: 15
+	# Range: > 1
+	energized_goo_counter_reducer = 15
+	#Charged Primogel Goo
+	#Tier of goo
+	# Default: 1
+	# Range: > 1
+	charged_primogel_goo_tier = 1
+	#Counter Reducer of goo
+	# Default: 15
+	# Range: > 1
+	charged_primogel_goo_counter_reducer = 15
+	#Charged Blazebloom Goo
+	#Tier of goo
+	# Default: 2
+	# Range: > 1
+	charged_blazebloom_goo_tier = 2
+	#Counter Reducer of goo
+	# Default: 15
+	# Range: > 1
+	charged_blazebloom_goo_counter_reducer = 15
+	#Charged Voidshimmer Goo
+	#Tier of goo
+	# Default: 3
+	# Range: > 1
+	charged_voidshimmer_goo_tier = 3
+	#Counter Reducer of goo
+	# Default: 15
+	# Range: > 1
+	charged_voidshimmer_goo_counter_reducer = 15
+	#Charged Shadowpulse Goo
+	#Tier of goo
+	# Default: 4
+	# Range: > 1
+	charged_shadowpulse_goo_tier = 4
+	#Counter Reducer of goo
+	# Default: 15
+	# Range: > 1
+	charged_shadowpulse_goo_counter_reducer = 15
+
+#Solar Panel
+[5-solar_panel]
+	#Ferricore Solar Panel
+	#FE Capacity
+	# Default: 100000
+	# Range: > 1
+	ferricore_solar_panel_max_energy_storage = 100000
+	#FE/t production
+	# Default: 240
+	# Range: > 1
+	ferricore_solar_panel_energy_every_tick = 240
+	#Enable/Disable Y-Level multiplier to reduce FE gen based on Y
+	ferricore_solar_panel_reduce_production_at_y_level = false
+	#Enable/Disable Solar-Spam multiplier to reduce FE gen based on cheap prices
+	ferricore_solar_panel_reduce_production_when_placed_alone = false
+	#Enable/Disable condition to see the sky
+	ferricore_solar_panel_require_to_see_sky = true
+	#Enable/Disable condition of daytime only
+	ferricore_solar_panel_require_dayTime = true
+	#Change the logic of biometag | True == whitelist | False == blacklist
+	ferricore_solar_panel_biomeTag_list = true
+	#Blazegold Solar Panel
+	#FE Capacity
+	# Default: 100000
+	# Range: > 1
+	blazegold_solar_panel_max_energy_storage = 100000
+	#FE/t production
+	# Default: 960
+	# Range: > 1
+	blazegold_solar_panel_energy_every_tick = 960
+	#Enable/Disable Y-Level multiplier to reduce FE gen based on Y
+	blazegold_solar_panel_reduce_production_at_y_level = false
+	#Enable/Disable Solar-Spam multiplier to reduce FE gen based on cheap prices
+	blazegold_solar_panel_reduce_production_when_placed_alone = false
+	#Enable/Disable condition to see the sky
+	blazegold_solar_panel_require_to_see_sky = false
+	#Enable/Disable condition of daytime only
+	blazegold_solar_panel_require_dayTime = false
+	#Change the logic of biometag | True == whitelist | False == blacklist
+	blazegold_solar_panel_biomeTag_list = true
+	#Celestigem Solar Panel
+	#FE Capacity
+	# Default: 1000000
+	# Range: > 1
+	celestigem_solar_panel_max_energy_storage = 1000000
+	#FE/t production
+	# Default: 3840
+	# Range: > 1
+	celestigem_solar_panel_energy_every_tick = 3840
+	#Enable/Disable Y-Level multiplier to reduce FE gen based on Y
+	celestigem_solar_panel_reduce_production_at_y_level = false
+	#Enable/Disable Solar-Spam multiplier to reduce FE gen based on cheap prices
+	celestigem_solar_panel_reduce_production_when_placed_alone = true
+	#Enable/Disable condition to see the sky
+	celestigem_solar_panel_require_to_see_sky = true
+	#Enable/Disable condition of daytime only
+	celestigem_solar_panel_require_dayTime = false
+	#Change the logic of biometag | True == whitelist | False == blacklist
+	celestigem_solar_panel_biomeTag_list = false
+	#Eclipse Alloy Solar Panel
+	#FE Capacity
+	# Default: 1000000
+	# Range: > 1
+	eclipse_alloy_solar_panel_max_energy_storage = 1000000
+	#FE/t production
+	# Default: 11520
+	# Range: > 1
+	eclipse_alloy_solar_panel_energy_every_tick = 11520
+	#Enable/Disable Y-Level multiplier to reduce FE gen based on Y
+	eclipse_alloy_solar_panel_reduce_production_at_y_level = true
+	#Enable/Disable Solar-Spam multiplier to reduce FE gen based on cheap prices
+	eclipse_alloy_solar_panel_reduce_production_when_placed_alone = true
+	#Enable/Disable condition to see the sky
+	eclipse_alloy_solar_panel_require_to_see_sky = false
+	#Enable/Disable condition of daytime only
+	eclipse_alloy_solar_panel_require_dayTime = false
+	#Change the logic of biometag | True == whitelist | False == blacklist
+	eclipse_alloy_solar_panel_biomeTag_list = false
+
+#Anvil
+[6-anvil]
+	#Enable/Disable the entire sound event of all anvils on item repair
+	anvil_emit_sound = true
+	#Ferricore Anvil
+	#Enable/Disable sound event on item repair
+	ferricore_anvil_emit_sound = true
+	#Blazegold Anvil
+	#MB Capacity
+	# Default: 10000
+	# Range: > 1
+	blazegold_anvil_max_fluid_storage = 10000
+	#MB/t cost
+	# Default: 10
+	# Range: > 1
+	blazegold_anvil_fluid_every_tick = 10
+	#Enable/Disable sound event on item repair
+	blazegold_anvil_emit_sound = true
+	#Celestigem Anvil
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	celestigem_anvil_max_energy_storage = 10000
+	#FE/t cost
+	# Default: 100
+	# Range: > 1
+	celestigem_anvil_energy_every_tick = 100
+	#Enable/Disable sound event on item repair
+	celestigem_anvil_emit_sound = true
+	#Eclipse Alloy Anvil
+	#MB Capacity
+	# Default: 10000
+	# Range: > 1
+	eclipse_alloy_anvil_max_fluid_storage = 10000
+	#MB/t cost
+	# Default: 100
+	# Range: > 1
+	eclipse_alloy_anvil_fluid_every_tick = 100
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	eclipse_alloy_anvil_max_energy_storage = 10000
+	#FE/t cost
+	# Default: 100
+	# Range: > 1
+	eclipse_alloy_anvil_energy_every_tick = 100
+	#Minimal damage until it was counted as insta-repaireable
+	# Default: 1000
+	# Range: > 1
+	eclipse_alloy_anvil_damage_limit = 1000
+	#Enable/Disable sound event on item repair
+	eclipse_alloy_anvil_emit_sound = true
+
+#Wands
+[7-wands]
+	#Picker Wand support Fake Players
+	picker_wand_allow_fakeplayer = false
+	#Swapper Wand support Fake Players
+	swapper_wand_allow_fakeplayer = false
+	#Advanced Time Wand support Fake Players
+	advanced_time_wand_allow_fakeplayer = true
+	#MB Capacity
+	# Default: 800000
+	# Range: > 1
+	advanced_time_wand_max_fluid_storage = 8000000
+	#FE Capacity
+	# Default: 10000000
+	# Range: > 1
+	advanced_time_wand_max_energy_storage = 10000000
+	#Mode NORMAL [1|2|4|8]
+	advanced_time_wand_mode_normal = 1
+	#Mode X2 [1|2|4|8]
+	advanced_time_wand_mode_x2 = 2
+	#Mode X4 [1|2|4|8]
+	advanced_time_wand_mode_x4 = 4
+	#Mode MAX [1|2|4|8]
+	advanced_time_wand_mode_max = 8
+	#Max speed applicable with Advanced Time Wand
+	# It can disable other wand-modes when below 256
+	# This value should be a power of two
+	advanced_time_wand_max_multiplier = 256
+
+#Paradox Mixer
+[8-paradox_mixer]
+	#Total Fluid Capacity
+	# Default: 1000
+	# Range: > 1
+	paradox_mixer_max_fluid_storage = 1000
+	#Enable/Disable the entire sound event of paradox mixer
+	paradox_mixer_emit_sound = true

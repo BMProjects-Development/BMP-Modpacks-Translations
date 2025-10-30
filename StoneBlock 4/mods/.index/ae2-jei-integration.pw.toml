@@ -1,0 +1,16 @@
+filename = 'ae2jeiintegration-1.2.0.jar'
+name = 'AE2 JEI Integration'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '69bfbeca11c604a5da3be548ae582d5afbdc3d17'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5748513
+project-id = 1074338

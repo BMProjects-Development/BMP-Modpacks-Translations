@@ -1,0 +1,6 @@
+#Inventory sorter blacklists
+[blacklists]
+	#Container blacklist
+	containerBlacklist = ["occultism:ritual_satchel_t2", "occultism:ritual_satchel_t1", "ftbstuff:water_strainer", "curios:curios_container", "titanium:addon_container", "mysticalagriculture:harvester"]
+	#Slot type blacklist
+	slotBlacklist = ["com.enderio.machines.common.blocks.enchanter.EnchanterMenu$EnchanterOutputMachineSlot", "net.p3pp3rf1y.sophisticatedcore.upgrades.FilterLogicContainer$FilterLogicSlot", "net.p3pp3rf1y.sophisticatedcore.common.gui.FilterSlotItemHandler", "com.enderio.machines.common.blocks.base.menu.MachineSlot", "com.enderio.base.common.menu.ItemFilterSlot", "com.enderio.machines.common.menu.EnchanterMenu$EnchanterOutputMachineSlot", "net.p3pp3rf1y.sophisticatedcore.common.gui.StorageInventorySlot", "com.enderio.machines.common.blocks.base.menu.GhostMachineSlot", "net.p3pp3rf1y.sophisticatedcore.common.gui.StorageContainerMenuBase$StorageUpgradeSlot", "com.enderio.machines.common.menu.MachineSlot", "net.p3pp3rf1y.sophisticatedcore.common.gui.SlotSuppliedHandler", "com.enderio.machines.common.menu.GhostMachineSlot", "com.enderio.base.common.menu.FluidFilterSlot", "com.enderio.machines.common.blocks.base.menu.PreviewMachineSlot", "com.enderio.machines.common.menu.PreviewMachineSlot", "productivebees:advanced_beehive"]

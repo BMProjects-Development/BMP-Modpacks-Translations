@@ -1,0 +1,6 @@
+{
+  "logbegone": {
+    "phrases": ["Disconnecting VANILLA connection attempt", "Channels ", "Missing textures in model", "Unable to load model", "MapLike", "advancements:", "ingredient to remove", "Failed to parse either", "enchantableblocks", "conditions not met", "Failed to load model", "If this is a development environment you can ignore this message", "de.keksuccino.konkrete.Konkrete", "The augment: null does not have any compatible slots", "Opening a config that was already loaded", "Found animation file with improper file name format", "Invalid frame index on sprite", "Exception loading blockstate definition" ],
+    "regex": ["Disconnecting VANILLA connection attempt", "Channels ", "ModDiscoverer"]
+  }
+}

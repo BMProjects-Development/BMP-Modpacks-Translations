@@ -1,0 +1,16 @@
+#General settings
+[general]
+	#Whether or not the XP Synthesiser needs power
+	requiresPower = true
+	#Affects base cost, which applies equally to small and big recordings
+	# Default: 10000
+	# Range: > 0
+	xpPointCost = 10000
+	#Affects scaling costs, which applies mostly to big recordings. Doubling this doubles scaling cost
+	# Default: 100000
+	# Range: > 0
+	xpScalingCost = 100000
+	#Scaling factor as an exponent. GREATLY influences scaling cost. 2 means no scaling cost
+	# Default: 3
+	# Range: 2 ~ 10
+	xpScalingFactor = 3

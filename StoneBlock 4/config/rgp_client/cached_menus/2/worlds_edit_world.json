@@ -1,0 +1,114 @@
+{
+  "type": "simple",
+  "id": "worlds_edit_world",
+  "title": {
+    "translate": "rgp_client.gui.worlds_edit.rename_world"
+  },
+  "back": {
+    "action": "open_screen",
+    "id": "worlds_edit_world_selection",
+    "pass_storage": true
+  },
+  "entries": [
+  ],
+  "elements": [
+    {
+      "type": "text",
+      "id": "title",
+      "text": {
+        "translate": "rgp_client.gui.worlds_edit.rename_world"
+      },
+      "alignment": "center",
+      "position": {
+        "x": 0,
+        "y": 15,
+        "pivot": "top_center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "world_name",
+      "text": {
+        "translate": "rgp_client.gui.worlds_edit.world_name",
+        "color": "gray"
+      },
+      "alignment": "left",
+      "position": {
+        "x": 0,
+        "y": -20,
+        "pivot": "center"
+      },
+      "options": {
+        "width": 200
+      }
+    },
+    {
+      "type": "text_box",
+      "id": "world",
+      "variable_id": "newWorldName",
+      "default_text": "$selectedWorldName",
+      "character_limit": 30,
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "pivot": "center"
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "save",
+      "text": {
+        "translate": "rgp_client.gui.worlds_edit.save"
+      },
+      "required_variable": "newWorldName",
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -35,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "request",
+        "request": "edit_player_server_world",
+        "variables": {
+          "gameServerId": "$gameServerId",
+          "worldId": "$selectedWorldId",
+          "worldName": "$newWorldName"
+        },
+        "on_complete": {
+          "action": "open_screen",
+          "id": "worlds_edit_world_selection",
+          "pass_storage": true
+        }
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "back",
+      "text": {
+        "translate": "gui.back"
+      },
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_edit_world_selection",
+        "pass_storage": true
+      }
+    }
+  ]
+}

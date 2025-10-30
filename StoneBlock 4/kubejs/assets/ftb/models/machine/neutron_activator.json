@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "ftb:block/neutron_activator/neutron_activator",
+    "north":   "ftb:block/neutron_activator/neutron_activator_off",
+    "east":    "ftb:block/neutron_activator/neutron_activator_side",
+    "south":   "ftb:block/neutron_activator/neutron_activator_side",
+    "west":    "ftb:block/neutron_activator/neutron_activator_side",
+    "up":      "ftb:block/neutron_activator/neutron_activator_top",
+    "down":    "ftb:block/neutron_activator/neutron_activator_bottom"
+  }
+}

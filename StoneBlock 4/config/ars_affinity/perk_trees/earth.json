@@ -1,0 +1,69 @@
+{
+  "perks": [
+    {
+      "id": "earth_earth_power_1",
+      "perk": "PASSIVE_EARTH_POWER",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 1
+    },
+    {
+      "id": "earth_stone_skin_1",
+      "perk": "PASSIVE_STONE_SKIN",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 100,
+      "time": 400,
+      "prerequisites": ["earth_earth_power_1"]
+    },
+    {
+      "id": "earth_earth_resistance_1",
+      "perk": "PASSIVE_EARTH_RESISTANCE",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 200,
+      "prerequisites": ["earth_earth_power_1"]
+    },
+    {
+      "id": "earth_stone_skin_2",
+      "perk": "PASSIVE_STONE_SKIN",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 100,
+      "time": 200,
+      "prerequisites": ["earth_stone_skin_1"]
+    },
+    {
+      "id": "earth_earth_power_2",
+      "perk": "PASSIVE_EARTH_POWER",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 2,
+      "prerequisites": ["earth_earth_power_1"]
+    },
+    {
+      "id": "earth_earth_resistance_2",
+      "perk": "PASSIVE_EARTH_RESISTANCE",
+      "tier": 2,
+      "pointCost": 1,
+      "category": "PASSIVE",
+      "amount": 300,
+      "prerequisites": ["earth_earth_resistance_1"]
+    },
+    {
+      "id": "earth_ground_slam_1",
+      "perk": "ACTIVE_GROUND_SLAM",
+      "tier": 1,
+      "pointCost": 1,
+      "category": "ACTIVE",
+      "manaCost": 0.2,
+      "cooldown": 200,
+      "prerequisites": ["earth_earth_power_2", "earth_earth_resistance_2"]
+    }
+  ]
+}
