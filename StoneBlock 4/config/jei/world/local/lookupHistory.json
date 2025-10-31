@@ -1,5 +1,8 @@
 [
   {"version":1},
+  {"ingredient":{"id":"ftbstuff:fusing_machine"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tempad:chronon_cell"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tempad:chronon_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ftb:world_engine_machine_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ae2:formation_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"custommachinery:custom_machine_item","components":{"custommachinery:machine":"ftb:world_engine"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
