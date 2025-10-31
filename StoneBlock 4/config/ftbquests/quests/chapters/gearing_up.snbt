@@ -172,7 +172,7 @@
 			y: -5.5d
 		}
 		{
-			height: 1.5d
+			height: 2.5d
 			image: "ftb:textures/quests/other_titles_and_logos/ftb_end_game_title.png"
 			rotation: 0.0d
 			width: 7.0d
@@ -180,7 +180,7 @@
 			y: 19.5d
 		}
 		{
-			height: 1.5d
+			height: 2.5d
 			image: "ftb:textures/quests/other_titles_and_logos/ftb_mid_game_title.png"
 			rotation: 0.0d
 			width: 7.0d
@@ -188,7 +188,7 @@
 			y: 14.0d
 		}
 		{
-			height: 1.5d
+			height: 2.5d
 			image: "ftb:textures/quests/other_titles_and_logos/ftb_early_game_title.png"
 			rotation: 0.0d
 			width: 7.0d

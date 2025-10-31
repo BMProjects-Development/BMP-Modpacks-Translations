@@ -332,12 +332,6 @@ const chickenRecipes = [
         item: "minecraft:diamond"
       },
       {
-        output: "c_certusquartz",
-        parent_1: "c_quartz",
-        parent_2: "c_blue",
-        item: "ae2:certus_quartz_crystal"
-      },
-      {
         output: "c_obsidian",
         parent_1: "c_water",
         parent_2: "c_lava",
@@ -372,6 +366,17 @@ const chickenRecipes = [
         parent_1: "c_water",
         parent_2: "c_lapis",
         item: "minecraft:prismarine_shard"
+      }
+    ]
+  },
+  {
+    tier: 5,
+    time: 120,
+    breed: false,
+    chickens: [
+      {
+        output: "c_certusquartz",
+        item: "ae2:certus_quartz_crystal"
       }
     ]
   },
@@ -544,6 +549,15 @@ ServerEvents.recipes((event) => {
       C: "chicken_roost:chicken_essence_tier_1"
     })
     .id("ftb:roost/lava_chicken")
+
+  //Certus Quartz Chicken Recipe
+  event
+    .shaped("chicken_roost:c_certusquartz", ["SBS", "BCB", "SBS"], {
+      B: "ae2:flawless_budding_quartz",
+      S: "#minecraft:sand",
+      C: "chicken_roost:chicken_essence_tier_5"
+    })
+    .id("ftb:roost/certus_chicken")
 
   const colors = ["blue", "white", "brown", "black"]
 

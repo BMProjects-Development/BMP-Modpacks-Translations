@@ -2647,7 +2647,7 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/raw_brilliance_from_jelly",
       machineId: "ftb:world_engine",
-      structures: ["machine_block_upgrade", "enchanting_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
       source: { amount: 1000 },
       itemInputs: [{ item: "cognition:fluorescent_jelly", count: 1 }],
       itemOutputs: [{ item: "malum:raw_brilliance", count: 2 }],
@@ -2655,10 +2655,297 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/thread_spellpower",
       machineId: "ftb:world_engine",
-      structures: ["machine_block_upgrade", "enchanting_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
       source: { amount: 4000 },
       itemInputs: [{ item: "ars_nouveau:blank_thread", count: 1 }],
       itemOutputs: [{ item: "ars_nouveau:thread_spellpower", count: 1 }],
+    },
+    {
+      id: "ftb:world_engine/villager_spell_book",
+      machineId: "ftb:world_engine",
+      duration: 100,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 4000 },
+      itemInputs: [
+        { item: "irons_spellbooks:diamond_spell_book", count: 1 },
+        { item: "ftbunearthed:worker_token", count: 1}
+      ],
+      itemOutputs: [{ item: "irons_spellbooks:villager_spell_book", count: 1 }],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_knowledge_3",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:looting":3}}]', count:1 },
+        { item: 'minecraft:potion[potion_contents={potion:"apothic_attributes:strong_knowledge"}]', count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"apothic_enchanting:knowledge_of_the_ages":3}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_scavenger_3",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:looting":3}}]', count:1 },
+        { item: "minecraft:wither_skeleton_skull", count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"apothic_enchanting:scavenger":3}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_boon_5",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "minecraft:diamond_pickaxe", count: 1 },
+        { item: "#c:ores", count: 16 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"apothic_enchanting:boon_of_the_earth":5}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_efficiency_9",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "minecraft:diamond_pickaxe", count: 1 },
+        { item: 'minecraft:potion[potion_contents={potion:"apothic_attributes:strong_haste"}]', count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:efficiency":9}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_fishing_combo",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "minecraft:fishing_rod", count: 1 },
+        { item: 'minecraft:potion[potion_contents={potion:"apothic_attributes:strong_haste"}]', count: 1 },
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:fortune":3}}]', count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:luck_of_the_sea":8,"minecraft:lure":8}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_mana_combo",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "ars_nouveau:amulet_of_mana_regen", count: 1 },
+        { item: "ars_nouveau:amulet_of_mana_boost", count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"ars_nouveau:mana_boost":7,"ars_nouveau:mana_regen":7}},repair_cost=1]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_reaper_9",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 1000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "enderio:soularium_ingot", count: 4 },
+        { item: "occultism:fragile_soul_gem", count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"draconicevolution:reaper":9}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_spirit_plunder_6",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "malum:ring_of_esoteric_spoils", count: 1 },
+        { item: "malum:spirit_jar", count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"malum:spirit_plunder":6}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_backstabbing_8",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "farmersdelight:diamond_knife", count: 1 },
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:swift_sneak":5}}]', count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"farmersdelight:backstabbing":8}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_endless_quiver",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "supplementaries:quiver", count: 1 },
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:infinity":1}}]', count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"apothic_enchanting:endless_quiver":1}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_unbreaking_8",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "minecraft:obsidian", count: 16 },
+        { item: "create:super_glue", count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:unbreaking":8}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_mending",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "minecraft:experience_bottle", count: 1 },
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:unbreaking":8}}]', count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:mending":1}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_silk_touch",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "minecraft:glass", count: 32 },
+        { item: "chancecubes:silk_touch_pendant", count: 1 },
+        { item: "", count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:silk_touch":1}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_soulbound",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "modularrouters:player_module", count: 1 },
+        { item: "enderio:soul_vial", count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"ars_elemental:soulbound":1}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_sneak_5",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "minecraft:echo_shard", count: 1 },
+        { item: "create:cardboard_leggings", count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:swift_sneak":5}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_chill_8",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 2000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "minecraft:blue_ice", count: 8 },
+        { item: "minecraft:shield", count: 1 },
+        { item: "ars_nouveau:glyph_freeze", count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"twilightforest:chill_aura":8}}]', count: 1 }
+      ],
+    },
+    {
+      id: "ftb:world_engine/enchanted_book_",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      source: { amount: 4000 },
+      itemInputs: [
+        { item: "minecraft:book", count: 1 },
+        { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
+        { item: "ars_nouveau:enchanters_shield", count: 1 },
+        { item: "ars_elemental:spell_mirror", count: 1 },
+      ],
+      itemOutputs: [
+        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"ars_elemental:mirror_shield":7}}]', count: 1 }
+      ],
     },
     {
       id: "ftb:world_engine/portalgun_upgrade",
@@ -2801,7 +3088,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/spirit_block",
       machineId: "ftb:world_engine",
       duration: 200,
-      structures: ["machine_block_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade"],
       source: { amount: 4000 },
       energyPerTick: 1024,
       itemInputs: [
@@ -2835,7 +3122,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/deep_dark_catalyst",
       machineId: "ftb:world_engine",
       duration: 200,
-      structures: ["machine_block_upgrade", "spirit_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "spirit_upgrade"],
       source: { amount: 4000 },
       itemInputs: [
         { item: "minecraft:sculk", count: 4 },
@@ -2849,7 +3136,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/blade_of_vitality",
       machineId: "ftb:world_engine",
       duration: 200,
-      structures: ["machine_block_upgrade", "spirit_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "spirit_upgrade"],
       source: { amount: 6000 },
       itemInputs: [
         { item: "cognition:cognitive_sword", count: 1 },
@@ -2863,7 +3150,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/vigor_bow",
       machineId: "ftb:world_engine",
       duration: 200,
-      structures: ["machine_block_upgrade", "spirit_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "spirit_upgrade"],
       source: { amount: 6000 },
       itemInputs: [
         { item: "cognition:cognitive_bow", count: 1 },
@@ -3052,7 +3339,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/apotheosis_mythic_material_x16",
       machineId: "ftb:world_engine",
       duration: 300,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade"],
       energyPerTick: 32768,
       source: { amount: 10000 },
       itemInputs: [{ item: "projecte:red_matter", count: 1 }],
@@ -3145,7 +3432,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/warp_scroll",
       machineId: "ftb:world_engine",
       duration: 100,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "twilight_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "twilight_upgrade"],
       source: { amount: 6000 },
       itemInputs: [
         { item: "ars_nouveau:blank_parchment", count: 1 },
@@ -3158,7 +3445,7 @@ ServerEvents.recipes(function (event) {
       machineId: "ftb:world_engine",
       duration: 100,
       energyPerTick: 65536,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "twilight_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "twilight_upgrade"],
       source: { amount: 6000 },
       itemInputs: [
         { item: "minecraft:ghast_tear", count: 8 },
@@ -3176,7 +3463,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/shapers_focus",
       machineId: "ftb:world_engine",
       duration: 200,
-      structures: ["twilight_upgrade"],
+      structures: ["source_upgrade", "twilight_upgrade"],
       source: { amount: 10000 },
       itemInputs: [
         { item: "minecraft:netherite_ingot", count: 4 },
@@ -3261,7 +3548,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/glyph_animate_block",
       machineId: "ftb:world_engine",
       duration: 500,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade"],
       energyPerTick: 8192,
       source: { amount: 10000 },
       itemInputs: [
@@ -3516,7 +3803,7 @@ ServerEvents.recipes(function (event) {
       machineId: "ftb:world_engine",
       duration: 300,
       energyPerTick: 131072,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade"],
       itemInputs: [
         { item: "ftb:chroniton_glass", count: 32 },
         { item: "draconicevolution:wyvern_core", count: 16 },
@@ -3540,7 +3827,7 @@ ServerEvents.recipes(function (event) {
       machineId: "ftb:world_engine",
       duration: 240,
       energyPerTick: 65536,
-      structures: ["advanced_machine_upgrade"],
+      structures: ["source_upgrade", "advanced_machine_upgrade"],
       itemInputs: [
         { item: "cataclysm:cursium_ingot", count: 1 },
         { item: "chicken_roost:ingot_enderium", count: 16 },
@@ -3727,7 +4014,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_sword",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -3751,7 +4038,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_bow",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -3775,7 +4062,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_shovel",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -3793,7 +4080,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_hoe",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -3811,7 +4098,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_axe",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -3829,7 +4116,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_pickaxe_fortune",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -3847,7 +4134,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_chestplate",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -3867,7 +4154,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_helmet",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -3887,7 +4174,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_leggings",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -3907,7 +4194,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_boots",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -4124,6 +4411,30 @@ ServerEvents.recipes(function (event) {
         { item: "minecraft:sweet_berries", count: 1 }
       ],
       itemOutputs: [{ item: "ars_nouveau:sourceberry_bush", count: 1 }],
+    },
+    {
+      id: "ftb:world_engine/ars_nouveau/duality_ring",
+      machineId: "ftb:world_engine",
+      duration: 160,
+      structures: ["enchanting_upgrade"],
+      source: { amount: 500 },
+      itemInputs: [
+        { item: "irons_spellbooks:magic_cloth", count: 1 },
+        { item: "ars_nouveau:ring_of_potential", count: 1 }
+      ],
+      itemOutputs: [{ item: 'irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:duality_ring"]', count: 1 }],
+    },
+    {
+      id: "ftb:world_engine/ars_nouveau/duality_necklace",
+      machineId: "ftb:world_engine",
+      duration: 160,
+      structures: ["enchanting_upgrade"],
+      source: { amount: 500 },
+      itemInputs: [
+        { item: "irons_spellbooks:magic_cloth", count: 1 },
+        { item: "ars_nouveau:dull_trinket", count: 1 }
+      ],
+      itemOutputs: [{ item: 'irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:duality_ring"]', count: 1 }],
     },
 
     //,
@@ -4562,22 +4873,23 @@ ServerEvents.commandRegistry(function (event) {
             .getBaseForPlayer(player);
           if (!baseOpt.isPresent()) {
             player.sendSystemMessage(Text.translate(WE_LANG.NEED_BASE));
-            return 1;
+            refundWorldEngineQuest(player, upgradeName);
+            return 0;
           }
 
           var base = baseOpt.get();
           var baseDim = base.dimension();
           if (!baseDim || player.level.dimension != baseDim) {
             player.sendSystemMessage(Text.translate(WE_LANG.WRONG_DIM));
-            return 1;
+            refundWorldEngineQuest(player, upgradeName);
+            return 0;
           }
 
           var struct = STRUCTS[upgradeName];
           if (!struct) {
-            player.sendSystemMessage(
-              Text.translate(WE_LANG.UNKNOWN, upgradeName)
-            );
-            return 1;
+            player.sendSystemMessage(Text.translate(WE_LANG.UNKNOWN, upgradeName));
+            refundWorldEngineQuest(player, upgradeName);
+            return 0;
           }
           weSetForceLoad(player.level, true);
           var res = wePlaceOne(upgradeName, struct, player.level, function () {
@@ -4608,6 +4920,32 @@ ServerEvents.commandRegistry(function (event) {
   event.register(root);
 });
 
+const WORLDENGINE_AUTOBUILD_QUESTS = {
+  "source_upgrade": "3917A0EC517F70E6",
+  "machine_block_upgrade": "76673B8374630924",
+  "shadow_casing_upgrade": "04E68DA90DC83B45",
+  "enchanting_upgrade": "50B0E45705EDB5F2",
+  "chroniton_upgrade": "101B8D9769D835AB",
+  "spirit_upgrade": "0FF5D73B3256F400",
+  "advanced_machine_upgrade": "21E1A72027DBF236",
+  "quantum_tunnel_upgrade": "02BC8FCDB2D94F0E",
+  "ephonium_upgrade": "14537A63D3BDC09B",
+  "resonant_void_upgrade": "5FDB9EC42FE936C6",
+  "twilight_upgrade": "383DAD591823C746",
+  "awakened_core_upgrade": "5C8773D5561D7245",
+  "dark_void_upgrade": "65B10C46C1AE5026",
+  "infinity_upgrade": "5804356B2AFCF14A",
+}
+const refundWorldEngineQuest = (player, upgradeKey) => {
+    let questId = WORLDENGINE_AUTOBUILD_QUESTS[upgradeKey];
+    if (!questId) return;
+    let quest = getQuestObject(player.level, questId);
+    if (!quest) return;
+    let children = quest.getChildren();
+    children.forEach(child => {
+      player.give(Item.of(child.getItemStack()).withCount(child.getMaxProgress()));
+    })
+}
 
 const WORLDENGINE_STATES = {
     IDLE: 0,

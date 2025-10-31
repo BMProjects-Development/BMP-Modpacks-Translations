@@ -259,7 +259,6 @@ const disabledItems = [
   "sophisticatedstorage:basic_tier_upgrade",
   "sophisticatedstorage:stack_upgrade_tier_4",
   "sophisticatedstorage:stack_upgrade_tier_5",
-  "sophisticatedstorage:storage_tool",
   "supplementaries:faucet",
   "supplementaries:faucet",
   "twilightforest:magic_map_focus",

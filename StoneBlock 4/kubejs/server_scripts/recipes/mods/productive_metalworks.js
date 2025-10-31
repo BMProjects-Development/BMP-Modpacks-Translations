@@ -16,54 +16,95 @@ ServerEvents.recipes((event) => {
     })
     .id("ftb:productivemetalworks/melting/carbon_fibre_strands");
 
-    //Enderium Casting Recipes ====================================================================
+  //Enderium Casting Recipes ====================================================================
 
-    //Ingot
-    event.custom({
-      "type": "productivemetalworks:item_casting",
-      "cast": {
-        "item": "productivemetalworks:ingot_cast"
+  //Ingot
+  event
+    .custom({
+      type: "productivemetalworks:item_casting",
+      cast: {
+        item: "productivemetalworks:ingot_cast",
       },
-      "consume_cast": false,
-      "fluid": {
-        "amount": 90,
-        "tag": "c:molten_enderium"
+      consume_cast: false,
+      fluid: {
+        amount: 90,
+        tag: "c:molten_enderium",
       },
-      "result": {
-        "count": 1,
-        "id": "chicken_roost:ingot_enderium"
-      }
-    }).id("ftb:productivemetalworks/item_casting/enderium_ingot");
+      result: {
+        count: 1,
+        id: "chicken_roost:ingot_enderium",
+      },
+    })
+    .id("ftb:productivemetalworks/item_casting/enderium_ingot");
 
-    event.custom({
-      "type": "productivemetalworks:block_casting",
-      "cast": [],
-      "consume_cast": false,
-      "fluid": {
-        "amount": 810,
-        "tag": "c:molten_enderium"
+  event
+    .custom({
+      type: "productivemetalworks:block_casting",
+      cast: [],
+      consume_cast: false,
+      fluid: {
+        amount: 810,
+        tag: "c:molten_enderium",
       },
-      "result": {
-        "count": 1,
-        "id": "ftb:enderium_block"
-      }
-    }).id("ftb:productivemetalworks/block_casting/enderium_block");
+      result: {
+        count: 1,
+        id: "ftb:enderium_block",
+      },
+    })
+    .id("ftb:productivemetalworks/block_casting/enderium_block");
 
-    // ============================================================================================
-    event.custom({
-      "type": "productivemetalworks:item_casting",
-      "cast": {
-        "item": "productivemetalworks:nugget_cast"
+  // ============================================================================================
+  event
+    .custom({
+      type: "productivemetalworks:item_casting",
+      cast: {
+        item: "productivemetalworks:nugget_cast",
       },
-      "consume_cast": false,
-      "fluid": {
-        "amount": 100,
-        "fluid": "ftb:molten_chaos"
+      consume_cast: false,
+      fluid: {
+        amount: 100,
+        fluid: "ftb:molten_chaos",
       },
-      "result": {
-        "count": 1,
-        "id": "draconicevolution:small_chaos_frag"
-      }
-    }).id("ftb:productivemetalworks/nugget_casting/small_chaos_fragment");
-    
+      result: {
+        count: 1,
+        id: "draconicevolution:small_chaos_frag",
+      },
+    })
+    .id("ftb:productivemetalworks/nugget_casting/small_chaos_fragment");
+
+  event
+    .custom({
+      type: "productivemetalworks:item_casting",
+      cast: {
+        item: "productivemetalworks:gem_cast",
+      },
+      consume_cast: false,
+      fluid: {
+        amount: 100,
+        fluid: "productivemetalworks:molten_carbon",
+      },
+      result: {
+        count: 1,
+        id: "minecraft:coal",
+      },
+    })
+    .id("ftb:productivemetalworks/gem_casting/coal");
+
+  event
+    .custom({
+      type: "productivemetalworks:item_casting",
+      cast: {
+        item: "productivemetalworks:gem_cast",
+      },
+      consume_cast: false,
+      fluid: {
+        amount: 100,
+        fluid: "productivemetalworks:molten_redstone",
+      },
+      result: {
+        count: 1,
+        id: "minecraft:redstone",
+      },
+    })
+    .id("ftb:productivemetalworks/gem_casting/redstone");
 });

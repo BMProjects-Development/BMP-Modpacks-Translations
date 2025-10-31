@@ -36,6 +36,22 @@ const matterValues = [
     earth: 4,
   },
   {
+    itemID: "fluxnetworks:flux_plug",
+    earth: 24,
+    precious: 18,
+    nether: 18,
+    quantum: 18,
+    ender: 24,
+  },
+  {
+    itemID: "fluxnetworks:flux_point",
+    earth: 24,
+    precious: 18,
+    nether: 18,
+    quantum: 18,
+    ender: 24,
+  },
+  {
     itemID: [
       "ftbmaterials:quartz_dust",
       "ae2:certus_quartz_crystal",
@@ -45,6 +61,122 @@ const matterValues = [
     ],
     precious: 4,
     nether: 2,
+  },
+  {
+    itemID: "ftbmaterials:steel_wire",
+    metallic: 54,
+    precious: 12,
+  },
+  {
+    itemID: "ftbmaterials:lead_wire",
+    metallic: 27,
+  },
+
+  {
+    itemID: "ftbmaterials:electrum_wire",
+    metallic: 54,
+    precious: 12,
+  },
+
+  {
+    itemID: "ftbmaterials:copper_wire",
+    metallic: 6,
+    precious: 6,
+  },
+
+  {
+    itemID: "ftbmaterials:iron_wire",
+    metallic: 27,
+  },
+
+  {
+    itemID: "ftbmaterials:gold_wire",
+    metallic: 27,
+    precious: 27,
+  },
+
+  {
+    itemID: "ftbmaterials:aluminum_wire",
+    metallic: 27,
+    precious: 27,
+  },
+
+  {
+    itemID: "extendedae:entro_crystal",
+    earth: 2,
+    organic: 2,
+    precious: 2,
+    nether: 2,
+    quantum: 2,
+    ender: 2,
+  },
+
+  {
+    itemID: "megacells:sky_steel_ingot",
+    earth: 4,
+    organic: 4,
+    precious: 4,
+    metallic: 9,
+    nether: 2,
+  },
+  {
+    itemID: "megacells:printed_accumulation_processor",
+    earth: 4,
+    organic: 4,
+    precious: 4,
+    metallic: 9,
+    nether: 2,
+  },  
+  {
+    itemID: "megacells:accumulation_processor",
+    earth: 6,
+    organic: 4,
+    precious: 10,
+    metallic: 9,
+    nether: 4,
+  },  
+
+  {
+    itemID: "megacells:sky_bronze_ingot",
+    earth: 4,
+    organic: 4,
+    precious: 6,
+    metallic: 2,
+    nether: 2,
+  },
+  {
+    itemID: "megacells:sky_osmium_ingot",
+    earth: 4,
+    organic: 4,
+    precious: 6,
+    metallic: 9,
+    nether: 2,
+  },
+
+  {
+    itemID: "extendedae:concurrent_processor",
+    earth: 4,
+    organic: 2,
+    precious: 8,
+    nether: 4,
+    quantum: 2,
+    ender: 2,
+  },
+  {
+    itemID: "extendedae:concurrent_processor_print",
+    earth: 2,
+    organic: 2,
+    precious: 2,
+    nether: 2,
+    quantum: 2,
+    ender: 2,
+  },
+
+  {
+    itemID: "immersiveengineering:treated_wood_horizontal",
+    earth: 4,
+    organic: 3,
+    precious: 1,
   },
   {
     itemID: "ae2:sky_dust",
@@ -89,6 +221,33 @@ const matterValues = [
     metallic: 9,
     earth: 2,
     nether: 2,
+  },
+  {
+    itemID: "advanced_ae:printed_quantum_processor",
+    organic: 64,
+    metallic: 128,
+    earth: 128,
+    nether: 32,
+    ender: 16,
+    quantum: 64,
+    precious: 32,
+  },
+  {
+    itemID: "ae2things:disk_housing",
+    metallic: 72,
+    earth: 11,
+    nether: 150,
+    precious: 236,
+  },
+  {
+    itemID: "advanced_ae:quantum_processor",
+    organic: 64,
+    metallic: 128,
+    earth: 132,
+    nether: 36,
+    ender: 16,
+    quantum: 64,
+    precious: 36,
   },
   {
     itemID: "ae2:ender_dust",
@@ -159,12 +318,13 @@ const matterValues = [
   },
   {
     itemID: "projecte:dark_matter",
-    precious: 2048,
+    precious: 4096,
     metallic: 4096,
     nether: 4096,
+    organic: 4096,
     earth: 4096,
     ender: 4096,
-    quantum: 2048,
+    quantum: 4096,
     living: 4096,
   },
   {
@@ -177,6 +337,17 @@ const matterValues = [
   },
   {
     itemID: "projecte:red_matter",
+    precious: 16384,
+    metallic: 16384,
+    organic: 16384,
+    nether: 16384,
+    earth: 16384,
+    ender: 16384,
+    quantum: 16384,
+    living: 16384,
+  },
+  {
+    itemID: "ae2:singularity",
     precious: 8192,
     metallic: 16384,
     nether: 16384,
@@ -185,6 +356,7 @@ const matterValues = [
     quantum: 8192,
     living: 16384,
   },
+
   {
     itemID: "draconicevolution:dragon_heart",
     precious: 32768,
@@ -295,7 +467,6 @@ const matterValues = [
     earth: 106,
     organic: 74,
   },
-  
 ];
 
 ServerEvents.recipes((event) => {

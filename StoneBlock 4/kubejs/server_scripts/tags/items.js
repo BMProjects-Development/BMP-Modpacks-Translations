@@ -30,8 +30,19 @@ const addItemTags = [
     ]
   },
   {
+    tagName: "curios:curio",
+    itemIDs: ["minecraft:stick"]
+  },
+  {
     tagName: "ftbunearthed:unlimited_food_source",
-    itemIDs: ["relics:infinity_ham", "artifacts:eternal_steak", "artifacts:everlasting_beef", "ftb:stable_antimatter", "avaritia:cosmic_meatballs", "avaritia:ultimate_stew"]
+    itemIDs: [
+      "relics:infinity_ham",
+      "artifacts:eternal_steak",
+      "artifacts:everlasting_beef",
+      "ftb:stable_antimatter",
+      "avaritia:cosmic_meatballs",
+      "avaritia:ultimate_stew"
+    ]
   },
   {
     tagName: "ftb:pebble",
@@ -40,7 +51,7 @@ const addItemTags = [
   {
     tagName: "ftb:chicken_stick",
     itemIDs: ["chicken_roost:chicken_stick"]
-  },  
+  },
   {
     tagName: "ftb:pistons",
     itemIDs: [
@@ -53,6 +64,19 @@ const addItemTags = [
   {
     tagName: "c:barrels/wood",
     itemIDs: ["#c:barrels/wooden"]
+  },
+  {
+    tagName: "c:stones/normal",
+    itemIDs: [
+      "minecraft:andesite",
+      "minecraft:stone",
+      "minecraft:diorite",
+      "minecraft:granite",
+      "minecraft:tuff",
+      "minecraft:polished_granite",
+      "minecraft:polished_andesite",
+      "minecraft:polished_diorite"
+    ]
   }
 ]
 

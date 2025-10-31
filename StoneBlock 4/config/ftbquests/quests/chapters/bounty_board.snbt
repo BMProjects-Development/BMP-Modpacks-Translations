@@ -1200,7 +1200,7 @@
 				}
 			]
 			x: -2.0d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -1233,7 +1233,7 @@
 				}
 			]
 			x: -1.0d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -1267,7 +1267,7 @@
 				}
 			]
 			x: 0.0d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -1300,7 +1300,7 @@
 				}
 			]
 			x: -0.5d
-			y: 8.5d
+			y: 10.0d
 		}
 		{
 			can_repeat: true
@@ -1333,7 +1333,7 @@
 				}
 			]
 			x: 0.5d
-			y: 8.5d
+			y: 10.0d
 		}
 		{
 			icon: {
@@ -1388,7 +1388,7 @@
 				}
 			]
 			x: 2.0d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -1435,7 +1435,7 @@
 				}
 			]
 			x: 1.0d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			can_repeat: true
@@ -1467,7 +1467,7 @@
 				}
 			]
 			x: -1.5d
-			y: 8.5d
+			y: 10.0d
 		}
 		{
 			can_repeat: true
@@ -1500,7 +1500,7 @@
 				}
 			]
 			x: 0.5d
-			y: 10.5d
+			y: 12.0d
 		}
 		{
 			can_repeat: true
@@ -1533,7 +1533,7 @@
 				}
 			]
 			x: 0.0d
-			y: 11.5d
+			y: 13.0d
 		}
 		{
 			can_repeat: true
@@ -1566,7 +1566,7 @@
 				}
 			]
 			x: 1.5d
-			y: 8.5d
+			y: 10.0d
 		}
 		{
 			can_repeat: true
@@ -1637,7 +1637,7 @@
 				}
 			]
 			x: 0.0d
-			y: 9.5d
+			y: 11.0d
 		}
 		{
 			can_repeat: true
@@ -1670,7 +1670,7 @@
 				}
 			]
 			x: -1.0d
-			y: 9.5d
+			y: 11.0d
 		}
 		{
 			can_repeat: true
@@ -1703,7 +1703,7 @@
 				}
 			]
 			x: 1.0d
-			y: 9.5d
+			y: 11.0d
 		}
 		{
 			can_repeat: true
@@ -1736,7 +1736,7 @@
 				}
 			]
 			x: -0.5d
-			y: 10.5d
+			y: 12.0d
 		}
 		{
 			id: "5A284AE3AC14D070"
@@ -1886,6 +1886,25 @@
 			}]
 			x: 3.0d
 			y: -6.0d
+		}
+		{
+			icon_scale: 1.4d
+			id: "6C94998689192C2E"
+			optional: true
+			rewards: [{
+				amount: 3
+				id: "09A9D7C26CE2693D"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "0658B503C9309A51"
+				item: { count: 1, id: "chancecubes:chance_cube" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
 		}
 	]
 }

@@ -34,7 +34,7 @@ ServerEvents.recipes((event) => {
       .id(`ftb:ftbstuff/crafting/${type[1]}_hammer`)
   })
 
-    event
+  event
     .shaped("ftb:mighty_chicken_egg", ["DPD", "PMP", "DPD"], {
       D: "#c:gems/dimensional_shard",
       P: "#c:ender_pearls",
@@ -66,7 +66,7 @@ ServerEvents.recipes((event) => {
     1000,
     "ftb:magmalith",
     "ftb:productivemetalworks/casting/magmalith"
-  );
+  )
 
   event.custom({
     type: "ftbstuff:supercooler",
@@ -99,14 +99,16 @@ ServerEvents.recipes((event) => {
     .id("ftb:ftb/crafting/clapple")
 
   //reinforced brush
-  event.custom({
-    type: "minecraft:smithing_transform",
-    template: { item: "apotheosis:iron_upgrade_smithing_template" },
-    base: { item: "minecraft:brush" },
-    addition: { item: "minecraft:diamond" },
-    // ItemStack schema: id (+ optional count/components)
-    result: { id: "ftbunearthed:reinforced_brush", count: 1 }
-  }).id("ftb:smithing/reinforced_brush");
+  event
+    .custom({
+      type: "minecraft:smithing_transform",
+      template: { item: "apotheosis:iron_upgrade_smithing_template" },
+      base: { item: "minecraft:brush" },
+      addition: { item: "minecraft:diamond" },
+      // ItemStack schema: id (+ optional count/components)
+      result: { id: "ftbunearthed:reinforced_brush", count: 1 }
+    })
+    .id("ftb:smithing/reinforced_brush")
 
   //Fortron Block Recipe
   event
@@ -230,5 +232,8 @@ ServerEvents.recipes((event) => {
     })
     .id("ftb:productivemetalworks/fluid_alloying/lumium_from_alloy")
 
+  event
+    .shapeless(Item.of("minecraft:lapis_lazuli", 4), ["supplementaries:lapis_bricks"])
+    .id("ftb:supplementaries/lapis_uncraft")
   // ==============================================================================================
 })

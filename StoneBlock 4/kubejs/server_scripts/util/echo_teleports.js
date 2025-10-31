@@ -1,20 +1,22 @@
 ServerEvents.commandRegistry((event) => {
   const { commands: Commands } = event;
 
+  const YAW = { SOUTH: 0, WEST: 90, NORTH: 180, EAST: -90 };
+
   const ECHOS = [
-    { key: "guidance",      displayKey: "ftb.echo.archive.guidance",      coords: [-64,-19, 31], stage: "echo_guidance_interact"},
-    { key: "magician",      displayKey: "ftb.echo.archive.magician",      coords: [-59,-15,-28] },
-    { key: "quartermaster", displayKey: "ftb.echo.archive.quartermaster", coords: [-18,-15,-21] },
-    { key: "machinist",     displayKey: "ftb.echo.archive.machinist",     coords: [-35,-20,  2] },
-    { key: "fabricator",    displayKey: "ftb.echo.archive.fabricator",    coords: [ 54,-16,  9] },
-    { key: "enchanter",     displayKey: "ftb.echo.archive.enchanter",     coords: [ 32,-14, 35] },
-    { key: "wayfinder",     displayKey: "ftb.echo.archive.wayfinder",     coords: [ 70,-15,-17] },
-    { key: "infernal",      displayKey: "ftb.echo.archive.infernal",      coords: [ 18,-19,-25] },
-    { key: "catalyst",      displayKey: "ftb.echo.archive.catalyst",      coords: [ -6,-21,-50] },
-    { key: "light_bender",  displayKey: "ftb.echo.archive.light_bender",  coords: [-29,-15,-76] },
-    { key: "wyrmwright",    displayKey: "ftb.echo.archive.wyrmwright",    coords: [-20,-17, 58] },
-    { key: "twilight",      displayKey: "ftb.echo.archive.twilight_ancient", coords: [-10,-20, 23], stage: "echo_twilight_ancients_unlock" },
-    { key: "ancient",       displayKey: "ftb.echo.archive.twilight_ancient", coords: [ -6,-20, 23], stage: "echo_twilight_ancients_unlock" }
+    { key: "guidance",      displayKey: "ftb.echo.archive.guidance",         coords: [-64,-19, 31], facing: YAW.NORTH, stage: "echo_guidance_interact"},
+    { key: "magician",      displayKey: "ftb.echo.archive.magician",         coords: [-59,-15,-28], facing: YAW.WEST  },
+    { key: "quartermaster", displayKey: "ftb.echo.archive.quartermaster",    coords: [-18,-15,-21], facing: YAW.SOUTH },
+    { key: "machinist",     displayKey: "ftb.echo.archive.machinist",        coords: [-35,-20,  2], facing: YAW.NORTH },
+    { key: "fabricator",    displayKey: "ftb.echo.archive.fabricator",       coords: [ 54,-16,  9], facing: YAW.WEST  },
+    { key: "enchanter",     displayKey: "ftb.echo.archive.enchanter",        coords: [ 32,-14, 35], facing: YAW.WEST  },
+    { key: "wayfinder",     displayKey: "ftb.echo.archive.wayfinder",        coords: [ 70,-15,-17], facing: YAW.EAST  },
+    { key: "infernal",      displayKey: "ftb.echo.archive.infernal",         coords: [ 18,-19,-25], facing: YAW.NORTH },
+    { key: "catalyst",      displayKey: "ftb.echo.archive.catalyst",         coords: [ -6,-21,-50], facing: YAW.SOUTH },
+    { key: "light_bender",  displayKey: "ftb.echo.archive.light_bender",     coords: [-29,-15,-76], facing: YAW.SOUTH },
+    { key: "wyrmwright",    displayKey: "ftb.echo.archive.wyrmwright",       coords: [-20,-17, 58], facing: YAW.EAST  },
+    { key: "twilight",      displayKey: "ftb.echo.archive.twilight_ancient", coords: [-10,-20, 23], facing: YAW.SOUTH, stage: "echo_twilight_ancients_unlock" },
+    { key: "ancient",       displayKey: "ftb.echo.archive.twilight_ancient", coords: [ -6,-20, 23], facing: YAW.SOUTH, stage: "echo_twilight_ancients_unlock" }
   ];
 
   for (var i = 0; i < ECHOS.length; i++) if (!ECHOS[i].stage) ECHOS[i].stage = "echo_" + ECHOS[i].key + "_meet";
@@ -59,8 +61,9 @@ ServerEvents.commandRegistry((event) => {
           var x = entry.coords[0] + 0.5;
           var y = entry.coords[1];
           var z = entry.coords[2] + 0.5;
+          var yaw = entry.facing;
           var name = player.getName().getString();
-          player.level.server.runCommandSilent(`tp ${name} ${x} ${y} ${z} ${player.yaw} ${player.pitch}`);
+          player.level.server.runCommandSilent(`tp ${name} ${x} ${y} ${z} ${yaw} ${player.pitch}`);
 
           // Routed message
           player.sendSystemMessage(

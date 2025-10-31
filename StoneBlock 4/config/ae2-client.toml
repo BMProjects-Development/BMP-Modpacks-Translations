@@ -13,7 +13,7 @@
 	useColoredCraftingStatus = true
 	#Unit of power shown in AE UIs
 	#Allowed Values: AE, FE
-	powerUnit = "AE"
+	powerUnit = "FE"
 	#Show debugging GUI overlays
 	showDebugGuiOverlays = false
 	#Show a preview of part and facade placement

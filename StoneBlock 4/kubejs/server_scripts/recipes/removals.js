@@ -39,7 +39,7 @@ const recipeIdsToRemove = [
   "chancecubes:chance_cube_crafting",
   "ftbstuff:stone_rod",
   /^connectedglass/,
-  /minecraft:.*(_stained_glass_pane_from|_terracotta|_stained_glass)/ /* These Removals are needed if Utilitarian is Installed. */,
+  /minecraft:.*(_stained_glass_pane_from|_terracotta|_stained_glass)/, /* These Removals are needed if Utilitarian is Installed. */
   /sophisticatedstorage:generic_.*/,
   /mekanism:factory\/.*/,
   "immersiveengineering:crafting/raw_hammercrushing_aluminum",
@@ -78,7 +78,6 @@ const recipeIdsToRemove = [
   "rftoolsbase:machine_frame",
   "ars_nouveau:blank_thread",
   "ars_nouveau:ring_of_lesser_discount",
-  "mob_grinding_utils:nutritious_chicken_feed",
   "compactmachines:new_machine_small",
   "compactmachines:new_machine_giant",
   "gateways:hellish_fortress",

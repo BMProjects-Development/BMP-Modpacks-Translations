@@ -1257,7 +1257,7 @@
 		{
 			dependencies: ["5CD7299E8709E7F6"]
 			icon: {
-				id: "ftbstuff:stone_cobblestone_generator"
+				id: "minecraft:lava_bucket"
 			}
 			id: "75F6827C1FB52C91"
 			rewards: [
@@ -1275,6 +1275,11 @@
 			]
 			shape: "hexagon"
 			tasks: [
+				{
+					id: "5B75DA46E1DC658C"
+					item: { count: 1, id: "minecraft:lava_bucket" }
+					type: "item"
+				}
 				{
 					id: "1E31F492D8779AB6"
 					item: { components: { "ftbfiltersystem:filter": "or(item(ftbstuff:stone_cobblestone_generator)item(ftbstuff:iron_cobblestone_generator)item(ftbstuff:gold_cobblestone_generator)item(ftbstuff:diamond_cobblestone_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }

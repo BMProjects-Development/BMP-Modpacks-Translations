@@ -1,4 +1,4 @@
-filename = 'pipegoggles-2.0.0.jar'
+filename = 'pipegoggles-2.0.1.jar'
 name = 'Pipe Goggles'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '5b6ed8673d964264d7ae35d08996c708d24fcb09'
+hash = '9d3a94521057adc7ce6010a768d6dc8acac2a01e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6818337
+file-id = 7157466
 project-id = 309607

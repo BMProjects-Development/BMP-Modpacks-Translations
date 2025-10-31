@@ -32,6 +32,10 @@ const removeEntityTags = [
   // { tagName: "c:roost/mobs", entityIDs: ["minecraft:chicken"] }
 ];
 
+const chunksEntityInteractWhitelist = [
+  "ftbechoes:echo"
+]
+
 const stopTeleportingEntities = [
   "mecrh:ender_chicken",
   "minecraft:ender_dragon",
@@ -43,6 +47,11 @@ const stopTeleportingEntities = [
 const blacklistModPrefixes = ["cataclysm"];
 
 ServerEvents.tags("entity_type", (event) => {
+
+  chunksEntityInteractWhitelist.forEach((id) => {
+    event.add("ftbchunks:entity_interact_whitelist", id);
+  });
+
   // Adds
   for (var i = 0; i < addEntityTags.length; i++) {
     var tag = addEntityTags[i];

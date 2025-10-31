@@ -616,7 +616,7 @@ if (Platform.isLoaded("createaddition")) {
   global.enabledWires.push(["iron"], ["gold"] /*["copper"], ["electrum"]*/)
   global.enabledRods.push(["gold"], /*["electrum"], ["copper"],*/ ["lumium"])
 
-  global.removeItem.push("createaddition:electrum_ingot")
+  global.removeItem.push("createaddition:electrum_ingot", "createaddition:electrum_sheet")
 }
 
 if (Platform.isLoaded("chicken_roost")) {

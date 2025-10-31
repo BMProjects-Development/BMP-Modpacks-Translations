@@ -547,10 +547,10 @@
 						]
 					}
 					"apotheosis:affixes": {
-						"apotheosis:melee/attribute/forceful": 1.5f
+						"apotheosis:generic/attribute/lucky": 1.0f
+						"apotheosis:melee/attribute/berserking": 1.0f
 						"apotheosis:melee/attribute/intricate": 1.5f
-						"apotheosis:melee/attribute/murderous": 1.5f
-						"apotheosis:melee/attribute/piercing": 1.5f
+						"apotheosis:melee/attribute/lengthy": 1.0f
 						"apotheosis:melee/cleaving": 1.5f
 						"apotheosis:melee/mob_effect/sophisticated": 1.5f
 						"apothic_compats:melee/mob_effect/snaring": 1.5f
@@ -559,13 +559,22 @@
 					"apotheosis:rarity": "apotheosis:mythic"
 					"apotheosis:sockets": 5
 					"apothic_attributes:bonus_stack_attribute_modifiers": {
-						modifiers: [{
-							amount: 0.25d
-							id: "apothic_attributes:command_generated_656653031"
-							operation: "add_value"
-							slot: "apothic_attributes:mainhand"
-							type: "apothic_attributes:current_hp_damage"
-						}]
+						modifiers: [
+							{
+								amount: 0.25d
+								id: "apothic_attributes:command_generated_656653031"
+								operation: "add_value"
+								slot: "apothic_attributes:mainhand"
+								type: "apothic_attributes:current_hp_damage"
+							}
+							{
+								amount: 25.0d
+								id: "apothic_attributes:command_generated_1997752238"
+								operation: "add_value"
+								slot: "apothic_attributes:hand"
+								type: "apothic_attributes:fire_damage"
+							}
+						]
 					}
 					"minecraft:custom_name": "\"AlfredGG's Meat Shredder of Destruction\""
 				}

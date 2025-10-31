@@ -15,25 +15,26 @@
   // ---------- Config ----------
   var SEARCH_RADIUS = 5000;
 
+  const YAW = { SOUTH: 0, SOUTHEAST: -45, WEST: 90, NORTH: 180, EAST: -90 };
   // Optional fixed-location overrides
   var STRUCTURE_OVERRIDES = {
     // General Structures
-    "ftb:healing_spring":{x: -5,  y: 127, z: -151, nameKey: "ftb.structure.healing_spring" },
-    "ftb:arcane_grove":  {x: 558, y: 100, z: 511,  nameKey: "ftb.structure.arcane_grove"},
+    "ftb:healing_spring": {x:  -6, y: 128, z: -154, nameKey: "ftb.structure.healing_spring", facing: YAW.NORTH},
+    "ftb:arcane_grove":   {x: 533, y: 112, z:  497, nameKey: "ftb.structure.arcane_grove", facing: YAW.SOUTHEAST},
     // Boss Arenas
-    "ftb:chesed_arena":  {x: -128,   y: 132, z: 1872, nameKey: "ftb.structure.chesed_arena"},
+    "ftb:chesed_arena":  {x: -128, y: 132, z: 1872, nameKey: "ftb.structure.chesed_arena"},
     "ftb:malkuth_arena": {x: 3680, y: 132, z: 1248, nameKey: "ftb.structure.malkuth_arena"},
     // Vaults
-    "ftb:vault/create": {x: 256,  y: 131, z: -784, nameKey: "ftb.structure.vault.create"},
-    "ftb:vault/portal": {x: -628, y: 163, z: 438,  nameKey: "ftb.structure.vault.portal"},
-    "ftb:vault/mffs":   {x: 937,  y: 129, z: -77, nameKey: "ftb.structure.vault.mffs"},
+    "ftb:vault/create": {x: 256, y: 131, z: -784, nameKey: "ftb.structure.vault.create"},
+    "ftb:vault/portal": {x:-628, y: 163, z:  438, nameKey: "ftb.structure.vault.portal"},
+    "ftb:vault/mffs":   {x: 937, y: 129, z:  -77, nameKey: "ftb.structure.vault.mffs"},
     "ftb:vault/jockey_north": {x: 20, y: 139, z: -1704, nameKey: "ftb.structure.vault.jockey_north"},
-    "ftb:vault/jockey_south": {x: 19, y: 140, z: 1744,  nameKey: "ftb.structure.vault.jockey_south"},
-    "ftb:vault/burning_disco":   {x: -192,  y: 163, z: -1208, nameKey: "ftb.structure.vault.burning_disco"},
-    "ftb:vault/twilight/lich":   {x: 2203,  y: 132, z: 17,     nameKey: "ftb.structure.vault.twilight.lich"},
-    "ftb:vault/twilight/yeti":   {x: -1435, y: 202, z: 1731,  nameKey: "ftb.structure.vault.twilight.yeti"},
-    "ftb:vault/twilight/hydra":  {x: -1799, y: 54, z: -1429, nameKey: "ftb.structure.vault.twilight.hydra"},
-    "ftb:vault/twilight/knight": {x: -230,   y: 144, z: -2209, nameKey: "ftb.structure.vault.twilight.knight"},
+    "ftb:vault/jockey_south": {x: 19, y: 140, z:  1744, nameKey: "ftb.structure.vault.jockey_south"},
+    "ftb:vault/burning_disco":   {x:  -192, y: 163, z: -1208, nameKey: "ftb.structure.vault.burning_disco"},
+    "ftb:vault/twilight/lich":   {x:  2203, y: 132, z:    17, nameKey: "ftb.structure.vault.twilight.lich"},
+    "ftb:vault/twilight/yeti":   {x: -1435, y: 202, z:  1731, nameKey: "ftb.structure.vault.twilight.yeti"},
+    "ftb:vault/twilight/hydra":  {x: -1799, y:  54, z: -1429, nameKey: "ftb.structure.vault.twilight.hydra"},
+    "ftb:vault/twilight/knight": {x:  -230, y: 144, z: -2209, nameKey: "ftb.structure.vault.twilight.knight"},
     "ftb:vault/twilight/snow_queen": {x: 1525, y: 180, z: 1684, nameKey: "ftb.structure.vault.twilight.snow_queen"},
     // NYI
     "ftb:vault/echoing_dread": {x: 0, y: 100, z: 0, nameKey: "ftb.structure.vault.echoing_dread"},

@@ -259,7 +259,7 @@
 	quest.046FCE929A728A34.quest_desc: [
 		"The wonders of &zInfinity&r, compressed into the form of a block."
 		""
-		"Head back to &zInfinity&r &6Echoborne&r."
+		"Head back to &zInfinity&r to finalize your &6World Engine&r."
 	]
 	quest.0484D6030DF690BD.quest_desc: [
 		"With more &6Archives&r unlocked, it is time to explore the lobby to find the &dEcho of The Machinist&r."
@@ -1205,7 +1205,9 @@
 	quest.18AF36E1C2375101.quest_subtitle: "Minor World Engine Upgrade"
 	quest.18AF36E1C2375101.title: "&fMagics of The Deep"
 	quest.18E10F15FD94258B.quest_desc: [
-		"Before you can create the casings used in for the &6World Engine&r, you'll need to have acquired &cLava&r and &dObsidian&r."
+		"Before you can create the casings used in for the &6World Engine&r, you'll need to have acquired &cLava&r and &dObsidian&r. "
+		""
+		"If you haven't already, make sure you go speak to &6The Machinist&r to get an &bEntropy Manipulator&r to create lava."
 		""
 		"&dObsidian&r is a strong enough material to support the strength of basic casings, but you'll need to press it into &aPlates&r first."
 	]
@@ -2118,7 +2120,7 @@
 		"Found within the upper levels of the &bTwilight Forest&r ring, you can run into a vault of the &aSnow Queen's Castle&r."
 	]
 	quest.30902357747A64F1.title: "&fThe Snow Queen's Palace"
-	quest.309D995CCCDB3AEE.quest_desc: ["The &dWyrmwright&r has provided you with the &aChronon Battery&r, a tool capable of accessing &zThe Fractured Void&r."]
+	quest.309D995CCCDB3AEE.quest_desc: ["The &dWyrmwright&r has provided you with a &aChronon Battery&r infused with her powers, allowing this tool to access &zThe Fractured Void&r."]
 	quest.309D995CCCDB3AEE.title: "&fSpeak to &dThe Wyrmwright&f"
 	quest.30DC15C5BF42A9DE.title: "Ocean East"
 	quest.30EE07811728D901.quest_desc: [
@@ -4825,6 +4827,8 @@
 		"This pack comes with random events that are disabled by default. To enable them, complete this quest!"
 		""
 		"&eNote&r: Some events might contain jump scares. You can toggle each event using the command &b/events toggle <event>&r."
+		""
+		"For example, if you want to disable the jump scare event, you can use the command &a/events toggle ftb:creeper&r. "
 	]
 	quest.6B387999FBEE2E9E.title: "&6FTB Events"
 	quest.6B391D0B32AF8529.quest_desc: ["After you've crafted enough &2Shadow Steel&r, you should return to the &dMachinist&r to learn where to place it in the &6World Engine&r."]
@@ -4916,6 +4920,8 @@
 		"These can be made once you've defeated the &dChicken Jockey&r and made &dShadowpulse Goo&r. "
 	]
 	quest.6C7F31673B12795D.title: "&dEclipse Alloy &fWeapons"
+	quest.6C94998689192C2E.quest_desc: ["If you don't want to take a chance on &aChance Cubes&r, you can always sell them here!"]
+	quest.6C94998689192C2E.title: "No Chance"
 	quest.6C974CC33C5BADD8.quest_desc: ["Generates power by consuming Liquid Meat and any ingot."]
 	quest.6D0C1811DA909BBD.quest_desc: [
 		"The &dAncient City Vault&r is filled with loot, but the most important item comes from the boss."
@@ -5364,6 +5370,8 @@
 		"The &aCobble Generators&r will generate cobblestone over time, with higher tiers generating more per tick."
 		""
 		"You can also create an &aAuto Hammer&r to break the cobble down into the different blocks needed for the &aUnearther&r!"
+		""
+		"&eNote&r: &cLava&r can easily be acquired by using the gift you get from meeting the &dEcho of the Machinist&r. You can also get it from the &cNether&r ring."
 	]
 	quest.75F6827C1FB52C91.title: "&fCobble Generators&r"
 	quest.7614FCF3E2012C48.title: "&dPsimetal Exosuit"
@@ -5710,8 +5718,14 @@
 		""
 		"To fuel it, open up the interface with Ender Pearls in your inventory, then click the + buttons at the bottom of the GUI to add them in as fuel."
 	]
-	quest.7C94432EFD49611F.quest_desc: ["The &dEcho of Infinity&r is basically a God."]
-	quest.7C94432EFD49611F.title: "&fMeet &6Infinity"
+	quest.7C94432EFD49611F.quest_desc: [
+		"&zInfinity&r is the sole being holding back the collapse of reality as you know it."
+		""
+		"Work with them to unlock the &3Infinity World Engine Upgrade&r."
+		""
+		"&7&oIt all comes down to this."
+	]
+	quest.7C94432EFD49611F.title: "&fMeet &zInfinity"
 	quest.7C9B4CE2A2F62096.quest_desc: [
 		"Using the &aPressurized Reaction Chamber&r, we can use Substrates to make &6HDPE Pellets&r. These advanced pellets are used to create many high tier items and machines!"
 		""
