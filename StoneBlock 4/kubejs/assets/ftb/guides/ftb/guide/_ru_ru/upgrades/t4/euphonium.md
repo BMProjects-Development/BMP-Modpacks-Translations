@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Эфониум
+  title: Эйфониум
   position: 2
   parent: ftb:t4_upgrades.md
   icon: "ftb:euphonium"
 item_ids:
   - ftb:euphonium
 ---
-# Улучшение "Эфониум"
+# Улучшение "Эйфониум"
 
 <ItemImage id="ftb:euphonium" scale="3" />
 
-<Color id="light_purple">"Эфониум"</Color> дополнительное улучшение которое разблокирует <Color id="dark_purple">Колебания души</Color>.
+<Color id="light_purple">"Эйфониум"</Color> дополнительное улучшение которое разблокирует <Color id="dark_purple">Колебания души</Color>.
 
 Это улучшение также требует улучшение <Color id="red">"Усовершенствованный корпус механизма"</Color>, чтобы его рецепт разблокировался.
 
