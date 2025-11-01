@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"ftb:stable_antimatter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:mithril_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ftbstuff:fusing_machine"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"tempad:chronon_cell"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"tempad:chronon_generator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
