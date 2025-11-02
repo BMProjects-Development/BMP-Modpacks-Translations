@@ -524,6 +524,12 @@
 					item: { count: 1, id: "deepdarkdimdungeons:deep_dark_catalyst" }
 					type: "item"
 				}
+				{
+					id: "59EF26AEC9192B59"
+					item: { count: 1, id: "ftb:soulcage" }
+					optional_task: true
+					type: "item"
+				}
 			]
 			x: -6.0d
 			y: 3.0d
@@ -1161,18 +1167,11 @@
 				type: "currency"
 			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "74F1FBD0D84FA059"
-					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
-					type: "item"
-				}
-				{
-					id: "1E174A9691D90A87"
-					item: { count: 1, id: "cataclysm:abyssal_egg" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1E174A9691D90A87"
+				item: { count: 1, id: "cataclysm:abyssal_egg" }
+				type: "item"
+			}]
 			x: 0.75d
 			y: 3.5d
 		}

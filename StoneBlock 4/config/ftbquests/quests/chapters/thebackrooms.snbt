@@ -1409,10 +1409,10 @@
 			}]
 			tasks: [
 				{
-					entity: "twilightforest:hydra"
-					id: "30661F63642D839E"
+					entity: "cataclysm:wadjet"
+					id: "1F269DF2C973B5FD"
 					type: "kill"
-					value: 1L
+					value: 3L
 				}
 				{
 					entity: "twilightforest:snow_queen"
@@ -1455,11 +1455,10 @@
 				}
 			]
 			tasks: [{
-				id: "45B1F245887F1BCB"
-				observe_type: 5
-				timer: 0L
-				to_observe: "ftbechoes:echo"
-				type: "observation"
+				id: "3C782AA288B7A6E3"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
 			}]
 			x: -23.0d
 			y: 4.5d

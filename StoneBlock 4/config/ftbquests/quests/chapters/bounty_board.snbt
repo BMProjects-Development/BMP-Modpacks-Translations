@@ -1887,24 +1887,5 @@
 			x: 3.0d
 			y: -6.0d
 		}
-		{
-			icon_scale: 1.4d
-			id: "6C94998689192C2E"
-			optional: true
-			rewards: [{
-				amount: 3
-				id: "09A9D7C26CE2693D"
-				type: "currency"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				consume_items: true
-				id: "0658B503C9309A51"
-				item: { count: 1, id: "chancecubes:chance_cube" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 7.5d
-		}
 	]
 }
