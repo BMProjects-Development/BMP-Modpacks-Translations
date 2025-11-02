@@ -5,6 +5,7 @@
     "force_compatible": true
   },
   "default_packs": [
+    "mod_resources",
     "file/AE2Blackout-V1.2.3.zip",
     "file/Better SB Upgrades.zip",
     "file/Better Replication Pipes.zip",
@@ -12,6 +13,8 @@
     "file/Oritech - Nice Pipes.zip",
     "file/Pretty X Smart Pipez Mekanism.zip",
     "file/Construction Sticks Grips.zip",
-    "file/Slightly-Improved-Font-1.1.5.zip"
+    "file/Slightly-Improved-Font-1.1.5.zip",
+    "file/Construction Sticks Grips.zip"
+    
   ]
 }

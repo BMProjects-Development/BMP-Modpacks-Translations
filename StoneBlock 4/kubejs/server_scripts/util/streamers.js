@@ -92,7 +92,7 @@ const streamers = {
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"Saereth Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"minecraft:ender_eye"},TrophyType:"item"}]'],
     lines: ["For the release of StoneBlock 4, a small token of graditude", "With love from the FTB Team"],
   },
-  "Slowpoke": {
+  "slowpoke101": {
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"Slowpoke Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"minecraft:clay_ball"},TrophyType:"item"}]'],
     lines: ["Yes u old fart", "you get a special trophy aswell", "With love from ur packdevs :)"],
   },

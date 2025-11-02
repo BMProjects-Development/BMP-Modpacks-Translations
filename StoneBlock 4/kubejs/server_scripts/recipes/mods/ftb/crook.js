@@ -71,7 +71,7 @@ const crookRecipes = [
       ["minecraft:bamboo", 1, 0.25],
       ["actuallyadditions:canola_seeds", 1, 0.15],
       ["supplementaries:flax_seeds", 1, 0.20],
-      ["farmersdelight:cabbage_seeds", 1, 0.20],
+      ["farmersdelight:wild_cabbages", 1, 0.20],
       ["farmersdelight:wild_onions", 1, 0.20],
       ["farmersdelight:wild_rice", 1, 0.20],
       ["farmersdelight:wild_tomatoes", 1, 0.20]

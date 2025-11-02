@@ -7,8 +7,8 @@ const $FTBEPlayerData = Java.loadClass(
 const LANG = {
   WORLD_ENGINE_LOCKED: "ftb.portal.world_engine_locked",
   NO_BASE: "ftb.portal.no_base",
-  TOO_FAR: "ftb.portal.too_far",
-  VAULT_TOO_FAR: "ftb.portal.vault_too_far",
+  TOO_FAR: "ftb.portal.too_far",                 // expects %1$s = shortBy, %2$s = maxRange
+  VAULT_TOO_FAR: "ftb.portal.vault_too_far",     // expects %1$s = shortBy, %2$s = maxRange
   NOT_BOUND: "ftb.portal.not_bound",
   WRONG_DIMENSION: "ftb.portal.wrong_dimension",
   NOT_ENOUGH: "ftb.portal.not_enough_chronon",
@@ -24,23 +24,13 @@ const LANG = {
   DISABLED: "ftb.command.disabled",
   T5_ZONE_LOCKED: "ftb.portal.t5_zone_locked",
   HOME_LOCKED: "ftb.portal.home_locked",
+  INVALID_PORTAL: "ftb.portal.invalid_portal",
+  INVALID_LOCATOR: "ftb.portal.invalid_locator"
 };
 
-/**
- * Spawns a Time Door entity at the specified position and dimension with the given color.
- *
- * @param {object} level - The level object.
- * @param {object} player - The player entity who is spawning the Time Door.
- * @param {{x: number, y: number, z: number}} position - The position where the Time Door will be spawned.
- * @param {string} dimension - The dimension identifier in the format "modid:path".
- * @param {number} [color] - Optional color of the Time Door.
- * @param {number} [yawEntry] - Optional entry yaw. Defaults to player's current yaw.
- * @param {number} [yawExit] - Optional exit yaw. Defaults to 180.
- */
 const YAW = { SOUTH: 0, WEST: 90, NORTH: 180, EAST: -90 };
 
 // Returns a float yaw in degrees, best-effort.
-// Priority: body yaw (if available), then head yaw, then snapped facing -> yaw.
 function getEntryYaw(player) {
   try { if (typeof player.getYRot === "function") return player.getYRot(); } catch (_) { }
   try { if (typeof player.getYHeadRot === "function") return player.getYHeadRot(); } catch (_) { }
@@ -57,6 +47,7 @@ function getEntryYaw(player) {
 const spawnTimeDoor = (level, player, position, dimension, color, yawEntry, yawExit) => {
   let [modid, path] = String(dimension).split(":");
   color = color || $Color.RAINBOW;
+  let isSurvival = !player.isCreative() && !player.isSpectator()
 
   let NamedGlobalVec3 = new $NamedGlobalVec3(
     Component.literal("Portal"),
@@ -71,19 +62,52 @@ const spawnTimeDoor = (level, player, position, dimension, color, yawEntry, yawE
   timedoor.owner = player.id;
 
   const entryYaw = typeof yawEntry === "number" ? yawEntry : getEntryYaw(player);
-
   timedoor.sizing.placeTimedoor($DoorType.EXIT, player.position(), entryYaw, timedoor);
-  level.addFreshEntity(timedoor);
+
+  // Get BoundBox area around entrance timedoor location
+  let entry_aabb = timedoor.getBoundingBox().inflate(1.5, 0, 1.5)
+
+  // Unpack size
+  let {xsize: x_size, ysize: y_size, zsize: z_size} = entry_aabb
+
+  // Get BoundBox area around exit timedoor location
+  let exit_aabb = AABB.ofSize(timedoor.getTargetPos(), x_size, y_size, z_size)
+
+  // Validate entry
+  let invalid_entry = BlockPos.betweenClosedStream(entry_aabb).anyMatch((block) => {
+    let block_state = level.getBlockState(block)
+    return block_state.getId() == "ftbquests:stage_barrier"
+  })
+
+  // Validate Exit
+  let invalid_exit = BlockPos.betweenClosedStream(exit_aabb).anyMatch((block) => {
+    let block_state = level.getBlockState(block)
+    return block_state.getId() == "ftbquests:stage_barrier"
+  })
+
+  // Do not spawn portal if invalid locations if in survival
+  if ((invalid_exit || invalid_entry) && isSurvival) {
+    return false
+  } else {
+    level.addFreshEntity(timedoor);
+    return true
+  }
 };
 
 const trySpawnTimeDoor = (location, level, player, position, dimension, color, yawEntry, yawExit) => {
   try {
-    spawnTimeDoor(level, player, position, dimension, color, yawEntry, yawExit);
-    player.tell(Text.translate(LANG.OPENING, location));
+    let spawned = spawnTimeDoor(level, player, position, dimension, color, yawEntry, yawExit);
+    if (spawned) {
+      player.tell(Text.translate(LANG.OPENING, location));
+      return true
+    } else {
+      player.tell(Text.translate(LANG.INVALID_PORTAL, location));
+      return false
+    }
   } catch (error) {
     console.log(`\ntemppad.js spawnTimeDoor() error:\n${error}\nPlease Report this to FTB via Github Issues if you see this`);
     player.tell(Text.translate(LANG.OPEN_FAILED).red());
-    return 0;
+    return false
   }
 };
 
@@ -256,7 +280,8 @@ function findChrononCellWithCharge(player, cost, debug) {
 function spawnHomePortal(ctx) {
   var src = ctx.getSource();
   var player = src.getPlayerOrException();
-  if (!player.isCreative() && !player.isSpectator()) {
+  let is_survival = !player.isCreative() && !player.isSpectator()
+  if (is_survival) {
     if (!player.stages.has("home_unlocked")) {
       src.sendFailure(Text.translate(LANG.HOME_LOCKED));
       return 0;
@@ -299,7 +324,7 @@ function spawnHomePortal(ctx) {
     })
     .orElse(0);
 
-  trySpawnTimeDoor(
+  let portal_spawned = trySpawnTimeDoor(
     Text.of(Text.translate(LANG.BASE)),
     player.level,
     player,
@@ -310,7 +335,7 @@ function spawnHomePortal(ctx) {
     getEntryYaw(player)
   );
 
-  if (!player.isCreative() && !player.isSpectator()) {
+  if (is_survival && portal_spawned) {
     setChronon(found.stack, found.charge - CHRONON_COST, player);
   }
 
@@ -320,9 +345,11 @@ function spawnHomePortal(ctx) {
 function spawnSpawnPortal(ctx) {
   var src = ctx.getSource();
   var player = src.getPlayerOrException();
+  
+  let portal_spawned = false
 
-  if (player.isCreative() || player.isSpectator()) {
-    trySpawnTimeDoor(
+  if (!player.isCreative() && !player.isSpectator()) {
+    portal_spawned = trySpawnTimeDoor(
       Text.of(Text.translate(LANG.SPAWN)),
       player.level,
       player,
@@ -340,7 +367,8 @@ function spawnSpawnPortal(ctx) {
     .getBaseForPlayer(player);
 
   if (!baseOpt.isPresent()) {
-    trySpawnTimeDoor(
+    // What is this for? Nyxane
+    portal_spawned = trySpawnTimeDoor(
       Text.of(Text.translate(LANG.SPAWN)),
       player.level,
       player,
@@ -356,7 +384,8 @@ function spawnSpawnPortal(ctx) {
   var base = baseOpt.get();
   var base_dim = base.dimension();
   if (player.level.dimension == "minecraft:overworld") {
-    trySpawnTimeDoor(
+    //Always work in overworld?
+    portal_spawned = trySpawnTimeDoor(
       Text.of(Text.translate(LANG.SPAWN)),
       player.level,
       player,
@@ -367,7 +396,7 @@ function spawnSpawnPortal(ctx) {
       180
     );
     return 1;
-  } else if (base_dim != player.level.dimension) {
+  } else if (!(player.level.dimension.path.contains("private_for_"))) {
     src.sendFailure(Text.translate(LANG.WRONG_DIMENSION));
     return 0;
   }
@@ -382,7 +411,7 @@ function spawnSpawnPortal(ctx) {
     return 0;
   }
 
-  trySpawnTimeDoor(
+  portal_spawned = trySpawnTimeDoor(
     Text.of(Text.translate(LANG.SPAWN)),
     player.level,
     player,
@@ -456,8 +485,9 @@ ItemEvents.rightClicked((event) => {
     y: WORLD_ENGINE_TARGET.y,
     z: WORLD_ENGINE_TARGET.z,
   };
+  let is_survival = !player.isCreative() && !player.isSpectator()
 
-  trySpawnTimeDoor(
+  let portal_spawned = trySpawnTimeDoor(
     Text.of(Text.translate(LANG.WORLD_ENGINE)),
     player.level,
     player,
@@ -465,7 +495,7 @@ ItemEvents.rightClicked((event) => {
     dimStr
   );
 
-  if (!player.isCreative() && !player.isSpectator()) {
+  if (is_survival && portal_spawned) {
     setChronon(found.stack, found.charge - CHRONON_COST, player);
   }
   event.cancel();
@@ -504,7 +534,9 @@ ItemEvents.rightClicked((event) => {
     z: OVERWORLD_DEST.z + 0.5,
   };
 
-  trySpawnTimeDoor(
+  let is_survival = !player.isCreative() && !player.isSpectator()
+
+  let portal_spawned = trySpawnTimeDoor(
     Text.of(Text.translate(LANG.HIDDEN)).obfuscated(),
     player.level,
     player,
@@ -515,20 +547,35 @@ ItemEvents.rightClicked((event) => {
     YAW.EAST
   );
 
-  if (!player.isCreative() && !player.isSpectator()) {
+  if (is_survival && portal_spawned) {
     setChronon(item, current - cost, player);
   }
   event.cancel();
 });
+
+// Post-teleport FX: particles + sound after a successful Tempad teleport
+function playPostTeleportFX(player) {
+  // 1 tick delay to ensure the client is settled at destination
+  player.server.scheduleInTicks(1, (_) => {
+    player.server.runCommandSilent(`execute as ${player.username} at @s run particle twilightforest:twilight_orb ~ ~1 ~ 0.6 0.8 0.6 0.02 120 force`);
+    player.server.runCommandSilent(`execute as ${player.username} at @s run playsound gateways:gate_start master @s ~ ~ ~ 1 1`);
+  });
+}
 
 NativeEvents.onEvent("earth.terrarium.tempad.api.event.TimedoorEvent$Enter", (event) => {
   try {
     let entity = event.entity;
     let teleportee = event.teleportee;
     if (!teleportee) return;
-    if (teleportee.type == "minecraft:player") return;
 
-    if (entity.targetDimension == "minecraft:overworld") event.setCanceled(true);
+    // Only allow non-player entities if not to Overworld
+    if (teleportee.type != "minecraft:player") {
+      if (entity.targetDimension == "minecraft:overworld") event.setCanceled(true);
+      return;
+    }
+
+    // Player successfully arrived: play FX on them
+    playPostTeleportFX(teleportee);
   } catch (error) {
     console.log(`\ntemppad.js TimedoorEvent$Enter error:\n${error}\nPlease Report this to FTB via Github Issues if you see this`);
   }
@@ -548,9 +595,10 @@ ServerEvents.commandRegistry((event) => {
 function spawnWorldEnginePortal(ctx) {
   var src = ctx.getSource();
   var player = src.getPlayerOrException();
+  let is_survival = !player.isCreative() && !player.isSpectator()
 
   // Stage gate (creative/spectator bypass)
-  if (!player.isCreative() && !player.isSpectator()) {
+  if (is_survival) {
     if (!player.stages.has("world_engine_unlocked")) {
       src.sendFailure(Text.translate(LANG.WORLD_ENGINE_LOCKED));
       return 0;
@@ -566,7 +614,7 @@ function spawnWorldEnginePortal(ctx) {
 
   // Charge check (creative/spectator bypass)
   var found = null;
-  if (!player.isCreative() && !player.isSpectator()) {
+  if (is_survival) {
     found = findChrononCellWithCharge(player, CHRONON_COST, true);
     if (!found) {
       src.sendFailure(Text.translate(LANG.NOT_ENOUGH, CHRONON_COST));
@@ -580,8 +628,8 @@ function spawnWorldEnginePortal(ctx) {
   var dimStr = dim.getNamespace() + ":" + dim.getPath();
   var targetPos = { x: WORLD_ENGINE_TARGET.x, y: WORLD_ENGINE_TARGET.y, z: WORLD_ENGINE_TARGET.z };
 
-  // Spawn Time Door (entry faces player; exit yaw default)
-  trySpawnTimeDoor(
+  // Spawn Time Door
+  let portal_spawned = trySpawnTimeDoor(
     Text.translate(LANG.WORLD_ENGINE),
     player.level,
     player,
@@ -590,8 +638,7 @@ function spawnWorldEnginePortal(ctx) {
     $Color.RAINBOW
   );
 
-  // Consume Chronon on success
-  if (!player.isCreative() && !player.isSpectator() && found) {
+  if (is_survival && found && portal_spawned) {
     setChronon(found.stack, found.charge - CHRONON_COST, player);
   }
 
@@ -602,12 +649,12 @@ function spawnWorldEnginePortal(ctx) {
 // Lodestone Compass -> Time Door (sneak + right-click)
 // Teleports to the compass's bound lodestone if:
 //   - same dimension
-//   - within 128 blocks (3D)
+//   - within MAX_COMPASS_DISTANCE blocks (horizontal)
 //   - player has enough Chronon
 // ---------------------------------------------------------------------------
 
 const MAX_COMPASS_DISTANCE = 256;
-ItemEvents.rightClicked("minecraft:compass",(event) => {
+ItemEvents.rightClicked("minecraft:compass", (event) => {
   let { player: player, item: itemstack, level: level } = event
   if (player == null || itemstack == null || level == null) return
 
@@ -618,7 +665,6 @@ ItemEvents.rightClicked("minecraft:compass",(event) => {
   let label;
 
   if (!(components.has("minecraft:custom_data"))) return
-
   if (!(components.get("minecraft:custom_data").contains("can_spawn_timedoor"))) return
   
   if (!(components.has("minecraft:lodestone_tracker"))) {
@@ -627,7 +673,6 @@ ItemEvents.rightClicked("minecraft:compass",(event) => {
     try {
       label = itemstack.getCustomName().copy().toJson().get("with").get(0).get("translate").getAsString();
     } catch (_) {
-
       player.tell(`${Text.translate(LANG.INVALID_LOCATOR)}`)
       return
     }
@@ -650,27 +695,44 @@ ItemEvents.rightClicked("minecraft:compass",(event) => {
   }
   let target_pos = target.pos()
 
-  let {x: xP, z: zP} = player.blockPosition().getCenter()
-  let {x: xT, z: zT} = target_pos.getCenter()
+  let { x: xP, z: zP } = player.blockPosition().getCenter()
+  let { x: xT, z: zT } = target_pos.getCenter()
 
   let dx = xP - xT
   let dz = zP - zT
-  
-  if (Math.sqrt(dx * dx + dz * dz) > MAX_COMPASS_DISTANCE) {
-    player.tell(Text.translate(LANG.VAULT_TOO_FAR).red())
-    return
+  let horizontalDist = Math.sqrt(dx * dx + dz * dz)
+
+  let is_survival = !player.isCreative() && !player.isSpectator()
+
+  // Range check with shortfall message (no const re-declaration)
+  if (is_survival) {
+    if (horizontalDist > MAX_COMPASS_DISTANCE) {
+      var shortfall = Math.ceil(horizontalDist - MAX_COMPASS_DISTANCE);
+      player.tell(Text.translate(LANG.VAULT_TOO_FAR, [String(shortfall), String(MAX_COMPASS_DISTANCE)]).red())
+      return
+    }
   }
 
-  let found = findChrononCellWithCharge(player, CHRONON_COST, true);;
-  if (!found) {
-    player.tell(Text.translate(LANG.NOT_ENOUGH, CHRONON_COST));
-    return;
+  let found = null;
+
+  if (is_survival) {
+    found = findChrononCellWithCharge(player, CHRONON_COST, true);
+    if (!found) {
+      player.tell(Text.translate(LANG.NOT_ENOUGH, CHRONON_COST));
+      return;
+    }
   }
 
   label = Text.translate(label)
+  let yaw
+  if (components.get("minecraft:custom_data").getUnsafe().contains("facing")) {
+    yaw = components.get("minecraft:custom_data").getUnsafe().getInt("facing");
+  } else {
+    yaw = getEntryYaw(player);
+  }
 
-  // Open the Time Door. Entry faces player; exit uses player's yaw as a sensible default.
-  trySpawnTimeDoor(
+  // Open the Time Door
+  let portal_spawned = trySpawnTimeDoor(
     label,
     level,
     player,
@@ -678,11 +740,10 @@ ItemEvents.rightClicked("minecraft:compass",(event) => {
     target_dimension,
     $Color.RAINBOW,
     getEntryYaw(player),
-    getEntryYaw(player)
+    yaw
   );
 
-  // Consume Chronon on success
-  if (!player.isCreative() && !player.isSpectator() && found) {
+  if (is_survival && found && portal_spawned) {
     setChronon(found.stack, found.charge - CHRONON_COST, player);
   }
 

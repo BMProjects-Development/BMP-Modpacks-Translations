@@ -53,6 +53,7 @@ let addBlocks = [
   },
   {
     id: "ftb:world_engine_plating",
+    unbreakable: true,
     textures: {
       default: "ftb:block/engine/world_engine_plating",
     },

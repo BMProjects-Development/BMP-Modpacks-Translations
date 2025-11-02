@@ -13,12 +13,6 @@
       "custommachinery:light": 15
     },
     "errored": {
-      "custommachinery:ambient_sound": {
-        "loop": false,
-        "sound": "minecraft:",
-        "volume": 1.02,
-        "pitch": 2.5
-      },
       "custommachinery:block": "ftb:machine/world_engine_errored",
       "custommachinery:light": 6
     },
@@ -63,11 +57,22 @@
     {
       "type": "custommachinery:fluid",
       "mode": "input",
+      "unique": true,
       "id": "fluid_input_1",
       "capacity": 10000
     },
     {
       "type": "custommachinery:fluid",
+      "mode": "input",
+      "config": {
+        "TOP": "BOTH",
+        "BOTTOM": "BOTH",
+        "FRONT": "BOTH",
+        "RIGHT": "BOTH",
+        "BACK": "BOTH",
+        "LEFT": "BOTH"
+      },
+      "unique": true,
       "id": "fluid_input_2",
       "capacity": 10000
     },

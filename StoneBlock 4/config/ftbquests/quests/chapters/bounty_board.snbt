@@ -14,7 +14,7 @@
 	images: [
 		{
 			height: 1.0d
-			image: "ftb:textures/quests/other_titles_and_logos/bountytext.png"
+			image: "ftb:textures/quests/other_titles_and_logos/bountytext2.png"
 			rotation: 0.0d
 			width: 7.0d
 			x: 0.0d

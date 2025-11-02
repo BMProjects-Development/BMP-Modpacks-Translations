@@ -105,12 +105,12 @@
 		# Damage dealt by the laser to entities it hits (ignores armor)
 		# Default: 4.0
 		# Range: 1.0 ~ 1.7976931348623157E308
-		damage: 4.0d
+		damage: 3.0d
 		
 		# Damage increase (multiplicative) for the laser every second an entity remains in the laser beam
 		# Default: 1.25
 		# Range: 1.0 ~ 10.0
-		damage_increase: 1.25d
+		damage_increase: 1.05d
 		
 		# Number of ticks the laser will set entities on fire for
 		# Default: 60
@@ -120,7 +120,7 @@
 		# Invulnerability ticks (iframes) for entities hit by the laser
 		# Default: 10
 		# Range: 1 ~ 2147483647
-		invulnerability_ticks: 10
+		invulnerability_ticks: 15
 		
 		# Maximum interval in ticks for the laser attack
 		# Default: 360

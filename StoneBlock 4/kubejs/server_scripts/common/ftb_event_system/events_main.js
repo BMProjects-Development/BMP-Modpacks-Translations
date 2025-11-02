@@ -92,7 +92,7 @@ function eventSystem(event, forceEvent, server) {
         if( checks.player.isOnCooldown(chosenPlayer, timeCooldown) ) return;
         if ( !checks.player.isInTeamDimension(chosenPlayer) ) return;
         if (checks.player.isInVault(chosenPlayer) ) return;
-
+        if (checks.player.isInVoidBiome(chosenPlayer) ) return;
 
           const biomeId = String(chosenPlayer.level.getBiome(chosenPlayer.blockPosition()).id);
           if (biomeId === "minecraft:the_void") return;

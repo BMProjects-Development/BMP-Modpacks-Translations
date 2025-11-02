@@ -89,6 +89,9 @@ const checks = {
     },
     isInVault: function (player) {
       return isEntityInVault(player);
+    },
+    isInVoidBiome: function (player) {
+      return isEntityInBiome(player, "minecraft:the_void");
     }
   },
   event: {

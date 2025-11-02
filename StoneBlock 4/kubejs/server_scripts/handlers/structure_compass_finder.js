@@ -15,29 +15,29 @@
   // ---------- Config ----------
   var SEARCH_RADIUS = 5000;
 
-  const YAW = { SOUTH: 0, SOUTHEAST: -45, WEST: 90, NORTH: 180, EAST: -90 };
+  const YAW = { SOUTH: 0, WEST: 90, NORTH: 180, EAST: -90 };
   // Optional fixed-location overrides
   var STRUCTURE_OVERRIDES = {
     // General Structures
-    "ftb:healing_spring": {x:  -6, y: 128, z: -154, nameKey: "ftb.structure.healing_spring", facing: YAW.NORTH},
-    "ftb:arcane_grove":   {x: 533, y: 112, z:  497, nameKey: "ftb.structure.arcane_grove", facing: YAW.SOUTHEAST},
+    "ftb:healing_spring": {x:  -5, y: 128, z: -152, nameKey: "ftb.structure.healing_spring", facing: YAW.SOUTH},
+    "ftb:arcane_grove":   {x: 561, y: 102, z:  471, nameKey: "ftb.structure.arcane_grove", facing: YAW.SOUTH},
     // Boss Arenas
-    "ftb:chesed_arena":  {x: -128, y: 132, z: 1872, nameKey: "ftb.structure.chesed_arena"},
-    "ftb:malkuth_arena": {x: 3680, y: 132, z: 1248, nameKey: "ftb.structure.malkuth_arena"},
+    //"ftb:chesed_arena":  {x: -131, y: 124, z: 1867, nameKey: "ftb.structure.chesed_arena", facing: YAW.SOUTH},
+    //"ftb:malkuth_arena": {x: 3728, y: 148, z: 1216, nameKey: "ftb.structure.malkuth_arena", facing: YAW.SOUTH},
     // Vaults
-    "ftb:vault/create": {x: 256, y: 131, z: -784, nameKey: "ftb.structure.vault.create"},
-    "ftb:vault/portal": {x:-628, y: 163, z:  438, nameKey: "ftb.structure.vault.portal"},
-    "ftb:vault/mffs":   {x: 937, y: 129, z:  -77, nameKey: "ftb.structure.vault.mffs"},
-    "ftb:vault/jockey_north": {x: 20, y: 139, z: -1704, nameKey: "ftb.structure.vault.jockey_north"},
-    "ftb:vault/jockey_south": {x: 19, y: 140, z:  1744, nameKey: "ftb.structure.vault.jockey_south"},
-    "ftb:vault/burning_disco":   {x:  -192, y: 163, z: -1208, nameKey: "ftb.structure.vault.burning_disco"},
-    "ftb:vault/twilight/lich":   {x:  2203, y: 132, z:    17, nameKey: "ftb.structure.vault.twilight.lich"},
-    "ftb:vault/twilight/yeti":   {x: -1435, y: 202, z:  1731, nameKey: "ftb.structure.vault.twilight.yeti"},
-    "ftb:vault/twilight/hydra":  {x: -1799, y:  54, z: -1429, nameKey: "ftb.structure.vault.twilight.hydra"},
-    "ftb:vault/twilight/knight": {x:  -230, y: 144, z: -2209, nameKey: "ftb.structure.vault.twilight.knight"},
-    "ftb:vault/twilight/snow_queen": {x: 1525, y: 180, z: 1684, nameKey: "ftb.structure.vault.twilight.snow_queen"},
+    "ftb:vault/create": {x: 266, y: 131, z: -784, nameKey: "ftb.structure.vault.create", facing: YAW.NORTH},
+    "ftb:vault/portal": {x:-628, y: 162, z:  438, nameKey: "ftb.structure.vault.portal", facing: YAW.SOUTH},
+    "ftb:vault/mffs":   {x: 937, y: 129, z:  -77, nameKey: "ftb.structure.vault.mffs", facing: YAW.NORTH},
+    "ftb:vault/jockey_north": {x: 20, y: 139, z: -1706, nameKey: "ftb.structure.vault.jockey_north", facing: YAW.NORTH},
+    "ftb:vault/jockey_south": {x: 19, y: 139, z:  1749, nameKey: "ftb.structure.vault.jockey_south", facing: YAW.SOUTH},
+    "ftb:vault/burning_disco":   {x:  -168, y: 163, z: -1232, nameKey: "ftb.structure.vault.burning_disco", facing: YAW.SOUTH},
+    "ftb:vault/twilight/lich":   {x:  2203, y: 132, z:    18, nameKey: "ftb.structure.vault.twilight.lich", facing: YAW.NORTH},
+    "ftb:vault/twilight/yeti":   {x: -1435, y: 202, z:  1732, nameKey: "ftb.structure.vault.twilight.yeti", facing: YAW.NORTH},
+    "ftb:vault/twilight/hydra":  {x: -1799, y:  54, z: -1428, nameKey: "ftb.structure.vault.twilight.hydra", facing: YAW.NORTH},
+    "ftb:vault/twilight/knight": {x:  -230, y: 144, z: -2208, nameKey: "ftb.structure.vault.twilight.knight", facing: YAW.NORTH},
+    "ftb:vault/twilight/snow_queen": {x: 1525, y: 180, z: 1685, nameKey: "ftb.structure.vault.twilight.snow_queen", facing: YAW.NORTH},
     // NYI
-    "ftb:vault/echoing_dread": {x: 0, y: 100, z: 0, nameKey: "ftb.structure.vault.echoing_dread"},
+    //"ftb:vault/echoing_dread": {x: 0, y: 100, z: 0, nameKey: "ftb.structure.vault.echoing_dread"},
   };
 
   // ---------- Utils ----------
@@ -129,7 +129,7 @@
   }
 
 /** Give lodestone compass pointed at pos in dimId, with localized lore. */
-function giveCompass(player, translatableKey, pos, dimId) {
+function giveCompass(player, translatableKey, pos, dimId, facing) {
   var customNameJson = JSON.stringify({
     translate: "ftb.compass.locator",
     with: [{ translate: translatableKey }]
@@ -140,14 +140,15 @@ function giveCompass(player, translatableKey, pos, dimId) {
   // Pos as int list
   var posArray = pos.getX() + "," + pos.getY() + "," + pos.getZ();
 
+  const rotation = (facing!== null) ? `,facing:${facing}` : "";
+
   var cmd =
     "give " + player.username + " minecraft:compass[" +
       "minecraft:custom_name='" + customNameJson + "'," +
       "minecraft:lore=['" + loreEntry + "']," +                // <-- list, not a quoted array
-      "minecraft:custom_data={can_spawn_timedoor:{}}," +
+      "minecraft:custom_data={can_spawn_timedoor:{}" + rotation + "}," +
       "minecraft:lodestone_tracker={tracked:false,target:{dimension:\"" + dimId + "\",pos:[I;" + posArray + "]}}" +
     "]";
-
   player.server.runCommand(cmd);
 }
 
@@ -277,7 +278,7 @@ function giveCompass(player, translatableKey, pos, dimId) {
     var ov = STRUCTURE_OVERRIDES[rlToId(idRL)];
     if (ov) {
       var posOv = new $BlockPos(ov.x, ov.y, ov.z);
-      giveCompass(player, ov.nameKey || structureNameKeyFromRL(idRL), posOv, dimId);
+      giveCompass(player, ov.nameKey || structureNameKeyFromRL(idRL), posOv, dimId, ov.facing);
       player.tell(Text.translate("ftb.compass.granted", Text.translate(ov.nameKey || structureNameKeyFromRL(idRL))));
       return 1;
     }
@@ -309,7 +310,7 @@ function giveCompass(player, translatableKey, pos, dimId) {
     var ov = STRUCTURE_OVERRIDES[rlToId(idRL)];
     if (ov) {
       var posOv = new $BlockPos(ov.x, ov.y, ov.z);
-      giveCompass(player, ov.nameKey || structureNameKeyFromRL(idRL), posOv, here.dimId);
+      giveCompass(player, ov.nameKey || structureNameKeyFromRL(idRL), posOv, here.dimId, ov.facing);
       player.tell(Text.translate("ftb.compass.granted", Text.translate(ov.nameKey || structureNameKeyFromRL(idRL))));
       return 1;
     }

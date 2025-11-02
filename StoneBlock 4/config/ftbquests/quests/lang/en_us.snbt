@@ -1469,7 +1469,7 @@
 		""
 		"&eNote&r: To assemble this machine, you'll need 3 &aMachine Cores&r of any tier."
 		""
-		"[{\"text\": \"\", \"color\": \"gray\", \"italic\": true}, \"If you wish to learn more about Oritech, check out the \", { \"text\": \"Oritech Chapter\", \"color\": \"gray\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EA5652195DB5FE3\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Oritech Questline\"} }, \".\"]"
+		"[{\"text\": \"\", \"color\": \"gray\", \"italic\": true}, \"If you wish to learn more about Oritech, check out the \", { \"text\": \"Oritech Chapter\", \"color\": \"gray\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FD2F304ADC237D0\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Oritech Questline\"} }, \".\"]"
 	]
 	quest.1F1A15B6E079F31F.title: "&fA More Advanced Crafting Table"
 	quest.1F1C11D77667DEB4.quest_desc: [
@@ -2430,6 +2430,8 @@
 		"While it may seem like you have 2 options for the type of heater you choose to make, the &cFuelwood Heater&r can only produce heat via coal or wood, rendering it insufficient to heat your &6World Engine&r."
 		""
 		"The &cResistive Heater&r, however, specializes in converting power directly into heat. It allows for fine-tuning how much power is converted, and generates significantly more heat."
+		""
+		"&eNote&r: 2k RF/t is ideal for hitting around 350°C."
 	]
 	quest.370B05FC62884456.quest_subtitle: "Minor World Engine Upgrade"
 	quest.370B05FC62884456.title: "&fHeating Things Up"
@@ -3216,6 +3218,8 @@
 		"Found within lower deepslate, the &3Ancient City&r holds a giant portal can finally be activated."
 		""
 		"Once activated, enter the &3Vault&r and defeat the boss."
+		""
+		"&eNote&r: You will need to fill your &dSoul Cage&r by killing mobs. This will cure your blindness, then locate the elevator in the starting room. You will need a full &dSoul Cage&r to activate the boss."
 	]
 	quest.45BA73F16B7AE681.title: "&3An Ancient Portal"
 	quest.45CB3F325010A5AD.quest_desc: [
@@ -3570,8 +3574,6 @@
 	quest.4D64F277A4330749.title: "Bookshelf Extended Enchantment Reach"
 	quest.4D6D066B0855586D.quest_desc: [
 		"Within the Ocean ring, there is a creature that has been touched by the void."
-		""
-		"To summon it, you will need to craft the &dAbyssal Sacrifice&r and use it on the altar."
 		""
 		"Good luck."
 	]
@@ -4920,8 +4922,6 @@
 		"These can be made once you've defeated the &dChicken Jockey&r and made &dShadowpulse Goo&r. "
 	]
 	quest.6C7F31673B12795D.title: "&dEclipse Alloy &fWeapons"
-	quest.6C94998689192C2E.quest_desc: ["If you don't want to take a chance on &aChance Cubes&r, you can always sell them here!"]
-	quest.6C94998689192C2E.title: "No Chance"
 	quest.6C974CC33C5BADD8.quest_desc: ["Generates power by consuming Liquid Meat and any ingot."]
 	quest.6D0C1811DA909BBD.quest_desc: [
 		"The &dAncient City Vault&r is filled with loot, but the most important item comes from the boss."

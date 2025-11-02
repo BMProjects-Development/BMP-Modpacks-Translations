@@ -129,12 +129,6 @@ const chickenRecipes = [
         parent_1: "c_gravel",
         parent_2: "c_gray",
         item: "minecraft:flint"
-      },
-      {
-        output: "c_coal",
-        parent_1: "c_flint",
-        parent_2: "c_oakwood",
-        item: "minecraft:coal"
       }
     ]
   },
@@ -208,6 +202,12 @@ const chickenRecipes = [
         parent_1: "c_bone",
         parent_2: "c_green",
         item: "ftbmaterials:nickel_ingot"
+      },
+      {
+        output: "c_coal",
+        parent_1: "c_flint",
+        parent_2: "c_oakwood",
+        item: "minecraft:coal"
       }
     ]
   },
@@ -701,6 +701,24 @@ ServerEvents.recipes((event) => {
       }
     })
     .id("ftb:roost/roost/c_water")
+
+
+  event
+    .custom({
+      type: "chicken_roost:roost_output",
+      food: {
+        tag: "c:seeds/tier6orup"
+      },
+      chicken: {
+        item: "chicken_roost:c_skystone"
+      },
+      time: 40,
+      output: {
+        item: "ae2:sky_dust"
+      }
+    })
+    .id("ftb:roost/roost/c_skystone")
+
 })
 
 ServerEvents.tags("item", (event) => {

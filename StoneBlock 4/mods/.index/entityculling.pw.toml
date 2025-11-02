@@ -1,4 +1,4 @@
-filename = 'entityculling-neoforge-1.9.2-mc1.21.1.jar'
+filename = 'entityculling-neoforge-1.9.3-mc1.21.1.jar'
 name = 'Entity Culling Fabric/Forge'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '91dabcc1e1bca9dcd5fb9171a4c9cb1d10c3b775'
+hash = 'dffecdb172ec6fefb27e68ebd7192b2416d56da9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7125353
+file-id = 7167812
 project-id = 448233

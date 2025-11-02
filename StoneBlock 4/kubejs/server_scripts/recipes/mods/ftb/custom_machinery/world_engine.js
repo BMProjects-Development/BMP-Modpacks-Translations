@@ -15,6 +15,7 @@ const STRUCTURES = {
       [" ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", "m"],
     ],
+    //cutscene: cutscene_dark_void_upgrade,
   },
   infinity_upgrade: {
     keys: { a: "oritech:reactor_reflector", b: "avaritia:infinity_block" },
@@ -28,6 +29,7 @@ const STRUCTURES = {
       [" ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", "m"],
     ],
+    //cutscene: cutscene_infinity_upgrade
   },
   euphonium_upgrade: {
     keys: { a: "ftb:euphonium" },
@@ -132,6 +134,7 @@ const STRUCTURES = {
         "   m   ",
       ],
     ],
+    //cutscene: cutscene_euphonium_upgrade
   },
   tesseract_upgrade: {
     keys: { a: "tesseract:tesseract" },
@@ -145,6 +148,7 @@ const STRUCTURES = {
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", "m"],
     ],
+    //cutscene: cutscene_enchanting_upgrade
   },
   chroniton_upgrade: {
     keys: { a: "ftb:chroniton_glass" },
@@ -234,6 +238,7 @@ const STRUCTURES = {
         "    m    ",
       ],
     ],
+    //cutscene: cutscene_chroniton_upgrade,
   },
   quantum_tunnel_upgrade: {
     keys: { a: "ae2:quantum_ring", b: "ae2:quantum_link" },
@@ -246,6 +251,7 @@ const STRUCTURES = {
       ["   ", "   "],
       [" m ", "   "],
     ],
+    //cutscene: cutscene_quantum_tunnel_upgrade
   },
   enchanting_upgrade: {
     keys: {
@@ -345,6 +351,7 @@ const STRUCTURES = {
         " m ",
       ],
     ],
+    //cutscene: cutscene_enchanting_upgrade
   },
   ender_power_upgrade: {
     keys: { a: "powah:ender_cell_nitro" },
@@ -354,6 +361,7 @@ const STRUCTURES = {
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", "m"],
     ],
+    //cutscene: cutscene_enchanting_upgrade
   },
   resonant_void_upgrade: {
     keys: { a: "ftb:resonant_void" },
@@ -369,6 +377,7 @@ const STRUCTURES = {
       ["a   a", "     ", "     "],
       ["     ", "     ", "  m  "],
     ],
+    //cutscene: cutscene_fortron_upgrade
   },
   advanced_machine_upgrade: {
     keys: { a: "ftb:world_engine_advanced_machine_block" },
@@ -452,6 +461,7 @@ const STRUCTURES = {
         "     m     ",
       ],
     ],
+    //cutscene: cutscene_advanced_machine_upgrade,
   },
   enderium_upgrade: {
     keys: { a: "ftb:enderium_block" },
@@ -490,6 +500,7 @@ const STRUCTURES = {
         "   m   ",
       ],
     ],
+    //cutscene: cutscene_enderium_upgrade
   },
   spirit_upgrade: {
     keys: { a: "ftb:spirit_block" },
@@ -528,6 +539,7 @@ const STRUCTURES = {
         "   m   ",
       ],
     ],
+    //cutscene: cutscene_spirit_upgrade
   },
   machine_block_upgrade: {
     keys: { a: "ftb:world_engine_machine_block" },
@@ -629,6 +641,7 @@ const STRUCTURES = {
         "    m    ",
       ],
     ],
+    //cutscene: cutscene_chroniton_upgrade
   },
   twilight_upgrade: {
     keys: {
@@ -682,6 +695,7 @@ const STRUCTURES = {
         "    m    ",
       ],
     ],
+    //cutscene: cutscene_twilight_forest_upgrade
   },
   source_upgrade: {
     keys: { a: "ars_nouveau:sourcestone" },
@@ -707,6 +721,7 @@ const STRUCTURES = {
       ["     ", "     ", "     ", "     ", "     ", "     ", "     ", "  b  "],
       ["     ", "     ", "     ", "     ", "     ", "     ", "     ", "  m  "],
     ],
+    //cutscene: cutscene_euphonium_upgrade
   },
   draconic_upgrade: {
     keys: {
@@ -992,6 +1007,8 @@ const STRUCTURES = {
         "          b          ",
       ],
     ],
+    //cutscene: cutscene_awakened_core_upgrade,
+    postEvent: draconic_core_init
   },
   awakened_core_upgrade: {
     keys: {
@@ -1240,6 +1257,7 @@ const STRUCTURES = {
         "             ",
       ],
     ],
+    //cutscene: cutscene_awakened_core_upgrade
   },
 };
 
@@ -1993,8 +2011,10 @@ ServerEvents.recipes(function (event) {
         { item: "minecraft:copper_ingot", count: 16 },
         { item: "sophisticatedstorage:stack_upgrade_tier_1", count: 1 },
       ],
-      itemOutputs: [{ item: "sophisticatedstorage:stack_upgrade_tier_1_plus", count: 1 }],
-    },    
+      itemOutputs: [
+        { item: "sophisticatedstorage:stack_upgrade_tier_1_plus", count: 1 },
+      ],
+    },
     {
       id: "ftb:world_engine/machine_frame",
       machineId: "ftb:world_engine",
@@ -2227,7 +2247,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/augment_generator",
       machineId: "ftb:world_engine",
       duration: 200,
-      structures: ["machine_block_upgrade"],
+      structures: ["machine_block_upgrade", "fortron_upgrade"],
       energyPerTick: 512,
       itemInputs: [
         { item: "minecraft:deepslate", count: 4 },
@@ -2647,7 +2667,11 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/raw_brilliance_from_jelly",
       machineId: "ftb:world_engine",
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 1000 },
       itemInputs: [{ item: "cognition:fluorescent_jelly", count: 1 }],
       itemOutputs: [{ item: "malum:raw_brilliance", count: 2 }],
@@ -2655,7 +2679,11 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/thread_spellpower",
       machineId: "ftb:world_engine",
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 4000 },
       itemInputs: [{ item: "ars_nouveau:blank_thread", count: 1 }],
       itemOutputs: [{ item: "ars_nouveau:thread_spellpower", count: 1 }],
@@ -2664,11 +2692,15 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/villager_spell_book",
       machineId: "ftb:world_engine",
       duration: 100,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 4000 },
       itemInputs: [
         { item: "irons_spellbooks:diamond_spell_book", count: 1 },
-        { item: "ftbunearthed:worker_token", count: 1}
+        { item: "ftbunearthed:worker_token", count: 1 },
       ],
       itemOutputs: [{ item: "irons_spellbooks:villager_spell_book", count: 1 }],
     },
@@ -2676,39 +2708,66 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/enchanted_book_knowledge_3",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
         { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:looting":3}}]', count:1 },
-        { item: 'minecraft:potion[potion_contents={potion:"apothic_attributes:strong_knowledge"}]', count: 1 },
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:looting":3}}]',
+          count: 1,
+        },
+        {
+          item: 'minecraft:potion[potion_contents={potion:"apothic_attributes:strong_knowledge"}]',
+          count: 1,
+        },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"apothic_enchanting:knowledge_of_the_ages":3}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"apothic_enchanting:knowledge_of_the_ages":3}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_scavenger_3",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
         { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:looting":3}}]', count:1 },
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:looting":3}}]',
+          count: 1,
+        },
         { item: "minecraft:wither_skeleton_skull", count: 1 },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"apothic_enchanting:scavenger":3}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"apothic_enchanting:scavenger":3}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_boon_5",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
@@ -2717,47 +2776,77 @@ ServerEvents.recipes(function (event) {
         { item: "#c:ores", count: 16 },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"apothic_enchanting:boon_of_the_earth":5}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"apothic_enchanting:boon_of_the_earth":5}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_efficiency_9",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
         { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
         { item: "minecraft:diamond_pickaxe", count: 1 },
-        { item: 'minecraft:potion[potion_contents={potion:"apothic_attributes:strong_haste"}]', count: 1 },
+        {
+          item: 'minecraft:potion[potion_contents={potion:"apothic_attributes:strong_haste"}]',
+          count: 1,
+        },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:efficiency":9}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:efficiency":9}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_fishing_combo",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
         { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
         { item: "minecraft:fishing_rod", count: 1 },
-        { item: 'minecraft:potion[potion_contents={potion:"apothic_attributes:strong_haste"}]', count: 1 },
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:fortune":3}}]', count: 1 },
+        {
+          item: 'minecraft:potion[potion_contents={potion:"apothic_attributes:strong_haste"}]',
+          count: 1,
+        },
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:fortune":3}}]',
+          count: 1,
+        },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:luck_of_the_sea":8,"minecraft:lure":8}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:luck_of_the_sea":8,"minecraft:lure":8}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_mana_combo",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
@@ -2766,14 +2855,21 @@ ServerEvents.recipes(function (event) {
         { item: "ars_nouveau:amulet_of_mana_boost", count: 1 },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"ars_nouveau:mana_boost":7,"ars_nouveau:mana_regen":7}},repair_cost=1]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"ars_nouveau:mana_boost":7,"ars_nouveau:mana_regen":7}},repair_cost=1]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_reaper_9",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 1000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
@@ -2782,14 +2878,21 @@ ServerEvents.recipes(function (event) {
         { item: "occultism:fragile_soul_gem", count: 1 },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"draconicevolution:reaper":9}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"draconicevolution:reaper":9}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_spirit_plunder_6",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
@@ -2798,46 +2901,73 @@ ServerEvents.recipes(function (event) {
         { item: "malum:spirit_jar", count: 1 },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"malum:spirit_plunder":6}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"malum:spirit_plunder":6}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_backstabbing_8",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
         { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
         { item: "farmersdelight:diamond_knife", count: 1 },
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:swift_sneak":5}}]', count: 1 },
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:swift_sneak":5}}]',
+          count: 1,
+        },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"farmersdelight:backstabbing":8}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"farmersdelight:backstabbing":8}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_endless_quiver",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
         { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
         { item: "supplementaries:quiver", count: 1 },
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:infinity":1}}]', count: 1 },
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:infinity":1}}]',
+          count: 1,
+        },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"apothic_enchanting:endless_quiver":1}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"apothic_enchanting:endless_quiver":1}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_unbreaking_8",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
@@ -2846,30 +2976,47 @@ ServerEvents.recipes(function (event) {
         { item: "create:super_glue", count: 1 },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:unbreaking":8}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:unbreaking":8}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_mending",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
         { item: "actuallyadditions:empowered_palis_crystal_block", count: 1 },
         { item: "minecraft:experience_bottle", count: 1 },
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:unbreaking":8}}]', count: 1 },
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:unbreaking":8}}]',
+          count: 1,
+        },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:mending":1}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:mending":1}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_silk_touch",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
@@ -2879,14 +3026,21 @@ ServerEvents.recipes(function (event) {
         { item: "", count: 1 },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:silk_touch":1}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:silk_touch":1}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_soulbound",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
@@ -2895,14 +3049,21 @@ ServerEvents.recipes(function (event) {
         { item: "enderio:soul_vial", count: 1 },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"ars_elemental:soulbound":1}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"ars_elemental:soulbound":1}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_sneak_5",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
@@ -2911,14 +3072,21 @@ ServerEvents.recipes(function (event) {
         { item: "create:cardboard_leggings", count: 1 },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:swift_sneak":5}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:swift_sneak":5}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_chill_8",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 2000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
@@ -2928,14 +3096,21 @@ ServerEvents.recipes(function (event) {
         { item: "ars_nouveau:glyph_freeze", count: 1 },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"twilightforest:chill_aura":8}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"twilightforest:chill_aura":8}}]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/enchanted_book_",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["source_upgrade", "machine_block_upgrade", "enchanting_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "enchanting_upgrade",
+      ],
       source: { amount: 4000 },
       itemInputs: [
         { item: "minecraft:book", count: 1 },
@@ -2944,7 +3119,10 @@ ServerEvents.recipes(function (event) {
         { item: "ars_elemental:spell_mirror", count: 1 },
       ],
       itemOutputs: [
-        { item: 'minecraft:enchanted_book[stored_enchantments={levels:{"ars_elemental:mirror_shield":7}}]', count: 1 }
+        {
+          item: 'minecraft:enchanted_book[stored_enchantments={levels:{"ars_elemental:mirror_shield":7}}]',
+          count: 1,
+        },
       ],
     },
     {
@@ -3156,7 +3334,8 @@ ServerEvents.recipes(function (event) {
         { item: "cognition:cognitive_bow", count: 1 },
         { item: "twilightforest:transformation_powder", count: 2 },
         { item: "occultism:echo_dust", count: 2 },
-        { item: "occultism:afrit_essence", count: 1 },      ],
+        { item: "occultism:afrit_essence", count: 1 },
+      ],
       itemOutputs: [{ item: "bhc:vigor_bow", count: 1 }],
     },
     {
@@ -3291,8 +3470,10 @@ ServerEvents.recipes(function (event) {
         { item: "minecraft:iron_ingot", count: 16 },
         { item: "sophisticatedstorage:stack_upgrade_tier_1_plus", count: 1 },
       ],
-      itemOutputs: [{ item: "sophisticatedstorage:stack_upgrade_tier_2", count: 1 }],
-    },    
+      itemOutputs: [
+        { item: "sophisticatedstorage:stack_upgrade_tier_2", count: 1 },
+      ],
+    },
     {
       id: "ftb:world_engine/stack_upgrade_tier_3",
       machineId: "ftb:world_engine",
@@ -3303,9 +3484,24 @@ ServerEvents.recipes(function (event) {
         { item: "minecraft:gold_ingot", count: 16 },
         { item: "sophisticatedstorage:stack_upgrade_tier_2", count: 1 },
       ],
-      itemOutputs: [{ item: "sophisticatedstorage:stack_upgrade_tier_3", count: 1 }],
-    },    
-
+      itemOutputs: [
+        { item: "sophisticatedstorage:stack_upgrade_tier_3", count: 1 },
+      ],
+    },
+    {
+      id: "ftb:world_engine/soul_cage",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      structures: ["advanced_machine_upgrade"],
+      energyPerTick: 32768,
+      itemInputs: [
+        { item: "chicken_roost:ingot_enderium", count: 4 },
+        { item: "irons_spellbooks:ender_rune", count: 1 },
+        { item: "enderio:broken_spawner", count: 1 },
+        { item: "apothic_enchanting:infused_breath", count: 1 },
+      ],
+      itemOutputs: [{ item: "ftb:soulcage", count: 1 }],
+    },
     {
       id: "ftb:world_engine/entangled_block_x2",
       machineId: "ftb:world_engine",
@@ -3339,7 +3535,12 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/apotheosis_mythic_material_x16",
       machineId: "ftb:world_engine",
       duration: 300,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+      ],
       energyPerTick: 32768,
       source: { amount: 10000 },
       itemInputs: [{ item: "projecte:red_matter", count: 1 }],
@@ -3349,7 +3550,11 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/dragon_heart",
       machineId: "ftb:world_engine",
       duration: 200,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+      ],
       energyPerTick: 65536,
       itemInputs: [
         { item: "draconicevolution:draconium_core", count: 4 },
@@ -3371,7 +3576,11 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/dm_pedestal",
       machineId: "ftb:world_engine",
       duration: 120,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+      ],
       energyPerTick: 65536,
       itemInputs: [
         { item: "projecte:dark_matter_block", count: 4 },
@@ -3386,7 +3595,11 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/reaction_chamber",
       machineId: "ftb:world_engine",
       duration: 200,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "quantum_tunnel_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "quantum_tunnel_upgrade",
+      ],
       energyPerTick: 32768,
       itemInputs: [
         { item: "extendedae:machine_frame", count: 1 },
@@ -3399,7 +3612,11 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/elite_tier_installer",
       machineId: "ftb:world_engine",
       duration: 120,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "quantum_tunnel_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "quantum_tunnel_upgrade",
+      ],
       energyPerTick: 32768,
       itemInputs: [{ item: "mekanism:advanced_tier_installer", count: 1 }],
       itemOutputs: [{ item: "mekanism:elite_tier_installer", count: 1 }],
@@ -3408,7 +3625,11 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/pipez_ultimate_upgrade",
       machineId: "ftb:world_engine",
       duration: 90,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "quantum_tunnel_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "quantum_tunnel_upgrade",
+      ],
       energyPerTick: 65536,
       itemInputs: [
         { item: "pipez:advanced_upgrade", count: 1 },
@@ -3420,7 +3641,11 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/xp_synthesiser",
       machineId: "ftb:world_engine",
       duration: 120,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "quantum_tunnel_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "quantum_tunnel_upgrade",
+      ],
       energyPerTick: 65536,
       itemInputs: [
         { item: "cognition:cognitive_crystal_block", count: 1 },
@@ -3432,7 +3657,12 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/warp_scroll",
       machineId: "ftb:world_engine",
       duration: 100,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "twilight_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "twilight_upgrade",
+      ],
       source: { amount: 6000 },
       itemInputs: [
         { item: "ars_nouveau:blank_parchment", count: 1 },
@@ -3445,7 +3675,12 @@ ServerEvents.recipes(function (event) {
       machineId: "ftb:world_engine",
       duration: 100,
       energyPerTick: 65536,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "twilight_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "twilight_upgrade",
+      ],
       source: { amount: 6000 },
       itemInputs: [
         { item: "minecraft:ghast_tear", count: 8 },
@@ -3458,7 +3693,7 @@ ServerEvents.recipes(function (event) {
           count: 1,
         },
       ],
-    },    
+    },
     {
       id: "ftb:world_engine/shapers_focus",
       machineId: "ftb:world_engine",
@@ -3477,7 +3712,11 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/soul_laser_base",
       machineId: "ftb:world_engine",
       duration: 90,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "euphonium_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "euphonium_upgrade",
+      ],
       energyPerTick: 65536,
       itemInputs: [
         { item: "minecraft:echo_shard", count: 4 },
@@ -3491,7 +3730,13 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/ultimate_tier_installer",
       machineId: "ftb:world_engine",
       duration: 90,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "dark_void_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 65536,
       itemInputs: [
         { item: "mekanism:elite_tier_installer", count: 1 },
@@ -3503,7 +3748,13 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/sigil_of_supremacy",
       machineId: "ftb:world_engine",
       duration: 280,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "dark_void_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 131072,
       itemInputs: [
         { item: "apotheosis:sigil_of_rebirth", count: 1 },
@@ -3516,7 +3767,13 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/collector_mk3",
       machineId: "ftb:world_engine",
       duration: 120,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "dark_void_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 65536,
       itemInputs: [
         { item: "projecte:collector_mk2", count: 1 },
@@ -3528,7 +3785,12 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/time_crystal_x4",
       machineId: "ftb:world_engine",
       duration: 60,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+      ],
       energyPerTick: 131072,
       itemInputs: [
         { item: "extendedae:entro_crystal", count: 1 },
@@ -3548,7 +3810,13 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/glyph_animate_block",
       machineId: "ftb:world_engine",
       duration: 500,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+      ],
       energyPerTick: 8192,
       source: { amount: 10000 },
       itemInputs: [
@@ -3628,7 +3896,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/dm_smithing_template",
       machineId: "ftb:world_engine",
       duration: 160,
-      structures: [ "machine_block_upgrade"],
+      structures: ["machine_block_upgrade"],
       energyPerTick: 8192,
       itemInputs: [
         { item: "minecraft:netherite_upgrade_smithing_template", count: 1 },
@@ -3761,7 +4029,11 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/neutron_activator",
       machineId: "ftb:world_engine",
       duration: 120,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+      ],
       energyPerTick: 16384,
       itemInputs: [
         { item: "mekanism:steel_casing", count: 1 },
@@ -3803,7 +4075,13 @@ ServerEvents.recipes(function (event) {
       machineId: "ftb:world_engine",
       duration: 300,
       energyPerTick: 131072,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+      ],
       itemInputs: [
         { item: "ftb:chroniton_glass", count: 32 },
         { item: "draconicevolution:wyvern_core", count: 16 },
@@ -3850,7 +4128,11 @@ ServerEvents.recipes(function (event) {
       machineId: "ftb:world_engine",
       duration: 240,
       energyPerTick: 199999,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+      ],
       itemInputs: [
         { item: "actuallyadditions:empowered_void_crystal", count: 4 },
         { item: "immersiveengineering:resonanz_engineering", count: 4 },
@@ -3910,7 +4192,13 @@ ServerEvents.recipes(function (event) {
       machineId: "ftb:world_engine",
       duration: 1200,
       energyPerTick: 8192,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "dark_void_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "dark_void_upgrade",
+      ],
       tempC: { min: 500 },
       itemInputs: [
         { item: "chicken_roost:chicken_food_tier_9", count: 1 },
@@ -4007,14 +4295,25 @@ ServerEvents.recipes(function (event) {
         { item: "minecraft:diamond", count: 1 },
       ],
       itemOutputs: [
-        { item: 'custommachinery:custom_machine_item[custommachinery:machine="ftb:circuit_fabricator"]', count: 1 },
+        {
+          item: 'custommachinery:custom_machine_item[custommachinery:machine="ftb:circuit_fabricator"]',
+          count: 1,
+        },
       ],
     },
     {
       id: "ftb:world_engine/infinity_sword",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "awakened_core_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -4038,7 +4337,15 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_bow",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "awakened_core_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -4062,7 +4369,15 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_shovel",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "awakened_core_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -4080,7 +4395,15 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_hoe",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "awakened_core_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -4098,7 +4421,15 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_axe",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "awakened_core_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -4116,7 +4447,15 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_pickaxe_fortune",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "awakened_core_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -4134,7 +4473,15 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_chestplate",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "awakened_core_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -4154,7 +4501,15 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_helmet",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "awakened_core_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -4174,7 +4529,15 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_leggings",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "awakened_core_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -4194,7 +4557,15 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_boots",
       machineId: "ftb:world_engine",
       duration: 600,
-      structures: ["source_upgrade", "machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: [
+        "source_upgrade",
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "awakened_core_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 250000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
@@ -4214,7 +4585,14 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_catalyst",
       machineId: "ftb:world_engine",
       duration: 240,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "awakened_core_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 150000,
       tempC: { min: 750 },
       itemInputs: [
@@ -4261,7 +4639,14 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_ingot",
       machineId: "ftb:world_engine",
       duration: 240,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "awakened_core_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 225000,
       tempC: { min: 750 },
       itemInputs: [
@@ -4286,7 +4671,14 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/infinity_singularity",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "awakened_core_upgrade", "dark_void_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "awakened_core_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 200000,
       tempC: { min: 750 },
       itemInputs: [
@@ -4329,7 +4721,13 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/endest_pearl",
       machineId: "ftb:world_engine",
       duration: 60,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "dark_void_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 200000,
       itemInputs: [
         { item: "minecraft:end_stone", count: 32 },
@@ -4346,11 +4744,17 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/cosmic_stew",
       machineId: "ftb:world_engine",
       duration: 40,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "dark_void_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 200000,
       itemInputs: [
         { item: "productivemetalworks:meat_ingot", count: 2 },
-        { item: "minecraft:rabbit_stew"},
+        { item: "minecraft:rabbit_stew" },
         { item: "farmersdelight:beef_stew", count: 1 },
         { item: "farmersdelight:fish_stew", count: 1 },
         { item: "farmersdelight:baked_cod_stew", count: 1 },
@@ -4365,7 +4769,13 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/cosmic_meatballs",
       machineId: "ftb:world_engine",
       duration: 20,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "dark_void_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 200000,
       itemInputs: [
         { item: "productivemetalworks:meat_ingot", count: 2 },
@@ -4383,7 +4793,13 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/avaritia_compressor",
       machineId: "ftb:world_engine",
       duration: 240,
-      structures: ["machine_block_upgrade", "advanced_machine_upgrade", "draconic_upgrade", "resonant_void_upgrade", "dark_void_upgrade"],
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+        "dark_void_upgrade",
+      ],
       energyPerTick: 225000,
       itemInputs: [
         { item: "oritech:machine_core_7", count: 1 },
@@ -4407,9 +4823,7 @@ ServerEvents.recipes(function (event) {
       duration: 160,
       structures: ["source_upgrade"],
       source: { amount: 500 },
-      itemInputs: [
-        { item: "minecraft:sweet_berries", count: 1 }
-      ],
+      itemInputs: [{ item: "minecraft:sweet_berries", count: 1 }],
       itemOutputs: [{ item: "ars_nouveau:sourceberry_bush", count: 1 }],
     },
     {
@@ -4420,9 +4834,14 @@ ServerEvents.recipes(function (event) {
       source: { amount: 500 },
       itemInputs: [
         { item: "irons_spellbooks:magic_cloth", count: 1 },
-        { item: "ars_nouveau:ring_of_potential", count: 1 }
+        { item: "ars_nouveau:ring_of_potential", count: 1 },
       ],
-      itemOutputs: [{ item: 'irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:duality_ring"]', count: 1 }],
+      itemOutputs: [
+        {
+          item: 'irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:duality_ring"]',
+          count: 1,
+        },
+      ],
     },
     {
       id: "ftb:world_engine/ars_nouveau/duality_necklace",
@@ -4432,40 +4851,65 @@ ServerEvents.recipes(function (event) {
       source: { amount: 500 },
       itemInputs: [
         { item: "irons_spellbooks:magic_cloth", count: 1 },
-        { item: "ars_nouveau:dull_trinket", count: 1 }
+        { item: "ars_nouveau:dull_trinket", count: 1 },
       ],
-      itemOutputs: [{ item: 'irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:duality_ring"]', count: 1 }],
+      itemOutputs: [
+        {
+          item: 'irons_jewelry:recipe[irons_jewelry:stored_pattern="irons_jewelry:duality_necklace"]',
+          count: 1,
+        },
+      ],
+    },
+    {
+      id: "ftb:world_engine/ftb/soul_cage",
+      machineId: "ftb:world_engine",
+      duration: 200,
+      structures: ["enchanting_upgrade", "spirit_upgrade"],
+      source: { amount: 2000 },
+      energyPerTick: 4096,
+      itemInputs: [
+        { item: "minecraft:spawner", count: 1 },
+        { item: "minecraft:soul_lantern", count: 1 },
+        { item: "minecraft:nether_star", count: 2 },
+      ],
+      itemOutputs: [{ item: "ftb:soulcage", count: 1 }],
+    },
+    {
+      id: "ftb:world_engine/ars_glyph_interact",
+      machineId: "ftb:world_engine",
+      duration: 210,
+      energyPerTick: 256,
+      structures: ["ars_source_upgrade"],
+      source: { amount: 3500 },
+      itemInputs: [
+        { item: "ars_nouveau:manipulation_essence", count: 1 },
+        { item: "megacells:sky_steel_ingot", count: 4 },
+        { item: "ars_nouveau:blank_glyph", count: 1 },
+      ],
+      itemOutputs: [{ item: "ars_nouveau:glyph_interact", count: 1 }],
     },
 
-    //,
-    //{
-    //  id: "ftb:world_engine/debug_upgrade_test",
-    //  machineId: "ftb:world_engine",
-    //  duration: 20,
-    //  structures: [
-    //    "dark_void_upgrade",
-    //    "infinity_upgrade",
-    //    "euphonium_upgrade",
-    //    "tesseract_upgrade",
-    //    "chroniton_upgrade",
-    //    "quantum_tunnel_upgrade",
-    //    "enchanting_upgrade",
-    //    "ender_power_upgrade",
-    //    "resonant_void_upgrade",
-    //    "fortron_upgrade",
-    //    "advanced_machine_upgrade",
-    //    "enderium_upgrade",
-    //    "spirit_upgrade",
-    //    "machine_block_upgrade",
-    //    "twilight_upgrade",
-    //    "source_upgrade",
-    //    "shadow_casing_upgrade",
-    //    "draconic_upgrade",
-    //    "awakened_core_upgrade"
-    //  ],
-    //  itemInputs: [{ item: "minecraft:cobblestone", count: 1 }],
-    //  itemOutputs: [{ item: "minecraft:barrier", count: 1 },]
-    //}
+    /* Please leave this as a structure reference
+        "dark_void_upgrade",
+        "infinity_upgrade",
+        "euphonium_upgrade",
+        "tesseract_upgrade",
+        "chroniton_upgrade",
+        "quantum_tunnel_upgrade",
+        "enchanting_upgrade",
+        "ender_power_upgrade",
+        "resonant_void_upgrade",
+        "fortron_upgrade",
+        "advanced_machine_upgrade",
+        "enderium_upgrade",
+        "spirit_upgrade",
+        "machine_block_upgrade",
+        "twilight_upgrade",
+        "source_upgrade",
+        "shadow_casing_upgrade",
+        "draconic_upgrade",
+        "awakened_core_upgrade"
+    */
   ]);
 
   const souls = [
@@ -4521,6 +4965,7 @@ const WE_LANG = {
   NEED_BASE: "ftb.world_engine.need_base", // "You don't have a team base."
   WRONG_DIM: "ftb.world_engine.wrong_dimension", // "Use this command inside your Team Base dimension."
   UNKNOWN: "ftb.world_engine.unknown_upgrade", // "Unknown upgrade: %s"
+  IN_PROGRESS: "ftb.world_engine.in_progress", // "Upgrade %s is Already in progress"
   NO_PATTERN: "ftb.world_engine.no_pattern", // "Upgrade has no valid pattern."
   MULTI_M: "ftb.world_engine.bad_pattern_multi_m", // "Pattern must contain exactly one 'm' (found %s)."
   BAD_ROWS: "ftb.world_engine.bad_rows", // "All rows in a floor must have the same width."
@@ -4531,6 +4976,8 @@ const WE_LANG = {
   ERROR: "ftb.world_engine.error", // "Could not place structure."
   USAGE: "ftb.world_engine.usage", // "Usage: /worldengine <upgrade>"
   AVAILABLE: "ftb.world_engine.available_prefix", // "Available: "
+  RESET: "ftb.world_engine.reset_complete", // "World Engine reset: %s"
+  RESET_ALL: "ftb.world_engine.reset_all_complete", // "World Engine Upgrades Reset all"
 };
 
 // Anchor (the machine block 'm' in every pattern)
@@ -4590,7 +5037,14 @@ function weSetForceLoad(level, add) {
   for (var i = 0; i < pts.length; i++) {
     var b = pts[i];
     // forceload works on block positions; each point targets its chunk
-    var cmd = "execute in " + level.dimension + " run " + (add ? "forceload add " : "forceload remove ") + b.x + " " + b.z;
+    var cmd =
+      "execute in " +
+      level.dimension +
+      " run " +
+      (add ? "forceload add " : "forceload remove ") +
+      b.x +
+      " " +
+      b.z;
     try {
       level.server.runCommandSilent(cmd);
     } catch (e) {
@@ -4618,158 +5072,191 @@ function weAnchorChunks() {
 }
 
 // Core placer used by both single-upgrade and "all"
-function wePlaceOne(structName, structDef, level, tellFn) {
-    var floors = weNormalizePattern(structDef.pattern);
-    if (!floors) {
-        if (tellFn) tellFn(WE_LANG.NO_PATTERN);
-        return { ok: false, placed: 0, reason: "no_pattern" };
+function wePlaceOne(structName, structDef, base_level, tellFn) {
+  var floors = weNormalizePattern(structDef.pattern);
+  if (!floors) {
+    if (tellFn) tellFn(WE_LANG.NO_PATTERN);
+    return { ok: false, placed: 0, reason: "no_pattern" };
+  }
+
+  let rowsValidated = validatePatternRows(floors, tellFn);
+  if (!rowsValidated.ok) return rowsValidated;
+
+  // find anchor
+  var anchor = weFindAnchor(floors);
+  if (!anchor || anchor.multiple) {
+    var countStr = anchor && anchor.multiple ? "multiple" : "0";
+    if (tellFn) tellFn(WE_LANG.MULTI_M, String(countStr));
+    return { ok: false, placed: 0, reason: "anchor" };
+  }
+
+  var keyCheck = validateStructureKeys(structDef, tellFn);
+  if (!keyCheck.ok) return keyCheck;
+  if (tellFn) tellFn(WE_LANG.PLACING, structName);
+
+  weSetForceLoad(base_level, true);
+  WorldEngineStateMachine.setState(base_level, WORLDENGINE_STATES.ACTIVE);
+  WorldEngineStateMachine.setStructure(base_level, structName);
+  let blockPosMap = createBlockMap(base_level, structDef);
+  blockPosMap = randomizeMap(blockPosMap);
+  let block_delay = getBlockDelayForStructure(blockPosMap, 12 * 1000);
+  let delay = 0;
+  let iteration = 0;
+
+  base_level.runCommandSilent(
+    `execute in ${base_level.dimension} positioned ${WE_ANCHOR.x} ${WE_ANCHOR.y} ${WE_ANCHOR.z} run playsound mekanism:tile.machine.antiprotonic_nucleosynthesizer`
+  );
+  blockPosMap.forEach((value, key) => {
+    base_level.getBlock(key.x, key.y, key.z).set("minecraft:air"); // DEV: remove existing block for testing!
+    let alreadyThere = base_level.getBlock(key.x, key.y, key.z).id === value;
+    if (alreadyThere) {
+      iteration++;
+      if (iteration === blockPosMap.size) {
+        WorldEngineStateMachine.setState(
+          base_level,
+          WORLDENGINE_STATES.FINISHED
+        );
+        WorldEngineStateMachine.killDisplays(base_level);
+        if (tellFn) tellFn(WE_LANG.DONE, String(iteration), structName);
+      }
+      return;
     }
 
-    let rowsValidated = validatePatternRows(floors, tellFn);
-    if (!rowsValidated.ok) return rowsValidated;
-
-
-    // find anchor
-    var anchor = weFindAnchor(floors);
-    if (!anchor || anchor.multiple) {
-        var countStr = anchor && anchor.multiple ? "multiple" : "0";
-        if (tellFn) tellFn(WE_LANG.MULTI_M, String(countStr));
-        return { ok: false, placed: 0, reason: "anchor" };
-    }
-
-
-    var keyCheck = validateStructureKeys(structDef, tellFn);
-    if (!keyCheck.ok) return keyCheck;
-    if (tellFn) tellFn(WE_LANG.PLACING, structName);
-
-
-    WorldEngineStateMachine.setState(level, WORLDENGINE_STATES.ACTIVE);
-    WorldEngineStateMachine.setStructure(level, structName);
-    let blockPosMap = createBlockMap(level, structDef);
-    blockPosMap = randomizeMap(blockPosMap);
-
-    let delay = 5
-    let iteration = 0;
-    level.server.runCommandSilent(`execute in ${level.dimension} positioned ${WE_ANCHOR.x} ${WE_ANCHOR.y} ${WE_ANCHOR.z} run playsound mekanism:tile.machine.antiprotonic_nucleosynthesizer`)
-
-    blockPosMap.forEach((value, key) => {
-        level.getBlock(key.x, key.y, key.z).set("minecraft:air"); // DEV: remove existing block for testing!
-        let alreadyThere = level.getBlock(key.x, key.y, key.z).id === value;
-        if (alreadyThere){
-            iteration++;
-            if(iteration === blockPosMap.size) {
-                WorldEngineStateMachine.setState(level, WORLDENGINE_STATES.FINISHED);
-                WorldEngineStateMachine.killDisplays(level);
-
-                if (tellFn) tellFn(WE_LANG.DONE, String(iteration), structName);
-            }
-            return;
+    let scale = 0.5;
+    delay += block_delay;
+    base_level.server.runCommandSilent(
+      `execute in ${base_level.dimension} run summon block_display ${key.x} ${key.y} ${key.z} {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[${scale}f,${scale}f,${scale}f],translation:[-0.25f,0.25f,-0.25f]},block_state:{Name:"irregular_implements:translucent_luminous_block_lime"}}`
+    );
+    base_level.server.schedule(delay, () => {
+      if (base_level.getServer().getConnection().running == false) {
+        return;
+      }
+      let x = key.x;
+      let y = key.y;
+      let z = key.z;
+      let spread = 1.5;
+      base_level.spawnParticles(
+        "ae2:vibrant_fx ",
+        true,
+        x,
+        y,
+        z,
+        spread,
+        spread,
+        spread,
+        200,
+        1
+      );
+    });
+    // actual placement
+    base_level.server.schedule(delay, () => {
+      if (base_level.getServer().getConnection().running == false) {
+        return;
+      }
+      iteration++;
+      let x = key.x;
+      let y = key.y;
+      let z = key.z;
+      let blockId = value;
+      base_level.getBlock(x, y, z).set(blockId);
+      base_level.server.runCommandSilent(
+        `execute in ${base_level.dimension} run execute positioned ${x} ${y} ${z} run kill @e[type=minecraft:block_display,distance=..1,limit=1,sort=nearest]`
+      );
+      if (iteration === blockPosMap.size) {
+        WorldEngineStateMachine.setState(
+          base_level,
+          WORLDENGINE_STATES.FINISHED
+        );
+        if(structDef.postEvent){
+          console.log("Running postEvent for structure:", structName);
+          structDef.postEvent(base_level);
         }
-
-
-        let scale = 0.5;
-        level.server.runCommandSilent(`execute in ${level.dimension} run summon block_display ${key.x} ${key.y} ${key.z} {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[${scale}f,${scale}f,${scale}f],translation:[-0.25f,0.25f,-0.25f]},block_state:{Name:"irregular_implements:translucent_luminous_block_lime"}}`)
-        level.server.scheduleInTicks(delay-5, () => {
-            let x = key.x;
-            let y = key.y;
-            let z = key.z;
-            let spread = 1.5
-            level.spawnParticles("ae2:vibrant_fx ",true,
-                x, y, z,
-                spread, spread, spread,
-                200, 1
-            );
-        })
-        // actual placement
-        level.server.scheduleInTicks(delay, () => {
-            iteration++;
-            let x = key.x;
-            let y = key.y;
-            let z = key.z;
-            let blockId = value;
-            level.getBlock(x, y, z).set(blockId);
-            level.server.runCommandSilent(`execute in ${level.dimension} run execute positioned ${x} ${y} ${z} run kill @e[type=minecraft:block_display,distance=..1,limit=1,sort=nearest]`)
-            if(iteration === blockPosMap.size) {
-                WorldEngineStateMachine.setState(level, WORLDENGINE_STATES.FINISHED);
-                WorldEngineStateMachine.killDisplays(level);
-                if (tellFn) tellFn(WE_LANG.DONE, String(iteration), structName);
-            }
-        })
-        const total = blockPosMap.size || 1;
-        // const step = Math.max(1, Math.round(total / 10));
-        delay += 1;
-    })
+        WorldEngineStateMachine.killDisplays(base_level);
+        if (tellFn) tellFn(WE_LANG.DONE, String(iteration), structName);
+      }
+    });
+    const total = blockPosMap.size || 1;
+    // const step = Math.max(1, Math.round(total / 10));
+  });
 }
 
 const createBlockMap = (level, structDef) => {
-    let map = new Map();
-    let floors = weNormalizePattern(structDef.pattern);
-    let anchor = weFindAnchor(floors);
-    let ax = WE_ANCHOR.x
-    let ay = WE_ANCHOR.y
-    let az = WE_ANCHOR.z
-    for (let f = 0; f < floors.length; f++) {
-        let rows = floors[f];
-        for (let r = 0; r < rows.length; r++) {
-            let row = rows[r];
-            for (let c = 0; c < row.length; c++) {
-                let ch = row.charAt(c);
-                if (ch === " " || ch === "m") continue;
-                let x = ax + (c - anchor.c);
-                let y = ay + (f - anchor.f);
-                let z = az + (r - anchor.r);
-                map.set(level.getBlock(x, y, z).pos, structDef.keys[ch]);
-            }
-        }
+  let map = new Map();
+  let floors = weNormalizePattern(structDef.pattern);
+  let anchor = weFindAnchor(floors);
+  let ax = WE_ANCHOR.x;
+  let ay = WE_ANCHOR.y;
+  let az = WE_ANCHOR.z;
+  for (let f = 0; f < floors.length; f++) {
+    let rows = floors[f];
+    for (let r = 0; r < rows.length; r++) {
+      let row = rows[r];
+      for (let c = 0; c < row.length; c++) {
+        let ch = row.charAt(c);
+        if (ch === " " || ch === "m") continue;
+        let x = ax + (c - anchor.c);
+        let y = ay + (f - anchor.f);
+        let z = az + (r - anchor.r);
+        map.set(level.getBlock(x, y, z).pos, structDef.keys[ch]);
+      }
     }
-    return map;
-}
+  }
+  return map;
+};
 
 const randomizeMap = (map) => {
-    
-    let entries = Array.from(map.entries());
-    for (let i = entries.length - 1; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1));
-        let tmp = entries[i];
-        entries[i] = entries[j];
-        entries[j] = tmp;
-    }
-    return new Map(entries);
+  let entries = Array.from(map.entries());
+  for (let i = entries.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    let tmp = entries[i];
+    entries[i] = entries[j];
+    entries[j] = tmp;
+  }
+  return new Map(entries);
+};
+
+/**
+ *
+ * @param {Map<any, any>} structure
+ * @param {number} time_limit Time limit in ticks
+ */
+function getBlockDelayForStructure(structure, time_limit) {
+  return 1 / (structure.size / time_limit);
 }
 
 // validate keys (extracted to helper)
 function validateStructureKeys(structDef, tellFn) {
-    var keys = structDef.keys || {};
-    for (var ch in keys) {
-        if (!Object.prototype.hasOwnProperty.call(keys, ch)) continue;
-        var id = String(keys[ch]);
-        if (!id || id.length === 0) {
-            if (tellFn) tellFn(WE_LANG.MISSING_KEY, ch);
-            return { ok: false, placed: 0, reason: "missing_key:" + ch };
-        }
-        if (id.charAt(0) === "#") {
-            if (tellFn) tellFn(WE_LANG.TAG_UNSUP, id);
-            return { ok: false, placed: 0, reason: "tag:" + id };
-        }
+  var keys = structDef.keys || {};
+  for (var ch in keys) {
+    if (!Object.prototype.hasOwnProperty.call(keys, ch)) continue;
+    var id = String(keys[ch]);
+    if (!id || id.length === 0) {
+      if (tellFn) tellFn(WE_LANG.MISSING_KEY, ch);
+      return { ok: false, placed: 0, reason: "missing_key:" + ch };
     }
-    return { ok: true };
+    if (id.charAt(0) === "#") {
+      if (tellFn) tellFn(WE_LANG.TAG_UNSUP, id);
+      return { ok: false, placed: 0, reason: "tag:" + id };
+    }
+  }
+  return { ok: true };
 }
 
 // helper: validate that all rows in each floor have the same width
 function validatePatternRows(floors, tellFn) {
-    if (!Array.isArray(floors)) return { ok: true };
-    for (var f = 0; f < floors.length; f++) {
-        var rows = floors[f];
-        if (!rows || !rows.length) continue;
-        var width = rows[0].length;
-        for (var r = 0; r < rows.length; r++) {
-            if (rows[r].length !== width) {
-                if (tellFn) tellFn(WE_LANG.BAD_ROWS);
-                return { ok: false, placed: 0, reason: "bad_rows" };
-            }
-        }
+  if (!Array.isArray(floors)) return { ok: true };
+  for (var f = 0; f < floors.length; f++) {
+    var rows = floors[f];
+    if (!rows || !rows.length) continue;
+    var width = rows[0].length;
+    for (var r = 0; r < rows.length; r++) {
+      if (rows[r].length !== width) {
+        if (tellFn) tellFn(WE_LANG.BAD_ROWS);
+        return { ok: false, placed: 0, reason: "bad_rows" };
+      }
     }
-    return { ok: true };
+  }
+  return { ok: true };
 }
 
 ServerEvents.commandRegistry(function (event) {
@@ -4782,7 +5269,7 @@ ServerEvents.commandRegistry(function (event) {
     if (Object.prototype.hasOwnProperty.call(STRUCTS, k)) UPGRADE_KEYS.push(k);
 
   // Root literal
-  var root = Commands.literal("worldengine").requires(src => src.hasPermission(3));
+  var root = Commands.literal("worldengine");
 
   // --- /worldengine all ---
   root = root.then(
@@ -4808,13 +5295,14 @@ ServerEvents.commandRegistry(function (event) {
       // dimension check
       var base = baseOpt.get();
       var baseDim = base.dimension();
-      if (!baseDim || player.level.dimension != baseDim) {
-        player.sendSystemMessage(Text.translate(WE_LANG.WRONG_DIM), true);
-        return 1;
-      }
+      let base_level = player
+        .getServer()
+        ["getLevel(net.minecraft.resources.ResourceKey)"](baseDim);
 
+      player[
+        "teleportTo(net.minecraft.server.level.ServerLevel,double,double,double,float,float)"
+      ](base_level, 3.5, -20, 5.5, 180, 0);
       player.sendSystemMessage(Text.translate(WE_LANG.ALL_START), true);
-      weSetForceLoad(player.level, true);
 
       var totalPlaced = 0;
       var successCount = 0;
@@ -4828,7 +5316,7 @@ ServerEvents.commandRegistry(function (event) {
           continue;
         }
 
-        var res = wePlaceOne(name, struct, player.level, function (key) {
+        var res = wePlaceOne(name, struct, base_level, function (key) {
           player.sendSystemMessage(Text.translate.apply(Text, arguments), true);
         });
 
@@ -4849,7 +5337,6 @@ ServerEvents.commandRegistry(function (event) {
           failedStr
         )
       );
-      weSetForceLoad(player.level, false);
       return 1;
     })
   );
@@ -4879,23 +5366,38 @@ ServerEvents.commandRegistry(function (event) {
 
           var base = baseOpt.get();
           var baseDim = base.dimension();
-          if (!baseDim || player.level.dimension != baseDim) {
-            player.sendSystemMessage(Text.translate(WE_LANG.WRONG_DIM));
+          var struct = STRUCTS[upgradeName];
+          if (!struct) {
+            player.sendSystemMessage(
+              Text.translate(WE_LANG.UNKNOWN, upgradeName)
+            );
             refundWorldEngineQuest(player, upgradeName);
             return 0;
           }
 
-          var struct = STRUCTS[upgradeName];
-          if (!struct) {
-            player.sendSystemMessage(Text.translate(WE_LANG.UNKNOWN, upgradeName));
+          let base_level = player
+            .getServer()
+            ["getLevel(net.minecraft.resources.ResourceKey)"](baseDim);
+
+          if (
+            WorldEngineStateMachine.getState(base_level) ==
+            WORLDENGINE_STATES.ACTIVE
+          ) {
+            player.sendSystemMessage(
+              Text.translate(WE_LANG.IN_PROGRESS, upgradeName)
+            );
             refundWorldEngineQuest(player, upgradeName);
             return 0;
           }
-          weSetForceLoad(player.level, true);
-          var res = wePlaceOne(upgradeName, struct, player.level, function () {
+          player["teleportTo(net.minecraft.server.level.ServerLevel,double,double,double,float,float)"](base_level, 3.5, -20, 5.5, 180, 0)
+          /*if(STRUCTS[upgradeName].cutscene){
+            player.level.server.scheduleInTicks(20, () => {
+              STRUCTS[upgradeName].cutscene(player);
+            })
+          }*/
+          var res = wePlaceOne(upgradeName, struct, base_level, function () {
             player.sendSystemMessage(Text.translate.apply(Text, arguments));
           });
-          weSetForceLoad(player.level, false);
           return 1; // still return success so the chain completes
         })
       );
@@ -4917,112 +5419,211 @@ ServerEvents.commandRegistry(function (event) {
     return 1;
   });
 
+  root = root.then(Commands.literal("reset").then(Commands.literal("all").executes(function (context) {
+    var source = context.getSource();
+    var player;
+    try {
+      player = source.getPlayerOrException();
+    } catch (e) {
+      source.sendSuccess(Text.translate(WE_LANG.ONLY_PLAYER), false);
+      return 0;
+    }
+    var baseOpt = $BaseInstanceManager
+      .get(source.getServer())
+      .getBaseForPlayer(player);
+    if (!baseOpt.isPresent()) {
+      player.sendSystemMessage(Text.translate(WE_LANG.NEED_BASE));
+      return 1;
+    }
+    var base = baseOpt.get();
+    var baseDim = base.dimension();
+    let base_level = player.getServer()["getLevel(net.minecraft.resources.ResourceKey)"](baseDim)
+    // for all STRUCTURES, remove placed blocks with air
+    Object.values(STRUCTURES).forEach((structDef, structName) => {
+      setBlocksToAir(base_level, structDef);
+    });
+    player.tell(Text.translate(WE_LANG.RESET_ALL));
+    return 1;
+  })));
+
+  Object.keys(STRUCTURES).forEach(structName => {
+    root = root.then(Commands.literal("reset").then(Commands.literal(structName).executes(function (context) {
+      var source = context.getSource();
+      var player;
+      try {
+        player = source.getPlayerOrException();
+      }
+      catch (e) {
+        source.sendSuccess(Text.translate(WE_LANG.ONLY_PLAYER), false);
+        return 0;
+      }
+      var baseOpt = $BaseInstanceManager
+        .get(source.getServer())
+        .getBaseForPlayer(player);
+      if (!baseOpt.isPresent()) {
+        player.sendSystemMessage(Text.translate(WE_LANG.NEED_BASE));
+        return 1;
+      }
+      var base = baseOpt.get();
+      var baseDim = base.dimension();
+      let base_level = player.getServer()["getLevel(net.minecraft.resources.ResourceKey)"](baseDim)
+      var structDef = STRUCTURES[structName];
+      if (!structDef) {
+        player.sendSystemMessage(Text.translate(WE_LANG.UNKNOWN, structName));
+        return 0;
+      }
+      setBlocksToAir(base_level, structDef);
+      player.tell(Text.translate(WE_LANG.RESET, structName));
+      return 1;
+    })));
+  });
   event.register(root);
 });
 
+const setBlocksToAir = (level, struct) => {
+  let floors = weNormalizePattern(struct.pattern);
+      let anchor = weFindAnchor(floors);
+      let ax = WE_ANCHOR.x
+      let ay = WE_ANCHOR.y
+      let az = WE_ANCHOR.z
+      for (let f = 0; f < floors.length; f++) {
+        let rows = floors[f];
+        for (let r = 0; r < rows.length; r++) {
+          let row = rows[r];
+          for (let c = 0; c < row.length; c++) {
+            let ch = row.charAt(c);
+            if (ch === " " || ch === "m") continue;
+            let x = ax + (c - anchor.c);
+            let y = ay + (f - anchor.f);
+            let z = az + (r - anchor.r);
+            level.getBlock(x, y, z).set("minecraft:air");
+          }
+        }
+      }
+}
+
+
 const WORLDENGINE_AUTOBUILD_QUESTS = {
-  "source_upgrade": "3917A0EC517F70E6",
-  "machine_block_upgrade": "76673B8374630924",
-  "shadow_casing_upgrade": "04E68DA90DC83B45",
-  "enchanting_upgrade": "50B0E45705EDB5F2",
-  "chroniton_upgrade": "101B8D9769D835AB",
-  "spirit_upgrade": "0FF5D73B3256F400",
-  "advanced_machine_upgrade": "21E1A72027DBF236",
-  "quantum_tunnel_upgrade": "02BC8FCDB2D94F0E",
-  "ephonium_upgrade": "14537A63D3BDC09B",
-  "resonant_void_upgrade": "5FDB9EC42FE936C6",
-  "twilight_upgrade": "383DAD591823C746",
-  "awakened_core_upgrade": "5C8773D5561D7245",
-  "dark_void_upgrade": "65B10C46C1AE5026",
-  "infinity_upgrade": "5804356B2AFCF14A",
-}
+  source_upgrade: "3917A0EC517F70E6",
+  machine_block_upgrade: "76673B8374630924",
+  shadow_casing_upgrade: "04E68DA90DC83B45",
+  enchanting_upgrade: "50B0E45705EDB5F2",
+  chroniton_upgrade: "101B8D9769D835AB",
+  spirit_upgrade: "0FF5D73B3256F400",
+  advanced_machine_upgrade: "21E1A72027DBF236",
+  quantum_tunnel_upgrade: "02BC8FCDB2D94F0E",
+  euphonium_upgrade: "14537A63D3BDC09B",
+  resonant_void_upgrade: "5FDB9EC42FE936C6",
+  twilight_upgrade: "383DAD591823C746",
+  awakened_core_upgrade: "5C8773D5561D7245",
+  dark_void_upgrade: "65B10C46C1AE5026",
+  infinity_upgrade: "5804356B2AFCF14A",
+};
 const refundWorldEngineQuest = (player, upgradeKey) => {
-    let questId = WORLDENGINE_AUTOBUILD_QUESTS[upgradeKey];
-    if (!questId) return;
-    let quest = getQuestObject(player.level, questId);
-    if (!quest) return;
-    let children = quest.getChildren();
-    children.forEach(child => {
-      player.give(Item.of(child.getItemStack()).withCount(child.getMaxProgress()));
-    })
-}
+  let questId = WORLDENGINE_AUTOBUILD_QUESTS[upgradeKey];
+  if (!questId) return;
+  let quest = getQuestObject(player.level, questId);
+  if (!quest) return;
+  let children = quest.getChildren();
+  children.forEach((child) => {
+    player.give(
+      Item.of(child.getItemStack()).withCount(child.getMaxProgress())
+    );
+  });
+};
 
 const WORLDENGINE_STATES = {
-    IDLE: 0,
-    ACTIVE: 1,
-    FINISHED: 2
-}
+  IDLE: 0,
+  ACTIVE: 1,
+  FINISHED: 2,
+};
 
 const WorldEngineStateMachine = {
-    init: function(level) {
-        var data = level.persistentData;
-        if (!data["world_engine"]) {
-            data["world_engine"] ={
-                state: WORLDENGINE_STATES.IDLE,
-                structure: null
-            };
-        }
-    },
-    reset: function(level) {
-        var data = level.persistentData;
-        data["world_engine"]["state"] = WORLDENGINE_STATES.IDLE;
-        data["world_engine"]["structure"] = null;
-    },
-    tryContinue: function(level, player) {
-        if (this.getState(level) !== WORLDENGINE_STATES.ACTIVE) return;
-        let struct = this.getStructure(level);
-        if (!struct) return;
-        var structDef = STRUCTURES[struct];
-        if (!structDef) return;
-        wePlaceOne(struct, structDef, level, function () {
-            player.sendSystemMessage(Text.translate.apply(Text, arguments));
-        });
-    },
-    getData: function(level) {
-        var data = level.persistentData;
-        return data["world_engine"] || null;
-    },
-    getState: function(level) {
-        var data = level.persistentData;
-        switch(data["world_engine"]["state"].getAsInt()){
-            case 1: return WORLDENGINE_STATES.ACTIVE;
-            case 2: return WORLDENGINE_STATES.FINISHED;
-            default: return WORLDENGINE_STATES.IDLE;
-        }
-    
-
-    },
-    setState: function(level, state) {
-        var data = level.persistentData;
-        if(!data["world_engine"]) {
-            this.init(level);
-        }
-        data["world_engine"]["state"] = state;
-    },
-    getStructure: function(level) {
-        var data = level.persistentData;
-        return data["world_engine"]["structure"].getAsString() || null;
-    },
-    setStructure: function(level, struct) {
-        var data = level.persistentData;
-        if(!data["world_engine"]) {
-            this.init(level);
-        }
-        data["world_engine"]["structure"] = struct;
-    },
-    killDisplays: function(level) {
-        let center = WE_ANCHOR;
-        let offset = 25;
-        level.server.runCommandSilent(`execute in ${level.dimension} positioned ${center.x+offset} ${center.y+offset} ${center.z+offset} run kill @e[type=minecraft:block_display,distance=..128,sort=nearest]`)
+  init: function (level) {
+    var data = level.persistentData;
+    if (!data["world_engine"]) {
+      data["world_engine"] = {
+        state: WORLDENGINE_STATES.IDLE,
+        structure: null,
+      };
     }
-}
-
+  },
+  reset: function (level) {
+    var data = level.persistentData;
+    data["world_engine"]["state"] = WORLDENGINE_STATES.IDLE;
+    data["world_engine"]["structure"] = null;
+  },
+  tryContinue: function (level, player) {
+    if (this.getState(level) !== WORLDENGINE_STATES.ACTIVE) return;
+    let struct = this.getStructure(level);
+    if (!struct) return;
+    var structDef = STRUCTURES[struct];
+    if (!structDef) return;
+    wePlaceOne(struct, structDef, level, function () {
+      player.sendSystemMessage(Text.translate.apply(Text, arguments));
+    });
+  },
+  getData: function (level) {
+    var data = level.persistentData;
+    return data["world_engine"] || null;
+  },
+  getState: function (level) {
+    var data = level.persistentData;
+    switch (data["world_engine"]["state"].getAsInt()) {
+      case 1:
+        return WORLDENGINE_STATES.ACTIVE;
+      case 2:
+        return WORLDENGINE_STATES.FINISHED;
+      default:
+        return WORLDENGINE_STATES.IDLE;
+    }
+  },
+  setState: function (level, state) {
+    var data = level.persistentData;
+    if (!data["world_engine"]) {
+      this.init(level);
+    }
+    data["world_engine"]["state"] = state;
+    if (state == WORLDENGINE_STATES.FINISHED) {
+      weSetForceLoad(level, false);
+    }
+  },
+  getStructure: function (level) {
+    var data = level.persistentData;
+    return data["world_engine"]["structure"].getAsString() || null;
+  },
+  setStructure: function (level, struct) {
+    var data = level.persistentData;
+    if (!data["world_engine"]) {
+      this.init(level);
+    }
+    data["world_engine"]["structure"] = struct;
+  },
+  killDisplays: function (level) {
+    let center = WE_ANCHOR;
+    let offset = 25;
+    level.server.runCommandSilent(
+      `execute in ${level.dimension} positioned ${center.x + offset} ${
+        center.y + offset
+      } ${
+        center.z + offset
+      } run kill @e[type=minecraft:block_display,distance=..128,sort=nearest]`
+    );
+  },
+};
 
 // On player login, check if WE was active in their team dim and continue if so
-PlayerEvents.loggedIn(event => {
-    const { level, player, server } = event;
-    let teamDim = Teams.getTeamsDimensionByPlayer(player);
-    if (!teamDim) return;
-    WorldEngineStateMachine.init(teamDim);
-    WorldEngineStateMachine.tryContinue(teamDim, player);
+PlayerEvents.loggedIn((event) => {
+  const { level, player, server } = event;
+  let teamDim = Teams.getTeamsDimensionByPlayer(player);
+  if (!teamDim) return;
+  WorldEngineStateMachine.init(teamDim);
+  WorldEngineStateMachine.tryContinue(teamDim, player);
 });
+
+
+function draconic_core_init(level) {
+    let block = level.getBlock(3, -11, -2);
+    console.log("Draconic Core Init - Block at (3,-11,-2):", block.id);
+    if(!block.entity.active.get()) block.entity.toggleActivation();
+}

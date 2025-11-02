@@ -7,6 +7,12 @@ global.removeRecipe.push(
   "actuallyadditions:tagged_slime_block"
 )
 
+global.removeItem.push(
+  "actuallyadditions:rice",
+  "actuallyadditions:rice_seeds",
+  "actuallyadditions:flax_seeds"
+)
+
 global.removeRecipe.push("actuallyadditions:crushing/black_quartz_ore")
 
 ServerEvents.recipes((event) => {

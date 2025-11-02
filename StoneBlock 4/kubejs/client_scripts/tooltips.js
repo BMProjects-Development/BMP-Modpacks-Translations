@@ -1,4 +1,5 @@
 // priority: 992
+const $Component = Java.loadClass("net.minecraft.network.chat.Component");
 
 // ---------------------------------------------------------------------------
 // Static JEI + Tooltip helpers and pairs
@@ -52,12 +53,10 @@ const ECHO_STORE_ONLY = [
   "ars_creo:starbuncle_wheel",
   "sophisticatedstorage:basic_tier_upgrade",
   "sophisticatedstorage:basic_to_gold_tier_upgrade",
-  "chancecubes:chance_cube"
+  "chancecubes:chance_cube",
 ];
 
-const uneartherFoods = [
-  
-];
+const uneartherFoods = [];
 
 // Static tooltip pairs
 const tooltipPairs = [
@@ -66,14 +65,39 @@ const tooltipPairs = [
     lines: [
       { key: "ftb.tooltip.portal_gun.1" },
       { key: "ftb.tooltip.portal_gun.2" },
-      { key: "ftb.tooltip.portal_gun.3" }
-    ]
+      { key: "ftb.tooltip.portal_gun.3" },
+    ],
   },
+  {
+    items: ["ftbpc:action_pad"],
+    lines: [
+      {
+        key: "ftb.tooltip.actionpad",
+        args: [{ type: "keybind", id: "ftbpackcompanion.key.open_action_pad" }],
+      },
+    ],
+  },
+
   { items: ECHO_STORE_ONLY, lines: [{ key: "ftb.tooltip.echo_store_only" }] },
-  { items: [/mekanism:.*_factory/], lines: [{ key: "ftb.tooltip.mekanism.factory" }] },
-  { items: [/minecraft:.*_bed/], lines: [{ key: "ftb.tooltip.bed" }] },
-  { items: ["relics:infinity_ham", "artifacts:eternal_steak", "artifacts:everlasting_beef", "ftb:stable_antimatter", "avaritia:cosmic_meatballs", "avaritia:ultimate_stew"], lines: [{ key: "ftb.tooltip.unlimited_food_source" }] },
-  { items: ["ftb:stable_antimatter"], lines: [{ key: "ftb.tooltip.antimatter" }] },
+  {
+    items: [/mekanism:.*_factory/],
+    lines: [{ key: "ftb.tooltip.mekanism.factory" }],
+  },
+  {
+    items: [
+      "relics:infinity_ham",
+      "artifacts:eternal_steak",
+      "artifacts:everlasting_beef",
+      "ftb:stable_antimatter",
+      "avaritia:cosmic_meatballs",
+      "avaritia:ultimate_stew",
+    ],
+    lines: [{ key: "ftb.tooltip.unlimited_food_source" }],
+  },
+  {
+    items: ["ftb:stable_antimatter"],
+    lines: [{ key: "ftb.tooltip.antimatter" }],
+  },
   {
     items: [
       "sophisticatedstorage:copper_barrel",
@@ -90,50 +114,70 @@ const tooltipPairs = [
       "sophisticatedstorage:iron_shulker_box",
       "sophisticatedstorage:gold_shulker_box",
       "sophisticatedstorage:diamond_shulker_box",
-      "sophisticatedstorage:netherite_shulker_box"
+      "sophisticatedstorage:netherite_shulker_box",
     ],
-    lines: [{ key: "ftb.tooltip.sophisticatedstorage.storage", color: Color.RED }]
+    lines: [
+      { key: "ftb.tooltip.sophisticatedstorage.storage", color: Color.RED },
+    ],
   },
-  { items: [
-    "cookingforblockheads:sink",
-    "cookingforblockheads:white_sink",
-    "cookingforblockheads:orange_sink",
-    "cookingforblockheads:magenta_sink",
-    "cookingforblockheads:light_blue_sink",
-    "cookingforblockheads:yellow_sink",
-    "cookingforblockheads:lime_sink",
-    "cookingforblockheads:pink_sink",
-    "cookingforblockheads:gray_sink",
-    "cookingforblockheads:light_gray_sink",
-    "cookingforblockheads:cyan_sink",
-    "cookingforblockheads:purple_sink",
-    "cookingforblockheads:blue_sink",
-    "cookingforblockheads:brown_sink",
-    "cookingforblockheads:green_sink",
-    "cookingforblockheads:red_sink",
-    "cookingforblockheads:black_sink"
-], lines: [{ key: "ftb.tooltip.sinks" }] },
-  { items: ["minecraft:milk_bucket"], lines: [{ key: "ftb.tooltip.milk_bucket" }] },
+  {
+    items: [
+      "cookingforblockheads:sink",
+      "cookingforblockheads:white_sink",
+      "cookingforblockheads:orange_sink",
+      "cookingforblockheads:magenta_sink",
+      "cookingforblockheads:light_blue_sink",
+      "cookingforblockheads:yellow_sink",
+      "cookingforblockheads:lime_sink",
+      "cookingforblockheads:pink_sink",
+      "cookingforblockheads:gray_sink",
+      "cookingforblockheads:light_gray_sink",
+      "cookingforblockheads:cyan_sink",
+      "cookingforblockheads:purple_sink",
+      "cookingforblockheads:blue_sink",
+      "cookingforblockheads:brown_sink",
+      "cookingforblockheads:green_sink",
+      "cookingforblockheads:red_sink",
+      "cookingforblockheads:black_sink",
+    ],
+    lines: [{ key: "ftb.tooltip.sinks" }],
+  },
+  {
+    items: ["minecraft:milk_bucket"],
+    lines: [{ key: "ftb.tooltip.milk_bucket" }],
+  },
   {
     items: [
       "sophisticatedstorage:basic_to_copper_tier_upgrade",
       "sophisticatedstorage:basic_to_diamond_tier_upgrade",
       "sophisticatedstorage:basic_to_gold_tier_upgrade",
       "sophisticatedstorage:basic_to_iron_tier_upgrade",
-      "sophisticatedstorage:basic_to_netherite_tier_upgrade"
+      "sophisticatedstorage:basic_to_netherite_tier_upgrade",
     ],
-    lines: [{ key: "ftb.tooltip.sophisticatedstorage.upgrades", color: Color.RED }]
+    lines: [
+      { key: "ftb.tooltip.sophisticatedstorage.upgrades", color: Color.RED },
+    ],
   },
   { items: ["ftb:clapple"], lines: [{ key: "ftb.tooltip.clapple" }] },
   { items: ["ftb:fortron_star"], lines: [{ key: "ftb.tooltip.fortron_star" }] },
-  { 
-    items: ["ftb:red_core", "ftb:orange_core", "ftb:purple_core", "ftb:blue_core"], 
+  {
+    items: [
+      "ftb:red_core",
+      "ftb:orange_core",
+      "ftb:purple_core",
+      "ftb:blue_core",
+    ],
     lines: [
       { key: "ftb.tooltip.portal.cores.1" },
-      { key: "ftb.tooltip.portal.cores.2" }
-    ]
+      { key: "ftb.tooltip.portal.cores.2" },
+    ],
   },
 ];
+
+function keybindText(id) {
+  return $Component.keybind(String(id));
+}
+
 
 ItemEvents.modifyTooltips(event => {
   for (var i = 0; i < tooltipPairs.length; i++) {
@@ -142,17 +186,48 @@ ItemEvents.modifyTooltips(event => {
       var item = pair.items[j];
       event.add(
         item,
-        pair.lines.map(function (line) {
-          var t = Text.translate(line.key);
-          if (line.color) t = t.color(line.color);
-          return t;
-        })
+        (function () {
+          var out = [];
+          for (var k = 0; k < pair.lines.length; k++) {
+            var line = pair.lines[k];
+
+            // Build args (optional)
+            var args = null;
+            if (line.args && line.args.length) {
+              args = [];
+              for (var a = 0; a < line.args.length; a++) {
+                var arg = line.args[a];
+                if (arg && arg.type === "keybind" && arg.id) {
+                  args.push(keybindText(String(arg.id)));
+                } else if (arg && arg.literal != null) {
+                  args.push(Text.of(String(arg.literal)));
+                } else if (arg && arg.translate) {
+                  args.push(Text.translate(String(arg.translate)));
+                } else {
+                  args.push(Text.of(String(arg)));
+                }
+              }
+            }
+
+            var t;
+            if (args && args.length) {
+              var callArgs = [line.key];
+              for (var m = 0; m < args.length; m++) callArgs.push(args[m]);
+              t = Text.translate.apply(Text, callArgs);
+            } else {
+              t = Text.translate(line.key);
+            }
+
+            if (line.color) t = t.color(line.color);
+            out.push(t);
+          }
+          return out;
+        })()
       );
     }
   }
   event.modify("petrock:kibble", tooltip => tooltip.removeLine(0));
 });
-
 
 
 // ---------------------------------------------------------------------------
@@ -238,7 +313,7 @@ function cowFeedInfoLine(itemId) {
   var prettyItem = prettyItemText(itemId);
   return Text.translate("ftb.tooltip.cow_feed.item_line", prettyItem).aqua();
 }
-RecipeViewerEvents.addInformation("fluid", event => {
+RecipeViewerEvents.addInformation("fluid", (event) => {
   var allFluids = collectUniqueFluids();
   for (var i = 0; i < allFluids.length; i++) {
     var fid = allFluids[i];
@@ -256,7 +331,7 @@ RecipeViewerEvents.addInformation("fluid", event => {
 // ---------------------------------------------------------------------------
 // JEI: Information page on each FEED ITEM
 // ---------------------------------------------------------------------------
-RecipeViewerEvents.addInformation("item", event => {
+RecipeViewerEvents.addInformation("item", (event) => {
   var allItems = collectUniqueItems();
   for (var i = 0; i < allItems.length; i++) {
     var itemId = allItems[i];
@@ -278,7 +353,9 @@ RecipeViewerEvents.addInformation("item", event => {
 
     if (fluids.length > maxList) {
       var more = fluids.length - maxList;
-      lines.push(Text.translate("ftb.tooltip.cow_feed.and_more", String(more)).darkGray());
+      lines.push(
+        Text.translate("ftb.tooltip.cow_feed.and_more", String(more)).darkGray()
+      );
     }
 
     event.add(itemId, lines);
@@ -288,7 +365,7 @@ RecipeViewerEvents.addInformation("item", event => {
 // ---------------------------------------------------------------------------
 // Item tooltips: show which fluid cow(s) each feed item creates
 // ---------------------------------------------------------------------------
-ItemEvents.modifyTooltips(event => {
+ItemEvents.modifyTooltips((event) => {
   var maxList = 5;
   var allItems = collectUniqueItems();
 
@@ -311,7 +388,9 @@ ItemEvents.modifyTooltips(event => {
 
     if (fluids.length > maxList) {
       var more = fluids.length - maxList;
-      lines.push(Text.translate("ftb.tooltip.cow_feed.and_more", String(more)).darkGray());
+      lines.push(
+        Text.translate("ftb.tooltip.cow_feed.and_more", String(more)).darkGray()
+      );
     }
 
     event.add(itemId, lines);
@@ -323,8 +402,12 @@ ItemEvents.modifyTooltips(event => {
 // Many environments don't expose FluidEvents or suppress fluid tooltips.
 // If FluidEvents is unavailable, this section is safely skipped.
 // ---------------------------------------------------------------------------
-if (typeof FluidEvents !== "undefined" && FluidEvents && typeof Fluid !== "undefined") {
-  FluidEvents.tooltip(event => {
+if (
+  typeof FluidEvents !== "undefined" &&
+  FluidEvents &&
+  typeof Fluid !== "undefined"
+) {
+  FluidEvents.tooltip((event) => {
     var maxList = 5;
     var allFluids = collectUniqueFluids();
 
@@ -347,7 +430,12 @@ if (typeof FluidEvents !== "undefined" && FluidEvents && typeof Fluid !== "undef
 
       if (items.length > maxList) {
         var more = items.length - maxList;
-        lines.push(Text.translate("ftb.tooltip.cow_feed.and_more", String(more)).darkGray());
+        lines.push(
+          Text.translate(
+            "ftb.tooltip.cow_feed.and_more",
+            String(more)
+          ).darkGray()
+        );
       }
 
       event.add(fid, lines);

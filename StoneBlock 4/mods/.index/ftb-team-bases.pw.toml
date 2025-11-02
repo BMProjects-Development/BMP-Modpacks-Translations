@@ -1,4 +1,4 @@
-filename = 'ftb-team-bases-21.1.8.jar'
+filename = 'ftb-team-bases-21.1.9.jar'
 name = 'FTB Team Bases'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '0cb51f8361e757a7d456b612f2eec0ff34ce9e90'
+hash = 'f1787e700d83057c8a220ee3804f1b4e1080d544'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7133282
+file-id = 7167195
 project-id = 1197857

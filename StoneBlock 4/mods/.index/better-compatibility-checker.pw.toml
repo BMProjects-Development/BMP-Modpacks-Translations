@@ -1,4 +1,4 @@
-filename = 'bcc-21.1.4+mc1.21.1.jar'
+filename = 'bcc-21.1.5+mc1.21.1.jar'
 name = 'Better Compatibility Checker'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '6319680746ad3646fb05515aec2cfa8f8c150764'
+hash = '518a0745878f0fd681426468ff536153f1a1b12f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7099575
+file-id = 7170665
 project-id = 551894

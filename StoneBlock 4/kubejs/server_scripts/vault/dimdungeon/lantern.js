@@ -17,14 +17,14 @@ const LanternSettings = {
 
 const SoulCageHandler = {
   TICK_INTERVAL: 20,
-  LIGHT_DURATION: 1200,
+  LIGHT_DURATION: 2400,
   BLINDNESS_DURATION: 80,
-  
+
   // Check if item is a soul cage
   isSoulCage: function(item) {
     return item && item.id === "ftb:soulcage";
   },
-  
+
   // Initialize soul data if missing
   initializeSouls: function(item) {
     if (!item.getComponents().has($DataComponents.CUSTOM_DATA)) {
@@ -35,7 +35,7 @@ const SoulCageHandler = {
       item.item.setDamage(item, maxDamage);
     }
   },
-  
+
   // Get current soul count
   getSoulCount: function(item) {
     if (!this.isSoulCage(item)) return 0;
@@ -43,65 +43,65 @@ const SoulCageHandler = {
     const customData = item.getComponents().get($DataComponents.CUSTOM_DATA);
     return customData.copyTag().getInt('ftb:souls');
   },
-  
+
   // Get max soul capacity
   getMaxSouls: function(item) {
     return item.item.getMaxDamage(item);
   },
-  
+
   // Check if item has souls
   hasSouls: function(item) {
     return this.getSoulCount(item) > 0;
   },
-  
+
   // Check if item is at max capacity
   isFull: function(item) {
     return this.getSoulCount(item) >= this.getMaxSouls(item);
   },
-  
+
   // Set soul count and update damage
   setSoulCount: function(item, newSouls) {
     const souls = new $CompoundTag();
     souls.putInt('ftb:souls', newSouls);
     $CustomData.set($DataComponents.CUSTOM_DATA, item, souls);
-    
+
     const maxSouls = this.getMaxSouls(item);
     item.item.setDamage(item, maxSouls - newSouls);
   },
-  
+
   // Consume one soul
   consumeSoul: function(item) {
     const currentSouls = this.getSoulCount(item);
     if (currentSouls <= 0) return null;
-    
+
     const newSouls = currentSouls - 1;
     this.setSoulCount(item, newSouls);
-    
-    return { 
-      newSouls: newSouls, 
-      maxSouls: this.getMaxSouls(item) 
+
+    return {
+      newSouls: newSouls,
+      maxSouls: this.getMaxSouls(item)
     };
   },
-  
+
   // Add souls (for entity death)
   addSouls: function(item, amount) {
     const currentSouls = this.getSoulCount(item);
     const maxSouls = this.getMaxSouls(item);
     const newSouls = Math.min(currentSouls + amount, maxSouls);
-    
+
     if (currentSouls >= maxSouls) {
       return null; // Already full
     }
-    
+
     this.setSoulCount(item, newSouls);
-    
+
     return {
       newSouls: newSouls,
       maxSouls: maxSouls,
       added: newSouls - currentSouls
     };
   },
-  
+
   // Find soul cage in inventory
   findInInventory: function(player) {
     return player.getInventory().getAllItems().find(function(item) {
@@ -111,49 +111,81 @@ const SoulCageHandler = {
 };
 
 
+EntityEvents.spawned("cataclysm:maledictus", (event) => {
+    const {entity, level, server} = event
+    if(!entity.isLiving()) return
+    if(level.dimension != "dimdungeons:dungeon_dimension") return
+    let spawnPos = entity.blockPosition()
+    let aabb = AABB.of(spawnPos.x-9, spawnPos.y-3, spawnPos.z-5, spawnPos.x+9, spawnPos.y+5, spawnPos.z+14)
+    customTick(entity, 20, (entity, aabb, spawnPos) => {
+        if(aabb.intersects(entity.getBoundingBox())) {
+            entity.teleportTo(spawnPos.x + 0.5, spawnPos.y, spawnPos.z + 0.5);
+        }
+    })
+});
+
 EntityEvents.death(function(event) {
+  const server = event.server;
   const entity = event.entity;
   const source = event.source;
   const level = event.level;
-  
+
   // Validate source is a player
   const actualSource = source.getActual();
   if (!actualSource || !actualSource.isPlayer()) return;
-  
+
   // Check structure requirement
   if (LanternSettings.checkForStructure) {
     const kuLevel = new Ku.Level(level);
     if (!kuLevel.isStructureAtLocation(entity.pos, LanternSettings.structure)) return;
   }
-  
+
   // Check entity tag requirement
   if (LanternSettings.checkForTag && (!entity.tags || !entity.tags.contains(LanternSettings.tag))) return;
-  
+
   // Find soul cage in player's inventory
   const player = actualSource;
   const soulCage = SoulCageHandler.findInInventory(player);
-  
+
   if (!soulCage || !SoulCageHandler.isSoulCage(soulCage)) return;
-  
+
   // Calculate souls to add (including enchantment bonus)
   let mainHandItem = player.getMainHandItem();
   const additionalSouls = $EnchantmentHelper.getTagEnchantmentLevel('draconicevolution:reaper', mainHandItem);
   const soulsToAdd = LanternSettings.soulsPerKill + additionalSouls;
-  
+
   // Add souls to the cage
   const result = SoulCageHandler.addSouls(soulCage, soulsToAdd);
-  
+
   if (result) {
-    if(SoulCageHandler.getSoulCount(soulCage) == result.maxSouls && player.getEffect("ftb:vault_light").getDuration() < 20*60) {
-      player.potionEffects.add("ftb:vault_light", 20*60*3, 0, true, false);
+    if(SoulCageHandler.getSoulCount(soulCage) == result.maxSouls && player.getEffect("ftb:vault_light").getDuration() < 20*120) {
+      player.potionEffects.add("ftb:vault_light", 20*60*5, 0, true, false);
+      server.runCommandSilent(
+        `title ${player.username} title ${JSON.stringify({
+        translate: "ftb.lantern.cage.filled",
+        bold: false,
+        italic: false,
+        color: "red",
+        })}`
+      );
+      server.runCommandSilent(
+        `title ${player.username} subtitle ${JSON.stringify({
+        translate: "ftb.lantern.find_boss",
+        bold: false,
+        italic: false,
+        color: "red",
+        })}`
+
+  );
+
     }
     player.sendSystemMessage(
-      Text.translate("ftb.lantern.soul_absorbed", [result.newSouls.toFixed(0), result.maxSouls]).green(), 
+      Text.translate("ftb.lantern.soul_absorbed", [result.newSouls.toFixed(0), result.maxSouls]).green(),
       true
     );
   } else {
     player.sendSystemMessage(
-      Text.translate("ftb.lantern.full").yellow(), 
+      Text.translate("ftb.lantern.full").yellow(),
       true
     );
   }
@@ -171,7 +203,7 @@ BlockEvents.rightClicked(LanternSettings.summoningBlock, (event) => {
   console.log(item);
   if (item.id != LanternSettings.item) event.cancel();
   if (!item.getComponents().has($DataComponents.CUSTOM_DATA)) event.cancel();
-  
+
   let currentSouls = SoulCageHandler.getSoulCount(item);
   if (currentSouls < SoulCageHandler.getMaxSouls(item)) event.cancel();
   SoulCageHandler.setSoulCount(item, 5);
@@ -180,28 +212,27 @@ BlockEvents.rightClicked(LanternSettings.summoningBlock, (event) => {
   let Boss = level.createEntity(LanternSettings.boss);
   Boss.setPos(block.x + 0.5, block.y + 1, block.z + 0.5);
   level.addFreshEntity(Boss);
-  
+
   player.sendSystemMessage(Text.translate("ftb.lantern.summon_boss").red(), true);
-  
+
   event.cancel(); // Canceling original event to start timer
 })
 
 
 PlayerEvents.tick(event => {
   const { player, server } = event;
-  
+
   if (server.tickCount % SoulCageHandler.TICK_INTERVAL !== 0) return;
-  
+
   if(player.getLevel().getDimension() != "dimdungeons:dungeon_dimension") return;
 
   if (player.hasEffect("ftb:vault_light")) return;
-  
+
   const offhandItem = player.getOffHandItem();
-  console.log(offhandItem.item.getMaxDamage(offhandItem));
 
   if (SoulCageHandler.hasSouls(offhandItem)) {
     const { newSouls, maxSouls } = SoulCageHandler.consumeSoul(offhandItem);
-    
+
     player.removeEffect("minecraft:blindness");
     player.potionEffects.add("ftb:vault_light", SoulCageHandler.LIGHT_DURATION, 0, true, false);
     player.sendSystemMessage(
@@ -222,3 +253,47 @@ EntityEvents.spawned(event => {
       entity.tags.add(LanternSettings.tag)
   }
 })
+
+
+EntityEvents.spawned(event => {
+    const {entity, level, server} = event
+    if(!entity.isLiving()) return
+    if(level.dimension != "dimdungeons:dungeon_dimension") return
+
+    const radius = 64
+    const healthScale = 0.1
+    const attributes = [
+        //[attribute, scale]
+        ['generic.attack_damage', 0.1],
+        ['generic.attack_knockback', 0.1],
+        ['generic.armor', 1],
+        ['generic.armor_toughness', 1],
+        ['generic.movement_speed', 0.01]]
+
+    modifyEntity(event, radius, healthScale, attributes)
+})
+
+function modifyEntity(event, radius, healthScale, attributes){
+    const {entity, level} = event
+    const {x,y,z} = entity
+
+    // Get Entities in an Area
+    let aabb = AABB.of(x-radius, y-radius, z-radius, x+radius, y+radius, z+radius)
+    let entities = level.getEntitiesWithin(aabb)
+    let totalPlayers = 0
+    entities.forEach(entity =>{
+        if(entity.isPlayer()){
+            totalPlayers++
+        }
+    })
+    let baseHealth = entity.getMaxHealth()
+    entity.setMaxHealth(baseHealth+(baseHealth*totalPlayers*healthScale))
+    entity.setHealth(baseHealth+(baseHealth*totalPlayers*healthScale))
+
+    attributes.forEach(attributeArr => {
+        let attribute = attributeArr[0]
+        let baseValue = entity.getAttributeBaseValue(attribute)
+        let value = baseValue+(attributeArr[1]*totalPlayers)
+        entity.setAttributeBaseValue(attribute, value)
+    })
+}

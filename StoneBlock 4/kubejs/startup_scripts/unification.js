@@ -617,6 +617,7 @@ if (Platform.isLoaded("createaddition")) {
   global.enabledRods.push(["gold"], /*["electrum"], ["copper"],*/ ["lumium"])
 
   global.removeItem.push("createaddition:electrum_ingot", "createaddition:electrum_sheet")
+  global.removeRecipe.push("createaddition:pressing/electrum_ingot", "createaddition:mixing/electrum")
 }
 
 if (Platform.isLoaded("chicken_roost")) {

@@ -1,4 +1,4 @@
-filename = 'craftingstation-jei-neoforge-1.21.1-1.6.3.jar'
+filename = 'craftingstation-neoforge-1.21.1-1.6.4.jar'
 name = 'Crafting Station: J/EMI Edition Updated'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'd552012a0cb30499d08e4be21dab7dbbf57d9947'
+hash = '5f81e2701d3039d113c47e31a702e0871e06da15'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7152632
+file-id = 7165975
 project-id = 1127715

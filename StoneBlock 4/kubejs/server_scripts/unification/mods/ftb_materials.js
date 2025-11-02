@@ -90,7 +90,8 @@ const dusts = [
   ["ftbmaterials:lapis_lazuli_dust", "minecraft:lapis_lazuli"],
   ["ftbmaterials:ruby_dust", "ftbmaterials:ruby_gem"],
   ["ftbmaterials:sapphire_dust", "ftbmaterials:sapphire_gem"],
-  ["ftbmaterials:coal_coke_dust", "ftbmaterials:coal_coke_gem"]
+  ["ftbmaterials:coal_coke_dust", "ftbmaterials:coal_coke_gem"],
+  ["ftbmaterials:brass_dust", "ftbmaterials:brass_ingot"]
 ]
 
 ServerEvents.recipes((event) => {

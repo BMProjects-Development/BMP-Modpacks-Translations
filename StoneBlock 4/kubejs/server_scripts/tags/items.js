@@ -30,7 +30,7 @@ const addItemTags = [
     ]
   },
   {
-    tagName: "curios:curio",
+    tagName: "curios:stick",
     itemIDs: ["minecraft:stick"]
   },
   {

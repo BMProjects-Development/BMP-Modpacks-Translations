@@ -420,13 +420,13 @@ ServerEvents.recipes(function (event) {
       "actuallyadditions:coffee",
       "immersiveengineering:crop",
     ],
-    [
-      "actuallyadditions:rice_seeds",
-      "actuallyadditions:rice",
-      1,
-      "actuallyadditions:rice",
-      "immersiveengineering:crop",
-    ],
+    // [ This is Disabled cause usually Farmer's Delight is present, and its rice should be used as the main one.
+    //   "actuallyadditions:rice_seeds",
+    //   "actuallyadditions:rice",
+    //   1,
+    //   "actuallyadditions:rice",
+    //   "immersiveengineering:crop",
+    // ],
     [
       "actuallyadditions:canola_seeds",
       "actuallyadditions:canola",
@@ -434,7 +434,14 @@ ServerEvents.recipes(function (event) {
       "actuallyadditions:canola",
       "immersiveengineering:crop",
     ],
-
+    //Supplementaries
+    [
+      "supplementaries:flax_seeds",
+      "supplementaries:flax",
+      1,
+      "supplementaries:flax",
+      "immersiveengineering:crop",
+    ],
     // Occultism
     [
       "occultism:datura_seeds",

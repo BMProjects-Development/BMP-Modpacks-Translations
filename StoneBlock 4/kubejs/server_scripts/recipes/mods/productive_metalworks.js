@@ -99,6 +99,24 @@ ServerEvents.recipes((event) => {
       consume_cast: false,
       fluid: {
         amount: 100,
+        fluid: "xycraft_machines:resin",
+      },
+      result: {
+        count: 1,
+        id: "xycraft_machines:resin_ball",
+      },
+    })
+    .id("ftb:productivemetalworks/gem_casting/resin");    
+
+  event
+    .custom({
+      type: "productivemetalworks:item_casting",
+      cast: {
+        item: "productivemetalworks:gem_cast",
+      },
+      consume_cast: false,
+      fluid: {
+        amount: 100,
         fluid: "productivemetalworks:molten_redstone",
       },
       result: {

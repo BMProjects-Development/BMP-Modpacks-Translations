@@ -36,7 +36,13 @@ EntityEvents.spawned(
 );
 
 let SB4$KILL_BLACKLIST = [];
-
+let SB4$GLADIOS_SNARK_LANG = [
+  "ftb.vaults.portal.message.gladios.death_snark_1",
+  "ftb.vaults.portal.message.gladios.death_snark_2",
+  "ftb.vaults.portal.message.gladios.death_snark_3",
+  "ftb.vaults.portal.message.gladios.death_snark_4",
+  "ftb.vaults.portal.message.gladios.death_snark_5"
+]
 EntityEvents.death("minecraft:player", (event) => {
   /** @type {$ServerLevel_} */
   let server = event.getLevel();
@@ -61,15 +67,15 @@ EntityEvents.death("minecraft:player", (event) => {
           entity.discard();
         }
       });
-      let snark = Text.of(
-        "Death: revoked.\nHostile lifeforms: discarded.\nYour continued incompetence,\nhowever, remains."
-      );
+      let random_snark = Utils.getRandom().fork().nextIntBetweenInclusive(0,SB4$GLADIOS_SNARK_LANG.length-1)
+      let snark = Text.translate(SB4$GLADIOS_SNARK_LANG[random_snark])
       event.getEntity().tell(snark);
       event.getEntity().setHealth(event.getEntity().getMaxHealth());
       event.cancel();
     }
   }
 });
+
 const SB4$NO_FALL_DAMAGE = ["ftb:vaults/portal", "ftb:vaults/create_vault"];
 EntityEvents.beforeHurt("minecraft:player", (event) => {
   /** @type {$ServerLevel_} */

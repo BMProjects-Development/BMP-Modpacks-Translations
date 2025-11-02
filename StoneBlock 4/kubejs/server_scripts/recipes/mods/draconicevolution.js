@@ -33,13 +33,13 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           ingredient: {
-            item: "draconicevolution:medium_chaos_frag",
+            item: "draconicevolution:large_chaos_frag",
           },
         },
         {
           consume: true,
           ingredient: {
-            item: "draconicevolution:medium_chaos_frag",
+            item: "draconicevolution:large_chaos_frag",
           },
         },
         {
@@ -63,13 +63,13 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           ingredient: {
-            item: "draconicevolution:medium_chaos_frag",
+            item: "draconicevolution:large_chaos_frag",
           },
         },
         {
           consume: true,
           ingredient: {
-            item: "draconicevolution:medium_chaos_frag",
+            item: "draconicevolution:large_chaos_frag",
           },
         },
         {

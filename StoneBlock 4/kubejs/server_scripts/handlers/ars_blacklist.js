@@ -31,7 +31,7 @@ NativeEvents.onEvent("com.hollingsworth.arsnouveau.api.event.SpellCastEvent", ev
         let hasBlacklistedSpell = spellRecipe.filter(part => blacklistedSpells.includes(part.getName())).length > 0
         if (!hasBlacklistedSpell) return
 
-        if(!isInVault(entity)) return
+        if(!isEntityInVault(entity)) return
         
         entity.sendSystemMessage(Text.translate("ftb.ars.blacklist.denied").red(), true);
         event.setCanceled(true)

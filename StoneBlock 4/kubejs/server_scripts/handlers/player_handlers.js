@@ -101,6 +101,8 @@ BlockEvents.broken(SB4$WE_BLACKLIST_BLOCKS, (event) => {
 
 })
 
+BlockEvents.rightClicked("minecraft:bed", event => {event.cancel()});
+
 BlockEvents.placed(SB4$WE_BLACKLIST_BLOCKS.concat([
   "minecraft:tnt",
   "projecte:nova_catalyst",

@@ -173,7 +173,7 @@ const triviaSettings = {
   startOffset: { x: 0, y: -2, z: 40 },
   arenaOffset: { x: 0, y: -13, z: 28 },
   wallBottomLeft: { x: -4, y: -3, z: 1 },
-  wallTopRight: { x: 4, y: 1, z: -3 }
+  wallTopRight: { x: 4, y: 1, z: -5 }
 }
 
 ServerEvents.commandRegistry((event) => {

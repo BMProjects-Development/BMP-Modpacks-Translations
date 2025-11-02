@@ -14,7 +14,7 @@ const TRIGGER_ROUTES = [
   },
   {
     id: "spawn_carb",
-    cmd: 'execute at @e[type=minecraft:marker,distance=..10,tag=spawn_carb] unless entity @e[type=twilightforest:helmet_crab,distance=..50] run summon twilightforest:helmet_crab ~ ~0.2 ~ {Attributes:[{id:"minecraft:generic.scale",base:0.5}]}'
+    cmd: 'execute at @e[type=minecraft:marker,tag=spawn_carb] unless   entity @e[type=twilightforest:helmet_crab,distance=..50] run summon twilightforest:helmet_crab ~ ~0.2 ~ {Attributes:[{id:"minecraft:generic.scale",base:0.5}]}'
   },
   //Portal Vault Triggers =========================================================================
 
@@ -129,7 +129,9 @@ var CUSTOM_HANDLERS = {
   portal_vault_teleport: function (ctx) {
     const player = ctx.player
     const pos = player.blockPosition()
-    ctx.level.server.runCommandSilent(`execute in ${ctx.level.dimension} run tp ${ctx.player.username} ${pos.x + 3} ${pos.y + 103} ${pos.z - 26}`)
+    ctx.level.server.runCommandSilent(
+      `execute in ${ctx.level.dimension} run tp ${ctx.player.username} ${pos.x + 3} ${pos.y + 103} ${pos.z - 26}`
+    )
     ctx.player.tell(Text.translate("ftb.vaults.portal.message.gladios.reward.reminder"))
     ctx.level.server.scheduleInTicks(60, () => {
       ctx.player.tell(Text.translate("ftb.vaults.portal.message.gladios.reward.reminder_1"))

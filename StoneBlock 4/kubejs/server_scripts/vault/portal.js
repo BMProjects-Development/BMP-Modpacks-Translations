@@ -178,8 +178,13 @@ BlockEvents.rightClicked(event => {
     // Must be holding the portal gun
     if (String(item.id) !== "ftb:portal_gun") return;
 
+    //Adding a Cooldown.
+    player.addItemCooldown(event.item, 20);
+
     // Must be crouching (shift)
-    if (!player.isCrouching()) return;
+    // Disabled the Requirement for Shift + Click cause in some edge cases people
+    // may get stuck inside Air Vents if they place a Cube inside it.
+    // if (!player.isCrouching()) return;
 
     // Only act if the block is in our collectible list
     const blockId = String(block.id);

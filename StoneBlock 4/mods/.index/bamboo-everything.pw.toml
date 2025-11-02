@@ -1,4 +1,4 @@
-filename = 'bambooeverything-neoforge-21.1.1+mc1.21.1.jar'
+filename = 'bambooeverything-neoforge-21.1.2+mc1.21.1.jar'
 name = 'Bamboo Everything'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '91fe8115d9b94cb46f21093c607516cd5ef035ea'
+hash = '55805b9d85964a1e0a2ce30955d55d969573de9e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6320314
+file-id = 7170711
 project-id = 331723

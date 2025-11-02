@@ -1,4 +1,4 @@
-filename = 'ftb-unearthed-21.1.2.jar'
+filename = 'ftb-unearthed-21.1.4.jar'
 name = 'FTB Unearthed'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'f85674c3ff9433223576d7f183d81e421621f3eb'
+hash = '485b9f95686e0479616b601a7d088e70a6b6dad2'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7160231
+file-id = 7173239
 project-id = 1369858

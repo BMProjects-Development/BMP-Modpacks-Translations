@@ -21,7 +21,9 @@ const recipeIdsToRemove = [
   "ae2:inscriber/certus_quartz_dust",
   "malum:runic_twisted_rock_bricks_wall",
   "malum:runic_twisted_rock_tiles_wall",
+  "industrialforegoing:mycelial_culinary",
   "clavis:lock_pick",
+  "laserio:card_holder",
   "ae2:inscriber/fluix_dust",
   "advanced_ae:quantum_infused_dust",
   "minecraft:writable_book",
@@ -39,7 +41,7 @@ const recipeIdsToRemove = [
   "chancecubes:chance_cube_crafting",
   "ftbstuff:stone_rod",
   /^connectedglass/,
-  /minecraft:.*(_stained_glass_pane_from|_terracotta|_stained_glass)/, /* These Removals are needed if Utilitarian is Installed. */
+  /minecraft:.*(_stained_glass_pane_from|_terracotta|_stained_glass)/,
   /sophisticatedstorage:generic_.*/,
   /mekanism:factory\/.*/,
   "immersiveengineering:crafting/raw_hammercrushing_aluminum",
@@ -50,6 +52,7 @@ const recipeIdsToRemove = [
   "immersiveengineering:crafting/raw_hammercrushing_tin",
   "immersiveengineering:crafting/raw_hammercrushing_uranium",
   "immersiveengineering:crafting/raw_hammercrushing_zinc",
+  "industrialforegoing:mycelial_meatallurgic",
   "immersiveengineering:bottling/duroplast_block",
   "immersiveengineering:bottling/duroplast_plate",
   "xycraft:shaped/void_container",
@@ -67,6 +70,7 @@ const recipeIdsToRemove = [
   "ironfurnaces:augments/augment_generator",
   "mekanism:tier_installer/basic",
   "compactmachines:personal_shrinking_device",
+  "entangled:item",
   "rftoolsbuilder:builder",
   "ae2:network/crystal_resonance_generator",
   "ae2:network/blocks/energy_energy_acceptor",
@@ -238,7 +242,8 @@ const recipeIdsToRemove = [
   "ae2:inscriber/engineering_processor_press",
   "megacells:inscriber/accumulation_processor_press_extra",
   "ae2:inscriber/silicon_press",
-  "ae2:network/blocks/inscribers"
+  "ae2:network/blocks/inscribers",
+  "sfm:cable"
 ]
 
 const recipeTypesToRemove = ["immersiveengineering:arc_recycling"]
