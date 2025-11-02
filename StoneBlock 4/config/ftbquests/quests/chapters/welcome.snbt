@@ -35,7 +35,7 @@
 		{
 			click: "https://discord.com/invite/X5UGvBs"
 			height: 1.0d
-			hover: ["Join The Discord!"]
+			hover: ["Присоединится к Discord!"]
 			image: "ftbpc:textures/gui/discord.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -45,7 +45,7 @@
 		{
 			click: "https://github.com/FTBTeam/FTB-Modpack-Issues/issues"
 			height: 1.0d
-			hover: ["Report A Bug"]
+			hover: ["Сообщить об ошибке"]
 			image: "ftbquests:textures/gui/alert.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -59,6 +59,46 @@
 			width: 13.8d
 			x: -1.5d
 			y: -4.5d
+		}
+		{
+			click: "https://discord.gg/9GWKBVw3Ty"
+			height: 1.0d
+			hover: ["Discord переводчиков!"]
+			image: "ftb:textures/quests/other_titles_and_logos/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			click: "https://t.me/BMProjects"
+			height: 1.0d
+			hover: ["Telegram переводчиков!"]
+			image: "ftb:textures/quests/other_titles_and_logos/telegram.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			click: "https://github.com/BMProjects-Development"
+			height: 1.0d
+			hover: ["GitHub переводчиков!"]
+			image: "ftb:textures/quests/other_titles_and_logos/github.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			click: "https://boosty.to/barmaxx"
+			height: 1.0d
+			hover: ["Boosty переводчиков!"]
+			image: "ftb:textures/quests/other_titles_and_logos/boosty.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 2.0d
 		}
 	]
 	order_index: 0
@@ -138,6 +178,20 @@
 			}]
 			x: 0.5d
 			y: -1.0d
+		}
+		{
+			icon: {
+				id: "magic_coins:crystal_coin"
+			}
+			id: "30C2E386079225C5"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5B2087383A6E400E"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 }

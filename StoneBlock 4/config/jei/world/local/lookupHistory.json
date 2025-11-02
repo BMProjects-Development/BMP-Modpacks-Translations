@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"avaritia:diamond_lattice"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"avaritia:crystal_matrix_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"avaritia:infinity_pickaxe","components":{"minecraft:enchantments":{"levels":{"minecraft:fortune":10}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"avaritia:double_compressed_crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"avaritia:extreme_crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
