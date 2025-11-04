@@ -76,9 +76,8 @@ const WorldengineCutscene = (player, cutscene) => {
         return;
     }
 
-    if (player.level.isClientSide) {
-        player.sendData('close_screen', {});      
-    }
+    player.sendData('close_screen', {});      
+    
     let kuLevel = new Ku.Level(player.level);
     let players = kuLevel.findEntitiesWithinRadius("minecraft:player", player.block.pos, 50)
     cutscene.playForPlayers(players);
@@ -303,24 +302,42 @@ function cutscene_twilight_forest_upgrade(player) {
     WorldengineCutscene(player, orbit);
 }
 
+const STRUCTURES_CUTSCENES = {
+  dark_void_upgrade: cutscene_dark_void_upgrade,
+  
+  infinity_upgrade: cutscene_infinity_upgrade,
+  euphonium_upgrade: cutscene_euphonium_upgrade,
+  enchanting_upgrade: cutscene_enchanting_upgrade,
+  chroniton_upgrade: cutscene_chroniton_upgrade,
+  ender_power_upgrade: cutscene_enchanting_upgrade,
+  fortron_upgrade: cutscene_fortron_upgrade,
+  shadow_casing_upgrade: cutscene_euphonium_upgrade,
+  machine_block_upgrade: cutscene_chroniton_upgrade,
+  quantum_tunnel_upgrade: cutscene_quantum_tunnel_upgrade,
+  twilight_forest_upgrade: cutscene_twilight_forest_upgrade,
+  fortron_upgrade: cutscene_fortron_upgrade,
+  advanced_machine_upgrade: cutscene_advanced_machine_upgrade,
+  enderium_upgrade: cutscene_enderium_upgrade,
+  spirit_upgrade: cutscene_spirit_upgrade,
+  draconic_upgrade: cutscene_awakened_core_upgrade,
+  awakened_core_upgrade: cutscene_awakened_core_upgrade,
+  shadow_casing_upgrade: cutscene_euphonium_upgrade,
+}
+
 
 PlayerEvents.tick(event => {
     const { player, server, level } = event;
     if (server.tickCount % 20 !== 0) return;
-
-    Object.entries(cutsceneMap).forEach(([name, func]) => {
-        let stageTrigger = func['stage_trigger'];
-        let stageSet = func['stage_set'];
-        if (player.stages.has(stageTrigger) && !player.stages.has(stageSet)) {
-            if (level.isClientSide) {
-                let currentScreen = Client.getCurrentScreen();
-                if (currentScreen != null) return;
-            }
-            player.stages.add(stageSet);
-            func['function'](player);
-        }
-    });
+    if (player.stages.has("echo_guidance_meet") && !player.stages.has("echo_guidance_intro_cutscene")) {
+        player.sendData('intro_ready', {});
+    }
 })
+
+NetworkEvents.dataReceived('trigger_intro', event => { 
+        event.player.stages.add("echo_guidance_intro_cutscene");
+        cutscene_intro(event.player);
+});
+
 
 PlayerEvents.loggedIn(event => {
     const { player } = event;

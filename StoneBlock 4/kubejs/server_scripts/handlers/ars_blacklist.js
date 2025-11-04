@@ -18,20 +18,21 @@ const blacklistedSpells = [
     "Rotate",
     "Freeze",
     "Evaporate",
+    "Ignite",
+    "Smelt",
     "Interact"
 ]
 
 NativeEvents.onEvent("com.hollingsworth.arsnouveau.api.event.SpellCastEvent", event => {
     try {
         let {entity, spell} = event
-
         if (!entity.isPlayer()) return
         if (entity.isCreative()) return
         let spellRecipe = spell.recipe();
         let hasBlacklistedSpell = spellRecipe.filter(part => blacklistedSpells.includes(part.getName())).length > 0
         if (!hasBlacklistedSpell) return
 
-        if(!isEntityInVault(entity)) return
+        if(!isEntityInVault(entity) && !isEntityInBiome(entity,"minecraft:the_void")) return
         
         entity.sendSystemMessage(Text.translate("ftb.ars.blacklist.denied").red(), true);
         event.setCanceled(true)

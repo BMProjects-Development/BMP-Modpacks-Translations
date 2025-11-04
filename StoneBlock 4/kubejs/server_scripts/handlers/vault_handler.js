@@ -2,36 +2,12 @@ let $IWrenchable = Java.loadClass(
   "com.simibubi.create.content.equipment.wrench.IWrenchable"
 );
 
-/*
-PlayerEvents.tick((event) => {
-    const {level, player} = event;
-    if (player.isCreative() || player.isSpectator()) return;
-    if(!isInVault(player)) return;
-
-    //TODO: Add player Tick Stuff for Vaults here!
-    
-})
-*/
-
-// Convert this in a BlockEvent click maybe? (initially made this, bcause i thought projectiles are spawned through rightclick event)
-// const vaultRightClickBlacklist = ['projecte:evertide_amulet', 'projecte:volcanite_amulet']
-// ItemEvents.rightClicked(vaultRightClickBlacklist, event => {
-//     const {player, item} = event;
-
-//     if (player.isCreative() || player.isSpectator()) return;
-//     if(!isInVault(player)) return;
-//     if (!vaultRightClickBlacklist.includes(item.id.toString())) return;
-
-//     player.sendSystemMessage(Text.translate("ftb.vaults.blacklist.denied").red())
-//     event.cancel();
-// })
-
 EntityEvents.spawned(
   ["projecte:lava_projectile", "projecte:water_projectile", "minecraft:wither","minecraft:wither_skull"],
   (event) => {
     const { entity } = event;
-    if (!isInVault(entity)) return;
-    event.cancel();
+    if (!isInVault(entity)) return; //not in a vault, do nothing
+    event.cancel();// in a vault, stop the entity from spawning
   }
 );
 

@@ -120,6 +120,37 @@ const matterValues = [
     nether: 2,
   },
   {
+    itemID: "mekanism:alloy_infused",
+    precious: 4,
+    earth: 2,
+    metallic: 2,
+  },
+  {
+    itemID: "mekanism:alloy_reinforced",
+    precious: 40,
+    earth: 2,
+    metallic: 2,
+  },
+  {
+    itemID: "mekanism:alloy_atomic",
+    precious: 40,
+    earth: 4,
+    metallic: 2,
+    nether: 4
+  },  
+  {
+    itemID: "mekanism:alloy_infused",
+    precious: 4,
+    earth: 2,
+    metallic: 2,
+  },    
+  {
+    itemID: "mekanism:basic_control_circuit",
+    precious: 4,
+    earth: 2,
+    metallic: 11,
+  },      
+  {
     itemID: "megacells:printed_accumulation_processor",
     earth: 4,
     organic: 4,

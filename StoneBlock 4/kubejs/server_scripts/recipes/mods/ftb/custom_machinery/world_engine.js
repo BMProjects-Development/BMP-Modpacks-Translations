@@ -14,8 +14,7 @@ const STRUCTURES = {
       [" ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", "m"],
-    ],
-    //cutscene: cutscene_dark_void_upgrade,
+    ]
   },
   infinity_upgrade: {
     keys: { a: "oritech:reactor_reflector", b: "avaritia:infinity_block" },
@@ -28,8 +27,7 @@ const STRUCTURES = {
       [" ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", "m"],
-    ],
-    //cutscene: cutscene_infinity_upgrade
+    ]
   },
   euphonium_upgrade: {
     keys: { a: "ftb:euphonium" },
@@ -133,8 +131,7 @@ const STRUCTURES = {
         "       ",
         "   m   ",
       ],
-    ],
-    //cutscene: cutscene_euphonium_upgrade
+    ]
   },
   tesseract_upgrade: {
     keys: { a: "tesseract:tesseract" },
@@ -147,8 +144,7 @@ const STRUCTURES = {
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", "m"],
-    ],
-    //cutscene: cutscene_enchanting_upgrade
+    ]
   },
   chroniton_upgrade: {
     keys: { a: "ftb:chroniton_glass" },
@@ -237,8 +233,7 @@ const STRUCTURES = {
         "         ",
         "    m    ",
       ],
-    ],
-    //cutscene: cutscene_chroniton_upgrade,
+    ]
   },
   quantum_tunnel_upgrade: {
     keys: { a: "ae2:quantum_ring", b: "ae2:quantum_link" },
@@ -250,8 +245,7 @@ const STRUCTURES = {
       ["   ", "   "],
       ["   ", "   "],
       [" m ", "   "],
-    ],
-    //cutscene: cutscene_quantum_tunnel_upgrade
+    ]
   },
   enchanting_upgrade: {
     keys: {
@@ -350,8 +344,7 @@ const STRUCTURES = {
         "   ",
         " m ",
       ],
-    ],
-    //cutscene: cutscene_enchanting_upgrade
+    ]
   },
   ender_power_upgrade: {
     keys: { a: "powah:ender_cell_nitro" },
@@ -360,8 +353,7 @@ const STRUCTURES = {
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", "m"],
-    ],
-    //cutscene: cutscene_enchanting_upgrade
+    ]
   },
   resonant_void_upgrade: {
     keys: { a: "ftb:resonant_void" },
@@ -376,8 +368,7 @@ const STRUCTURES = {
       ["a   a", "     ", "     "],
       ["a   a", "     ", "     "],
       ["     ", "     ", "  m  "],
-    ],
-    //cutscene: cutscene_fortron_upgrade
+    ]
   },
   advanced_machine_upgrade: {
     keys: { a: "ftb:world_engine_advanced_machine_block" },
@@ -460,8 +451,7 @@ const STRUCTURES = {
         "           ",
         "     m     ",
       ],
-    ],
-    //cutscene: cutscene_advanced_machine_upgrade,
+    ]
   },
   enderium_upgrade: {
     keys: { a: "ftb:enderium_block" },
@@ -499,8 +489,7 @@ const STRUCTURES = {
         "       ",
         "   m   ",
       ],
-    ],
-    //cutscene: cutscene_enderium_upgrade
+    ]
   },
   spirit_upgrade: {
     keys: { a: "ftb:spirit_block" },
@@ -538,8 +527,7 @@ const STRUCTURES = {
         "       ",
         "   m   ",
       ],
-    ],
-    //cutscene: cutscene_spirit_upgrade
+    ]
   },
   machine_block_upgrade: {
     keys: { a: "ftb:world_engine_machine_block" },
@@ -640,8 +628,7 @@ const STRUCTURES = {
         "         ",
         "    m    ",
       ],
-    ],
-    //cutscene: cutscene_chroniton_upgrade
+    ]
   },
   twilight_upgrade: {
     keys: {
@@ -694,8 +681,7 @@ const STRUCTURES = {
         "         ",
         "    m    ",
       ],
-    ],
-    //cutscene: cutscene_twilight_forest_upgrade
+    ]
   },
   source_upgrade: {
     keys: { a: "ars_nouveau:sourcestone" },
@@ -720,8 +706,7 @@ const STRUCTURES = {
       ["     ", "     ", "     ", "     ", "     ", "     ", "     ", "     "],
       ["     ", "     ", "     ", "     ", "     ", "     ", "     ", "  b  "],
       ["     ", "     ", "     ", "     ", "     ", "     ", "     ", "  m  "],
-    ],
-    //cutscene: cutscene_euphonium_upgrade
+    ]
   },
   draconic_upgrade: {
     keys: {
@@ -1006,9 +991,7 @@ const STRUCTURES = {
         "                     ",
         "          b          ",
       ],
-    ],
-    //cutscene: cutscene_awakened_core_upgrade,
-    postEvent: draconic_core_init
+    ]
   },
   awakened_core_upgrade: {
     keys: {
@@ -1256,8 +1239,7 @@ const STRUCTURES = {
         "             ",
         "             ",
       ],
-    ],
-    //cutscene: cutscene_awakened_core_upgrade
+    ]
   },
 };
 
@@ -3461,6 +3443,25 @@ ServerEvents.recipes(function (event) {
       ],
     },
     {
+      id: "ftb:world_engine/gateway_coralssus",
+      machineId: "ftb:world_engine",
+      duration: 240,
+      structures: ["machine_block_upgrade", "enderium_upgrade"],
+      energyPerTick: 32768,
+      itemInputs: [
+        { item: "avaritia:diamond_lattice", count: 2 },
+        { item: "ars_nouveau:water_essence", count: 4 },
+        {
+          item: "projecte:dark_matter",
+          count: 1,
+        }
+      ],
+      itemOutputs: [
+        { item: 'gateways:gate_pearl[gateways:gateway="gateways:coralssus"]', count: 1 },
+      ],
+    },
+
+    {
       id: "ftb:world_engine/stack_upgrade_tier_2",
       machineId: "ftb:world_engine",
       duration: 80,
@@ -3543,7 +3544,10 @@ ServerEvents.recipes(function (event) {
       ],
       energyPerTick: 32768,
       source: { amount: 10000 },
-      itemInputs: [{ item: "projecte:red_matter", count: 1 }],
+      itemInputs: [
+        { item: "projecte:red_matter", count: 1 },
+        { item: "rftoolsbase:infused_enderpearl", count: 16}
+      ],
       itemOutputs: [{ item: "apotheosis:mythic_material", count: 16 }],
     },
     {
@@ -3824,6 +3828,26 @@ ServerEvents.recipes(function (event) {
         { item: "malum:imitation_heart", count: 1 },
       ],
       itemOutputs: [{ item: "ars_nouveau:glyph_animate_block", count: 1 }],
+    },
+    {
+      id: "ftb:world_engine/dragon_head",
+      machineId: "ftb:world_engine",
+      duration: 100,
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+      ],
+      energyPerTick: 30720,
+      itemInputs: [
+        { item: "draconicevolution:dragon_heart", count: 1 },
+        { item: "minecraft:dragon_egg", count: 1 },
+        { item: "draconicevolution:wyvern_core", count: 2 },
+        { item: "irons_spellbooks:dragonskin", count: 4 },
+        { item: "mob_grinding_utils:saw_upgrade_beheading", count: 8 },
+      ],
+      itemOutputs: [{ item: "minecraft:dragon_head", count: 1 }],
     },
     {
       id: "ftb:world_engine/worker_token_feed_bread",
@@ -4271,12 +4295,15 @@ ServerEvents.recipes(function (event) {
       machineId: "ftb:world_engine",
       duration: 1200,
       energyPerTick: 1024,
+      tempC: { min: 350 },
       structures: ["machine_block_upgrade"],
       itemInputs: [
-        { item: "mekanism:electrolytic_core", count: 1 },
-        { item: "mekanism:steel_casing", count: 2 },
+        { item: "mekanism:electrolytic_core", count: 2 },
+        { item: "mekanism:superheating_element", count: 1 },
         { item: "ftbmaterials:osmium_ingot", count: 4 },
-        { item: "mekanism:alloy_infused", count: 2 },
+        { item: "mekanism:alloy_reinforced", count: 8 },
+        { item: "powah:thermoelectric_plate", count: 2 },
+        { item: "mekanism:elite_control_circuit", count: 1 },
       ],
       itemOutputs: [
         { item: "mekanismgenerators:gas_burning_generator", count: 1 },
@@ -4879,7 +4906,7 @@ ServerEvents.recipes(function (event) {
       machineId: "ftb:world_engine",
       duration: 210,
       energyPerTick: 256,
-      structures: ["ars_source_upgrade"],
+      structures: ["source_upgrade"],
       source: { amount: 3500 },
       itemInputs: [
         { item: "ars_nouveau:manipulation_essence", count: 1 },
@@ -5167,9 +5194,8 @@ function wePlaceOne(structName, structDef, base_level, tellFn) {
           base_level,
           WORLDENGINE_STATES.FINISHED
         );
-        if(structDef.postEvent){
-          console.log("Running postEvent for structure:", structName);
-          structDef.postEvent(base_level);
+        if(POST_EVENTS && POST_EVENTS[structName]) {
+          POST_EVENTS[structName](base_level);
         }
         WorldEngineStateMachine.killDisplays(base_level);
         if (tellFn) tellFn(WE_LANG.DONE, String(iteration), structName);
@@ -5269,9 +5295,9 @@ ServerEvents.commandRegistry(function (event) {
     if (Object.prototype.hasOwnProperty.call(STRUCTS, k)) UPGRADE_KEYS.push(k);
 
   // Root literal
-  var root = Commands.literal("worldengine");
+  var root = Commands.literal("worldengine").requires(src => src.hasPermission(3));
 
-  // --- /worldengine all ---
+   // --- /worldengine all ---
   root = root.then(
     Commands.literal("all").executes(function (context) {
       var source = context.getSource();
@@ -5390,11 +5416,12 @@ ServerEvents.commandRegistry(function (event) {
             return 0;
           }
           player["teleportTo(net.minecraft.server.level.ServerLevel,double,double,double,float,float)"](base_level, 3.5, -20, 5.5, 180, 0)
-          /*if(STRUCTS[upgradeName].cutscene){
+          if(STRUCTS[upgradeName].cutscene){
             player.level.server.scheduleInTicks(20, () => {
+              console.log("Starting cutscene for structure:", upgradeName);
               STRUCTS[upgradeName].cutscene(player);
             })
-          }*/
+          }
           var res = wePlaceOne(upgradeName, struct, base_level, function () {
             player.sendSystemMessage(Text.translate.apply(Text, arguments));
           });
@@ -5403,6 +5430,8 @@ ServerEvents.commandRegistry(function (event) {
       );
     })(UPGRADE_KEYS[i]);
   }
+
+
 
   // Bare /worldengine -> usage + list
   root = root.executes(function (context) {
@@ -5473,10 +5502,12 @@ ServerEvents.commandRegistry(function (event) {
         return 0;
       }
       setBlocksToAir(base_level, structDef);
-      player.tell(Text.translate(WE_LANG.RESET, structName));
+      console.log(`[WorldEngine] Reset structure: ${structName}`);
+      // player.tell(Text.translate(WE_LANG.RESET, structName));
       return 1;
     })));
   });
+  
   event.register(root);
 });
 
@@ -5510,7 +5541,12 @@ const WORLDENGINE_AUTOBUILD_QUESTS = {
   enchanting_upgrade: "50B0E45705EDB5F2",
   chroniton_upgrade: "101B8D9769D835AB",
   spirit_upgrade: "0FF5D73B3256F400",
+  ender_power_upgrade: "7EEBD17F0EA6EE0C",
+  tesseract_upgrade: "727070B13B966DE1",
+  enderium_upgrade: "2EA7D8A9632F845F",
+  fortron_upgrade: "55D17BDE3E9C81CC",
   advanced_machine_upgrade: "21E1A72027DBF236",
+  draconic_upgrade: "51B3EF0BCEB804A4",
   quantum_tunnel_upgrade: "02BC8FCDB2D94F0E",
   euphonium_upgrade: "14537A63D3BDC09B",
   resonant_void_upgrade: "5FDB9EC42FE936C6",
@@ -5622,8 +5658,3 @@ PlayerEvents.loggedIn((event) => {
 });
 
 
-function draconic_core_init(level) {
-    let block = level.getBlock(3, -11, -2);
-    console.log("Draconic Core Init - Block at (3,-11,-2):", block.id);
-    if(!block.entity.active.get()) block.entity.toggleActivation();
-}

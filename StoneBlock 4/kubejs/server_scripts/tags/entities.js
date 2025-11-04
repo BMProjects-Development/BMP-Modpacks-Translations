@@ -24,6 +24,10 @@ const addEntityTags = [
   {
     tagName: "industrialforegoing:mob_imprisonment_tool_blacklist",
     entityIDs: ["mekanism:robit"]
+  },
+  {
+    tagName: "apothic_spawners:blacklisted_from_spawners",
+    entityIDs: ["#c:roost/chicken"]
   }
 ]
 

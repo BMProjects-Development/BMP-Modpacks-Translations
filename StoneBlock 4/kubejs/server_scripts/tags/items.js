@@ -30,6 +30,58 @@ const addItemTags = [
     ]
   },
   {
+    tagName: "ftb:jewelry_metal",
+    itemIDs: [
+      "avaritia:infinity_ingot",
+      "avaritia:neutronium_ingot",
+      "cataclysm:witherite_ingot",
+      "chicken_roost:ingot_enderium",
+      "draconicevolution:awakened_draconium_ingot",
+      "draconicevolution:draconium_ingot",
+      "enderio:dark_steel_ingot",
+      "ftb:fortron_infused_ingot",
+      "ftbmaterials:refined_glowstone_ingot",
+      "ftbmaterials:refined_obsidian_ingot",
+      "irons_spellbooks:arcane_ingot",
+      "irons_spellbooks:mithril_ingot",
+      "irons_spellbooks:pyrium_ingot",
+      "irregular_implements:spectre_ingot",
+      "justdirethings:blazegold_ingot",
+      "justdirethings:eclipsealloy_ingot",
+      "malum:hallowed_gold_ingot",
+      "malum:soul_stained_steel_ingot",
+      "occultism:iesnium_ingot",
+      "oritech:duratium_ingot",
+      "oritech:prometheum_ingot",
+      "psi:psimetal"
+    ]
+  },
+  {
+    tagName: "ftb:jewelry_gem",
+    itemIDs: [
+      "actuallyadditions:black_quartz",
+      "actuallyadditions:diamatine_crystal",
+      "actuallyadditions:emeradic_crystal",
+      "actuallyadditions:palis_crystal",
+      "actuallyadditions:void_crystal",
+      "ars_nouveau:source_gem",
+      "cognition:cognitive_crystal",
+      "draconicevolution:small_chaos_frag",
+      "enderio:pulsating_crystal",
+      "ftbmaterials:dimensional_shard_gem",
+      "ftbmaterials:steel_ingot",
+      "justdirethings:celestigem",
+      "justdirethings:time_crystal",
+      "malum:fused_consciousness",
+      "malum:mnemonic_fragment",
+      "minecraft:clay_ball",
+      "oritech:fluxite",
+      "projecte:dark_matter",
+      "projecte:red_matter",
+      "psi:psigem"
+    ]
+  },
+  {
     tagName: "curios:stick",
     itemIDs: ["minecraft:stick"]
   },
@@ -77,6 +129,10 @@ const addItemTags = [
       "minecraft:polished_andesite",
       "minecraft:polished_diorite"
     ]
+  },
+  {
+    tagName: "ftbultimine:tools",
+    itemIDs: ["mekanism:atomic_disassembler"]
   }
 ]
 

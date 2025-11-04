@@ -178,9 +178,6 @@ BlockEvents.rightClicked(event => {
     // Must be holding the portal gun
     if (String(item.id) !== "ftb:portal_gun") return;
 
-    //Adding a Cooldown.
-    player.addItemCooldown(event.item, 20);
-
     // Must be crouching (shift)
     // Disabled the Requirement for Shift + Click cause in some edge cases people
     // may get stuck inside Air Vents if they place a Cube inside it.
@@ -212,6 +209,9 @@ BlockEvents.rightClicked(event => {
         1.0
     );
 
+    //Adding a Cooldown.
+    player.addItemCooldown(event.item, 20);
+
     // Stop default right-click action
     event.cancel();
 });
@@ -225,9 +225,6 @@ ItemEvents.rightClicked(portalGun, event => {
 
     //If the Player is Crouching, Nothing Should Happen.
     // if (player.isCrouching()) return;
-
-    //Adding a Cooldown.
-    player.addItemCooldown(event.item, 20);
     
     //Ray Tracing the Block to place the Exit Portal at.
     const distance = 32;
@@ -263,6 +260,9 @@ ItemEvents.rightClicked(portalGun, event => {
         player.tell(Text.translate("ftb.vaults.portal.portalgun.placement_fail").red());
         return;
     }
+
+    //Adding a Cooldown.
+    player.addItemCooldown(event.item, 20);
 
 });
 

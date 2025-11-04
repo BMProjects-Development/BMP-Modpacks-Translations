@@ -116,9 +116,10 @@ EntityEvents.spawned("cataclysm:maledictus", (event) => {
     if(!entity.isLiving()) return
     if(level.dimension != "dimdungeons:dungeon_dimension") return
     let spawnPos = entity.blockPosition()
-    let aabb = AABB.of(spawnPos.x-9, spawnPos.y-3, spawnPos.z-5, spawnPos.x+9, spawnPos.y+5, spawnPos.z+14)
-    customTick(entity, 20, (entity, aabb, spawnPos) => {
-        if(aabb.intersects(entity.getBoundingBox())) {
+    let aabb = AABB.of(spawnPos.x-15, spawnPos.y-3, spawnPos.z-15, spawnPos.x+15, spawnPos.y+15, spawnPos.z+15)
+
+    customTick(entity, 20, () => {
+        if(!aabb.intersects(entity.getBoundingBox())) {
             entity.teleportTo(spawnPos.x + 0.5, spawnPos.y, spawnPos.z + 0.5);
         }
     })
@@ -297,3 +298,30 @@ function modifyEntity(event, radius, healthScale, attributes){
         entity.setAttributeBaseValue(attribute, value)
     })
 }
+
+
+NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.PlayerEvent$PlayerChangedDimensionEvent", event => {
+  const { entity:player} = event;
+  try{
+    if(event.getTo() != "dimdungeons:dungeon_dimension") return
+
+
+    let pData = player.level.persistentData;
+    if(!pData["dimdungeon_boss_arena_spawn"]){
+        pData["dimdungeon_boss_arena_spawn"] = {}
+    }
+
+
+    let key = `${player.x.toFixed(0)}-${player.y.toFixed(0)}-${player.z.toFixed(0)}`;
+    let kuLevel = new Ku.Level(player.level);
+
+    if(!pData["dimdungeon_boss_arena_spawn"][key]){
+      kuLevel.spawnStructure("ftb:vaults/dimdungeons/boss", player.block.pos.offset(-22, 25, -27));
+      pData["dimdungeon_boss_arena_spawn"][key] = true;
+    }
+
+
+  }catch(e){
+    console.log(`Error logging player travel to Dimensional Dungeon: ${e}`);
+  }
+})

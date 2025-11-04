@@ -718,6 +718,23 @@ ServerEvents.recipes((event) => {
       }
     })
     .id("ftb:roost/roost/c_skystone")
+  event
+    .custom({
+      type: "chicken_roost:roost_output",
+      food: {
+        tag: "c:seeds/tier9orup"
+      },
+      chicken: {
+        item: "chicken_roost:c_antimatter"
+      },
+      time: 12000,
+      output: {
+        item: "mekanism:pellet_antimatter"
+      }
+    })
+    .id("ftb:roost/roost/c_antimatter")
+
+
 
 })
 

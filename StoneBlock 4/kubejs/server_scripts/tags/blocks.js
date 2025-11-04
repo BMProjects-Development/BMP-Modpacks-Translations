@@ -26,7 +26,8 @@ const addBlockTags = [
       "twilightforest:mazestone_mosaic",
       "twilightforest:mazestone_border"
     ]
-  }
+  },
+  { tagName: "minecraft:replaceable_by_trees", blockIDs: ["minecraft:light"] }
 ]
 
 const relocationDenyBlocks = [
@@ -52,6 +53,9 @@ const removeBlockTags = [
   {
     tagName: "minecraft:mineable/axe",
     blockIDs: ["minecraft:crafting_table"]
+  },
+  { tagName: "sfm:anvil_disenchanting",
+    blockIDs: ["minecraft:obsidian"]
   },
   {
     tagName: "twilightforest:mazestone",

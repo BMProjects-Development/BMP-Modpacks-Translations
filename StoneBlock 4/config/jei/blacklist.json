@@ -1,7 +1,0 @@
-[
-  {"version":2},
-  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"mekanism_lasers:laser_configurator"},"type":"item_stack"}},
-  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"enderio:block_detector"},"type":"item_stack"}},
-  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"enderio:suspicious_seed"},"type":"item_stack"}},
-  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"sophisticatedstorage:basic_tier_upgrade"},"type":"item_stack"}}
-]

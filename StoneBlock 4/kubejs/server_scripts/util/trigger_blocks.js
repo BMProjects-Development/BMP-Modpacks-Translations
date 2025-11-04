@@ -8,10 +8,10 @@ const TRIGGER_ROUTES = [
   //{ id: "go_to_thing", cmd: "summon cow {x} {y} {z}" },
   //{ id: "testing",     cmd: "custom" } // handled in CUSTOM_HANDLERS
 
-  {
-    id: "trivia_start",
-    cmd: "execute as @e[type=minecraft:marker,sort=nearest,limit=1,tag=tf_knight_redstone] at @s run setblock ~ ~ ~ minecraft:redstone_block"
-  },
+  //{
+  //  id: "trivia_start",
+  //  cmd: "execute as @e[type=minecraft:marker,sort=nearest,limit=1,tag=tf_knight_redstone] at @s run setblock ~ ~ ~ minecraft:redstone_block"
+  //},
   {
     id: "spawn_carb",
     cmd: 'execute at @e[type=minecraft:marker,tag=spawn_carb] unless   entity @e[type=twilightforest:helmet_crab,distance=..50] run summon twilightforest:helmet_crab ~ ~0.2 ~ {Attributes:[{id:"minecraft:generic.scale",base:0.5}]}'

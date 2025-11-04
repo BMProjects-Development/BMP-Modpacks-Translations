@@ -21,6 +21,7 @@ global.COW_TRANSMUTE_RULES = [
       { id: "productivemetalworks:molten_tin", weight: 14 },
       { id: "productivemetalworks:molten_zinc", weight: 14 },
       { id: "productivemetalworks:molten_lead", weight: 12 },
+      { id: "productivemetalworks:molten_carbon", weight: 12 },
 
       // mid-tier
       { id: "productivemetalworks:molten_nickel", weight: 10 },
@@ -33,7 +34,7 @@ global.COW_TRANSMUTE_RULES = [
       { id: "productivemetalworks:molten_uranium", weight: 3 },
       { id: "productivemetalworks:molten_amethyst", weight: 2 },
       { id: "productivemetalworks:molten_redstone", weight: 6 },
-      { id: "productivemetalworks:molten_carbon", weight: 6 },
+      { id: "productivemetalworks:molten_osmium", weight: 6 },
     ],
   },
 ];

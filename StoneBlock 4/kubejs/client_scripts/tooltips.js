@@ -398,6 +398,65 @@ ItemEvents.modifyTooltips((event) => {
 });
 
 // ---------------------------------------------------------------------------
+// Item tooltips: Iron's Jewelry Items
+// ---------------------------------------------------------------------------
+
+ItemEvents.modifyTooltips((event) => {
+event.add(
+  [
+      "actuallyadditions:black_quartz",
+      "actuallyadditions:diamatine_crystal",
+      "actuallyadditions:emeradic_crystal",
+      "actuallyadditions:palis_crystal",
+      "actuallyadditions:void_crystal",
+      "ars_nouveau:source_gem",
+      "cognition:cognitive_crystal",
+      "draconicevolution:small_chaos_frag",
+      "enderio:pulsating_crystal",
+      "ftbmaterials:dimensional_shard_gem",
+      "ftbmaterials:steel_ingot",
+      "justdirethings:celestigem",
+      "justdirethings:time_crystal",
+      "malum:fused_consciousness",
+      "malum:mnemonic_fragment",
+      "minecraft:clay_ball",
+      "oritech:fluxite",
+      "projecte:dark_matter",
+      "projecte:red_matter",
+      "psi:psigem"
+  ], Text.translate("ftb.tooltip.jewelry_gem").green())
+
+event.add(
+  [
+      "avaritia:infinity_ingot",
+      "avaritia:neutronium_ingot",
+      "cataclysm:witherite_ingot",
+      "chicken_roost:ingot_enderium",
+      "draconicevolution:awakened_draconium_ingot",
+      "draconicevolution:draconium_ingot",
+      "enderio:dark_steel_ingot",
+      "ftb:fortron_infused_ingot",
+      "ftbmaterials:refined_glowstone_ingot",
+      "ftbmaterials:refined_obsidian_ingot",
+      "irons_spellbooks:arcane_ingot",
+      "irons_spellbooks:mithril_ingot",
+      "irons_spellbooks:pyrium_ingot",
+      "irregular_implements:spectre_ingot",
+      "justdirethings:blazegold_ingot",
+      "justdirethings:eclipsealloy_ingot",
+      "malum:hallowed_gold_ingot",
+      "malum:soul_stained_steel_ingot",
+      "occultism:iesnium_ingot",
+      "oritech:duratium_ingot",
+      "oritech:prometheum_ingot",
+      "psi:psimetal"
+    ], Text.translate("ftb.tooltip.jewelry_metal").green())
+
+})
+
+
+
+// ---------------------------------------------------------------------------
 // Fluid hover tooltip (optional, guarded)
 // Many environments don't expose FluidEvents or suppress fluid tooltips.
 // If FluidEvents is unavailable, this section is safely skipped.

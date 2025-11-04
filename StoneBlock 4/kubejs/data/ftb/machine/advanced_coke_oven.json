@@ -1,5 +1,7 @@
 {
-  "name": "ftb.machine.advanced_coke_oven",
+  "name": {
+    "text": "ftb.machine.advanced_coke_oven"
+  },
   "appearance": {
     "running": {
       "custommachinery:block": "ftb:machine/advanced_coke_oven_active#standalone",
@@ -30,12 +32,13 @@
       "type": "custommachinery:fluid",
       "mode": "output",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
         "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
       },
       "max_input": 0,
       "id": "fluid_output",
@@ -75,6 +78,21 @@
       "height": 192
     },
     {
+      "type": "custommachinery:config",
+      "x": 120,
+      "y": 18,
+      "width": 12,
+      "height": 12
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 165,
+      "y": 65,
+      "width": 16,
+      "height": 6,
+      "tanks": "fluid_output"
+    },
+    {
       "type": "custommachinery:energy",
       "x": 73,
       "y": 19
@@ -87,8 +105,8 @@
     },
     {
       "type": "custommachinery:fuel",
-      "x": 117,
-      "y": 54,
+      "x": 114,
+      "y": 60,
       "width": 24,
       "height": 24
     },

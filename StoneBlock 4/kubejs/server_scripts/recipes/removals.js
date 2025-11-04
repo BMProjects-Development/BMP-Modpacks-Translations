@@ -8,6 +8,7 @@ const recipeIdsToRemove = [
   "chisel_chipped_integration:convert/gold_metal_to_ingot",
   "chisel_chipped_integration:convert/iron_metal_to_ingot",
   "chisel_chipped_integration:convert/lapis_metal_to_gem",
+  "create_connected:crafting/kinetics/item_silo",
   "ftbstuff:diamond_hammer",
   "ftbstuff:gold_hammer",
   "ftbstuff:iron_hammer",
@@ -21,6 +22,7 @@ const recipeIdsToRemove = [
   "ae2:inscriber/certus_quartz_dust",
   "malum:runic_twisted_rock_bricks_wall",
   "malum:runic_twisted_rock_tiles_wall",
+  "create:crafting/kinetics/hand_crank",
   "industrialforegoing:mycelial_culinary",
   "clavis:lock_pick",
   "laserio:card_holder",
@@ -235,6 +237,7 @@ const recipeIdsToRemove = [
   "megacells:inscriber/accumulation_processor_press",
   "advanced_ae:quantum_processor_press",
   "appflux:inscriber/energy_press",
+  "projecte:white_alchemical_bag",
   "extendedae:inscriber/crush_entro",
   "advanced_ae:quantum_processor_press_from_iron",
   "ae2:inscriber/ender_dust",
@@ -243,7 +246,9 @@ const recipeIdsToRemove = [
   "megacells:inscriber/accumulation_processor_press_extra",
   "ae2:inscriber/silicon_press",
   "ae2:network/blocks/inscribers",
-  "sfm:cable"
+  "sfm:cable",
+  "projecte:repair_talisman_alt",
+  "projecte:repair_talisman"
 ]
 
 const recipeTypesToRemove = ["immersiveengineering:arc_recycling"]

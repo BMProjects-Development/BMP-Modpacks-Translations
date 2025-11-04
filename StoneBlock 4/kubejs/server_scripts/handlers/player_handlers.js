@@ -68,7 +68,6 @@ let SB4$WE_BLACKLIST_BLOCKS = [
   "simplylight:wall_lamp_orange",
   "minecraft:andesite_stairs",
   "create:flywheel",
-  "create:shaft",
   "simplylight:illuminant_lime_block_on",
   "custommachinery:custom_machine_block",
 ]
@@ -165,3 +164,21 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.EntityInvulnerabilityC
   let result = source.isCreativePlayer() ? event.getOriginalInvulnerability() : inBiome
   event.setInvulnerable(result)
 })
+
+ItemEvents.entityInteracted(event => {
+  cancelOverWorldInteractions(event);
+})
+BlockEvents.rightClicked(event => {
+  cancelOverWorldInteractions(event);
+});
+
+const cancelOverWorldInteractions = (event) => {
+  const { player, entity, item, level } = event;
+  if (player.isCreative()) return;
+  if (level.dimension != "minecraft:overworld") return;
+  if (entity?.type == "ftbechoes:echo") return;
+
+  if (player.getMainHandItem().id == "minecraft:air" && player.getOffhandItem().id == "minecraft:air") return;
+  event.cancel();
+}
+
