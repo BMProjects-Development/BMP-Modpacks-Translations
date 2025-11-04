@@ -1,0 +1,32 @@
+{
+  "descriptionId": "ftb.irons.material.black_quartz",
+  "ingredient": {
+    "item": "actuallyadditions:black_quartz"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/black_quartz",
+  "quality": 1,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:cold_damage",
+      "amount": 2,
+      "operation": "add_value"
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:jump_boost"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": false,
+      "action": {
+        "type": "irons_jewelry:apply_damage",
+        "damageType": "minecraft:thorns",
+        "amount": {
+          "base": 2.0,
+          "scalar": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": { "p": 0.5, "n": 9, "type": "minecraft:binomial" },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/nether0/meta/nether_material",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "p": 0.6, "n": 10, "type": "minecraft:binomial" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.2 }],
+      "entries": [{ "type": "minecraft:loot_table", "value": "ftb:armors" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.4 }],
+      "entries": [{ "type": "minecraft:loot_table", "value": "ftb:food" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.2 }],
+      "entries": [{ "type": "minecraft:loot_table", "value": "ftb:gadgets" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.4 }],
+      "entries": [{ "type": "minecraft:loot_table", "value": "ftb:ingots" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.25 }],
+      "entries": [{ "type": "minecraft:loot_table", "value": "ftb:magic" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.25 }],
+      "entries": [{ "type": "minecraft:loot_table", "value": "ftb:tech" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.3 }],
+      "entries": [{ "type": "minecraft:loot_table", "value": "ftb:weapons" }]
+    }
+  ]
+}

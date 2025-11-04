@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chicken_roost:chicken_essence_tier_5"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_5"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_4"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_4"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_4"
+    },
+    {
+      "item": "ftbmaterials:dimensional_shard_gem"
+    },
+    {
+      "item": "ftbmaterials:dimensional_shard_gem"
+    },
+    {
+      "item": "ftbmaterials:dimensional_shard_gem"
+    },
+    {
+      "item": "ae2:fluix_pearl"
+    }
+  ],
+  "result": {
+    "id": "chicken_roost:chicken_food_tier_5",
+    "count": 1
+  }
+}

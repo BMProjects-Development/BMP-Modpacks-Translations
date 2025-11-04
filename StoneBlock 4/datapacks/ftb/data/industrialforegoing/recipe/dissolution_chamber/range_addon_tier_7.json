@@ -1,0 +1,55 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "almostunified:conditional",
+      "conditions_met": true,
+      "original_conditions": [
+        {
+          "type": "neoforge:item_exists",
+          "item": "industrialforegoing:range_addon_tier_7"
+        }
+      ]
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "tag": "c:ingots/gold"
+    },
+    {
+      "tag": "c:ingots/gold"
+    },
+    {
+      "tag": "c:ingots/gold"
+    },
+    {
+      "tag": "c:ingots/gold"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "fluid": "industrialforegoing:latex"
+  },
+  "output": {
+    "components": {
+      "titanium:augments": {
+        "Range": 7
+      }
+    },
+    "count": 1,
+    "id": "industrialforegoing:range_addon_tier_7"
+  },
+  "processingTime": 100
+}

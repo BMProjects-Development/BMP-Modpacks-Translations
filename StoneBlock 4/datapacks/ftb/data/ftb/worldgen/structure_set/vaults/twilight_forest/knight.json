@@ -1,0 +1,13 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:vaults/twilight_forest/knight",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "ftbteambases:one_chunk_only",
+    "cx": -15,
+    "cz": -141
+  }
+}

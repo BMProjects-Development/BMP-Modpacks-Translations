@@ -1,0 +1,411 @@
+{
+	"size": "large",
+	"color": "#627598",
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "minecraft:stray",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"gateways.skulk.stray\",\"color\":\"red\"}",
+                        "Fire": 32767
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:mob_effect",
+                                "effect": {
+                                    "effect": "minecraft:fire_resistance"
+                                }
+                        }
+                    ],
+					"count": 4
+				},
+				{
+					"entity": "minecraft:phantom",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"gateways.skulk.phantom\",\"color\":\"red\"}",
+                        "Fire": 32767
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:mob_effect",
+                                "effect": {
+                                    "effect": "minecraft:fire_resistance"
+                                }
+                        }
+                    ],
+					"count": 2
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": 0.40
+				}
+			],
+			"rewards": [
+                {
+                    "type": "gateways:stack_list",
+                    "stacks": [
+                        {
+                            "id": "minecraft:sculk",
+                            "count": 8
+                        },
+                        {
+                            "id": "minecraft:echo_shard",
+                            "count": 4
+                        }
+                  ]
+                }
+			],
+			"max_wave_time": 1600,
+			"setup_time": 100
+		},
+		{
+            "entities": [
+				{
+					"entity": "minecraft:stray",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"gateways.skulk.stray\",\"color\":\"red\"}",
+                        "Fire": 32767
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:mob_effect",
+                                "effect": {
+                                    "effect": "minecraft:fire_resistance"
+                                }
+                        }
+                    ],
+					"count": 6
+				},
+				{
+					"entity": "minecraft:phantom",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"gateways.skulk.phantom\",\"color\":\"red\"}",
+                        "Fire": 32767
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:mob_effect",
+                                "effect": {
+                                    "effect": "minecraft:fire_resistance"
+                                }
+                        }
+                    ],
+					"count": 4
+				}
+            ],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 2
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_multiplied_total",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "add_value",
+					"value": 0.05
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.20
+				}
+			],
+			"rewards": [
+                {
+                    "type": "gateways:stack_list",
+                    "stacks": [
+                        {
+                            "id": "minecraft:sculk",
+                            "count": 8
+                        },
+                        {
+                            "id": "minecraft:echo_shard",
+                            "count": 4
+                        }
+                  ]
+                }
+			],
+			"max_wave_time": 2400,
+			"setup_time": 150
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:stray",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"gateways.skulk.stray\",\"color\":\"red\"}",
+                        "Fire": 32767
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:mob_effect",
+                                "effect": {
+                                    "effect": "minecraft:fire_resistance"
+                                }
+                        }
+                    ],
+					"count": 6
+				},
+				{
+					"entity": "minecraft:phantom",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"gateways.skulk.phantom\",\"color\":\"red\"}",
+                        "Fire": 32767
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:mob_effect",
+                                "effect": {
+                                    "effect": "minecraft:fire_resistance"
+                                }
+                            },
+                        {
+                            "attribute": "apothic_attributes:fire_damage",
+                            "operation": "add_value",
+                            "value": 4
+                        }
+                    ],
+					"count": 4
+				},
+				{
+					"entity": "irons_spellbooks:necromancer",
+					"count": 2
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.20
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 3
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_multiplied_total",
+					"value": 0.20
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "add_value",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.20
+				}
+			],
+			"rewards": [
+                {
+                    "type": "gateways:stack_list",
+                    "stacks": [
+                        {
+                            "id": "minecraft:sculk",
+                            "count": 8
+                        },
+                        {
+                            "id": "minecraft:echo_shard",
+                            "count": 4
+                        }
+                  ]
+                }
+			],
+			"max_wave_time": 2800,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:stray",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"gateways.skulk.stray\",\"color\":\"red\"}",
+                        "Fire": 32767
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:mob_effect",
+                                "effect": {
+                                    "effect": "minecraft:fire_resistance"
+                                }
+                        }
+                    ],
+					"count": 6
+				},
+				{
+					"entity": "minecraft:phantom",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"gateways.skulk.phantom\",\"color\":\"red\"}",
+                        "Fire": 32767
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:mob_effect",
+                                "effect": {
+                                    "effect": "minecraft:fire_resistance"
+                                }
+                        }
+                    ],
+					"count": 4
+				},
+				{
+					"entity": "irons_spellbooks:necromancer",
+					"count": 4
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.25
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_multiplied_total",
+					"value": 0.30
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "add_value",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.20
+				}
+			],
+			"rewards": [
+                {
+                    "type": "gateways:stack_list",
+                    "stacks": [
+                        {
+                            "id": "minecraft:sculk",
+                            "count": 8
+                        },
+                        {
+                            "id": "minecraft:echo_shard",
+                            "count": 4
+                        }
+                  ]
+                }
+			],
+			"max_wave_time": 3200,
+			"setup_time": 280
+		},
+		{
+			"entities": [
+                {
+					"entity": "minecraft:warden",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"gateways.skulk.warden\",\"color\":\"dark_purple\"}",
+                        "PersistenceRequired": 1,
+                        "Brain": {
+                            "memories": {
+                              "minecraft:dig_cooldown": {
+                                "value": {},
+                                "ttl": 999999999
+                              }
+                            }
+                        }
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:mob_effect",
+                            "effect": {
+                                "effect": "minecraft:strength"
+                            }
+                        },
+                        {
+                            "attribute": "generic.max_health",
+                            "operation": "add_value",
+                            "value": 8
+                        }
+                    ],
+                    "count": 1,
+                    "finalize_spawn": false
+				}
+			],
+			"modifiers": [
+				{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": -0.35
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": -0.35
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_multiplied_total",
+					"value": -0.35
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.40
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 500,
+                    "orb_size": 25
+				}
+			],
+			"max_wave_time": 4800,
+			"setup_time": 340
+		}
+	],
+    "rewards": [
+		{
+            "type": "gateways:stack_list",
+			"stacks": [
+				{
+					"id": "apothic_enchanting:warden_tendril",
+					"count": 4
+				},
+				{
+					"id": "minecraft:sculk_shrieker",
+					"count": 2
+				},
+				{
+					"id": "actuallyadditions:empowered_void_crystal",
+					"count": 4
+				}
+		  ]
+        }
+    ],
+    "failures": [
+    ]
+}

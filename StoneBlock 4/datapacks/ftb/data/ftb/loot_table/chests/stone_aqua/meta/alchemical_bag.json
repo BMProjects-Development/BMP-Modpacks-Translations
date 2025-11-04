@@ -1,0 +1,90 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "projecte:black_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:lime_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:blue_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:light_blue_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:pink_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:white_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:magenta_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:orange_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:gray_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:green_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:yellow_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:red_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:cyan_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:light_gray_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:brown_alchemical_bag",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:purple_alchemical_bag",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

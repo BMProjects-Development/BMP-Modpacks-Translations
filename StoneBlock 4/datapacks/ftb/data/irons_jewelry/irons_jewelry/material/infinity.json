@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.infinity",
+  "ingredient": {
+    "item": "avaritia:infinity_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/infinity",
+  "quality": 100,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "neoforge:creative_flight",
+      "amount": 1,
+      "operation": "add_value"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:none",
+  "biomes": ["sb4:stone", "sb4:deepslate"],
+  "features": "create:striated_ores_overworld",
+  "step": "underground_ores"
+}

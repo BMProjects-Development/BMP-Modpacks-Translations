@@ -1,0 +1,20 @@
+{
+  "id": "ftbteambases:blackout",
+  "display": {
+    "title": "ftbteambases.base.blackouttitle",
+    "description": "ftbteambases.base.blackoutdesc",
+    "icon": "ftbteambases:bases/blackout",
+    "preview_image": "ftbteambases:textures/bases/blackout.png"
+  },
+  "construction": {
+    "pregen_template": "blackout",
+    "structure_sets": ["ftbteambases:default"],
+    "include_entities": true
+  },
+  "spawn_offset": [0, -188, 0],
+  "dimension": {
+    "dimension_type": "minecraft:overworld",
+    "private": true,
+    "dimension_id": "minecraft:overworld"
+  }
+}

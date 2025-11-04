@@ -1,0 +1,311 @@
+{
+	"size": "large",
+	"color": "#2ce2ff",
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "twilightforest:winter_wolf",
+					"count": 2
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": 0.40
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:pyromancer",
+					"rolls": 1
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:cryomancer",
+					"rolls": 1
+				}
+			],
+			"max_wave_time": 800,
+			"setup_time": 100
+		},
+		{
+			"entities": [{
+				"entity": "twilightforest:winter_wolf",
+				"count": 4
+			}],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 2
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_multiplied_total",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "add_value",
+					"value": 0.05
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.20
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:pyromancer",
+					"rolls": 1
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:cryomancer",
+					"rolls": 1
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 150
+		},
+		{
+			"entities": [
+				{
+					"entity": "twilightforest:winter_wolf",
+                    "count": 4
+				},
+				{
+					"entity": "twilightforest:unstable_ice_core",
+                    "count": 2
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.20
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 3
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_multiplied_total",
+					"value": 0.20
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "add_value",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.20
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:pyromancer",
+					"rolls": 1
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:cryomancer",
+					"rolls": 1
+				}
+			],
+			"max_wave_time": 1400,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+				{
+					"entity": "twilightforest:winter_wolf",
+                    "count": 3
+				},
+				{
+					"entity": "twilightforest:unstable_ice_core",
+                    "count": 2
+				},
+				{
+					"entity": "irons_spellbooks:ice_spider",
+                    "count": 1
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.25
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_multiplied_total",
+					"value": 0.30
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "add_value",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.20
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:pyromancer",
+					"rolls": 1
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:cryomancer",
+					"rolls": 1
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:ice_spider",
+					"rolls": 1
+				}
+			],
+			"max_wave_time": 1600,
+			"setup_time": 280
+		},
+		{
+			"entities": [
+                {
+					"entity": "irons_spellbooks:cryomancer",
+                    "desc": "gateways.seasoned_cryomancer",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"gateways.seasoned_cryomancer\",\"color\":\"aqua\"}"
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:mob_effect",
+                            "effect": {
+                                "effect": "minecraft:strength"
+                            }
+                        },
+                        {
+                            "attribute": "apothic_attributes:fire_damage",
+                            "operation": "add_value",
+                            "value": 4
+                        },
+                        {
+                            "attribute": "generic.max_health",
+                            "operation": "add_value",
+                            "value": 8
+                        }
+                    ],
+                    "count": 2,
+                    "finalize_spawn": false
+				},
+				{
+					"entity": "irons_spellbooks:ice_spider",
+                    "count": 2
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.35
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_multiplied_total",
+					"value": 0.50
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "add_value",
+					"value": 0.20
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.20
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 500,
+                    "orb_size": 25
+				}
+			],
+			"max_wave_time": 2000,
+			"setup_time": 340
+		}
+	],
+    "rewards": [
+		{
+			"type": "gateways:command",
+			"command": "summon irons_spellbooks:pyromancer",
+			"desc": "desc.gateways.command.pyromancer"
+		},
+		{
+            "type": "gateways:stack_list",
+			"stacks": [
+				{
+					"id": "ars_nouveau:fire_essence",
+					"count": 16
+				},
+				{
+					"id": "irons_spellbooks:hogskin",
+					"count": 4
+				},
+				{
+					"id": "minecraft:magma_cream",
+					"count": 16
+				},
+				{
+					"id": "twilightforest:ice_bomb",
+					"count": 8
+				},
+				{
+					"id": "irons_spellbooks:permafrost_shard",
+					"count": 4
+				},
+				{
+					"id": "irons_spellbooks:frozen_bone",
+					"count": 4
+				},
+				{
+					"id": "irregular_implements:super_lubricant_ice",
+					"count": 16
+				},
+				{
+					"id": "irons_spellbooks:raw_mithril",
+					"count": 16
+				}
+		  ]
+        }
+    ],
+    "failures": [
+    ]
+}

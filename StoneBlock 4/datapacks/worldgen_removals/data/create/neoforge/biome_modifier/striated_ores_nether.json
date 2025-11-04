@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:none",
+  "biomes": "sb4:nether",
+  "features": "create:striated_ores_nether",
+  "step": "underground_ores"
+}

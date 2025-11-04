@@ -1,0 +1,15 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "components",
+  "inputs": [
+    {
+      "tag": "c:plates/plastic"
+    },
+    {
+      "tag": "c:plates/copper"
+    }
+  ],
+  "result": {
+    "id": "immersiveengineering:circuit_board"
+  }
+}

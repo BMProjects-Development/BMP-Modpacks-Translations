@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.fluxite",
+  "ingredient": {
+    "item": "oritech:fluxite"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/fluxite",
+  "quality": 2.25,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.1,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

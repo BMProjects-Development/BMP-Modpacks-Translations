@@ -1,0 +1,20 @@
+{
+  "id": "ftbteambases:cave",
+  "display": {
+    "title": "ftbteambases.base.cave.title",
+    "description": "ftbteambases.base.cave.desc",
+    "icon": "ftbteambases:bases/cave",
+    "preview_image": "ftbteambases:textures/bases/cave.png"
+  },
+  "construction": {
+    "pregen_template": "cave",
+    "structure_sets": ["ftbteambases:default"],
+    "include_entities": true
+  },
+  "spawn_offset": [0, -188, 0],
+  "dimension": {
+    "dimension_type": "minecraft:overworld",
+    "private": true,
+    "dimension_id": "minecraft:overworld"
+  }
+}

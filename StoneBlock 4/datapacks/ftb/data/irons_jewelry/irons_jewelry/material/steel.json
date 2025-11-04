@@ -1,0 +1,19 @@
+{
+  "descriptionId": "ftb.irons.material.steel",
+  "ingredient": {
+    "item": "ftbmaterials:steel_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "irons_jewelry:palettes/netherite",
+  "quality": 2,
+  "bonusParameters": {
+      "irons_jewelry:attribute": {
+        "attribute": "minecraft:generic.knockback_resistance",
+        "amount": 2,
+        "operation": "add_value"
+      }    
+  
+  }
+}

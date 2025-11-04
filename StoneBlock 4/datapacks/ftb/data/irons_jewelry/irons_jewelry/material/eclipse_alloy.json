@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.eclipse_alloy",
+  "ingredient": {
+    "item": "justdirethings:eclipsealloy_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/eclipse_alloy",
+  "quality": 3,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:life_steal",
+      "amount": 0.1,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+        "type": "neoforge:and",
+        "values": [
+            {
+                "type": "neoforge:mod_loaded",
+                "modid": "create"
+            },
+            {
+                "type": "neoforge:mod_loaded",
+                "modid": "oritech"
+            },
+            {
+                "type": "neoforge:mod_loaded",
+                "modid": "pneumaticcraft"
+            }
+        ]
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "oritech:fluxite"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 1000,
+      "fluid": "pneumaticcraft:oil"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "id": "oritech:still_fuel"
+    }
+  ]
+}

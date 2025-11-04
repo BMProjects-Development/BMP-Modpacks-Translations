@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_shovel",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": {
+                  "min": 5,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+                },
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fortune": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+                },
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+                },
+                "minecraft:efficiency": {
+                  "min": 5,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fortune": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+                },
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+                },
+                "minecraft:efficiency": {
+                  "min": 5,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,857 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 60, "max": 120 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 60, "max": 120 },
+              "treasure": true
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:rare_ink",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:epic_ink",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:legendary_ink",
+          "weight": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:upgrade_orb",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:greater_healing_potion",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:divine_soulshard",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:pyrium_ingot",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:lightning_bottle",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:greater_evasion_elixir",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:greater_invisibility_elixir",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:black_steel_ingot",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:netherite_effigy",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:witherite_ingot",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:ignitium_ingot",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:cursium_ingot",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:sandstorm_in_a_bottle",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cataclysm:remnant_skull",
+          "weight": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:pellet_polonium",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:qio_drive_supermassive",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:elite_control_circuit",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:ultimate_control_circuit",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ae2:cell_component_16k",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:cell_component_64k",
+          "weight": 5
+        },
+        { "type": "minecraft:item", "name": "ae2:singularity", "weight": 5 },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:crafting_accelerator",
+          "weight": 12
+        },
+
+        { "type": "minecraft:item", "name": "appflux:core_16k", "weight": 12 },
+
+        {
+          "type": "minecraft:item",
+          "name": "advanced_ae:quantum_alloy",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "advanced_ae:shattered_singularity",
+          "weight": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "projecte:dark_matter",
+          "weight": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "draconicevolution:draconic_io_crystal",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "draconicevolution:draconic_relay_crystal",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "draconicevolution:draconic_wireless_crystal",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "draconicevolution:draconium_block",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "chicken_roost:c_draconium",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chicken_roost:c_netherite",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chicken_roost:c_xp",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chicken_roost:c_enderpearl",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ftbquests:lootcrate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "ftbquests:loot_crate": "random_supreme_combat_relic" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ftbquests:lootcrate",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "ftbquests:loot_crate": "random_supreme_exploration_relic" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ftbquests:lootcrate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "ftbquests:loot_crate": "random_greater_combat_relic" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ftbquests:lootcrate",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "ftbquests:loot_crate": "random_greater_exploration_relic" }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "justhammers:destructor_core",
+          "weight": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedstorage:basic_to_netherite_tier_upgrade",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "gateways:gate_pearl",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "gateways:gateway": "apotheosis:tiered/pinnacle" }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/lightning",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/guardian",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/golems_onyx",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/effervescent_brimstone",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:the_end/mageslayer",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:the_end/endersurge",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:overworld/verdant_ruin",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:overworld/royalty",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/ballast",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/bloody_pearl",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:overworld/earth",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apothic_compats:ars_nouveau/mana",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:twilight/queen",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/void_umbalite",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/warlord",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/whispering_tentaculite",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apothic_compats:malum/thief",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apothic_compats:malum/soul_stained",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:twilight/forest",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:the_nether/molten_breach",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:the_nether/inferno",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:the_nether/blood_lord",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/tyrannical",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/splendor",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/solar",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/slipstream",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/samurai",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/mossy_agate",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/lunar",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/luminous_opal",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ]
+        },
+
+        { "type": "minecraft:item", "name": "minecraft:elytra", "weight": 1 },
+        { "type": "minecraft:item", "name": "minecraft:beacon", "weight": 1 },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heavy_core",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "oritech:machine_core_5",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "oritech:machine_core_6",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "oritech:machine_core_7",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "oritech:processing_unit",
+          "weight": 5
+        },
+        { "type": "minecraft:item", "name": "oritech:flux_gate", "weight": 5 },
+
+        {
+          "type": "minecraft:item",
+          "name": "fluxnetworks:flux_point",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fluxnetworks:flux_plug",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:time_crystal",
+          "weight": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "oritechthings:addon_block_speed_tier_9",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "oritechthings:addon_block_efficiency_tier_9",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "oritechthings:addon_block_processing_tier_9",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "oritechthings:addon_block_acceptor_tier_9",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "oritechthings:addon_block_capacitor_tier_9",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "oritechthings:addon_block_efficient_speed_tier_9",
+          "weight": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "megacells:1m_crafting_storage",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "megacells:4m_crafting_storage",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "megacells:16m_crafting_storage",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "megacells:256m_crafting_storage",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/end_city_treasure",
+          "weight": 1
+        }
+      ]
+    }    
+  ]
+}

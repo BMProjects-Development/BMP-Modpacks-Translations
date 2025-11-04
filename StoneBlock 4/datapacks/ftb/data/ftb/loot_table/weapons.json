@@ -1,0 +1,448 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "apothic_attributes:long_resistance"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:long_regeneration"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:strong_strength"
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:quiver",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mob_grinding_utils:saw_upgrade_sharpness",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mob_grinding_utils:saw_upgrade_beheading",
+          "weight": 25
+        },
+        { "type": "minecraft:item", "name": "psi:spell_bullet", "weight": 25 },
+        {
+          "type": "minecraft:item",
+          "name": "psi:spell_bullet_projectile",
+          "weight": 25
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "levels": { "apothic_enchanting:endless_quiver": 1 }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:stored_enchantments": {
+                  "levels": { "minecraft:infinity": 1 }
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 12
+        },
+        { "type": "minecraft:item", "name": "ae2:fluix_sword", "weight": 12 },
+        {
+          "type": "minecraft:item",
+          "name": "immersiveengineering:sword_steel",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:ferricore_sword",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:blazegold_sword",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "psi:psimetal_sword",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:knightmetal_sword",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cognition:cognitive_sword",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irregular_implements:spectre_sword",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:boreal_blade",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "irons_spellbooks:frostbite",
+                      "index": 0,
+                      "level": 3,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1,
+                  "mustEquip": false,
+                  "spellWheel": true
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:autoloader_crossbow",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:fluix_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "immersiveengineering:sword_steel",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:ferricore_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:blazegold_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "psi:psimetal_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:knightmetal_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cognition:cognitive_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irregular_implements:spectre_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:boreal_blade",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "irons_spellbooks:spell_container": {
+                  "data": [
+                    {
+                      "id": "irons_spellbooks:frostbite",
+                      "index": 0,
+                      "level": 3,
+                      "locked": true
+                    }
+                  ],
+                  "maxSpells": 1,
+                  "mustEquip": false,
+                  "spellWheel": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:spell_bow",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:seeker_bow",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cognition:cognitive_bow",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:ender_bow",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:bow_celestigem",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:bow_blazegold",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:autoloader_crossbow",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/village/village_weaponsmith",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+	"type": "avaritia:compressor",
+	"result": {
+		"id": "avaritia:json_singularity",
+		"components": {
+			"avaritia:singularity_id": "energite_singularity"
+		}
+	},
+	"cost": 100,
+	"ingredients": [
+		{
+			"item": "oritech:energite_ingot"
+		}
+	]
+}

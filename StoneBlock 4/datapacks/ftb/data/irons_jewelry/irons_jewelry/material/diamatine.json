@@ -1,0 +1,35 @@
+{
+  "descriptionId": "ftb.irons.material.diamatine",
+  "ingredient": {
+    "item": "actuallyadditions:diamatine_crystal"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "irons_jewelry:palettes/diamond",
+  "quality": 2,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:generic.armor",
+      "amount": 0.05,
+      "operation": "add_multiplied_total"
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:resistance"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:weakness"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": false,
+      "action": {
+        "type": "irons_jewelry:apply_damage",
+        "damageType": "minecraft:magic",
+        "amount": {
+          "base": 1.0,
+          "scalar": 1
+        }
+      }
+    }
+  }
+}

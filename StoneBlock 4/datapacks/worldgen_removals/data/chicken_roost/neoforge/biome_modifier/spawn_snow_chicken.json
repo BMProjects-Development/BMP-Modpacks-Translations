@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:none",
+  "biomes": ["snowy_beach", "snowy_plains", "snowy_slopes", "snowy_taiga"],
+  "spawners": {
+    "type": "neoforge:none",
+    "maxCount": 6,
+    "minCount": 2,
+    "weight": 12
+  }
+}

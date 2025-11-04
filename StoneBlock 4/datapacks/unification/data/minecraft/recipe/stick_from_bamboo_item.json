@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "sticks",
+  "key": {
+    "#": [
+      {
+        "tag": "c:bamboo"
+      }
+    ]
+  },
+  "pattern": ["#", "#"],
+  "result": {
+    "count": 1,
+    "id": "minecraft:stick"
+  }
+}

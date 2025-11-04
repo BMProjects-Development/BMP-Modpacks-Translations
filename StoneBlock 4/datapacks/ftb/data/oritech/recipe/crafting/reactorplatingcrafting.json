@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "a": {
+      "item": "oritech:carbon_plating_block"
+    },
+    "c": {
+      "tag": "c:plates/invar"
+    },
+    "e": {
+      "tag": "c:plates/steel"
+    }
+  },
+  "pattern": [
+    "eae",
+    "aca",
+    "eae"
+  ],
+  "result": {
+    "count": 4,
+    "id": "oritech:reactor_wall"
+  }
+}

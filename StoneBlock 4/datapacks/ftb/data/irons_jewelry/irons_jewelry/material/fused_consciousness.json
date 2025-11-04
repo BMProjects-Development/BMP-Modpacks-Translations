@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.fused_consciousness",
+  "ingredient": {
+    "item": "malum:fused_consciousness"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/fused",
+  "quality": 3,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:generic.max_health",
+      "amount": 5,
+      "operation": "add_value"
+    }
+  }
+}

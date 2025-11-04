@@ -1,0 +1,546 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "immersiveengineering:component_iron",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 6.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "immersiveengineering:component_electronic",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "gag:mining_dynamite",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "industrialforegoing:item_transporter_type",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "industrialforegoing:fluid_transporter_type",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "clavis:lock_pick",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ftb:codex_glyph_1",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "immersiveengineering:component_steel",
+          "weight": 14,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "immersiveengineering:component_electronic_adv",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "simplemagnets:basicmagnet",
+          "weight": 8
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "functionalstorage:compacting_framed_drawer",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "immersiveengineering:reinforced_crate",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "enderio:conduit",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "enderio:conduit": "enderio:enhanced_energy" }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 3.0, "max": 8.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "enderio:conduit",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "enderio:conduit": "enderio:item" }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 3.0, "max": 8.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "enderio:travel_anchor",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ars_creo:starbuncle_wheel",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "apothic_enchanting:pickaxe_tome",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "projecte:white_alchemical_bag",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ftbquests:lootcrate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "ftbquests:loot_crate": "random_furnace" }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ftbquests:lootcrate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "ftbquests:loot_crate": "random_chest_addon" }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ftbquests:lootcrate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "ftbquests:loot_crate": "random_backpack_addon" }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "industrialforegoing:processing_addon_tier_2",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "titanium:augments": { "Processing": 3.0 } }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "industrialforegoing:efficiency_addon_tier_2",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "titanium:augments": { "Efficiency": 0.8 } }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "industrialforegoing:speed_addon_tier_2",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "titanium:augments": { "Speed": 3.0 } }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "projecte:collector_mk1",
+          "weight": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "immersiveengineering:axe_steel",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "irregular_implements:spectre_pickaxe",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_hoe",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "immersiveengineering:pickaxe_steel",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_hoe",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": { "minecraft:fortune": 2 }
+                }
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:upgrade_hammer",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:ferricore_axe",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:ferricore_pickaxe",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ae2:fluix_hoe",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:blazegold_hoe",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ae2:fluix_pickaxe",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:giant_pickaxe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 60, "max": 120 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "cognition:cognitive_pickaxe",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "cognition:cognitive_hoe",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 5, "max": 40 },
+              "treasure": true,
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.6 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

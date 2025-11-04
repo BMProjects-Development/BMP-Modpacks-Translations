@@ -1,0 +1,7 @@
+{
+  "type": "neoforge:none",
+  "biomes": "#minecraft:is_overworld",
+  "boolConfig": "generateQuartz",
+  "features": "actuallyadditions:ore_black_quartz",
+  "step": "underground_ores"
+}

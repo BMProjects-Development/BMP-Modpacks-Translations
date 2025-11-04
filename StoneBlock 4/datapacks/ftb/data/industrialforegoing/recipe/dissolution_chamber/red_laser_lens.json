@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "almostunified:conditional",
+      "conditions_met": true,
+      "original_conditions": [
+        {
+          "type": "neoforge:item_exists",
+          "item": "industrialforegoing:red_laser_lens"
+        }
+      ]
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "tag": "c:glass_panes"
+    },
+    {
+      "tag": "c:dyes/red"
+    }
+  ],
+  "inputFluid": {
+    "amount": 250,
+    "fluid": "industrialforegoing:latex"
+  },
+  "output": {
+    "count": 1,
+    "id": "industrialforegoing:red_laser_lens"
+  },
+  "processingTime": 50
+}

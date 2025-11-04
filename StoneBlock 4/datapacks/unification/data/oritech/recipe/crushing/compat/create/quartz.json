@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "results": [
+    {
+      "id": "ftbmaterials:quartz_dust"
+    }
+  ]
+}

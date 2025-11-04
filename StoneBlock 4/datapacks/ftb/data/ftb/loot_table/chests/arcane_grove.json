@@ -1,0 +1,778 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:source_gem",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 3.0, "max": 6.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:magebloom_crop",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:sourcestone",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 4.0, "max": 8.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:mendosteen_pod",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spore_blossom",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "malum:arcane_charcoal",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 6.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:raw_brilliance",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:blazing_quartz",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:mangrove_sapling",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:otherworld_sapling",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:runewood_sapling",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:azure_runewood_sapling",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:green_archwood_sapling",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:purple_archwood_sapling",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:blue_archwood_sapling",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:rainbow_oak_sapling",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irregular_implements:spectre_sapling",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:jar_of_light",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:warp_scroll",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:spell_parchment",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:whirlisprig_flower",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:whirlisprig_charm",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:starbuncle_charm",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:dull_trinket",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "ars_nouveau:mana_regen_potion_strong"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "ars_nouveau:freezing_potion_strong"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "ars_nouveau:shielding_potion_strong"
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:water_essence",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:abjuration_essence",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:conjuration_essence",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:air_essence",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:earth_essence",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:fire_essence",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:manipulation_essence",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:source_berry_pie",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:source_berry_roll",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:enchanters_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 20, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:soul_stained_steel_scythe",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 20, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:soul_stained_steel_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 20, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:soul_stained_steel_pickaxe",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 20, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:soul_stained_steel_hoe",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 20, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:soul_stained_steel_axe",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 20, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:soul_stained_steel_shovel",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 20, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:spell_bow",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 20, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:enchanters_shield",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 20, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:wilden_horn",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:wilden_wing",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:drygmy_shard",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:wilden_spike",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "occultism:storage_stabilizer_tier1",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:storage_stabilizer_tier2",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:storage_stabilizer_tier3",
+          "weight": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "malum:sacred_spirit",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:wicked_spirit",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:arcane_spirit",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:eldritch_spirit",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:aerial_spirit",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:aqueous_spirit",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:earthen_spirit",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:infernal_spirit",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+        { "type": "minecraft:item", "name": "malum:astral_weave", "weight": 5 },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:awakened_feather",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "occultism:book_of_binding_bound_foliot",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "occultism:spirit_name": "Harclodor" }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "occultism:long_third_eye_potion"
+                }
+              }
+            }
+          ]
+        },
+
+        { "type": "minecraft:item", "name": "occultism:datura", "weight": 12 },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:amethyst_dust",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:iesnium_dust",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:research_fragment_dust",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "malum:raw_soulstone",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "occultism:stable_wormhole",
+          "weight": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "occultism:large_candle",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:large_candle_lime",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:large_candle_black",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:large_candle_light_gray",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:large_candle_purple",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:large_candle_blue",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:strong_healing"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:long_regeneration"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:strong_swiftness"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:invisibility"
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:long_slow_falling"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 8.0, "max": 16.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:strong_harming"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 8.0, "max": 16.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:long_poison"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 8.0, "max": 16.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 20, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 6.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 3.0, "max": 7.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_ink_sac",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 6.0, "max": 12.0 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/generic",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

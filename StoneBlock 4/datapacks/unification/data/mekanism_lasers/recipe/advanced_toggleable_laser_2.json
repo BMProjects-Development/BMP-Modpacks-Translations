@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RCR",
+    "I#I",
+    "RCR"
+  ],
+  "key": {
+    "#": {
+      "item": "mekanism_lasers:basic_toggleable_laser"
+    },
+    "R": {
+      "item": "mekanism:alloy_infused"
+    },
+    "I": {
+      "item": "ftbmaterials:osmium_ingot"
+    },
+    "C": {
+      "item": "mekanism:advanced_control_circuit"
+    }
+  },
+  "result": {
+    "id": "mekanism_lasers:advanced_toggleable_laser",
+    "count": 1
+  }
+}

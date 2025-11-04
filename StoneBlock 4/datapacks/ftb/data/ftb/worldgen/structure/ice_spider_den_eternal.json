@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:jigsaw",
+  "liquid_settings": "ignore_waterlogging",
+  "start_pool": "ftb:ice_spider_den/start_pool",
+  "size": 13,
+  "max_distance_from_center": 100,
+  "step": "underground_structures",
+  "use_expansion_hack": false,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 0
+    },
+    "max_inclusive": {
+      "absolute": 128
+    }
+  },
+  "biomes": "ftb:eternal_stone",
+  "terrain_adaptation": "beard_box",
+  "spawn_overrides": {
+  }
+}

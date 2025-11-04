@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:none",
+  "biomes": "minecraft:end_highlands",
+  "features": "ends_delight:chorus_succulent",
+  "step": "vegetal_decoration"
+}

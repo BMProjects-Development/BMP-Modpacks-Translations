@@ -1,0 +1,11 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "industrialforegoing"
+    }
+  ],
+  "type": "immersiveengineering:generator_fuel",
+  "burnTime": 150,
+  "fluidTag": "c:biofuel"
+}

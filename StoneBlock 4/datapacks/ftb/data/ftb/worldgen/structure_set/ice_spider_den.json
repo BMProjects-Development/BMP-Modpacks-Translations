@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:ice_spider_den",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 126346,
+    "spacing": 32,
+    "separation": 16,
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+        "other_set": "ftb:exclusion_set",
+        "chunk_count": 3
+      }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "irons_spellbooks:catacombs",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1794563212,
+    "spacing": 32,
+    "separation": 8,
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+        "other_set": "ftb:exclusion_set",
+        "chunk_count": 3
+      }
+  }
+}

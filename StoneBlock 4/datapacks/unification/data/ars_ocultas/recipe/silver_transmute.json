@@ -1,0 +1,22 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "input": {
+    "item": "minecraft:gold_ingot"
+  },
+  "output": {
+    "count": 1,
+    "id": "ftbmaterials:silver_ingot"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    },
+    {
+      "item": "occultism:demons_dream_essence"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    }
+  ],
+  "source": 2000
+}

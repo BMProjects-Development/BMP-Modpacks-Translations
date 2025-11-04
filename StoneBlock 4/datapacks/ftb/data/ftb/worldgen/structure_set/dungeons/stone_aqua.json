@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:dungeons/stone_aqua",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 24,
+    "salt": 9847565449,
+    "exclusion_zone": {
+      "other_set": "ftb:exclusion_set",
+      "chunk_count": 6
+    }
+  }
+}

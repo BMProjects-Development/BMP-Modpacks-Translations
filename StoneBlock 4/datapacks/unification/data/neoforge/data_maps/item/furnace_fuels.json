@@ -1,0 +1,25 @@
+{
+  "values": {
+    "ftbmaterials:coal_coke_gem": {
+      "burn_time": 3200
+    },
+    "ftbmaterials:coal_coke_dust": {
+      "burn_time": 3200
+    },
+    "ftbmaterials:coal_coke_block": {
+      "burn_time": 32000
+    },
+    "ftbmaterials:charcoal_dust": {
+      "burn_time": 1600
+    },
+    "ftbmaterials:charcoal_block": {
+      "burn_time": 16000
+    },
+    "ftbmaterials:charcoal_tiny": {
+      "burn_time": 200
+    },
+    "ftbmaterials:coal_tiny": {
+      "burn_time": 200
+    }
+  }
+}

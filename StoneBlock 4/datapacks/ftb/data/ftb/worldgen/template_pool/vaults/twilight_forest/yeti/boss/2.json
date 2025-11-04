@@ -1,0 +1,15 @@
+{
+  "name": "ftb:vaults/twilight_forest/yeti/boss/1",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ftb:vaults/twilight_forest/yeti/boss/2",
+        "processors": []
+      }
+    }
+  ]
+}

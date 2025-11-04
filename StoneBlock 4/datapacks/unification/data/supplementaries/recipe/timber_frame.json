@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "timber_frame"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A A",
+    "A A"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "supplementaries:timber_frame",
+    "count": 1
+  }
+}

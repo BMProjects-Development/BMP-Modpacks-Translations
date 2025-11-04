@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "d": {
+      "tag": "c:gems/diamond"
+    },
+    "e": {
+      "tag": "c:gems/emerald"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "s": {
+      "item": "ftbmaterials:dimensional_shard_gem"
+    }
+  },
+  "pattern": [
+    "sds",
+    "rRr",
+    "ses"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolspower:power_core3"
+  }
+}

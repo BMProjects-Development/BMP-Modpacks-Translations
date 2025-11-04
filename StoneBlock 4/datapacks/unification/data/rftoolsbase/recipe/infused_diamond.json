@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": {
+      "tag": "c:gems/diamond"
+    },
+    "s": {
+      "item": "ftbmaterials:dimensional_shard_gem"
+    }
+  },
+  "pattern": [
+    "sss",
+    "sds",
+    "sss"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsbase:infused_diamond"
+  }
+}

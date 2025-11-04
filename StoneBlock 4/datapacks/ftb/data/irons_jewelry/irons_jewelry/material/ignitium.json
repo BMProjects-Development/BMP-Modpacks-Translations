@@ -1,0 +1,28 @@
+{
+  "descriptionId": "ftb.irons.material.ignitium",
+  "ingredient": {
+    "item": "cataclysm:ignitium_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/ignitium",
+  "quality": 3.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:fire_damage",
+      "amount": 5,
+      "operation": "add_value"
+    },
+    "irons_jewelry:positive_effect": {
+      "effect": "minecraft:fire_resistance"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": false,
+      "action": {
+        "type": "irons_jewelry:ignite",
+        "tickDuration": 40.0
+      }
+    }
+  }
+}

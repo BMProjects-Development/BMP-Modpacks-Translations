@@ -1,0 +1,20 @@
+{
+  "id": "ftbteambases:mangrove",
+  "display": {
+    "title": "ftbteambases.base.mangrove.title",
+    "description": "ftbteambases.base.mangrove.desc",
+    "icon": "ftbteambases:bases/mangrove",
+    "preview_image": "ftbteambases:textures/bases/mangrove.png"
+  },
+  "construction": {
+    "pregen_template": "mangrove",
+    "structure_sets": ["ftbteambases:default"],
+    "include_entities": true
+  },
+  "spawn_offset": [0, -190, 0],
+  "dimension": {
+    "dimension_type": "minecraft:overworld",
+    "private": true,
+    "dimension_id": "minecraft:overworld"
+  }
+}

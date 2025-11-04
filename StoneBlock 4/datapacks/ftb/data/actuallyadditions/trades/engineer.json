@@ -1,0 +1,385 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "actuallyadditions:black_quartz_ore",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 2,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "actuallyadditions:black_quartz",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 8
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 3
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "actuallyadditions:laser_wrench",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 1
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 12,
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "actuallyadditions:coffee_beans",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 20,
+                      "max": 30
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 3,
+                      "max": 5
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "actuallyadditions:item_interface",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 1
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 10,
+                      "max": 20
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "actuallyadditions:laser_relay",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 24,
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "actuallyadditions:tiny_torch",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 30,
+                      "max": 40
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "actuallyadditions:wood_casing",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 40,
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 3,
+                      "max": 5
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "actuallyadditions:iron_casing",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 15,
+                      "max": 20
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "actuallyadditions:empowerer",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 1
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 30,
+                      "max": 40
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "actuallyadditions:laser_relay_extreme",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 1
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

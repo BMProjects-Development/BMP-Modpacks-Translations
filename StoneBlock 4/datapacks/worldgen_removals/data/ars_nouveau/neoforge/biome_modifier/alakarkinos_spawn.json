@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:none",
+  "biomes": "#minecraft:is_beach",
+  "spawners": {
+    "type": "neoforge:none",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 5
+  }
+}

@@ -1,0 +1,573 @@
+{
+  "name": "ftb:stone/optionals",
+  "fallback": "ftb:stone/terminators/optionals",
+  "elements": [
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/1",
+        "projection": "rigid",
+        "processors": "ftb:stone/barrels"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/2",
+        "projection": "rigid",
+        "processors": "ftb:stone/barrels"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/3",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/4",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/5",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/6",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/7",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/8",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/9",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/10",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/11",
+        "projection": "rigid",
+        "processors": "ftb:stone/barrels"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/12",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/13",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/14",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/15",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/16",
+        "projection": "rigid",
+        "processors": "ftb:stone/barrels"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/17",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/18",
+        "projection": "rigid",
+        "processors": "ftb:stone/barrels"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/19",
+        "projection": "rigid",
+        "processors": "ftb:stone/barrels"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/straight/20",
+        "projection": "rigid",
+        "processors": "ftb:stone/barrels"
+      }
+    },
+    {
+      "weight": 34,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/intersection/22",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 34,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/intersection/23",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 34,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/intersection/26",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 34,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/intersection/27",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 34,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/intersection/28",
+        "projection": "rigid",
+        "processors": "ftb:stone/barrels"
+      }
+    },
+    {
+      "weight": 34,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/intersection/29",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 34,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/intersection/32",
+        "projection": "rigid",
+        "processors": "ftb:stone/barrels"
+      }
+    },
+    {
+      "weight": 34,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/intersection/33",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 34,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/intersection/89",
+        "projection": "rigid",
+        "processors": "ftb:stone/barrels"
+      }
+    },
+    {
+      "weight": 34,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/intersection/90",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 34,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/intersection/91",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 34,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/intersection/92",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/71",
+        "projection": "rigid",
+        "processors": "ftb:stone/barrels"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/72",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/73",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/74",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/75",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/76",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/77",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/80",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/83",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/84",
+        "projection": "rigid",
+        "processors": "ftb:stone/barrels"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/85",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/86",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/87",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/88",
+        "projection": "rigid",
+        "processors": "ftb:stone/barrels"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/93",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/94",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/95",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/96",
+        "projection": "rigid",
+        "processors": "ftb:stone/barrels"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/97",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/100",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 30,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/corridor/chamber/101",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 90,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/treasure/52",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 90,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/treasure/53",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 90,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/treasure/54",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 90,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/treasure/55",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 90,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/treasure/62",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 90,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/treasure/63",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 90,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/treasure/64",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 90,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/treasure/65",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 90,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/treasure/98",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 90,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/treasure/99",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

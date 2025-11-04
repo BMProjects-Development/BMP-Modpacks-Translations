@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:none",
+  "biomes": "#minecraft:is_overworld",
+  "spawners": [
+    {
+      "type": "neoforge:none",
+      "weight": 18,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "jumbofurnace:jumbo_smelting",
+  "ingredients": [
+    {
+      "ingredient": "#c:silicon"
+    },
+    {
+      "ingredient": "#c:dusts/redstone",
+      "count": 4
+    }
+  ],
+  "results": [
+    {
+      "id": "enderio:redstone_alloy_ingot"
+    }
+  ],
+  "experience": 0.15,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "jumbofurnace"
+    }
+  ]
+}

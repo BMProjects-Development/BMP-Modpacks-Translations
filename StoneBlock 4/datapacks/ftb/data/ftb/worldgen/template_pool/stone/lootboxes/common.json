@@ -1,0 +1,15 @@
+{
+  "name": "ftb:stone/lootboxes/common",
+  "fallback": "ftb:stone/lootboxes/common",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/lootbox/common/124",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

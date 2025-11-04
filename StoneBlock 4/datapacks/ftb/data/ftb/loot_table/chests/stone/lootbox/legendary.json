@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "ftb:chests/stone/group/two_random_lootboxes",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "ftb:chests/stone/group/legendary_items",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.2 }],
+      "entries": [{ "type": "minecraft:loot_table", "name": "ftb:armors" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.4 }],
+      "entries": [{ "type": "minecraft:loot_table", "name": "ftb:food" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.2 }],
+      "entries": [{ "type": "minecraft:loot_table", "name": "ftb:gadgets" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.4 }],
+      "entries": [{ "type": "minecraft:loot_table", "name": "ftb:ingots" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.25 }],
+      "entries": [{ "type": "minecraft:loot_table", "name": "ftb:magic" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.25 }],
+      "entries": [{ "type": "minecraft:loot_table", "name": "ftb:tech" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.3 }],
+      "entries": [{ "type": "minecraft:loot_table", "name": "ftb:weapons" }]
+    }
+  ]
+}

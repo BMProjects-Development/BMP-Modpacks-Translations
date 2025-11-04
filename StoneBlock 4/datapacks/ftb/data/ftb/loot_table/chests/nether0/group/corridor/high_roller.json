@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "p": 0.5,
+        "n": 7,
+        "type": "minecraft:binomial"
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/nether0/meta/nether_material",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "p": 0.6,
+                "n": 10,
+                "type": "minecraft:binomial"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

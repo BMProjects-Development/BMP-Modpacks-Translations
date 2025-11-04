@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:vaults/echoing_dread",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 52,
+    "spread": 1,
+    "count": 1,
+    "preferred_biomes": [],
+    "salt": 18
+  }
+}

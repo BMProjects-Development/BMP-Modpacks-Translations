@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chicken_roost:chicken_essence_tier_1"
+    },
+    {
+      "item": "ftbmaterials:iron_dust"
+    },
+    {
+      "item": "ftbmaterials:iron_dust"
+    },
+    {
+      "item": "ftbmaterials:iron_dust"
+    },
+    {
+      "item": "ftbmaterials:iron_dust"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    }
+  ],
+  "result": {
+    "id": "chicken_roost:chicken_food_tier_1",
+    "count": 8
+  }
+}

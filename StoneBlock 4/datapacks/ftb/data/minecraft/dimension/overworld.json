@@ -1,0 +1,302 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "biomes": [
+        {
+          "biome": "ftb:lower/stone",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0, 0.014],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0, 0.2],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:lower/deepslate",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.014, 0.04394],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0, 0.2],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:lower/nether",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.04394, 0.093839],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0, 0.2],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:lower/end",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.093839, 0.163698],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0, 0.2],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:lower/twilight_forest",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.163698, 0.253518],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0, 0.2],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:lower/ocean",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.253518, 0.493035],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0, 0.2],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:lower/void_chasms",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.493035, 0.642734],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0, 0.2],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:eternal_stone",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.642734, 2],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0, 0.2],
+            "offset": 0
+          }
+        },
+
+        {
+          "biome": "ftb:stone",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0, 0.014],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.2, 0.6],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:deepslate",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.014, 0.04394],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.2, 0.6],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:nether",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.04394, 0.093839],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.2, 0.6],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:end",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.093839, 0.163698],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.2, 0.6],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:twilight_forest",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.163698, 0.253518],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.2, 0.6],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:ocean",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.253518, 0.493035],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.2, 0.6],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:void_chasms",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.493035, 0.642734],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.2, 0.6],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:eternal_stone",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.642734, 2],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.2, 0.6],
+            "offset": 0
+          }
+        },
+
+        {
+          "biome": "ftb:upper/stone",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0, 0.014],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.6, 1],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:upper/deepslate",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.014, 0.04394],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.6, 1],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:upper/nether",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.04394, 0.093839],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.6, 1],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:upper/end",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.093839, 0.163698],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.6, 1],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:upper/twilight_forest",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.163698, 0.253518],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.6, 1],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:upper/ocean",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.253518, 0.493035],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.6, 1],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:upper/void_chasms",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.493035, 0.642734],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.6, 1],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "ftb:eternal_stone",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [0.642734, 2],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [0.6, 1],
+            "offset": 0
+          }
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    },
+    "settings": "minecraft:overworld"
+  }
+}

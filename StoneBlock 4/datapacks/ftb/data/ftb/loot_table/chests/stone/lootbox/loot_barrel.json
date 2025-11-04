@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/stone/group/barrel/normal_barrel",
+          "weight": 95
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/stone/group/barrel/redstone_barrel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/stone/group/barrel/wheat_barrel",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/stone/group/barrel/gunpowder_barrel",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

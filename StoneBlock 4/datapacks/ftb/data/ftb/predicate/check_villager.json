@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:zombie_villager",
+        "nbt": "{ConversionTime:-1}",
+        "stepping_on": {
+          "biomes": "ftb:spring"
+        }
+      }
+    }
+  ]
+}

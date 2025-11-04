@@ -1,0 +1,422 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:respiration":{
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:respiration": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:fire_protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:respiration": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:blast_protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:respiration": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:projectile_protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:fire_protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:blast_protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:projectile_protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:fire_protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:blast_protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:projectile_protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:feather_falling": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:depth_strider": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:fire_protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:feather_falling": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:depth_strider": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:blast_protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:feather_falling": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:depth_strider": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:projectile_protection": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:feather_falling": {
+                  "min": 4,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              },
+                "minecraft:depth_strider": {
+                  "min": 3,
+                  "max": 10,
+                  "type": "minecraft:uniform"
+              }
+              }
+            }
+          ]
+        }
+      ]
+    }    
+  ]
+}

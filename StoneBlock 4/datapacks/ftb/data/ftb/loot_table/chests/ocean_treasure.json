@@ -1,0 +1,488 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_shard",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 6.0, "max": 12.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_crystals",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 4.0, "max": 9.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sea_lantern",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wet_sponge",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "draconicevolution:draconium_dust",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 4.0, "max": 9.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem_dust",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 6.0, "max": 16.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:rare_material",
+          "weight": 12
+        },
+        { "type": "minecraft:item", "name": "ftb:codex_glyph_2", "weight": 12 },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "draconicevolution:draconium_core",
+          "weight": 5
+        },
+        { "type": "minecraft:item", "name": "powah:ender_core", "weight": 5 },
+        {
+          "type": "minecraft:item",
+          "name": "powah:crystal_spirited",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "functionalstorage:netherite_upgrade",
+          "weight": 5
+        },
+        { "type": "minecraft:item", "name": "ftb:codex_glyph_3", "weight": 5 },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:epic_material",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:time_log_core",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irregular_implements:lava_charm",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apothic_enchanting:infused_breath",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arseng:me_source_jar",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irregular_implements:spectre_anchor",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irregular_implements:spectre_illuminator",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irregular_implements:spectre_coil_number",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irregular_implements:obsidian_skull_ring",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "megacells:cell_component_1m",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:celestigem",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:eclipsealloy_ingot",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "powah:crystal_nitro",
+          "weight": 1,
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:klein_star_drei",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:klein_star_vier",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "gateways:gate_pearl",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "gateways:gateway": "apotheosis:endless_invader" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gateways:gate_pearl",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "gateways:gateway": "apotheosis:tiered/pinnacle" }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "moofluids:fluid_cow_jar",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "CanBeMilked": 1,
+                  "FluidCowFluid": "sauce:source_fluid",
+                  "FluidTank": {
+                    "Fluid": { "amount": 1000, "id": "sauce:source_fluid" }
+                  },
+                  "HasCow": 1,
+                  "MilkingCooldown": 0,
+                  "id": "moofluids:fluid_cow_jar"
+                },
+                "moofluids:cow_jar_data": {
+                  "capacity": 32000,
+                  "cow_fluid": "sauce:source_fluid",
+                  "has_cow": true
+                },
+                "moofluids:fluid_tank": {
+                  "amount": 1000,
+                  "id": "sauce:source_fluid"
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "moofluids:fluid_cow_jar",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "CanBeMilked": 1,
+                  "FluidCowFluid": "mekanism:heavy_water",
+                  "FluidTank": {
+                    "Fluid": { "amount": 1000, "id": "mekanism:heavy_water" }
+                  },
+                  "HasCow": 1,
+                  "MilkingCooldown": 0,
+                  "id": "moofluids:fluid_cow_jar"
+                },
+                "moofluids:cow_jar_data": {
+                  "capacity": 32000,
+                  "cow_fluid": "mekanism:heavy_water",
+                  "has_cow": true
+                },
+                "moofluids:fluid_tank": {
+                  "amount": 1000,
+                  "id": "mekanism:heavy_water"
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "moofluids:fluid_cow_jar",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "CanBeMilked": 1,
+                  "FluidCowFluid": "oritech:still_oil",
+                  "FluidTank": {
+                    "Fluid": { "amount": 1000, "id": "oritech:still_oil" }
+                  },
+                  "HasCow": 1,
+                  "MilkingCooldown": 0,
+                  "id": "moofluids:fluid_cow_jar"
+                },
+                "moofluids:cow_jar_data": {
+                  "capacity": 32000,
+                  "cow_fluid": "oritech:still_oil",
+                  "has_cow": true
+                },
+                "moofluids:fluid_tank": {
+                  "amount": 1000,
+                  "id": "oritech:still_oil"
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "moofluids:fluid_cow_jar",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "CanBeMilked": 1,
+                  "FluidCowFluid": "cognition:cognitium_source",
+                  "FluidTank": {
+                    "Fluid": {
+                      "amount": 1000,
+                      "id": "cognition:cognitium_source"
+                    }
+                  },
+                  "HasCow": 1,
+                  "MilkingCooldown": 0,
+                  "id": "moofluids:fluid_cow_jar"
+                },
+                "moofluids:cow_jar_data": {
+                  "capacity": 32000,
+                  "cow_fluid": "cognition:cognitium_source",
+                  "has_cow": true
+                },
+                "moofluids:fluid_tank": {
+                  "amount": 1000,
+                  "id": "cognition:cognitium_source"
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "moofluids:fluid_cow_jar",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "CanBeMilked": 1,
+                  "FluidCowFluid": "immersiveengineering:biodiesel",
+                  "FluidTank": {
+                    "Fluid": {
+                      "amount": 1000,
+                      "id": "immersiveengineering:biodiesel"
+                    }
+                  },
+                  "HasCow": 1,
+                  "MilkingCooldown": 0,
+                  "id": "moofluids:fluid_cow_jar"
+                },
+                "moofluids:cow_jar_data": {
+                  "capacity": 32000,
+                  "cow_fluid": "immersiveengineering:biodiesel",
+                  "has_cow": true
+                },
+                "moofluids:fluid_tank": {
+                  "amount": 1000,
+                  "id": "immersiveengineering:biodiesel"
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "moofluids:fluid_cow_jar",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "CanBeMilked": 1,
+                  "FluidCowFluid": "productivemetalworks:molten_uranium",
+                  "FluidTank": {
+                    "Fluid": {
+                      "amount": 1000,
+                      "id": "productivemetalworks:molten_uranium"
+                    }
+                  },
+                  "HasCow": 1,
+                  "MilkingCooldown": 0,
+                  "id": "moofluids:fluid_cow_jar"
+                },
+                "moofluids:cow_jar_data": {
+                  "capacity": 32000,
+                  "cow_fluid": "productivemetalworks:molten_uranium",
+                  "has_cow": true
+                },
+                "moofluids:fluid_tank": {
+                  "amount": 1000,
+                  "id": "productivemetalworks:molten_uranium"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "X": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "d": {
+      "tag": "c:gems/diamond"
+    },
+    "e": {
+      "tag": "c:gems/emerald"
+    },
+    "g": {
+      "tag": "c:ingots/gold"
+    },
+    "i": {
+      "tag": "c:ingots/iron"
+    },
+    "q": {
+      "item": "minecraft:quartz"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "deg",
+    "irX",
+    "qCG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ftbmaterials:dimensional_shard_gem"
+  }
+}

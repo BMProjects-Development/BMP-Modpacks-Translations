@@ -1,0 +1,27 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "twilightforest:helmet_crab",
+        "movement": {
+          "x": 0,
+          "z": 0
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "y": -1
+        },
+        "block": {
+          "blocks": "minecraft:red_wool"
+        }
+      }
+    }
+  ]
+}

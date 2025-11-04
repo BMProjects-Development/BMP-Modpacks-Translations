@@ -1,0 +1,93 @@
+{
+  "id": "ftbechoes:t1_echo_machinist",
+  "title": {"translate": "ftb.echo.machinist.title"},
+  "all_complete": {"translate": "ftb.echo.all_stages_completed"},
+  "stages": [
+    {
+      "title": {"translate": "ftb.echo.stage0.title"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.startup", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.startup"}]},
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.machinist.stage0.task1", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.machinist.stage0.task1.lore"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.machinist.stage0.task1.lore2"}]}
+      ],
+      "not_ready" : {"translate": "ftb.echo.bugged"},
+      "required_stage": "echo_machinist_meet",
+      "ready": {"translate": "ftb.echo.machinist.stage0.task1.ready"},
+      "completed": {"translate": "ftb.echo.machinist.stage0.task1.completed"},
+      "completion_reward": {"item": {"id": "ae2:entropy_manipulator", "components":{"ae2:stored_energy":75000}, "count": 1}},
+      "shop_unlock":[
+        {"name": "Ultimate Train Set", "item": [{"id": "create:track", "count": 32}, {"id": "create:railway_casing", "count": 1}, {"id": "create:super_glue", "count": 1}, {"id": "create:gray_seat", "count": 1}, {"id": "create:track_station", "count": 1}, {"id": "create:controls", "count": 1}], "cost": 20, "description": {"translate": "ftb.shop.description.exclusive"}, "icon": "create:item/track"},
+        {"name": "Hand Crank", "item": {"id": "create:hand_crank", "count": 1}, "cost": 5},
+        {"name": "Schematicannon", "item": {"id": "create:schematicannon", "count": 1}, "cost": 5},
+        {"name": "Light Blue Drill", "item": {"id": "actuallyadditions:drill_light_blue", "components": {"actuallyadditions:energy": 250000}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.filled_rf"}},
+        {"name": "Drill Silk Touch Augment", "item": {"id": "actuallyadditions:drill_upgrade_silk_touch", "count": 1}, "cost": 10},
+        {"name": "Drill Area Augment I", "item": {"id": "actuallyadditions:drill_upgrade_three_by_three", "count": 1}, "cost": 10},
+        {"name": "Coffee Machine", "item": {"id": "actuallyadditions:coffee_machine", "count": 1}, "cost": 10},
+        {"name": "External Heater", "item": {"id": "immersiveengineering:furnace_heater", "count": 1}, "cost": 10},
+        {"name": "Entropy Manipulator", "item": {"id": "ae2:entropy_manipulator", "components": {"ae2:stored_energy": 200000}, "count": 1}, "cost": 10, "description": {"translate": "ftb.shop.description.filled_rf"}},
+        {"name": "Double Battery", "item": {"id": "actuallyadditions:double_battery", "components": {"actuallyadditions:energy": 350000}, "count": 1}, "cost": 25, "description": {"translate": "ftb.shop.description.filled_rf"}}
+      ]
+    },
+    {
+      "title": {"translate": "ftb.echo.stage1.title1"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.machinist.stage1.task1", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.machinist.stage1.task1.lore"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.machinist.stage1.task1.lore2"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.machinist.stage1.task1.not_ready"},
+      "required_stage": "echo_machinist_stage1_task1_completed",
+      "ready": {"translate": "ftb.echo.machinist.stage1.task1.ready"},
+      "completed": {"translate": "ftb.echo.machinist.stage1.task1.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_machinist_stage1_task1_check", "permission": 3}},
+      "shop_unlock": [
+        {"name": "Impact Core", "item": {"id": "justhammers:impact_core", "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Speed Upgrade", "item": {"id": "mekanism:upgrade_speed", "count": 4}, "cost": 15},
+        {"name": "Energy Upgrade", "item": {"id": "mekanism:upgrade_energy", "count": 4}, "cost": 15},
+        {"name": "Processing Addon Tier 2", "item": {"id": "industrialforegoing:processing_addon_tier_2", "count": 1}, "cost": 15},
+        {"name": "Efficiency Addon Tier 2", "item": {"id": "industrialforegoing:efficiency_addon_tier_2", "count": 1}, "cost": 15},
+        {"name": "Speed Addon Tier 2", "item": {"id": "industrialforegoing:speed_addon_tier_2", "count": 1}, "cost": 15},
+        {"name": "Basic Energy Cube", "item": {"id": "mekanism:basic_energy_cube", "components": {"mekanism:energy": {"energy_containers": [4000000]}}, "count": 1}, "cost": 40, "description": {"translate": "ftb.shop.description.filled_rf"}},
+        {"name": "Rotation Speed Controller", "item": {"id": "create:rotation_speed_controller", "count": 1}, "cost": 25},
+        {"name": "Mob Masher Upgrade Sharpness", "item": {"id": "mob_grinding_utils:saw_upgrade_sharpness", "count": 1}, "cost": 10},
+        {"name": "Mob Masher Upgrade Looting", "item": {"id": "mob_grinding_utils:saw_upgrade_looting", "count": 1}, "cost": 15},
+        {"name": "Mysterious Cube", "item": {"id": "ae2:mysterious_cube", "count": 1}, "cost": 15},
+        {"name": "Energy Collector Mk 1", "item": {"id": "projecte:collector_mk1", "count": 1}, "cost": 50},
+        {"name": "Chicken Trainer", "item": {"id": "chicken_roost:trainer", "count": 1}, "cost": 25},
+        {"name": "Random EnderIO Capacitor", "command": {"run": "execute at @s run loot spawn ~ ~ ~ loot ftb:eiocapacitor", "permission": 3, "silent": true, "description": {"translate": "ftb.shop.title.eio_capacitor"}}, "cost": 10, "description": {"translate": "ftb.shop.description.exclusive"}, "icon": "enderio:item/loot_capacitor"},
+        {"name": "Enhanced Conduit", "item": [{"id": "enderio:conduit", "components": {"enderio:conduit": "enderio:enhanced_energy"}, "count": 16 }, {"id": "enderio:hardened_conduit_facade", "count": 16 }], "cost": 15, "icon": "enderio:textures/gui/sprites/conduit_icon/enhanced_energy.png"},
+        {"name": "Item Conduit", "item": [{"id": "enderio:conduit", "components": {"enderio:conduit": "enderio:item"}, "count": 16 }, {"id": "enderio:hardened_conduit_facade", "count": 16 }], "cost": 15, "icon": "enderio:textures/gui/sprites/conduit_icon/item.png"},
+        {"name": "Pressurized Fluid Conduit", "item": [{"id": "enderio:conduit", "components": {"enderio:conduit": "enderio:pressurized_fluid"}, "count": 16 }, {"id": "enderio:hardened_conduit_facade", "count": 16 }], "cost": 15, "icon": "enderio:textures/gui/sprites/conduit_icon/pressurized_fluid.png"}
+
+      ]
+    },
+    {
+      "title": {"translate": "ftb.echo.stage1.title2"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.machinist.stage1.task2", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.machinist.stage1.task2.lore"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.machinist.stage1.task2.lore2"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.machinist.stage1.task2.lore3"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.machinist.stage1.task2.not_ready"},
+      "required_stage": "echo_machinist_stage1_task2_completed",
+      "ready": {"translate": "ftb.echo.machinist.stage1.task2.ready"},
+      "completed": {"translate": "ftb.echo.machinist.stage1.task2.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_machinist_stage1_task2_check", "permission": 3}},
+      "shop_unlock": []
+    },
+    {
+      "title": {"translate": "ftb.echo.stage2.title"},
+      "lore": [
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.machinist.stage2.task1.lore"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.placeholder.stage6.task1.lore"},
+      "required_stage": "echo_machinist_stage2_task1_completed",
+      "ready": {"translate": "ftb.echo.machinist.stage2.task1.ready"},
+      "completed": {"translate": "ftb.echo.machinist.stage2.task1.completed"},
+      "shop_unlock": []
+    }
+  ]
+}

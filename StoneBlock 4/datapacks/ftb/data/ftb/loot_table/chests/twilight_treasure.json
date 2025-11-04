@@ -1,0 +1,561 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 16.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 12.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 4.0, "max": 9.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 4.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_fruit",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 6.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_stone",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 6.0, "max": 16.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purpur_block",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 4.0, "max": 12.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 20.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 4.0, "max": 9.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 6.0, "max": 12.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:obsidian",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:naga_scale",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:ironwood_ingot",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:steeleaf_ingot",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:knightmetal_ingot",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:carminite",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:time_sapling",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:transformation_sapling",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:hollow_oak_sapling",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:moonworm",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:huge_lily_pad",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:thorn_rose",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:borer_essence",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:greater_potion_flask",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:brittle_potion_flask",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:crown_splinter",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:emperors_cloth",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:pocket_watch",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:charm_of_life_1",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:charm_of_life_2",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:charm_of_keeping_2",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:charm_of_keeping_3",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:diamond_minotaur_axe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:moonworm_queen",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:experiment_115",
+          "weight": 5
+        },
+        { "type": "minecraft:item", "name": "ftb:codex_glyph_1", "weight": 12 },
+        { "type": "minecraft:item", "name": "ftb:codex_glyph_2", "weight": 5 },
+        { "type": "minecraft:item", "name": "ftb:codex_glyph_3", "weight": 1 },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "gateways:gate_pearl",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "gateways:gateway": "apotheosis:tiered/summit" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gateways:gate_pearl",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "gateways:gateway": "gateways:overworldian_nights"
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_lenders_cataclysm:void_bubble",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_lenders_cataclysm:void_vortex_in_bottle",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_lenders_cataclysm:scouring_eye",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_ars_nouveau:emblem_of_devotion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_ars_nouveau:ring_of_thrift",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_ars_nouveau:archmage_glove",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_ars_nouveau:mana_ring",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_ars_nouveau:emblem_of_assault",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_ars_nouveau:emblem_of_defense",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:necromancy_gem",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:absorption_gem",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:shielding_gem",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:fire_gem",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:ether_gem",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:twilight_gem",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:carminite_gem",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:vengeful_gem",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:charm_backpack",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:thorn_crown",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:steel_cape",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:firefly_queen",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:cicada_bottle",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:scaled_cloak",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:frost_gem",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:deer_antler",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:frenzy_gem",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_ars_nouveau:quantum_bubble",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_ars_nouveau:ring_of_the_spectral_walker",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_ars_nouveau:flaming_bracer",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:parasite_116",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:parasite_115",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:maple_syrup_bottle",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:chromatic_cloak",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:twilight_feather",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_twilight_forest:giant_glove",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "twilightforest:chests/tower_library",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:none",
+  "biomes": "minecraft:crimson_forest",
+  "features": "mynethersdelight:patch_powdery_cane",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,15 @@
+{
+	"type": "avaritia:compressor",
+	"result": {
+		"id": "avaritia:json_singularity",
+		"components": {
+			"avaritia:singularity_id": "red_matter_singularity"
+		}
+	},
+	"cost": 10,
+	"ingredients": [
+		{
+			"item": "projecte:red_matter"
+		}
+	]
+}

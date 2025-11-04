@@ -1,0 +1,208 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:2,Trail:1,Colors:[I;14602026]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Star\\\",\\\"color\\\":\\\"yellow\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:1,Flicker:1,Colors:[I;1973019,15790320]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Time\\\",\\\"color\\\":\\\"white\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:4,Colors:[I;11743532],FadeColors:[I;14188952]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Aroma\\\",\\\"color\\\":\\\"red\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:1,Colors:[I;3887386,5320730,2437522]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Earth\\\",\\\"color\\\":\\\"dark_green\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:4,Trail:1,Colors:[I;5320730,15790320],FadeColors:[I;14602026]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Thought\\\",\\\"color\\\":\\\"gray\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:0,Flicker:1,Colors:[I;2437522,15790320],FadeColors:[I;6719955]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Teamwork\\\",\\\"color\\\":\\\"blue\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:1,Trail:1,Colors:[I;8073150,11250603],FadeColors:[I;14602026]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Reflection\\\",\\\"color\\\":\\\"dark_purple\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:2,Colors:[I;2651799,6719955],FadeColors:[I;6719955]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Oasis\\\",\\\"color\\\":\\\"aqua\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:1,Trail:1,Colors:[I;11250603],FadeColors:[I;2437522,14602026]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Weather\\\",\\\"color\\\":\\\"gray\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:4,Colors:[I;4408131],FadeColors:[I;1973019]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Dusk\\\",\\\"color\\\":\\\"dark_gray\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:1,Flicker:1,Colors:[I;14188952,4312372]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Perseverance\\\",\\\"color\\\":\\\"green\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:0,Colors:[I;4312372,14602026]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Complement\\\",\\\"color\\\":\\\"yellow\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:4,Trail:1,Colors:[I;6719955,15790320],FadeColors:[I;6719955]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Lullaby\\\",\\\"color\\\":\\\"dark_aqua\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:1,Flicker:1,Colors:[I;1973019,8073150,2651799,14602026,12801229]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Projection\\\",\\\"color\\\":\\\"light_purple\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:1,Trail:1,Colors:[I;4408131,15435844],FadeColors:[I;14602026]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Energy\\\",\\\"color\\\":\\\"gold\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:2,Trail:1,Colors:[I;11743532,8073150,4312372,6719955,15435844,15790320]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Sight\\\",\\\"color\\\":\\\"white\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:1,Trail:1,Colors:[I;11743532]},{Type:1,Trail:1,Colors:[I;4312372]},{Type:1,Trail:1,Colors:[I;2437522]}],Flight:2},display:{Name:\"{\\\"text\\\":\\\"Pixel\\\",\\\"color\\\":\\\"blue\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Fireworks:{Explosions:[{Type:1,Flicker:1,Colors:[I;11743532]},{Type:1,Trail:1,Flicker:1,Colors:[I;14602026]},{Type:1,Flicker:1,Colors:[I;4312372]},{Type:1,Flicker:1,Colors:[I;12801229]},{Type:1,Flicker:1,Colors:[I;2437522]}],Flight:2},display:{Name:\"[{\\\"text\\\":\\\"Ce\\\",\\\"color\\\":\\\"red\\\"},{\\\"text\\\":\\\"le\\\",\\\"color\\\":\\\"yellow\\\"},{\\\"text\\\":\\\"br\\\",\\\"color\\\":\\\"green\\\"},{\\\"text\\\":\\\"at\\\",\\\"color\\\":\\\"light_purple\\\"},{\\\"text\\\":\\\"ion\\\",\\\"color\\\":\\\"blue\\\"}]\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

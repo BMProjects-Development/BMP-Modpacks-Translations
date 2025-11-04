@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.hallowed_gold",
+  "ingredient": {
+    "item": "malum:hallowed_gold_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "irons_jewelry:palettes/gold",
+  "quality": 2.1,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "malum:healing_received",
+      "amount": 0.1,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

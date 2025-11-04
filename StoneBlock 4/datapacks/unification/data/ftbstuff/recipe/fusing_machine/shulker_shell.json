@@ -1,0 +1,16 @@
+{
+    "type": "ftbstuff:fusing_machine",
+    "energy": {
+        "fe_per_tick": 50,
+        "ticks_to_process": 40
+    },
+    "inputs": [
+        {
+            "item": "minecraft:shulker_shell"
+        }
+    ],
+    "result": {
+        "id": "productivemetalworks:molten_shulker_shell",
+        "amount": 100
+    }
+}

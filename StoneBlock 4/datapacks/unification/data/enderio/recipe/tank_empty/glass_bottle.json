@@ -1,0 +1,15 @@
+{
+  "type": "enderio:tank",
+  "fluid": {
+    "amount": 250,
+    "id": "cognition:cognitium_source"
+  },
+  "input": {
+    "item": "minecraft:experience_bottle"
+  },
+  "mode": "empty",
+  "output": {
+    "count": 1,
+    "id": "minecraft:glass_bottle"
+  }
+}

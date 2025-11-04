@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:ingots/refined_obsidian"
+    },
+    "P": {
+      "item": "ftbmaterials:refined_obsidian_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "#P#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanism:block_refined_obsidian"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:none",
+  "biomes": "soul_sand_valley",
+  "spawners": {
+    "type": "neoforge:none",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 10
+  }
+}

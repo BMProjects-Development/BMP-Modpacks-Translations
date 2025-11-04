@@ -1,0 +1,385 @@
+{
+	"size": "large",
+	"color": "#f0ff29",
+	"waves": [
+		{
+			"entities": [
+				{
+					"entity": "minecraft:pillager",
+					"count": 4
+				}
+			],
+            "modifiers": [
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": 0.40
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:priest",
+					"rolls": 1
+				}
+			],
+			"max_wave_time": 800,
+			"setup_time": 100
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:pillager",
+					"count": 2
+				},
+				{
+					"entity": "irons_spellbooks:cultist",
+					"modifiers": [
+						{
+							"attribute": "generic.max_health",
+							"operation": "add_multiplied_total",
+							"value": -0.25
+						},
+						{
+							"attribute": "generic.armor",
+							"operation": "add_value",
+							"value": -0.25
+						},
+						{
+							"attribute": "generic.attack_damage",
+							"operation": "add_multiplied_total",
+							"value": -0.30
+						},
+						{
+							"attribute": "generic.knockback_resistance",
+							"operation": "add_value",
+							"value": 0.25
+						},
+						{
+							"attribute": "generic.movement_speed",
+							"operation": "add_multiplied_total",
+							"value": -0.20
+						}
+					],
+					"count": 1
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 2
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_multiplied_total",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "add_value",
+					"value": 0.05
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.20
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:cultist",
+					"rolls": 1
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:priest",
+					"rolls": 1
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 150
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:pillager",
+                    "count": 4
+				},
+				{
+					"entity": "irons_spellbooks:cultist",
+					"modifiers": [
+						{
+							"attribute": "generic.max_health",
+							"operation": "add_multiplied_total",
+							"value": -0.25
+						},
+						{
+							"attribute": "generic.armor",
+							"operation": "add_value",
+							"value": -0.25
+						},
+						{
+							"attribute": "generic.attack_damage",
+							"operation": "add_multiplied_total",
+							"value": -0.30
+						},
+						{
+							"attribute": "generic.knockback_resistance",
+							"operation": "add_value",
+							"value": 0.25
+						},
+						{
+							"attribute": "generic.movement_speed",
+							"operation": "add_multiplied_total",
+							"value": -0.20
+						}
+					],
+                    "count": 2
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.20
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 3
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_multiplied_total",
+					"value": 0.20
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "add_value",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.20
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:priest",
+					"rolls": 1
+				},
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:cultist",
+					"rolls": 1
+				}
+			],
+			"max_wave_time": 1400,
+			"setup_time": 200
+		},
+		{
+			"entities": [
+				{
+					"entity": "minecraft:pillager",
+                    "count": 4
+				},
+				{
+					"entity": "irons_spellbooks:cultist",
+					"modifiers": [
+						{
+							"attribute": "generic.max_health",
+							"operation": "add_multiplied_total",
+							"value": -0.25
+						},
+						{
+							"attribute": "generic.armor",
+							"operation": "add_value",
+							"value": -0.25
+						},
+						{
+							"attribute": "generic.attack_damage",
+							"operation": "add_multiplied_total",
+							"value": -0.30
+						},
+						{
+							"attribute": "generic.knockback_resistance",
+							"operation": "add_value",
+							"value": 0.25
+						},
+						{
+							"attribute": "generic.movement_speed",
+							"operation": "add_multiplied_total",
+							"value": -0.20
+						}
+					],
+                    "count": 2
+				},
+				{
+					"entity": "minecraft:vex",
+                    "count": 4
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.25
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_multiplied_total",
+					"value": 0.30
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "add_value",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.20
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:entity_loot",
+					"entity": "irons_spellbooks:priest",
+					"rolls": 1
+				}
+			],
+			"max_wave_time": 3200,
+			"setup_time": 280
+		},
+		{
+			"entities": [
+                {
+					"entity": "irons_spellbooks:archevoker",
+                    "desc": "gateways.seasoned_archevoker",
+                    "nbt": {
+                        "CustomNameVisible": 1,
+                        "CustomName": "{\"translate\":\"gateways.seasoned_archevoker\",\"color\":\"black\"}"
+                    },
+                    "modifiers": [
+                        {
+                            "type": "gateways:mob_effect",
+                            "effect": {
+                                "effect": "minecraft:strength"
+                            }
+                        },
+                        {
+                            "attribute": "apothic_attributes:fire_damage",
+                            "operation": "add_value",
+                            "value": 4
+                        },
+                        {
+                            "attribute": "generic.max_health",
+                            "operation": "add_value",
+                            "value": 8
+                        }
+                    ],
+                    "count": 1,
+                    "finalize_spawn": false
+				},
+				{
+					"entity": "minecraft:evoker",
+                    "count": 1
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "add_multiplied_total",
+					"value": 0.35
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "add_value",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "add_multiplied_total",
+					"value": 0.50
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "add_value",
+					"value": 0.20
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "add_multiplied_total",
+					"value": -0.20
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 500,
+                    "orb_size": 25
+				}
+			],
+			"max_wave_time": 3200,
+			"setup_time": 340
+		}
+	],
+    "rewards": [
+		{
+			"type": "gateways:command",
+			"command": "summon irons_spellbooks:priest",
+			"desc": "desc.gateways.command.priest"
+		},
+		{
+			"type": "gateways:command",
+			"command": "summon minecraft:vex",
+			"desc": "desc.gateways.command.vex"
+		},
+		{
+			"type": "gateways:command",
+			"command": "summon minecraft:vex",
+			"desc": "desc.gateways.command.vex"
+		},
+		{
+            "type": "gateways:stack_list",
+			"stacks": [
+				{
+					"id": "gag:sacred_salt",
+					"count": 8
+				},
+				{
+					"id": "actuallyadditions:bats_wing",
+					"count": 6
+				},
+				{
+					"id": "ars_nouveau:air_essence",
+					"count": 16
+				},
+				{
+					"id": "minecraft:phantom_membrane",
+					"count": 4
+				},
+				{
+					"id": "irons_spellbooks:divine_pearl",
+					"count": 8
+				},
+				{
+					"id": "irons_spellbooks:raw_mithril",
+					"count": 32
+				}
+		  ]
+        }
+    ],
+    "failures": [
+    ]
+}

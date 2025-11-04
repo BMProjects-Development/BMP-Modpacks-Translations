@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:none",
+  "biomes": "old_growth_spruce_taiga",
+  "spawners": {
+    "type": "neoforge:none",
+    "maxCount": 6,
+    "minCount": 2,
+    "weight": 12
+  }
+}

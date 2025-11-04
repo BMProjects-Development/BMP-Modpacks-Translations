@@ -1,0 +1,16 @@
+{
+    "type": "ftbstuff:fusing_machine",
+    "energy": {
+        "fe_per_tick": 50,
+        "ticks_to_process": 40
+    },
+    "inputs": [
+        {
+            "item": "minecraft:magma_cream"
+        }
+    ],
+    "result": {
+        "id": "productivemetalworks:molten_magma_cream",
+        "amount": 100
+    }
+}

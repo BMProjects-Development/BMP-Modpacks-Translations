@@ -1,0 +1,54 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:orange_wool"
+          },
+          "output_state": {
+            "Name": "create:encased_chain_drive",
+            "Properties": {
+              "axis":"x"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:pink_wool"
+          },
+          "output_state": {
+            "Name": "create:encased_chain_drive",
+            "Properties": {
+              "axis":"y"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:red_wool"
+          },
+          "output_state": {
+            "Name": "create:encased_chain_drive",
+            "Properties": {
+              "axis":"z"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

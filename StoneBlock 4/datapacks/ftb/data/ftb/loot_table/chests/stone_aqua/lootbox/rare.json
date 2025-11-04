@@ -1,0 +1,505 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "p": 0.7, "n": 12, "type": "minecraft:binomial" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "p": 0.8, "n": 10, "type": "minecraft:binomial" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "p": 0.5, "n": 3, "type": "minecraft:binomial" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "p": 0.8, "n": 12, "type": "minecraft:binomial" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "p": 0.8, "n": 8, "type": "minecraft:binomial" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "ftb:chests/stone_aqua/meta/horse_armor",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 8, "max": 11, "type": "minecraft:uniform" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:blaze_powder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "p": 0.8, "n": 5, "type": "minecraft:binomial" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 3, "max": 7, "type": "minecraft:uniform" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:tnt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 3, "type": "minecraft:uniform" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:repeater",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 4, "type": "minecraft:uniform" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:comparator",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 3, "type": "minecraft:uniform" }
+            }
+          ]
+        },
+        { "type": "minecraft:item", "weight": 4, "name": "minecraft:cauldron" },
+        { "type": "minecraft:item", "weight": 6, "name": "minecraft:saddle" },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:name_tag",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 2, "type": "minecraft:uniform" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:clay_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 22, "max": 42, "type": "minecraft:uniform" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 2, "max": 12, "type": "minecraft:uniform" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 3, "max": 7, "type": "minecraft:uniform" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:honey_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 4, "max": 8, "type": "minecraft:uniform" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 2, "type": "minecraft:uniform" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:fermented_spider_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 5, "type": "minecraft:uniform" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:red_mushroom",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "p": 0.5, "n": 8, "type": "minecraft:binomial" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:brown_mushroom",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "p": 0.5, "n": 8, "type": "minecraft:binomial" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.5 }],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "ftb:chests/stone_aqua/meta/iron_tool",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": { "min": 18, "max": 24, "type": "minecraft:uniform" },
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.5 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "ftb:chests/stone_aqua/meta/golden_tool",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": { "min": 18, "max": 24, "type": "minecraft:uniform" },
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.5 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "ftb:chests/stone_aqua/meta/diamond_tool",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": { "min": 18, "max": 24, "type": "minecraft:uniform" },
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.5 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "ftb:chests/stone_aqua/meta/chainmail_armor",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": { "min": 18, "max": 24, "type": "minecraft:uniform" },
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.5 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "ftb:chests/stone_aqua/meta/iron_armor",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": { "min": 18, "max": 24, "type": "minecraft:uniform" },
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.5 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "ftb:chests/stone_aqua/meta/diamond_armor",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": { "min": 18, "max": 24, "type": "minecraft:uniform" },
+              "conditions": [
+                { "condition": "minecraft:random_chance", "chance": 0.5 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": { "min": 18, "max": 24, "type": "minecraft:uniform" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": { "min": 18, "max": 24, "type": "minecraft:uniform" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": { "min": 1, "max": 2, "type": "minecraft:uniform" },
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.25 }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "ftb:chests/stone_aqua/group/random_potion",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.05 }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "ftb:chests/stone_aqua/meta/spawn_egg",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.1 }],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "ftb:chests/stone_aqua/lootbox/epic",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "projecte:mobius_fuel",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 1, "max": 3, "type": "minecraft:uniform" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:alchemical_coal",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "ftb:chests/stone_aqua/meta/alchemical_bag",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:whirlisprig_shards",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:sourceberry_bush",
+          "weight": 5
+        },
+        { "type": "minecraft:item", "name": "minecraft:trident", "weight": 5 },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:starbuncle_shards",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "ftb:chests/ocean_treasure",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.1 }],
+      "entries": [{ "type": "minecraft:loot_table", "name": "ftb:armors" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.2 }],
+      "entries": [{ "type": "minecraft:loot_table", "name": "ftb:food" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.1 }],
+      "entries": [{ "type": "minecraft:loot_table", "name": "ftb:gadgets" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [{ "condition": "minecraft:random_chance", "chance": 0.2 }],
+      "entries": [{ "type": "minecraft:loot_table", "name": "ftb:ingots" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.12 }
+      ],
+      "entries": [{ "type": "minecraft:loot_table", "name": "ftb:magic" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.12 }
+      ],
+      "entries": [{ "type": "minecraft:loot_table", "name": "ftb:tech" }]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        { "condition": "minecraft:random_chance", "chance": 0.15 }
+      ],
+      "entries": [{ "type": "minecraft:loot_table", "name": "ftb:weapons" }]
+    }
+  ]
+}

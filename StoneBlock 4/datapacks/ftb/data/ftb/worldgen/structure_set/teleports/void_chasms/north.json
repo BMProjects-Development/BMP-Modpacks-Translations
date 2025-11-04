@@ -1,0 +1,13 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:telepad",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "ftbteambases:one_chunk_only",
+    "cx": 0,
+    "cz": -225
+  }
+}

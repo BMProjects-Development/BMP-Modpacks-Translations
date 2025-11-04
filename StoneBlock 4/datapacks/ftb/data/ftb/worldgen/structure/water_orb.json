@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "ftb:water_orb/start",
+  "size": 20,
+  "biomes": "#ftb:is_ocean",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "max_distance_from_center": 128,
+  "step": "underground_structures",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": -40
+    },
+    "max_inclusive": {
+      "absolute": 60
+    }
+  },
+  "use_expansion_hack": true
+}

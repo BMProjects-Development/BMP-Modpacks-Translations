@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:none",
+  "biomes": [
+    "minecraft:lukewarm_ocean",
+    "minecraft:deep_lukewarm_ocean",
+    "minecraft:warm_ocean"
+  ],
+  "spawners" : {
+    "type": "neoforge:none",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

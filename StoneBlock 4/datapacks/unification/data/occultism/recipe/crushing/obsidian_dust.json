@@ -1,0 +1,11 @@
+{
+	"type": "occultism:crushing",
+	"ingredient": {
+		"tag": "c:obsidians"
+	},
+	"result": {
+		"type": "occultism:item",
+		"count": 4,
+		"id": "ftbmaterials:obsidian_dust"
+	}
+}

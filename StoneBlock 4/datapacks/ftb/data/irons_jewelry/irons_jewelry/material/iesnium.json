@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.iesnium",
+  "ingredient": {
+    "item": "occultism:iesnium_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "irons_jewelry:palettes/platinum",
+  "quality": 2.3,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:dodge_chance",
+      "amount": 0.05,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

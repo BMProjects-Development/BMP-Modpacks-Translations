@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "R": {
+      "tag": "c:crops/rice"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RBR",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "actuallyadditions:rice_slimeball"
+  }
+}

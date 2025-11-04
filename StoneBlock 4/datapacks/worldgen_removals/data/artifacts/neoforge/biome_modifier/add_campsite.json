@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:none",
+  "biomes": "#minecraft:is_overworld",
+  "features": "artifacts:underground_campsite",
+  "step": "underground_structures"
+}

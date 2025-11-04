@@ -1,0 +1,13 @@
+{
+  "biomes": "#ftb:is_twilight",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "type": "minecraft:jigsaw",
+  "start_pool": "ftb:vaults/twilight_forest/hydra/start",
+  "size": 20,
+  "start_height": {
+    "absolute": 50
+  },
+  "max_distance_from_center": 128,
+  "use_expansion_hack": false
+}

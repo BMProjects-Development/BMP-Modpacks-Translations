@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.palis",
+  "ingredient": {
+    "item": "actuallyadditions:palis_crystal"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "irons_jewelry:palettes/lapis",
+  "quality": 1.8,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:generic.luck",
+      "amount": 0.1,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "ftbstuff:fusing_machine",
+    "energy": {
+        "fe_per_tick": 50,
+        "ticks_to_process": 40
+    },
+    "inputs": [
+        {
+            "item": "oritech:energite_dust"
+        }
+    ],
+    "result": {
+        "id": "oritech:still_molten_energite",
+        "amount": 90
+    }
+}

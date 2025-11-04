@@ -1,0 +1,70 @@
+{
+  "values": {
+    "ftb:stone": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:spring": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:deepslate": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:end": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:nether": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:ocean": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:twilight_forest": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:void_chasms": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:lower/deepslate": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:lower/end": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:lower/nether": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:lower/ocean": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:lower/stone": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:lower/twilight_forest": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:lower/void_chasms": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:upper/deepslate": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:upper/end": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:upper/nether": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:upper/ocean": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:upper/stone": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:upper/twilight_forest": {
+      "villager_type": "ftb:stone"
+    },
+    "ftb:upper/void_chasms": {
+      "villager_type": "ftb:stone"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ftbteambases:cherry",
+  "display": {
+    "title": "ftbteambases.base.cherry.title",
+    "description": "ftbteambases.base.cherry.desc",
+    "icon": "ftbteambases:bases/cherry",
+    "preview_image": "ftbteambases:textures/bases/cherry.png"
+  },
+  "construction": {
+    "pregen_template": "cherry",
+    "structure_sets": ["ftbteambases:default"],
+    "include_entities": true
+  },
+  "spawn_offset": [0, -190, 0],
+  "dimension": {
+    "dimension_type": "minecraft:overworld",
+    "private": true,
+    "dimension_id": "minecraft:overworld"
+  }
+}

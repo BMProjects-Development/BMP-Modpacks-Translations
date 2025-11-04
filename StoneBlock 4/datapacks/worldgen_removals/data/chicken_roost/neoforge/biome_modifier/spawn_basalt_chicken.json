@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:none",
+  "biomes": "basalt_deltas",
+  "spawners": {
+    "type": "neoforge:none",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 10
+  }
+}

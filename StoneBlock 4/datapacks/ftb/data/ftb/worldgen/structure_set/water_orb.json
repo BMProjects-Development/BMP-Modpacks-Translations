@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:water_orb",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 15643216,
+    "spacing": 32,
+    "separation": 24,
+    "max_distance_from_center": 128,
+    "exclusion_zone": {
+      "other_set": "ftb:exclusion_set",
+      "chunk_count": 5
+    }
+  }
+}

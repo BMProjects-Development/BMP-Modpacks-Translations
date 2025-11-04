@@ -1,0 +1,31 @@
+{
+  "type": "irons_jewelry:necklace",
+  "descriptionId": "ftb.irons.pattern.duality_necklace",
+  "partForQuality": "irons_jewelry:chain_simple_amulet",
+  "parts": [
+    {
+      "bonuses": [
+        {
+          "bonusType": "irons_jewelry:attribute_bonus",
+          "qualityMultiplier": 1.0
+        }
+      ],
+      "drawOrder": 0,
+      "id": "irons_jewelry:chain_simple_amulet",
+      "materialCost": 2
+    },
+    {
+      "bonuses": [
+        {
+          "bonusType": "irons_jewelry:attribute_bonus",
+          "qualityMultiplier": 0.5
+        }
+      ],
+      "drawOrder": 1,
+      "id": "irons_jewelry:gem_simple_amulet",
+      "materialCost": 1
+    }
+  ],
+  "qualityMultiplier": 1.5,
+  "unlockedByDefault": false
+}

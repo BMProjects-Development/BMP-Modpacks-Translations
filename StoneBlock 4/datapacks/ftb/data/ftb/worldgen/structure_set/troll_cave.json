@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "ftb:troll_cave",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "twilightforest:landmark_grid",
+      "exclusion_zone": {
+        "other_set": "ftb:exclusion_set",
+        "chunk_count": 10
+      }
+  }
+  }

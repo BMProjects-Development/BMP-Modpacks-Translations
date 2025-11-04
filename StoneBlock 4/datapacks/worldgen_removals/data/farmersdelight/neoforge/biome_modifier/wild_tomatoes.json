@@ -1,0 +1,7 @@
+{
+  "type": "neoforge:none",
+  "allowed_biomes": "#c:is_hot/overworld",
+  "denied_biomes": "#c:is_wet",
+  "features": "farmersdelight:patch_wild_tomatoes",
+  "step": "vegetal_decoration"
+}

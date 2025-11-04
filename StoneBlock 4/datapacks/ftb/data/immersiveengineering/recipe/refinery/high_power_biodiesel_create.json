@@ -1,0 +1,22 @@
+{
+  "type": "immersiveengineering:refinery",
+  "energy": 80,
+  "input0": {
+    "amount": 95,
+    "tag": "c:biodiesel"
+  },
+  "input1": {
+    "type": "neoforge:components",
+    "amount": 5,
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:strength"
+      }
+    },
+    "fluids": "create:potion"
+  },
+  "result": {
+    "amount": 100,
+    "id": "immersiveengineering:high_power_biodiesel"
+  }
+}

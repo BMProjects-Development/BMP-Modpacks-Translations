@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/nether0/meta/potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/nether0/meta/splash_potion",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/nether0/meta/lingering_potion",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

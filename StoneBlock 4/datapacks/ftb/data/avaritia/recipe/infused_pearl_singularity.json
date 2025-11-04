@@ -1,0 +1,15 @@
+{
+	"type": "avaritia:compressor",
+	"result": {
+		"id": "avaritia:json_singularity",
+		"components": {
+			"avaritia:singularity_id": "infused_pearl_singularity"
+		}
+	},
+	"cost": 50,
+	"ingredients": [
+		{
+			"item": "rftoolsbase:infused_enderpearl"
+		}
+	]
+}

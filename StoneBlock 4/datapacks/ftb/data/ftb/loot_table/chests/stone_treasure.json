@@ -1,0 +1,337 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create:experience_nugget",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 6.0, "max": 12.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "create:andesite_casing",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "create:electron_tube",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "oritech:resource_node_copper",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "oritech:resource_node_iron",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:source_gem",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 3.0, "max": 6.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_powder",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 4.0, "max": 8.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:common_ink",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 4.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:bombegranate_pod",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:mendosteen_pod",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:frostaya_pod",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "create:brass_casing",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "oritech:resource_node_redstone",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "oritech:resource_node_lapis",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem_dust",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 3.0, "max": 7.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "malum:raw_soulstone",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:arcane_essence",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:bastion_pod",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "irons_jewelry:topaz",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_jewelry:peridot",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_jewelry:onyx",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_jewelry:moonstone",
+          "weight": 12
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "ftbmaterials:dimensional_shard_gem",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem_fused_slate",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "projecte:interdiction_torch",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:rainbow_oak_sapling",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:qio_drive_hyper_dense",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_upgrade_smithing_template",
+          "weight": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "gateways:gate_pearl",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "gateways:gateway": "apotheosis:tiered/frontier" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

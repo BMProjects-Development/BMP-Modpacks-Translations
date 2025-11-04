@@ -1,0 +1,55 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "almostunified:conditional",
+      "conditions_met": true,
+      "original_conditions": [
+        {
+          "type": "neoforge:item_exists",
+          "item": "industrialforegoing:efficiency_addon_tier_1"
+        }
+      ]
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "tag": "c:gears/gold"
+    },
+    {
+      "tag": "c:gears/gold"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "fluid": "industrialforegoing:latex"
+  },
+  "output": {
+    "components": {
+      "titanium:augments": {
+        "Efficiency": 0.9
+      }
+    },
+    "count": 1,
+    "id": "industrialforegoing:efficiency_addon_tier_1"
+  },
+  "processingTime": 100
+}

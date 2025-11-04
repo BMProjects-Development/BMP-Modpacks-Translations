@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "justdirethings",
+  "key": {
+    "b": {
+      "item": "minecraft:sculk"
+    },
+    "g": {
+      "item": "justdirethings:gooblock_tier2"
+    },
+    "r": {
+      "tag": "chipped:deepslate"
+    },
+    "w": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "pattern": [
+    "brb",
+    "wgw",
+    "brb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "justdirethings:gooblock_tier3"
+  }
+}

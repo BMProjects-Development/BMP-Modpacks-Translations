@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:none",
+  "biomes": "#minecraft:is_overworld",
+  "features": "powah:uraninite_ore_dense",
+  "step": "underground_ores"
+}

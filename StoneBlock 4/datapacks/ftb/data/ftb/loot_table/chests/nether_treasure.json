@@ -1,0 +1,443 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:quartz",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 8.0, "max": 16.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_wart",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 3.0, "max": 7.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 6.0, "max": 12.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 8.0, "max": 16.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherrack",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 12.0, "max": 32.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_sand",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 6.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blackstone",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 6.0, "max": 16.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:basalt",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 6.0, "max": 16.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_bricks",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 4.0, "max": 12.0 }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_rod",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cream",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bhc:wither_bone",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 3.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mob_grinding_utils:tinted_glass",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:red_archwood_sapling",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:otherstone",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:otherrock",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:grim_talc",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:hex_ash",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:alchemical_calx",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 5.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:dynamic_tank",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 8.0 }
+            }
+          ]
+        },
+
+        { "type": "minecraft:item", "name": "create:blaze_cake", "weight": 5 },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:raw_blazegold",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:cthonic_gold",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 8.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:rotting_essence",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:soul_stained_steel_nugget",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 4.0, "max": 9.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:hallowed_gold_nugget",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 4.0, "max": 9.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:runewood_sapling",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "malum:azure_runewood_sapling",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_rose",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "apothic_attributes:strong_wither"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 6.0, "max": 12.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "functionalstorage:netherite_upgrade",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:cell_component_1k",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "appflux:core_1m",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": 1 }]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "occultism:miner_djinni_ores",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "occultism:max_mining_time": 300,
+                "occultism:rolls_per_operation": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:stable_wormhole",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "occultism:dimensional_matrix",
+          "weight": 1
+        },
+
+        { "type": "minecraft:item", "name": "malum:crude_scythe", "weight": 1 },
+        {
+          "type": "minecraft:item",
+          "name": "malum:soul_stained_steel_sword",
+          "weight": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_shovel",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_hoe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justhammers:netherite_hammer",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 10, "max": 50 },
+              "treasure": true
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_skull",
+          "weight": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "gateways:gate_pearl",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "gateways:gateway": "gateways:hellish_fortress" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gateways:gate_pearl",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "gateways:gateway": "apotheosis:tiered/summit" }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "create_dragons_plus:blaze_upgrade_smithing_template",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

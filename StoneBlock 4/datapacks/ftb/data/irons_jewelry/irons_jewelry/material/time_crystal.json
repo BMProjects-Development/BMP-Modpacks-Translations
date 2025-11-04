@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.time_crystal",
+  "ingredient": {
+    "item": "justdirethings:time_crystal"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "irons_jewelry:palettes/peridot",
+  "quality": 2,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:dodge_chance",
+      "amount": 0.1,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

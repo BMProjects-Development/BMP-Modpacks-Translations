@@ -1,0 +1,7 @@
+{
+  "type": "neoforge:none",
+  "allowed_biomes": "#c:is_wet/overworld",
+  "denied_biomes": "#c:is_underground",
+  "features": "farmersdelight:patch_wild_rice",
+  "step": "vegetal_decoration"
+}

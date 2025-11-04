@@ -1,0 +1,13 @@
+{
+  "biomes": "#ftb:is_deepslate",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "type": "minecraft:jigsaw",
+  "start_pool": "ftb:vaults/mffs/start",
+  "size": 20,
+  "start_height": {
+    "absolute": 124
+  },
+  "max_distance_from_center": 128,
+  "use_expansion_hack": false
+}

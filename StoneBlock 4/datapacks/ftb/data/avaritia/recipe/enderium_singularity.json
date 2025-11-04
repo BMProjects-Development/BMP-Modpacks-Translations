@@ -1,0 +1,15 @@
+{
+	"type": "avaritia:compressor",
+	"result": {
+		"id": "avaritia:json_singularity",
+		"components": {
+			"avaritia:singularity_id": "enderium_singularity"
+		}
+	},
+	"cost": 100,
+	"ingredients": [
+		{
+			"item": "chicken_roost:ingot_enderium"
+		}
+	]
+}

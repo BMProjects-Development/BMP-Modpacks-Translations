@@ -1,0 +1,404 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "ftbmaterials:copper_wire",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 4
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:wirecoil_copper",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  }
+                ]
+              },
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:wirecutter",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 12
+                  }
+                ]
+              },
+              "trader_experience": 1,
+              "price_multiplier": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 12,
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "ftbmaterials:electrum_wire",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 6
+                  }
+                ]
+              },
+              "trader_experience": 10
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "ftbmaterials:aluminum_wire",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 6
+                  }
+                ]
+              },
+              "trader_experience": 10
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:electric_lantern",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 4
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 12
+                  }
+                ]
+              },
+              "trader_experience": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 24,
+      "groups": [
+        {
+          "num_to_select": 4,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:faraday_suit_boots",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 4
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                  }
+                ]
+              },
+              "trader_experience": 15,
+              "price_multiplier": 0.2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:faraday_suit_helmet",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 5
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                  }
+                ]
+              },
+              "trader_experience": 15,
+              "price_multiplier": 0.2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:faraday_suit_chestplate",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 9
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                  }
+                ]
+              },
+              "trader_experience": 15,
+              "price_multiplier": 0.2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:faraday_suit_leggings",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 7
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                  }
+                ]
+              },
+              "trader_experience": 15,
+              "price_multiplier": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 40,
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:light_bulb",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                  }
+                ]
+              },
+              "trader_experience": 30
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:component_electronic",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 4
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 16
+                  }
+                ]
+              },
+              "trader_experience": 15
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:fluorescent_tube",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 16
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 8
+                  }
+                ]
+              },
+              "trader_experience": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 60,
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:electron_tube",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 8
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 12
+                  }
+                ]
+              },
+              "trader_experience": 30
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:tesla_coil",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 24
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 12
+                  }
+                ]
+              },
+              "trader_experience": 30
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

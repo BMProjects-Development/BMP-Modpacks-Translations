@@ -1,0 +1,15 @@
+{
+	"type": "avaritia:compressor",
+	"result": {
+		"id": "avaritia:json_singularity",
+		"components": {
+			"avaritia:singularity_id": "duratium_singularity"
+		}
+	},
+	"cost": 100,
+	"ingredients": [
+		{
+			"item": "oritech:duratium_ingot"
+		}
+	]
+}

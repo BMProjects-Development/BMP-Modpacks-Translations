@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "type": "oritech:refinery",
+  "fluidInput": {
+    "amount": 1000,
+    "fluid": "oritech:still_biofuel"
+  },
+  "fluidOutputs": [
+    {
+      "amount": 500,
+      "fluid": "pneumaticcraft:diesel"
+    },
+    {
+      "amount": 200,
+      "fluid": "oritech:still_naphtha"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "oritech:clay_catalyst_beads"
+    }
+  ],
+  "results": [],
+  "time": 120
+}

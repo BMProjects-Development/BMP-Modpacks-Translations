@@ -1,0 +1,50 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "advancedperipherals:nbt_storage"
+          },
+          "output_state": {
+            "Name": "advancedperipherals:nbt_storage"
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {
+              "storedData": { "version": 0.0, "vault_id": "slide" }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "computercraft:computer_command"
+          },
+          "output_state": {
+            "Name": "computercraft:computer_command"
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {
+              "On": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

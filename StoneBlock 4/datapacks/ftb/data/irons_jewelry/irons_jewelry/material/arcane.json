@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.arcane",
+  "ingredient": {
+    "item": "irons_spellbooks:arcane_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/arcane",
+  "quality": 0.75,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "irons_spellbooks:spell_power",
+      "amount": 0.1,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

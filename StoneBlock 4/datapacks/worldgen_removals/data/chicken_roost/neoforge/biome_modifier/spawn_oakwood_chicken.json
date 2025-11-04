@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:none",
+  "biomes": ["forest", "flower_forest"],
+  "spawners": {
+    "type": "neoforge:none",
+    "maxCount": 6,
+    "minCount": 2,
+    "weight": 12
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.replica",
+  "ingredient": {
+    "item": "replication:replica_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/replica",
+  "quality": 2,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:mining_speed",
+      "amount": 0.25,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

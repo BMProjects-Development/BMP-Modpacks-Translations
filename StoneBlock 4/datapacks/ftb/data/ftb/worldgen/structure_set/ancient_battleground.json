@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:ancient_battleground",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1111569999,
+    "spacing": 24,
+    "separation": 12,
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+        "other_set": "ftb:exclusion_set",
+        "chunk_count": 5
+      }
+  }
+}

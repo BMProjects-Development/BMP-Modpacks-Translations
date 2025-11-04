@@ -1,0 +1,422 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:respiration": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:respiration": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:fire_protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:respiration": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:blast_protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:respiration": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:projectile_protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:fire_protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:blast_protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:projectile_protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:fire_protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:blast_protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:projectile_protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:feather_falling": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:depth_strider": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:fire_protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:feather_falling": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:depth_strider": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:blast_protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:feather_falling": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:depth_strider": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:projectile_protection": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:feather_falling": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:depth_strider": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }    
+  ]
+}

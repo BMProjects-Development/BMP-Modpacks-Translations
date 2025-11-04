@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.psigem",
+  "ingredient": {
+    "item": "psi:psigem"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/arcane",
+  "quality": 1.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "ars_nouveau:ars_nouveau.perk.spell_damage",
+      "amount": 0.1,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:none",
+  "biomes": "#c:is_hill",
+  "spawners" : {
+    "type": "neoforge:none",
+    "weight": 75,
+    "minCount": 2,
+    "maxCount": 2
+  }
+}

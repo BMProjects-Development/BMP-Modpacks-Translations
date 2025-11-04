@@ -1,0 +1,13 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:arcane_grove",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "ftbteambases:one_chunk_only",
+    "cx": 32,
+    "cz": 32
+  }
+}

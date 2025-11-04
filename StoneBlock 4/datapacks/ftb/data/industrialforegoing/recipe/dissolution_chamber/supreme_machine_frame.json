@@ -1,0 +1,50 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "almostunified:conditional",
+      "conditions_met": true,
+      "original_conditions": [
+        {
+          "type": "neoforge:item_exists",
+          "item": "industrialforegoing:machine_frame_supreme"
+        }
+      ]
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "c:plastics"
+    },
+    {
+      "tag": "industrialforegoing:machine_frame/advanced"
+    },
+    {
+      "tag": "c:plastics"
+    },
+    {
+      "tag": "c:ingots/netherite"
+    },
+    {
+      "tag": "c:ingots/netherite"
+    },
+    {
+      "tag": "c:gems/diamond"
+    },
+    {
+      "tag": "c:gears/diamond"
+    },
+    {
+      "tag": "c:gems/diamond"
+    }
+  ],
+  "inputFluid": {
+    "amount": 135,
+    "fluid": "industrialforegoing:ether_gas"
+  },
+  "output": {
+    "count": 1,
+    "id": "industrialforegoing:machine_frame_supreme"
+  },
+  "processingTime": 150
+}

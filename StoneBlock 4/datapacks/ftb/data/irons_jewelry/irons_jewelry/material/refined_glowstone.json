@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.refined_glowstone",
+  "ingredient": {
+    "item": "ftbmaterials:refined_glowstone_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "irons_jewelry:palettes/gold",
+  "quality": 2.1,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:mining_speed",
+      "amount": 0.2,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

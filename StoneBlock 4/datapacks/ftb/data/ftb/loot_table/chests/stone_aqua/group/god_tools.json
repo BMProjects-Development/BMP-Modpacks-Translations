@@ -1,0 +1,194 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:smite": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:bane_of_arthropods": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:looting": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_shovel",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fortune": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:efficiency": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fortune": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:efficiency": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_hoe",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fortune": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:unbreaking": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                },
+                "minecraft:efficiency": {
+                  "p": 0.5,
+                  "n": 10,
+                  "type": "minecraft:binomial"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

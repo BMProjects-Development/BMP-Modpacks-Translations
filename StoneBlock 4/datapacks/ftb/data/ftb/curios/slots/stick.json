@@ -1,0 +1,6 @@
+{
+  "icon": "ftb:slot/empty_stick_slot",
+  "size": 1,
+  "order": 800,
+  "validators": ["curios:tag"]
+}

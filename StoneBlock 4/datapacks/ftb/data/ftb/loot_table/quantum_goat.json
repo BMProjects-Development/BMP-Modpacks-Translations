@@ -1,0 +1,200 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:iron_ingot", "weight": 12 },
+        { "type": "minecraft:item", "name": "minecraft:copper_ingot", "weight": 12 },
+        { "type": "minecraft:item", "name": "minecraft:obsidian", "weight": 8 },
+        { "type": "minecraft:item", "name": "fluxnetworks:flux_dust", "weight": 8 },
+        { "type": "minecraft:item", "name": "ftbmaterials:dimensional_shard_gem", "weight": 6 },
+        { "type": "minecraft:item", "name": "ars_nouveau:greater_experience_gem", "weight": 5 },
+        { "type": "minecraft:item", "name": "irons_spellbooks:lightning_bottle", "weight": 5 },
+        { "type": "minecraft:item", "name": "cognition:cognitive_flux", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:gold_ingot", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:ender_pearl", "weight": 4 },
+        { "type": "minecraft:item", "name": "ars_nouveau:wilden_horn", "weight": 4 },
+        { "type": "minecraft:item", "name": "mekanism:teleportation_core", "weight": 2 },
+        { "type": "minecraft:item", "name": "ftb:clapple", "weight": 2 },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "minecraft:instrument": "minecraft:seek_goat_horn" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "minecraft:instrument": "minecraft:admire_goat_horn" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "minecraft:instrument": "minecraft:feel_goat_horn" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "minecraft:instrument": "minecraft:sing_goat_horn" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "minecraft:instrument": "minecraft:call_goat_horn" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "minecraft:instrument": "minecraft:dream_goat_horn" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "minecraft:instrument": "minecraft:ponder_goat_horn" }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": { "minecraft:instrument": "minecraft:yearn_goat_horn" }
+            }
+          ]
+        },
+
+        { "type": "minecraft:item", "name": "artifacts:everlasting_beef", "weight": 1 },
+
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_ars_nouveau:quantum_bubble",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "relics:data": {
+                  "abilities": {
+                    "abilities": {
+                      "stasis": {
+                        "extender": { "cooldown": 0, "cooldownCap": 0, "ticking": false },
+                        "lock": { "breaks": 5 },
+                        "points": 0,
+                        "research": { "links": {}, "researched": false },
+                        "stats": {
+                          "cooldown": { "initialValue": 29.16113 },
+                          "duration": { "initialValue": 6.84532 },
+                          "levitation": { "initialValue": 3.02351 }
+                        }
+                      }
+                    }
+                  },
+                  "leveling": { "experience": 0, "level": 0, "luck": 0, "points": 0 }
+                }
+              }
+            }
+          ]
+        },
+
+        { "type": "minecraft:item", "name": "ars_elemental:spell_horn", "weight": 1 },
+
+        {
+          "type": "minecraft:item",
+          "name": "simplyswords:bramblethorn",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "draconicevolution:reaper": 5,
+                    "minecraft:mending": 1,
+                    "minecraft:sharpness": 5
+                  }
+                },
+                "simplyswords:gem_power": {
+                  "has_nether_power": false,
+                  "has_runic_power": false,
+                  "nether_power": "simplyswords:empty_power",
+                  "runic_power": "simplyswords:empty_power"
+                }
+              }
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "reliquified_ars_nouveau:horn_of_the_wild_hunter",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "relics:data": {
+                  "abilities": {
+                    "abilities": {
+                      "summoner": {
+                        "extender": { "cooldown": 0, "cooldownCap": 0, "ticking": false },
+                        "lock": { "breaks": 5 },
+                        "points": 0,
+                        "research": { "links": {}, "researched": false },
+                        "stats": { "damage": { "initialValue": 3.33686 } }
+                      }
+                    }
+                  },
+                  "leveling": { "experience": 0, "level": 0, "luck": 0, "points": 0 }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

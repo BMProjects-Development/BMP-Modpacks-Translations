@@ -1,0 +1,33 @@
+{    "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "dontloadthisthanks"
+    }
+  ],
+  "type": "avaritia:extreme_shaped",
+  "result": {
+    "id": "avaritia:infinity_ingot"
+  },
+  "pattern": [
+    "NNNNNNNNN",
+    "NCXXCXXCN",
+    "NXCCXCCXN",
+    "NCXXCXXCN",
+    "NNNNNNNNN",
+    "         ",
+    "         ",
+    "         ",
+    "         "
+  ],
+  "key": {
+    "N": {
+      "item": "avaritia:neutronium_ingot"
+    },
+    "C": {
+      "item": "avaritia:crystal_matrix_ingot"
+    },
+    "X": {
+      "item": "avaritia:infinity_catalyst"
+    }
+  }
+}

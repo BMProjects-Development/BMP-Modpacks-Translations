@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "stepping_on": {
+          "structures": "ftb:vaults/twilight_forest/yeti",
+          "block": {
+            "blocks": "chipped:etched_stone_bricks"
+          }
+        }
+      }
+    }
+  ]
+}

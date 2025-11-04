@@ -1,0 +1,15 @@
+{
+  "name": "ftb:otherworld/4",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ftb:otherworld/4",
+        "processors": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "structures": [
+    {
+      "structure": "fdbosses:chesed_arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "ftbteambases:one_chunk_only",
+    "cx": -8,
+    "cz": 117
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "almostunified:conditional",
+      "conditions_met": true,
+      "original_conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "mekanism"
+        }
+      ]
+    }
+  ],
+  "type": "productivemetalworks:item_casting",
+  "cast": {
+    "item": "productivemetalworks:nugget_cast"
+  },
+  "consume_cast": false,
+  "fluid": {
+    "amount": 10,
+    "fluid": "productivemetalworks:molten_refined_obsidian"
+  },
+  "result": {
+    "count": 1,
+    "id": "ftbmaterials:refined_obsidian_nugget"
+  }
+}

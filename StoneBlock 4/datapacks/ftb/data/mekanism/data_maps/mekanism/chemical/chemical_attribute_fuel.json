@@ -1,0 +1,10 @@
+{
+  "values": {
+    "mekanism:ethene": { "burn_time": 20, "energy": 53 },
+    "mekanism:hydrogen": { "burn_time": 1, "energy": 200 },
+    "starbunclemania:source_gas": {
+      "burn_time": 10,
+      "energy": 25
+    }
+  }
+}

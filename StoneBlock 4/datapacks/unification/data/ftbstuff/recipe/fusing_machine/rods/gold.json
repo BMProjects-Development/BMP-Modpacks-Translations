@@ -1,0 +1,16 @@
+{
+    "type": "ftbstuff:fusing_machine",
+    "energy": {
+        "fe_per_tick": 50,
+        "ticks_to_process": 40
+    },
+    "inputs": [
+        {
+            "tag": "c:rods/gold"
+        }
+    ],
+    "result": {
+        "id": "productivemetalworks:molten_gold",
+        "amount": 45
+    }
+}

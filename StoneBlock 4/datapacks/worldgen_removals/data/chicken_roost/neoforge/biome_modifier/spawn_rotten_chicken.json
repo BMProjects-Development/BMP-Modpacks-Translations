@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:none",
+  "biomes": "dark_forest",
+  "spawners": {
+    "type": "neoforge:none",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 5
+  }
+}

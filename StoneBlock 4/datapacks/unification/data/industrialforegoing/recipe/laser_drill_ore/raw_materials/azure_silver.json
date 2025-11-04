@@ -1,0 +1,35 @@
+{
+	"neoforge:conditions": [
+		{
+			"type": "neoforge:not",
+			"value": {
+				"type": "neoforge:tag_empty",
+				"tag": "c:raw_materials/azure_silver"
+			}
+		}
+	],
+	"type": "industrialforegoing:laser_drill_ore",
+	"catalyst": {
+		"item": "industrialforegoing:magenta_laser_lens"
+	},
+	"output": {
+		"item": "silentgear:raw_azure_silver"
+	},
+	"rarity": [
+		{
+			"biome_filter": {
+				"blacklist": [],
+				"whitelist": []
+			},
+			"depth_max": 80,
+			"depth_min": 5,
+			"dimension_filter": {
+				"blacklist": [],
+				"whitelist": [
+					"minecraft:the_end"
+				]
+			},
+			"weight": 4
+		}
+	]
+}

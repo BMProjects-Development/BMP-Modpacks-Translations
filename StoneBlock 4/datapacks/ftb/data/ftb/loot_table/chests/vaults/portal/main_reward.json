@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "conditions": [],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [],
+            "name": "ftb:fortron_star"
+          }
+        ],
+        "rolls": 1
+      }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "industrialforegoing:fluid_laser_base"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "ftb:fortron_infused_ingot"
+    },
+    "f": {
+      "item": "mekanism_lasers:energy_transformer"
+    },
+    "g": {
+      "tag": "c:gears/diamond"
+    },
+    "m": {
+      "tag": "industrialforegoing:machine_frame/advanced"
+    },
+    "p": {
+      "tag": "c:plastics"
+    },
+    "r": {
+      "item": "appflux:energy_processor"
+    }
+  },
+  "pattern": [
+    "pfp",
+    "bmb",
+    "grg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "industrialforegoing:fluid_laser_base"
+  }
+}

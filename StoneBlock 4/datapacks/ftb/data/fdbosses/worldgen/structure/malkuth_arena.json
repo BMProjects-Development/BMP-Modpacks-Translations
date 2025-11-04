@@ -1,0 +1,47 @@
+{
+  "type": "fdbosses:malkuth_arena",
+  "biomes": "#ftb:all",
+  "start_pool": "fdbosses:malkuth_arena",
+  "step": "underground_structures",
+  "terrain_adaptation": "none",
+  "size": 20,
+  "start_height": {
+    "absolute": 132
+  },
+  "max_distance_from_center": 115,
+  "use_expansion_hack": false,
+  "spawn_overrides": {
+    "ambient": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "axolotls": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "creature": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "misc": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "underground_water_creature": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "water_ambient": {
+      "bounding_box": "piece",
+      "spawns": []
+    },
+    "water_creature": {
+      "bounding_box": "piece",
+      "spawns": []
+    }
+  }
+}

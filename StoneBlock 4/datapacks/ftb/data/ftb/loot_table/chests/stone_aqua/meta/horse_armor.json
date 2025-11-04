@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "actuallyadditions:enori_crystal_block", "weight": 1 },
+        { "type": "minecraft:item", "name": "actuallyadditions:void_crystal_block", "weight": 1 },
+        { "type": "minecraft:item", "name": "actuallyadditions:diamatine_crystal_block", "weight": 1 }
+      ]
+    }
+  ]
+}

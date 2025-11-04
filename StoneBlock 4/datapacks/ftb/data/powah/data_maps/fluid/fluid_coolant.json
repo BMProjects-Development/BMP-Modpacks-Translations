@@ -1,0 +1,32 @@
+{
+  "replace": true,
+  "values": {
+    "justdirethings:time_fluid_source": {
+      "temperature": -20
+    },
+    "cognitium:cognitium_source": {
+      "temperature": -5
+    },
+    "industrialforegoing:sewage": {
+      "temperature": -2
+    },
+    "justdirethings:polymorphic_fluid_source": {
+      "temperature": -10
+    },
+    "oreitech:still_molten_fluxite": {
+      "temperature": -5
+    },
+    "create_dragons_plus:dragon_breath": {
+      "temperature": -12
+    },
+    "productivemetalworks:molten_ender": {
+      "temperature": -8
+    },
+    "starbunclemania:source_fluid": {
+      "temperature": -4
+    },
+    "mffs:fortron_fluid": {
+      "temperature": -10
+    }
+  }
+}

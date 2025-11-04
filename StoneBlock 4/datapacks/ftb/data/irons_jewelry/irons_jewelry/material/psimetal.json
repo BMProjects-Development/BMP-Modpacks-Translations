@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.psimetal",
+  "ingredient": {
+    "item": "psi:psimetal"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/arcane",
+  "quality": 2.25,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "ars_nouveau:sauce.perk.mana_discount",
+      "amount": 0.1,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

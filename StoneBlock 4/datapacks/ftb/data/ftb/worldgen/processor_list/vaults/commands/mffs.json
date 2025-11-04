@@ -1,0 +1,28 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:jigsaw"
+          },
+          "output_state": {
+            "Name": "minecraft:command_block"
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_static",
+            "data": {
+              "Command": "/setblock ~ ~2 ~ minecraft:stone",
+              "auto": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/nether0/group/corridor/uncommon",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/nether0/group/corridor/rare",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/nether0/group/corridor/epic",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/nether0/group/corridor/high_roller",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/nether0/group/corridor/uncommon",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/nether0/group/corridor/rare",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/nether0/group/corridor/epic",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "ftb:chests/nether0/group/corridor/high_roller",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.7
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/bastion_bridge",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/bastion_hoglin_stable",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/nether_bridge",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/ruined_portal",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

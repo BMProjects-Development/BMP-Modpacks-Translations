@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.red_matter",
+  "ingredient": {
+    "item": "projecte:red_matter"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/ignitium",
+  "quality": 2,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:generic.max_health",
+      "amount": 0.1,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ars_elemental:flashjack_entity": [
+    "ars_nouveau:archwood_forest",
+    "minecraft:jagged_peaks",
+    "minecraft:frozen_peaks",
+    "minecraft:stony_peaks"
+  ],
+  "ars_elemental:siren_entity": [
+    "minecraft:warm_ocean",
+    "ars_elemental:cascading_forest",
+    "ars_nouveau:archwood_forest",
+    "ars_elemental:flashing_forest",
+    "ars_elemental:blazing_forest",
+    "ars_elemental:flourishing_forest"
+  ],
+  "minecraft:allay": [],
+  "moofluids:fluid_cow": [],
+  "chicken_roost:c_bone": [
+    "minecraft:dark_forest"
+  ]
+}

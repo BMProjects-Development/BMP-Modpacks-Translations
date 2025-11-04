@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:dungeons/stone",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 16,
+    "separation": 8,
+    "salt": 984327549,
+    "exclusion_zone": {
+        "other_set": "ftb:exclusion_set",
+        "chunk_count": 5
+      }
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "name": "ftb:nether0/optionals",
+  "fallback": "ftb:nether0/terminators/optionals",
+  "elements": [
+    {
+      "weight": 21,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/treasure/16",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 21,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/treasure/17",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 21,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/treasure/18",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 21,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/treasure/19",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 21,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/treasure/40",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 21,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/treasure/41",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 21,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/treasure/42",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 21,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/treasure/43",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 21,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/treasure/44",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 21,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/treasure/45",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 21,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/treasure/48",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 11,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/chamber/23",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 11,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/chamber/24",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 11,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/chamber/25",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 11,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/chamber/46",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 11,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/chamber/47",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/intersection/2",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/intersection/20",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/intersection/21",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/intersection/22",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/intersection/26",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/intersection/27",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/junction/28",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/junction/29",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/junction/30",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/junction/31",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/junction/32",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/junction/33",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/junction/34",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/straight/1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/straight/7",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/straight/8",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/straight/9",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/straight/10",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/straight/11",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/straight/12",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/straight/13",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/straight/14",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/straight/15",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/vertical/38",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/vertical/39",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/vertical/49",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/vertical/50",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/vertical/51",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/corridor/vertical/52",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+	"type": "avaritia:compressor",
+	"result": {
+		"id": "avaritia:json_singularity",
+		"components": {
+			"avaritia:singularity_id": "fortron_infused_singularity"
+		}
+	},
+	"cost": 50,
+	"ingredients": [
+		{
+			"item": "ftb:fortron_infused_ingot"
+		}
+	]
+}

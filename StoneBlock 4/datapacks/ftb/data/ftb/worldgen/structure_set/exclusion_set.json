@@ -1,0 +1,84 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:vaults/twilight_forest/hydra",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:vaults/twilight_forest/knight",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:vaults/twilight_forest/lich",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:vaults/twilight_forest/snow_queen",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:vaults/twilight_forest/yeti",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:arcane_grove",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:vaults/burning_disco",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:vaults/chicken_jockey",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:vaults/mffs",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:vaults/portal",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:vaults/create_vault",
+      "weight": 1
+    },
+    {
+      "structure": "fdbosses:chesed_arena",
+      "weight": 1
+    },
+    {
+      "structure": "fdbosses:malkuth_arena",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:telepad",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:dungeons/stone",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:dungeons/nether",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:water_orb",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:ancient_city",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 1,
+    "spread": 0,
+    "count": 1,
+    "salt": 25,
+    "preferred_biomes": []
+  }
+}

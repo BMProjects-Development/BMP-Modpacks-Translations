@@ -1,0 +1,99 @@
+{
+  "id": "ftbechoes:t4_echo_wyrmwright",
+  "title": {"translate": "ftb.echo.wyrmwright.title"},
+  "all_complete": {"translate": "ftb.echo.all_stages_completed"},
+  "stages": [
+    {
+      "title": {"translate": "ftb.echo.stage0.title"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.startup", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.startup.lore"}]}
+      ],
+      "not_ready" : {"translate": "ftb.echo.bugged"},
+      "required_stage": "echo_wyrmwright_meet",
+      "ready": {"translate": "ftb.echo.bugged"},
+      "completed": {"translate": "ftb.echo.startup.completed"},
+      "shop_unlock":[
+        {"name": "Dragon Head", "item": {"id": "minecraft:dragon_head", "count": 1}, "cost": 95},
+        {"name": "Portable QIO Dashboard", "item": {"id": "mekanism:portable_qio_dashboard", "count": 1}, "cost": 90},
+        {"name": "Generator", "item": {"id": "draconicevolution:generator", "count": 1}, "cost": 50},
+        {"name": "Advanced Dislocator", "item": {"id": "draconicevolution:advanced_dislocator", "count": 1}, "cost": 100}
+      ]
+    },
+    {
+      "title": {"translate": "ftb.echo.stage4.title1"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.wyrmwright.stage4.task1", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.wyrmwright.stage4.task1.lore"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.wyrmwright.stage4.task1.lore2"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.wyrmwright.stage4.task1.not_ready"},
+      "required_stage": "echo_wyrmwright_stage4_task1_completed",
+      "ready": {"translate": "ftb.echo.wyrmwright.stage4.task1.ready"},
+      "completed": {"translate": "ftb.echo.wyrmwright.stage4.task1.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_wyrmwright_stage4_task1_check", "permission": 3}, "experience": 100},
+      "shop_unlock": [
+        {"name": "Speed Addon Tier 9", "item": {"id": "oritechthings:addon_block_speed_tier_9", "count": 1}, "cost": 125},
+        {"name": "Efficiency Addon Tier 9", "item": {"id": "oritechthings:addon_block_efficiency_tier_9", "count": 1}, "cost": 125},
+        {"name": "Acceptor Addon Tier 9", "item": {"id": "oritechthings:addon_block_capacitor_tier_9", "count": 1}, "cost": 125},
+        {"name": "Capacitor Addon Tier 9", "item": {"id": "oritechthings:addon_block_acceptor_tier_9", "count": 1}, "cost": 125},
+        {"name": "Processing Addon Tier 9", "item": {"id": "oritechthings:addon_block_processing_tier_9", "count": 1}, "cost": 125},
+        {"name": "Supermassive QIO Drive", "item": {"id": "mekanism:qio_drive_supermassive", "count": 1}, "cost": 90},
+        {"name": "Instant Ultimate Tier Upgrade", "item": [{"id": "mekanism:ultimate_tier_installer", "count": 1}, {"id": "mekanism:elite_tier_installer", "count": 1}, {"id": "mekanism:advanced_tier_installer", "count": 1}, {"id": "mekanism:basic_tier_installer", "count": 1}], "cost": 225, "description": {"translate":"ftb.shop.description.instant_ultimate_upgrade"}, "icon": "mekanism:item/ultimate_tier_installer"}
+      ]
+    },
+    {
+      "title": {"translate": "ftb.echo.stage4.title2"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.wyrmwright.stage4.task2", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.wyrmwright.stage4.task2.lore"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.wyrmwright.stage4.task2.lore2"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.wyrmwright.stage4.task2.not_ready"},
+      "required_stage": "echo_wyrmwright_stage4_task2_completed",
+      "ready": {"translate": "ftb.echo.wyrmwright.stage4.task2.ready"},
+      "completed": {"translate": "ftb.echo.wyrmwright.stage4.task2.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_wyrmwright_stage4_task2_check", "permission": 3}, "experience": 100},
+      "shop_unlock": []
+    },
+    {
+      "title": {"translate": "ftb.echo.stage5.title"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.wyrmwright.stage5.task1", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.wyrmwright.stage5.task1.lore"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.wyrmwright.stage5.task1.not_ready"},
+      "required_stage": "echo_wyrmwright_stage5_task1_completed",
+      "ready": {"translate": "ftb.echo.wyrmwright.stage5.task1.ready"},
+      "completed": {"translate": "ftb.echo.wyrmwright.stage5.task1.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_wyrmwright_stage5_task1_check", "permission": 3}, "experience": 100},
+      "shop_unlock": []
+    },
+    {
+      "title": {"translate": "ftb.echo.stage5.title1"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.wyrmwright.stage5.task2", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.wyrmwright.stage5.task2.lore"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.wyrmwright.stage5.task2.lore2"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.wyrmwright.stage5.task2.not_ready"},
+      "required_stage": "echo_wyrmwright_stage5_task2_completed",
+      "ready": {"translate": "ftb.echo.wyrmwright.stage5.task2.ready"},
+      "completed": {"translate": "ftb.echo.wyrmwright.stage5.task2.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_wyrmwright_stage5_task2_check", "permission": 3}, "experience": 100},
+      "shop_unlock": []
+    },
+    {
+      "title": {"translate": "ftb.echo.stage5.title"},
+      "lore": [
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.wyrmwright.stage6.task1.lore"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.placeholder.stage6.task1.lore"},
+      "required_stage": "echo_placeholder_stage6_task1_completed",
+      "ready": {"translate": "ftb.echo.bugged"},
+      "completed": {"translate": "ftb.echo.bugged"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_placeholder_stage6_task1_check", "permission": 3}, "experience": 3000},
+      "shop_unlock": []
+    }
+  ]
+}

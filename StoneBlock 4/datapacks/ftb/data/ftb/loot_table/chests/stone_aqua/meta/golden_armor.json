@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:celestigem_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 1, "max": 60 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:celestigem_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 1, "max": 60 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:celestigem_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 1, "max": 60 },
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:celestigem_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": { "type": "minecraft:uniform", "min": 1, "max": 60 },
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 0, "max": 1 },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:upgrade_homing",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:upgrade_waterbreathing",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:upgrade_glowing",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:upgrade_earthquake",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:upgrade_instabreak",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:upgrade_noai",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:upgrade_lavaimmunity",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:upgrade_debuffremover",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "justdirethings:upgrade_deathprotection",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

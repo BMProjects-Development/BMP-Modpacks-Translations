@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.tiny_chaos_fragment",
+  "ingredient": {
+    "item": "draconicevolution:small_chaos_frag"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/tiny_chaos",
+  "quality": 5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.5,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

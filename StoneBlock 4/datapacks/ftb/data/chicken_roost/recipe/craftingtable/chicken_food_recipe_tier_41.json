@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chicken_roost:chicken_essence_tier_4"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_3"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_3"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_3"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_3"
+    },
+    {
+      "item": "actuallyadditions:black_quartz"
+    },
+    {
+      "item": "cognition:mending_neurogel"
+    }
+  ],
+  "result": {
+    "id": "chicken_roost:chicken_food_tier_4",
+    "count": 1
+  }
+}

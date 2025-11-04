@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:none",
+  "biomes": "#minecraft:is_nether",
+  "features": "rftoolsbase:dimshard_nether",
+  "step": "underground_ores"
+}

@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.dark_matter",
+  "ingredient": {
+    "item": "projecte:dark_matter"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/dark_matter",
+  "quality": 2,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:generic.max_health",
+      "amount": 3,
+      "operation": "add_value"
+    }
+  }
+}

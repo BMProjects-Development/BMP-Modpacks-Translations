@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chicken_roost:chicken_essence_tier_2"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_1"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_1"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_1"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_1"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "result": {
+    "id": "chicken_roost:chicken_food_tier_2",
+    "count": 4
+  }
+}

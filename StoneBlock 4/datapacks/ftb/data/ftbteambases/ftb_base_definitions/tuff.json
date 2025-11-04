@@ -1,0 +1,20 @@
+{
+  "id": "ftbteambases:tuff",
+  "display": {
+    "title": "ftbteambases.base.tuff.title",
+    "description": "ftbteambases.base.tuff.desc",
+    "icon": "ftbteambases:bases/tuff",
+    "preview_image": "ftbteambases:textures/bases/tuff.png"
+  },
+  "construction": {
+    "pregen_template": "tuff",
+    "structure_sets": ["ftbteambases:default"],
+    "include_entities": true
+  },
+  "spawn_offset": [0, -190, 0],
+  "dimension": {
+    "dimension_type": "minecraft:overworld",
+    "private": true,
+    "dimension_id": "minecraft:overworld"
+  }
+}

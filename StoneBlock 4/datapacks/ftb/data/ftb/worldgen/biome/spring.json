@@ -1,0 +1,41 @@
+{
+  "carvers": {},
+  "downfall": 0.4,
+  "effects": {
+    "fog_color": 12638463,
+    "sky_color": 7907327,
+    "water_color": 7888366,
+    "water_fog_color": 338760,
+    "mood_sound": {
+      "sound": "cucumber:watering_can",
+      "tick_delay": 1000,
+      "block_search_extent": 16,
+      "offset": 0
+    },
+    "particle": {
+      "options": {
+        "type": "particular:firefly"
+      },
+      "probability": 0.005
+    }
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:flower_flower_forest",
+      "minecraft:flower_default"
+    ],
+    []
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "monster": []
+  },
+  "temperature": 0.8
+}

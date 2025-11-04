@@ -1,0 +1,15 @@
+{
+  "name": "ftb:stone/lootboxes/legendary",
+  "fallback": "ftb:stone/lootboxes/legendary",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone/lootbox/legendary/128",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

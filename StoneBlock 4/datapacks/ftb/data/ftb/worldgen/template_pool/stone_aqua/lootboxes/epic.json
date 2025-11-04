@@ -1,0 +1,15 @@
+{
+  "name": "ftb:stone_aqua/lootboxes/epic",
+  "fallback": "ftb:stone_aqua/lootboxes/epic",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone_aqua/lootbox/epic/127",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

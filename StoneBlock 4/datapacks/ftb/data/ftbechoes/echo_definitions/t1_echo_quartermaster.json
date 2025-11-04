@@ -1,0 +1,97 @@
+{
+ "id": "ftbechoes:t1_echo_quartermaster",
+  "title": {"translate": "ftb.echo.quartermaster.title"},
+  "all_complete": {"translate": "ftb.echo.all_stages_completed"},
+  "stages": [
+    {
+      "title": {"translate": "ftb.echo.stage0.title"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.startup", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.startup.lore"}]}
+      ],
+      "not_ready" : {"translate": "ftb.echo.bugged"},
+      "required_stage": "echo_quartermaster_meet",
+      "ready": {"translate": "ftb.echo.bugged"},
+      "completed": {"translate": "ftb.echo.startup.completed"},
+      "shop_unlock":[
+        {"name": "Pet Rock", "item": {"id": "petrock:petrockbox", "count": 1}, "cost": 5, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Basic to Copper Tier Upgrade", "item": {"id": "sophisticatedstorage:basic_to_copper_tier_upgrade", "count": 1}, "cost": 10, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Torchflower Seeds", "item": {"id": "minecraft:torchflower_seeds", "count": 1}, "cost": 10},
+        {"name": "Worm", "item": {"id": "actuallyadditions:worm", "count": 1}, "cost": 5},
+        {"name": "Storage Controller", "item": {"id": "functionalstorage:storage_controller", "count": 1}, "cost": 40},
+        {"name": "Framed Storage Controller", "item": {"id": "functionalstorage:framed_storage_controller", "count": 1}, "cost": 40},
+        {"name": "Compacting Drawer", "item": {"id": "functionalstorage:compacting_drawer", "count": 1}, "cost": 15},
+        {"name": "Framed Compacting Drawer", "item": {"id": "functionalstorage:compacting_framed_drawer", "count": 1}, "cost": 15},
+        {"name": "Simple Compacting Drawer", "item": {"id": "functionalstorage:simple_compacting_drawer", "count": 1}, "cost": 15},
+        {"name": "Framed Simple Compacting Drawer", "item": {"id": "functionalstorage:framed_simple_compacting_drawer", "count": 1}, "cost": 15},
+        {"name": "Lock Picks", "item": {"id": "clavis:lock_pick", "count": 5}, "cost": 10},
+        {"name": "Personal Storage Unit Tier: 1", "item": {"id": "pocketstorage:psu_1", "count": 1}, "cost": 10},
+        {"name": "Mining Dynamite", "item": {"id": "gag:mining_dynamite", "count": 16 }, "cost": 5},
+        {"name": "Fishing Dynamite", "item": {"id": "gag:fishing_dynamite", "count": 16 }, "cost": 5},
+        {"name": "Elevator White", "item": {"id": "elevatorid:elevator_white", "count": 2 }, "cost": 5},
+        {"name": "Reinforced Crate", "item": {"id": "immersiveengineering:reinforced_crate", "count": 1}, "cost": 10}
+      ]
+    },
+    {
+      "title": {"translate": "ftb.echo.stage1.title1"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.quartermaster.stage1.task1", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.quartermaster.stage1.task1.lore"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.quartermaster.stage1.task1.lore2"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.quartermaster.stage1.task1.lore3"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.quartermaster.stage1.task1.not_ready"},
+      "required_stage": "echo_quartermaster_stage1_task1_completed",
+      "ready": {"translate": "ftb.echo.quartermaster.stage1.task1.ready"},
+      "completed": {"translate": "ftb.echo.quartermaster.stage1.task1.completed"},
+      "completion_reward" : {"command": {"run": "kubejs stages add @s echo_quartermaster_stage1_task1_check", "permission": 3}, "experience": 50},
+      "shop_unlock": [
+        {"name": "Copper to Iron Chest Upgrade", "item": {"id": "sophisticatedstorage:copper_to_iron_tier_upgrade", "count": 1}, "cost": 15},
+        {"name": "Iron to Gold Chest Upgrade", "item": {"id": "sophisticatedstorage:iron_to_gold_tier_upgrade", "count": 1}, "cost": 20},
+        {"name": "5x5 Compact Machine", "item": {"id": "compactmachines:new_machine", "components": {"compactmachines:machine_color": "#D4D2D2", "compactmachines:room_template": "compactmachines:small"}, "count": 1}, "cost": 15, "description": [{"translate": "ftb.shop.description.compact_machine.5x5"}, {"translate": "ftb.shop.description.exclusive"}]},
+        {"name": "Chance Cube", "item": {"id": "chancecubes:chance_cube", "count": 1}, "cost": 15, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Upgrade: Step Assist", "item": {"id": "justdirethings:upgrade_stepheight", "count": 1}, "cost": 10},
+        {"name": "Wand of Symmetry", "item": {"id": "create:wand_of_symmetry", "count": 1}, "cost": 20},
+        {"name": "Diamond Stick", "item": {"id": "constructionstick:diamond_stick", "count": 1}, "cost": 10},
+        {"name": "Experience Obelisk", "item": {"id": "cognition:experience_obelisk", "count": 1}, "cost": 15},
+        {"name": "Building Gadget", "item": {"id": "buildinggadgets2:gadget_building", "components": {"buildinggadgets2:forge_energy": 500000}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.filled_rf"}},
+        {"name": "Fluid Transporter", "item": {"id": "industrialforegoing:fluid_transporter_type", "count": 2 }, "cost": 15},
+        {"name": "Item Transporter", "item": {"id": "industrialforegoing:item_transporter_type", "count": 2 }, "cost": 15},
+        {"name": "Feeding Upgrade", "item": {"id": "sophisticatedbackpacks:feeding_upgrade", "count": 1}, "cost": 20},
+        {"name": "Water Tank", "item": {"id": "sfm:water_tank", "count": 1}, "cost": 10},
+        {"name": "Basic Magnet", "item": {"id": "simplemagnets:basicmagnet", "count": 1}, "cost": 10},
+        {"name": "Advanced Filter", "item": {"id": "enderio:advanced_filter", "count": 1}, "cost": 10},
+        {"name": "Diamond Hammer", "item": {"id": "ftbstuff:diamond_hammer", "components":{"minecraft:enchantments":{"levels":{"minecraft:efficiency":5,"minecraft:unbreaking":5}}}, "count": 1}, "cost": 20, "description": [{"translate":"ftb.shop.description.efficiency5"}, {"translate":"ftb.shop.description.unbreaking5"}]},
+        {"name": "Brush", "item": {"id": "minecraft:brush", "components":{"minecraft:enchantments":{"levels":{"minecraft:unbreaking":5}}}, "count": 1}, "cost": 15, "description": {"translate": "ftb.shop.description.unbreaking5"}},
+        {"name": "Lonestar's Steak Knife", "item": {"id": "farmersdelight:diamond_knife", "components":{"minecraft:custom_name": "{translate: ftb.shop.title.item.knife}" ,"minecraft:enchantments":{"levels":{"minecraft:unbreaking":6}}}, "count": 1}, "cost": 15, "description": {"translate": "ftb.shop.description.unbreaking6"}}
+      ]
+    },
+    {
+      "title": {"translate": "ftb.echo.stage1.title2"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.quartermaster.stage1.task2", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.quartermaster.stage1.task2.lore"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.quartermaster.stage1.task2.lore2"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.quartermaster.stage1.task2.lore3"}]}
+      ],
+      "not_ready" : {"translate": "ftb.echo.quartermaster.stage1.task2.not_ready"},
+      "required_stage": "echo_quartermaster_stage1_task2_completed",
+      "ready": {"translate": "ftb.echo.quartermaster.stage1.task2.ready"},
+      "completed": {"translate": "ftb.echo.quartermaster.stage1.task2.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_quartermaster_stage1_task2_check", "permission": 3}, "experience": 200},
+      "shop_unlock": []
+    },
+
+    {
+      "title": {"translate": "ftb.echo.stage2.title"},
+      "lore": [
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.quartermaster.stage2.task1.lore"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.placeholder.stage6.task1.lore"},
+      "required_stage": "echo_quartermaster_stage2_task1_completed",
+      "ready": {"translate": "ftb.echo.quartermaster.stage2.task1.ready"},
+      "completed": {"translate": "ftb.echo.quartermaster.stage2.task1.completed"},
+      "shop_unlock": []
+    }
+  ]
+}

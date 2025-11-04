@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "f": {
+      "item": "immersiveengineering:treated_fence"
+    },
+    "p": {
+      "tag": "c:plates/steel"
+    },
+    "s": {
+      "item": "ftbmaterials:steel_wire"
+    }
+  },
+  "pattern": [
+    "sps",
+    "fsf"
+  ],
+  "result": {
+    "count": 3,
+    "id": "immersiveengineering:razor_wire"
+  }
+}

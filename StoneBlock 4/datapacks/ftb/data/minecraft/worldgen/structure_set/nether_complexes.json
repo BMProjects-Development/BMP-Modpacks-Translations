@@ -1,0 +1,18 @@
+{
+    "structures": [
+      {
+        "structure": "minecraft:bastion_remnant",
+        "weight": 1
+      }
+    ],
+    "placement": {
+    "salt": 11569999,
+    "spacing": 35,
+    "separation": 8,
+    "type": "cataclysm:cataclysm_random_spread",
+    "exclusion_zone": {
+        "other_set": "ftb:exclusion_set",
+        "chunk_count": 5
+      }
+  }
+}

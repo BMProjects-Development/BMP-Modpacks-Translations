@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "c:iron_bars"
+    },
+    "g": {
+      "tag": "c:glass_blocks"
+    }
+  },
+  "pattern": [
+    "gag",
+    "a a",
+    "gag"
+  ],
+  "result": {
+    "count": 4,
+    "id": "crystalix:bordered_crystalix_glass"
+  }
+}

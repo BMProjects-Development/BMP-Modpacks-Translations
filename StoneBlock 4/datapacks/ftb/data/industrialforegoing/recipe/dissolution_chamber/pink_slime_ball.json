@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "almostunified:conditional",
+      "conditions_met": true,
+      "original_conditions": [
+        {
+          "type": "neoforge:item_exists",
+          "item": "industrialforegoing:pink_slime"
+        }
+      ]
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "minecraft:glass_pane"
+    }
+  ],
+  "inputFluid": {
+    "amount": 300,
+    "fluid": "industrialforegoing:pink_slime"
+  },
+  "output": {
+    "count": 1,
+    "id": "industrialforegoing:pink_slime"
+  },
+  "outputFluid": {
+    "amount": 150,
+    "id": "minecraft:water"
+  },
+  "processingTime": 100
+}

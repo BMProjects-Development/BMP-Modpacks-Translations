@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.duratium",
+  "ingredient": {
+    "item": "oritech:duratium_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/duratium",
+  "quality": 3,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:generic.armor_toughness",
+      "amount": 0.2,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

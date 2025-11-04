@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "enderio:loot_capacitor",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "enderio:set_loot_capacitor",
+              "range": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "descriptionId": "ftb.irons.material.pulsating_crystal",
+  "ingredient": {
+    "item": "enderio:pulsating_crystal"
+  },
+  "materialType": ["gem"],
+  "paletteLocation": "ftb:palettes/fused",
+  "quality": 2,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "ars_nouveau:sauce.perk.spell_crit",
+      "amount": 0.15,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

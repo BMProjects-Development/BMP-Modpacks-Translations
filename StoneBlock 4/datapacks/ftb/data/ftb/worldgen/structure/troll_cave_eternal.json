@@ -1,0 +1,21 @@
+{
+    "biomes": "ftb:eternal_stone",
+    "step": "underground_structures",
+    "spawn_overrides": {},
+    "type": "minecraft:jigsaw",
+    "start_pool": "ftb:troll_cave",
+    "size": 20,
+    "chunk_clearance_radius": 4.0,
+    "start_height": {
+      "type": "minecraft:trapezoid",
+      "min_inclusive": {
+      "absolute": -32
+      },
+      "max_inclusive": {
+      "absolute": 220
+      }
+  },
+    "max_distance_from_center": 116,
+    "use_expansion_hack": false,
+    "speleothem_config": "twilightforest:troll_cave"
+}

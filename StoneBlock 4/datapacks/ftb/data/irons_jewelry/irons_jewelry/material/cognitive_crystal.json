@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.cognitive_crystal",
+  "ingredient": {
+    "item": "cognition:cognitive_crystal"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/cognitive_crystal",
+  "quality": 1,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:experience_gained",
+      "amount": 0.2,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

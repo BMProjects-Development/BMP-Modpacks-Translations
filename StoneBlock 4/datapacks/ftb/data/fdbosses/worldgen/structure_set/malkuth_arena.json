@@ -1,0 +1,13 @@
+{
+    "structures": [
+    {
+      "structure": "fdbosses:malkuth_arena",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "ftbteambases:one_chunk_only",
+    "cx": 230,
+    "cz": 78
+  }
+}

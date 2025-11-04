@@ -1,0 +1,16 @@
+{
+    "type": "ftbstuff:fusing_machine",
+    "energy": {
+        "fe_per_tick": 50,
+        "ticks_to_process": 40
+    },
+    "inputs": [
+        {
+            "item": "create:crushed_raw_silver"
+        }
+    ],
+    "result": {
+        "id": "productivemetalworks:molten_silver",
+        "amount": 90
+    }
+}

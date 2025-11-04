@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.spectre",
+  "ingredient": {
+    "item": "irregular_implements:spectre_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/arcane",
+  "quality": 2,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:arrow_velocity",
+      "amount": 0.2,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

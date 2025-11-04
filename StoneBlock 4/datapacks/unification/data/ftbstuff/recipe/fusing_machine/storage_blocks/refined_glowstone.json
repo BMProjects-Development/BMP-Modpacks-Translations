@@ -1,0 +1,16 @@
+{
+    "type": "ftbstuff:fusing_machine",
+    "energy": {
+        "fe_per_tick": 50,
+        "ticks_to_process": 40
+    },
+    "inputs": [
+        {
+            "tag": "c:storage_blocks/refined_glowstone"
+        }
+    ],
+    "result": {
+        "id": "productivemetalworks:molten_refined_glowstone",
+        "amount": 810
+    }
+}

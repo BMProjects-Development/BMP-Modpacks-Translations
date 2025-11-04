@@ -1,0 +1,110 @@
+{
+ "id": "ftbechoes:t2_echo_enchanter",
+  "title": {"translate": "ftb.echo.enchanter.title"},
+  "all_complete": {"translate": "ftb.echo.all_stages_completed"},
+  "stages": [
+    {
+      "title": {"translate": "ftb.echo.stage0.title"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.startup", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.startup.lore"}]}
+      ],
+      "not_ready" : {"translate": "ftb.echo.bugged"},
+      "required_stage": "echo_enchanter_meet",
+      "ready": {"translate": "ftb.echo.bugged"},
+      "completed": {"translate": "ftb.echo.startup.completed"},
+      "shop_unlock":[
+        {"name": "Rainbow Coal", "item": {"id": "ironfurnaces:rainbow_coal", "count": 1}, "cost": 60, "description": [{"translate": "ftb.shop.description.exclusive"}, {"translate": "ftb.shop.description.rainbow_coal"}]},
+        {"name": "Heart of the Sea", "item": {"id": "minecraft:heart_of_the_sea", "count": 1}, "cost": 15},
+        {"name": "Sigil of Socketing", "item": {"id": "apotheosis:sigil_of_socketing", "count": 1}, "cost": 35},
+        {"name": "Sigil of Withdrawing", "item": {"id": "apotheosis:sigil_of_withdrawal", "count": 1}, "cost": 15},
+        {"name": "Gem Dust", "item": {"id": "apotheosis:gem_dust", "count": 2 }, "cost": 10},
+        {"name": "Artisan Scroll - Piglin Signet Ring", "item": {"id": "irons_jewelry:recipe", "components": {"irons_jewelry:stored_pattern": "irons_jewelry:piglin_signet_ring"}, "count": 1}, "cost": 10, "description": {"translate": "ftb.shop.description.irons_scroll.piglin_signet_ring"}},
+        {"name": "Artisan Scroll - Amulet of Protection", "item": {"id": "irons_jewelry:recipe", "components": {"irons_jewelry:stored_pattern": "irons_jewelry:amulet_of_protection"}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.irons_scroll.amulet_of_protection"}},
+        {"name": "Artisan Scroll - Rhinestone Amulet", "item": {"id": "irons_jewelry:recipe", "components": {"irons_jewelry:stored_pattern": "irons_jewelry:rhinestone_amulet"}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.irons_scroll.rhinestone_amulet"}},
+        {"name": "Artisan Scroll - Rune Inscribed Ring", "item": {"id": "irons_jewelry:recipe", "components": {"irons_jewelry:stored_pattern": "irons_jewelry:rune_inscribed_ring"}, "count": 1}, "cost": 35, "description": {"translate": "ftb.shop.description.irons_scroll.rune_inscribed_ring"}},
+        {"name": "Artisan Scroll - Sharpshooter Loop", "item": {"id": "irons_jewelry:recipe", "components": {"irons_jewelry:stored_pattern": "irons_jewelry:sharpshooter_loop"}, "count": 1}, "cost": 60, "description": {"translate": "ftb.shop.description.irons_scroll.sharpshooter_loop"}}
+      ]
+    },
+    {
+      "title": {"translate": "ftb.echo.stage2.title1"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.enchanter.stage2.task1", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.enchanter.stage2.task1.lore"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.enchanter.stage2.task1.lore2"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.enchanter.stage2.task1.lore3"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.enchanter.stage2.task1.not_ready"},
+      "required_stage": "echo_enchanter_stage2_task1_completed",
+      "ready": {"translate": "ftb.echo.enchanter.stage2.task1.ready"},
+      "completed": {"translate": "ftb.echo.enchanter.stage2.task1.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_enchanter_stage2_task1_check", "permission": 3}, "experience": 100},
+      "shop_unlock": [
+        {"name": "GM Chicken Feed Cursed", "item": {"id": "mob_grinding_utils:gm_chicken_feed_cursed", "count": 1}, "cost": 35, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Ferricore Anvil", "item": {"id": "justdynathings:ferricore_anvil", "count": 1}, "cost": 35, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Enchantment Library", "item": {"id": "apothic_enchanting:library", "count": 1}, "cost": 35, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "30 mins of Temporal Time", "command": {"run": "gag give_time @s 36000", "permission": 3, "description": {"translate":"ftb.shop.title.temporal_pouch_half_hour"}}, "cost": 30, "description": {"translate": "ftb.shop.description.temporal_pouch_warning"}, "icon": "gag:item/time_sand_pouch"},
+        {"name": "Data Model - Death Tome", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:twilightforest/death_tome"}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.data_model.basic"}},
+        {"name": "Gateway - Apothic Ascent", "item": {"id": "gateways:gate_pearl", "components": {"gateways:gateway": "apotheosis:tiered/ascent"}, "count": 1}, "cost": 50, "description": {"translate": "ftb.shop.description.gate_pearl.apothic_ascent"}},
+        {"name": "Gateway - Apothic Frontier", "item": {"id": "gateways:gate_pearl", "components": {"gateways:gateway": "apotheosis:tiered/frontier"}, "count": 1}, "cost": 50, "description": {"translate": "ftb.shop.description.gate_pearl.apothic_frontier"}},
+        {"name": "Totem of Undying", "item": {"id": "minecraft:totem_of_undying", "count": 1}, "cost": 25},
+        {"name": "Advanced Item Collector", "item": {"id": "itemcollectors:advanced_collector", "count": 1}, "cost": 20},
+        {"name": "Everlasting Upgrade", "item": {"id": "sophisticatedbackpacks:everlasting_upgrade", "count": 1}, "cost": 25},
+        {"name": "Interdiction Torch", "item": {"id": "projecte:interdiction_torch", "count": 1}, "cost": 50},
+        {"name": "ME Source Jar", "item": {"id": "arseng:me_source_jar", "count": 1}, "cost": 20},
+        {"name": "ME Source Cell Housing", "item": {"id": "arseng:source_cell_housing", "count": 1}, "cost": 20},
+        {"name": "Random Glyph 2", "item": {"id": "ftb:codex_glyph_2", "count": 1}, "cost": 50},
+        {"name": "Random Glyph 3", "item": {"id": "ftb:codex_glyph_3", "count": 1}, "cost": 45},
+        {"name": "Glyph of Luck", "item": {"id": "ars_nouveau:glyph_fortune", "count": 1}, "cost": 35},
+        {"name": "Glyph of Exchange", "item": {"id": "ars_nouveau:glyph_exchange", "count": 1}, "cost": 20},
+        {"name": "Arcane Essense", "item": {"id": "irons_spellbooks:arcane_essence", "count": 2}, "cost": 20},
+        {"name": "Fire Upgrade Orb", "item": {"id": "irons_spellbooks:fire_upgrade_orb", "count": 1}, "cost": 10},
+        {"name": "Ice Upgrade Orb", "item": {"id": "irons_spellbooks:ice_upgrade_orb", "count": 1}, "cost": 10},
+        {"name": "Lightning Upgrade Orb", "item": {"id": "irons_spellbooks:lightning_upgrade_orb", "count": 1}, "cost": 10},
+        {"name": "Holy Upgrade Orb", "item": {"id": "irons_spellbooks:holy_upgrade_orb", "count": 1}, "cost": 10},
+        {"name": "Ender Upgrade Orb", "item": {"id": "irons_spellbooks:ender_upgrade_orb", "count": 1}, "cost": 10},
+        {"name": "Blood Upgrade Orb", "item": {"id": "irons_spellbooks:blood_upgrade_orb", "count": 1}, "cost": 10},
+        {"name": "Evocation Upgrade Orb", "item": {"id": "irons_spellbooks:evocation_upgrade_orb", "count": 1}, "cost": 10},
+        {"name": "Nature Upgrade Orb", "item": {"id": "irons_spellbooks:nature_upgrade_orb", "count": 1}, "cost": 10},
+        {"name": "Protection Upgrade Orb", "item": {"id": "irons_spellbooks:protection_upgrade_orb", "count": 1}, "cost": 10},
+        {"name": "Mana Upgrade Orb", "item": {"id": "irons_spellbooks:mana_upgrade_orb", "count": 1}, "cost": 45},
+        {"name": "Cooldown Upgrade Orb", "item": {"id": "irons_spellbooks:cooldown_upgrade_orb", "count": 1}, "cost": 50},
+        {"name": "Metallic Matter Tank", "item": {"id": "replication:matter_tank", "components": {"minecraft:custom_name": "{translate: ftb.shop.title.item.matter_tank.metallic}", "replication:tile": {"tank": {"Amount": 64000, "MatterName": "replication:metallic"}}}, "count": 1}, "cost": 85, "description": {"translate": "ftb.shop.description.matter_tank.64k"}},
+        {"name": "Earth Matter Tank", "item": {"id": "replication:matter_tank", "components": {"minecraft:custom_name": "{translate: ftb.shop.title.item.matter_tank.earth}", "replication:tile": {"tank": {"Amount": 64000, "MatterName": "replication:earth"}}}, "count": 1}, "cost": 85, "description": {"translate": "ftb.shop.description.matter_tank.64k"}},
+        {"name": "Nether Matter Tank", "item": {"id": "replication:matter_tank", "components": {"minecraft:custom_name": "{translate: ftb.shop.title.item.matter_tank.nether}", "replication:tile": {"tank": {"Amount": 64000, "MatterName": "replication:nether"}}}, "count": 1}, "cost": 85, "description": {"translate": "ftb.shop.description.matter_tank.64k"}},
+        {"name": "Organic Matter Tank", "item": {"id": "replication:matter_tank", "components": {"minecraft:custom_name": "{translate: ftb.shop.title.item.matter_tank.organic}", "replication:tile": {"tank": {"Amount": 64000, "MatterName": "replication:organic"}}}, "count": 1}, "cost": 85, "description": {"translate": "ftb.shop.description.matter_tank.64k"}},
+        {"name": "Ender Matter Tank", "item": {"id": "replication:matter_tank", "components": {"minecraft:custom_name": "{translate: ftb.shop.title.item.matter_tank.ender}", "replication:tile": {"tank": {"Amount": 64000, "MatterName": "replication:ender"}}}, "count": 1}, "cost": 85, "description": {"translate": "ftb.shop.description.matter_tank.64k"}},
+        {"name": "Precious Matter Tank", "item": {"id": "replication:matter_tank", "components": {"minecraft:custom_name": "{translate: ftb.shop.title.item.matter_tank.precious}", "replication:tile": {"tank": {"Amount": 64000, "MatterName": "replication:precious"}}}, "count": 1}, "cost": 85, "description": {"translate": "ftb.shop.description.matter_tank.64k"}},
+        {"name": "Quantum Matter Tank", "item": {"id": "replication:matter_tank", "components": {"minecraft:custom_name": "{translate: ftb.shop.title.item.matter_tank.quantum}", "replication:tile": {"tank": {"Amount": 64000, "MatterName": "replication:quantum"}}}, "count": 1}, "cost": 85, "description": {"translate": "ftb.shop.description.matter_tank.64k"}},
+        {"name": "Living Matter Tank", "item": {"id": "replication:matter_tank", "components": {"minecraft:custom_name": "{translate: ftb.shop.title.item.matter_tank.living}", "replication:tile": {"tank": {"Amount": 64000, "MatterName": "replication:living"}}}, "count": 1}, "cost": 85, "description": {"translate": "ftb.shop.description.matter_tank.64k"}}
+      ]
+    },
+    {
+      "title": {"translate": "ftb.echo.stage2.title2"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.enchanter.stage2.task2", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.enchanter.stage2.task2.lore"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.enchanter.stage2.task2.lore2"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.enchanter.stage2.task2.lore3"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.enchanter.stage2.task2.not_ready"},
+      "required_stage": "echo_enchanter_stage2_task2_completed",
+      "ready": {"translate": "ftb.echo.enchanter.stage2.task2.ready"},
+      "completed": {"translate": "ftb.echo.enchanter.stage2.task2.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_enchanter_stage2_task2_check", "permission": 3}, "experience": 100},
+      "shop_unlock": []
+    },
+    {
+      "title": {"translate": "ftb.echo.stage3.title"},
+      "lore": [
+        { "type": "ftbechoes:text", "text": [{"translate": "ftb.echo.enchanter.stage3.task1.lore"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.placeholder.stage6.task1.lore"},
+      "required_stage": "echo_enchanter_stage3_task1_completed",
+      "ready": {"translate": "ftb.echo.enchanter.stage3.task1.ready"},
+      "completed": {"translate": "ftb.echo.enchanter.stage3.task1.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_enchanter_stage3_task1_check", "permission": 3}, "experience": 100},
+      "shop_unlock": []
+    }
+  ]
+}

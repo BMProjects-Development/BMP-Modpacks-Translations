@@ -1,0 +1,15 @@
+{
+  "name": "ftb:vaults/mffs/exit",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ftb:vaults/mffs/exit",
+        "processors": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ftb:arcane_grove/top_2",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "ftb:arcane_grove/top_2",
+        "processors": []
+      }
+    }
+  ]
+}

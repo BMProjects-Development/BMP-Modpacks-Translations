@@ -1,0 +1,82 @@
+{
+  "structures": [
+    {
+      "structure": "cataclysm:ruined_citadel_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:ancient_battleground_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:soul_black_smith_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:bastion_remnant_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:dungeons/stone_aqua_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:water_orb_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:ice_spider_den_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:frosted_prison_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "irons_spellbooks:catacombs_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:troll_cave_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:ancient_factory_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:dungeons/stone_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:dungeons/nether_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:dungeons/stone_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:dungeons/end_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:dungeons/otherworld_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "minecraft:ancient_city_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "irons_spellbooks:citadel_eternal",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 6234321,
+    "spacing": 16,
+    "separation": 8,
+    "type": "minecraft:random_spread"
+  }
+}

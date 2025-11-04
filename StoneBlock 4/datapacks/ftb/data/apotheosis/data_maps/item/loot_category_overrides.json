@@ -1,0 +1,29 @@
+{
+    "values": {
+        "justdirethings:celestigem_paxel": "apotheosis:breaker",
+        "justdirethings:eclipsealloy_paxel": "apotheosis:breaker",
+        "ae2:certus_quartz_axe": "apotheosis:melee_weapon",
+        "ae2:nether_quartz_axe": "apotheosis:melee_weapon",
+        "immersiveengineering:axe_steel": "apotheosis:melee_weapon",
+        "malum:soul_stained_steel_axe": "apotheosis:melee_weapon",
+        "cataclysm:black_steel_axe": "apotheosis:melee_weapon",
+        "cognition:cognitive_axe": "apotheosis:melee_weapon",
+        "oritech:promethium_axe": "apotheosis:melee_weapon",
+        "mekanism:atomic_disassembler": "apotheosis:breaker",
+        "mekanism:meka_tool": "apotheosis:breaker",
+        "justdirethings:celestigem_sword": "apotheosis:melee_weapon",
+        "justdirethings:eclipsealloy_sword": "apotheosis:melee_weapon",
+        "justdirethings:blazegold_sword": "apotheosis:melee_weapon",
+        "justdirethings:ferricore_sword": "apotheosis:melee_weapon",
+        "ae2:certus_quartz_sword": "apotheosis:melee_weapon",
+        "ae2:nether_quartz_sword": "apotheosis:melee_weapon",
+        "mekanismtools:steel_sword": "apotheosis:melee_weapon",
+        "malum:soul_stained_steel_sword": "apotheosis:melee_weapon",
+        "ae2:fluix_sword": "apotheosis:melee_weapon",
+        "roots:copper_sword": "apotheosis:melee_weapon",
+        "cognition:cognitive_sword": "apotheosis:melee_weapon",
+        "cataclysm:black_steel_sword": "apotheosis:melee_weapon",
+        "ars_nouveau:enchanters_sword": "apotheosis:melee_weapon",
+        "immersiveengineering:sword_steel": "apotheosis:melee_weapon"
+    }
+}

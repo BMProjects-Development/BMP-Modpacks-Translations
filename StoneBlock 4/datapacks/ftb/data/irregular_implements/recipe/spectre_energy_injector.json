@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"B": {
+			"item": "irregular_implements:stable_ender_pearl"
+		},
+		"L": {
+			"item": "irregular_implements:spectre_lens"
+		},
+		"O": {
+			"tag": "c:obsidians"
+		},
+		"S": {
+			"item": "irregular_implements:spectre_string"
+		}
+	},
+	"pattern": [
+		"OLO",
+		"SBS",
+		"OSO"
+	],
+	"result": {
+		"count": 1,
+		"id": "irregular_implements:spectre_energy_injector"
+	}
+}

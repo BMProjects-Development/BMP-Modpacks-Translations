@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.pyrium",
+  "ingredient": {
+    "item": "irons_spellbooks:pyrium_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/ignitium",
+  "quality": 3,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:fire_damage",
+      "amount": 1.0,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.mithril",
+  "ingredient": {
+    "item": "irons_spellbooks:mithril_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "irons_jewelry:palettes/platinum",
+  "quality": 3.2,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "irons_spellbooks:spell_power",
+      "amount": 0.25,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

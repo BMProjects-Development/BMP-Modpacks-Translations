@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "ftbmaterials:bauxite_stone_ore"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

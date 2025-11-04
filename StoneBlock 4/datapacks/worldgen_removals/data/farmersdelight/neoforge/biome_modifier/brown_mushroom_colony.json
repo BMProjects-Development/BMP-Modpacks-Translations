@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:none",
+  "allowed_biomes": "#c:is_mushroom",
+  "features": "farmersdelight:patch_brown_mushroom_colony",
+  "step": "vegetal_decoration"
+}

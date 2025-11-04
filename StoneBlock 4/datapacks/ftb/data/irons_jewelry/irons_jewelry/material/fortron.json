@@ -1,0 +1,28 @@
+{
+  "descriptionId": "ftb.irons.material.forton",
+  "ingredient": {
+    "item": "ftb:fortron_infused_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/fortron",
+  "quality": 2.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:mining_speed",
+      "amount": 0.2,
+      "operation": "add_multiplied_total"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": true,
+      "action": {
+        "type": "irons_jewelry:heal",
+        "amount": {
+          "base": 8.0,
+          "scalar": 2.0
+        }
+      }
+    }
+  }
+}

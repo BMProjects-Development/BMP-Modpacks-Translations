@@ -1,0 +1,34 @@
+{
+  "descriptionId": "ftb.irons.material.celestigem",
+  "ingredient": {
+    "item": "justdirethings:celestigem"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/celestigem",
+  "quality": 3.5,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "neoforge:creative_flight",
+      "amount": 1,
+      "operation": "add_value"
+    },
+    "irons_jewelry:negative_effect": {
+      "effect": "minecraft:darkness"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": false,
+      "action": {
+        "type": "irons_jewelry:apply_effect",
+        "duration": 80,
+        "amplifier": {
+          "base": 0,
+          "scalar": 1,
+          "max": 2
+        },
+        "effect": "minecraft:levitation"
+      }
+    }
+  }
+}

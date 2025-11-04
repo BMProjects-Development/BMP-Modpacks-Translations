@@ -1,0 +1,13 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:vaults/twilight_forest/lich",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "ftbteambases:one_chunk_only",
+    "cx": 137,
+    "cz": 0
+  }
+}

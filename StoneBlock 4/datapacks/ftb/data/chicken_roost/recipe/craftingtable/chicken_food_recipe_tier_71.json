@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "chicken_roost:chicken_essence_tier_7"
+    },
+    "1": {
+      "item": "chicken_roost:chicken_essence_tier_7"
+    },
+    "2": {
+      "item": "chicken_roost:chicken_essence_tier_7"
+    },
+    "3": {
+      "item": "chicken_roost:chicken_essence_tier_7"
+    },
+    "4": {
+      "item": "chicken_roost:chicken_food_tier_6"
+    },
+    "5": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "6": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "7": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "8": {
+      "item": "actuallyadditions:diamatine_crystal"
+    }
+  },
+  "result": {
+    "id": "chicken_roost:chicken_food_tier_7",
+    "count": 1
+  }
+}

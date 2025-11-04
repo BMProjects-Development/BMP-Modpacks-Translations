@@ -1,0 +1,11 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "actuallyadditions"
+    }
+  ],
+  "type": "immersiveengineering:generator_fuel",
+  "burnTime": 275,
+  "fluidTag": "c:empowered_oil"
+}

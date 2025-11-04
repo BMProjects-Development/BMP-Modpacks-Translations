@@ -1,0 +1,13 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:vaults/burning_disco",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "ftbteambases:one_chunk_only",
+    "cx": -12,
+    "cz": -77
+  }
+}

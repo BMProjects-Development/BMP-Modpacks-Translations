@@ -1,0 +1,48 @@
+{
+    "entity": "minecraft:wither_skeleton",
+    "variants": [],
+    "name": {
+        "translate": "entity.minecraft.wither_skeleton",
+        "color": "#343434"
+    },
+    "display": {
+        "scale": 0.85
+    },
+    "sim_cost": 768,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.wither_skeleton",
+    "fabricator_drops": [
+        {
+            "id": "wstweaks:fragment",
+            "optional": true,
+            "count": 32
+        },
+        {
+            "id": "minecraft:bone",
+            "count": 24
+        },
+        {
+            "id": "minecraft:coal",
+            "count": 32
+        },
+        {
+            "id": "minecraft:wither_skeleton_skull",
+            "count": 3
+        },
+        {
+            "id": "reliquary:withered_rib",
+            "optional": true,
+            "count": 2
+        },
+        {
+            "id": "bhc:wither_bone",
+            "optional": true,
+            "count": 4
+        }
+    ]
+}

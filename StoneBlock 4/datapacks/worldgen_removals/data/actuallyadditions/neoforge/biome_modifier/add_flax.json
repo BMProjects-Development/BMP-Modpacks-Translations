@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:none",
+  "biomes": {
+    "type": "neoforge:none",
+    "values": [
+      "#c:is_dense_vegetation/overworld",
+      "#c:is_cold/overworld"
+    ]
+  },
+  "boolConfig": "generateFlax",
+  "features": "actuallyadditions:flax_patch",
+  "step": "vegetal_decoration"
+}

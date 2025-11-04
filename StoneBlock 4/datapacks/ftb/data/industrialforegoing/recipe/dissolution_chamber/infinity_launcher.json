@@ -1,0 +1,57 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "almostunified:conditional",
+      "conditions_met": true,
+      "original_conditions": [
+        {
+          "type": "neoforge:item_exists",
+          "item": "industrialforegoing:infinity_launcher"
+        }
+      ]
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "tag": "c:storage_blocks/diamond"
+    },
+    {
+      "item": "minecraft:bow"
+    },
+    {
+      "tag": "c:storage_blocks/diamond"
+    },
+    {
+      "item": "industrialforegoing:mob_imprisonment_tool"
+    },
+    {
+      "item": "industrialforegoing:range_addon_tier_11"
+    },
+    {
+      "tag": "c:gears/gold"
+    },
+    {
+      "tag": "c:gears/gold"
+    },
+    {
+      "tag": "c:gears/gold"
+    }
+  ],
+  "inputFluid": {
+    "amount": 2000,
+    "fluid": "industrialforegoing:pink_slime"
+  },
+  "output": {
+    "components": {
+      "industrialforegoing:configuration_action": "RELEASE",
+      "industrialforegoing:infinity_can_charge": true,
+      "industrialforegoing:infinity_item_power": 0,
+      "industrialforegoing:infinity_item_selected_tier": "poor",
+      "industrialforegoing:infinity_item_special": false
+    },
+    "count": 1,
+    "id": "industrialforegoing:infinity_launcher"
+  },
+  "processingTime": 200
+}

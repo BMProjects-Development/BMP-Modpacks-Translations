@@ -1,0 +1,9 @@
+{
+  "type": "chicken_roost:throwegg",
+  "egg": {
+    "item": "chicken_roost:black_egg"
+  },
+  "output": {
+    "item": "chicken_roost:c_black"
+  }
+}

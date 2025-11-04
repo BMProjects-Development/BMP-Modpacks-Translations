@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_connected:feature_enabled",
+      "tag": "create_connected:kinetic_battery"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "create:brass_casing"
+    },
+    "i": {
+      "tag": "c:plates/iron"
+    },
+    "p": {
+      "item": "create:precision_mechanism"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    " p ",
+    " b ",
+    "iri"
+  ],
+  "result": {
+    "count": 8,
+    "id": "create_connected:kinetic_battery"
+  }
+}

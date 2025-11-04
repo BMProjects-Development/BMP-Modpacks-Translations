@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "apotheosis",
+    "key": {
+        "G": {
+            "item": "apotheosis:gem_dust"
+        },
+        "I": {
+            "tag": "c:ingots/copper"
+        },
+        "L": {
+            "item": "minecraft:polished_deepslate_slab"
+        },
+        "O": {
+            "item": "minecraft:iron_axe"
+        },
+        "R": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "S": {
+            "item": "minecraft:smithing_table"
+        }
+    },
+    "pattern": [
+        "III",
+        "RSO",
+        "GLG"
+    ],
+    "result": {
+        "count": 1,
+        "id": "apotheosis:salvaging_table"
+    }
+}

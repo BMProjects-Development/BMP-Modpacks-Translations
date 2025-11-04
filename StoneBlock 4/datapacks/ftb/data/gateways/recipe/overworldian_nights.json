@@ -1,0 +1,33 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "DED",
+    "GAG",
+    "BFB"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:redstone"
+    },
+	"E": {
+      "item": "enderio:grains_of_infinity"
+    },
+	"G": {
+      "item": "minecraft:sand"
+    },
+	"A": {
+      "item": "minecraft:ender_pearl"
+    },
+	"B": {
+      "item": "minecraft:bone_meal"
+    },
+	"F": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "id": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:overworldian_nights"
+}

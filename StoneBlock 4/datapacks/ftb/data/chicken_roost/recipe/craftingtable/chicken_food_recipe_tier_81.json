@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chicken_roost:chicken_essence_tier_8"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_8"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_8"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_8"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_7"
+    },
+    {
+      "item": "draconicevolution:infused_obsidian"
+    },
+    {
+      "item": "draconicevolution:infused_obsidian"
+    },
+    {
+      "item": "draconicevolution:infused_obsidian"
+    },
+    {
+      "item": "actuallyadditions:empowered_emeradic_crystal"
+    }
+  ],
+  "result": {
+    "id": "chicken_roost:chicken_food_tier_8",
+    "count": 1
+  }
+}

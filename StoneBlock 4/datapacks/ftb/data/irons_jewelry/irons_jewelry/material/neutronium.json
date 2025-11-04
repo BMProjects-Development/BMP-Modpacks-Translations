@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.neutronium",
+  "ingredient": {
+    "item": "avaritia:neutronium_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/neutronium",
+  "quality": 10,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "minecraft:generic.armor_toughness",
+      "amount": 5,
+      "operation": "add_value"
+    }
+  }
+}

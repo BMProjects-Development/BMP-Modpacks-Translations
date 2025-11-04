@@ -1,0 +1,49 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2.0,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2.0,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 10
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2.0,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 70
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2.0,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2.0,
+          "trades": []
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ftb:stone_aqua/spawners/water",
+  "fallback": "ftb:stone_aqua/spawners/water",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:stone_aqua/spawner/water/drowned",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "descriptionId": "ftb.irons.material.clay",
+  "ingredient": {
+    "item": "minecraft:clay_ball"
+  },
+  "materialType": [
+    "gem"
+  ],
+  "paletteLocation": "ftb:palettes/clay",
+  "quality": 0.1,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:cold_damage",
+      "amount": 1,
+      "operation": "add_value"
+    },
+    "irons_jewelry:action": {
+      "targetSelf": false,
+      "action": {
+        "type": "irons_jewelry:apply_effect",
+        "duration": 80,
+        "amplifier": {
+          "base": 0,
+          "scalar": 3,
+          "max": 5
+        },
+        "effect": "cataclysm:wetness"
+      }
+    }
+  }
+}

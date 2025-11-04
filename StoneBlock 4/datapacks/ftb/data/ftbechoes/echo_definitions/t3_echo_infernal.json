@@ -1,0 +1,72 @@
+{
+  "id": "ftbechoes:t3_echo_infernal",
+  "title": {"translate": "ftb.echo.infernal.title"},
+  "all_complete": {"translate": "ftb.echo.all_stages_completed"},
+  "stages": [
+    {
+      "title": {"translate": "ftb.echo.stage0.title"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.startup", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.startup.lore"}]}
+      ],
+      "not_ready" : {"translate": "ftb.echo.bugged"},
+      "required_stage": "echo_infernal_meet",
+      "ready": {"translate": "ftb.echo.bugged"},
+      "completed": {"translate": "ftb.echo.startup.completed"},
+      "shop_unlock":[
+        {"name": "Dripping Upgrade", "item": {"id": "functionalstorage:dripping_upgrade", "count": 1}, "cost": 65, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Obsidian Generator Upgrade", "item": {"id": "functionalstorage:obsidian_upgrade", "count": 1}, "cost": 70, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Random Apotheosis Gem", "command": {"run": "apoth gem random", "permission": 3, "silent": true, "description": {"translate": "ftb.shop.title.random_gems"}}, "cost": 75, "description":{"translate": "ftb.shop.description.random_gems"}, "icon": "apotheosis:items/gems/blood_lord"},
+        {"name": "Wither Rose", "item": {"id": "minecraft:wither_rose", "count": 1}, "cost": 40},
+        {"name": "Wither Skeleton Skull", "item": {"id": "minecraft:wither_skeleton_skull", "count": 3}, "cost": 25, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Inhibitor Obelisk", "item": {"id": "enderio:inhibitor_obelisk", "count": 1}, "cost": 40}
+      ]
+    },
+    {
+      "title": {"translate": "ftb.echo.stage3.title"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.infernal.stage4.task1", "text": {"translate": "ftb.echo.voice_over"}},
+        { "type": "ftbechoes:text", "text": [{"translate": "ftb.echo.infernal.stage3.task1.lore"}]},
+        { "type": "ftbechoes:text", "text": [{"translate": "ftb.echo.infernal.stage3.task1.lore2"}]},
+        { "type": "ftbechoes:text", "text": [{"translate": "ftb.echo.infernal.stage3.task1.lore3"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.infernal.stage3.task1.not_ready"},
+      "required_stage": "echo_infernal_stage3_task1_completed",
+      "ready": {"translate": "ftb.echo.infernal.stage3.task1.ready"},
+      "completed": {"translate": "ftb.echo.infernal.stage3.task1.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_infernal_stage3_task1_check", "permission": 3}, "experience": 100},
+      "shop_unlock": [
+        {"name": "Creative Blaze Cake", "item": {"id": "create:creative_blaze_cake", "count": 1}, "cost": 500, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "45x45 Compact Machine", "item": {"id": "compactmachines:new_machine", "components": {"compactmachines:machine_color": "#7B2FBE", "compactmachines:room_template": "compactmachines:soaryn"}, "count": 1}, "cost": 75, "description":[{"translate": "ftb.shop.description.compact_machine.45x45"}, {"translate":"ftb.shop.description.exclusive"}]},
+        {"name": "Blazegold Anvil", "item": {"id": "justdynathings:blazegold_anvil", "count": 1}, "cost": 75, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Disenchanter", "item": {"id": "draconicevolution:disenchanter", "count": 1}, "cost": 85},
+        {"name": "Cinder Essence", "item": {"id": "irons_spellbooks:cinder_essence", "count": 2}, "cost": 40},
+        {"name": "Experience Holder", "item": {"id": "justdirethings:experienceholder", "count": 1}, "cost": 50},
+        {"name": "Unbreakable Template", "item": {"id": "constructionstick:template_unbreakable", "count": 1}, "cost": 75},
+        {"name": "Ring of Greater Discount", "item": {"id": "ars_nouveau:ring_of_greater_discount", "count": 1}, "cost": 100, "description":[{"translate":"ftb.shop.description.exclusive"}, {"translate": "ftb.shop.description.ars.discount_ring"}]},
+        {"name": "Glyph of Rewind", "item": {"id": "ars_nouveau:rewind", "count": 1}, "cost": 45},
+        {"name": "Energy Collector Mk 2", "item": {"id": "projecte:collector_mk2", "count": 1}, "cost": 100},
+        {"name": "Encyclopedia Unveiled", "item": {"id": "gaze:encyclopedia_unveiled", "count": 1}, "cost": 40},
+        {"name": "Gateway - Tale of Fire and ice", "item": {"id": "gateways:gate_pearl", "components": {"gateways:gateway": "gateways:iron_spells/pyrohostage_situation"}, "count": 1}, "cost": 50, "description": [{"translate": "ftb.shop.description.exclusive"}, {"translate": "ftb.shop.description.gate_pearl.rewards"}, {"translate": "ftb.shop.description.gate_pearl.fire_and_ice"}]},        
+        {"name": "Mining Dimension Core Piece", "item": {"id": "occultism:mining_dim_core", "count": 1}, "cost": 300},
+        {"name": "Data Model - Zombified Piglin", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:zombified_piglin"}, "count": 1}, "cost": 40, "description": {"translate": "ftb.shop.description.data_model.basic"}},
+        {"name": "Data Model - Blaze", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:blaze"}, "count": 1}, "cost": 45, "description": {"translate": "ftb.shop.description.data_model.basic"}},
+        {"name": "Data Model - Breeze", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:breeze"}, "count": 1}, "cost": 45, "description": {"translate": "ftb.shop.description.data_model.basic"}},
+        {"name": "Data Model - Wither Skeleton", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:wither_skeleton"}, "count": 1}, "cost": 50, "description": {"translate": "ftb.shop.description.data_model.basic"}},
+        {"name": "Data Model - Fire Beetle", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:twilightforest/fire_beetle"}, "count": 1}, "cost": 45, "description": {"translate": "ftb.shop.description.data_model.basic"}}
+      ]
+    },
+    {
+      "title": {"translate": "ftb.echo.stage4.title"},
+      "lore": [
+        { "type": "ftbechoes:text", "text": [{"translate": "ftb.echo.infernal.stage4.task1.lore"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.placeholder.stage6.task1.lore"},
+      "required_stage": "echo_infernal_stage4_task1_completed",
+      "ready": {"translate": "ftb.echo.infernal.stage4.task1.ready"},
+      "completed": {"translate": "ftb.echo.infernal.stage4.task1.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_infernal_stage4_task1_check", "permission": 3}, "experience": 100},
+      "shop_unlock": []
+    }
+  ]
+}

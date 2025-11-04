@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:none",
+  "biomes": "#minecraft:is_end",
+  "features": "rftoolsbase:dimshard_end",
+  "step": "underground_ores"
+}

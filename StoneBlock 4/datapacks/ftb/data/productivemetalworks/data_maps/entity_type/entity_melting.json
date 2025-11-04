@@ -1,0 +1,53 @@
+{
+  "values": {
+    "minecraft:player": {
+      "fluid": {
+        "amount": 10,
+        "id": "productivemetalworks:meat",
+        "gui_scale": 0.8
+      }
+    },
+    "minecraft:enderman": {
+      "fluid": {
+        "amount": 10,
+        "id": "productivemetalworks:molten_ender",
+        "gui_scale": 0.8
+      }
+    },
+    "minecraft:cow": {
+      "fluid": {
+        "amount": 10,
+        "id": "minecraft:milk",
+        "gui_scale": 0.8
+      }
+    },
+    "minecraft:villager": {
+      "fluid": {
+        "amount": 10,
+        "id": "productivemetalworks:molten_emerald",
+        "gui_scale": 0.8
+      }
+    },
+    "minecraft:witch": {
+      "fluid": {
+        "amount": 10,
+        "id": "productivemetalworks:molten_amethyst",
+        "gui_scale": 0.8
+      }
+    },
+    "minecraft:bee": {
+      "fluid": {
+        "amount": 50,
+        "id": "create:honey",
+        "gui_scale": 0.8
+      }
+    },
+    "minecraft:blaze": {
+      "fluid": {
+        "amount": 10,
+        "id": "productivemetalworks:molten_blaze",
+        "gui_scale": 0.8
+      }
+    }
+  }
+}

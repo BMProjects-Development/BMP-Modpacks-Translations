@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:none",
+  "biomes": "#minecraft:is_overworld",
+  "features": "immersiveengineering:deep_nickel",
+  "step": "underground_ores"
+}

@@ -1,0 +1,13 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:vaults/twilight_forest/yeti",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "ftbteambases:one_chunk_only",
+    "cx": -90,
+    "cz": 105
+  }
+}

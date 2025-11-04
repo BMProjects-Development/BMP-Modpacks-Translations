@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.awakened_draconium",
+  "ingredient": {
+    "item": "draconicevolution:awakened_draconium_ingot"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/awakened",
+  "quality": 4,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:current_hp_damage",
+      "amount": 0.15,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

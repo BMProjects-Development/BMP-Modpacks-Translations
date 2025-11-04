@@ -1,0 +1,60 @@
+{
+  "name": "ftb:nether0/terminators/optionals",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/terminator/treasure/56",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/terminator/treasure/57",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/terminator/treasure/58",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 23,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/terminator/corridor/53",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 23,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/terminator/corridor/54",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 23,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "ftb:nether0/terminator/corridor/55",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

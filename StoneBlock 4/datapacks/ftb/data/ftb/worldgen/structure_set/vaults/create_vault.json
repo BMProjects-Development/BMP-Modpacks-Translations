@@ -1,0 +1,13 @@
+{
+    "structures": [
+      {
+        "structure": "ftb:vaults/create_vault",
+        "weight": 1
+      }
+    ],
+    "placement": {
+    "type": "ftbteambases:one_chunk_only",
+    "cx": 16,
+    "cz": -51
+  }
+  }

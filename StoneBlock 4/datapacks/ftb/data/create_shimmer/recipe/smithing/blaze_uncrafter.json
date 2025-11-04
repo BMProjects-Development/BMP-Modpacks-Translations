@@ -1,0 +1,22 @@
+{
+    "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "dontloadthisrecipe"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "twilightforest:uncrafting_table"
+  },
+  "base": {
+    "item": "create:blaze_burner"
+  },
+  "result": {
+    "count": 1,
+    "id": "create_shimmer:blaze_uncrafter"
+  },
+  "template": {
+    "item": "create_dragons_plus:blaze_upgrade_smithing_template"
+  }
+}

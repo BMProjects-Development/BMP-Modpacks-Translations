@@ -1,0 +1,30 @@
+{
+	"type": "enderio:sag_milling",
+	"energy": 2400,
+	"input": {
+		"tag": "minecraft:coals"
+	},
+	"outputs": [
+		{
+			"item": {
+				"count": 1,
+				"id": "ftbmaterials:coal_dust"
+			}
+		},
+		{
+			"chance": 0.1,
+			"item": {
+				"count": 1,
+				"id": "ftbmaterials:coal_dust"
+			}
+		},
+		{
+			"chance": 0.1,
+			"item": {
+				"count": 1,
+				"id": "ftbmaterials:sulfur_dust"
+			},
+			"optional": true
+		}
+	]
+}

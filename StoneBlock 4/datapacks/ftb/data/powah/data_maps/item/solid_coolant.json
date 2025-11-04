@@ -1,0 +1,28 @@
+{
+  "values": {
+    "minecraft:blue_ice": {
+      "amount": 568,
+      "temperature": -2
+    },
+    "minecraft:ice": {
+      "amount": 48,
+      "temperature": -1
+    },
+    "minecraft:packed_ice": {
+      "amount": 192,
+      "temperature": -1
+    },
+    "minecraft:snow_block": {
+      "amount": 48,
+      "temperature": -1
+    },
+    "minecraft:snowball": {
+      "amount": 12,
+      "temperature": -1
+    },
+    "powah:dry_ice": {
+      "amount": 712,
+      "temperature": -3
+    }
+  }
+}

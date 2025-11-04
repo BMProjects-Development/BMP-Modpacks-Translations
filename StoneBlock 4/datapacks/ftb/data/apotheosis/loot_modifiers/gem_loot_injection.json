@@ -1,0 +1,19 @@
+{
+    "type": "apotheosis:gems",
+    "conditions": [],
+    "entries": [
+        {
+            "chance": 0.2,
+            "pattern": {
+                "path_regex": "^(?!.*\bgeneric\b)(?!chests[\\/][^\\/]+[\\/](?:meta|group)(?:[\\/]|$))(?:stone|chests(?:[\\/][^\\/]+)?)$"
+            }
+        },
+        {
+            "chance": 0.2,
+            "pattern": {
+                "domain": "twilightforest",
+                "path_regex": "structures.*"
+            }
+        }
+    ]
+}

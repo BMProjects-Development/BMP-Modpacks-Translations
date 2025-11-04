@@ -1,0 +1,18 @@
+{
+  "descriptionId": "ftb.irons.material.enderium",
+  "ingredient": {
+    "item": "chicken_roost:ingot_enderium"
+  },
+  "materialType": [
+    "metal"
+  ],
+  "paletteLocation": "ftb:palettes/enderium",
+  "quality": 2.8,
+  "bonusParameters": {
+    "irons_jewelry:attribute": {
+      "attribute": "apothic_attributes:crit_chance",
+      "amount": 0.1,
+      "operation": "add_multiplied_total"
+    }
+  }
+}

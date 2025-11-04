@@ -1,0 +1,16 @@
+{
+    "type": "ftbstuff:fusing_machine",
+    "energy": {
+        "fe_per_tick": 50,
+        "ticks_to_process": 40
+    },
+    "inputs": [
+        {
+            "item": "oritech:biosteel_block"
+        }
+    ],
+    "result": {
+        "id": "oritech:still_molten_biosteel",
+        "amount": 890
+    }
+}

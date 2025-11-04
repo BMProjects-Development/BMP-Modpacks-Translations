@@ -1,0 +1,18 @@
+{
+  "type": "xycraft_machines:extractor",
+  "adjacent": [
+    {
+      "predicate_type": "xycraft_core:block_rule",
+      "block": "justdirethings:goosoil_tier3"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "justdirethings:goosoil_tier3"
+  },
+  "target": {
+    "predicate_type": "xycraft_core:fluid_type_rule",
+    "fluid_type": "minecraft:water"
+  },
+  "ticks": 300
+}

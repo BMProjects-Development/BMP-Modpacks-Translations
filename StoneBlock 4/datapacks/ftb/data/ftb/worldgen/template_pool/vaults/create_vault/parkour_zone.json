@@ -1,0 +1,16 @@
+{
+  "name": "ftb:vaults/create_vault/parkour_zone",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "rotation": "none",
+        "location": "ftb:vaults/create_vault/parkour_zone",
+        "processors": "ftb:vaults/create_vault/replace_wool"
+      }
+    }
+  ]
+}

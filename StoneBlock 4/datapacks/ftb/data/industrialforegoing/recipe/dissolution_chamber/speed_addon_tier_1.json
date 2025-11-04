@@ -1,0 +1,55 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "almostunified:conditional",
+      "conditions_met": true,
+      "original_conditions": [
+        {
+          "type": "neoforge:item_exists",
+          "item": "industrialforegoing:speed_addon_tier_1"
+        }
+      ]
+    }
+  ],
+  "type": "industrialforegoing:dissolution_chamber",
+  "input": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "tag": "c:gears/gold"
+    },
+    {
+      "tag": "c:gears/gold"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "fluid": "industrialforegoing:latex"
+  },
+  "output": {
+    "components": {
+      "titanium:augments": {
+        "Speed": 2
+      }
+    },
+    "count": 1,
+    "id": "industrialforegoing:speed_addon_tier_1"
+  },
+  "processingTime": 100
+}

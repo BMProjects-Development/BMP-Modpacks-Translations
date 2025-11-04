@@ -1,0 +1,20 @@
+{
+  "id": "ftbteambases:industrial",
+  "display": {
+    "title": "ftbteambases.base.industrial.title",
+    "description": "ftbteambases.base.industrial.desc",
+    "icon": "ftbteambases:bases/industrial",
+    "preview_image": "ftbteambases:textures/bases/industrial.png"
+  },
+  "construction": {
+    "pregen_template": "industrial",
+    "structure_sets": ["ftbteambases:default"],
+    "include_entities": true
+  },
+  "spawn_offset": [0, -190, 0],
+  "dimension": {
+    "dimension_type": "minecraft:overworld",
+    "private": true,
+    "dimension_id": "minecraft:overworld"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "irons_jewelry:ring",
+  "descriptionId": "ftb.irons.pattern.duality_ring",
+  "partForQuality": "irons_jewelry:band_gem_superior",
+  "parts": [
+    {
+      "bonuses": [
+        {
+          "bonusType": "irons_jewelry:attribute_bonus",
+          "qualityMultiplier": 1.0
+        }
+      ],
+      "drawOrder": 0,
+      "id": "irons_jewelry:band_gem_superior",
+      "materialCost": 2
+    },
+    {
+      "bonuses": [
+        {
+          "bonusType": "irons_jewelry:attribute_bonus",
+          "qualityMultiplier": 0.5
+        }
+      ],
+      "drawOrder": 1,
+      "id": "irons_jewelry:gem_pointy",
+      "materialCost": 1
+    }
+  ],
+  "qualityMultiplier": 1.5,
+  "unlockedByDefault": false
+}

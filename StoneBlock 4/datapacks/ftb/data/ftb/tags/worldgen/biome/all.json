@@ -1,0 +1,26 @@
+{
+    "values": [
+        "ftb:spring",
+        "ftb:deepslate",
+        "ftb:end",
+        "ftb:nether",
+        "ftb:ocean",
+        "ftb:stone",
+        "ftb:twilight_forest",
+        "ftb:void_chasms",
+        "ftb:lower/deepslate",
+        "ftb:lower/end",
+        "ftb:lower/nether",
+        "ftb:lower/ocean",
+        "ftb:lower/stone",
+        "ftb:lower/twilight_forest",
+        "ftb:lower/void_chasms",
+        "ftb:upper/deepslate",
+        "ftb:upper/end",
+        "ftb:upper/nether",
+        "ftb:upper/ocean",
+        "ftb:upper/stone",
+        "ftb:upper/twilight_forest",
+        "ftb:upper/void_chasms"
+    ]
+}
