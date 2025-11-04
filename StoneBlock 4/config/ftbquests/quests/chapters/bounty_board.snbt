@@ -1887,5 +1887,90 @@
 			x: 3.0d
 			y: -6.0d
 		}
+		{
+			can_repeat: true
+			icon: {
+				id: "fdbosses:chesed_trophy"
+			}
+			icon_scale: 2.0d
+			id: "5E74E0339A6F5314"
+			rewards: [{
+				amount: 250
+				id: "431B6A70E19F6467"
+				type: "currency"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "fdbosses:chesed"
+					icon: {
+						id: "fdbosses:chesed_trophy"
+					}
+					id: "6EF778EEEEA38212"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "1DD1B012332C9D6A"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						BaseBlock: "air"
+						OffsetY: -1.0d
+						Scale: 1.0d
+						TrophyItem: {
+							id: "fdbosses:malkuth_trophy"
+						}
+						TrophyType: "item"
+					}
+				}
+				id: "trophymanager:trophy"
+			}
+			icon_scale: 1.5d
+			id: "558A4BBC3BDB853D"
+			rewards: [{
+				amount: 350
+				id: "706C9F7D3A2AAB96"
+				type: "currency"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "fdbosses:malkuth"
+					icon: {
+						id: "fdbosses:malkuth_trophy"
+					}
+					id: "32463C2AE2B4F13B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:clock"
+					}
+					id: "35B93DBE568FCD36"
+					tags: ["daily"]
+					type: "custom"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
 	]
 }
