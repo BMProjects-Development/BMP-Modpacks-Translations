@@ -1,4 +1,4 @@
-filename = 'mighty-ender-chicken-rehatched-21.1.2.jar'
+filename = 'mighty-ender-chicken-rehatched-21.1.3.jar'
 name = 'FTB Mighty Ender Chicken Rehatched'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '651a194e5b94cdbdeae9ab5a8423eba0c8a6b073'
+hash = '7709462aa41722423447d1df22a2baf240f6f553'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7166958
+file-id = 7180051
 project-id = 1370164

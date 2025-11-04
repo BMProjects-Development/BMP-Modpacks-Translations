@@ -40,10 +40,27 @@ In this setup, most structures prevent breaking/placing blocks but allow
 torches and ladders to be placed. The stronghold specifically prevents
 breaking the end portal frame, even if breaking becomes allowed.
 
+LIST MERGING BEHAVIOR
+---------------------
+**IMPORTANT**: List properties (whitelists/blacklists) are ADDITIVE!
+Individual configs ADD to global lists, they don't replace them.
+
+Example:
+  Global: "itemUseBlacklist": ["minecraft:flint_and_steel"]
+  Individual: "itemUseBlacklist": ["minecraft:tnt"]
+  Result: ["minecraft:flint_and_steel", "minecraft:tnt"]
+
+This means you can:
+- Set common restrictions in global.json
+- Add structure-specific restrictions without losing global ones
+- Build cumulative protection rules
+
+Boolean/other properties still REPLACE (not merge).
+
 HOW PRIORITY WORKS
 -----------------
 Settings are applied in this order:
-1. Individual structure config (highest priority)
+1. Individual structure config (highest priority, ADDS to lists)
 2. Global config
 3. Mod defaults (if nothing else is set)
 

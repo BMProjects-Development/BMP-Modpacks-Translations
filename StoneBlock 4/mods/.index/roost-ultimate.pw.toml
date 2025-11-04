@@ -1,4 +1,4 @@
-filename = 'roostultimate_1.21.1-curse-3.4.4.jar'
+filename = 'roostultimate_1.21.1-curse-3.5.6.jar'
 name = 'Roost Ultimate [NEOFORGE/FORGE]'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '74dfb6f47515dddacedae2803f39676763a9b20c'
+hash = '277e713456221fc1bb865b06787967bc6cfc0c45'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7156727
+file-id = 7182609
 project-id = 621910

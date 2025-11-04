@@ -1,5 +1,10 @@
 {
 	general: {
+		# Villager type to force encoding to. If this is empty or an invalid villager type,
+		# the villager current type is kept.
+		# Default: "ftb:stone"
+		encoded_villager_type: "ftb:stone"
+		
 		# When encoding a villager, should the villager's level be preserved?
 		# Setting this to true makes the Encoder a convenient way to move villagers around...
 		# Default: false

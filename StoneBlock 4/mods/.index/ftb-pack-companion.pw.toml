@@ -1,4 +1,4 @@
-filename = 'ftb-pack-companion-21.1.11.jar'
+filename = 'ftb-pack-companion-21.1.12.jar'
 name = 'FTB Pack Companion'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'd7a2240fa40b43350b7bc12ab065cb96e99fbf68'
+hash = '038fc1daa9f329cfaeb242b057d9e1da26162c2f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7157199
+file-id = 7182346
 project-id = 693963

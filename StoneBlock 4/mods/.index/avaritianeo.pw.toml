@@ -1,16 +1,16 @@
-filename = 'AvaritiaNeo-1.21-1.2.5.jar'
+filename = 'AvaritiaNeo-1.21-1.2.5-RemoveKubeJS.jar'
 name = 'AvaritiaNeo'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
-x-prismlauncher-release-type = 'release'
+x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = '89af179e794a21910d1836d725983f868ebb653c'
+hash = '5cddb707ba9fb16c9167af88ac40984a6cf668af'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7083243
+file-id = 7162295
 project-id = 1083158

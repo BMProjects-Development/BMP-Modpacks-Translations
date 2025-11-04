@@ -1,4 +1,4 @@
-filename = 'entityjs-1.3.9-1.21.jar'
+filename = 'entityjs-1.4.3-1.21.jar'
 name = 'EntityJS'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '2227333515de72badc4a3cbc4243190d84d6339e'
+hash = '2c3a648f2ab64482e6b98a5efde311f95f72ded4'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6923414
+file-id = 7174427
 project-id = 967617

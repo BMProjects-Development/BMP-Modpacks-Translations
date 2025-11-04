@@ -1,4 +1,4 @@
-filename = 'structures_tweaker-1.21.1-NeoForge-2.1.5.jar'
+filename = 'structures_tweaker-1.21.1-NeoForge-2.1.7.jar'
 name = 'Structures Tweaker'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '243d3ce09c2f7554ae5fd7b30a674d769fe8a9ef'
+hash = 'ccc9422c7046f3277edb701370c62493794c5f4c'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7159186
+file-id = 7182204
 project-id = 1195077
