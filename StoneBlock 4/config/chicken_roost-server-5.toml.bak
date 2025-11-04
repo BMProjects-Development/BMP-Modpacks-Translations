@@ -1,16 +1,9 @@
-#Defines the Roost Production Speed in Seconds:
 roostspeed = 10
-#Defines the Breeding Speed in Seconds:
 breederspeed = 15
-#Defines the Training Speed in Seconds:
 trainerspeed = 5
-#Defines the Soul Extraction Speed in Seconds:
 soulextractspeed = 5
-#Defines the Soul Breeding Speed in Seconds:
 soulbreedspeed = 10
-#Defines the passive XP gained while Breeding or inside the Roost in Ratio like 0.1f = 10%
 passivexp = 0.1
-#Defines the XP Amount per Seed Tier:
 seeds_tier_1 = 50
 seeds_tier_2 = 200
 seeds_tier_3 = 300
@@ -20,7 +13,6 @@ seeds_tier_6 = 1000
 seeds_tier_7 = 1500
 seeds_tier_8 = 2500
 seeds_tier_9 = 5000
-#Defines the XP required for a Levelup per Tier
 xp_tier_1 = 500
 xp_tier_2 = 2000
 xp_tier_3 = 3000
@@ -30,7 +22,6 @@ xp_tier_6 = 25000
 xp_tier_7 = 32500
 xp_tier_8 = 40000
 xp_tier_9 = 50000
-#Defines the max Level per Tier
 level_tier_1 = 128
 level_tier_2 = 128
 level_tier_3 = 128
@@ -40,5 +31,18 @@ level_tier_6 = 128
 level_tier_7 = 128
 level_tier_8 = 128
 level_tier_9 = 128
-#Enable Breeder Crafting in both ways, this means it dont matter if u put the Chicken right or left.
 enableboth = true
+comment1 = "Defines the Roost Production Speed in Seconds:"
+comment12 = "Defines the Level split for output in roost:"
+leveloutputsplit = 2.0
+comment2 = "Defines the Breeding Speed in Seconds:"
+comment3 = "Defines the Training Speed in Seconds:"
+comment4 = "Defines the Soul Extraction Speed in Seconds:"
+comment5 = "Defines the Soul Breeding Speed in Seconds:"
+comment6 = "Defines the passive XP gained while Breeding or inside the Roost in Ratio like 0.1f = 10"
+comment7 = "Defines the XP Amount per Seed Tier:"
+comment8 = "Defines the XP required for a Levelup per Tier:"
+comment9 = "Defines the max Level per Tier:"
+comment10 = "Enable Breeder Crafting in both ways, this means it dont matter if u put the Chicken right or left."
+comment11 = "Change the Collectors max collecting Range:"
+collector_maxrange = 30
