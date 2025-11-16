@@ -16,8 +16,14 @@
 5. Приятной игры!
 
 ## ❗️Способ 2 - Установка в уже имеющуюся сборку:
-1. Скачайте архив с переводом [Google Drive](https://drive.google.com/file/d/1AAD_wq1YdBk4byolbxJ_CyrwgZE6yTKP/view?usp=sharing)
+1. Скачайте архив с переводом [Google Drive](https://drive.google.com/file/d/1GiXWb82v6MC1Y7cRf7hhH6AhbnfvVaAV/view?usp=drive_link)
 2. Перенесите папки config, kubejs, resourcepacks с заменой в .minecraft
+3. Запустите игру
+4. Приятной игры!
+
+## ❗️Способ 3 - Установка через CurseForge Launcher, Prism Launcher и прочее!
+1. Скачайте архив с переводом [Google Drive](https://drive.google.com/file/d/1EmpT8aXJx6cehgAnHC4FOaKlnaqUsqAD/view?usp=drive_link)
+2. Импортируйте архив через CurseForge Launcher, Prism Launcher и прочее
 3. Запустите игру
 4. Приятной игры!
 
