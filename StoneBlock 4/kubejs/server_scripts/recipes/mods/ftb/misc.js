@@ -3,59 +3,88 @@ const hammerTypes = [
   ["#c:ingots/iron", "iron"],
   ["#c:ingots/gold", "gold"],
   ["#c:gems/diamond", "diamond"],
-  ["#c:ingots/netherite", "netherite"]
-]
+  ["#c:ingots/netherite", "netherite"],
+];
 
 ServerEvents.recipes((event) => {
+  //Stonecutter Transmute Recipes
+  const stonecutting = event.stonecutting;
+  var transmute = function (arrayOfBlocks) {
+    var cpt = 0;
+    while (cpt < arrayOfBlocks.length) {
+      var otherBlocks = arrayOfBlocks
+        .slice(0, cpt)
+        .concat(arrayOfBlocks.slice(cpt + 1));
+      stonecutting(arrayOfBlocks[cpt], otherBlocks);
+      cpt++;
+    }
+  };
+
+  event
+    .shapeless("ftb:blaze_lamp", ["9x minecraft:blaze_rod"])
+    .id("ftb:crafting/blaze_lamp");
+
+  event
+    .shaped(
+      Item.of("chisel_chipped_integration:metal_cobalt_thermal", 32),
+      ["SLS", "SAS", "SLS"],
+      {
+        S: "minecraft:stone",
+        L: "minecraft:lapis_lazuli",
+        A: "minecraft:amethyst_shard",
+      }
+    )
+    .id("ftb:chisel/cobalt_thermal");
+
   event
     .shaped(Item.of("minecraft:cobblestone"), ["CC", "CC"], {
-      C: "ftb:stone_pebble"
+      C: "ftb:stone_pebble",
     })
-    .id("ftb:ftb/crafting/stone_pebble")
+    .id("ftb:ftb/crafting/stone_pebble");
 
   event
     .shaped(Item.of("minecraft:andesite"), ["CC", "CC"], {
-      C: "ftb:andesite_pebble"
+      C: "ftb:andesite_pebble",
     })
-    .id("ftb:ftb/crafting/andesite_pebble")
+    .id("ftb:ftb/crafting/andesite_pebble");
 
   event
     .shaped(Item.of("minecraft:diorite"), ["CC", "CC"], {
-      C: "ftb:diorite_pebble"
+      C: "ftb:diorite_pebble",
     })
-    .id("ftb:ftb/crafting/diorite_pebble")
+    .id("ftb:ftb/crafting/diorite_pebble");
 
   hammerTypes.forEach((type) => {
     event
       .shaped(`ftbstuff:${type[1]}_hammer`, ["RSR", " S ", " S "], {
         R: type[0],
-        S: ["ftbstuff:stone_rod", "minecraft:stick"]
+        S: ["ftbstuff:stone_rod", "minecraft:stick"],
       })
-      .id(`ftb:ftbstuff/crafting/${type[1]}_hammer`)
-  })
+      .id(`ftb:ftbstuff/crafting/${type[1]}_hammer`);
+  });
 
   event
     .shaped("ftb:mighty_chicken_egg", ["DPD", "PMP", "DPD"], {
       D: "#c:gems/dimensional_shard",
       P: "#c:ender_pearls",
-      M: "projecte:dark_matter"
+      M: "projecte:dark_matter",
     })
-    .id("ftb:crafting/mighty_chicken_egg")
+    .id("ftb:crafting/mighty_chicken_egg");
 
   event
     .shaped("ftbunearthed:crude_brush", ["  S", " P ", "I  "], {
       S: "farmersdelight:straw",
       P: "#ftb:pebble",
-      I: "minecraft:stick"
+      I: "minecraft:stick",
     })
-    .id("ftb:unearthed/crafting/crude_brush")
+    .id("ftb:unearthed/crafting/crude_brush");
 
   event
     .shaped("ftbunearthed:core", ["TTT", "T T", "SSS"], {
       T: "minecraft:tinted_glass",
-      S: "minecraft:polished_deepslate_slab"
+      S: "minecraft:polished_deepslate_slab",
     })
-    .id("ftb:unearthed/crafting/unearther")
+    .id("ftb:unearthed/crafting/unearther");
 
   //Magmalith =========================
   addRecipeProductiveMetalworksBlockCastingRecipe(
@@ -66,37 +95,37 @@ ServerEvents.recipes((event) => {
     1000,
     "ftb:magmalith",
     "ftb:productivemetalworks/casting/magmalith"
-  )
+  );
 
   event.custom({
     type: "ftbstuff:supercooler",
     energy: {
       fe_per_tick: 250,
-      ticks_to_process: 100
+      ticks_to_process: 100,
     },
     fluid: {
       amount: 1000,
-      fluid: "minecraft:lava"
+      fluid: "minecraft:lava",
     },
     inputs: [
       {
-        item: "ftbstuff:compressed_basalt_2"
-      }
+        item: "ftbstuff:compressed_basalt_2",
+      },
     ],
     result: {
       count: 1,
-      id: "ftb:magmalith"
-    }
-  })
+      id: "ftb:magmalith",
+    },
+  });
 
   // ==================================
 
   event
     .shaped("ftb:clapple", ["CCC", "CAC", "CCC"], {
       C: "minecraft:clay_ball",
-      A: "minecraft:apple"
+      A: "minecraft:apple",
     })
-    .id("ftb:ftb/crafting/clapple")
+    .id("ftb:ftb/crafting/clapple");
 
   //reinforced brush
   event
@@ -106,43 +135,49 @@ ServerEvents.recipes((event) => {
       base: { item: "minecraft:brush" },
       addition: { item: "minecraft:diamond" },
       // ItemStack schema: id (+ optional count/components)
-      result: { id: "ftbunearthed:reinforced_brush", count: 1 }
+      result: { id: "ftbunearthed:reinforced_brush", count: 1 },
     })
-    .id("ftb:smithing/reinforced_brush")
+    .id("ftb:smithing/reinforced_brush");
 
   //Fortron Block Recipe
   event
     .shaped(Item.of("ftb:fortron_infused_block"), ["FFF", "FFF", "FFF"], {
-      F: "ftb:fortron_infused_ingot"
+      F: "ftb:fortron_infused_ingot",
     })
-    .id("ftb:ftb/crafting/fortron_block")
+    .id("ftb:ftb/crafting/fortron_block");
   event
-    .shapeless(Item.of("ftb:fortron_infused_ingot", 9), ["ftb:fortron_infused_block"])
-    .id("ftb:ftb/decompressing/fortron_block")
+    .shapeless(Item.of("ftb:fortron_infused_ingot", 9), [
+      "ftb:fortron_infused_block",
+    ])
+    .id("ftb:ftb/decompressing/fortron_block");
 
   //Enderium Block Recipe
   event
     .shaped(Item.of("ftb:enderium_block"), ["FFF", "FFF", "FFF"], {
-      F: "chicken_roost:ingot_enderium"
+      F: "chicken_roost:ingot_enderium",
     })
-    .id("ftb:ftb/crafting/enderium_block")
+    .id("ftb:ftb/crafting/enderium_block");
   event
-    .shapeless(Item.of("chicken_roost:ingot_enderium", 9), ["ftb:enderium_block"])
-    .id("ftb:ftb/decompressing/enderium_block")
+    .shapeless(Item.of("chicken_roost:ingot_enderium", 9), [
+      "ftb:enderium_block",
+    ])
+    .id("ftb:ftb/decompressing/enderium_block");
 
   event
     .shaped(Item.of("ftbstuff:stone_rod", 2), ["C", "C"], {
-      C: "#c:cobblestones"
+      C: "#c:cobblestones",
     })
-    .id("ftb:crafting/stone_rod")
+    .id("ftb:crafting/stone_rod");
 
   event
     .shaped(Item.of("ftbstuff:wooden_basin"), ["W W", "W W", "WWW"], {
-      W: "#minecraft:logs"
+      W: "#minecraft:logs",
     })
-    .id("ftb:crafting/wooden_basin")
+    .id("ftb:crafting/wooden_basin");
 
-  event.campfireCooking("ftb:dry_leaves", "#minecraft:leaves", 0.1, 600).id("ftb:campfire/dry_leaves")
+  event
+    .campfireCooking("ftb:dry_leaves", "#minecraft:leaves", 0.1, 600)
+    .id("ftb:campfire/dry_leaves");
 
   //Adding Alloying Recipes for and with Ported Custom Alloys from NC ===================
 
@@ -153,20 +188,20 @@ ServerEvents.recipes((event) => {
       fluids: [
         {
           amount: 3,
-          tag: "c:molten_copper"
+          tag: "c:molten_copper",
         },
         {
           amount: 1,
-          tag: "c:molten_silver"
-        }
+          tag: "c:molten_silver",
+        },
       ],
       result: {
         amount: 4,
-        id: "ftb:molten_shibuichi"
+        id: "ftb:molten_shibuichi",
       },
-      speed: 10
+      speed: 10,
     })
-    .id("ftb:productivemetalworks/fluid_alloying/shibuichi")
+    .id("ftb:productivemetalworks/fluid_alloying/shibuichi");
 
   event
     .custom({
@@ -174,20 +209,20 @@ ServerEvents.recipes((event) => {
       fluids: [
         {
           amount: 20,
-          tag: "c:molten_redstone"
+          tag: "c:molten_redstone",
         },
         {
           amount: 90,
-          fluid: "ftb:molten_shibuichi"
-        }
+          fluid: "ftb:molten_shibuichi",
+        },
       ],
       result: {
         amount: 90,
-        id: "productivemetalworks:molten_signalum"
+        id: "productivemetalworks:molten_signalum",
       },
-      speed: 10
+      speed: 10,
     })
-    .id("ftb:productivemetalworks/fluid_alloying/signalum_from_alloy")
+    .id("ftb:productivemetalworks/fluid_alloying/signalum_from_alloy");
 
   //Tin Silver Alloy =====
   event
@@ -196,20 +231,20 @@ ServerEvents.recipes((event) => {
       fluids: [
         {
           amount: 3,
-          tag: "c:molten_tin"
+          tag: "c:molten_tin",
         },
         {
           amount: 1,
-          tag: "c:molten_silver"
-        }
+          tag: "c:molten_silver",
+        },
       ],
       result: {
         amount: 4,
-        id: "ftb:molten_tin_silver_alloy"
+        id: "ftb:molten_tin_silver_alloy",
       },
-      speed: 10
+      speed: 10,
     })
-    .id("ftb:productivemetalworks/fluid_alloying/tin_silver_alloy")
+    .id("ftb:productivemetalworks/fluid_alloying/tin_silver_alloy");
 
   event
     .custom({
@@ -217,23 +252,84 @@ ServerEvents.recipes((event) => {
       fluids: [
         {
           amount: 20,
-          tag: "c:molten_glowstone"
+          tag: "c:molten_glowstone",
         },
         {
           amount: 90,
-          fluid: "ftb:molten_tin_silver_alloy"
-        }
+          fluid: "ftb:molten_tin_silver_alloy",
+        },
       ],
       result: {
         amount: 90,
-        id: "productivemetalworks:molten_lumium"
+        id: "productivemetalworks:molten_lumium",
       },
-      speed: 10
+      speed: 10,
     })
-    .id("ftb:productivemetalworks/fluid_alloying/lumium_from_alloy")
+    .id("ftb:productivemetalworks/fluid_alloying/lumium_from_alloy");
 
   event
-    .shapeless(Item.of("minecraft:lapis_lazuli", 4), ["supplementaries:lapis_bricks"])
-    .id("ftb:supplementaries/lapis_uncraft")
+    .shapeless(Item.of("minecraft:lapis_lazuli", 4), [
+      "supplementaries:lapis_bricks",
+    ])
+    .id("ftb:supplementaries/lapis_uncraft");
   // ==============================================================================================
-})
+
+  event
+    .stonecutting("twilightforest:aurora_block", `minecraft:stone`)
+    .id(`ftb:twilightforest/stonecutting/aurora`);
+
+  //Adding Recipes for the Decorative Portal Blocks ====
+  event
+    .shaped(Item.of("ftb:decorative_test_cube", 4), ["IGI", "GPG", "IGI"], {
+      I: "#c:plates/iron",
+      G: "#c:glass_blocks",
+      P: "ftb:portal_gun",
+    })
+    .replaceIngredient("ftb:portal_gun", "ftb:portal_gun")
+    .id("ftb:shaped/decorative_test_cube");
+
+  const transmuteable_portal_decorative_blocks = [
+    "ftb:decorative_companion_cube",
+    "ftb:decorative_blue_core",
+    "ftb:decorative_purple_core",
+    "ftb:decorative_red_core",
+    "ftb:decorative_orange_core",
+  ];
+
+  transmuteable_portal_decorative_blocks.forEach((block) => {
+    transmute(["ftb:decorative_test_cube", block]);
+  });
+  // ==============================================================================================
+
+  const colors = [
+    "white",
+    "light_gray",
+    "gray",
+    "black",
+    "brown",
+    "red",
+    "orange",
+    "yellow",
+    "lime",
+    "green",
+    "cyan",
+    "light_blue",
+    "blue",
+    "purple",
+    "magenta",
+    "pink",
+  ];
+
+  for (let color of colors) {
+    event
+      .shaped(
+        Item.of(`minecraft:${color}_concrete`, 8),
+        ["PPP", "PWP", "PPP"],
+        {
+          P: `minecraft:${color}_concrete_powder`,
+          W: "#c:buckets/water",
+        }
+      )
+      .id(`ftb:${color}_concrete_from_powder`);
+  }
+});

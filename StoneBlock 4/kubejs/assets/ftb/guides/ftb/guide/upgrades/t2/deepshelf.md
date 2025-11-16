@@ -16,7 +16,7 @@ The <Color id="light_purple">Enchanting Upgrade</Color> is a minor upgrade to th
 
 This upgrade is great for those who use <Color id="gold">Ars Nouveau</Color> and want to add some power to their spells.
 
-This upgrade also allows you to craft several enchantments (see below)
+This upgrade also allows you to craft several enchantments, as well as the <Color id="gold">Duality</Color> Iron's Jewelry recipes.
 
 ## Recipe Unlocks
 

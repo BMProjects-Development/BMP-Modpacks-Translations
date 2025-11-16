@@ -29,11 +29,11 @@
   },
   "respawnableStructures": {
     "desc:": "List of structure IDs that should respawn always respawn, no matter if a player build sth inside, has a portal there etc.: e.g. minecraft:mansion",
-    "respawnableStructures": ["ftb:vaults/burning_disco", "ftb:vaults/chicken_jockey", "ftb:vaults/create_vault", "ftb:vaults/echoing_dread", "ftb:vaults/mffs", "ftb:vaults/portal", "ftb:vaults/twilight_forest/hydra", "ftb:vaults/twilight_forest/knight","ftb:vaults/twilight_forest/lich","ftb:vaults/twilight_forest/snow_queen", "ftb:vaults/twilight_forest/yeti"]
+    "respawnableStructures": ["ftb:vaults/burning_disco", "ftb:vaults/chicken_jockey", "ftb:vaults/create_vault", "ftb:vaults/echoing_dread", "ftb:vaults/mffs", "ftb:vaults/portal", "ftb:vaults/twilight_forest/hydra", "ftb:vaults/twilight_forest/knight","ftb:vaults/twilight_forest/lich","ftb:vaults/twilight_forest/snow_queen", "ftb:vaults/twilight_forest/yeti", "ftb:water_orb"]
   },
   "blacklistedStructures": {
     "desc:": "List of blacklisted structures, those won't respawn ever: e.g. minecraft:mansion   Seperate multiple entries by , ",
-    "blacklistedStructures": ["ftb:vaults/burning_disco", "ftb:vaults/chicken_jockey", "ftb:vaults/create_vault", "ftb:vaults/echoing_dread", "ftb:vaults/mffs", "ftb:vaults/portal", "ftb:vaults/twilight_forest/hydra", "ftb:vaults/twilight_forest/knight","ftb:vaults/twilight_forest/lich","ftb:vaults/twilight_forest/snow_queen", "ftb:vaults/twilight_forest/yeti"]
+    "blacklistedStructures": ["ftb:vaults/burning_disco", "ftb:vaults/chicken_jockey", "ftb:vaults/create_vault", "ftb:vaults/echoing_dread", "ftb:vaults/mffs", "ftb:vaults/portal", "ftb:vaults/twilight_forest/hydra", "ftb:vaults/twilight_forest/knight","ftb:vaults/twilight_forest/lich","ftb:vaults/twilight_forest/snow_queen", "ftb:vaults/twilight_forest/yeti", "ftb:water_orb"]
   },
   "whitelist": {
     "desc:": "Changes the structure blacklist to a whitelist, default: false",

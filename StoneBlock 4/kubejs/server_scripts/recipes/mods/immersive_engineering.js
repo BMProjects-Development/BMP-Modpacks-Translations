@@ -32,6 +32,7 @@ ServerEvents.recipes((event) => {
       },
     })
     .id(`ftb:immersive_engineering/refinery/molten_carbon_to_biodiesel`);
+
   event
     .custom({
       type: "immersiveengineering:refinery",
@@ -58,6 +59,7 @@ ServerEvents.recipes((event) => {
     .id(
       `ftb:immersive_engineering/refinery/heavy_oil_and_strength_potion_to_high_power_biodiesel`
     );
+
   event
     .custom({
       type: "immersiveengineering:refinery",
@@ -84,4 +86,17 @@ ServerEvents.recipes((event) => {
     .id(
       `ftb:immersive_engineering/refinery/biodiesel_and_strength_potion_to_high_power_biodiesel`
     );
+
+  event
+    .custom({
+      type: "immersiveengineering:cloche",
+      input: {item: "minecraft:kelp"},
+      render: {type: "immersiveengineering:crop", block: "minecraft:kelp"},
+      results: [
+        {basePredicate: {item: "minecraft:kelp"}, count: 1},
+      ],
+      soil: {item: "minecraft:water_bucket"},
+      time: 120,
+    })
+    .id("ftb:cloche/kelp");
 });

@@ -1,7 +1,7 @@
 // priority: 987
 
 // Removes Items That Should Not Be A Thing
-global.removeRecipe.push(
+removeRecipe.push(
   "ftbmaterials:silicon_raw_block",
   "ftbmaterials:silicon_raw_ore_from_silicon_raw_block",
   "ftbmaterials:tungsten_ingot_from_blasting_tungsten_raw_ore",
@@ -16,7 +16,7 @@ global.removeRecipe.push(
   "ftbmaterials:titanium_ingot_from_smelting_titanium_raw_ore"
 )
 
-global.removeOre.push(
+removeOre.push(
   "ftbmaterials:niter_stone_ore",
   "ftbmaterials:niter_deepslate_ore",
   "ftbmaterials:resonating_ore_stone_ore",
@@ -24,7 +24,7 @@ global.removeOre.push(
 )
 
 // Remove Items That Should Not Be A Thing
-global.removeItem.push(
+removeItem.push(
   "ftbmaterials:brass_clump",
   "ftbmaterials:brass_clump",
   "ftbmaterials:brass_crystal",

@@ -28,6 +28,28 @@ EntityEvents.checkSpawn("irregular_implements:spirit", (event) => {
   }
 });
 
+
+EntityEvents.beforeHurt("cataclysm:ignis", event => {
+    const level = event.level
+    if (level.isClientSide()) return
+
+    const source = event.source
+    if (!source) return
+
+    const player = source.player
+    if (!player) return  // only care about player attacks
+
+    const offhand = player.getOffhandItem()
+    if (offhand.isEmpty() || offhand.id !== "cataclysm:music_disc_ignis") {
+        return
+    }
+
+    // Triple the damage dealt to Ignis
+    if (typeof event.amount === "number") {
+        event.amount = event.amount * 3
+    }
+})
+
 EntityEvents.drops((event) => {
   if (event.getEntity() instanceof $Player || !(event.getEntity().isMonster())) return
   let actual = event.getSource().getActual()

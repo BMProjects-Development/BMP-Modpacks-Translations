@@ -132,14 +132,24 @@
 		}
 	]
 	order_index: 5
-	quest_links: [{
-		id: "2FF8519B05B7395D"
-		linked_quest: "3371E3F69A27D1E5"
-		shape: "diamond"
-		size: 1.75d
-		x: 0.0d
-		y: -7.0d
-	}]
+	quest_links: [
+		{
+			id: "2FF8519B05B7395D"
+			linked_quest: "3371E3F69A27D1E5"
+			shape: "diamond"
+			size: 1.75d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			id: "0940B358A54DC48A"
+			linked_quest: "25CCA572C4D5CEA0"
+			shape: "square"
+			size: 3.0d
+			x: 0.0d
+			y: 29.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["309D995CCCDB3AEE"]
@@ -293,11 +303,18 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			tasks: [{
-				id: "6D46F9063CC557A6"
-				item: { count: 1, id: "xycraft_machines:void_container" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6D46F9063CC557A6"
+					item: { count: 1, id: "xycraft_machines:void_container" }
+					type: "item"
+				}
+				{
+					id: "3E3C871CC705C6FA"
+					item: { count: 1, id: "projecte:dark_matter_block" }
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 7.0d
 		}
@@ -321,9 +338,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "27D30628897B7393"
+					id: "6AC142078F502773"
 					table_id: 891108655955453907L
-					type: "loot"
+					type: "all_table"
 				}
 			]
 			shape: "hexagon"
@@ -376,11 +393,11 @@
 					type: "item"
 				}
 			]
-			x: -1.25d
-			y: 2.0d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["0415C8A3274EF9D1"]
+			dependencies: ["71BDC5B453B8CAB4"]
 			icon: {
 				id: "ftb:mighty_chicken_egg"
 			}
@@ -408,8 +425,8 @@
 					type: "item"
 				}
 			]
-			x: -2.75d
-			y: 2.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6E24701C49A6114D"]
@@ -483,11 +500,11 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["38D2CAF4BD36DED8"]
+			dependencies: ["28C1BB5C88F65CA0"]
 			icon: {
 				id: "draconicevolution:awakened_draconium_block"
 			}
@@ -706,7 +723,10 @@
 			y: 25.0d
 		}
 		{
-			dependencies: ["543C6917A16F266C"]
+			dependencies: [
+				"543C6917A16F266C"
+				"4D17FE7D41FEEC95"
+			]
 			id: "1111B3ACEDDF5633"
 			rewards: [{
 				amount: 100
@@ -754,7 +774,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -781,7 +801,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: 4.5d
 		}
 		{
@@ -801,80 +821,39 @@
 			shape: "square"
 			tasks: [
 				{
-					count: 25L
-					id: "0AAE84D354789D9A"
-					item: { count: 1, id: "immersiveengineering:steel_scaffolding_standard" }
-					type: "item"
-				}
-				{
-					count: 30L
-					id: "10B6069C03EEA3AF"
-					item: { count: 1, id: "oritech:machine_core_4" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "08C1502F5A3E5D59"
-					item: { count: 1, id: "immersiveengineering:steel_scaffolding_grate_top" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "3B930EE04231C2FD"
-					item: { count: 1, id: "immersiveengineering:steel_catwalk_stairs" }
-					type: "item"
-				}
-				{
-					count: 25L
-					id: "01310C5E2FEF0998"
-					item: { count: 1, id: "immersiveengineering:steel_fence" }
-					type: "item"
-				}
-				{
-					count: 24L
-					id: "4C729F2B11B4417B"
-					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
-					type: "item"
-				}
-				{
-					id: "1274626876CAAC70"
-					item: { count: 1, id: "avaritia:neutronium_block" }
-					type: "item"
-				}
-				{
-					count: 7L
-					id: "57EC4C52FA12FEC6"
-					item: { count: 1, id: "mekanismgenerators:reactor_glass" }
-					type: "item"
-				}
-				{
-					id: "3F1285738225C066"
-					item: { count: 1, id: "oritech:item_pipe_duct_block" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "7AB6989299A80B36"
-					item: { count: 1, id: "oritech:framed_item_pipe" }
-					type: "item"
-				}
-				{
-					id: "02F33EBD5348BEF0"
-					item: { count: 1, id: "mekanism_lasers:elite_toggleable_laser" }
-					type: "item"
-				}
-				{
-					id: "19F40FB98E16A963"
-					item: { count: 1, id: "mekanism:elite_induction_provider" }
-					type: "item"
-				}
-				{
 					id: "5F2164052B261E2F"
 					item: { components: { "custommachinery:machine": "ftb:neutron_activator" }, count: 1, id: "custommachinery:custom_machine_item" }
 					type: "item"
 				}
+				{
+					count: 24L
+					id: "282982EE5DD96934"
+					item: { count: 1, id: "oritech:carbon_plating_block" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7AC9AAE1AA3C711C"
+					item: { count: 1, id: "cognition:whisperglass" }
+					type: "item"
+				}
+				{
+					id: "385776987D507322"
+					item: { count: 1, id: "actuallyadditions:empowered_void_crystal_block" }
+					type: "item"
+				}
+				{
+					id: "6EA9EA6CE1339B14"
+					item: { count: 1, id: "oritech:reactor_reflector" }
+					type: "item"
+				}
+				{
+					id: "474C0BC3659F3A26"
+					item: { count: 1, id: "oritech:reactor_vent" }
+					type: "item"
+				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: 3.5d
 		}
 		{
@@ -990,11 +969,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "5C8773D5561D7245"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine awakened_core_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1002,9 +980,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "4BA4CA2B38D5C1F3"
-				permission_level: 3
+				tags: ["awakened_core_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
@@ -1021,6 +999,12 @@
 					item: { count: 1, id: "draconicevolution:draconium_block" }
 					type: "item"
 				}
+				{
+					count: 32L
+					id: "0C593E67E9892721"
+					item: { count: 1, id: "draconicevolution:energy_core_stabilizer" }
+					type: "item"
+				}
 			]
 			x: -3.5d
 			y: 9.5d
@@ -1032,11 +1016,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "65B10C46C1AE5026"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine dark_void_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1044,9 +1027,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "00D18DF325869C86"
-				permission_level: 3
+				tags: ["dark_void_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
@@ -1072,11 +1055,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "5804356B2AFCF14A"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine infinity_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1084,14 +1066,13 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "1317DCA026D9DFBC"
-				permission_level: 3
+				tags: ["infinity_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
 					consume_items: true
-					count: 2L
 					id: "332424C66F7BE170"
 					item: { count: 1, id: "avaritia:infinity_block" }
 					type: "item"
@@ -1106,37 +1087,6 @@
 			]
 			x: 0.0d
 			y: 22.5d
-		}
-		{
-			dependencies: [
-				"28C1BB5C88F65CA0"
-				"41ED404574094D5B"
-			]
-			icon: {
-				id: "chicken_roost:c_awakeneddraconium"
-			}
-			id: "38D2CAF4BD36DED8"
-			rewards: [{
-				amount: 75
-				id: "6023CF7B2EA26623"
-				type: "currency"
-			}]
-			shape: "square"
-			tasks: [
-				{
-					count: 12L
-					id: "2785DC7304240E15"
-					item: { count: 1, id: "draconicevolution:chaotic_crafting_injector" }
-					type: "item"
-				}
-				{
-					id: "3B9E7C4046CE4BCD"
-					item: { count: 1, id: "chicken_roost:c_awakeneddraconium" }
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: 5.0d
 		}
 		{
 			dependencies: ["580CDFD2B7675485"]
@@ -1163,8 +1113,8 @@
 					type: "item"
 				}
 			]
-			x: -1.25d
-			y: 3.5d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4D7C7DE95E56C7B3"]
@@ -1190,8 +1140,48 @@
 					type: "item"
 				}
 			]
-			x: -2.75d
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21322BAF061FE83F"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3CFC372F57CF6B82"
+			rewards: [{
+				amount: 1
+				id: "16A295C812371EF6"
+				type: "currency"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "5B1EDE30C0E98068"
+				type: "checkmark"
+			}]
+			x: 3.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["41ED404574094D5B"]
+			id: "4D17FE7D41FEEC95"
+			rewards: [{
+				amount: 75
+				id: "1197F6DEE79D64C9"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7AFBBBDAAECC564C"
+				item: { count: 1, id: "draconicevolution:medium_chaos_frag" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
 		}
 	]
 }

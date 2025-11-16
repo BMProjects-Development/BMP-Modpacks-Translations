@@ -128,7 +128,7 @@
                     "function": "minecraft:set_count"
                   }
                 ],
-                "name": "ae2:silicon"
+                "name": "ftbmaterials:silicon_gem"
               },
               "max_uses": 8,
               "price_multiplier": 0.05,

@@ -53,11 +53,11 @@
 		#A cooldown for firing projectiles.
 		# Default: 0
 		# Range: > -1
-		projectile = 0
+		projectile = 2
 		#A cooldown for Gem Chestplate explosion.
 		# Default: 0
 		# Range: > -1
-		gemChest = 0
+		gemChest = 2
 		#Delay between Talisman of Repair trying to repair player items while in a player's inventory.
 		# Default: 20
 		# Range: > -1
@@ -78,7 +78,7 @@
 	#Amount of damage the Katar's Extra Function deals.
 	# Default: 1000.0
 	# Range: 0.0 ~ 2.147483647E9
-	katarDeathAura = 1000.0
+	katarDeathAura = 25.0
 	#Adjusting this ratio changes how much EMC is received when burning a item. For example setting this to 0.5 will return half of the EMC cost.
 	# Default: 1.0
 	# Range: 0.1 ~ 1.0

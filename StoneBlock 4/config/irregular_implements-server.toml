@@ -59,23 +59,27 @@ blockTeleporterCrossDimension = false
 #How much fluid should the Pitcher Plant fill adjacent tanks on a random tick?
 # Default: 100000
 # Range: > 0
-pitcherPlantTickFillAmount = 100000
+pitcherPlantTickFillAmount = 1000
 #How much fluid should the Pitcher Plant fill adjacent tanks when bone mealed?
 # Default: 100000
 # Range: > 0
-pitcherPlantBoneMealFillAmount = 100000
+pitcherPlantBoneMealFillAmount = 1000
 #How much fluid should the Pitcher Plant fill a container clicked onto it?
 # Default: 100000
 # Range: > 1
-pitcherPlantUseFillAmount = 100000
+pitcherPlantUseFillAmount = 1000
 #How much fluid should the Pitcher Plant allow to be drained by pipes per tick?
 # Default: 100000
 # Range: > 1
-pitcherPlantPipeDrainRate = 100000
+pitcherPlantPipeDrainRate = 1000
+#What chunk radius should the Slime Cube have? (0 means only the chunk the Slime Cube is in)
+# Default: 0
+# Range: > 0
+slimeCubeChunkRadius = 1
 
 [biome_painter]
 	#The radius that the Biome Painter will affect. 0 is just the targeted block, 1 is a 3x3x3 area, etc.
-	# Default: 0
+	# Default: 2
 	# Range: 0 ~ 100
 	biomePainterRadius = 0
 	#The horizontal that you can see and paint biomes from.

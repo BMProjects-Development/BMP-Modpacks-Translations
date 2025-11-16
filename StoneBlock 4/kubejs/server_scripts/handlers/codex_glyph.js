@@ -62,13 +62,13 @@ ItemEvents.rightClicked((event) => {
     }
   });
 
+  if (!player.isCreative()) itm.count--;
+
   if (pool.length === 0) {
     player.giveExperiencePoints(55);
     player.tell(Text.translate("ftb.codex.glyph.nomore").red());
     return;
   }
-
-  if (!player.isCreative()) itm.count--;
 
   var pickedId = pickWeighted(pool);
   if (!pickedId) {

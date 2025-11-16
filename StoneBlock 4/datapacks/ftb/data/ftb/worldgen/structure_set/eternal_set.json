@@ -71,12 +71,20 @@
     {
       "structure": "irons_spellbooks:citadel_eternal",
       "weight": 1
+    },
+    {
+      "structure": "fdbosses:malkuth_arena_eternal",
+      "weight": 1
+    },
+    {
+      "structure": "fdbosses:chesed_arena_eternal",
+      "weight": 1
     }
   ],
   "placement": {
     "salt": 6234321,
-    "spacing": 16,
-    "separation": 8,
+    "spacing": 24,
+    "separation": 16,
     "type": "minecraft:random_spread"
   }
 }

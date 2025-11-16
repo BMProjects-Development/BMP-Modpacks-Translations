@@ -76,6 +76,54 @@ const crookRecipes = [
       ["farmersdelight:wild_rice", 1, 0.20],
       ["farmersdelight:wild_tomatoes", 1, 0.20]
     ]
+  },
+  {
+    input: "ars_nouveau:blue_archwood_leaves",
+    max: 1,
+    outputs: [
+      ["ars_nouveau:blue_archwood_sapling", 1, 0.35],
+      ["ars_nouveau:frostaya_pod", 1, 0.2]
+    ]
+  },
+  {
+    input: "ars_nouveau:green_archwood_leaves",
+    max: 1,
+    outputs: [
+      ["ars_nouveau:green_archwood_sapling", 1, 0.35],
+      ["ars_nouveau:mendosteen_pod", 1, 0.2]
+    ]
+  },
+  {
+    input: "ars_nouveau:green_archwood_leaves",
+    max: 1,
+    outputs: [
+      ["ars_nouveau:green_archwood_sapling", 1, 0.35],
+      ["ars_nouveau:mendosteen_pod", 1, 0.2]
+    ]
+  },
+  {
+    input: "ars_nouveau:red_archwood_leaves",
+    max: 1,
+    outputs: [
+      ["ars_nouveau:red_archwood_sapling", 1, 0.35],
+      ["ars_nouveau:bombegranate_pod", 1, 0.2]
+    ]
+  },
+  {
+    input: "ars_nouveau:purple_archwood_leaves",
+    max: 1,
+    outputs: [
+      ["ars_nouveau:purple_archwood_sapling", 1, 0.35],
+      ["ars_nouveau:bastion_pod", 1, 0.2]
+    ]
+  },
+  {
+    input: "ars_elemental:yellow_archwood_leaves",
+    max: 1,
+    outputs: [
+      ["ars_elemental:yellow_archwood_sapling", 1, 0.35],
+      ["ars_elemental:flashpine_pod", 1, 0.2]
+    ]
   }
 ]
 

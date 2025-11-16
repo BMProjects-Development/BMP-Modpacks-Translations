@@ -40,7 +40,7 @@ const event_questingram = {
                 let playerAdvancements = player.getAdvancements();
                 let progress = playerAdvancements.getOrStartProgress(advancement);
                 if (progress.isDone()) {
-                    if (global.debug) console.log(`Player ${player.username} already completed questing ram advancement`);
+                    if (DEBUG) console.log(`Player ${player.username} already completed questing ram advancement`);
                     Statistics().addFailure("Questing Ram - Already completed");
                     return;
                 }
@@ -51,12 +51,12 @@ const event_questingram = {
                 let baseInstance = BaseInstanceManager.getBaseForPlayer(player.uuid);
                 
                 if (!baseInstance || !baseInstance.getLevel().equals(level)) {
-                    if (global.debug) console.log(`Player ${player.username} not in their team base dimension`);
+                    if (DEBUG) console.log(`Player ${player.username} not in their team base dimension`);
                     Statistics().addFailure("Questing Ram - Not in base dimension");
                     return;
                 }
             } catch (baseError) {
-                if (global.debug) console.log(`FTBTeambases check failed: ${baseError.message}`);
+                if (DEBUG) console.log(`FTBTeambases check failed: ${baseError.message}`);
             }
 
 
@@ -64,7 +64,7 @@ const event_questingram = {
                 entity.type === "twilightforest:quest_ram"
             );
             if (existingRams.length > 0) {
-                if (global.debug) console.log(`Questing ram already exists in level for ${player.username}`);
+                if (DEBUG) console.log(`Questing ram already exists in level for ${player.username}`);
                 Statistics().addFailure("Questing Ram - Already exists");
                 return;
             }

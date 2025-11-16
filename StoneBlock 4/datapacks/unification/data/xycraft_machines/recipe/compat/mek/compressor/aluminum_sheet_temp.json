@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "xycraft_machines:forgecraft"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "mekanism:compressing",
+  "chemical_input": {
+    "amount": 100,
+    "chemical": "mekanism:hydrogen"
+  },
+  "item_input": {
+    "count": 1,
+    "item": "ftbmaterials:aluminum_ingot"
+  },
+  "output": {
+    "count": 1,
+    "id": "ftbmaterials:aluminum_plate"
+  },
+  "per_tick_usage": false
+}

@@ -1,7 +1,7 @@
 ---
 navigation:
   title: Mnemonic Fragment
-  position: 10
+  position: 11
   icon: "malum:mnemonic_fragment"
   parent: irons_jewelry:gems.md
 item_ids:

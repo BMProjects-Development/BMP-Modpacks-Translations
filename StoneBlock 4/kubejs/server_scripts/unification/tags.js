@@ -35,10 +35,10 @@ ServerEvents.tags("item", (event) => {
     event.add("ftb:ores/stone", `ftbmaterials:${ore.material}_stone_ore`)
   })
 
-  event.removeAllTagsFrom(global.removeItem)
-  event.add("c:hidden_from_recipe_viewers", global.removeItem)
-  event.removeAllTagsFrom(global.removeOre)
-  event.add("c:hidden_from_recipe_viewers", global.removeOre)
+  event.removeAllTagsFrom(removeItem)
+  event.add("c:hidden_from_recipe_viewers", removeItem)
+  event.removeAllTagsFrom(removeOre)
+  event.add("c:hidden_from_recipe_viewers", removeOre)
 
   // Fix FTB Materials Tags
   event.removeAllTagsFrom("ftbmaterials:silicon_gem")
@@ -74,7 +74,7 @@ ServerEvents.tags("item", (event) => {
 
   event.add("rftoolsbase:shards", "ftbmaterials:dimensional_shard_gem")
 
-  global.removeItemTag.forEach((tag) => {
+  removeItemTag.forEach((tag) => {
     event.remove(tag[0], tag[1])
   })
 
@@ -91,7 +91,7 @@ ServerEvents.tags("fluid", (event) => {
 })
 
 ServerEvents.tags("block", (event) => {
-  event.removeAllTagsFrom(global.removeOre)
+  event.removeAllTagsFrom(removeOre)
   event.add("minecraft:needs_stone_tool")
 
   event.removeAllTagsFrom(netherOres)

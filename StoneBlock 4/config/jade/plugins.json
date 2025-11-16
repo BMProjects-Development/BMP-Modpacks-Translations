@@ -165,6 +165,9 @@
     "fluid_cow": true,
     "fluid_cow_jar": true
   },
+  "extrastorage": {
+    "advanced_crafter": true
+  },
   "chicken_roost": {
     "basechickenentity.data": true,
     "roost.progress": true,

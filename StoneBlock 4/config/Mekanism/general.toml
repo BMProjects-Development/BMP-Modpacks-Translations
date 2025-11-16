@@ -289,4 +289,4 @@ maxSolarNeutronActivatorRate = 64
 	#Energy needed to process 1 mB of input (inputPerAntimatter * energyPerInput = energy to produce 1 mB of antimatter).
 	# Default: 1000000
 	# Range: 0 ~ 9223372036854775807
-	energyPerInput = 1000000
+	energyPerInput = 250000

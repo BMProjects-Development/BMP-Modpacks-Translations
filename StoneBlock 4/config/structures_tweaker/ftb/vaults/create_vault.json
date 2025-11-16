@@ -16,7 +16,11 @@
     "allowRiptide": false,
     "allowCreativeFlight": false,
     "allowEnderTeleportation": false,
-    "blockBreakWhitelist": ["simpletomb:grave_cross", "simpletomb:grave_normal","simpletomb:grave_simple"],
+    "blockBreakWhitelist": [
+      "simpletomb:grave_cross",
+      "simpletomb:grave_normal",
+      "simpletomb:grave_simple"
+    ],
     "interactionWhitelist": [
       "minecraft:lever",
       "minecraft:stone_button",
@@ -30,6 +34,7 @@
       "create:mechanical_pump",
       "create:wrench",
       "functionalstorage:oak_1",
+      "chipped:metal_barrel",
       "simpletomb:grave_cross", 
       "simpletomb:grave_normal",
       "simpletomb:grave_simple"      
@@ -47,7 +52,8 @@
     "itemUseBlacklist": [],
     "itemUseWhitelist": [
       "minecraft:snowball",
-      "create:wrench","simpletomb:grave_key"
+      "create:wrench",
+      "simpletomb:grave_key"
     ]
   }
 }

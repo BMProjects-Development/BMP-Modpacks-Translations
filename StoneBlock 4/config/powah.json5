@@ -155,11 +155,11 @@
 			"generation_rates": {
 				"starter": 20,
 				"basic": 60,
-				"hardened": 100,
-				"blazing": 200,
-				"niotic": 400,
-				"spirited": 800,
-				"nitro": 2000
+				"hardened": 80,
+				"blazing": 120,
+				"niotic": 200,
+				"spirited": 400,
+				"nitro": 800
 			}
 		}
 	},

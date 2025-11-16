@@ -1,6 +1,6 @@
 // priority: 50
 
-global.removeRecipe.push(
+removeRecipe.push(
   "oirtech:mixing/compat/create/goldgem",
   "oritech:atomicforge/dust/copper",
   "oritech:atomicforge/dust/gold",
@@ -324,7 +324,7 @@ global.removeRecipe.push(
   "oritech:compat/productivemetalworks/casting/block/electrum"
 )
 
-global.removeOre.push(
+removeOre.push(
   "oritech:nickel_ore",
   "oritech:deepslate_nickel_ore",
   "oritech:deepslate_platinum_ore",
@@ -332,7 +332,7 @@ global.removeOre.push(
   "oritech:endstone_platinum_ore"
 )
 
-global.removeItem.push(
+removeItem.push(
   "oritech:copper_clump",
   "oritech:copper_dust",
   "oritech:gold_clump",
@@ -396,7 +396,7 @@ global.removeItem.push(
   "oritech:small_plutonium_dust"
 )
 
-global.removeItemTag.push([`c:ingots/steel`, `oritech:biosteel_ingot`])
+removeItemTag.push([`c:ingots/steel`, `oritech:biosteel_ingot`])
 
 ServerEvents.recipes((event) => {
   global.resourceOresIngots.forEach((mod) => {

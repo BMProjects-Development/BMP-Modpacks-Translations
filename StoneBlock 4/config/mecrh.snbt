@@ -9,27 +9,27 @@
 		# Damage the chicken will do to entities hit by the charge attack
 		# Default: 15.0
 		# Range: 0.0 ~ 1.7976931348623157E308
-		charge_damage: 15.0d
+		charge_damage: 22.0d
 		
 		# Speed multiplier for the charge attack
 		# Default: 1.0
 		# Range: 0.1 ~ 10.0
-		charge_speed: 1.2d
+		charge_speed: 1.3d
 		
 		# Warmup/warning time for the charge attack
 		# Default: 12
 		# Range: 1 ~ 600
-		charge_warmup_time: 10
+		charge_warmup_time: 15
 		
 		# Max distance in blocks that the chicken will charge
 		# Default: 16.0
 		# Range: 5.0 ~ 1.7976931348623157E308
-		max_charge_dist: 24.0d
+		max_charge_dist: 36.0d
 		
 		# Max time in ticks that the chicken will spend charging
 		# Default: 100
 		# Range: 20 ~ 2147483647
-		max_charge_time: 120
+		max_charge_time: 180
 		
 		# Minimum interval in ticks for the charge attack
 		# Default: 300
@@ -69,13 +69,13 @@
 		# Chicken will despawn if no players are in the arena for 30 seconds
 		# Default: 24
 		# Range: 10 ~ 2147483647
-		arena_radius: 32
+		arena_radius: 48
 		
 		# Time in seconds after which the chicken will despawn if no players are within the arena
 		# Set to 0 to disable despawn
 		# Default: 30
 		# Range: 0 ~ 2147483647
-		despawn_time_no_players: 30
+		despawn_time_no_players: 60
 		
 		# If true, any blocks broken by the chicken will drop items as normal
 		# Default: false
@@ -89,12 +89,12 @@
 		# Max number of special attacks which can be used at one time
 		# Default: 2
 		# Range: 0 ~ 2147483647
-		max_skills_at_once: 2
+		max_skills_at_once: 3
 		
 		# If true, Ender Chicken targets all living entities not in the `ftb:ender_chicken_friends` entity tag
 		# If false, Ender Chicken only targets players, and entities which attack it
 		# Default: true
-		target_all_living: true
+		target_all_living: false
 		
 		# Height in blocks above chicken's foot position that the zombie rider initially spawns
 		# Default: 10
@@ -105,7 +105,7 @@
 		# Damage dealt by the laser to entities it hits (ignores armor)
 		# Default: 4.0
 		# Range: 1.0 ~ 1.7976931348623157E308
-		damage: 3.0d
+		damage: 4.0d
 		
 		# Damage increase (multiplicative) for the laser every second an entity remains in the laser beam
 		# Default: 1.25

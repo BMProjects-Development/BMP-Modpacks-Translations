@@ -109,6 +109,33 @@ dependency_line_requires_color: white
 dependency_line_required_for_color: white
 quest_view_border: white
 
+#Creative
+[6E24C5F4B5BA567C]
+background: ftb:textures/quests/backgrounds/galaxybg.png
+button: hollow_rectangle:{{widget_border}}
+widget_border: #CC87a4b0
+widget_background: #4007232b
+context_menu: color:#CC07232b; border=#F50f1314
+chapter_panel_background: color:#E6061f27; border=#CC87a4b0
+
+quest_view_background: color:#E6061f27; border=#F515728e
+quest_view_border: #F50f1314
+quest_started_color: #F5FFFFFF
+quest_not_started_color: #FF87a4b0
+quest_completed_color: #C891C43F
+quest_locked_color: #CC22292c
+
+dependency_line_texture: ftb:textures/quests/theme_assets/dependency_line_voidbeam.png
+dependency_line_selected_speed: 0.5d
+dependency_line_thickness: 0.8d
+dependency_line_unselected_speed: 0.3d
+dependency_line_uncompleted_color: #66ffffff
+dependency_line_completed_color: green
+dependency_line_requires_color: white
+dependency_line_required_for_color: white
+text_color: white
+quest_view_title: white
+
 # Bounty Board
 [4F0F16931654DF58]
 background: ftb:textures/quests/backgrounds/white_bg.png; color=#F509303c; tile_size=64

@@ -800,6 +800,7 @@
 				id: "minecraft:compass"
 			}
 			id: "66FF7D88B712C969"
+			optional: true
 			rewards: [{
 				command: "/ftbchunks waypoint add \"The Wayfinder\" 55 2 -5 minecraft:overworld light_purple true"
 				feedback_message: "Waypoint claimed"
@@ -885,11 +886,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "50B0E45705EDB5F2"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine enchanting_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -897,9 +897,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "1FC841321A5BA9AB"
-				permission_level: 3
+				tags: ["enchanting_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
@@ -927,11 +927,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "101B8D9769D835AB"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine chroniton_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -939,9 +938,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "174EEA65827DF6EA"
-				permission_level: 3
+				tags: ["chroniton_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -966,6 +965,7 @@
 			}
 			id: "456904808D93A9E3"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/portal"
@@ -980,21 +980,10 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "2F84191A75EBFBB0"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "1194939A262B7C67"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "2F84191A75EBFBB0"
+				type: "checkmark"
+			}]
 			x: 6.75d
 			y: 1.125d
 		}

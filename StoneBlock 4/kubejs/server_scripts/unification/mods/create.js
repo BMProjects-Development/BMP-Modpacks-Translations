@@ -1,6 +1,6 @@
 // priority: 50
 
-global.removeRecipe.push(
+removeRecipe.push(
   `create:splashing/crushed_raw_iron`,
   "create:splashing/mekanism/crushed_raw_lead",
   "create:splashing/mekanism/crushed_raw_osmium",
@@ -75,9 +75,9 @@ global.removeRecipe.push(
   "create:smelting/ingot_uranium_compat_mekanism"
 )
 
-global.removeOre.push("create:zinc_ore", "create:deepslate_zinc_ore")
+removeOre.push("create:zinc_ore", "create:deepslate_zinc_ore")
 
-global.removeItem.push(
+removeItem.push(
   "create:raw_zinc_block",
   "create:raw_zinc",
   "create:brass_sheet",
@@ -96,6 +96,20 @@ global.removeItem.push(
 )
 
 ServerEvents.recipes((event) => {
+
+  //Manually Removing these Recipes since for some reason placing them
+  // In the correct removeRecipe Global is not doing the trick.
+  const manual_removals = [
+    "create:smelting/zinc_ingot_from_raw_ore",
+    "create:smelting/zinc_ingot_from_crushed",
+    "create:blasting/zinc_ingot_from_raw_ore",
+    "create:blasting/zinc_ingot_from_crushed"
+  ];
+
+  manual_removals.forEach(recipeId => {
+    event.remove({ id: recipeId })
+  });
+
   // Loop For Resource Ores
   global.resourceOresIngots.forEach((mod) => {
     mod.materials.forEach((material) => {

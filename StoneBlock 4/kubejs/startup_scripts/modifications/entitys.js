@@ -6,14 +6,14 @@ EntityJSEvents.modifyEntity((event) => {
         if (hasTag(player.tags, "in_yeti"))
           if (!player.isBlocking())
             player.runCommandSilent(
-              "execute at @e[type=minecraft:marker,tag=tf_yeti_tp,limit=1,sort=nearest,distance=..128] run tp @s[gamemode=survival] ~ ~ ~ -90 0"
+              "execute at @e[type=minecraft:marker,tag=tf_yeti_tp_2,limit=1,sort=nearest,distance=..128] run tp @s[gamemode=survival] ~ ~ ~ -90 0"
             )
       }
     })
   })
   event.modify("twilightforest:helmet_crab", (modifyBuilder) => {
-    modifyBuilder.isPushable(false);
-  });
+    modifyBuilder.isPushable(false)
+  })
 })
 
 function hasTag(tags, requiredTag) {

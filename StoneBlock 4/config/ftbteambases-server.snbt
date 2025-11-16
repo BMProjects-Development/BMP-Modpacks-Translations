@@ -1,4 +1,29 @@
 {
+	# Autoclaim lobby areas (FTB Chunks required)
+	autoclaiming: {
+		# The server team color
+		# Many color names work, and hex codes in the form '#RRGGBB' are accepted
+		# Default: "#FF40FF"
+		lobby_claim_color: "#FF40FF"
+		
+		# Radius in chunks for the lobby area to autoclaim
+		# 0 = autoclaiming disabled
+		# 1 = autoclaim just the chunk containing the lobby origin pos
+		# 2+ = extend the autoclaim distance out by 1 chunk per amount beyond 1
+		# Default: 0
+		# Range: 0 ~ 2147483647
+		lobby_radius: 7
+		
+		# Shape to be autoclaimed
+		# Default: "square"
+		# Valid values: "square", "circle"
+		lobby_shape: "circle"
+		
+		# The display name for the server team which is used to claim the lobby chunks
+		# This name shows up on FTB Chunks mapping
+		# Default: "Lobby"
+		server_team_name: "Lobby"
+	}
 	general: {
 		# Base separation (in 512-block regions) when allocating regions for new bases in shared dimensions; the amount of clear space between the edges of two adjacent bases
 		# Default: 4
@@ -27,6 +52,13 @@
 		team_nether_entry_point: false
 	}
 	lobby: {
+		# X/Z chunk position for the centre of the claimed area
+		# Default: [0, 0]
+		lobby_claim_center: [I;
+			0
+			0
+		]
+		
 		# Dimension ID of the level in which the lobby is created. This *must* be a static pre-existing dimension, not a dynamically created one! New players will be automatically teleported to this dimension the first time they connect to the server. This setting should be defined in default config so the server has it before any levels are created - do NOT modify this on existing worlds!
 		# Default: "minecraft:overworld"
 		lobby_dimension: "minecraft:overworld"

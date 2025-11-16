@@ -1,6 +1,6 @@
 // priority: 50
 
-global.removeRecipe.push(
+removeRecipe.push(
   "immersiveengineering:arcfurnace/dust_aluminum",
   "immersiveengineering:arcfurnace/dust_brass",
   "immersiveengineering:arcfurnace/dust_bronze",
@@ -335,10 +335,13 @@ global.removeRecipe.push(
   "immersiveengineering:smelting/ingot_silver_from_dust_from_blasting",
   "immersiveengineering:alloysmelter/brass",
   "immersiveengineering:alloysmelter/constantan",
-  "immersiveengineering:arc_recycling_list245"
+  "immersiveengineering:arc_recycling_list245",
+  "immersiveengineering:alloysmelter/electrum",
+  "immersiveengineering:alloysmelter/bronze",
+  "immersiveengineering:alloysmelter/invar"
 )
 
-global.removeOre.push(
+removeOre.push(
   "immersiveengineering:ore_uranium",
   "immersiveengineering:ore_lead",
   "immersiveengineering:ore_silver",
@@ -351,7 +354,7 @@ global.removeOre.push(
   "immersiveengineering:deepslate_ore_aluminum"
 )
 
-global.removeItem.push(
+removeItem.push(
   "immersiveengineering:coal_coke",
   "immersiveengineering:dust_coke",
   "immersiveengineering:dust_saltpeter",
@@ -567,7 +570,7 @@ ServerEvents.recipes((event) => {
   })
 
   // Rods
-  global.enabledRods.push((entry) => {
+  global.enabledRods.forEach((entry) => {
     const material = entry[0]
     if (entry[2] === false) {
       return

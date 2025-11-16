@@ -548,6 +548,7 @@
 				id: "chicken_roost:roost"
 			}
 			id: "081EA35CCBDF793F"
+			min_width: 300
 			rewards: [{
 				amount: 2
 				id: "0C0E0DC471C12A27"
@@ -1412,6 +1413,55 @@
 			]
 			x: 7.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["081EA35CCBDF793F"]
+			hide_dependency_lines: true
+			icon: {
+				id: "chicken_roost:collector"
+			}
+			id: "34A2BA2C754CE27A"
+			min_width: 350
+			optional: true
+			rewards: [{
+				amount: 10
+				id: "14CCA08F0688F371"
+				type: "currency"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2D3F56A1CAFA42A7"
+					item: { count: 1, id: "chicken_roost:feeder" }
+					type: "item"
+				}
+				{
+					id: "244220C807E2CACB"
+					item: { count: 1, id: "chicken_roost:collector" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["705E4FFB4FCADFD1"]
+			hide_dependency_lines: true
+			id: "60B8D5DAA4BA7DC4"
+			rewards: [{
+				amount: 10
+				id: "6255AD946E21BC70"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3B9D300039896079"
+				item: { count: 1, id: "replication_matter_overflow:matter_void" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
 		}
 	]
 }

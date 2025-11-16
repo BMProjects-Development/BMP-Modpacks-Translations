@@ -20,11 +20,11 @@
 
 [spirit]
 	#If set to true, any spirits dropped will simply take the form of an item.
-	noFancySpirits = false
+	noFancySpirits = true
 
 	[spirit.spawner]
 		#If set to true, mob spawners will create soulless mobs instead.
-		lameSpawners = false
+		lameSpawners = true
 
 	[spirit.defaults]
 		#Whether entities without spirit jsons will use the default spirit data for their category.
@@ -38,4 +38,4 @@
 
 [codex]
 	#If set to true, one of the first undead enemies a player slays will drop the encyclopedia arcana.
-	enableCodexDrop = true
+	enableCodexDrop = false

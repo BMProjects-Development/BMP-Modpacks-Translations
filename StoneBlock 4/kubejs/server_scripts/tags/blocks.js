@@ -27,7 +27,22 @@ const addBlockTags = [
       "twilightforest:mazestone_border"
     ]
   },
-  { tagName: "minecraft:replaceable_by_trees", blockIDs: ["minecraft:light"] }
+  { tagName: "minecraft:replaceable_by_trees", blockIDs: ["minecraft:light"] },
+  { tagName: "buildinggadgets2:deny", blockIDs: ["enderstorage:ender_tank"] },
+  {
+    tagName: "minecraft:crops",
+    blockIDs: [
+      "chicken_roost:seed_crop_1",
+      "chicken_roost:seed_crop_2",
+      "chicken_roost:seed_crop_3",
+      "chicken_roost:seed_crop_4",
+      "chicken_roost:seed_crop_5",
+      "chicken_roost:seed_crop_6",
+      "chicken_roost:seed_crop_7",
+      "chicken_roost:seed_crop_8",
+      "chicken_roost:seed_crop_9"
+    ]
+  }
 ]
 
 const relocationDenyBlocks = [
@@ -47,16 +62,22 @@ const relocationDenyBlocks = [
   "xycraft_machines:item_selector",
   "xycraft_machines:fluid_selector",
   "irregular_implements:spectre_coil_genesis",
-  "custommachinery:custom_machine_item"
+  "custommachinery:custom_machine_item",
+  "ftbunearthed:core",
+  "ftbunearthed:l_corner",
+  "ftbunearthed:l_edge",
+  "ftbunearthed:m_edge",
+  "ftbunearthed:m_face",
+  "ftbunearthed:u_corner",
+  "ftbunearthed:u_edge",
+  "ftbunearthed:u_face"
 ]
 const removeBlockTags = [
   {
     tagName: "minecraft:mineable/axe",
     blockIDs: ["minecraft:crafting_table"]
   },
-  { tagName: "sfm:anvil_disenchanting",
-    blockIDs: ["minecraft:obsidian"]
-  },
+  { tagName: "sfm:anvil_disenchanting", blockIDs: ["minecraft:obsidian"] },
   {
     tagName: "twilightforest:mazestone",
     blockIDs: ["twilightforest:mazestone"]

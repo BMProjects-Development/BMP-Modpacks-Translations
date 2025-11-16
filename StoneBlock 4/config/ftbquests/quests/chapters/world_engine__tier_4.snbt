@@ -470,6 +470,13 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					id: "0848277C23AC8A51"
+					ignore_reward_blocking: true
+					stage: "tf_unlock_yeti"
+					type: "gamestage"
+				}
 			]
 			shape: "square"
 			tasks: [
@@ -500,6 +507,7 @@
 			}
 			icon_scale: 1.5d
 			id: "45BA73F16B7AE681"
+			min_width: 300
 			rewards: [{
 				amount: 50
 				id: "726E8CB33DEA6B24"
@@ -751,6 +759,18 @@
 					team_reward: true
 					type: "command"
 				}
+				{
+					auto: "invisible"
+					id: "3E36C30665B59439"
+					stage: "tf_unlock_snow"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "64B881CEAB018CF5"
+					stage: "tf_unlock_hydra"
+					type: "gamestage"
+				}
 			]
 			shape: "square"
 			tasks: [
@@ -986,11 +1006,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "14537A63D3BDC09B"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine euphonium_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -998,9 +1017,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "11F46FD8EC5EE6C8"
-				permission_level: 3
+				tags: ["euphonium_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1019,11 +1038,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "5FDB9EC42FE936C6"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine resonant_void_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1031,9 +1049,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "437C0250BD2823D8"
-				permission_level: 3
+				tags: ["resonant_void_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1052,11 +1070,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "383DAD591823C746"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine twilight_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1064,9 +1081,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "4348C140262F1176"
-				permission_level: 3
+				tags: ["twilight_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
@@ -1116,9 +1133,7 @@
 			id: "51B3EF0BCEB804A4"
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine draconic_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1126,9 +1141,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "12E34C33B113C643"
-				permission_level: 3
+				tags: ["draconic_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
@@ -1156,7 +1171,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["15DE76B303680F79"]
+			dependencies: [
+				"15DE76B303680F79"
+				"67181BD1F2434E2C"
+			]
 			icon: {
 				id: "cataclysm:abyssal_egg"
 			}
@@ -1167,16 +1185,32 @@
 				type: "currency"
 			}]
 			shape: "rsquare"
-			tasks: [{
-				id: "1E174A9691D90A87"
-				item: { count: 1, id: "cataclysm:abyssal_egg" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "12D60496E6A55CB5"
+					item: { components: { "gateways:gateway": "gateways:coralssus" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					type: "item"
+				}
+				{
+					id: "35D8CC5A159D2A2B"
+					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+					type: "item"
+				}
+				{
+					id: "1E174A9691D90A87"
+					item: { count: 1, id: "cataclysm:abyssal_egg" }
+					type: "item"
+				}
+			]
 			x: 0.75d
 			y: 3.5d
 		}
 		{
-			dependencies: ["15DE76B303680F79"]
+			dependencies: [
+				"15DE76B303680F79"
+				"67181BD1F2434E2C"
+			]
 			icon: {
 				id: "oritech:prometheum_ingot"
 			}
@@ -1215,6 +1249,7 @@
 			}
 			id: "0CE3C7A6DE787371"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/lich"
@@ -1229,21 +1264,10 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "62B8DF25CDC4F6E7"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "37110580092A6E78"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "62B8DF25CDC4F6E7"
+				type: "checkmark"
+			}]
 			x: 6.75d
 			y: 0.85d
 		}
@@ -1257,6 +1281,7 @@
 			}
 			id: "6F258F4C7BE2EE44"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/yeti"
@@ -1271,21 +1296,10 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "4404D4CA07F1B536"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "677EF48A90EB528C"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "4404D4CA07F1B536"
+				type: "checkmark"
+			}]
 			x: 6.75d
 			y: 2.25d
 		}
@@ -1299,6 +1313,7 @@
 			}
 			id: "0EAEEF79436FDFA7"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/hydra"
@@ -1313,21 +1328,10 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "63FA6779F7687346"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "706A41E926E2B1A2"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "63FA6779F7687346"
+				type: "checkmark"
+			}]
 			x: 5.25d
 			y: 3.375d
 		}
@@ -1341,6 +1345,7 @@
 			}
 			id: "56FB1BC5711CC4F9"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/snow_queen"
@@ -1355,21 +1360,10 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "5E1DA99A3C6FAB9B"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "1D26E53A98EE8E4D"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "5E1DA99A3C6FAB9B"
+				type: "checkmark"
+			}]
 			x: 6.75d
 			y: 3.375d
 		}
@@ -1386,6 +1380,7 @@
 			}
 			id: "6781D1A7A53A5F1D"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/knight"
@@ -1400,23 +1395,41 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "383794D054B8E0E1"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "4885C6A872DD31E6"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "383794D054B8E0E1"
+				type: "checkmark"
+			}]
 			x: 6.0d
 			y: 5.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["15DE76B303680F79"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "77DE3D57E5B58948"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					id: "simpleteleporters:ender_shard"
+				}
+				id: "32A31D445DC7FF87"
+				table_id: 4611501721502039447L
+				team_reward: true
+				type: "all_table"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "3CF00732C185A0FB"
+				type: "checkmark"
+			}]
+			x: 1.125d
+			y: 1.875d
 		}
 	]
 }

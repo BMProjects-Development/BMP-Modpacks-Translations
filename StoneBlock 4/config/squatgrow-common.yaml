@@ -9,7 +9,8 @@ enableMysticalCrops: false
 hoeTakesDamage: false
 ignoreList: ['minecraft:grass_block', 'minecraft:grass', 'minecraft:short_grass',
   'minecraft:tall_grass', 'minecraft:netherrack', 'minecraft:warped_nylium', 'minecraft:crimson_nylium',
-  '#mysticalagriculture:crops', 'minecraft:seagrass', 'minecraft:moss_block', 'minecraft:pink_petals']
+  '#mysticalagriculture:crops', 'minecraft:seagrass', 'minecraft:moss_block', 'minecraft:pink_petals',
+  'irregular_implements:pitcher_plant']
 randomTickMultiplier: 4
 range: 3
 requireHoe: false

@@ -22,7 +22,7 @@
         {"name": "Artisan Scroll - Piglin Signet Ring", "item": {"id": "irons_jewelry:recipe", "components": {"irons_jewelry:stored_pattern": "irons_jewelry:piglin_signet_ring"}, "count": 1}, "cost": 10, "description": {"translate": "ftb.shop.description.irons_scroll.piglin_signet_ring"}},
         {"name": "Artisan Scroll - Amulet of Protection", "item": {"id": "irons_jewelry:recipe", "components": {"irons_jewelry:stored_pattern": "irons_jewelry:amulet_of_protection"}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.irons_scroll.amulet_of_protection"}},
         {"name": "Artisan Scroll - Rhinestone Amulet", "item": {"id": "irons_jewelry:recipe", "components": {"irons_jewelry:stored_pattern": "irons_jewelry:rhinestone_amulet"}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.irons_scroll.rhinestone_amulet"}},
-        {"name": "Artisan Scroll - Rune Inscribed Ring", "item": {"id": "irons_jewelry:recipe", "components": {"irons_jewelry:stored_pattern": "irons_jewelry:rune_inscribed_ring"}, "count": 1}, "cost": 35, "description": {"translate": "ftb.shop.description.irons_scroll.rune_inscribed_ring"}},
+        {"name": "Artisan Scroll - Rune Inscribed Ring", "item": {"id": "irons_jewelry:recipe", "components": {"irons_jewelry:stored_pattern": "irons_spellbooks:rune_inscribed_ring"}, "count": 1}, "cost": 35, "description": {"translate": "ftb.shop.description.irons_scroll.rune_inscribed_ring"}},
         {"name": "Artisan Scroll - Sharpshooter Loop", "item": {"id": "irons_jewelry:recipe", "components": {"irons_jewelry:stored_pattern": "irons_jewelry:sharpshooter_loop"}, "count": 1}, "cost": 60, "description": {"translate": "ftb.shop.description.irons_scroll.sharpshooter_loop"}}
       ]
     },

@@ -1,6 +1,6 @@
 // priority: 50
 
-global.removeRecipe.push(
+removeRecipe.push(
 	"occultism:blasting/silver_ingot_from_raw",
 	"occultism:crafting/raw_silver_block",
 	"occultism:crafting/raw_silver_ingot_from_block",
@@ -39,7 +39,7 @@ global.removeRecipe.push(
 	"occultism:blasting/iron_ingot_from_dust"
 );
 
-global.removeItem.push(
+removeItem.push(
 	"occultism:silver_ore",
 	"occultism:silver_ore_deepslate",
 	"occultism:raw_silver",

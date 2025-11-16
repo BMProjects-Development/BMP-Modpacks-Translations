@@ -1,0 +1,1423 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "creative"
+	group: "4B65568899D62A0C"
+	hide_quest_until_deps_visible: true
+	icon: {
+		components: {
+			"minecraft:custom_data": {
+				BaseBlock: "air"
+				OffsetY: 0.0d
+				Scale: 2.0d
+				TrophyItem: {
+					id: "avaritia:infinity_catalyst"
+				}
+				TrophyType: "item"
+			}
+		}
+		id: "trophymanager:trophy"
+	}
+	id: "6E24C5F4B5BA567C"
+	images: [
+		{
+			height: 1.0d
+			image: "ae2:part/annihilation_plane_on"
+			order: 1
+			rotation: 45.0d
+			width: 1.0d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "avaritia:block/infinity_block"
+			order: -1
+			rotation: 45.0d
+			width: 3.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			color: 0
+			height: 2.5d
+			image: "ftbquests:textures/shapes/square/background.png"
+			rotation: 45.0d
+			width: 2.5d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "extendedae:block/assembler_matrix/frame_block_on"
+			rotation: 45.0d
+			width: 2.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			height: 2.5d
+			image: "malum:textures/gui/book/widgets/soulwood_frame_gilded.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "ae2:part/annihilation_plane_on"
+			order: 1
+			rotation: 135.0d
+			width: 1.0d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.5d
+			image: "ae2:part/annihilation_plane_on"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			image: "ae2:part/annihilation_plane_on"
+			order: 1
+			rotation: 180.0d
+			width: 1.5d
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			alpha: 155
+			height: 2.0d
+			image: "ars_ocultas:block/altar_top"
+			rotation: 45.0d
+			width: 2.0d
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			color: 16733695
+			height: 1.5d
+			image: "ars_nouveau:block/source_still"
+			rotation: 45.0d
+			width: 1.5d
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			color: 16711680
+			height: 2.0d
+			image: "advanced_ae:block/crafting/quantum_internal_powered_animation"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			height: 4.0d
+			image: "malum:textures/gui/book/void_background.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			height: 4.0d
+			image: "fluxnetworks:textures/gui/gui_frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			alpha: 100
+			color: 0
+			height: 26.0d
+			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
+			order: -10
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["25CCA572C4D5CEA0"]
+			icon: {
+				id: "ars_nouveau:creative_source_jar"
+			}
+			id: "7435EC96F4A4B39F"
+			rewards: [
+				{
+					id: "6CDABACC882931DA"
+					item: {
+						count: 1
+						id: "ars_nouveau:creative_source_jar"
+					}
+					type: "item"
+				}
+				{
+					amount: 250
+					id: "7C15D76E402A519F"
+					type: "currency"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					consume_items: true
+					count: 100L
+					id: "75345857D97FAAC1"
+					item: { count: 1, id: "ars_nouveau:abjuration_essence" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "3F721950FEFA99F6"
+					item: { count: 1, id: "ars_nouveau:conjuration_essence" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "48B2C1E3BBAF223D"
+					item: { count: 1, id: "ars_nouveau:air_essence" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "69C560A3BD740CED"
+					item: { count: 1, id: "ars_nouveau:earth_essence" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "1CECDFBBFBF57A7C"
+					item: { count: 1, id: "ars_nouveau:fire_essence" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "5EC0C34788E97813"
+					item: { count: 1, id: "ars_nouveau:manipulation_essence" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "57DF6E69813A5201"
+					item: { count: 1, id: "ars_nouveau:water_essence" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "2401C8A4DB1FCE2D"
+					item: { count: 1, id: "ars_elemental:anima_essence" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "48DDF70E571B7D29"
+					item: { count: 1, id: "ars_nouveau:source_gem_block" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F2B35E4E3729560"]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						BaseBlock: "air"
+						OffsetY: 0.0d
+						Scale: 2.0d
+						TrophyItem: {
+							id: "avaritia:infinity_sword"
+						}
+						TrophyType: "item"
+					}
+				}
+				id: "trophymanager:trophy"
+			}
+			id: "25CCA572C4D5CEA0"
+			rewards: [{
+				amount: 100
+				id: "14DA10C8742CAA9A"
+				type: "currency"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "32632683A87010F0"
+					item: { count: 1, id: "avaritia:infinity_sword" }
+					type: "item"
+				}
+				{
+					id: "0B9961DB84A60523"
+					item: { count: 1, id: "avaritia:infinity_helmet" }
+					type: "item"
+				}
+				{
+					id: "51296F7540D18A31"
+					item: { count: 1, id: "avaritia:infinity_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7D55F8A28B18CBC6"
+					item: { count: 1, id: "avaritia:infinity_leggings" }
+					type: "item"
+				}
+				{
+					id: "6EDECEEC553261A3"
+					item: { count: 1, id: "avaritia:infinity_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["25CCA572C4D5CEA0"]
+			icon: {
+				id: "replication:creative_memory_chip"
+			}
+			id: "63ACBB448387B83C"
+			rewards: [
+				{
+					id: "3452ED81FDFD865D"
+					item: {
+						count: 1
+						id: "replication:creative_memory_chip"
+					}
+					type: "item"
+				}
+				{
+					amount: 250
+					id: "70C97777B7C813C4"
+					type: "currency"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					consume_items: true
+					id: "554D6CF45E48ABBE"
+					item: { count: 1, id: "replication:memory_chip" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6A61D64A9CDB3429"
+					item: { count: 1, id: "avaritia:copper_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "608F931927E17D03"
+					item: { count: 1, id: "avaritia:iron_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "17004E013D3244E7"
+					item: { count: 1, id: "avaritia:gold_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5D006DB4E4771C82"
+					item: { components: { "avaritia:singularity_id": "red_matter_singularity" }, count: 1, id: "avaritia:json_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0707C5592B141559"
+					item: { count: 1, id: "avaritia:redstone_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2048L
+					id: "0611029A7589916A"
+					item: { count: 1, id: "replication:replica_ingot" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25CCA572C4D5CEA0"]
+			icon: {
+				id: "chancecubes:creative_pendant"
+			}
+			id: "166A223222AD76FC"
+			rewards: [
+				{
+					id: "73B0026A5260E566"
+					item: {
+						count: 1
+						id: "chancecubes:creative_pendant"
+					}
+					type: "item"
+				}
+				{
+					amount: 250
+					id: "7E7AFE8A70442E39"
+					type: "currency"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "7780C67219EB0F38"
+					item: { count: 1, id: "chancecubes:chance_cube" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "1365562C4DEDA45B"
+					item: { count: 1, id: "chancecubes:compact_giant_chance_cube" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "711C41A7211AD99E"
+					item: { count: 1, id: "chancecubes:chance_icosahedron" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "21D24CD79EB2152B"
+					item: { components: { "minecraft:potion_contents": { potion: "minecraft:luck" } }, count: 1, id: "apotheosis:potion_charm" }
+					match_components: "strict"
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25CCA572C4D5CEA0"]
+			icon: {
+				id: "justdynathings:creative_goo"
+			}
+			id: "7CC7824471E1B45F"
+			rewards: [
+				{
+					id: "0FDAFDCB46465879"
+					item: {
+						count: 1
+						id: "justdynathings:creative_goo"
+					}
+					type: "item"
+				}
+				{
+					amount: 250
+					id: "7AB1E8CAE91437FE"
+					type: "currency"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					consume_items: true
+					id: "75F2E3189488D4AE"
+					item: { count: 1, id: "justdynathings:stabilizer" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3FEAE9784F0C9425"
+					item: { count: 1, id: "justdynathings:paradox_mixer" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "5C25FC7C8796047A"
+					item: { count: 1, id: "justdynathings:echoing_budding_time" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25CCA572C4D5CEA0"]
+			icon: {
+				id: "create:creative_motor"
+			}
+			id: "7F42E2C4AAC3D131"
+			rewards: [
+				{
+					id: "461CCB724464DAC5"
+					item: {
+						count: 1
+						id: "create:creative_motor"
+					}
+					type: "item"
+				}
+				{
+					amount: 250
+					id: "2FE6B3DDF4FA4641"
+					type: "currency"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					consume_items: true
+					id: "3781312ABBDCEC74"
+					item: { count: 1, id: "createaddition:electric_motor" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "0E66F082E55AA037"
+					item: { count: 1, id: "create:precision_mechanism" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "30BEA9316C2F88EB"
+					item: { count: 1, id: "avaritia:redstone_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25CCA572C4D5CEA0"]
+			icon: {
+				components: {
+					"hostilenetworks:data": 6
+					"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "5D1DD9EA59C3078D"
+			rewards: [
+				{
+					id: "5790953268CAADB2"
+					item: {
+						components: {
+							"hostilenetworks:data": 6
+							"hostilenetworks:data_model": "hostilenetworks:ender_dragon"
+						}
+						count: 1
+						id: "hostilenetworks:data_model"
+					}
+					type: "item"
+				}
+				{
+					amount: 250
+					id: "0A3F503312D00067"
+					type: "currency"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "20997564ABEBF9E8"
+					item: { count: 1, id: "apothic_enchanting:infused_breath" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "155C05544786B2ED"
+					item: { count: 1, id: "minecraft:dragon_egg" }
+					optional_task: true
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "4765211B7FE6DEEF"
+					item: { count: 1, id: "minecraft:dragon_head" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25CCA572C4D5CEA0"]
+			icon: {
+				id: "mekanism_lasers:creative_toggleable_laser"
+			}
+			id: "308135F2F191443E"
+			rewards: [
+				{
+					id: "7C5E0E41A706E1C5"
+					item: {
+						count: 1
+						id: "mekanism_lasers:creative_toggleable_laser"
+					}
+					type: "item"
+				}
+				{
+					amount: 250
+					id: "2AC182CB1533C9D6"
+					type: "currency"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					consume_items: true
+					id: "523EC6D0741C3045"
+					item: { count: 1, id: "mekanism_lasers:ultimate_toggleable_laser" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "087CD6A49C1DDD56"
+					item: { components: { "mekanism:energy": { energy_containers: [L;256000000L] } }, count: 1, id: "mekanism:ultimate_energy_cube" }
+					match_components: "fuzzy"
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "2B055E98F381324E"
+					item: { count: 1, id: "cataclysm:ignitium_ingot" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "51A44E489685ACF0"
+					item: { count: 1, id: "immersiveengineering:component_steel" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "4B76D494F662EA9D"
+					item: { count: 1, id: "ftbmaterials:refined_obsidian_ingot" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["25CCA572C4D5CEA0"]
+			icon: {
+				id: "universalgrid:creative_wireless_universal_grid"
+			}
+			id: "0428CA9172ACC5E3"
+			optional: true
+			rewards: [
+				{
+					id: "10D3EDE85C7C0837"
+					item: {
+						count: 1
+						id: "universalgrid:creative_wireless_universal_grid"
+					}
+					type: "item"
+				}
+				{
+					amount: 250
+					id: "67F64DFF612DAAC2"
+					type: "currency"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					consume_items: true
+					id: "17A42FB00287602D"
+					item: { count: 1, id: "universalgrid:wireless_universal_grid" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "3347DB592730E434"
+					item: { count: 1, id: "avaritia:redstone_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1024L
+					id: "3A80A6D3F22B4A56"
+					item: { count: 1, id: "refinedstorage:quartz_enriched_iron" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25CCA572C4D5CEA0"]
+			icon: {
+				id: "cabletiers:creative_disk_interface"
+			}
+			id: "7DCF86E4B24A764A"
+			optional: true
+			rewards: [
+				{
+					id: "4BE3F5B51C68AC17"
+					item: {
+						count: 1
+						id: "cabletiers:creative_disk_interface"
+					}
+					type: "item"
+				}
+				{
+					amount: 250
+					id: "28D9AD0EFC7B4934"
+					type: "currency"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "7C0D1894ACCBD393"
+					item: { count: 1, id: "cabletiers:ultra_disk_interface" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "4EA920918FA8DD49"
+					item: { count: 1, id: "refinedstorage:quartz_enriched_iron" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "4A5A7B167409A894"
+					item: { count: 1, id: "extrastorage:neural_processor" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25CCA572C4D5CEA0"]
+			icon: {
+				id: "tempad:creative_chronometer"
+			}
+			id: "4AA6245ECD6FC657"
+			rewards: [
+				{
+					id: "4C904E7D08DBBD9B"
+					item: {
+						count: 1
+						id: "tempad:creative_chronometer"
+					}
+					type: "item"
+				}
+				{
+					amount: 250
+					id: "34757855A9ACB493"
+					type: "currency"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					consume_items: true
+					id: "008CCB285342F1F2"
+					item: { count: 1, id: "tempad:chronometer" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1000L
+					id: "6ABD69BDD4AAA993"
+					item: { count: 1, id: "tempad:time_steel" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 500L
+					id: "4E59A8C6C06781DA"
+					item: { count: 1, id: "ftb:fortron_infused_ingot" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "273FC0ADCDBBC10D"
+					item: { components: { "tempad:chronon_content": 4000 }, count: 1, id: "tempad:chronon_battery" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "5DF80000602786FF"
+					item: { count: 1, id: "appflux:energy_processor" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "2F2073F59C60E0FD"
+					item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["25CCA572C4D5CEA0"]
+			icon: {
+				id: "mffs:infinite_power_card"
+			}
+			id: "0A1243F0A9541645"
+			rewards: [
+				{
+					id: "44987B534F0C7DC8"
+					item: {
+						count: 1
+						id: "mffs:infinite_power_card"
+					}
+					type: "item"
+				}
+				{
+					amount: 250
+					id: "1DF9DA1DA494F99A"
+					type: "currency"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					consume_items: true
+					id: "26A26EB050E04982"
+					item: { count: 1, id: "mffs:blank_card" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "559617D7F9186212"
+					item: { count: 1, id: "mffs:focus_matrix" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "611700000F9AD638"
+					item: { components: { "avaritia:singularity_id": "fortron_infused_singularity" }, count: 1, id: "avaritia:json_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4E82C638E60A2B29"
+					item: { count: 1, id: "mffs:coercion_deriver" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "1FF219F06DBA63C3"
+					item: { count: 1, id: "ftbmaterials:electrum_gear" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3DFE525B2415AC39"
+					item: { count: 1, id: "mekanism:ultimate_induction_cell" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["09D15AF118F0C8D8"]
+			icon: {
+				id: "refinedstorage:creative_controller"
+			}
+			id: "521580755F40E4CC"
+			rewards: [
+				{
+					id: "39A272AB78676436"
+					item: {
+						count: 1
+						id: "refinedstorage:creative_controller"
+					}
+					type: "item"
+				}
+				{
+					amount: 250
+					id: "23A8EAD7054B6ED1"
+					type: "currency"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: true
+					id: "2453258D8785257B"
+					item: { count: 1, id: "refinedstorage:controller" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "458D65F83B36A007"
+					item: { count: 1, id: "refinedstorage:advanced_processor" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "669AFD8B461E5317"
+					item: { count: 1, id: "refinedstorage:improved_processor" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "5F5533AB2C989B4E"
+					item: { count: 1, id: "refinedstorage:basic_processor" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "34036373B717A7CE"
+					item: { components: { "avaritia:singularity_id": "fortron_infused_singularity" }, count: 1, id: "avaritia:json_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "29670EE9FD27DAC9"
+					item: { count: 1, id: "refinedtypes:infinite_energy_storage_part" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["09D15AF118F0C8D8"]
+			icon: {
+				id: "ae2:creative_energy_cell"
+			}
+			id: "420239DCDE0CB837"
+			rewards: [
+				{
+					id: "3265BD146B5F55C1"
+					item: {
+						count: 1
+						id: "ae2:creative_energy_cell"
+					}
+					type: "item"
+				}
+				{
+					amount: 250
+					id: "2D9A4BB391BE8F1D"
+					type: "currency"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: true
+					id: "47B4949E226C0D88"
+					item: { count: 1, id: "megacells:mega_energy_cell" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "4815478D17C0F34B"
+					item: { count: 1, id: "appflux:energy_processor" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2048L
+					id: "7A9CF629D2798D67"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "69DDE23DA3C29093"
+					item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "4726C67D84669F51"
+					item: { components: { "avaritia:singularity_id": "fortron_infused_singularity" }, count: 1, id: "avaritia:json_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"420239DCDE0CB837"
+				"521580755F40E4CC"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:creative_spell_book"
+			}
+			id: "6C6A347673F0A8F7"
+			rewards: [
+				{
+					id: "60B125A3F15B8A08"
+					item: {
+						count: 1
+						id: "ars_nouveau:creative_spell_book"
+					}
+					type: "item"
+				}
+				{
+					amount: 2500
+					id: "761E2E467F18B9E7"
+					type: "currency"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					id: "0C9AC395D599DC08"
+					item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "1F8D377ACD877CCF"
+					item: { count: 1, id: "ars_elemental:mark_of_mastery" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "18B5810537D85D84"
+					item: { count: 1, id: "avaritia:amethyst_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6D06EDA1F34FA4E9"]
+			icon: {
+				id: "create:handheld_worldshaper"
+			}
+			icon_scale: 1.5d
+			id: "16C312C27F9805DB"
+			rewards: [
+				{
+					id: "738DEA38F9660CC0"
+					item: {
+						count: 1
+						id: "create:handheld_worldshaper"
+					}
+					type: "item"
+				}
+				{
+					amount: 100000
+					id: "22432D77CE1ACCBF"
+					type: "currency"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: true
+					id: "140FCFCF4E436CA3"
+					item: { count: 1, id: "create:potato_cannon" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "736B599F6CD1131F"
+					item: { count: 1, id: "create:extendo_grip" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5D0388E4C6E42759"
+					item: { count: 1, id: "create:wand_of_symmetry" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "10D4F5BE631F7B6E"
+					item: { count: 1, id: "avaritia:infinity_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "50BB8FE03A3DF127"
+					item: { count: 1, id: "avaritia:copper_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "3643408798C71477"
+					item: { count: 1, id: "avaritia:iron_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "68E143575B7FE389"
+					item: { count: 1, id: "avaritia:gold_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "49857B7C113BA633"
+					item: { count: 1, id: "avaritia:lapis_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "022EE4B5E6592C88"
+					item: { count: 1, id: "avaritia:redstone_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "51536900EE329E45"
+					item: { count: 1, id: "avaritia:diamond_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "58257985C6978E24"
+					item: { count: 1, id: "avaritia:netherite_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "447A999AECD7B01F"
+					item: { components: { "avaritia:singularity_id": "enderium_singularity" }, count: 1, id: "avaritia:json_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "18E2AA06D4A2DA85"
+					item: { components: { "avaritia:singularity_id": "red_matter_singularity" }, count: 1, id: "avaritia:json_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "5E45B02D59638ADD"
+					item: { count: 1, id: "advanced_ae:shattered_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6C6A347673F0A8F7"]
+			icon: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;9223372036854775807L]
+					}
+					"mekanism:side_config": {
+						config: {
+							energy: {
+								eject: 1b
+								side: {
+									back: "output"
+									bottom: "output"
+									front: "output"
+									left: "output"
+									right: "output"
+									top: "output"
+								}
+							}
+							items: {
+								side: {
+									back: "input"
+									bottom: "input"
+									front: "output"
+									left: "input"
+									right: "input"
+									top: "input"
+								}
+							}
+						}
+					}
+				}
+				id: "mekanism:creative_energy_cube"
+			}
+			id: "6D06EDA1F34FA4E9"
+			rewards: [
+				{
+					id: "4A8262BCF6A13EA3"
+					item: {
+						components: {
+							"mekanism:energy": {
+								energy_containers: [L;9223372036854775807L]
+							}
+							"mekanism:side_config": {
+								config: {
+									energy: {
+										eject: 1b
+										side: {
+											back: "output"
+											bottom: "output"
+											front: "output"
+											left: "output"
+											right: "output"
+											top: "output"
+										}
+									}
+									items: {
+										side: {
+											back: "input"
+											bottom: "input"
+											front: "output"
+											left: "input"
+											right: "input"
+											top: "input"
+										}
+									}
+								}
+							}
+						}
+						count: 1
+						id: "mekanism:creative_energy_cube"
+					}
+					type: "item"
+				}
+				{
+					amount: 5000
+					id: "6E262B8AD632F108"
+					type: "currency"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					consume_items: true
+					id: "3450FEC45A6AB394"
+					item: { components: { "mekanism:energy": { energy_containers: [L;256000000L] } }, count: 1, id: "mekanism:ultimate_energy_cube" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "139D7FB4290623AE"
+					item: { count: 1, id: "mekanism:ultimate_induction_provider" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "201AECAB3CBB84EB"
+					item: { count: 1, id: "draconicevolution:chaotic_core" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "4627130DB81CB216"
+					item: { components: { "draconicevolution:config_properties": [ [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_held_item", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_armor", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_hot_bar", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_main", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_curios", show_on_hud: 1b, value: 0b } ] ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 803266230, 905528751, -1204635490, -96207276 ] }, count: 1, id: "draconicevolution:chaotic_capacitor" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "58B244C4AC502AA3"
+					item: { count: 1, id: "avaritia:redstone_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "553831BD3D617B19"
+					item: { components: { "avaritia:singularity_id": "energite_singularity" }, count: 1, id: "avaritia:json_singularity" }
+					task_screen_only: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"4AA6245ECD6FC657"
+				"63ACBB448387B83C"
+				"0A1243F0A9541645"
+				"7F42E2C4AAC3D131"
+				"7435EC96F4A4B39F"
+				"166A223222AD76FC"
+				"5D1DD9EA59C3078D"
+				"308135F2F191443E"
+				"7CC7824471E1B45F"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						BaseBlock: "air"
+						OffsetY: 0.0d
+						Scale: 2.0d
+						TrophyItem: {
+							id: "avaritia:infinity_singularity"
+						}
+						TrophyType: "item"
+					}
+				}
+				id: "trophymanager:trophy"
+			}
+			icon_scale: 1.5d
+			id: "09D15AF118F0C8D8"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "2EA8AAC21E19C202"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+	]
+}

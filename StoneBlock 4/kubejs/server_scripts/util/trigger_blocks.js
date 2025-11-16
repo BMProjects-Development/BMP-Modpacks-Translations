@@ -14,7 +14,7 @@ const TRIGGER_ROUTES = [
   //},
   {
     id: "spawn_carb",
-    cmd: 'execute at @e[type=minecraft:marker,tag=spawn_carb] unless   entity @e[type=twilightforest:helmet_crab,distance=..50] run summon twilightforest:helmet_crab ~ ~0.2 ~ {Attributes:[{id:"minecraft:generic.scale",base:0.5}]}'
+    cmd: 'execute at @e[type=minecraft:marker,tag=spawn_carb] unless entity @e[type=twilightforest:helmet_crab,distance=..50] run summon twilightforest:helmet_crab ~ ~0.2 ~ {Attributes:[{id:"minecraft:generic.scale",base:0.5}]}'
   },
   //Portal Vault Triggers =========================================================================
 

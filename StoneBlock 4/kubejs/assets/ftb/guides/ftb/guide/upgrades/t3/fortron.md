@@ -24,5 +24,5 @@ The <Color id="aqua">Fortron Infused Block</Color> is a minor upgrade that unloc
   <ItemIcon id="ae2:controller" />
   <ItemIcon id="ae2:crafting_unit" />
   <ItemIcon id="modularrouters:modular_router" />
-
+  <ItemIcon id="ironfurnaces:augment_generator" />
 </ItemGrid>

@@ -7,3 +7,7 @@
 	# Default: 250
 	# Range: > 1
 	rate = 250
+	#Defined the amount of xp given per Bottle o'Enchanting
+	# Default: 1
+	# Range: > 1
+	amount = 1

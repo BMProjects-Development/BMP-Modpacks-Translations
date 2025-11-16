@@ -1043,11 +1043,7 @@
       "enable_biome_check": true,
       "biome_check_distance": 256,
       "biome_check_mode": "STRICT",
-      "biome_check_blacklisted_biomes": [
-        "#is_river",
-        "#is_ocean",
-        "#is_beach"
-      ],
+      "biome_check_blacklisted_biomes": [],
       "whitelisted_biomes": [
         "#ftb:is_ocean"
       ],

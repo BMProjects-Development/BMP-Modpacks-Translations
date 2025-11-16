@@ -1,3 +1,15 @@
+const plateEntries = [
+  { metal: "bronze", plate: "ftbmaterials:bronze_plate" },
+  { metal: "constantan", plate: "ftbmaterials:constantan_plate" },
+  { metal: "electrum", plate: "ftbmaterials:electrum_plate" },
+  { metal: "invar", plate: "ftbmaterials:invar_plate" },
+  { metal: "lead", plate: "ftbmaterials:lead_plate" },
+  { metal: "nickel", plate: "ftbmaterials:nickel_plate" },
+  { metal: "steel", plate: "ftbmaterials:steel_plate" },
+  { metal: "zinc", plate: "ftbmaterials:zinc_plate" },
+  { metal: "brass", plate: "ftbmaterials:brass_plate" },
+];
+
 ServerEvents.recipes((event) => {
   event
     .shaped("mekanism_lasers:ore_generator", ["IGI", "FLF", "IEI"], {
@@ -25,22 +37,35 @@ ServerEvents.recipes((event) => {
     .id("ftb:mekanism_crushing/black_dye2");
 
   //Antimatter Chicken
-  event.custom({
-    "type":"mekanism:nucleosynthesizing",
-    "chemical_input": {
-      "amount": 10000,
-      "chemical":"mekanism:antimatter"
-    },
-    "duration": 10000,
-    "item_input": {
-      "count": 1,
-      "item": "chicken_roost:c_neutron"
-    },
-    "output": {
-      "count": 1,
-      "id": "chicken_roost:c_antimatter"
-    },
-    "per_tick_usage":false
-  }).id("ftb:mekanism/nucleosynthesizing");
+  event
+    .custom({
+      type: "mekanism:nucleosynthesizing",
+      chemical_input: {
+        amount: 10000,
+        chemical: "mekanism:antimatter",
+      },
+      duration: 10000,
+      item_input: {
+        count: 1,
+        item: "chicken_roost:c_neutron",
+      },
+      output: {
+        count: 1,
+        id: "chicken_roost:c_antimatter",
+      },
+      per_tick_usage: false,
+    })
+    .id("ftb:mekanism/nucleosynthesizing");
 
+  plateEntries.forEach((e) => {
+    event
+      .custom({
+        type: "mekanism:compressing",
+        chemical_input: { amount: 1, chemical: "mekanism:hydrogen" },
+        item_input: { count: 1, tag: `c:ingots/${e.metal}` },
+        output: { count: 1, id: e.plate },
+        per_tick_usage: true,
+      })
+      .id(`ftb:mekanism/compressing/plates/${e.metal}`);
+  });
 });

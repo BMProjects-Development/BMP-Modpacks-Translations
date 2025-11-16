@@ -22,8 +22,8 @@
     "ftb:healing_spring": {x:  -5, y: 128, z: -152, nameKey: "ftb.structure.healing_spring", facing: YAW.SOUTH},
     "ftb:arcane_grove":   {x: 561, y: 102, z:  471, nameKey: "ftb.structure.arcane_grove", facing: YAW.SOUTH},
     // Boss Arenas
-    //"ftb:chesed_arena":  {x: -131, y: 124, z: 1867, nameKey: "ftb.structure.chesed_arena", facing: YAW.SOUTH},
-    //"ftb:malkuth_arena": {x: 3728, y: 148, z: 1216, nameKey: "ftb.structure.malkuth_arena", facing: YAW.SOUTH},
+    "ftb:chesed":  {x: -131, y: 124, z: 1867, nameKey: "ftb.structure.chesed_arena", facing: YAW.SOUTH},
+    "ftb:malkuth": {x: 3728, y: 148, z: 1216, nameKey: "ftb.structure.malkuth_arena", facing: YAW.SOUTH},
     // Vaults
     "ftb:vault/create": {x: 266, y: 131, z: -784, nameKey: "ftb.structure.vault.create", facing: YAW.NORTH},
     "ftb:vault/portal": {x:-628, y: 162, z:  438, nameKey: "ftb.structure.vault.portal", facing: YAW.SOUTH},
@@ -33,9 +33,9 @@
     "ftb:vault/burning_disco":   {x:  -168, y: 163, z: -1232, nameKey: "ftb.structure.vault.burning_disco", facing: YAW.SOUTH},
     "ftb:vault/twilight/lich":   {x:  2203, y: 132, z:    18, nameKey: "ftb.structure.vault.twilight.lich", facing: YAW.NORTH},
     "ftb:vault/twilight/yeti":   {x: -1435, y: 202, z:  1732, nameKey: "ftb.structure.vault.twilight.yeti", facing: YAW.NORTH},
-    "ftb:vault/twilight/hydra":  {x: -1799, y:  54, z: -1428, nameKey: "ftb.structure.vault.twilight.hydra", facing: YAW.NORTH},
+    "ftb:vault/twilight/hydra":  {x: -1799, y:  54, z: -1427, nameKey: "ftb.structure.vault.twilight.hydra", facing: YAW.NORTH},
     "ftb:vault/twilight/knight": {x:  -230, y: 144, z: -2208, nameKey: "ftb.structure.vault.twilight.knight", facing: YAW.NORTH},
-    "ftb:vault/twilight/snow_queen": {x: 1525, y: 180, z: 1685, nameKey: "ftb.structure.vault.twilight.snow_queen", facing: YAW.NORTH},
+    "ftb:vault/twilight/snow_queen": {x: 1525, y: 180, z: 1686, nameKey: "ftb.structure.vault.twilight.snow_queen", facing: YAW.NORTH},
     // NYI
     //"ftb:vault/echoing_dread": {x: 0, y: 100, z: 0, nameKey: "ftb.structure.vault.echoing_dread"},
   };

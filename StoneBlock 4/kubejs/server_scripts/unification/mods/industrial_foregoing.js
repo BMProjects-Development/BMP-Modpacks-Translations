@@ -1,6 +1,6 @@
 // priority: 987
 
-global.removeItem.push(
+removeItem.push(
 	"industrialforegoing:iron_gear",
 	"industrialforegoing:diamond_gear",
 	"industrialforegoing:gold_gear"

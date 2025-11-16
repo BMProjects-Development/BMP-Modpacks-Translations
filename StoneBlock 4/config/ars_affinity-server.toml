@@ -8,10 +8,6 @@
 	# Default: 0.001
 	# Range: 1.0E-4 ~ 0.1
 	affinityGainMultiplier = 0.001
-	#Duration in seconds for affinity consumable cooldown effect (default 30 minutes = 1800 seconds)
-	# Default: 1800
-	# Range: 60 ~ 7200
-	affinityConsumableCooldownDuration = 1800
 	#Y coordinate threshold for deep underground detection. Players below this Y level are considered deep underground
 	# Default: 20
 	# Range: -64 ~ 320

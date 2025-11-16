@@ -14,7 +14,7 @@ const STRUCTURES = {
       [" ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", "m"],
-    ]
+    ],
   },
   infinity_upgrade: {
     keys: { a: "oritech:reactor_reflector", b: "avaritia:infinity_block" },
@@ -27,7 +27,7 @@ const STRUCTURES = {
       [" ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", "m"],
-    ]
+    ],
   },
   euphonium_upgrade: {
     keys: { a: "ftb:euphonium" },
@@ -131,7 +131,7 @@ const STRUCTURES = {
         "       ",
         "   m   ",
       ],
-    ]
+    ],
   },
   tesseract_upgrade: {
     keys: { a: "tesseract:tesseract" },
@@ -144,7 +144,7 @@ const STRUCTURES = {
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", "m"],
-    ]
+    ],
   },
   chroniton_upgrade: {
     keys: { a: "ftb:chroniton_glass" },
@@ -233,7 +233,7 @@ const STRUCTURES = {
         "         ",
         "    m    ",
       ],
-    ]
+    ],
   },
   quantum_tunnel_upgrade: {
     keys: { a: "ae2:quantum_ring", b: "ae2:quantum_link" },
@@ -245,7 +245,7 @@ const STRUCTURES = {
       ["   ", "   "],
       ["   ", "   "],
       [" m ", "   "],
-    ]
+    ],
   },
   enchanting_upgrade: {
     keys: {
@@ -344,7 +344,7 @@ const STRUCTURES = {
         "   ",
         " m ",
       ],
-    ]
+    ],
   },
   ender_power_upgrade: {
     keys: { a: "powah:ender_cell_nitro" },
@@ -353,7 +353,7 @@ const STRUCTURES = {
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
       [" ", " ", " ", " ", " ", " ", " ", " ", " ", " ", "m"],
-    ]
+    ],
   },
   resonant_void_upgrade: {
     keys: { a: "ftb:resonant_void" },
@@ -368,7 +368,7 @@ const STRUCTURES = {
       ["a   a", "     ", "     "],
       ["a   a", "     ", "     "],
       ["     ", "     ", "  m  "],
-    ]
+    ],
   },
   advanced_machine_upgrade: {
     keys: { a: "ftb:world_engine_advanced_machine_block" },
@@ -451,7 +451,7 @@ const STRUCTURES = {
         "           ",
         "     m     ",
       ],
-    ]
+    ],
   },
   enderium_upgrade: {
     keys: { a: "ftb:enderium_block" },
@@ -489,7 +489,7 @@ const STRUCTURES = {
         "       ",
         "   m   ",
       ],
-    ]
+    ],
   },
   spirit_upgrade: {
     keys: { a: "ftb:spirit_block" },
@@ -527,7 +527,7 @@ const STRUCTURES = {
         "       ",
         "   m   ",
       ],
-    ]
+    ],
   },
   machine_block_upgrade: {
     keys: { a: "ftb:world_engine_machine_block" },
@@ -628,7 +628,7 @@ const STRUCTURES = {
         "         ",
         "    m    ",
       ],
-    ]
+    ],
   },
   twilight_upgrade: {
     keys: {
@@ -681,7 +681,7 @@ const STRUCTURES = {
         "         ",
         "    m    ",
       ],
-    ]
+    ],
   },
   source_upgrade: {
     keys: { a: "ars_nouveau:sourcestone" },
@@ -706,7 +706,7 @@ const STRUCTURES = {
       ["     ", "     ", "     ", "     ", "     ", "     ", "     ", "     "],
       ["     ", "     ", "     ", "     ", "     ", "     ", "     ", "  b  "],
       ["     ", "     ", "     ", "     ", "     ", "     ", "     ", "  m  "],
-    ]
+    ],
   },
   draconic_upgrade: {
     keys: {
@@ -991,12 +991,12 @@ const STRUCTURES = {
         "                     ",
         "          b          ",
       ],
-    ]
+    ],
   },
   awakened_core_upgrade: {
     keys: {
-      a: "draconicevolution:awakened_draconium_block",
-      b: "draconicevolution:draconium_block",
+      a: "draconicevolution:structure_block",
+      b: "draconicevolution:structure_block",
     },
     pattern: [
       [
@@ -1239,7 +1239,7 @@ const STRUCTURES = {
         "             ",
         "             ",
       ],
-    ]
+    ],
   },
 };
 
@@ -2659,6 +2659,23 @@ ServerEvents.recipes(function (event) {
       itemOutputs: [{ item: "malum:raw_brilliance", count: 2 }],
     },
     {
+      id: "ftb:world_engine/music_disc_ignis",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 1024,
+      structures: ["machine_block_upgrade", "shadow_casing_upgrade"],
+      su: { speed: 32, stressImpact: 16 },
+      source: { amount: 2500 },
+
+      itemInputs: [
+        { item: "justdirethings:blazegold_ingot", count: 4 },
+        { item: "occultism:iesnium_ingot", count: 4 },
+        { item: "minecraft:music_disc_pigstep", count: 1 },
+      ],
+
+      itemOutputs: [{ item: "cataclysm:music_disc_ignis", count: 1 }],
+    },
+    {
       id: "ftb:world_engine/thread_spellpower",
       machineId: "ftb:world_engine",
       structures: [
@@ -3205,6 +3222,21 @@ ServerEvents.recipes(function (event) {
       itemOutputs: [{ item: "ae2:controller", count: 1 }],
     },
     {
+      id: "ftb:world_engine/rs2_controller",
+      machineId: "ftb:world_engine",
+      duration: 300,
+      structures: ["machine_block_upgrade"],
+      energyPerTick: 2048,
+      itemInputs: [
+        { item: "refinedstorage:machine_casing", count: 1 },
+        { item: "refinedstorage:advanced_processor", count: 1 },
+        { item: "ftbmaterials:silicon_gem", count: 4 },
+        { item: "refinedstorage:quartz_enriched_iron", count: 4 },
+      ],
+      itemOutputs: [{ item: "refinedstorage:controller", count: 1 }],
+    },
+
+    {
       id: "ftb:world_engine/ae2_crafting_unit",
       machineId: "ftb:world_engine",
       duration: 100,
@@ -3230,6 +3262,20 @@ ServerEvents.recipes(function (event) {
         { item: "ae2:quartz_fiber", count: 1 },
       ],
       itemOutputs: [{ item: "ae2:storage_bus", count: 1 }],
+    },
+    {
+      id: "ftb:world_engine/rs2_external_storage",
+      machineId: "ftb:world_engine",
+      duration: 40,
+      structures: ["machine_block_upgrade", "fortron_upgrade"],
+      energyPerTick: 4096,
+      itemInputs: [
+        { item: "refinedstorage:construction_core", count: 1 },
+        { item: "refinedstorage:destruction_core", count: 1 },
+        { item: "refinedstorage:quartz_enriched_iron", count: 4 },
+        { item: "refinedstorage:cable", count: 1 },
+      ],
+      itemOutputs: [{ item: "refinedstorage:external_storage", count: 1 }],
     },
     {
       id: "ftb:world_engine/modular_router",
@@ -3443,6 +3489,27 @@ ServerEvents.recipes(function (event) {
       ],
     },
     {
+      id: "ftb:world_engine/steam_pressurizer_machine",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 1024,
+      structures: ["machine_block_upgrade"],
+      itemInputs: [
+        { item: "minecraft:piston", count: 1 },
+        { item: "oritech:magnetic_coil", count: 1 },
+        { item: "ftbmaterials:steel_plate", count: 4 },
+        { item: "oritech:machine_core_3", count: 1 },
+        { item: "mekanism:advanced_chemical_tank", count: 1 },
+        { item: "mekanism:advanced_fluid_tank", count: 1 },
+      ],
+      itemOutputs: [
+        {
+          item: 'custommachinery:custom_machine_item[custommachinery:machine="ftb:steam_pressurizer"]',
+          count: 1,
+        },
+      ],
+    },
+    {
       id: "ftb:world_engine/gateway_coralssus",
       machineId: "ftb:world_engine",
       duration: 240,
@@ -3454,10 +3521,13 @@ ServerEvents.recipes(function (event) {
         {
           item: "projecte:dark_matter",
           count: 1,
-        }
+        },
       ],
       itemOutputs: [
-        { item: 'gateways:gate_pearl[gateways:gateway="gateways:coralssus"]', count: 1 },
+        {
+          item: 'gateways:gate_pearl[gateways:gateway="gateways:coralssus"]',
+          count: 1,
+        },
       ],
     },
 
@@ -3466,7 +3536,7 @@ ServerEvents.recipes(function (event) {
       machineId: "ftb:world_engine",
       duration: 80,
       energyPerTick: 2048,
-      structures: ["basic_machine_upgrade"],
+      structures: ["machine_block_upgrade"],
       itemInputs: [
         { item: "minecraft:iron_ingot", count: 16 },
         { item: "sophisticatedstorage:stack_upgrade_tier_1_plus", count: 1 },
@@ -3480,7 +3550,7 @@ ServerEvents.recipes(function (event) {
       machineId: "ftb:world_engine",
       duration: 80,
       energyPerTick: 4096,
-      structures: ["basic_machine_upgrade"],
+      structures: ["machine_block_upgrade"],
       itemInputs: [
         { item: "minecraft:gold_ingot", count: 16 },
         { item: "sophisticatedstorage:stack_upgrade_tier_2", count: 1 },
@@ -3488,6 +3558,139 @@ ServerEvents.recipes(function (event) {
       itemOutputs: [
         { item: "sophisticatedstorage:stack_upgrade_tier_3", count: 1 },
       ],
+    },
+    {
+      id: "ftb:world_engine/rs_autocrafter",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 16192,
+      structures: ["machine_block_upgrade", "fortron_upgrade"],
+      itemInputs: [
+        { item: "refinedstorage:advanced_processor", count: 2 },
+        { item: "refinedstorage:quartz_enriched_iron", count: 4 },
+        { item: "refinedstorage:machine_casing", count: 1 },
+        { item: "refinedstorage:construction_core", count: 1 },
+        { item: "refinedstorage:destruction_core", count: 1 },
+      ],
+      itemOutputs: [{ item: "refinedstorage:autocrafter", count: 1 }],
+    },
+    {
+      id: "ftb:world_engine/rs_iron_autocrafter",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 16192,
+      structures: ["machine_block_upgrade", "fortron_upgrade"],
+      itemInputs: [
+        { item: "refinedstorage:advanced_processor", count: 2 },
+        { item: "refinedstorage:autocrafter", count: 1 },
+        { item: "minecraft:iron_block", count: 4 },
+      ],
+      itemOutputs: [{ item: "extrastorage:iron_crafter", count: 1 }],
+    },
+    {
+      id: "ftb:world_engine/rs_gold_autocrafter",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 16192,
+      structures: ["machine_block_upgrade", "fortron_upgrade"],
+      itemInputs: [
+        { item: "extrastorage:neural_processor", count: 2 },
+        { item: "extrastorage:iron_crafter", count: 1 },
+        { item: "minecraft:gold_block", count: 4 },
+      ],
+      itemOutputs: [{ item: "extrastorage:gold_crafter", count: 1 }],
+    },
+    {
+      id: "ftb:world_engine/rs_diamond_autocrafter",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 32768,
+      structures: [
+        "machine_block_upgrade",
+        "ender_power_upgrade",
+        "advanced_machine_upgrade",
+      ],
+      itemInputs: [
+        { item: "extrastorage:neural_processor", count: 2 },
+        { item: "extrastorage:gold_crafter", count: 1 },
+        { item: "minecraft:diamond_block", count: 4 },
+      ],
+      itemOutputs: [{ item: "extrastorage:diamond_crafter", count: 1 }],
+    },
+    {
+      id: "ftb:world_engine/rs_netherite_autocrafter",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 65536,
+      structures: [
+        "machine_block_upgrade",
+        "ender_power_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+      ],
+      itemInputs: [
+        { item: "extrastorage:neural_processor", count: 2 },
+        { item: "extrastorage:diamond_crafter", count: 1 },
+        { item: "minecraft:netherite_block", count: 4 },
+      ],
+      itemOutputs: [{ item: "extrastorage:netherite_crafter", count: 1 }],
+    },
+    {
+      id: "ftb:world_engine/reactor_niotic_batch",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 32768,
+      structures: ["advanced_machine_upgrade"],
+      itemInputs: [
+        { item: "powah:uraninite", count: 2 },
+        { item: "powah:reactor_blazing", count: 1 },
+        { item: "powah:capacitor_niotic", count: 4 },
+        { item: "powah:dielectric_casing", count: 2 },
+        { item: "ftbmaterials:refined_obsidian_ingot", count: 1 },
+        { item: "minecraft:diamond", count: 1 },
+      ],
+      itemOutputs: [{ item: "powah:reactor_niotic", count: 4 }],
+    },
+    {
+      id: "ftb:world_engine/reactor_spirited_batch",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 65536,
+      structures: [
+        "advanced_machine_upgrade",
+        "spirit_upgrade",
+        "ender_power_upgrade",
+      ],
+      itemInputs: [
+        { item: "minecraft:netherite_ingot", count: 1 },
+        { item: "chicken_roost:ingot_enderium", count: 1 },
+        { item: "powah:capacitor_spirited", count: 4 },
+        { item: "powah:dielectric_casing", count: 1 },
+        { item: "powah:uraninite", count: 1 },
+        { item: "powah:reactor_niotic", count: 1 },
+      ],
+      itemOutputs: [{ item: "powah:reactor_spirited", count: 4 }],
+    },
+    {
+      id: "ftb:world_engine/reactor_nitro_batch",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 131072,
+      structures: [
+        "advanced_machine_upgrade",
+        "spirit_upgrade",
+        "ender_power_upgrade",
+        "draconic_upgrade",
+      ],
+      itemInputs: [
+        { item: "powah:reactor_spirited", count: 1 },
+        { item: "powah:uraninite", count: 12 },
+        { item: "powah:dielectric_casing", count: 4 },
+        { item: "powah:capacitor_nitro", count: 4 },
+        { item: "oritech:reinforced_carbon_sheet", count: 1 },
+        { item: "ftb:fortron_infused_ingot", count: 1 },
+      ],
+      itemOutputs: [{ item: "powah:reactor_nitro", count: 4 }],
     },
     {
       id: "ftb:world_engine/soul_cage",
@@ -3533,6 +3736,23 @@ ServerEvents.recipes(function (event) {
       itemOutputs: [{ item: "ftb:enderium_block", count: 8 }],
     },
     {
+      id: "ftb:world_engine/carbon_plating",
+      machineId: "ftb:world_engine",
+      duration: 80,
+      tempC: { min: 225 },
+      structures: ["machine_block_upgrade"],
+      energyPerTick: 8192,
+      fluidInputs: [
+        {
+          fluid: "productivemetalworks:molten_carbon",
+          amount: 100,
+          tank: "fluid_input_1",
+        },
+      ],
+      itemInputs: [{ item: "industrialforegoing:plastic", count: 2 }],
+      itemOutputs: [{ item: "oritech:reinforced_carbon_sheet", count: 1 }],
+    },
+    {
       id: "ftb:world_engine/apotheosis_mythic_material_x16",
       machineId: "ftb:world_engine",
       duration: 300,
@@ -3546,7 +3766,7 @@ ServerEvents.recipes(function (event) {
       source: { amount: 10000 },
       itemInputs: [
         { item: "projecte:red_matter", count: 1 },
-        { item: "rftoolsbase:infused_enderpearl", count: 16}
+        { item: "rftoolsbase:infused_enderpearl", count: 16 },
       ],
       itemOutputs: [{ item: "apotheosis:mythic_material", count: 16 }],
     },
@@ -3622,7 +3842,10 @@ ServerEvents.recipes(function (event) {
         "quantum_tunnel_upgrade",
       ],
       energyPerTick: 32768,
-      itemInputs: [{ item: "mekanism:advanced_tier_installer", count: 1 }],
+      itemInputs: [
+        { item: "mekanism:advanced_tier_installer", count: 1 },
+        { item: "mekanism:elite_control_circuit", count: 1 },
+      ],
       itemOutputs: [{ item: "mekanism:elite_tier_installer", count: 1 }],
     },
     {
@@ -3809,6 +4032,72 @@ ServerEvents.recipes(function (event) {
         },
       ],
       itemOutputs: [{ item: "justdirethings:time_crystal", count: 4 }],
+    },
+    {
+      id: "ftb:world_engine/infinite_rs_energy_storage_part",
+      machineId: "ftb:world_engine",
+      duration: 60,
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "resonant_void_upgrade",
+      ],
+      energyPerTick: 131072,
+      itemInputs: [
+        { item: "refinedtypes:8388608k_energy_storage_part", count: 3 },
+        { item: "refinedstorage:advanced_processor", count: 4 },
+        { item: "avaritia:crystal_matrix_ingot", count: 2 },
+      ],
+      fluidInputs: [
+        { fluid: "mffs:fortron_fluid", amount: 2000, tank: "fluid_input_1" },
+      ],
+      itemOutputs: [
+        { item: "refinedtypes:infinite_energy_storage_part", count: 1 },
+      ],
+    },
+    {
+      id: "ftb:world_engine/infinite_rs_source_storage_part",
+      machineId: "ftb:world_engine",
+      duration: 60,
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "resonant_void_upgrade",
+      ],
+      energyPerTick: 131072,
+      itemInputs: [
+        { item: "refinedtypes:8388608b_source_storage_part", count: 3 },
+        { item: "refinedstorage:advanced_processor", count: 4 },
+        { item: "avaritia:crystal_matrix_ingot", count: 2 },
+      ],
+      fluidInputs: [
+        { fluid: "mffs:fortron_fluid", amount: 2000, tank: "fluid_input_1" },
+      ],
+      itemOutputs: [
+        { item: "refinedtypes:infinite_source_storage_part", count: 1 },
+      ],
+    },
+    {
+      id: "ftb:world_engine/infinite_rs_soul_storage_part",
+      machineId: "ftb:world_engine",
+      duration: 60,
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "resonant_void_upgrade",
+      ],
+      energyPerTick: 131072,
+      itemInputs: [
+        { item: "refinedtypes:2097152k_soul_storage_part", count: 3 },
+        { item: "refinedstorage:advanced_processor", count: 4 },
+        { item: "avaritia:crystal_matrix_ingot", count: 2 },
+      ],
+      fluidInputs: [
+        { fluid: "mffs:fortron_fluid", amount: 2000, tank: "fluid_input_1" },
+      ],
+      itemOutputs: [
+        { item: "refinedtypes:infinite_soul_storage_part", count: 1 },
+      ],
     },
     {
       id: "ftb:world_engine/glyph_animate_block",
@@ -4915,6 +5204,47 @@ ServerEvents.recipes(function (event) {
       ],
       itemOutputs: [{ item: "ars_nouveau:glyph_interact", count: 1 }],
     },
+    {
+      id: "ftb:world_engine/awakened_crafting_injector",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 199999,
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+      ],
+      itemInputs: [
+        { item: "minecraft:diamond", count: 16 },
+        { item: "draconicevolution:wyvern_core", count: 8 },
+        { item: "draconicevolution:awakened_draconium_block", count: 4 },
+        { item: "draconicevolution:wyvern_crafting_injector", count: 4 },
+      ],
+      itemOutputs: [
+        { item: "draconicevolution:awakened_crafting_injector", count: 4 },
+      ],
+    },
+    {
+      id: "ftb:world_engine/chaotic_crafting_injector",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 199999,
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "dark_void_upgrade",
+      ],
+      itemInputs: [
+        { item: "chicken_roost:ingot_enderium", count: 16 },
+        { item: "draconicevolution:wyvern_core", count: 16 },
+        { item: "draconicevolution:dragon_heart", count: 4 },
+        { item: "draconicevolution:awakened_crafting_injector", count: 4 },
+      ],
+      itemOutputs: [
+        { item: "draconicevolution:chaotic_crafting_injector", count: 4 },
+      ],
+    },
 
     /* Please leave this as a structure reference
         "dark_void_upgrade",
@@ -5124,7 +5454,7 @@ function wePlaceOne(structName, structDef, base_level, tellFn) {
   weSetForceLoad(base_level, true);
   WorldEngineStateMachine.setState(base_level, WORLDENGINE_STATES.ACTIVE);
   WorldEngineStateMachine.setStructure(base_level, structName);
-  let blockPosMap = createBlockMap(base_level, structDef);
+  let blockPosMap = createBlockMap(base_level, structDef, structName);
   blockPosMap = randomizeMap(blockPosMap);
   let block_delay = getBlockDelayForStructure(blockPosMap, 12 * 1000);
   let delay = 0;
@@ -5185,7 +5515,7 @@ function wePlaceOne(structName, structDef, base_level, tellFn) {
       let y = key.y;
       let z = key.z;
       let blockId = value;
-      base_level.getBlock(x, y, z).set(blockId);
+      blockId = base_level.getBlock(x, y, z).set(blockId);
       base_level.server.runCommandSilent(
         `execute in ${base_level.dimension} run execute positioned ${x} ${y} ${z} run kill @e[type=minecraft:block_display,distance=..1,limit=1,sort=nearest]`
       );
@@ -5194,7 +5524,7 @@ function wePlaceOne(structName, structDef, base_level, tellFn) {
           base_level,
           WORLDENGINE_STATES.FINISHED
         );
-        if(POST_EVENTS && POST_EVENTS[structName]) {
+        if (POST_EVENTS && POST_EVENTS[structName]) {
           POST_EVENTS[structName](base_level);
         }
         WorldEngineStateMachine.killDisplays(base_level);
@@ -5206,7 +5536,7 @@ function wePlaceOne(structName, structDef, base_level, tellFn) {
   });
 }
 
-const createBlockMap = (level, structDef) => {
+const createBlockMap = (level, structDef, structName) => {
   let map = new Map();
   let floors = weNormalizePattern(structDef.pattern);
   let anchor = weFindAnchor(floors);
@@ -5223,7 +5553,8 @@ const createBlockMap = (level, structDef) => {
         let x = ax + (c - anchor.c);
         let y = ay + (f - anchor.f);
         let z = az + (r - anchor.r);
-        map.set(level.getBlock(x, y, z).pos, structDef.keys[ch]);
+        let blockId = customBlockHandler(structName, ch) ?? structDef.keys[ch];
+        map.set(level.getBlock(x, y, z).pos, blockId);
       }
     }
   }
@@ -5295,9 +5626,11 @@ ServerEvents.commandRegistry(function (event) {
     if (Object.prototype.hasOwnProperty.call(STRUCTS, k)) UPGRADE_KEYS.push(k);
 
   // Root literal
-  var root = Commands.literal("worldengine").requires(src => src.hasPermission(3));
+  var root = Commands.literal("worldengine").requires((src) =>
+    src.hasPermission(3)
+  );
 
-   // --- /worldengine all ---
+  // --- /worldengine all ---
   root = root.then(
     Commands.literal("all").executes(function (context) {
       var source = context.getSource();
@@ -5415,12 +5748,14 @@ ServerEvents.commandRegistry(function (event) {
             refundWorldEngineQuest(player, upgradeName);
             return 0;
           }
-          player["teleportTo(net.minecraft.server.level.ServerLevel,double,double,double,float,float)"](base_level, 3.5, -20, 5.5, 180, 0)
-          if(STRUCTS[upgradeName].cutscene){
+          player[
+            "teleportTo(net.minecraft.server.level.ServerLevel,double,double,double,float,float)"
+          ](base_level, 3.5, -20, 5.5, 180, 0);
+          if (STRUCTS[upgradeName].cutscene) {
             player.level.server.scheduleInTicks(20, () => {
               console.log("Starting cutscene for structure:", upgradeName);
               STRUCTS[upgradeName].cutscene(player);
-            })
+            });
           }
           var res = wePlaceOne(upgradeName, struct, base_level, function () {
             player.sendSystemMessage(Text.translate.apply(Text, arguments));
@@ -5430,8 +5765,6 @@ ServerEvents.commandRegistry(function (event) {
       );
     })(UPGRADE_KEYS[i]);
   }
-
-
 
   // Bare /worldengine -> usage + list
   root = root.executes(function (context) {
@@ -5448,91 +5781,103 @@ ServerEvents.commandRegistry(function (event) {
     return 1;
   });
 
-  root = root.then(Commands.literal("reset").then(Commands.literal("all").executes(function (context) {
-    var source = context.getSource();
-    var player;
-    try {
-      player = source.getPlayerOrException();
-    } catch (e) {
-      source.sendSuccess(Text.translate(WE_LANG.ONLY_PLAYER), false);
-      return 0;
-    }
-    var baseOpt = $BaseInstanceManager
-      .get(source.getServer())
-      .getBaseForPlayer(player);
-    if (!baseOpt.isPresent()) {
-      player.sendSystemMessage(Text.translate(WE_LANG.NEED_BASE));
-      return 1;
-    }
-    var base = baseOpt.get();
-    var baseDim = base.dimension();
-    let base_level = player.getServer()["getLevel(net.minecraft.resources.ResourceKey)"](baseDim)
-    // for all STRUCTURES, remove placed blocks with air
-    Object.values(STRUCTURES).forEach((structDef, structName) => {
-      setBlocksToAir(base_level, structDef);
-    });
-    player.tell(Text.translate(WE_LANG.RESET_ALL));
-    return 1;
-  })));
-
-  Object.keys(STRUCTURES).forEach(structName => {
-    root = root.then(Commands.literal("reset").then(Commands.literal(structName).executes(function (context) {
-      var source = context.getSource();
-      var player;
-      try {
-        player = source.getPlayerOrException();
-      }
-      catch (e) {
-        source.sendSuccess(Text.translate(WE_LANG.ONLY_PLAYER), false);
-        return 0;
-      }
-      var baseOpt = $BaseInstanceManager
-        .get(source.getServer())
-        .getBaseForPlayer(player);
-      if (!baseOpt.isPresent()) {
-        player.sendSystemMessage(Text.translate(WE_LANG.NEED_BASE));
+  root = root.then(
+    Commands.literal("reset").then(
+      Commands.literal("all").executes(function (context) {
+        var source = context.getSource();
+        var player;
+        try {
+          player = source.getPlayerOrException();
+        } catch (e) {
+          source.sendSuccess(Text.translate(WE_LANG.ONLY_PLAYER), false);
+          return 0;
+        }
+        var baseOpt = $BaseInstanceManager
+          .get(source.getServer())
+          .getBaseForPlayer(player);
+        if (!baseOpt.isPresent()) {
+          player.sendSystemMessage(Text.translate(WE_LANG.NEED_BASE));
+          return 1;
+        }
+        var base = baseOpt.get();
+        var baseDim = base.dimension();
+        let base_level = player
+          .getServer()
+          ["getLevel(net.minecraft.resources.ResourceKey)"](baseDim);
+        // for all STRUCTURES, remove placed blocks with air
+        Object.values(STRUCTURES).forEach((structDef, structName) => {
+          setBlocksToAir(base_level, structDef);
+        });
+        player.tell(Text.translate(WE_LANG.RESET_ALL));
         return 1;
-      }
-      var base = baseOpt.get();
-      var baseDim = base.dimension();
-      let base_level = player.getServer()["getLevel(net.minecraft.resources.ResourceKey)"](baseDim)
-      var structDef = STRUCTURES[structName];
-      if (!structDef) {
-        player.sendSystemMessage(Text.translate(WE_LANG.UNKNOWN, structName));
-        return 0;
-      }
-      setBlocksToAir(base_level, structDef);
-      console.log(`[WorldEngine] Reset structure: ${structName}`);
-      // player.tell(Text.translate(WE_LANG.RESET, structName));
-      return 1;
-    })));
+      })
+    )
+  );
+
+  Object.keys(STRUCTURES).forEach((structName) => {
+    root = root.then(
+      Commands.literal("reset").then(
+        Commands.literal(structName).executes(function (context) {
+          var source = context.getSource();
+          var player;
+          try {
+            player = source.getPlayerOrException();
+          } catch (e) {
+            source.sendSuccess(Text.translate(WE_LANG.ONLY_PLAYER), false);
+            return 0;
+          }
+          var baseOpt = $BaseInstanceManager
+            .get(source.getServer())
+            .getBaseForPlayer(player);
+          if (!baseOpt.isPresent()) {
+            player.sendSystemMessage(Text.translate(WE_LANG.NEED_BASE));
+            return 1;
+          }
+          var base = baseOpt.get();
+          var baseDim = base.dimension();
+          let base_level = player
+            .getServer()
+            ["getLevel(net.minecraft.resources.ResourceKey)"](baseDim);
+          var structDef = STRUCTURES[structName];
+          if (!structDef) {
+            player.sendSystemMessage(
+              Text.translate(WE_LANG.UNKNOWN, structName)
+            );
+            return 0;
+          }
+          setBlocksToAir(base_level, structDef);
+          console.log(`[WorldEngine] Reset structure: ${structName}`);
+          // player.tell(Text.translate(WE_LANG.RESET, structName));
+          return 1;
+        })
+      )
+    );
   });
-  
+
   event.register(root);
 });
 
 const setBlocksToAir = (level, struct) => {
   let floors = weNormalizePattern(struct.pattern);
-      let anchor = weFindAnchor(floors);
-      let ax = WE_ANCHOR.x
-      let ay = WE_ANCHOR.y
-      let az = WE_ANCHOR.z
-      for (let f = 0; f < floors.length; f++) {
-        let rows = floors[f];
-        for (let r = 0; r < rows.length; r++) {
-          let row = rows[r];
-          for (let c = 0; c < row.length; c++) {
-            let ch = row.charAt(c);
-            if (ch === " " || ch === "m") continue;
-            let x = ax + (c - anchor.c);
-            let y = ay + (f - anchor.f);
-            let z = az + (r - anchor.r);
-            level.getBlock(x, y, z).set("minecraft:air");
-          }
-        }
+  let anchor = weFindAnchor(floors);
+  let ax = WE_ANCHOR.x;
+  let ay = WE_ANCHOR.y;
+  let az = WE_ANCHOR.z;
+  for (let f = 0; f < floors.length; f++) {
+    let rows = floors[f];
+    for (let r = 0; r < rows.length; r++) {
+      let row = rows[r];
+      for (let c = 0; c < row.length; c++) {
+        let ch = row.charAt(c);
+        if (ch === " " || ch === "m") continue;
+        let x = ax + (c - anchor.c);
+        let y = ay + (f - anchor.f);
+        let z = az + (r - anchor.r);
+        level.getBlock(x, y, z).set("minecraft:air");
       }
-}
-
+    }
+  }
+};
 
 const WORLDENGINE_AUTOBUILD_QUESTS = {
   source_upgrade: "3917A0EC517F70E6",
@@ -5657,4 +6002,15 @@ PlayerEvents.loggedIn((event) => {
   WorldEngineStateMachine.tryContinue(teamDim, player);
 });
 
-
+function customBlockHandler(upgradeName, key) {
+  switch (upgradeName) {
+    case "awakened_core_upgrade":
+      switch (key) {
+        case "a":
+          return "draconicevolution:awakened_draconium_block";
+        case "b":
+          return "draconicevolution:draconium_block";
+      }
+  }
+  return null;
+}

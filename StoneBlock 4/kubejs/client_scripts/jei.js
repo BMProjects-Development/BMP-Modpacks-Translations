@@ -72,7 +72,9 @@ RecipeViewerEvents.removeEntries("item", (event) => {
     event.remove('gateways:gate_pearl[gateways:gateway="ftb:vault/tier_1"]'),
     event.remove('gateways:gate_pearl[gateways:gateway="ftb:vault/tier_2"]'),
     event.remove('gateways:gate_pearl[gateways:gateway="ftb:vault/tier_3"]'),
-    event.remove('gateways:gate_pearl[gateways:gateway="ftb:vault/tier_4"]')
+    event.remove('gateways:gate_pearl[gateways:gateway="ftb:vault/tier_4"]'),
+    event.remove('mekanism:creative_fluid_tank'),
+    event.remove('mekanism:creative_chemical_tank')
 })
 
 RecipeViewerEvents.addEntries("item", (event) => {

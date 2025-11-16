@@ -8,6 +8,7 @@ const LanternSettings = {
   dimension: "dimdungeons:dungeon_dimension",
   structure: "god_knows",
   item: "ftb:soulcage",
+  maxSouls: 40,
   checkForTag: true,
   tag: "soulcage",
   soulsPerKill: 1,
@@ -46,7 +47,7 @@ const SoulCageHandler = {
 
   // Get max soul capacity
   getMaxSouls: function(item) {
-    return item.item.getMaxDamage(item);
+    return LanternSettings.maxSouls;
   },
 
   // Check if item has souls
@@ -107,6 +108,10 @@ const SoulCageHandler = {
     return player.getInventory().getAllItems().find(function(item) {
       return item.id === "ftb:soulcage" || item.id === LanternSettings.item;
     });
+  },
+  fixDurability: function(item) {
+    const maxSouls = this.getMaxSouls(item);
+    item.item.setDamage(item, maxSouls - this.getSoulCount(item));
   }
 };
 
@@ -226,14 +231,15 @@ PlayerEvents.tick(event => {
   if (server.tickCount % SoulCageHandler.TICK_INTERVAL !== 0) return;
 
   if(player.getLevel().getDimension() != "dimdungeons:dungeon_dimension") return;
+  const offhandItem = player.getOffHandItem();
+  if(!SoulCageHandler.isSoulCage(offhandItem)) return;
+  SoulCageHandler.fixDurability(offhandItem);
 
   if (player.hasEffect("ftb:vault_light")) return;
 
-  const offhandItem = player.getOffHandItem();
-
   if (SoulCageHandler.hasSouls(offhandItem)) {
     const { newSouls, maxSouls } = SoulCageHandler.consumeSoul(offhandItem);
-
+    SoulCageHandler.fixDurability(offhandItem);
     player.removeEffect("minecraft:blindness");
     player.potionEffects.add("ftb:vault_light", SoulCageHandler.LIGHT_DURATION, 0, true, false);
     player.sendSystemMessage(
@@ -256,23 +262,59 @@ EntityEvents.spawned(event => {
 })
 
 
+// Randomized dungeon buffs
 EntityEvents.spawned(event => {
-    const {entity, level, server} = event
-    if(!entity.isLiving()) return
-    if(level.dimension != "dimdungeons:dungeon_dimension") return
+  const { entity, level } = event
+  if (!entity || !entity.isLiving()) return
+  if (entity.isPlayer()) return
+  if (String(level.dimension) !== "dimdungeons:dungeon_dimension") return
 
-    const radius = 64
-    const healthScale = 0.1
-    const attributes = [
-        //[attribute, scale]
-        ['generic.attack_damage', 0.1],
-        ['generic.attack_knockback', 0.1],
-        ['generic.armor', 1],
-        ['generic.armor_toughness', 1],
-        ['generic.movement_speed', 0.01]]
+  // Only affect monsters or the specific boss
+  const isMaledictus = entity.type === "cataclysm:maledictus"
+  const isMonster = typeof entity.isMonster === "function" ? entity.isMonster() : entity.type?.includes("monster")
+  if (!isMonster && !isMaledictus) return
 
-    modifyEntity(event, radius, healthScale, attributes)
+  const radius = 64
+  const healthScalePerNearbyPlayer = 0.15
+
+  const baseAttrs = [
+    ["minecraft:generic.attack_damage", 0.1],
+    ["minecraft:generic.attack_knockback", 0.1],
+    ["minecraft:generic.armor", 1],
+    ["minecraft:generic.armor_toughness", 1],
+    ["apothic_attributes:armor_pierce", 1],
+    ["apothic_attributes:armor_shred", 1],
+    ["apothic_attributes:dodge_chance", 0.01],
+    ["apothic_attributes:life_steal", 0.01],
+    ["twilightforest:max_shield_strength", 1],
+    ["twilightforest:clone_count", 1],
+    ["apothic_attributes:crit_chance", 0.01],
+    ["minecraft:generic.movement_speed", 0.01],
+  ]
+
+  // Roll randomized amounts (min..5*min). Maledictus gets max on all except clone_count.
+  const rolledAttrs = baseAttrs.map(([id, min]) => {
+    const max = min * 5
+    const isCloneCount = id === "twilightforest:clone_count"
+    let value
+
+    if (isMaledictus && !isCloneCount) {
+      value = max
+    } else {
+      // uniform random in [min, max]
+      value = min + Math.random() * (max - min)
+    }
+
+    // Sanity clamps for percentage-like attributes
+    if (id === "apothic_attributes:dodge_chance" || id === "apothic_attributes:crit_chance" || id === "minecraft:generic.movement_speed") {
+      if (value > 0.5) value = 0.5
+    }
+
+    return [id, value]
+  })
+  modifyEntity(event, radius, healthScalePerNearbyPlayer, rolledAttrs)
 })
+
 
 function modifyEntity(event, radius, healthScale, attributes){
     const {entity, level} = event
@@ -288,8 +330,8 @@ function modifyEntity(event, radius, healthScale, attributes){
         }
     })
     let baseHealth = entity.getMaxHealth()
-    entity.setMaxHealth(baseHealth+(baseHealth*totalPlayers*healthScale))
-    entity.setHealth(baseHealth+(baseHealth*totalPlayers*healthScale))
+    entity.setMaxHealth(2*baseHealth+(baseHealth*totalPlayers*healthScale))
+    entity.setHealth(2*baseHealth+(baseHealth*totalPlayers*healthScale))
 
     attributes.forEach(attributeArr => {
         let attribute = attributeArr[0]

@@ -172,7 +172,7 @@
 			y: -5.5d
 		}
 		{
-			height: 2.5d
+			height: 1.5d
 			image: "ftb:textures/quests/other_titles_and_logos/ftb_end_game_title.png"
 			rotation: 0.0d
 			width: 7.0d
@@ -361,6 +361,7 @@
 				{
 					id: "07D4EE7733B205CD"
 					item: { count: 1, id: "apothic_enchanting:hellshelf" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -416,6 +417,7 @@
 				{
 					id: "3D2D95906C1AD982"
 					item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -467,11 +469,13 @@
 				{
 					id: "0AAA6FAB20E74E5F"
 					item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:blazing_hellshelf)item(apothic_enchanting:glowing_hellshelf))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2672BC5E75CFBDEC"
 					item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:crystal_seashelf)item(apothic_enchanting:heart_seashelf))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -514,11 +518,13 @@
 				{
 					id: "41D6AB095212B2BB"
 					item: { count: 1, id: "apothic_enchanting:deepshelf" }
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "33877DBF6AC0BF78"
 					item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:soul_touched_deepshelf)item(apothic_enchanting:treasure_shelf)item(apothic_enchanting:echoing_sculkshelf)item(apothic_enchanting:echoing_deepshelf))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -560,6 +566,7 @@
 				{
 					id: "4C11CF5409FED271"
 					item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -699,6 +706,7 @@
 				id: "apotheosis:salvaging_table"
 			}
 			id: "7E685EAD7FB60B45"
+			min_width: 300
 			rewards: [
 				{
 					amount: 3
@@ -725,7 +733,7 @@
 				}
 				{
 					id: "329BA2B5EB3185FC"
-					item: { components: { "ftbfiltersystem:filter": "or(item(apotheosis:common_material)item(apotheosis:uncommon_material)item(apotheosis:rare_material)item(apotheosis:epic_material)item(apotheosis:mythic_material))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(apotheosis:common_material)item(apotheosis:uncommon_material)item(apotheosis:rare_material)item(apotheosis:epic_material))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -2035,7 +2043,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe)item(irons_jewelry:recipe))", "minecraft:custom_name": "\"Artisan Scrolls\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.5d
 			y: -4.0d
 		}
 		{
@@ -2050,15 +2058,23 @@
 			}
 			id: "26D7C5298D95C69A"
 			rewards: [{
-				amount: 3
+				amount: 1
 				id: "2E81F525AC13EE49"
 				type: "currency"
 			}]
 			shape: "diamond"
-			tasks: [{
-				id: "574369B60421C9FF"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "574369B60421C9FF"
+					type: "checkmark"
+				}
+				{
+					id: "5123D0CFBA53F360"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(ftb:jewelry_metal))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -5.5d
 		}
@@ -2080,11 +2096,19 @@
 				type: "currency"
 			}]
 			shape: "diamond"
-			tasks: [{
-				id: "2AF40F8B8B4E480D"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(irons_jewelry:jeweler_buyable_gems)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2AF40F8B8B4E480D"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(irons_jewelry:jeweler_buyable_gems)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "78F8128005EE1240"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(ftb:jewelry_gem))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: -5.5d
 		}
@@ -3149,6 +3173,44 @@
 			]
 			x: 5.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["496903AB7E8A0A92"]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						BaseBlock: "air"
+						OffsetY: 0.0d
+						Scale: 3.0d
+						TrophyItem: {
+							id: "ars_nouveau:ring_of_potential"
+						}
+						TrophyType: "item"
+					}
+				}
+				id: "trophymanager:trophy"
+			}
+			id: "1666835CA3297C7D"
+			rewards: [{
+				amount: 5
+				id: "41B026DBB9BAE336"
+				type: "currency"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "088B0595237BB56A"
+					item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:duality_ring" }, count: 1, id: "irons_jewelry:recipe" }
+					type: "item"
+				}
+				{
+					id: "3667E315E6590A18"
+					item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:duality_necklace" }, count: 1, id: "irons_jewelry:recipe" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -4.0d
 		}
 	]
 }

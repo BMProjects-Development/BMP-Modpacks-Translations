@@ -38,8 +38,8 @@ FTBQuestsEvents.customTask((event) => {
   if (quest_tag) {
 
     // Unpack the first available tag
-    let { 0: divisor, 1: value} = SB4$COOLDOWNS[quest_tag]
-    
+    let { 0: divisor, 1: value } = SB4$COOLDOWNS[quest_tag]
+
     let max_progress = value
 
     event.setEnableButton(true)
@@ -70,21 +70,28 @@ FTBQuestsEvents.customTask((event) => {
       // Retrieve current timer or the newly created one
       timer = Teams.getDataValue(player, `quest_${quest.id}_cooldown`).getAsLong();
 
-      // Calculate progress, values range from ${-MaxProgress} to ${CurrentTime},
-      // 0 or greater indicates as complete
+      // Calculate progress, values range from ${0} to ${MaxProgress},
+      // ${Value} or greater indicates as complete
       let current_time = Utils.getSystemTime()
-      let current_progress = Math.floor((current_time - timer) / divisor);
-      
+      let elapsed_time = (current_time - timer)
+      let current_progress = Math.floor(elapsed_time / divisor)
 
-      // Don't set progress if progress is above max progress
-      // Fixes players getting double reward if they've been gone 2x MaxProgress
+
+
       // If Timer is 0, it means it was just created and will auto complete
       if (timer == 0) {
         data.setProgress(max_progress);
-      } 
-      if ((current_time - timer) > value || timer == 0) {
+      }
+
+      // If ${ElapsedTime} is greater or equal to ${Value} timer is finished
+      if (elapsed_time >= value) {
         Teams.setData(player, `quest_${quest.id}_cooldown`, current_time);
-      } else if ((current_time - timer) <= value) {
+
+        // Only Reset if ${CurrentProgress} greater than ${MaxProgress} otherwise its complete
+        if (current_progress == max_progress) {
+          data.setProgress(max_progress);
+        }
+      } else if (elapsed_time < value) {
         data.setProgress(current_progress);
       }
     })

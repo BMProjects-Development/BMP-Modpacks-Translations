@@ -1,0 +1,179 @@
+{
+  "name": {
+    "text": "Pressurizer"
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "draconicevolution:staff_charge_fire",
+        "volume": 0.19,
+        "pitch": 0.7
+      },
+      "custommachinery:block": "ftb:machine/steam_pressurizer_active#standalone"
+    },
+    "errored": {
+      "custommachinery:block": "ftb:machine/steam_pressurizer#standalone"
+    },
+    "paused": {
+      "custommachinery:block": "ftb:machine/steam_pressurizer_idle#standalone"
+    },
+    "custommachinery:ambient_sound": {
+      "loop": false,
+      "attenuation": false,
+      "delay": 5,
+      "sound": "minecraft:",
+      "volume": 0.0,
+      "pitch": 0.0
+    },
+    "custommachinery:block": "ftb:machine/steam_pressurizer#standalone",
+    "idle": {
+      "custommachinery:block": "ftb:machine/steam_pressurizer_idle#standalone"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:chemical",
+      "mode": "output",
+      "id": "steam_output",
+      "capacity": 200000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "unique": true,
+      "id": "fluid_input",
+      "capacity": 200000
+    },
+    {
+      "type": "custommachinery:heat",
+      "insulation": 10.0
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "ftb:textures/gui/base_background_steam.png"
+      },
+      "width": 192,
+      "height": 102
+    },
+    {
+      "type": "custommachinery:chemical",
+      "id": "steam_output",
+      "texture": {
+        "texture": "ftb:textures/gui/base_fluid_storage.png"
+      },
+      "x": 119,
+      "y": 24
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "ftb:textures/gui/steam_pressurizer/base_config.png"
+      },
+      "texture": {
+        "texture": "ftb:textures/gui/steam_pressurizer/base_config.png"
+      },
+      "x": 118,
+      "y": 57
+    },
+    {
+      "type": "custommachinery:dump",
+      "id": "dump_fluid",
+      "x": 63,
+      "y": 70,
+      "width": 20,
+      "height": 8,
+      "tanks": "fluid_input"
+    },
+    {
+      "type": "custommachinery:dump",
+      "id": "dump_fluid1",
+      "x": 118,
+      "y": 70,
+      "width": 20,
+      "height": 8,
+      "tanks": "fluid_input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input",
+      "texture": {
+        "texture": "ftb:textures/gui/base_fluid_storage.png"
+      },
+      "x": 63,
+      "y": 24
+    },
+    {
+      "type": "custommachinery:heat",
+      "x": 50,
+      "y": 21,
+      "height": 58,
+      "texture_empty": {
+        "texture": "ftb:textures/gui/base_heat_storage.png"
+      },
+      "texture_filled": {
+        "texture": "ftb:textures/gui/base_heat_storage_filled.png"
+      }
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 88,
+      "y": 39,
+      "texture_empty": {
+        "texture": "ftb:textures/gui/circuit_fabricator/base_progress_empty.png"
+      },
+      "texture_filled": {
+        "texture": "ftb:textures/gui/circuit_fabricator/base_progress_filled.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_1",
+      "texture": {
+        "texture": "ftb:textures/gui/steam_pressurizer/base_slot.png"
+      },
+      "x": 74,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_2",
+      "texture": {
+        "texture": "ftb:textures/gui/steam_pressurizer/redstone_slot.png"
+      },
+      "x": 62,
+      "y": 30
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_3",
+      "texture": {
+        "texture": "ftb:textures/gui/steam_pressurizer/base_slot.png"
+      },
+      "x": 62,
+      "y": 50
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_output",
+      "priority": 1,
+      "texture": {
+        "texture": "ftb:textures/gui/steam_pressurizer/base_slot.png"
+      },
+      "x": 119,
+      "y": 34,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 91,
+      "y": 58
+    }
+  ],
+  "processor": {
+    "type": "custommachinery:machine",
+    "amount": 16
+  }
+}

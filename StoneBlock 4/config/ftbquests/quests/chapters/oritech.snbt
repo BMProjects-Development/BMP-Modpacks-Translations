@@ -485,11 +485,18 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [{
-				id: "0817E4AE84990A64"
-				item: { count: 1, id: "oritech:accelerator_controller" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0817E4AE84990A64"
+					item: { count: 1, id: "oritech:accelerator_controller" }
+					type: "item"
+				}
+				{
+					id: "0EC94C27E9988A2E"
+					item: { count: 1, id: "oritechthings:accelerator_magnetic_field" }
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 2.0d
 		}

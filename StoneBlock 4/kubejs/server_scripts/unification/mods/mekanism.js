@@ -1,6 +1,6 @@
 // priority: 50
 
-global.removeRecipe.push(
+removeRecipe.push(
   "mekanism:processing/osmium/ingot/from_raw_blasting",
   "mekanism:processing/osmium/ingot/from_raw_smelting",
   "mekanism:processing/osmium/raw_storage_blocks/from_raw",
@@ -58,7 +58,7 @@ global.removeRecipe.push(
   "mekanism:processing/netherite/ingot_from_dust_blasting"
 )
 
-global.removeOre.push(
+removeOre.push(
   "mekanism:uranium_ore",
   "mekanism:lead_ore",
   "mekanism:tin_ore",
@@ -71,7 +71,7 @@ global.removeOre.push(
   "mekanism:deepslate_fluorite_ore"
 )
 
-global.removeItem.push(
+removeItem.push(
   "mekanism:block_raw_lead",
   "mekanism:block_raw_osmium",
   "mekanism:block_raw_tin",

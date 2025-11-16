@@ -1,8 +1,3 @@
-PlayerEvents.loggedOut(event => {
-  if (!global.noteStateMap) return;
-  delete global.noteStateMap[event.player.uUID];
-});
-
 let SB4$WE_BLACKLIST_BLOCKS = [
   "minecraft:deepslate",
   "minecraft:cobbled_deepslate",

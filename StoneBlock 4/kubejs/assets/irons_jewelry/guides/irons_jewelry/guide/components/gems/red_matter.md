@@ -1,7 +1,7 @@
 ---
 navigation:
   title: Red Matter
-  position: 17
+  position: 18
   icon: "projecte:red_matter"
   parent: irons_jewelry:gems.md
 item_ids:

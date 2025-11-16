@@ -116,9 +116,9 @@ function addRecipeIEMetalPressWire(event, itemInputTag, output, mold, id) {
 
 /**
  * @param {RecipesEventJS} event
- * @param {Array} input0 - [tag, amount]
- * @param {Array} input1 - [tag, amount]
- * @param {Array} outputItems - Array of [tag, count]
+ * @param {[string, number?]} input0 - [tag, amount]
+ * @param {[string, number?]} input1 - [tag, amount]
+ * @param {[string, number?]} outputItems - [id/tag, count]
  * @param {string} id
  */
 function addRecipeImmersiveEngineeringAlloy(event, input0, input1, outputItems, id) {
@@ -127,8 +127,14 @@ function addRecipeImmersiveEngineeringAlloy(event, input0, input1, outputItems, 
   event
     .custom({
       type: "immersiveengineering:alloy",
-      input0: { tag: input0[0], count: input0[1] ?? 1 },
-      input1: { tag: input1[0], count: input1[1] ?? 1 },
+      input0: {
+        basePredicate: { tag: input0[0] },
+        count: input0[1] ?? 1
+      },
+      input1: {
+        basePredicate: { tag: input1[0] },
+        count: input1[1] ?? 1
+      },
       result: {
         id: outputItems[0],
         count: outputItems[1] ?? 1

@@ -1,0 +1,6 @@
+[wirelessUniversalGrid]
+	# Default: 1000
+	# Range: 0 ~ 9223372036854775807
+	energyCapacity = 1000
+	#Allowed Values: WIRELESS_GRID, WIRELESS_CRAFTING_GRID, WIRELESS_AUTOCRAFTING_MONITOR
+	gridType = "WIRELESS_GRID"

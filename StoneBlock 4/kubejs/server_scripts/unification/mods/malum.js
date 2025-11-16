@@ -1,8 +1,8 @@
 // priority: 50
 
-global.removeOre.push("malum:natural_quartz_ore", "malum:deepslate_quartz_ore")
+removeOre.push("malum:natural_quartz_ore", "malum:deepslate_quartz_ore")
 
-global.removeRecipe.push(
+removeRecipe.push(
   "malum:natural_quartz_from_deepslate_blasting",
   "malum:natural_quartz_from_blasting",
   "malum:natural_quartz_from_deepslate_smelting",
@@ -11,6 +11,6 @@ global.removeRecipe.push(
   "malum:create/crushing/ore/crush_natural_quartz_deepslate_ore"
 )
 
-global.removeItem.push("malum:natural_quartz")
+removeItem.push("malum:natural_quartz")
 
-global.removeItemTag.push(["minecraft:logs_that_burn", ["#malum:runewood_logs", "#malum:soulwood_logs"]])
+removeItemTag.push(["minecraft:logs_that_burn", ["#malum:runewood_logs", "#malum:soulwood_logs"]])

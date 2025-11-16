@@ -30,7 +30,7 @@
   "components": [
     {
       "type": "custommachinery:contraption",
-      "stress_impact": 128.0,
+      "stress_impact": 0.0,
       "config": {
         "TOP": "DISABLED",
         "BOTTOM": "ENABLED",
@@ -80,11 +80,11 @@
       "type": "custommachinery:heat",
       "insulation": 1000.0,
       "config": {
-        "TOP": "DISABLED",
-        "BOTTOM": "DISABLED",
-        "FRONT": "DISABLED",
-        "RIGHT": "DISABLED",
-        "BACK": "DISABLED",
+        "TOP": "ENABLED",
+        "BOTTOM": "ENABLED",
+        "FRONT": "ENABLED",
+        "RIGHT": "ENABLED",
+        "BACK": "ENABLED",
         "LEFT": "ENABLED"
       },
       "capacity": 10000.0

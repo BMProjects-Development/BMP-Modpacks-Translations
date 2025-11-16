@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "redacted"
+    }
+  ],
+  "type": "mekanism:washing",
+  "fluid_input": {"amount": 5, "tag": "minecraft:water"},
+  "output": {"amount": 1, "id": "xycraft_world:clean_aluminum_slurry"},
+  "chemical_input": {"amount": 1, "chemical": "xycraft_world:dirty_aluminum_slurry"},
+  "per_tick_usage": false
+}

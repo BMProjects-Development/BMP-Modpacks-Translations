@@ -1,23 +1,24 @@
 FTBQuestsEvents.customReward(event =>{
     const {reward, level, player, server} = event
     const {tags} = reward
+    let teamDim = Teams.getTeamsDimensionByPlayer(player)
+
     if (!tags) return;
     tags.forEach(tag =>{
         if (Object.keys(STRUCTURES).includes(tag)) {
-            return placeStructure(event, tag);
+            return placeStructure(event, teamDim, tag);
         }
         if (tag == "reset_world_engine_machine") {
-            server.runCommandSilent(`execute in ${TeamDim.id} run setblock 3 -20 3 custommachinery:custom_machine_block["custommachinery:machine":"ftb:world_engine"]`)
+            server.runCommandSilent(`execute in ${teamDim.dimension} run setblock 3 -20 3 air`)
+            server.runCommandSilent(`execute in ${teamDim.dimension} run setblock 3 -20 3 custommachinery:custom_machine_block[facing=south]{machineID:"ftb:world_engine"}`)
         }
     })
 })
 
 
 
-function placeStructure(event, upgradeName) {
+function placeStructure(event, dimension, upgradeName) {
     let {player, server} = event
-        let TeamDim = Teams.getTeamsDimensionByPlayer(player)
-
     var baseOpt = $BaseInstanceManager
         .get(server)
         .getBaseForPlayer(player);
@@ -64,7 +65,7 @@ function placeStructure(event, upgradeName) {
     }
 
 
-    wePlaceOne(upgradeName, struct, TeamDim, function () {
+    wePlaceOne(upgradeName, struct, dimension, function () {
         player.sendSystemMessage(Text.translate.apply(Text, arguments));
     });
     return true;

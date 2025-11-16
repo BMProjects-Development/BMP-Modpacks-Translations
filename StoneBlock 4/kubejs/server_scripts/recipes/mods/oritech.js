@@ -132,7 +132,7 @@ ServerEvents.recipes((event) => {
       fluidOutputs: [],
       ingredients: [
         {
-          item: "projecte:red_matter",
+          item: "draconicevolution:medium_chaos_frag",
         },
         {
           item: "mekanism:pellet_antimatter",
@@ -144,7 +144,7 @@ ServerEvents.recipes((event) => {
           id: "oritech:black_hole_block",
         },
       ],
-      time: 50000,
+      time: 15000,
     })
     .id("ftb:oritech/particle_collision/black_hole");
 

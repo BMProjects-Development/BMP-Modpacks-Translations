@@ -1210,11 +1210,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "7EEBD17F0EA6EE0C"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine ender_power_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1222,9 +1221,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "444D56BB0340167E"
-				permission_level: 3
+				tags: ["ender_power_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1246,11 +1245,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "2EA7D8A9632F845F"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine enderium_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1258,9 +1256,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "689FE9894FCB03FA"
-				permission_level: 3
+				tags: ["enderium_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1279,11 +1277,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "0FF5D73B3256F400"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine spirit_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1291,9 +1288,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "12870B6226B417AF"
-				permission_level: 3
+				tags: ["spirit_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1313,11 +1310,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "21E1A72027DBF236"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine advanced_machine_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1325,9 +1321,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "5A9E657EB27180C7"
-				permission_level: 3
+				tags: ["advanced_machine_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1346,11 +1342,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "02BC8FCDB2D94F0E"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine quantum_tunnel_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1358,9 +1353,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "1214107708FB3198"
-				permission_level: 3
+				tags: ["quantum_tunnel_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
@@ -1391,11 +1386,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "55D17BDE3E9C81CC"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine fortron_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1403,9 +1397,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "3C0E24CCC82A480D"
-				permission_level: 3
+				tags: ["fortron_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1432,9 +1426,7 @@
 			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine tesseract_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1442,9 +1434,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "69E35BEC6CB9A014"
-				permission_level: 3
+				tags: ["tesseract_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1468,6 +1460,7 @@
 			}
 			id: "0306C0D774144DAD"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/burning_disco"
@@ -1482,21 +1475,10 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "7DD8D0EDE1FAF2DE"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "02BDD5049712DA5A"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "7DD8D0EDE1FAF2DE"
+				type: "checkmark"
+			}]
 			x: -6.75d
 			y: 1.0d
 		}
@@ -1512,6 +1494,7 @@
 			}
 			id: "02735F0443CA9727"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [
 				{
 					auto: "enabled"
@@ -1526,6 +1509,7 @@
 					type: "command"
 				}
 				{
+					auto: "enabled"
 					command: "/compass locate ftb:vault/jockey_south"
 					feedback_message: "Catalyst's Southern Vault Compass Acquired"
 					icon: {
@@ -1539,21 +1523,10 @@
 			]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "2DF0651CE18A8870"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "066A7BE3718D79B1"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "2DF0651CE18A8870"
+				type: "checkmark"
+			}]
 			x: 0.5d
 			y: 2.15d
 		}
@@ -1570,6 +1543,7 @@
 			}
 			id: "13E0F74B9A1DAB58"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/mffs"
@@ -1584,23 +1558,39 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "4A3E583E141A73F5"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "2E03E2C049C17CA4"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "4A3E583E141A73F5"
+				type: "checkmark"
+			}]
 			x: 6.75d
 			y: 1.125d
+		}
+		{
+			dependencies: ["2D110AB9A38178C5"]
+			id: "7AB7D06E0DD24F7A"
+			optional: true
+			rewards: [{
+				id: "5980AFC3A5BAA318"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:long_fire_resistance"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "6D37CA87E464DE4C"
+				item: { count: 1, id: "cataclysm:music_disc_ignis" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.25d
 		}
 	]
 }

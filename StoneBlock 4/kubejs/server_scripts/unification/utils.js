@@ -1,6 +1,4 @@
-// priority: 9750
-
-const removeItemTag = []
+// priority: 9999999
 
 function getFluidType(material) {
   if (global.fluidMod == "tinkers") {

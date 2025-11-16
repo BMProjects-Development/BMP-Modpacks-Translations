@@ -1,19 +1,19 @@
 // priority: 50
 
-global.removeRecipe.push(
+removeRecipe.push(
   "actuallyadditions:coal_to_tiny",
   "actuallyadditions:tiny_to_coal",
   "actuallyadditions:tagged_sticky_piston",
   "actuallyadditions:tagged_slime_block"
 )
 
-global.removeItem.push(
+removeItem.push(
   "actuallyadditions:rice",
   "actuallyadditions:rice_seeds",
   "actuallyadditions:flax_seeds"
 )
 
-global.removeRecipe.push("actuallyadditions:crushing/black_quartz_ore")
+removeRecipe.push("actuallyadditions:crushing/black_quartz_ore")
 
 ServerEvents.recipes((event) => {
   // Loop For Resource Ores

@@ -26,8 +26,16 @@ const addEntityTags = [
     entityIDs: ["mekanism:robit"]
   },
   {
+    tagName: "industrialforegoing:mob_duplicator_blacklist",
+    entityIDs: ["#c:roost/chicken", "moofluids:fluid_cow"]
+  },
+  {
     tagName: "apothic_spawners:blacklisted_from_spawners",
-    entityIDs: ["#c:roost/chicken"]
+    entityIDs: ["#c:roost/chicken", "moofluids:fluid_cow"]
+  },
+  {
+    tagName: "shrink:no_shrink",
+    entityIDs: ["moofluids:fluid_cow"]
   }
 ]
 

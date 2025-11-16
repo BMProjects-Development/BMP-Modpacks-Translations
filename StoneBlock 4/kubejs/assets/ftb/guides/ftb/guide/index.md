@@ -3,7 +3,7 @@ navigation:
   title: The World Engine
   position: 1
   icon: "ftb:world_engine_machine_block"
-  item_ids:
+item_ids:
   - ftb:world_engine_machine_block
 ---
 # Getting Started

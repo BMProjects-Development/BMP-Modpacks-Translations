@@ -11,6 +11,12 @@ const addItemTags = [
     tagName: "c:storage_blocks/enderium",
     itemIDs: ["ftb:enderium_block"]
   },
+
+  // Bypass Chicken Shield Items
+  {
+    tagName: "ftb:chicken_stick",
+    itemIDs: ["avaritia:infinity_sword"]
+  },
   {
     tagName: "ftb:vanilla_planks",
     itemIDs: [
@@ -78,7 +84,12 @@ const addItemTags = [
       "oritech:fluxite",
       "projecte:dark_matter",
       "projecte:red_matter",
-      "psi:psigem"
+      "psi:psigem",
+      "irons_jewelry:topaz",
+      "irons_jewelry:moonstone",
+      "irons_jewelry:peridot",
+      "irons_jewelry:onyx",
+      "irons_jewelry:garnet" 
     ]
   },
   {
@@ -131,8 +142,24 @@ const addItemTags = [
     ]
   },
   {
-    tagName: "ftbultimine:tools",
-    itemIDs: ["mekanism:atomic_disassembler"]
+    tagName: "ftbultimine:included_tools",
+    itemIDs: ["mekanism:atomic_disassembler", "ars_nouveau:enchanters_gauntlet", "ftbunearthed:unbreakable_brush"]
+  },
+  {
+    tagName:"apothic_enchanting:cannot_be_converted_to_xp",
+    itemIDs: [
+      "minecraft:dragon_egg",
+      "cataclysm:ignitium_ingot",
+      "cataclysm:cursium_ingot",
+      "cataclysm:abyssal_egg",
+      "twilightforest:lich_trophy",
+      "twilightforest:alpha_yeti_trophy",
+      "twilightforest:hydra_trophy",
+      "twilightforest:snow_queen_trophy",
+      "twilightforest:knight_phantom_trophy",
+      "fdbosses:chesed_trophy",
+      "ars_nouveau:wilden_tribute"
+    ]
   }
 ]
 
@@ -173,6 +200,8 @@ ServerEvents.tags("item", (event) => {
     event.add(tag.tagName, tag.itemIDs)
   })
 
+  event.add("c:buckets/lava", "chicken_roost:lava_egg")
+  event.add("c:buckets/water", "chicken_roost:water_egg")
   removeItemTags.forEach((tag) => {
     event.remove(tag.tagName, tag.itemIDs)
   })

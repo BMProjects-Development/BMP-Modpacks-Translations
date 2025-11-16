@@ -24,7 +24,6 @@ Statistics.prototype.__construct = function(server) {
     this.load();
 }
 Statistics.prototype.__destroy = function() {
-    instance = null;
     this.server = null;
     this.path = null;
     this.failure = {};
@@ -124,3 +123,8 @@ Statistics.prototype.reset = function() {
     this.success = {};
     this.write();
 }
+ServerEvents.unloaded(event => {
+    if (Statistics) {
+        Statistics().__destroy();
+    }
+});

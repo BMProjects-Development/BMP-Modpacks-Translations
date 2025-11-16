@@ -24,6 +24,10 @@
 		# Default: 1.0
 		# Range: 0.1 ~ 2.0
 		speedValue = 1.0
+		#FlySpeedValue
+		# Default: 1.0
+		# Range: 0.1 ~ 2.0
+		flySpeedValue = 1.0
 
 	[general.infinityChest]
 		#MaxStackSize

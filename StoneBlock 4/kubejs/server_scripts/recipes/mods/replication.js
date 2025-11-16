@@ -62,6 +62,79 @@ const matterValues = [
     precious: 4,
     nether: 2,
   },
+ {
+    itemID: "refinedstorage:quartz_enriched_iron",
+    precious: 2,
+    metallic: 5,
+    earth: 1,
+    nether: 1
+  },  
+  {
+    itemID: "refinedstorage:basic_processor",
+    precious: 5,
+    quantum: 1,
+    metallic: 9,
+    earth: 2,
+    nether: 2
+  },
+  {
+    itemID: "draconicevolution:draconium_ingot",
+    precious: 18,
+    quantum: 4,
+    ender: 4,
+    metallic: 9
+  },
+  {
+    itemID: "extrastorage:neural_processor",
+    precious: 196,
+    quantum: 64,
+    ender: 42,
+    metallic: 96,
+    nether: 2
+  },
+  {
+    itemID: "ftb:magmalith",
+    precious: 2,
+    earth: 164,
+    nether: 162
+  },  
+  {
+    itemID: "projecte:soul_stone",
+    precious: 32968,
+    metallic: 32968,
+    organic: 32968,
+    nether: 32968,
+    earth: 32968,
+    ender: 32968,
+    quantum: 32968,
+    living: 32968,
+  },  
+  {
+    itemID: "projecte:body_stone",
+    precious: 16484,
+    metallic: 16484,
+    organic: 16484,
+    nether: 16484,
+    earth: 16484,
+    ender: 16484,
+    quantum: 16484,
+    living: 16484,
+  },      
+  {
+    itemID: "refinedstorage:improved_processor",
+    precious: 14,
+    quantum: 1,
+    metallic: 9,
+    earth: 2,
+    nether: 2
+  }, 
+    {
+    itemID: "refinedstorage:advanced_processor",
+    precious: 27,
+    quantum: 1,
+    earth: 2,
+    nether: 2
+  },  
   {
     itemID: "ftbmaterials:steel_wire",
     metallic: 54,
@@ -377,17 +450,6 @@ const matterValues = [
     quantum: 16384,
     living: 16384,
   },
-  {
-    itemID: "ae2:singularity",
-    precious: 8192,
-    metallic: 16384,
-    nether: 16384,
-    earth: 16384,
-    ender: 16384,
-    quantum: 8192,
-    living: 16384,
-  },
-
   {
     itemID: "draconicevolution:dragon_heart",
     precious: 32768,

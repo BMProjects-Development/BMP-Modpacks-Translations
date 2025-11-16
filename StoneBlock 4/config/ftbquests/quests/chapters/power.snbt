@@ -71,7 +71,7 @@
 		{
 			alpha: 55
 			height: 3.0d
-			image: "advanced_ae:block/crafting/quantum_structure_powered"
+			image: "advanced_ae:block/crafting/quantum_structure"
 			rotation: 45.0d
 			width: 3.0d
 			x: 0.0d
@@ -1350,7 +1350,7 @@
 				id: "powah:reactor_nitro"
 			}
 			id: "323A230EB571C4CA"
-			min_width: 250
+			min_width: 300
 			rewards: [{
 				amount: 5
 				id: "3AA43539D040786E"

@@ -382,10 +382,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"47D745A94C534B48"
-				"58BC57B1119204CA"
-			]
 			icon: {
 				id: "ars_nouveau:blue_archwood_sapling"
 			}
@@ -1108,11 +1104,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "3917A0EC517F70E6"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine source_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1120,9 +1115,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "676EC71A125D6E04"
-				permission_level: 3
+				tags: ["source_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1141,11 +1136,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "76673B8374630924"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine machine_block_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1153,9 +1147,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "2C24A3F46426B257"
-				permission_level: 3
+				tags: ["machine_block_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [{
 				consume_items: true
@@ -1174,11 +1168,10 @@
 				id: "create:empty_schematic"
 			}
 			id: "04E68DA90DC83B45"
+			optional: true
 			rewards: [{
 				auto: "disabled"
-				command: "/worldengine shadow_casing_upgrade"
 				exclude_from_claim_all: true
-				feedback_message: "ftb.echo.upgrade.assembling"
 				icon: {
 					components: {
 						"custommachinery:machine": "ftb:world_engine"
@@ -1186,9 +1179,9 @@
 					id: "custommachinery:custom_machine_item"
 				}
 				id: "31B318A2B60F4CC5"
-				permission_level: 3
+				tags: ["shadow_casing_upgrade"]
 				team_reward: true
-				type: "command"
+				type: "custom"
 			}]
 			tasks: [
 				{
@@ -1221,6 +1214,7 @@
 			}
 			id: "40DDD27BA5E191FA"
 			optional: true
+			repeat_cooldown: 3600
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/create"
@@ -1235,23 +1229,43 @@
 			}]
 			shape: "diamond"
 			size: 0.75d
-			tasks: [
-				{
-					id: "459AEFEC8F060222"
-					type: "checkmark"
-				}
-				{
-					disable_toast: true
-					icon: {
-						id: "minecraft:clock"
-					}
-					id: "2E6525F818D07426"
-					tags: ["hourly"]
-					type: "custom"
-				}
-			]
+			tasks: [{
+				id: "459AEFEC8F060222"
+				type: "checkmark"
+			}]
 			x: 6.75d
 			y: 3.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["615D1A52ED3A9C78"]
+			disable_toast: true
+			icon: {
+				components: {
+					"custommachinery:machine": "ftb:world_engine"
+				}
+				id: "custommachinery:custom_machine_item"
+			}
+			id: "10DEA5CE1800F935"
+			optional: true
+			rewards: [{
+				auto: "disabled"
+				icon: {
+					components: {
+						"custommachinery:machine": "ftb:world_engine"
+					}
+					id: "custommachinery:custom_machine_item"
+				}
+				id: "39BDE32B4BEF479B"
+				tags: ["reset_world_engine_machine"]
+				type: "custom"
+			}]
+			tasks: [{
+				id: "6865F20C1E218901"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
 		}
 	]
 }

@@ -170,6 +170,11 @@ const uneartherRecipes = {
                   count: 1,
                   chance: 0.25
                 },
+                {
+                  item: "ars_elemental:yellow_archwood_sapling",
+                  count: 1,
+                  chance: 0.20
+                },
                 { item: "ftb:andesite_pebble", count: 1, chance: 1.0 },
                 { item: "ftb:diorite_pebble", count: 1, chance: 1.0 },
                 { item: "jags:grass_seed", count: 1, chance: 0.2 }
@@ -198,6 +203,11 @@ const uneartherRecipes = {
                   item: "ars_nouveau:green_archwood_sapling",
                   count: 1,
                   chance: 0.25
+                },
+                {
+                  item: "ars_elemental:yellow_archwood_sapling",
+                  count: 1,
+                  chance: 0.20
                 },
                 { item: "ftb:andesite_pebble", count: 1, chance: 1.2 },
                 { item: "ftb:diorite_pebble", count: 1, chance: 1.2 },

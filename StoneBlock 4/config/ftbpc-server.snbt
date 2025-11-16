@@ -35,8 +35,10 @@
 		structure_rotation_override: {
 			"ftb:vaults/twilight_forest/yeti/start": "none"
 			"ftb:vaults/twilight_forest/snow_queen/start": "none"
+			"fdbosses:malkuth_arena_eternal": "none"
 			"minecraft:ancient_city/city_center": "none"
 			"ftb:dungeons/end": "none"
+			"fdbosses:chesed_arena_eternal": "none"
 			"fdbosses:chesed_arena": "none"
 			"ftb:telepad": "none"
 			"ftb:vaults/twilight_forest/hydra/start": "none"

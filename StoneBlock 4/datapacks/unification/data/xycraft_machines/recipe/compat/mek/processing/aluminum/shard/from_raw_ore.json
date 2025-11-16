@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "redacted"
+    }
+  ],
+  "type": "mekanism:injecting",
+  "chemical_input": {"amount": 1, "chemical": "mekanism:hydrogen_chloride"},
+  "item_input": {"count": 3, "tag": "c:raw_materials/aluminum"},
+  "output": {"count": 8, "id": "xycraft_machines:aluminum_shard"},
+  "per_tick_usage": false
+}

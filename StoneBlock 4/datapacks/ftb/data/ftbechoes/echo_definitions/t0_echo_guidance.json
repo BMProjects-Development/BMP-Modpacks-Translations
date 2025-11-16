@@ -119,6 +119,7 @@
       "shop_unlock": [
         {"name": "Endershard End Ring Bundle", "command": {"run": "ftbquests change_progress @s complete 2F6A260008E1E6E3", "permission": 3, "silent": true, "description": {"translate": "ftb.shop.title.endershard.end"}}, "cost": 25, "description": [{"translate": "ftb.shop.description.endershard1"}, {"translate": "ftb.shop.description.endershard2"}, {"translate": "ftb.shop.description.exclusive"}], "icon": "simpleteleporters:item/ender_shard"},
         {"name": "Random Data Model", "item": {"id": "ftbquests:lootcrate", "components": {"ftbquests:loot_crate": "random_data_model"}, "count": 1}, "cost": 75, "description": [{"translate": "ftb.shop.description.loot_crate"}, {"translate": "ftb.shop.description.exclusive"}], "icon": "hostilenetworks:item/blank_data_model"},
+        {"name": "Random Iron's Gear", "item": {"id": "ftbquests:lootcrate", "components": {"ftbquests:loot_crate": "random_irons_mods_gear"}, "count": 1}, "cost": 32, "description": [{"translate": "ftb.shop.description.loot_crate"}, {"translate": "ftb.shop.description.exclusive"}], "icon": "irons_spellbooks:item/wandering_magician_helmet"},
         {"name": "Random RF Source", "item": {"id": "ftbquests:lootcrate", "components": {"ftbquests:loot_crate": "random_rf_source"}, "count": 1}, "cost": 65, "description": [{"translate": "ftb.shop.description.loot_crate"}, {"translate":"ftb.shop.description.exclusive"}], "icon": "ironfurnaces:item/augment_generator"},
         {"name": "Random Lesser Exploration Relic", "item": {"id": "ftbquests:lootcrate", "components": {"ftbquests:loot_crate": "random_lesser_exploration_relic"}, "count": 1}, "cost": 35, "description": [{"translate": "ftb.shop.description.loot_crate"}, {"translate": "ftb.shop.description.exclusive"}], "icon": "artifacts:item/night_vision_goggles"},
         {"name": "Random Lesser Combat Relic", "item": {"id": "ftbquests:lootcrate", "components": {"ftbquests:loot_crate": "random_lesser_combat_relic"}, "count": 1}, "cost": 35, "description": [{"translate": "ftb.shop.description.loot_crate"}, {"translate": "ftb.shop.description.exclusive"}], "icon": "relics:item/reflection_necklace"},
@@ -141,7 +142,6 @@
       "completion_reward": {"command": {"run": "kubejs stages add @s echo_guidance_stage3_task1_check", "permission": 3}, "experience": 500},
       "shop_unlock": [
         {"name": "Endershard Twilight Ring Bundle", "command": {"run": "ftbquests change_progress @s complete 40FA733233F38BAA", "permission": 3, "silent": true, "description": {"translate": "ftb.shop.title.endershard.twilight"}}, "cost": 50, "description": [{"translate": "ftb.shop.description.endershard1"}, {"translate": "ftb.shop.description.endershard2"}, {"translate": "ftb.shop.description.exclusive"}], "icon": "simpleteleporters:item/ender_shard"},
-        {"name": "Endershard Ocean Ring Bundle", "command": {"run": "ftbquests change_progress @s complete 263C21E239B346DB", "permission": 3, "silent": true, "description": {"translate": "ftb.shop.title.endershard.ocean"}}, "cost": 75, "description": [{"translate": "ftb.shop.description.endershard1"}, {"translate": "ftb.shop.description.endershard2"}, {"translate": "ftb.shop.description.exclusive"}], "icon": "simpleteleporters:item/ender_shard"},
         {"name": "Endershard Void Ring Bundle", "command": {"run": "ftbquests change_progress @s complete 223F8518EBC9EFF4", "permission": 3, "silent": true, "description": {"translate": "ftb.shop.title.endershard.void"}}, "cost": 100, "description": [{"translate": "ftb.shop.description.endershard1"}, {"translate": "ftb.shop.description.endershard2"}, {"translate": "ftb.shop.description.exclusive"}], "icon": "simpleteleporters:item/ender_shard"},
         {"name": "Random ProjectE Gear", "item": {"id": "ftbquests:lootcrate", "components": {"ftbquests:loot_crate": "random_projecte_gear"}, "count": 1}, "cost": 50, "description": [{"translate": "ftb.shop.description.loot_crate"}, {"translate": "ftb.shop.description.exclusive"}], "icon": "projecte:item/gem_armor/chest"},
         {"name": "Random Exploration Greater Relic", "item": {"id": "ftbquests:lootcrate", "components": {"ftbquests:loot_crate": "random_greater_exploration_relic"}, "count": 1}, "cost": 45, "description": [{"translate": "ftb.shop.description.loot_crate"}, {"translate": "ftb.shop.description.exclusive"}], "icon": "relics:item/bastion_ring"},
@@ -214,6 +214,3 @@
     }
   ]
 }
-
-        
-        

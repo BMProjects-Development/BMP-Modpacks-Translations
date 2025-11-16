@@ -1357,74 +1357,6 @@
 			y: -0.5d
 		}
 		{
-			id: "0A3D2C7C9F50E884"
-			rewards: [{
-				auto: "invisible"
-				id: "436557A602060DB3"
-				ignore_reward_blocking: true
-				stage: "tf_unlock_yeti"
-				type: "gamestage"
-			}]
-			tasks: [{
-				entity: "twilightforest:lich"
-				id: "39A68C32C5D8DD21"
-				type: "kill"
-				value: 1L
-			}]
-			x: -9.0d
-			y: 7.5d
-		}
-		{
-			id: "2FBA9D74EF6EABB6"
-			rewards: [
-				{
-					auto: "invisible"
-					id: "5BDF0243AB3CD33D"
-					stage: "tf_unlock_snow"
-					type: "gamestage"
-				}
-				{
-					auto: "invisible"
-					id: "09212347B112A30B"
-					stage: "tf_unlock_hydra"
-					type: "gamestage"
-				}
-			]
-			tasks: [{
-				entity: "twilightforest:alpha_yeti"
-				id: "7BA140058CEB999F"
-				type: "kill"
-				value: 1L
-			}]
-			x: -8.0d
-			y: 7.5d
-		}
-		{
-			id: "0A2A206401701D89"
-			rewards: [{
-				auto: "invisible"
-				id: "54EEBEB80DB91345"
-				stage: "tf_unlock_knight"
-				type: "gamestage"
-			}]
-			tasks: [
-				{
-					entity: "cataclysm:wadjet"
-					id: "1F269DF2C973B5FD"
-					type: "kill"
-					value: 3L
-				}
-				{
-					entity: "twilightforest:snow_queen"
-					id: "719228A9CFEDDE94"
-					type: "kill"
-					value: 1L
-				}
-			]
-			x: -7.0d
-			y: 7.5d
-		}
-		{
 			can_repeat: true
 			id: "22A2B39C3AD7F569"
 			tasks: [{
@@ -2323,7 +2255,7 @@
 				{
 					id: "7D61748E5F7F9C6E"
 					optional_task: true
-					stage: "echo_light_bender_stage1_task2_check"
+					stage: "echo_light_bender_stage3_task2_check"
 					type: "gamestage"
 				}
 			]
@@ -2516,7 +2448,7 @@
 				}
 				{
 					id: "3F35D79FAF7C7483"
-					stage: "echo_stage3_or_check"
+					stage: "echo_stage4_or_check"
 					type: "gamestage"
 				}
 			]
@@ -2955,6 +2887,29 @@
 			}]
 			x: -2.0d
 			y: -1.0d
+		}
+		{
+			id: "278020FDAF7E0E21"
+			rewards: [{
+				auto: "invisible"
+				id: "210EF0F44F7C23E4"
+				stage: "tf_unlock_knight"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "5E655D1BC55E3C2A"
+					item: { count: 1, id: "twilightforest:snow_queen_trophy" }
+					type: "item"
+				}
+				{
+					id: "6C2E20BBE3B896E3"
+					item: { count: 1, id: "twilightforest:hydra_trophy" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 7.0d
 		}
 	]
 }

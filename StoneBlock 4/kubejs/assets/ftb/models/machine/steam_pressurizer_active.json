@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "ftb:block/steam_pressurizer/steam_pressurizer",
+    "north":   "ftb:block/steam_pressurizer/steam_pressurizer_active",
+    "east":    "ftb:block/steam_pressurizer/steam_pressurizer_side",
+    "south":   "ftb:block/steam_pressurizer/steam_pressurizer_side",
+    "west":    "ftb:block/steam_pressurizer/steam_pressurizer_side",
+    "up":      "ftb:block/steam_pressurizer/steam_pressurizer_top",
+    "down":    "ftb:block/steam_pressurizer/steam_pressurizer_bottom"
+  }
+}

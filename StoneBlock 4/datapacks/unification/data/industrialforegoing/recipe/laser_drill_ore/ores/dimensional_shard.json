@@ -1,11 +1,17 @@
 {
   "neoforge:conditions": [
     {
-      "type": "neoforge:not",
-      "value": {
-        "type": "neoforge:tag_empty",
-        "tag": "c:ores/dimensional_shard"
-      }
+      "type": "almostunified:conditional",
+      "conditions_met": true,
+      "original_conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:tag_empty",
+            "tag": "c:ores/dimensional_shard"
+          }
+        }
+      ]
     }
   ],
   "type": "industrialforegoing:laser_drill_ore",
@@ -13,7 +19,7 @@
     "item": "industrialforegoing:light_blue_laser_lens"
   },
   "output": {
-    "item": "rftoolsbase:dimensionalshard_overworld"
+    "item": "ftbmaterials:dimensional_shard_stone_ore"
   },
   "rarity": [
     {

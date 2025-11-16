@@ -34,7 +34,7 @@ ItemEvents.modification((event) => {
     item.maxStackSize = 16;
   });
 
-heartStacks.forEach((stackItem) => {
+  heartStacks.forEach((stackItem) => {
     event.modify(stackItem, (item) => {
       item.maxStackSize = 20;
     });
@@ -46,3 +46,21 @@ heartStacks.forEach((stackItem) => {
     });
   });
 });
+
+// Removes the ItemAttributeModifierEvent Psi is subscribing into
+if (Platform.isLoaded("psi")) {
+  let $NeoForge = Java.loadClass("net.neoforged.neoforge.common.NeoForge")
+  let $ItemPsimetalAxe = Java.loadClass("vazkii.psi.common.item.tool.ItemPsimetalAxe")
+  let $ItemPsimetalPickaxe = Java.loadClass("vazkii.psi.common.item.tool.ItemPsimetalPickaxe")
+  let $ItemPsimetalShovel = Java.loadClass("vazkii.psi.common.item.tool.ItemPsimetalShovel")
+  let $ItemPsimetalSword = Java.loadClass("vazkii.psi.common.item.tool.ItemPsimetalSword")
+  let $ItemPsimetalArmor = Java.loadClass("vazkii.psi.common.item.armor.ItemPsimetalArmor")
+
+  StartupEvents.postInit(() => {
+    $NeoForge.EVENT_BUS.unregister($ItemPsimetalAxe)
+    $NeoForge.EVENT_BUS.unregister($ItemPsimetalPickaxe)
+    $NeoForge.EVENT_BUS.unregister($ItemPsimetalShovel)
+    $NeoForge.EVENT_BUS.unregister($ItemPsimetalSword)
+    $NeoForge.EVENT_BUS.unregister($ItemPsimetalArmor)
+  })
+}

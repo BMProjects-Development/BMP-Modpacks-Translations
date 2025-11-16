@@ -13,7 +13,7 @@
       "ready": {"translate": "ftb.echo.infinity.stage0.ready"},
       "completed": {"translate": "ftb.echo.infinity.stage0.completed"},
       "shop_unlock":[
-        {"name": "10 Hrs of Temporal Time", "command": {"run": "gag give_time @s 720000", "permission_": 3, "description": "ftb.shop.title.temporal_pouch_ten_hours"}, "cost": 250, "description": {"translate": "ftb.shop.description.temporal_pouch_warning"}, "icon": "gag:item/time_sand_pouch"}
+        {"name": "10 Hrs of Temporal Time", "command": {"run": "gag give_time @s 720000", "permission": 3, "description": {"translate": "ftb.shop.title.temporal_pouch_ten_hours"}}, "cost": 250, "description": {"translate": "ftb.shop.description.temporal_pouch_warning"}, "icon": "gag:item/time_sand_pouch"}
       ]
     },
     {
@@ -31,7 +31,9 @@
       "completed": {"translate": "ftb.echo.infinity.stage5.task1.completed"},
       "completion_reward": {"command": {"run": "kubejs stages add @s echo_infinity_stage5_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
-        {"name": "Stack Upgrade Omega Tier", "item": {"id": "sophisticatedstorage:stack_upgrade_omega_tier", "count": 1}, "cost": 500, "description": {"translate": "ftb.shop.description.exclusive"}}
+        {"name": "Stack Upgrade Omega Tier", "item": {"id": "sophisticatedstorage:stack_upgrade_omega_tier", "count": 1}, "cost": 500, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "100 Hrs of Temporal Time", "command": {"run": "gag give_time @s 7200000", "permission": 3, "description": {"translate": "ftb.shop.title.temporal_pouch_hundred_hours"}}, "cost": 500, "description": {"translate": "ftb.shop.description.temporal_pouch_warning"}, "icon": "gag:item/time_sand_pouch"},
+        {"name": "1000 Hrs of Temporal Time", "command": {"run": "gag give_time @s 72000000", "permission": 3, "description": {"translate": "ftb.shop.title.temporal_pouch_thousand_hours"}}, "cost": 1000, "description": [{"translate": "ftb.shop.description.temporal_pouch_warning"}, {"translate": "ftb.shop.description.temporal_pouch"}], "icon": "gag:item/time_sand_pouch"}
       ]
     },
     {

@@ -25,7 +25,7 @@ const chickenRecipes = [
   },
   {
     tier: 2,
-    time: 60,
+    time: 40,
     breed: false,
     chickens: [{ output: "c_water" }, { output: "c_lava" }]
   },
@@ -590,25 +590,25 @@ ServerEvents.recipes((event) => {
         {
           consume: true,
           ingredient: {
-            item: "chicken_roost:chicken_food_tier_9"
+            item: "chicken_roost:chicken_essence_tier_9"
           }
         },
         {
           consume: true,
           ingredient: {
-            item: "chicken_roost:chicken_food_tier_9"
+            item: "chicken_roost:chicken_essence_tier_9"
           }
         },
         {
           consume: true,
           ingredient: {
-            item: "occultism:awakened_feather"
+            item: "draconicevolution:medium_chaos_frag"
           }
         },
         {
           consume: true,
           ingredient: {
-            item: "occultism:awakened_feather"
+            item: "draconicevolution:medium_chaos_frag"
           }
         },
         {
@@ -652,10 +652,101 @@ ServerEvents.recipes((event) => {
         count: 1,
         id: "chicken_roost:c_awakeneddraconium"
       },
-      techLevel: "chaotic",
+      techLevel: "draconic",
       totalEnergy: 1024000000
     })
-    .id("ftb:draconicevolution/fusion_crafting/chaotic/awakened_draconium_chicken")
+    .id("ftb:draconicevolution/fusion_crafting/awakened/awakened_draconium_chicken")
+
+
+    // Chaotic Chicken Recipe
+    event
+    .custom({
+      type: "draconicevolution:fusion_crafting",
+      catalyst: {
+        item: "chicken_roost:c_awakeneddraconium",
+      },
+      ingredients: [
+        {
+          consume: true,
+          ingredient: {
+            tag: "c:ingots/draconium_awakened",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            tag: "c:ingots/draconium_awakened",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:awakened_core",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:awakened_core",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:large_chaos_frag",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:large_chaos_frag",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            tag: "c:ingots/draconium_awakened",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:awakened_core",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:awakened_core",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:large_chaos_frag",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            item: "draconicevolution:large_chaos_frag",
+          },
+        },
+        {
+          consume: true,
+          ingredient: {
+            tag: "c:ingots/draconium_awakened",
+          },
+        },
+      ],
+      result: {
+        count: 1,
+        id: "chicken_roost:c_chaos",
+      },
+      techLevel: "chaotic",
+      totalEnergy: 100000000,
+    })
+    .id("ftb:draconicevolution/fusion_crafting_chaos_chicken_roost");
 
   //Manually add lava and water eggs
   event
@@ -670,12 +761,6 @@ ServerEvents.recipes((event) => {
       time: 200,
       output: {
         item: "chicken_roost:lava_egg",
-        components: {
-          "bucketlib:fluid": {
-            amount: 1000,
-            id: "minecraft:lava"
-          }
-        }
       }
     })
     .id("ftb:roost/roost/c_lava")
@@ -689,15 +774,9 @@ ServerEvents.recipes((event) => {
       chicken: {
         item: "chicken_roost:c_water"
       },
-      time: 40,
+      time: 20,
       output: {
         item: "chicken_roost:water_egg",
-        components: {
-          "bucketlib:fluid": {
-            amount: 1000,
-            id: "minecraft:water"
-          }
-        }
       }
     })
     .id("ftb:roost/roost/c_water")
@@ -712,7 +791,7 @@ ServerEvents.recipes((event) => {
       chicken: {
         item: "chicken_roost:c_skystone"
       },
-      time: 40,
+      time: 60,
       output: {
         item: "ae2:sky_dust"
       }

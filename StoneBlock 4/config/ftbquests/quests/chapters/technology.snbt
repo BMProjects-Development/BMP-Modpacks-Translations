@@ -95,22 +95,11 @@
 				id: "actuallyadditions:empowerer"
 			}
 			id: "283EA4E7BA93DA11"
-			rewards: [
-				{
-					amount: 10
-					id: "4E91B9AA3DE65CA0"
-					type: "currency"
-				}
-				{
-					count: 2
-					id: "5AED3D0E09035736"
-					item: {
-						count: 1
-						id: "actuallyadditions:display_stand"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				amount: 10
+				id: "4E91B9AA3DE65CA0"
+				type: "currency"
+			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [
@@ -120,7 +109,7 @@
 					type: "item"
 				}
 				{
-					count: 2L
+					count: 4L
 					id: "326E8BBCC5FE1393"
 					item: { count: 1, id: "actuallyadditions:display_stand" }
 					type: "item"

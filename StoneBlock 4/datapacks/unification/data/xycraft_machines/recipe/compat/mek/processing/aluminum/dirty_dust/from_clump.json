@@ -1,0 +1,11 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "redacted"
+    }
+  ],
+  "type": "mekanism:crushing",
+  "input": {"count": 1, "tag": "c:clumps/aluminum"},
+  "output": {"count": 1, "id": "xycraft_machines:aluminum_dirty_dust"}
+}

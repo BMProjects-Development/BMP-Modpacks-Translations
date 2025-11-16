@@ -7,8 +7,8 @@ const $FTBEPlayerData = Java.loadClass(
 const LANG = {
   WORLD_ENGINE_LOCKED: "ftb.portal.world_engine_locked",
   NO_BASE: "ftb.portal.no_base",
-  TOO_FAR: "ftb.portal.too_far",                 // expects %1$s = shortBy, %2$s = maxRange
-  VAULT_TOO_FAR: "ftb.portal.vault_too_far",     // expects %1$s = shortBy, %2$s = maxRange
+  TOO_FAR: "ftb.portal.too_far", // expects %1$s = shortBy, %2$s = maxRange
+  VAULT_TOO_FAR: "ftb.portal.vault_too_far", // expects %1$s = shortBy, %2$s = maxRange
   NOT_BOUND: "ftb.portal.not_bound",
   WRONG_DIMENSION: "ftb.portal.wrong_dimension",
   NOT_ENOUGH: "ftb.portal.not_enough_chronon",
@@ -25,18 +25,23 @@ const LANG = {
   T5_ZONE_LOCKED: "ftb.portal.t5_zone_locked",
   HOME_LOCKED: "ftb.portal.home_locked",
   INVALID_PORTAL: "ftb.portal.invalid_portal",
-  INVALID_LOCATOR: "ftb.portal.invalid_locator"
+  INVALID_LOCATOR: "ftb.portal.invalid_locator",
 };
 
 const YAW = { SOUTH: 0, WEST: 90, NORTH: 180, EAST: -90 };
 
 // Returns a float yaw in degrees, best-effort.
 function getEntryYaw(player) {
-  try { if (typeof player.getYRot === "function") return player.getYRot(); } catch (_) { }
-  try { if (typeof player.getYHeadRot === "function") return player.getYHeadRot(); } catch (_) { }
   try {
-    if (player.getDirection && player.getDirection().toYRot) return player.getDirection().toYRot();
-  } catch (_) { }
+    if (typeof player.getYRot === "function") return player.getYRot();
+  } catch (_) {}
+  try {
+    if (typeof player.getYHeadRot === "function") return player.getYHeadRot();
+  } catch (_) {}
+  try {
+    if (player.getDirection && player.getDirection().toYRot)
+      return player.getDirection().toYRot();
+  } catch (_) {}
   return 0;
 }
 
@@ -44,70 +49,114 @@ function getEntryYaw(player) {
  * yawEntry: how the entry door (near the player) should face
  * yawExit: how the exit door (at the destination) should face
  */
-const spawnTimeDoor = (level, player, position, dimension, color, yawEntry, yawExit) => {
+const spawnTimeDoor = (
+  level,
+  player,
+  position,
+  dimension,
+  color,
+  yawEntry,
+  yawExit
+) => {
   let [modid, path] = String(dimension).split(":");
   color = color || $Color.RAINBOW;
-  let isSurvival = !player.isCreative() && !player.isSpectator()
+  let isSurvival = !player.isCreative() && !player.isSpectator();
 
   let NamedGlobalVec3 = new $NamedGlobalVec3(
     Component.literal("Portal"),
     new Vec3d(position.x + 0.5, position.y, position.z),
-    ResourceKey.create(Registries.DIMENSION, new ResourceLocation.fromNamespaceAndPath(modid, path)),
+    ResourceKey.create(
+      Registries.DIMENSION,
+      new ResourceLocation.fromNamespaceAndPath(modid, path)
+    ),
     typeof yawExit === "number" ? yawExit : 180,
     color
   );
 
-  let result = $TimeDoorEntity.Companion.getTimedoor(level, NamedGlobalVec3, true);
+  let result = $TimeDoorEntity.Companion.getTimedoor(
+    level,
+    NamedGlobalVec3,
+    true
+  );
   let timedoor = result.left().get();
   timedoor.owner = player.id;
 
-  const entryYaw = typeof yawEntry === "number" ? yawEntry : getEntryYaw(player);
-  timedoor.sizing.placeTimedoor($DoorType.EXIT, player.position(), entryYaw, timedoor);
+  const entryYaw =
+    typeof yawEntry === "number" ? yawEntry : getEntryYaw(player);
+  timedoor.sizing.placeTimedoor(
+    $DoorType.EXIT,
+    player.position(),
+    entryYaw,
+    timedoor
+  );
 
   // Get BoundBox area around entrance timedoor location
-  let entry_aabb = timedoor.getBoundingBox().inflate(1.5, 0, 1.5)
+  let entry_aabb = timedoor.getBoundingBox().inflate(1.5, 0, 1.5);
 
   // Unpack size
-  let {xsize: x_size, ysize: y_size, zsize: z_size} = entry_aabb
+  let { xsize: x_size, ysize: y_size, zsize: z_size } = entry_aabb;
 
   // Get BoundBox area around exit timedoor location
-  let exit_aabb = AABB.ofSize(timedoor.getTargetPos(), x_size, y_size, z_size)
+  let exit_aabb = AABB.ofSize(timedoor.getTargetPos(), x_size, y_size, z_size);
 
   // Validate entry
-  let invalid_entry = BlockPos.betweenClosedStream(entry_aabb).anyMatch((block) => {
-    let block_state = level.getBlockState(block)
-    return block_state.getId() == "ftbquests:stage_barrier"
-  })
+  let invalid_entry = BlockPos.betweenClosedStream(entry_aabb).anyMatch(
+    (block) => {
+      let block_state = level.getBlockState(block);
+      return block_state.getId() == "ftbquests:stage_barrier";
+    }
+  );
 
   // Validate Exit
-  let invalid_exit = BlockPos.betweenClosedStream(exit_aabb).anyMatch((block) => {
-    let block_state = level.getBlockState(block)
-    return block_state.getId() == "ftbquests:stage_barrier"
-  })
+  let invalid_exit = BlockPos.betweenClosedStream(exit_aabb).anyMatch(
+    (block) => {
+      let block_state = level.getBlockState(block);
+      return block_state.getId() == "ftbquests:stage_barrier";
+    }
+  );
 
   // Do not spawn portal if invalid locations if in survival
   if ((invalid_exit || invalid_entry) && isSurvival) {
-    return false
+    return false;
   } else {
     level.addFreshEntity(timedoor);
-    return true
+    return true;
   }
 };
 
-const trySpawnTimeDoor = (location, level, player, position, dimension, color, yawEntry, yawExit) => {
+const trySpawnTimeDoor = (
+  location,
+  level,
+  player,
+  position,
+  dimension,
+  color,
+  yawEntry,
+  yawExit
+) => {
   try {
-    let spawned = spawnTimeDoor(level, player, position, dimension, color, yawEntry, yawExit);
+    let spawned = spawnTimeDoor(
+      level,
+      player,
+      position,
+      dimension,
+      color,
+      yawEntry,
+      yawExit
+    );
     if (spawned) {
       player.tell(Text.translate(LANG.OPENING, location));
-      return true
+      return true;
     } else {
       player.tell(Text.translate(LANG.INVALID_PORTAL, location));
-      return false
+      return false;
     }
   } catch (error) {
-    console.log(`\ntemppad.js spawnTimeDoor() error:\n${error}\nPlease Report this to FTB via Github Issues if you see this`);
+    console.log(
+      `\ntemppad.js spawnTimeDoor() error:\n${error}\nPlease Report this to FTB via Github Issues if you see this`
+    );
     player.tell(Text.translate(LANG.OPEN_FAILED).red());
-    return false
+    return false;
   }
 };
 
@@ -146,132 +195,108 @@ const disabledCommand = (context) => {
 };
 
 function findChrononCellWithCharge(player, cost, debug) {
-  // Creative/spectator bypass
+  // Creative and spectator bypass
   if (player.isCreative() || player.isSpectator()) {
     return { stack: Item.of("tempad:chronon_cell"), charge: 9999 };
   }
 
-  // Predeclare locals once to keep Rhino happy
-  var stack = null;
+  // Locals
+  var candidate = null;
   var chargeVal = 0;
   var i = 0;
   var j = 0;
-  var invAll = null;
-  var curiosApiClass = null;
-  var helper = null;
-  var capOpt = null;
-  var cap = null;
-  var curiosMap = null;
-  var stacksHandler = null;
-  var stacks = null;
-  var slots = 0;
-  var candidate = null;
+
+  // Helper: does this stack qualify and meet cost?
+  function checkStack(stack) {
+    if (!stack) return null;
+    var id = String(stack.id || "");
+    if (
+      id !== "tempad:chronon_cell" &&
+      id !== "tempad:chronon_battery" &&
+      id !== "tempad:tempad"
+    )
+      return null;
+
+    var c = Number(getChronon(stack, player) || 0);
+    if (debug) console.log("checkStack " + id + " charge=" + c);
+    return c >= cost ? { stack: stack, charge: c } : null;
+  }
 
   // 1) Main hand
-  stack = player.mainHandItem;
-  if (stack && (stack.id === "tempad:chronon_cell" || stack.id === "tempad:chronon_battery")) {
-    try {
-      chargeVal = Number(getChronon(stack, player) || 0);
-      if (chargeVal >= cost) return { stack: stack, charge: chargeVal };
-    } catch (eA) {
-      if (debug) console.log("getChronon failed for mainHand: " + eA);
-    }
-  }
+  candidate = checkStack(player.mainHandItem);
+  if (candidate) return candidate;
 
-  // 2) Offhand
-  stack = player.offHandItem;
-  if (stack && (stack.id === "tempad:chronon_cell" || stack.id === "tempad:chronon_battery")) {
-    try {
-      chargeVal = Number(getChronon(stack, player) || 0);
-      if (chargeVal >= cost) return { stack: stack, charge: chargeVal };
-    } catch (eB) {
-      if (debug) console.log("getChronon failed for offHand: " + eB);
-    }
-  }
+  // 2) Off hand
+  candidate = checkStack(player.offHandItem);
+  if (candidate) return candidate;
 
   // 3) Inventory
-  try {
-    if (player.inventory && player.inventory.allItems) {
-      invAll = player.inventory.allItems;
-      for (i = 0; i < invAll.length; i++) {
-        stack = invAll[i];
-        if (!stack || (stack.id !== "tempad:chronon_cell" && stack.id !== "tempad:chronon_battery")) continue;
-        try {
-          chargeVal = Number(getChronon(stack, player) || 0);
-          if (chargeVal >= cost) return { stack: stack, charge: chargeVal };
-        } catch (eC) {
-          if (debug) console.log("getChronon failed for inv[" + i + "]: " + eC);
-        }
+  var inv = player.inventory;
+  if (inv && inv.allItems && inv.allItems.length) {
+    for (i = 0; i < inv.allItems.length; i++) {
+      candidate = checkStack(inv.allItems[i]);
+      if (candidate) return candidate;
+    }
+  } else if (player.getInventory) {
+    var inv2 = player.getInventory();
+    if (inv2 && inv2.getContainerSize && inv2.getItem) {
+      var size = inv2.getContainerSize();
+      for (i = 0; i < size; i++) {
+        candidate = checkStack(inv2.getItem(i));
+        if (candidate) return candidate;
       }
     }
-  } catch (eInv) {
-    if (debug) console.log("Inventory scan threw: " + eInv);
   }
-
-  // 4) Curios (wrapped defensively)
-  try {
+  // 4) Curios (single guarded class-load so missing Curios does not crash)
+  (function () {
+    var curiosApiClass;
     try {
       curiosApiClass = Java.loadClass("top.theillusivec4.curios.api.CuriosApi");
-    } catch (e0) {
-      if (debug) console.log("CuriosApi load threw: " + e0);
-      curiosApiClass = null;
+    } catch (_) {
+      return; // Curios not installed, shouldn't happen but....
     }
-    if (curiosApiClass) {
-      try { helper = curiosApiClass.getCuriosHelper(); } catch (e1) { if (debug) console.log("Curios getCuriosHelper threw: " + e1); helper = null; }
-      if (helper) {
-        try { capOpt = helper.getCuriosHandler(player); } catch (e2) { if (debug) console.log("Curios getCuriosHandler threw: " + e2); capOpt = null; }
+    var helper = curiosApiClass.getCuriosHelper();
+    if (!helper) return;
 
-        try {
-          cap =
-            capOpt &&
-            (capOpt.orElse
-              ? capOpt.orElse(null)
-              : capOpt.orElseGet
-                ? capOpt.orElseGet(function () { return null; })
-                : null);
-        } catch (e3) {
-          if (debug) console.log("Curios Optional access threw: " + e3);
-          cap = null;
-        }
+    var capOpt = helper.getCuriosHandler(player); // java.util.Optional
+    if (!capOpt || !capOpt.isPresent || !capOpt.isPresent()) return;
 
-        if (cap && cap.getCurios) {
-          try {
-            curiosMap = cap.getCurios();
-            if (curiosMap && curiosMap.forEach) {
-              curiosMap.forEach(function (identifier, sh) {
-                if (candidate) return;
-                stacksHandler = sh;
-                try {
-                  stacks = stacksHandler && stacksHandler.getStacks && stacksHandler.getStacks();
-                  slots = stacksHandler && stacksHandler.getSlots && stacksHandler.getSlots();
-                  if (!stacks || slots == null) return;
+    var cap = capOpt.get(); // ICuriosItemHandler
+    if (!cap) return;
 
-                  for (j = 0; j < slots; j++) {
-                    var curioStack = null;
-                    try { curioStack = stacks.getStackInSlot(j); } catch (inner0) { if (debug) console.log("Curios getStackInSlot threw: " + inner0); continue; }
-                    if (!curioStack || (curioStack.id !== "tempad:chronon_cell" && curioStack.id !== "tempad:chronon_battery")) continue;
+    var curiosMap = cap.getCurios
+      ? cap.getCurios()
+      : cap.getCurioMap
+      ? cap.getCurioMap()
+      : null;
+    if (!curiosMap) return;
 
-                    try {
-                      chargeVal = Number(getChronon(curioStack, player) || 0);
-                      if (chargeVal >= cost) { candidate = { stack: curioStack, charge: chargeVal }; return; }
-                    } catch (inner1) {
-                      if (debug) console.log("getChronon failed for curios:" + identifier + "[" + j + "]: " + inner1);
-                    }
-                  }
-                } catch (inner) {
-                  if (debug) console.log("Curios handler iteration error: " + inner);
-                }
-              });
-            }
-          } catch (eMap) {
-            if (debug) console.log("Curios map iteration threw: " + eMap);
-          }
+    var entries = curiosMap.entrySet().toArray();
+    if (!entries || !entries.length) return;
+
+    for (var e = 0; e < entries.length && !candidate; e++) {
+      var stacksHandler = entries[e].getValue();
+      if (!stacksHandler || !stacksHandler.getStacks) continue;
+
+      var stacks = stacksHandler.getStacks();
+      if (!stacks || !stacks.getSlots || !stacks.getStackInSlot) continue;
+
+      var slots = stacks.getSlots();
+      if (!slots) continue;
+
+      for (j = 0; j < slots && !candidate; j++) {
+        var curioStack = stacks.getStackInSlot(j);
+        if (!curioStack) continue;
+        if (curioStack.isEmpty && curioStack.isEmpty()) continue;
+
+        var found = checkStack(curioStack);
+        if (found) {
+          candidate = found;
+          break;
         }
       }
     }
-  } catch (outer) {
-    if (debug) console.log("Curios block outer catch: " + outer);
-  }
+  })();
 
   return candidate || null;
 }
@@ -280,7 +305,7 @@ function findChrononCellWithCharge(player, cost, debug) {
 function spawnHomePortal(ctx) {
   var src = ctx.getSource();
   var player = src.getPlayerOrException();
-  let is_survival = !player.isCreative() && !player.isSpectator()
+  let is_survival = !player.isCreative() && !player.isSpectator();
   if (is_survival) {
     if (!player.stages.has("home_unlocked")) {
       src.sendFailure(Text.translate(LANG.HOME_LOCKED));
@@ -307,22 +332,20 @@ function spawnHomePortal(ctx) {
   var dim = base.dimension();
   var dimStr = dim.getNamespace() + ":" + dim.getPath();
 
-  $FTBEPlayerData
-    .getOrCreate(player)
-    .map((data) => {
-      let homes = data.homeManager();
-      homes.destinations().forEach((home) => {
-        if (home.name() == "home") {
-          let tag = home.destination().write();
-          dimStr = tag.getString("dim");
-          pos = home.destination().getPos();
-        }
-      });
-      console.log("Home dim: " + dim);
-      console.log("Home pos: " + pos);
-      return 0;
-    })
-    .orElse(0);
+  var dataOpt = $FTBEPlayerData.getOrCreate(player);
+  if (dataOpt && dataOpt.isPresent()) {
+    var data = dataOpt.get();
+    var homes = data.homeManager();
+    homes.destinations().forEach((home) => {
+      if (home.name() == "home") {
+        var tag = home.destination().write();
+        dimStr = String(tag.getString("dim"));
+        pos = home.destination().getPos();
+      }
+    });
+    //console.log("Home dim: " + dimStr);
+    //console.log("Home pos: " + pos);
+  }
 
   let portal_spawned = trySpawnTimeDoor(
     Text.of(Text.translate(LANG.BASE)),
@@ -345,8 +368,8 @@ function spawnHomePortal(ctx) {
 function spawnSpawnPortal(ctx) {
   var src = ctx.getSource();
   var player = src.getPlayerOrException();
-  
-  let portal_spawned = false
+
+  let portal_spawned = false;
 
   if (!player.isCreative() && !player.isSpectator()) {
     portal_spawned = trySpawnTimeDoor(
@@ -396,7 +419,7 @@ function spawnSpawnPortal(ctx) {
       180
     );
     return 1;
-  } else if (!(player.level.dimension.path.contains("private_for_"))) {
+  } else if (!player.level.dimension.path.contains("private_for_")) {
     src.sendFailure(Text.translate(LANG.WRONG_DIMENSION));
     return 0;
   }
@@ -424,23 +447,38 @@ function spawnSpawnPortal(ctx) {
   return 1;
 }
 
+const CHRONON_KEY_CELL = "tempad:chronon_content";
+const CHRONON_KEY_TEMPAD = "tempad:chronon_content_tempad";
 const CHRONON_KEY = "tempad:chronon_content";
 const CHRONON_COST = 5;
 
 function getChronon(stack) {
+  if (!stack) return 0;
   const components = stack.componentMap;
-  const raw = components.get(CHRONON_KEY);
-  if (raw != null) {
-    return Number(raw) || 0;
-  }
+
+  // Prefer the tempad key if this is the tempad or if that key exists
+  const useTempadKey =
+    stack.id === "tempad:tempad" || components.get(CHRONON_KEY_TEMPAD) != null;
+
+  const raw = components.get(
+    useTempadKey ? CHRONON_KEY_TEMPAD : CHRONON_KEY_CELL
+  );
+  return raw != null ? Number(raw) || 0 : 0;
 }
 
 const JInt = Java.loadClass("java.lang.Integer");
 
 function setChronon(stack, value) {
-  var components = stack.componentMap;
-  var next = (Number(value) || 0) | 0;
-  components.set(CHRONON_KEY, JInt.valueOf(String(next)));
+  if (!stack) return 0;
+  const components = stack.componentMap;
+  const next = (Number(value) || 0) | 0;
+
+  // Mirror the same key choice logic as getChronon
+  const useTempadKey =
+    stack.id === "tempad:tempad" || components.get(CHRONON_KEY_TEMPAD) != null;
+
+  const key = useTempadKey ? CHRONON_KEY_TEMPAD : CHRONON_KEY_CELL;
+  components.set(key, JInt.valueOf(String(next)));
   return next;
 }
 
@@ -485,7 +523,7 @@ ItemEvents.rightClicked((event) => {
     y: WORLD_ENGINE_TARGET.y,
     z: WORLD_ENGINE_TARGET.z,
   };
-  let is_survival = !player.isCreative() && !player.isSpectator()
+  let is_survival = !player.isCreative() && !player.isSpectator();
 
   let portal_spawned = trySpawnTimeDoor(
     Text.of(Text.translate(LANG.WORLD_ENGINE)),
@@ -534,7 +572,7 @@ ItemEvents.rightClicked((event) => {
     z: OVERWORLD_DEST.z + 0.5,
   };
 
-  let is_survival = !player.isCreative() && !player.isSpectator()
+  let is_survival = !player.isCreative() && !player.isSpectator();
 
   let portal_spawned = trySpawnTimeDoor(
     Text.of(Text.translate(LANG.HIDDEN)).obfuscated(),
@@ -557,37 +595,50 @@ ItemEvents.rightClicked((event) => {
 function playPostTeleportFX(player) {
   // 1 tick delay to ensure the client is settled at destination
   player.server.scheduleInTicks(1, (_) => {
-    player.server.runCommandSilent(`execute as ${player.username} at @s run particle twilightforest:twilight_orb ~ ~1 ~ 0.6 0.8 0.6 0.02 120 force`);
-    player.server.runCommandSilent(`execute as ${player.username} at @s run playsound gateways:gate_start master @s ~ ~ ~ 1 1`);
+    player.server.runCommandSilent(
+      `execute as ${player.username} at @s run particle twilightforest:twilight_orb ~ ~1 ~ 0.6 0.8 0.6 0.02 120 force`
+    );
+    player.server.runCommandSilent(
+      `execute as ${player.username} at @s run playsound gateways:gate_start master @s ~ ~ ~ 1 1`
+    );
   });
 }
 
-NativeEvents.onEvent("earth.terrarium.tempad.api.event.TimedoorEvent$Enter", (event) => {
-  try {
-    let entity = event.entity;
-    let teleportee = event.teleportee;
-    if (!teleportee) return;
+NativeEvents.onEvent(
+  "earth.terrarium.tempad.api.event.TimedoorEvent$Enter",
+  (event) => {
+    try {
+      let entity = event.entity;
+      let teleportee = event.teleportee;
+      if (!teleportee) return;
 
-    // Only allow non-player entities if not to Overworld
-    if (teleportee.type != "minecraft:player") {
-      if (entity.targetDimension == "minecraft:overworld") event.setCanceled(true);
-      return;
+      // Only allow non-player entities if not to Overworld
+      if (teleportee.type != "minecraft:player") {
+        if (entity.targetDimension == "minecraft:overworld")
+          event.setCanceled(true);
+        return;
+      }
+
+      // Player successfully arrived: play FX on them
+      playPostTeleportFX(teleportee);
+    } catch (error) {
+      console.log(
+        `\ntemppad.js TimedoorEvent$Enter error:\n${error}\nPlease Report this to FTB via Github Issues if you see this`
+      );
     }
-
-    // Player successfully arrived: play FX on them
-    playPostTeleportFX(teleportee);
-  } catch (error) {
-    console.log(`\ntemppad.js TimedoorEvent$Enter error:\n${error}\nPlease Report this to FTB via Github Issues if you see this`);
   }
-});
+);
 
 // --- Register only /timedoor worldengine ---
 ServerEvents.commandRegistry((event) => {
   const { commands: Commands } = event;
 
   event.register(
-    Commands.literal("timedoor")
-      .then(Commands.literal("worldengine").executes((ctx) => spawnWorldEnginePortal(ctx)))
+    Commands.literal("timedoor").then(
+      Commands.literal("worldengine").executes((ctx) =>
+        spawnWorldEnginePortal(ctx)
+      )
+    )
   );
 });
 
@@ -595,7 +646,7 @@ ServerEvents.commandRegistry((event) => {
 function spawnWorldEnginePortal(ctx) {
   var src = ctx.getSource();
   var player = src.getPlayerOrException();
-  let is_survival = !player.isCreative() && !player.isSpectator()
+  let is_survival = !player.isCreative() && !player.isSpectator();
 
   // Stage gate (creative/spectator bypass)
   if (is_survival) {
@@ -606,7 +657,9 @@ function spawnWorldEnginePortal(ctx) {
   }
 
   // Must have a base to resolve the World Engine dimension
-  var baseOpt = $BaseInstanceManager.get(player.server).getBaseForPlayer(player);
+  var baseOpt = $BaseInstanceManager
+    .get(player.server)
+    .getBaseForPlayer(player);
   if (!baseOpt.isPresent()) {
     src.sendFailure(Text.translate(LANG.NO_BASE));
     return 0;
@@ -626,7 +679,11 @@ function spawnWorldEnginePortal(ctx) {
   var base = baseOpt.get();
   var dim = base.dimension();
   var dimStr = dim.getNamespace() + ":" + dim.getPath();
-  var targetPos = { x: WORLD_ENGINE_TARGET.x, y: WORLD_ENGINE_TARGET.y, z: WORLD_ENGINE_TARGET.z };
+  var targetPos = {
+    x: WORLD_ENGINE_TARGET.x,
+    y: WORLD_ENGINE_TARGET.y,
+    z: WORLD_ENGINE_TARGET.z,
+  };
 
   // Spawn Time Door
   let portal_spawned = trySpawnTimeDoor(
@@ -655,61 +712,74 @@ function spawnWorldEnginePortal(ctx) {
 
 const MAX_COMPASS_DISTANCE = 256;
 ItemEvents.rightClicked("minecraft:compass", (event) => {
-  let { player: player, item: itemstack, level: level } = event
-  if (player == null || itemstack == null || level == null) return
+  let { player: player, item: itemstack, level: level } = event;
+  if (player == null || itemstack == null || level == null) return;
 
-  if (!(player.isShiftKeyDown())) return
-  if (level.isClientSide()) return
+  if (!player.isShiftKeyDown()) return;
+  if (level.isClientSide()) return;
 
-  let components = itemstack.getComponents()
+  let components = itemstack.getComponents();
   let label;
 
-  if (!(components.has("minecraft:custom_data"))) return
-  if (!(components.get("minecraft:custom_data").contains("can_spawn_timedoor"))) return
-  
-  if (!(components.has("minecraft:lodestone_tracker"))) {
-    return
+  if (!components.has("minecraft:custom_data")) return;
+  if (!components.get("minecraft:custom_data").contains("can_spawn_timedoor"))
+    return;
+
+  if (!components.has("minecraft:lodestone_tracker")) {
+    return;
   } else {
     try {
-      label = itemstack.getCustomName().copy().toJson().get("with").get(0).get("translate").getAsString();
+      label = itemstack
+        .getCustomName()
+        .copy()
+        .toJson()
+        .get("with")
+        .get(0)
+        .get("translate")
+        .getAsString();
     } catch (_) {
-      player.tell(`${Text.translate(LANG.INVALID_LOCATOR)}`)
-      return
+      player.tell(`${Text.translate(LANG.INVALID_LOCATOR)}`);
+      return;
     }
   }
 
-  let tracker = components.get("minecraft:lodestone_tracker")
-  let target = tracker.target()
+  let tracker = components.get("minecraft:lodestone_tracker");
+  let target = tracker.target();
 
   if (target.isEmpty()) {
-    player.tell(Text.translate(LANG.NOT_BOUND).red())
-    return
+    player.tell(Text.translate(LANG.NOT_BOUND).red());
+    return;
   }
 
-  target = target.get()
+  target = target.get();
 
-  let target_dimension = target.dimension().location()
+  let target_dimension = target.dimension().location();
   if (level.getDimension() != target_dimension) {
-    player.tell(Text.translate(LANG.WRONG_DIMENSION).red())
-    return
+    player.tell(Text.translate(LANG.WRONG_DIMENSION).red());
+    return;
   }
-  let target_pos = target.pos()
+  let target_pos = target.pos();
 
-  let { x: xP, z: zP } = player.blockPosition().getCenter()
-  let { x: xT, z: zT } = target_pos.getCenter()
+  let { x: xP, z: zP } = player.blockPosition().getCenter();
+  let { x: xT, z: zT } = target_pos.getCenter();
 
-  let dx = xP - xT
-  let dz = zP - zT
-  let horizontalDist = Math.sqrt(dx * dx + dz * dz)
+  let dx = xP - xT;
+  let dz = zP - zT;
+  let horizontalDist = Math.sqrt(dx * dx + dz * dz);
 
-  let is_survival = !player.isCreative() && !player.isSpectator()
+  let is_survival = !player.isCreative() && !player.isSpectator();
 
   // Range check with shortfall message (no const re-declaration)
   if (is_survival) {
     if (horizontalDist > MAX_COMPASS_DISTANCE) {
       var shortfall = Math.ceil(horizontalDist - MAX_COMPASS_DISTANCE);
-      player.tell(Text.translate(LANG.VAULT_TOO_FAR, [String(shortfall), String(MAX_COMPASS_DISTANCE)]).red())
-      return
+      player.tell(
+        Text.translate(LANG.VAULT_TOO_FAR, [
+          String(shortfall),
+          String(MAX_COMPASS_DISTANCE),
+        ]).red()
+      );
+      return;
     }
   }
 
@@ -723,8 +793,8 @@ ItemEvents.rightClicked("minecraft:compass", (event) => {
     }
   }
 
-  label = Text.translate(label)
-  let yaw
+  label = Text.translate(label);
+  let yaw;
   if (components.get("minecraft:custom_data").getUnsafe().contains("facing")) {
     yaw = components.get("minecraft:custom_data").getUnsafe().getInt("facing");
   } else {
@@ -750,13 +820,18 @@ ItemEvents.rightClicked("minecraft:compass", (event) => {
   event.cancel();
 });
 
-NativeEvents.onEvent("earth.terrarium.tempad.api.event.TimedoorEvent$Exit", (event) => {
-  try {
-    let entrance = event.entity.linkedPortalEntity;
-    let exit = event.entity;
-    entrance.placePortalTicket(entrance.blockPosition());
-    exit.placePortalTicket(exit.blockPosition());
-  } catch (error) {
-    console.log(`\ntemppad.js TimedoorEvent$Enter error:\n${error}\nPlease Report this to FTB via Github Issues if you see this`);
+NativeEvents.onEvent(
+  "earth.terrarium.tempad.api.event.TimedoorEvent$Exit",
+  (event) => {
+    try {
+      let entrance = event.entity.linkedPortalEntity;
+      let exit = event.entity;
+      entrance.placePortalTicket(entrance.blockPosition());
+      exit.placePortalTicket(exit.blockPosition());
+    } catch (error) {
+      console.log(
+        `\ntemppad.js TimedoorEvent$Enter error:\n${error}\nPlease Report this to FTB via Github Issues if you see this`
+      );
+    }
   }
-});
+);

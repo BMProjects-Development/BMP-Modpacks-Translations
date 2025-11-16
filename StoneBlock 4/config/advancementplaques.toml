@@ -23,7 +23,7 @@
 		# Text color to use for plaque titles (like "Advancement made!"). Can be entered as an 8-digit hex color code #AARRGGBB for convenience. If Prism library is installed, any Prism color definition is supported.
 		title_color = "#FFFFFFFF"
 		# Text color to use for advancement names on plaques. Can be entered as an 8-digit hex color code #AARRGGBB for convenience. If Prism library is installed, any Prism color definition is supported.
-		name_color = "#FF57faff"
+		name_color = "#FFFFD857"
 
 	[client.duration_options]
 		# Duration of the shiny effect fade in for tasks.

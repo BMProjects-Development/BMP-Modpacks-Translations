@@ -411,6 +411,13 @@ ServerEvents.recipes(function (event) {
       "ars_nouveau:mendosteen_pod",
       "immersiveengineering:crop",
     ],
+    [
+      "ars_elemental:flashpine_pod",
+      "ars_elemental:flashpine_pod",
+      1,
+      "ars_elemental:flashpine_pod",
+      "immersiveengineering:crop",
+    ],
 
     // Actually Additions
     [

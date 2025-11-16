@@ -1,7 +1,7 @@
 {
   "configVersion": 2,
   "config": {
-    "canBreakBlocks": true,
+    "canBreakBlocks": false,
     "canInteract": true,
     "canPlaceBlocks": false,
     "allowPlayerPVP": true,

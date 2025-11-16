@@ -87,6 +87,16 @@ const wanderingTradertrades = [
     maxUses: 8,
   },
   {
+    input: { id: "minecraft:emerald", count: 1 },
+    output: { id: "minecraft:brown_mushroom", count: 4 },
+    maxUses: 4,
+  },
+  {
+    input: { id: "minecraft:diamond", count: 4 },
+    output: { id: "irregular_implements:pitcher_plant", count: 1 },
+    maxUses: 1,
+  },  
+  {
     input: { id: "immersiveengineering:ersatz_leather", count: 4 },
     output: { id: 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:silk_touch":1}}]', count: 1 },
     maxUses: 1,

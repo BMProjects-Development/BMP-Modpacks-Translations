@@ -5,6 +5,9 @@
     },
     "powah:blazing_crystal_block": {
       "temperature": 2800
+    },
+    "cataclysm:ignitium_block": {
+      "temperature": 4000
     }
   }
 }

@@ -1,6 +1,6 @@
 // priority: 50
 
-global.removeRecipe.push(
+removeRecipe.push(
 	"xycraft_world:compacting/raw_aluminum",
 	"xycraft_world:compacting/aluminum_ingot",
 	"xycraft_world:compacting/aluminum_nugget",
@@ -22,7 +22,7 @@ global.removeRecipe.push(
 	"xycraft:blasting/aluminum"
 );
 
-global.removeItem.push(
+removeItem.push(
 	"xycraft_world:raw_aluminum",
 	"xycraft_world:raw_aluminum_block",
 	"xycraft_world:aluminum_storage",
@@ -31,7 +31,7 @@ global.removeItem.push(
 	"xycraft_machines:iron_sheet"
 );
 
-global.removeOre.push(
+removeOre.push(
 	"xycraft_world:aluminum_ore_kivi",
 	"xycraft_world:aluminum_ore_deepslate",
 	"xycraft_world:aluminum_ore_stone"

@@ -11,7 +11,11 @@ let jukebox;
 let tick = 0;
 
 const { abs, atan2, hypot, max, min, random, sin, PI, E } = Math;
-const noteStateMap = global.noteStateMap;
+const noteStateMap = []
+PlayerEvents.loggedOut(event => {
+  if (!noteStateMap) return;
+  delete noteStateMap[event.player.uUID];
+});
 
 // UI refresh cadence for the status text (ticks)
 const DISPLAY_UPDATE_TICKS = 60; // ~3 seconds at 20 tps
@@ -138,6 +142,7 @@ PlayerEvents.tick((event) => {
   const feet = event.player.blockPosition();
   const underPos = feet.below();
   const underId = String(event.level.getBlock(underPos).id); // e.g. "minecraft:orange_concrete"
+  const offhand = player.getOffhandItem()
 
   const isCool =
     underId === "minecraft:red_concrete" ||
@@ -150,14 +155,24 @@ PlayerEvents.tick((event) => {
   let delta = funk.jukebox.pos.offset(0, 2, 0).center.subtract(playerPos);
 
   if (isCool) {
+     if (!offhand.isEmpty() && offhand.id === "cataclysm:music_disc_ignis") {
+      //no heat penalty with record
+    }
+    else {
     funk.heat = max(0, funk.heat - 2);
+    }
     event.server.runCommandSilent(
       `execute in ${funk.dim} run particle soul_fire_flame ${posToString(
         playerPos
       )} ${posToString(delta)} 0.075 0 force`
     );
   } else if (isWarm) {
-    funk.heat = funk.heat + 2;
+     if (!offhand.isEmpty() && offhand.id === "cataclysm:music_disc_ignis") {
+      funk.heat = funk.heat + 20;
+    }
+    else {
+      funk.heat = funk.heat + 2;
+    }
     event.server.runCommandSilent(
       `execute in ${funk.dim} run particle flame ${posToString(
         playerPos

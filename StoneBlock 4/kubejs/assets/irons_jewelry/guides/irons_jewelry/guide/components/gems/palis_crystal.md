@@ -1,7 +1,7 @@
 ---
 navigation:
   title: Palis Crystal
-  position: 11
+  position: 14
   icon: "actuallyadditions:palis_crystal"
   parent: irons_jewelry:gems.md
 item_ids:

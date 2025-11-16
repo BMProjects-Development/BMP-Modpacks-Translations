@@ -205,7 +205,7 @@
 						}
 						leveling: {
 							experience: 0
-							level: 10
+							level: 0
 							luck: 0
 							points: 0
 						}
@@ -330,24 +330,17 @@
 					"bhc:hearts": [
 						{
 							item: {
-								count: 10
+								count: 20
 								id: "bhc:red_heart_canister"
 							}
 							slot: 0
 						}
 						{
 							item: {
-								count: 10
+								count: 20
 								id: "bhc:yellow_heart_canister"
 							}
 							slot: 1
-						}
-						{
-							item: {
-								count: 5
-								id: "bhc:green_heart_canister"
-							}
-							slot: 2
 						}
 					]
 				}
@@ -454,28 +447,28 @@
 					"bhc:hearts": [
 						{
 							item: {
-								count: 10
+								count: 20
 								id: "bhc:red_heart_canister"
 							}
 							slot: 0
 						}
 						{
 							item: {
-								count: 10
+								count: 20
 								id: "bhc:yellow_heart_canister"
 							}
 							slot: 1
 						}
 						{
 							item: {
-								count: 10
+								count: 20
 								id: "bhc:green_heart_canister"
 							}
 							slot: 2
 						}
 						{
 							item: {
-								count: 10
+								count: 20
 								id: "bhc:blue_heart_canister"
 							}
 							slot: 3

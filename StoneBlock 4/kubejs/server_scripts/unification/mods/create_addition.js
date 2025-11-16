@@ -1,6 +1,6 @@
 // priority: 50
 
-global.removeRecipe.push(
+removeRecipe.push(
   "createaddition:compat/immersiveengineering/rolling/aluminum_ingot",
   "createaddition:rolling/copper_ingot",
   "createaddition:rolling/electrum_plate",

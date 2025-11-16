@@ -59,7 +59,8 @@
     "blockBreakWhitelist": [
       "simpletomb:grave_cross",
       "simpletomb:grave_normal",
-      "simpletomb:grave_simple"
+      "simpletomb:grave_simple",
+      "minecraft:decorated_pot"
     ],
     "blockBreakBlacklist": [],
     "blockPlaceWhitelist": [

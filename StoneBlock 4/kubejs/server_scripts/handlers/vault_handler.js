@@ -3,10 +3,10 @@ let $IWrenchable = Java.loadClass(
 );
 
 EntityEvents.spawned(
-  ["projecte:lava_projectile", "projecte:water_projectile", "minecraft:wither","minecraft:wither_skull"],
+  ["projecte:lava_projectile", "projecte:water_projectile", "minecraft:wither", "minecraft:wither_skull"],
   (event) => {
     const { entity } = event;
-    if (!isInVault(entity)) return; //not in a vault, do nothing
+    if (!isEntityInVault(entity) && !isEntityInBiome(entity, "minecraft:the_void")) return; //not in a vault, or the void, do nothing
     event.cancel();// in a vault, stop the entity from spawning
   }
 );
@@ -22,16 +22,11 @@ let SB4$GLADIOS_SNARK_LANG = [
 EntityEvents.death("minecraft:player", (event) => {
   /** @type {$ServerLevel_} */
   let server = event.getLevel();
+  let player = event.getPlayer();
 
   if (!server.isClientSide()) {
-    let piece = server
-      .structureManager()
-      .getStructureAt(
-        event.getPlayer().getBlock().getPos(),
-        "ftb:vaults/portal"
-      );
-    if (piece.isValid()) {
-      let bb = event.getEntity().getBoundingBox().inflate(5);
+    if (isEntityInStructure(player, "ftb:vaults/portal")) {
+      let bb = player.getBoundingBox().inflate(5);
       server.getEntitiesWithin(bb).forEach((entity) => {
         console.log(entity.getType());
         if (
@@ -43,11 +38,21 @@ EntityEvents.death("minecraft:player", (event) => {
           entity.discard();
         }
       });
-      let random_snark = Utils.getRandom().fork().nextIntBetweenInclusive(0,SB4$GLADIOS_SNARK_LANG.length-1)
+      let random_snark = Utils.getRandom().fork().nextIntBetweenInclusive(0, SB4$GLADIOS_SNARK_LANG.length - 1)
       let snark = Text.translate(SB4$GLADIOS_SNARK_LANG[random_snark])
-      event.getEntity().tell(snark);
-      event.getEntity().setHealth(event.getEntity().getMaxHealth());
+      player.tell(snark);
+      player.setHealth(event.getEntity().getMaxHealth());
       event.cancel();
+    } else if (isEntityInVault(player)) {
+      let player = event.getPlayer()
+      player.setHealth(player.getMaxHealth())
+      $FTBEPlayerData.addTeleportHistory(event.getPlayer())
+      let { x, y, z } = player.getRespawnPosition()
+      let yRot = player.getYaw()
+      let xRot = player.getPitch()
+      let dimension = event.getServer()["getLevel(net.minecraft.resources.ResourceKey)"](player.getRespawnDimension())
+      player["teleportTo(net.minecraft.server.level.ServerLevel,double,double,double,float,float)"](dimension, x, y, z, yRot, xRot)
+      event.cancel()
     }
   }
 });
@@ -68,7 +73,7 @@ EntityEvents.beforeHurt("minecraft:player", (event) => {
         if (
           event
             .getSource()
-            ["is(net.minecraft.resources.ResourceKey)"]("minecraft:fall")
+          ["is(net.minecraft.resources.ResourceKey)"]("minecraft:fall")
         )
           event.cancel();
       }

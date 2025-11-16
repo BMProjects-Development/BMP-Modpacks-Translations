@@ -18,6 +18,7 @@ global.COW_TRANSMUTE_RULES = [
       // common base metals
       { id: "productivemetalworks:molten_copper", weight: 20 },
       { id: "productivemetalworks:molten_iron", weight: 18 },
+      { id: "minecraft:water", weight: 18 },
       { id: "productivemetalworks:molten_tin", weight: 14 },
       { id: "productivemetalworks:molten_zinc", weight: 14 },
       { id: "productivemetalworks:molten_lead", weight: 12 },

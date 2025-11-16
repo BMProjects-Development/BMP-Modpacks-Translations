@@ -1,5 +1,7 @@
 {
-  "name": "ftb.machine.neutron_activator",
+  "name": {
+    "text": "ftb.machine.neutron_activator"
+  },
   "appearance": {
     "running": {
       "custommachinery:ambient_sound": {
@@ -123,5 +125,9 @@
       "x": 5,
       "y": 5
     }
-  ]
+  ],
+  "processor": {
+    "type": "custommachinery:machine",
+    "amount": 16
+  }
 }

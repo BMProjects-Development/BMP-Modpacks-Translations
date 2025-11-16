@@ -59,7 +59,6 @@
     {
       "title": {"translate": "ftb.echo.stage5.title"},
       "lore": [
-        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.wyrmwright.stage5.task1", "text": {"translate": "ftb.echo.voice_over"}},
         {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.wyrmwright.stage5.task1.lore"}]}
       ],
       "not_ready": {"translate": "ftb.echo.wyrmwright.stage5.task1.not_ready"},

@@ -28,12 +28,12 @@ ServerEvents.tags("item", (event) => {
     )
   }
 
-  event.remove("c:hidden_from_recipe_viewers", ["ftbmaterials:coal_coke_gem", "ftbmaterials:silicon_gem"])
+  event.remove("c:hidden_from_recipe_viewers", ["ftbmaterials:coal_coke_gem", "ftbmaterials:silicon_gem", "ftbmaterials:plutonium_dust"])
 })
 
 RecipeViewerEvents.removeCategories((event) => {
-  if (Array.isArray(global.removeRecipeCategories)) {
-    global.removeRecipeCategories.forEach((type) => {
+  if (Array.isArray(removeRecipeCategories)) {
+    removeRecipeCategories.forEach((type) => {
       event.remove(type)
     })
   }

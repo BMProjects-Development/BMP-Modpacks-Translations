@@ -20,4 +20,5 @@ This upgrade will also need the <Color id="red">Advanced Machine Block</Color> u
 <ItemGrid>
   <ItemIcon id="justdirethings:time_crystal" />
   <ItemIcon id="ars_nouveau:glyph_animate_block" />
+  <ItemIcon id="minecraft:dragon_head" />
 </ItemGrid>

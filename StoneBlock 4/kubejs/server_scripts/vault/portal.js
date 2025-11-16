@@ -159,7 +159,9 @@ const portalBlacklist = [
     "minecraft:barrier",
     "twilightforest:orange_force_field",
     "ftb:companion_cube",
-    "ftb:test_cube"
+    "ftb:test_cube",
+    "enderio:clear_glass_np",
+    "ftb:decorative_blue_core"
 ];
 
 // List of collectible cubes

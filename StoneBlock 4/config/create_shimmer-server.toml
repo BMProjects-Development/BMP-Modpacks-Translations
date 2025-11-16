@@ -189,11 +189,6 @@
 		#Enable shimmer fluid repairing for Twilight Forest scepters
 		enableScepterRepair = true
 		#.
-		#Shimmer fluid cost per repair operation (in mB)
-		# Default: 50
-		# Range: 1 ~ 1000
-		scepterRepairCost = 50
-		#.
 		#Durability points restored per repair operation
 		# Default: 9
 		# Range: 1 ~ 100
@@ -201,3 +196,23 @@
 		#.
 		#Enable debug logging for scepter repair operations
 		debugMode = false
+		#.
+		#Shimmer fluid cost per repair operation for Twilight Scepter (in mB)
+		# Default: 500
+		# Range: 1 ~ 1000
+		twilightScepterRepairCost = 500
+		#.
+		#Shimmer fluid cost per repair operation for Lifedrain Scepter (in mB)
+		# Default: 500
+		# Range: 1 ~ 1000
+		lifedrainScepterRepairCost = 500
+		#.
+		#Shimmer fluid cost per repair operation for Zombie Scepter (in mB)
+		# Default: 50
+		# Range: 1 ~ 1000
+		zombieScepterRepairCost = 50
+		#.
+		#Shimmer fluid cost per repair operation for Fortification Scepter (in mB)
+		# Default: 50
+		# Range: 1 ~ 1000
+		fortificationScepterRepairCost = 50

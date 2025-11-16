@@ -1,7 +1,7 @@
 ---
 navigation:
   title: Void Crystal
-  position: 15
+  position: 23
   icon: "actuallyadditions:void_crystal"
   parent: irons_jewelry:gems.md
 item_ids:

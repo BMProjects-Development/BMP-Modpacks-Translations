@@ -1,4 +1,4 @@
-global.removeItem.push(
+removeItem.push(
   "sophisticatedstorage:limited_barrel_1",
   "sophisticatedstorage:limited_barrel_2",
   "sophisticatedstorage:limited_barrel_3",
@@ -24,7 +24,6 @@ global.removeItem.push(
   "sophisticatedstorage:limited_netherite_barrel_3",
   "sophisticatedstorage:limited_netherite_barrel_4",
   "sophisticatedstorage:shulker_box",
-  "sophisticatedstorage:controller",
   "sophisticatedstorage:chipped/glassblower_upgrade",
   "sophisticatedstorage:chipped/botanist_workbench_upgrade",
   "sophisticatedstorage:chipped/loom_table_upgrade",
@@ -33,7 +32,9 @@ global.removeItem.push(
   "sophisticatedstorage:chipped/tinkering_table_upgrade",
   "sophisticatedstorage:debug_tool",
   "sophisticatedstorage:infinity_upgrade",
-  "sophisticatedstorage:survival_infinity_upgrade"
+  "sophisticatedstorage:survival_infinity_upgrade",
+  "sophisticatedstorage:stonecutter_upgrade",
+  "sophisticatedbackpacks:stonecutter_upgrade"
 )
 
 ServerEvents.recipes((event) => {
@@ -58,7 +59,6 @@ ServerEvents.recipes((event) => {
       { id: "sophisticatedstorage:blasting_upgrade" },
       { id: "sophisticatedstorage:auto_blasting_upgrade" },
       { id: "sophisticatedstorage:crafting_upgrade" },
-      { id: "sophisticatedstorage:stonecutter_upgrade" },
       { id: "sophisticatedstorage:stack_upgrade_tier_1" },
       { id: "sophisticatedstorage:smoking_upgrade" },
       { id: "sophisticatedstorage:auto_smoking_upgrade" },

@@ -6,6 +6,9 @@ smoothScrolling = true
 maxRowsStretch = 256
 searchBoxAutoSelected = false
 autocraftingNotification = true
+debug = false
+#Allowed Values: LIST, TREE
+autocraftingPreviewStyle = "LIST"
 
 [cable]
 	# Default: 0
@@ -15,7 +18,7 @@ autocraftingNotification = true
 [controller]
 	# Default: 1000
 	# Range: 0 ~ 9223372036854775807
-	energyCapacity = 1000
+	energyCapacity = 10000
 
 [diskDrive]
 	# Default: 10

@@ -1,8 +1,5 @@
 {
     "entity": "minecraft:hoglin",
-    "variants": [
-        "minecraft:zoglin"
-    ],
     "name": {
         "translate": "entity.minecraft.hoglin",
         "color": "#E8A074"

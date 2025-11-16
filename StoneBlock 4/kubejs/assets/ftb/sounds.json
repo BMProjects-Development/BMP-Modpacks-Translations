@@ -50,6 +50,14 @@
       }
     ]
   },
+  "ftb.echo.chaos.stage5.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.chaos.stage5.task1",
+        "stream": true
+      }
+    ]
+  },
   "ftb.echo.enchanter.stage2.task1": {
     "sounds": [
       {
@@ -102,6 +110,14 @@
     "sounds": [
       {
         "name": "ftb:echo/ftb.echo.guidance.stage1.task3",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.guidance.stage1.task4": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.guidance.stage1.task4",
         "stream": true
       }
     ]
@@ -270,6 +286,30 @@
     "sounds": [
       {
         "name": "ftb:echo/ftb.echo.wayfinder.stage2.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.wyrmwright.stage4.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.wyrmwright.stage4.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.wyrmwright.stage4.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.wyrmwright.stage4.task2",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.wyrmwright.stage4.task3": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.wyrmwright.stage5.task2",
         "stream": true
       }
     ]

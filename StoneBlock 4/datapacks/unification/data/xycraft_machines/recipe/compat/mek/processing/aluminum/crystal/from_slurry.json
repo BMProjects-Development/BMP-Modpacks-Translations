@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "redacted"
+    }
+  ],
+  "type": "mekanism:crystallizing",
+  "chemical_type": "slurry",
+  "input": {"amount": 200, "chemical": "xycraft_world:clean_aluminum_slurry"},
+  "output": {"count": 1, "id": "xycraft_machines:aluminum_crystal"},
+  "per_tick_usage": false
+}

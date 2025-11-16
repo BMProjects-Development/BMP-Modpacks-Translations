@@ -50,11 +50,16 @@ function isValidFloor(block) {
         "minecraft:stone_pressure_plate", "minecraft:oak_pressure_plate",
         "minecraft:tripwire_hook", "minecraft:rail", "minecraft:powered_rail",
         "minecraft:detector_rail", "minecraft:activator_rail", "minecraft:ladder",
-        "minecraft:vine", "minecraft:snow", "minecraft:carpet", "minecraft:string"
+        "minecraft:vine", "minecraft:snow", "minecraft:carpet", "minecraft:string",
     ];
-    
+    const regexInvalids = [
+        /occultism:chalk_glyph_.*/
+    ];
     // Check if block is in invalid list
     if (invalidFloorBlocks.includes(block.id.toString())) return false;
+    for (let regex of regexInvalids) {
+        if (regex.test(block.id.toString())) return false;
+    }
     
     // Check for slab variants
     if (block.id.toString().includes("slab") && !block.id.toString().includes("double")) return false;

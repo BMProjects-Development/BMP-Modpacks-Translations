@@ -389,62 +389,53 @@ ItemEvents.entityInteracted(function (event) {
     }
   }
 
-  // === Helper: place meat blocks with fallbacks (air only) ===
-  function placeMeatInAirAround(cx, cy, cz, placements, radius) {
-    // If your placeable differs, add here; order matters.
-    var candidateIds = [
-      "productivemetalworks:meat",                // try plain block id
-      "productivemetalworks:meat_block",         // alternative conventional block name
-      "productivemetalworks:meat_fluid_block",   // fluid block variants
-      "productivemetalworks:meat_fluid"
-    ];
+  
+// === Helper: place meat blocks in air around a point ===
+function placeMeatInAirAround(cx, cy, cz, placements, radius) {
+  var MEAT_BLOCK_ID = "productivemetalworks:meat";
+  var placed = 0;
 
-    var placed = 0;
+  for (var n = 0; n < placements; n++) {
+    var done = false;
 
-    for (var n = 0; n < placements; n++) {
-      var done = false;
+    // Up to N attempts per placement to find air
+    for (var tries = 0; tries < 16 && !done; tries++) {
+      var theta = Math.random() * Math.PI * 2;
+      var dist = Math.floor(1 + Math.random() * radius);
+      var dx = Math.floor(cx + Math.cos(theta) * dist);
+      var dz = Math.floor(cz + Math.sin(theta) * dist);
+      var dy = Math.floor(cy - 2 + Math.random() * 5);
 
-      // Up to N attempts per placement to find air and a valid block id
-      for (var tries = 0; tries < 16 && !done; tries++) {
-        var theta = Math.random() * Math.PI * 2;
-        var dist = Math.floor(1 + Math.random() * radius);
-        var dx = Math.floor(cx + Math.cos(theta) * dist);
-        var dz = Math.floor(cz + Math.sin(theta) * dist);
-        var dy = Math.floor(cy - 2 + Math.random() * 5);
+      var blk = level.getBlock(dx, dy, dz);
+      if (!blk) continue;
+      if (String(blk.id) !== "minecraft:air") continue;
 
-        var blk = level.getBlock(dx, dy, dz);
-        if (!blk) continue;
-        if (String(blk.id) !== "minecraft:air") continue;
+      blk.set(MEAT_BLOCK_ID);
+      done = true;
 
-        // Try candidates in order; also try level=0 state for fluids if supported
-        for (var c = 0; c < candidateIds.length && !done; c++) {
-          var id = candidateIds[c];
-
-          // 1) plain id
-          try {
-            blk.set(id);
-            done = true;
-          } catch (e1) {
-            // 2) level=0 (fluid/source) state if block supports it
-            try {
-              blk.set(id + "[level=0]");
-              done = true;
-            } catch (e2) {
-              // ignore and continue to next candidate
-            }
-          }
-        }
-
-        if (done) {
-          placed++;
-          level.spawnParticles("minecraft:poof", true, dx + 0.5, dy + 0.6, dz + 0.5, 0.3, 0.3, 0.3, 6, 0.0);
-        }
-      }
+      placed++;
+      level.spawnParticles(
+        "minecraft:poof",
+        true,
+        dx + 0.5,
+        dy + 0.6,
+        dz + 0.5,
+        0.3,
+        0.3,
+        0.3,
+        6,
+        0.0
+      );
     }
-
-    console.log("[MEATsplosion] Meat blocks placed: " + placed + " (requested " + placements + ")");
-    return placed;
   }
+
+  console.log(
+    "[MEATsplosion] Meat blocks placed: " + placed + " (requested " + placements + ")"
+  );
+  return placed;
+}
+
+
 
   // === Timings ===
   var ARM_DELAY = 40;   // ~2 seconds before title/charge

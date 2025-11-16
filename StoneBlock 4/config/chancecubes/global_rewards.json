@@ -136,7 +136,7 @@
     "chancecubes:juke_box": true,
     "chancecubes:book_of_memes": true,
     "chancecubes:table_flip": true,
-    "chancecubes:maze": true,
+    "chancecubes:maze": false,
     "chancecubes:one_is_lucky": true,
     "chancecubes:sky_block": true,
     "chancecubes:cake": true,

@@ -109,7 +109,7 @@
 	#The Flux per tick that the Diesel Generator will output. The burn time of the fuel determines the total output
 	# Default: 4096
 	# Range: > 0
-	dieselGen_output = 4096
+	dieselGen_output = 8192
 	#The Flux per tick the Blast Furnace Preheater will consume to speed up the Blast Furnace
 	# Default: 32
 	# Range: > 1

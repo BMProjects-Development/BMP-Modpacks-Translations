@@ -1,5 +1,7 @@
 {
-  "name": "ftb.machine.circuit_fabricator",
+  "name": {
+    "text": "ftb.machine.circuit_fabricator"
+  },
   "appearance": {
     "running": {
       "custommachinery:ambient_sound": {
@@ -31,6 +33,7 @@
         "ae2:certus_quartz_crystal",
         "minecraft:gold_ingot",
         "minecraft:diamond",
+        "minecraft:slime_ball",
         "ftbmaterials:silicon_gem",
         "appflux:charged_redstone",
         "megacells:sky_steel_ingot",
@@ -42,14 +45,20 @@
         "appflux:printed_energy_processor",
         "megacells:printed_accumulation_processor",
         "advanced_ae:printed_quantum_processor",
-        "extendedae:concurrent_processor_print"
+        "extendedae:concurrent_processor_print",
+        "minecraft:iron_ingot",
+        "draconicevolution:draconium_block"
       ],
       "id": "input_1",
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
-      "whitelist": "minecraft:redstone",
+      "whitelist": [
+        "minecraft:redstone",
+        "refinedstorage:processor_binding",
+        "#c:ingots/fortron_infused"
+      ],
       "id": "input_2",
       "mode": "input"
     },

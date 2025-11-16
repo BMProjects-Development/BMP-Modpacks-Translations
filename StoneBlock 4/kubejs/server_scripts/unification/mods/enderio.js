@@ -1,6 +1,6 @@
 // priority: 50
 
-global.removeRecipe.push(
+removeRecipe.push(
   "enderio:iron_gear",
   "enderio:item.minecraft.copper_ingot_from_blasting",
   "enderio:item.minecraft.copper_ingot_from_smelting",
@@ -23,7 +23,7 @@ global.removeRecipe.push(
   "enderio:stick"
 )
 
-global.removeItem.push(
+removeItem.push(
   "enderio:silicon",
   "enderio:iron_gear",
   "enderio:flour",

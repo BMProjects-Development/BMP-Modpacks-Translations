@@ -1,0 +1,86 @@
+[energyStorageBlock]
+	# Default: 2
+	# Range: 0 ~ 9223372036854775807
+	64KEnergyUsage = 2
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	256KEnergyUsage = 4
+	# Default: 6
+	# Range: 0 ~ 9223372036854775807
+	1024KEnergyUsage = 6
+	# Default: 8
+	# Range: 0 ~ 9223372036854775807
+	8192KEnergyUsage = 8
+	# Default: 10
+	# Range: 0 ~ 9223372036854775807
+	65536KEnergyUsage = 10
+	# Default: 12
+	# Range: 0 ~ 9223372036854775807
+	262144KEnergyUsage = 12
+	# Default: 14
+	# Range: 0 ~ 9223372036854775807
+	1048576KEnergyUsage = 14
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	8388608KEnergyUsage = 16
+	# Default: 18
+	# Range: 0 ~ 9223372036854775807
+	infiniteEnergyUsage = 18
+
+[sourceStorageBlock]
+	# Default: 2
+	# Range: 0 ~ 9223372036854775807
+	64BSourceUsage = 2
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	256BSourceUsage = 4
+	# Default: 6
+	# Range: 0 ~ 9223372036854775807
+	1024BSourceUsage = 6
+	# Default: 8
+	# Range: 0 ~ 9223372036854775807
+	8192BSourceUsage = 8
+	# Default: 10
+	# Range: 0 ~ 9223372036854775807
+	65536BSourceUsage = 10
+	# Default: 12
+	# Range: 0 ~ 9223372036854775807
+	262144BSourceUsage = 12
+	# Default: 14
+	# Range: 0 ~ 9223372036854775807
+	1048576BSourceUsage = 14
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	8388608BSourceUsage = 16
+	# Default: 18
+	# Range: 0 ~ 9223372036854775807
+	infiniteSourceUsage = 18
+
+[soulStorageBlock]
+	# Default: 2
+	# Range: 0 ~ 9223372036854775807
+	1KEnergyUsage = 2
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	8KEnergyUsage = 4
+	# Default: 6
+	# Range: 0 ~ 9223372036854775807
+	64KEnergyUsage = 6
+	# Default: 8
+	# Range: 0 ~ 9223372036854775807
+	512KEnergyUsage = 8
+	# Default: 10
+	# Range: 0 ~ 9223372036854775807
+	4096KEnergyUsage = 10
+	# Default: 12
+	# Range: 0 ~ 9223372036854775807
+	32768KEnergyUsage = 12
+	# Default: 14
+	# Range: 0 ~ 9223372036854775807
+	262144KEnergyUsage = 14
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	2097152KEnergyUsage = 16
+	# Default: 18
+	# Range: 0 ~ 9223372036854775807
+	infiniteEnergyUsage = 18

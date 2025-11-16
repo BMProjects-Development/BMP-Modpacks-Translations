@@ -7,8 +7,8 @@ const ftbEvents = [
     event_chickenjockey,
     event_stick,
     event_collapse,
-    event_questingram
-    // ,event_clavis_of_patience
+    event_questingram,
+    event_gift_of_pets
 
 ];
 

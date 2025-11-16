@@ -1,0 +1,1061 @@
+{
+	quest.012AEBFDB1F1512E.quest_desc: ["&eJust Dire Things&r armour can be tiered up via &aSmithing Templates&r and accept more &2Upgrades&r as they rank up to armour better than netherite."]
+	quest.012AEBFDB1F1512E.title: "&fJust Dire's Armour"
+	quest.030F1F8A4B0C1EBF.quest_desc: [
+		"&cReactor Heat Vents&r remove heat from the hottest neighbouring component (&3Fuel Rods&r or &cHeat Pipes&r) and vent it out of the &dReactor&r."
+		""
+		"The amount of heat removed is based on the temperature of the neighbouring component. Hotter components will result in more heat removed."
+		""
+		"&cReactor Heat Pipes&r take heat from &3Fuel Rods&r and spread it among neighbouring &cHeat Vents&r."
+		""
+		"The maximum transferred heat amount from a neighbouring component is based on the temperature difference between them."
+	]
+	quest.036047DE66198D10.quest_desc: [
+		"If &aLeaves&r are dried out, they can be used to make stronger fibres."
+		""
+		"Make a &aCampfire&r and place the &aLeaves&r on top to dry them out. Once dry, you should be able to turn them into straw by breaking them with &aCrook&r."
+	]
+	quest.046FCE929A728A34.quest_desc: [
+		"The wonders of &zInfinity&r, compressed into the form of a block."
+		""
+		"Head back to &zInfinity&r to finalise your &6World Engine&r."
+	]
+	quest.056990503617C147.quest_desc: [
+		"&dWyvern&r tools consume power instead of durability and can be customised via modules placed into their inventories."
+		""
+		"Their module inventory can be accessed via the keybind &eTool Modules&r, which isn't bound by default."
+		""
+		"&eNote&r: To craft this, you must have the &cAdvanced Machine Block&r &6World Engine Upgrade&r."
+	]
+	quest.05F1EC4F14A449AD.quest_desc: [
+		"The &aOre Laser Base&r from &bIndustrial Foregoing&r can be used to infinitely generate ores using &aLaser Drills&r."
+		""
+		"Within the UI, you can set the Y Lvl to determine what types of ores you want to find, as well as installing a &aColoured Lens&r to allow the &aLaser Base&r to specialise in specific ore types."
+		""
+		"This machine becomes available with the &bFortron Infused Block&r &6World Engine Upgrade&r."
+	]
+	quest.08204AA5ACCC914E.quest_desc: ["&aBackpacks&r can also be dyed! This is useful for colour-coding your backpacks, or if you just want to look really cool with a black backpack on."]
+	quest.08766B8721B4E541.quest_desc: [
+		"Within the Nether ring, you might run into an &cAncient Battleground&r."
+		""
+		"Across the battlefield, you might see &cPiles of Armour Scraps&r. Mining these piles might seem tempting, but might disturb the &dAncient Knights&r that wore this armour."
+		""
+		"Defeating one is necessary for progression, as these drop &cCinder Essence&r."
+		""
+		"Also of note is &eHoglins&r of the crimson forests dropping the appropriately named &cHogskin&r, which is required for some improved spellbook crafts."
+	]
+	quest.0A6E103A6945D11E.quest_desc: [
+		"The &aFoundry&r is key for progression and specialises in creating all of the alloys needed to make &6Oritech&r machines."
+		""
+		"To build this multiblock, you'll need 3 &bMachine Cores&r total. Place the &aFoundry&r block first, then right click it to see where the Cores need to be placed. Once the cores are in place, right click again to finalise the machine!"
+		""
+		"Note: Some of these alloys can also be crafted by hand or other modded machines, but doing so often consumes more resources."
+	]
+	quest.0A92084D7043133A.title: "&fMachine Customisation!"
+	quest.0AD2F3DB33241628.quest_desc: [
+		"&eArs &aSpell Books&r are versatile tools that can create and cast spells."
+		""
+		"&eArs &2Tools&r become accessible after completing &dThe Magician's&r &3Source Upgrade&r. These magical tools can provide a vast amount of customisation via spell-imbuement."
+	]
+	quest.0B1E459D12D11A0D.quest_desc: [
+		"&aModes&r and &2Modules&r instruct the &dProjector&r on how to function."
+		""
+		"&aShape Modes&r define the form &bForce Field Blocks&r will be placed in and &2Directional Modules&r &7(next quest)&r specify its placement in the world."
+		""
+		"An &eInverter Module&r in the matrix slots will fill the &lentire&r projected volume with &bfield blocks&r instead of just creating an outline."
+		""
+		"&7&oMore mode details on the next pages."
+		"{@pagebreak}"
+		"&aCube Mode&r respects the directions of scale modules along an axis, and requires each of the three axes to be defined to form an enclosed field."
+		""
+		"&aSphere Mode&r treats every &2Scale module&r in the field slots as a single radius addition, allowing you to encase a vast area at the cost of reduced shape customisation."
+		""
+		"&aTube Mode&r is nearly identical to &aCube Mode&r, but has two of the resulting faces open."
+		""
+		"&aPyramid Mode&r forms a 4-sided pyramid with points along the horizontal axes, requiring all three axes to be defined, respecting Up/Down directions for height."
+		""
+		"&aCylinder Mode&r uses the horizontal axis as a radius, and the Up/Down axis as one total height."
+		"{@pagebreak}"
+		"&bCustom Mode&r can be used to set both opposing corners of an area. Sneak + Right-Clicking will set that field structure on any non-air blocks within that area. Sneak + Right-Clicking the air will clear the selection."
+		""
+		"&bThis mode&r ignores &2Scale Modules&r, and defaults its origin to the centre of the selected area. A &dCamouflage Module&r will copy the selected blocks instead of its normal behaviour."
+	]
+	quest.0B65713A23351790.quest_desc: [
+		"The &dWyvern Sword&r is a powered sword that allows for a ton of customisation options."
+		""
+		"&6Draconic Evolution&r gear has its own interface that can store modular upgrades inside of each item."
+		""
+		"This allows you to upgrade any of the mod's items in many different ways using &dModules&r."
+	]
+	quest.0D38D67E3FD120CB.quest_desc: [
+		"[\"\", {\"text\": \"Chaotic\", \"color\": \"rainbow\"}, \" weapons are the final upgrades to \", {\"text\": \"Draconic\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5388B67410670702\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Draconic Weapons Quest\"}}, \" weapons, with the most room for \", {\"text\": \"Upgrade Modules\", \"color\": \"green\"}, \" and maximum customisability.\"]"
+		""
+		"You can also upgrade into or craft the &zChaotic Staff of Power&r, an All-In-One tool and weapon."
+		""
+		"Their module inventory can be accessed via the keybind &eTool Modules&r, which isn't bound by default."
+	]
+	quest.0E0B4F549B42AF63.quest_desc: [
+		"&aReactor Fuel Rods&r are interior components that need to be supplied with &6Uranium&r or &dPlutonium&r &6Pellets&r from &aReactor Fuel Ports&r to generate heat."
+		""
+		"The &aFuel Port&r will be placed on the ceiling of the Reactor. This Port will need &aFuel Rods&r connecting it all the way to the bottom of the Reactor."
+		""
+		"To create &6Uranium Pellets&r, you'll need access to the &6Atomic Forge&r to create &6Uranium Gems&r."
+		"{@pagebreak}"
+		"When burning fuel, &aFuel Rods&r will generate neutron pulses that create a specific amount of energy, the more pulses a rod receives, the more energy it also creates. However, if a neighbouring component is also a &aFuel Rod&r, it will also hit the neighbouring component with a pulse."
+		""
+		"The amount of heat generated is based on the total pulses of a rod (internal + external pulses)."
+		""
+		"A &aSingle Rod&r will generate 1 internal pulse, a &aDouble Rod&r 4, and a &aQuad Rod&r 12. "
+		"{@pagebreak}"
+		"&eNeutron Reflectors&r can be used to send a pulse back to its origin, acting as a similar rod type to its neighbour, increasing its efficiency."
+		""
+		"Each &aFuel Rod&r will consume a fixed amount of fuel from the &bReactor Fuel Ports&r above the stack. Each fuel pellet has a capacity, and each rod will use 1 capacity unit, a double rod uses 2, and a quad rod uses 4."
+	]
+	quest.0E7AD6BCF9F8605F.quest_desc: [
+		"Now that the &6World Engine&r can handle some &dEnder&r crafts, you will need to get your hands on a &dDragon Egg&r without going to the &eEnd&r."
+		""
+		"Within the &eEnd&r ring, you'll be able to find a very special &3Vault&r with a dangerous fight inside. And maybe a Dragon Egg."
+		""
+		"You will need to craft the &dMighty Ender Chicken Egg&r and use it in the centre of the ring to summon the boss."
+		"{@pagebreak}"
+		"Once you have your hands on one, the &6World Engine&r should be able to extract its essence into block form."
+		""
+		"Return to the &dEcho of The Catalyst&r once again to find out how to upgrade your &6World Engine&r."
+		""
+		"[\"\", {\"text\": \"Note\", \"color\": \"yellow\"}, \": It's worth setting up an \", {\"text\": \"Extractor\", \"color\": \"green\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EBA58B7FD2AF36D\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Extractor Quest\"} }, \" to get more \", {\"text\": \"Dragon Eggs\", \"color\": \"light_purple\"}, \", or you can redo the fight over and over.\" ]"
+	]
+	quest.11A35E8F97ACA240.quest_desc: [
+		"[\"\", {\"text\": \"Draconic\", \"color\": \"gold\"}, \" tools are upgraded versions of \", {\"text\": \"Wyvern\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"056990503617C147\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Wyvern Tools Quest\"}}, \" tools, with room for more \", {\"text\": \"Upgrade Modules\", \"color\": \"green\"}, \" and better customisability.\"]"
+		""
+		"You can also craft the &6Draconic Staff of Power&r, an All-In-One tool and weapon."
+		""
+		"Their module inventory can be accessed via the keybind &eTool Modules&r, which isn't bound by default."
+		""
+		"&eNote&r: To craft these, you must have the &cAdvanced Machine Block&r and the &dDraconic Energy&r &6World Engine Upgrades&r."
+	]
+	quest.11F69E1E4FE4D5CD.quest_desc: [
+		"The advanced circuitry you need will require a specialised crystal called &dFluxite&r."
+		""
+		"This crystal can only be created by beaming power directly into an &dAmethyst Crystal&r. To do this, you will need to create an &cEnderic Laser&r and a &bTarget Designator&r."
+		"{@pagebreak}"
+		"Once you've crafted the &cEnderic Laser&r, make sure to build it near a &dBudding Amethyst Block&r that can grow crystals."
+		""
+		"By Sneak + Right-clicking with the &bTarget Designator&r on an &dAmethyst Crystal&r, you can store the location into the Designator. Once stored, Sneak + Right-click on the &cEnderic Laser&r to designate where the laser should shoot."
+		""
+		"If done properly, the laser will fire and convert the crystal over into &dFluxite&r."
+		""
+		"Use this to craft the &dFlux Gate&r."
+	]
+	quest.131199313AE3F5E9.quest_desc: ["The &aEnergised Smelter&r is essentially a powered furnace that can be upgraded!"]
+	quest.137EC884018376A1.quest_desc: [
+		"&cNetherite&r gear makes for some great armour once you have your hands on &aAncient Debris&r and a &cNetherite Smithing Template&r.."
+		""
+		"[\"You may get \", {\"text\": \"Ancient Debris\", \"color\": \"green\"}, \" early by going to the \", { \"text\": \"Nether Dungeon\", \"color\": \"red\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"21A521011401074F\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Nether Dungeon Quest\"}}, \", which can spawn in the Deepslate Ring.\" ]"
+	]
+	quest.137EC884018376A1.title: "&fVanilla Netherite Armour"
+	quest.150BB4679DD2B4B5.quest_desc: [
+		"Believe it or not, cows really like Apples and.... clay? Put them together and what do you get?"
+		""
+		"If you feed a cow a &aClapple&r, it will convert it into a random baby &bFluid Cow&r. Once fully grown, these can be milked to give a bucket of that fluid!"
+		""
+		"Unlike regular cows, &bFluid Cows&r have a cooldown on how often they can be milked."
+		""
+		"List of &bFluid Cows&r that can be made using the &aClapple&r ->"
+		"{@pagebreak}"
+		"- Copper"
+		"- Iron"
+		"- Tin"
+		"- Zinc"
+		"- Lead"
+		"- Nickel"
+		"- Silver"
+		"{@pagebreak}"
+		"- Aluminium"
+		"- Gold"
+		"- Uranium"
+		"- Amethyst"
+		"- Redstone"
+		"- Carbon"
+		"- Slime"
+	]
+	quest.1520491A7804E08E.quest_desc: [
+		"To be able to use the &aWorker Token&r in an &2Unearther&r, you'll need a villager that has one of these 3 jobs:"
+		""
+		"- &aArchaeologist&r: Can brush Dirt, Dust, Mud, and Sand. Uses a &aDecorative Pot&r for the workstation."
+		""
+		"- &2Geologist&r: Can brush Gravel, Soul Sand, and Crushed Kivi. Uses a &2Salvaging Table&r for the workstation."
+		""
+		"- &dDimensionalist&r: Can brush Netherrack, End Stone, and Otherstone. Uses the &dResonanz Engineering Block&r for the workstation."
+	]
+	quest.17D5EB0E89BC10D7.quest_desc: [
+		"The &aEndergenic&r generator setup is one of the most complicated energy generators that doesn't require a degree in nuclear physics."
+		""
+		"These generators extract power from &dender pearls&r by 'throwing' the pearls between each other (targeted via &eSmart Wrench&r) and cancelling their teleportation effect, absorbing the stifled energy."
+		""
+		"Continuing to hold onto a stifled pearl uses energy however and &aEndergenics&r enter a &3cool-down state&r after throwing a pearl, so proper timing using redstone is crucial to efficiency. The process isn't perfect, so sometimes pearls will shatter in the machines after being thrown."
+	]
+	quest.19C7CC772EC56E7B.quest_desc: [
+		"Once you have some eggs, you can combine them with any colour of the rainbow to create a &aDyed Chicken Eggs&r."
+		""
+		"When these eggs are thrown, there is a chance for it to hatch into a chicken of that colour."
+		""
+		"While only considered a tier 1 chicken, these chickens are required for breeding for the higher tier chickens!"
+	]
+	quest.1A89ACDC528588D5.quest_desc: [
+		"&bCelestigem&r is the next tier for armour from &6Just Dire Things&r."
+		""
+		"Instead of using durability, this armour uses &cenergy&r instead, and can have even more upgrades that can be installed."
+		""
+		"These can be made once you've made a trip out to the &dAncient City&r and made &dVoidshimmer Goo&r. "
+	]
+	quest.1A89ACDC528588D5.title: "&bCelestigem Armour"
+	quest.1BC994881BC225ED.quest_desc: [
+		"By combining magical spools with different materials and applying them to arcane armour in the &aWeaver's Workbench&r, the armour changes in appearance while keeping all of its defence and other benefits."
+		""
+		"The &eAncient Weave&r converts the armour to an alternate version of itself, but all other weaves change the armour to one set look."
+		""
+		"&o&7Ex. a Soulhunter Robe and a Soulstained Chestplate will seem identical after a Cornered Weave is applied.&r"
+	]
+	quest.1E6E38DC6183463A.quest_desc: [
+		"The &eDE&r energy core is a tiered energy storage solution capable of storing a near-infinite quantity of power when fully upgraded."
+		""
+		"Its core components are the &aEnergy Core&r and the &2Energy Core Stabilisers&r, which can be placed in any direction up to 8 blocks away from the core."
+		""
+		"To insert or extract power from the Core, you'll need to place down an &bEnergy Pylon&r within 10 blocks of the core, then place a glass block under or above it."
+		"{@pagebreak}"
+		"To upgrade the core, you'll need to surround the &aEnergy Core&r with more &dDraconium Blocks&r per tier. At tier 8, you'll also need to surround it with &6Awakened Draconium Blocks&r."
+		""
+		"The energy core has a build guide within its interface when you interact with it that can automatically place the blocks in their position from your inventory."
+		""
+		"At tier 8, you will also need to upgrade your &2Stabilisers&r into a ring, requiring a total of 36 blocks (9 per ring)."
+	]
+	quest.1FEEBCA6D633B479.quest_desc: [
+		"&eEnder Storage&r allows for cross-dimensional storage of items and fluids."
+		""
+		"&aEnder Chests&r link their inventories to others with matching colour patterns. You can use any coloured dye on the wool pads to change its colour."
+		""
+		"&eNote&r: Crafting these requires the &bChroniton Glass&r &6World Engine Upgrade&r."
+		"{@pagebreak}"
+		"&aEnder Pouches&r allow you to remotely access an &aEnder Chest&r of the same colour pattern. Right-clicking the pouch on any &aEnder Chest&r will change the pouch's colour to match that of the chest."
+		""
+		"&aEnder Tanks&r work in the same way as &aEnder Chests&r but store liquids instead of items."
+		""
+		"Using a &bDiamond&r on the latch of an &aEnder Chest&r will move it to a separate private network for the player that used the diamond. This is especially good for server use."
+	]
+	quest.206987FC6B1524F8.quest_desc: [
+		"The &aAtomic Reconstructor&r is used to crystallise materials and is one of the main machines used in &eActually Additions&r."
+		""
+		"When provided with power, it will shoot a laser beam up to ten blocks away, or until the laser comes into contact with another block."
+		""
+		"It will crystallise any dropped items or blocks placed on either side of the laser."
+	]
+	quest.212600F8D3C1E1EB.quest_desc: [
+		"If you run &eBrine&r through another Thermal Evap. Tower, it'll convert it into &6Liquid Lithium&r."
+		""
+		"We can't do much with Liquid Lithium, so we'll need to convert it into a gas using a &aRotary Condensentrator&r."
+		""
+		"To make the best power storage in &aMekanism&r, we'll need to convert Lithium into &6Lithium Dust&r using a &aChemical Crystalliser&r. The Crystalliser requires &dUltimate Control Circuits&r to craft!"
+	]
+	quest.2341297707B00E93.quest_desc: [
+		"The rest of the generators in this chapter are considered &aEnd Game Generators&r."
+		""
+		"These generators are customisable, and can generate some of the highest amounts of power in the pack."
+		""
+		"&eNote&r: Reactors from &6Oritech&r have been massively buffed."
+	]
+	quest.24401E59D87AC23A.quest_desc: [
+		"The &6Fusion Reactor&r is &eMekanism's&r final energy generator. Fuelled by &aDeuterium&r and &2Tritium&r, or a mixture of both&r, it is capable of producing vast amounts of power and/or heat for relatively little upkeep. Both fuel components are produced using just water and energy!"
+		""
+		"The &6Fusion Reactor&r itself requires a (un)healthy amount of &bPost-Fission&r materials to create, both to justify this level of power and contain it."
+		"{image:ftb:textures/quests/mekanism/fusion_reactor.png width:100 height:100 align:center}"
+		""
+		"{@pagebreak}"
+		"To build the &6Fusion Reactor&r, place three 5x5 squares of building material that connect with each other at their mid points, replace the corners of the squares with &2Fusion Reactor Casing&r, and add four &2Casings&r around the midpoints."
+		""
+		"Then, replace the top mid point with the &6Fusion Reactor Controller&r, and all other remaining building blocks can be replaced with reactor glass, ports, or the laser focus matrix."
+		""
+		"To start the &6Reactor&r, a small amount of &aD-T Fuel&r in a &eHohlraum&r will be needed inside the &2Controller&r, with fuel supplied to the &6Reactor&r. A disabled &bLaser Amplifier&r will then need to collect energy from other lasers before firing a single beam containing 400 million FE or more into the &3Laser Focus Matrix&r on the &6Reactor&r."
+		""
+		"From here energy, steam, or heat can be extracted from a &aFusion Reactor Port&r set to output mode."
+	]
+	quest.24CE908ED60FD514.quest_desc: [
+		"The &aPulveriser&r is a simple machine that can be used to make Dusts and Biomass."
+		""
+		"In the early game, this is also the best way to get &6Enderic Compounds&r."
+	]
+	quest.25023C87AA259688.quest_desc: [
+		"While not offering much protection in the form of armour, holding down \"Shift\" while wearing a full set of this armour will turn you into a cardboard box small enough to avoid being detected by mobs."
+		""
+		"&7&oThis could be handy for looting."
+	]
+	quest.25023C87AA259688.title: "&fCardboard Armour"
+	quest.26D7C5298D95C69A.quest_desc: [
+		"When crafting &bJewellery&r, &aBanding Materials&r can be used by themselves to grant effects and/or stat increases."
+		""
+		"Their main use, however, is to multiply &aGem&r effects with their quality multiplier."
+	]
+	quest.2722C0E2E8993658.quest_desc: [
+		"The centrepiece of a fully completed enchanting setup. "
+		""
+		"The &dDraconic Endshelf&r provides no additional stats, but will boost your &aEterna&r by 20, allowing you to hit a max of &6100&r."
+		""
+		"The &dPearlescent Endshelf&r is the best general-purpose bookshelf, providing significant amounts of both &cQuanta&r and &dArcana&r."
+	]
+	quest.2C141655079AC173.quest_desc: [
+		"&dWyvern&r weapons consume power instead of durability and can be customised via modules placed into their inventories."
+		""
+		"Their module inventory can be accessed via the keybind &eTool Modules&r, which isn't bound by default."
+	]
+	quest.2C40123DF5EBA846.title: "Armours"
+	quest.2D110AB9A38178C5.quest_desc: [
+		"Hidden deep within netherrack, &dThe Infernal&r mentioned a buried &3Vault&r in the &cNether&r ring that is home to a very dangerous burning soul."
+		""
+		"The &3Vault&r comes alive once the jukebox is activated with its favourite song."
+		""
+		"&eNote&r: This vault is dangerous. Come prepared for a fight!"
+	]
+	quest.2DF77DA2ED65FBAC.quest_desc: [
+		"The &dWyvern Chestpiece&r is a powered piece of armour that allows for a ton of customisation options."
+		""
+		"&6Draconic Evolution&r gear has its own interface that can store modular upgrades inside each piece of gear which can be accessed via a keybind (&eTool Modules&r)."
+		""
+		"This allows you to upgrade this chestpiece in many different ways using &aUpgrade Modules&r."
+	]
+	quest.2F2DC018DD6A2A23.quest_desc: [
+		"&aGems&r are the part of most &bJewellery&r that grants effects."
+		""
+		"Different pieces of &bJewellery&r are affected by &aGems&r in different ways, so be sure to check each piece carefully before crafting."
+	]
+	quest.304B25BADD64077D.quest_desc: [
+		"You can increase the overall storage size of a backpack by upgrading it to the next tier!"
+		""
+		"From the basic backpack, you can upgrade to either &aCopper&r or &aIron&r. Upgrading to Copper first allows you to save iron, as you only need 4 Iron Ingots to upgrade from Copper."
+		""
+		"Each tier also allows for more &aUpgrade Slots&r!"
+	]
+	quest.31705AD5BE50E2CB.quest_desc: [
+		"The &aPressurised Reaction Chamber&r is an advanced machine that combines 1 liquid, 1 gas, and 1 item to produce a new item, and sometimes a gas byproduct."
+		""
+		"This is used to make &6Ethene&r, &6HDPE Pellets&r, and more!"
+	]
+	quest.31C83D9253FFF685.quest_desc: [
+		"&3Industrial Turbines&r are vertical multiblock structures that turn &7Steam&r into energy, and optionally back into &bWater&r using &9Saturating Condensers&r. Be careful if a turbine is full of energy, as it will stop or dump steam."
+		""
+		"The minimum size for this multiblock is a 5x5x5 structure, but adding just one layer to the height (5x6x5) &6quadruples&r its power production capacity. So, this quest will treat these dimensions (5x6x5) as the minimum. The largest size of turbine is a 17x18x17, as turbine widths need to be odd for the spinning blades."
+		""
+		"While &3Industrial Turbines&r are more complex than &dFission Reactors&r, they can handle plenty of &7Steam&r flow."
+		"{@pagebreak}"
+		"The multiblock needs a frame of &aTurbine Casings&r, with the bottom face filled with &aStructural Glass&r or more &aCasings&r."
+		""
+		"&bTurbine Rotors&r are stacked on the centre block at the bottom, with two &3Turbine Blades&r applied to each."
+		""
+		"Only &aStructural Glass&r, &3Turbine Valves&r, and &aCasings&r can fill in the faces up to the top of the rotors."
+		""
+		"{image:ftb:textures/quests/mekanism/turbine1transp.png width:100 height:100 align:center}"
+		"{@pagebreak}"
+		"The &3Rotational Complex&r goes above the rotors, and surrounded by &2Pressure Dispersers&r to close off the multiblock's bottom section."
+		""
+		"&dElectromagnetic Coils&r go above the complex, at least one must touch it, and all must be connected if using more than one."
+		""
+		"&3Saturating Condensers&r can then fill in the remaining space depending on how much water needs to be recycled."
+		""
+		"{image:ftb:textures/quests/mekanism/turbine2transp.png width:100 height:100 align:center}"
+		"{@pagebreak}"
+		"The remaining empty spaces can now be filled with &aGlass&r, &aCasings&r, or &2Turbine Vents&r. The multiblock only needs 1 &2Vent&r to form, but they help with &7Steam&r flow so the more the better."
+		""
+		"Once formed, the multiblock can be interacted with to check its current rates and status. The &eStats Menu&r can list what parts of the build are limiting the &7Steam&r flow and production rates."
+		""
+		"&dFission Reactor &aSteam Ports&r can export into &aTurbine Valves&r, and &2Turbine Vents&r can export &bWater&r into the &dReactor&r input ports, allowing for a cycle with zero pipes!"
+		""
+		"{image:ftb:textures/quests/mekanism/turbine3transp.png width:100 height:100 align:center}"
+	]
+	quest.3208AF90091D1B6B.quest_desc: [
+		"Using the &aSimple Reforging Table&r, you can now reforge an item with brand new affixes."
+		""
+		"Reforging is not limited to items that already have &bAffixes&r, and can be performed with any valid item, any number of times."
+		""
+		"The &aSimple Reforging Table&r allows you to reforge items up to &9Rare&r rarity. You'll need to upgrade this table if you wish to reforge higher rarity items."
+		"{@pagebreak}"
+		"Reforging Tables have three input slots:"
+		""
+		"The center slot holds the item you wish to reforge; the top-left slot holds the rarity materials for the rarity you would like to reforge with; and the bottom-right slot holds &aSigils of Rebirth&r, which are used as fuel during reforging."
+		""
+		"There is a base cost of experience, sigils, and materials for reforges of each rarity, which can be doubled or tripled if choosing the other two options."
+	]
+	quest.323A230EB571C4CA.quest_desc: [
+		"&aReactors&r are where generating power starts to get serious!"
+		""
+		"These will burn up &6Uraninite&r using &bCoal&r and &cRedstone&r to generate a ton of power."
+		""
+		"&eReactors will not accept water in this pack!"
+		""
+		"To build one, you'll need &a36 Reactor Blocks&r in your inventory. Right clicking to place it down will automatically build out the 3x4x3 structure if it has room."
+		""
+		"&aNote&r: &6Uraninite&r is made in the &aEnergising Orb&r, which requires the &cHeat&r &6World Engine&r upgrade."
+	]
+	quest.32ACE9E47B8A6C87.quest_desc: [
+		"&6Psimetal Exosuit &fis a suit of armour allowing you to seamlessly integrate &bSpell-casting &finto your everyday adventuring!"
+		""
+		"&bThe suits' Spells &fare cast with your &6CAD &fas a focus, so the usual &dCAD limits &fapply."
+		""
+		"Each piece of the &6Psimetal Exosuit &fcan be loaded with &bup to three Spell Bullets &fin a &6CAD Assembler&f, though sadly, some variants don't play well with the suit."
+		""
+		"&fA suit piece remembers the number of times it's successfully cast a &bSpell&f; this count can be accessed from &e&lSelector: Success Counter&r&f."
+		""
+		"{@pagebreak}"
+		""
+		"&fTo select which &bSpell &fto use for a &6suit piece&r, craft an &d&lExosuit Controller&r&f,"
+		""
+		"&fTo use the &dController&f, hold it and press the &bPsi master keybind&r &8(Default Key: c)&r."
+		""
+		"You can use the &2right and left-mouse buttons to cycle&r through &6suit pieces&r."
+		""
+		"Once you've selected the &6suit piece&r you want to configure, choose one of the &bSpell Bullets&f that's displayed the same way you would with your &6CAD&f."
+		""
+		"&fSelecting the empty &cfourth slot&r disables that suit piece completely — &nno Spells will be cast even if its activation criteria are met&r."
+	]
+	quest.32ACE9E47B8A6C87.title: "Psionic Armour!"
+	quest.33A9FF901E2D7725.quest_desc: [
+		"To make most machines in the mod, we'll need &2Steel Casings&r!"
+		""
+		"&eNote&r: Most machines have an internal push/pull limit, which can be bypassed by pipes. If you wish to speed up your production, make sure to utilise pipes."
+	]
+	quest.33E4C81B762892B2.quest_desc: [
+		"&eOritech&r is a tech mod centred around customisable multiblock machines that will change the way you use tech mods!"
+		""
+		"From basic ore processing to setting up &dParticle Accelerators&r, this mod has it all."
+		""
+		"To get started, you'll need some &aRaw Nickel&r as this is the main crafting material for the mod."
+	]
+	quest.3435641A78B90D97.quest_desc: [
+		"A &bDisintegration Module&r can be used on its own to break any existing blocks where the field would generate and drop them into the world as items. When a &bCollection Module&r is also present, the &dprojector&r can place those items into an adjacent chest or other inventory."
+		""
+		"&bStabilisation Modules&r will cause a &dprojector&r to take block items from an adjacent chest/inventory and replace the field with said blocks."
+		""
+		"&bSponge Modules&r affect the &lentire&r space enclosed by a mode's field, evaporating all fluids present within."
+	]
+	quest.34C8824842867F5D.quest_desc: ["The &zMighty Ender Chicken&r has a home on both the North and South parts of the map, specifically in &eEnd&r ring. Rumour has it, the chicken has an impenetrable shield. Perhaps a &bChicken Stick&r might help with that..."]
+	quest.370B05FC62884456.quest_desc: [
+		"The &aSuperheating Element&r is perfect for the core of a heater."
+		""
+		"While it may seem like you have 2 options for the type of heater you choose to make, the &cFuelwood Heater&r can only produce heat via coal or wood, rendering it insufficient to heat your &6World Engine&r."
+		""
+		"The &cResistive Heater&r, however, specialises in converting power directly into heat. It allows for fine-tuning how much power is converted, and generates significantly more heat."
+	]
+	quest.37104662F0BDDE66.quest_desc: [
+		"&eApplied Energistics&r (&eAE2&r) is a highly customisable &bdigital storage mod&r."
+		""
+		"To get started with &eAE2&r, you'll want to first craft a &aFlawless Budding Certus Block&r using the &6World Engine&r. This requires the &aMachine Block&r upgrade."
+		""
+		"&o&7Yes, the reward is for decoration. This is not a bug."
+	]
+	quest.3900E67C8B833980.quest_desc: [
+		"&aArtisan Scrolls&r can be found as loot or from buying them from &zShops&r."
+		""
+		"To learn a &bJewel&r blueprint simply right-click with an &aArtisan Scroll&r in hand."
+	]
+	quest.39ED88D2EF2F617B.quest_desc: [
+		"While equipping yourself with all sorts of &bcurios and baubles&r is a common enough practice, certain choices are shunned. &aBrooches&r allow a few tweaks to this, exchanging one option for another. Among these options are the allowance for new &bRune slots&r."
+		""
+		"Runes are made by inserting the base material into a &aRunic Workbench&r, then applying the amount and type of spirits required."
+		""
+		"Runes provide a wide variety of potent effects: some applying a personal form of &bSpirit Rites&r as performed by &eTotems&r, others providing noticeable stat buffs, and still more that have their own unique traits."
+		"As typical, consult your &eEncyclopaedia&r for more information."
+	]
+	quest.3A59D1773EBD3B8A.quest_desc: [
+		"The &dQuantum Network Bridge&r allows you to connect machines and storages far from your base to your AE2 network, allowing you to automate from afar."
+		""
+		"This is how you can automate the &6World Engine&r!"
+		""
+		"To make this, you'll need to build 2 identical multiblock structures: one connected to your main network, and one connected to the new place you want to build in."
+		""
+		"Each multiblock will consist of &b8 Quantum Rings&r with an &6ME Quantum Link Chamber&r in the centre. To connect the two, you'll need to craft and use a &dQuantum Entangled Singularity&r on each of the Link Chambers to connect them."
+		"{@pagebreak}"
+		"The Quantum Ring only allows 128 channels total from it, no matter which face you connect to. You can also only connect to the 4 Quantum Rings that are adjacent to the Link Chamber, as the corners do not connect."
+		""
+		"&eNote&r: Both sides will need to be chunk loaded to work."
+	]
+	quest.3B9DB4204A7CC6CD.quest_desc: [
+		"The &2Timedoor Marker&r is placed on the ground to mark a specific location in the world."
+		""
+		"Right-clicking it opens an interface that allows you to configure its display name, colour, and access settings."
+		""
+		"The &6Chronomark&r is an upgraded version which allows for more customisation options."
+	]
+	quest.3BFF8EFB5E7186A4.quest_desc: [
+		"The inside of the &6Quantum Computer&r multiblock can be customised using a mix of different blocks, including extra &bQuantum Storage&r."
+		""
+		"&6Quantum Computer Storage&r blocks effectively increase the number of concurrent tasks the multiblock can handle at once."
+	]
+	quest.3D220672224EDBD7.title: "A World of Colour"
+	quest.3D239E5AD486D419.quest_desc: [
+		"If we want to play with &cDemons&r, we'll need a way to summon them with rituals. To do this, we need &aChalk&r."
+		""
+		"&aChalk&r is used to draw glyphs for your &bRituals&r. You will come across many different coloured &aChalks&r as you progress through &eOccultism&r."
+		""
+		"By combining &aOtherworld Ashes&r and &aBurnt Otherstone&r, you can craft an &7Impure White Chalk&r, which can be thrown into &aSpirit Fire&r to purify it into &aWhite Chalk&r."
+		""
+		"Chalk is pretty hard to scrub off of the ground. You can use a &aChalk Brush&r to get rid of any misplaced glyphs."
+	]
+	quest.3E2C26828FF869F3.quest_desc: [
+		"For our first &bRitual&r, we're going to summon a &7Foliot Crusher&r using the &bAviar's Circle Pentacle&r."
+		""
+		"The easiest way to do this is to navigate to the &bPentacles&r tab in your guidebook, then find &bAviar's Circle&r. On the right side, you should see a render of it with an &beye icon&r in the bottom right."
+		""
+		"Clicking this will allow you to place a &bhologram&r to help you create the pentacle!"
+		"{@pagebreak}"
+		"Once you've drawn and completed the layout of the &bPentacle&r, you can place down 4 &aSacrificial Bowls&r anywhere within 8 blocks of the &2Golden Sacrificial Bowl&r."
+		""
+		"You might notice that most &bPentacles&r have the perfect spot for these!"
+		""
+		"Next, you'll place down the items needed in the &aSacrificial Bowls&r, then place in the &aBook of Binding: Foliot (Bound)&r into the centre &6Golden Sacrificial Bowl&r."
+		""
+		"Once all items are in place, you can right click the Golden Sacrificial Bowl and start the ritual!"
+		"{@pagebreak}"
+		"The items inside the bowls will be consumed until there are none left, at which point the &7Foliot Crusher&r will appear next to the &aGolden Sacrificial Bowl&r."
+		""
+		"Like all other &bCrushers&r, the &7Foliot Crusher&r will grind down items into dust, providing 2x the output."
+		""
+		"The Crusher is also needed to create the next colour of Chalk we'll need!"
+	]
+	quest.3EB56937CCDFCB2A.quest_desc: [
+		"&bCasts&r are used to shape your metals for tools, weapons and armour, or ingots and other forms. They are created by pouring &3Molten Steel&r onto an item of similar shape."
+		""
+		"You can select which fluid gets poured out by selecting it within the &aController&r, then simply click a drain with the &2Casting Basin&r below to get out your material."
+		""
+		"&7&oThis process can be automated with redstone."
+	]
+	quest.4032C8BD158D1776.quest_desc: [
+		"&dWarp Scrolls&r from &6Ars Nouveau&r have two different uses."
+		""
+		"When Sneak + Right-clicked, the scroll will store your location data for future use. The scroll can used to teleport you back to that spot, consuming the scroll."
+		""
+		"Instead, you can create a portal frame out of &aSourcestone&r and throw the scroll in to create a one-way portal!"
+		""
+		"&eNote&r: &aWarp Scrolls&r require the &bTwilight Forest&r &6World Engine Upgrade&r to craft."
+		"{@pagebreak}"
+		"&dStabilised Warp Scrolls&r can also be used to store your location, then when used on a block, it opens up a temporary portal for you."
+	]
+	quest.4111541EAEF0E4FC.quest_desc: [
+		"The &dQuantum&r armour provides netherite-tier protection, with the ability to be upgraded with a variety of &bModules&r via a keybind."
+		""
+		"The &eOpen Quantum Armour Configuration&r key isn't bound by default."
+	]
+	quest.4111541EAEF0E4FC.title: "&dQuantum &fArmour"
+	quest.4194F3C176E50B7B.quest_desc: [
+		"&dThe Edge of Deliverance&r:"
+		"&7A strike to weaken, a strike to fell"
+		""
+		"&dThe Weight of Worlds&r:"
+		"&7The random blows of life, each end aiding the downfall of another"
+		""
+		"&dThe Erosion Sceptre&r:"
+		"&7Struggle made manifest, every smite further and further smothering the soul"
+	]
+	quest.41F048EAE6949163.quest_desc: [
+		"&6Ars&r has several options for magical gear."
+		""
+		"To make these magical sets, you will need to find &aMagebloom Seeds&r from chests in the &dArcane Grove&r to get started. This will grow into &aMagebloom&r, which can be used to craft all types of gear, and even &dSpell Parchments&r!"
+		""
+		"Gear can be altered in the &aAlteration Table&r to install upgrades in the form of &dThreads&r."
+		"{@pagebreak}"
+		"Threads can be crafted and then inscribed onto armour using the &3Alteration Table&r. To use it, place the armour you'd like to alter onto the stand on the table. The tablet on the table will then show you the available Thread Slots it has, and you can right click a Thread on the tablet to add it to the armour. Now you can just remove your armour!"
+		""
+		"If you want to remove a thread, place the armour onto the table and interact with the display with an empty hand."
+		""
+		"If you want to upgrade the tier of your mage gear for more thread slots, you can use the &dEnchantment Apparatus&r."
+	]
+	quest.41F048EAE6949163.title: "&dArs Armour"
+	quest.427682661459BB4F.quest_desc: [
+		"&cQuanta&r adds randomness to your enchanting rolls, and at max chaos, you will end up with either +100% or -100% power."
+		""
+		"&eStabilisation&r cancels out the negative effects, meaning you get all the upside, and none of the downside."
+	]
+	quest.42CE9840EED6B540.quest_desc: [
+		"Our new friend should make it easy for us to make &eCrushed Endstone&r, but before we continue, it's important to understand more about &bRituals&r and &bPentacles&r! "
+		""
+		"In short, a &bPentacle&r is a formation of glyphs, bowls, and stabilisers placed around the &aGolden Sacrificial Bowl&r."
+		""
+		"A &bRitual&r is the act of offering items to summon a &bSpirit&r from &9The Otherworld&r."
+		""
+		"There are 4 different types of &bPentacles&r, and each can be upgraded as you progress."
+		""
+		"This means that you only need four 19x19 areas to set up all 4 types of &bPentacles&r!"
+		"{@pagebreak}"
+		"Rituals are mainly split into four categories: &aBinding&r, &aPossession&r, &aFamiliar&r, and &aSummoning&r."
+		""
+		"Your &aAviar's Circle&r &bPentacle&r is considered a &aSummoning Pentacle&r."
+		""
+		"The next upgrade for it is &cOphyx's Calling&r, which allows you to summon &cDjinni&r."
+		"{@pagebreak}"
+		"Your next step will be to acquire new colours of &aChalk&r, as higher tier pentacles require them."
+		""
+		"With this knowledge, you should be ready to conquer the Occultism mod!"
+	]
+	quest.456030ECDFA9CE3B.quest_desc: [
+		"&bReactor Heat Absorbers&r remove a fixed amount of heat from all neighbouring components making it more efficient when surrounded by components that need to be cooled."
+		""
+		"It requires a constant supply of coolant in the form of ice (or blue/packed ice), which can be inserted via the &bCoolant Port&r above the &bAbsorber&r stack."
+		""
+		"The amount of coolant used is fixed, and does not increase with more sides being cooled. Each tick, 16 units of heat are removed from each neighbour."
+		""
+		"A &bReactor Coolant Port&r must be placed on the outer ceiling of the &dReactor&r, with &bHeat Absorbers&r beneath it."
+	]
+	quest.496903AB7E8A0A92.quest_desc: [
+		"&eIron's Gems \\&\\ Jewellery&r is a mod that focus on combining materials and &bJewels&r to provide the player with special effects or stat increases."
+		""
+		"You will need to craft a &aJewelcrafting Station&r to begin making some basic &bJewellery&r."
+		""
+		"To learn more advanced &bJewellery&r, you will need to find their blueprints by trading with villagers, or making a purchase from the &6Shop&r."
+		""
+		"Most &bJewellery&r consists of a &aBand Material&r and a &aGem&r."
+	]
+	quest.496903AB7E8A0A92.title: "&eIron's Gems \\&\\ Jewellery&f!"
+	quest.49B8310D0C7A6C55.quest_desc: [
+		"The &3Fissile Fuel&r needed to run &dFission Reactors&r is made by processing &eSulfur&r, &7Fluoride&r, and &2Uranium&r with some water products. It seems complicated but, unlike in real life, it is easier than it seems."
+		""
+		"First, use &eSulfuric Acid&r to break down &7Fluorite&r into &9Hydrofluoric Acid&r in a &2Chemical Dissolution Chamber&r."
+		"{@pagebreak}"
+		"Second, enrich &aUranium&r ingots into &6Yellow Cake Uranium&r, before oxidising it into &6Uranium Oxide&r."
+		""
+		"Finally, combine the &9Hydrofluoric Acid&r and &6Uranium Oxide&r in a &aChemical Infuser&r before piping it into an &2Isotopic Centrifuge&r to produce &3Fissile Fuel&r."
+		""
+		"&eTip&r: &7Fluorite&r blocks take about as much &eSulfuric Acid&r to break down as a single &7Fluorite Crystal&r, but produce as much &9Hydrofluoric Acid&r as nine &7Crystals&r, saving on &eSulfur&r!"
+	]
+	quest.4C78823B3EFA3105.quest_desc: [
+		"The &dEnchanting Apparatus&r is basically the crafting table of Ars. It uses nearby items placed on &aArcane Pedestals&r to create new items, make enchantments, or upgrade Mage Armour later on."
+		""
+		"To function, the Apparatus needs an &3Arcane Core&r placed underneath it. It also needs several &aArcane Pedestals&r placed within 3 blocks from the Apparatus. The number of pedestals needed depends on the recipe!"
+		""
+		"Some recipes also require &dSource&r, which means you'll need &aSource Jars&r placed within 3 blocks as well. "
+	]
+	quest.4D1EBD92C674531E.quest_desc: [
+		"Applying five arcane spirits at the totem pole and activating it will invoke &bThe Unchained Rite&r."
+		""
+		"Pure archaic potential bursts through a wide local area, focusing through the organic totem to &ccorrupt&r all sorts of natural material into blighted forms, including the totem pole itself as the original form cannot handle the raw energies."
+		"{@pagebreak}"
+		"The process becomes stable afterwards, an activated &aSoulwood Totem&r now more steadily channelling the energy to transmute materials placed on &aBlighted Earth&r in an extremely useful process."
+		""
+		"The same cannot be said of resulting &aSoulwood Saplings&r however, which reproduces this rush of blight whenever they mature. Controlled cultivation is advised, if any."
+	]
+	quest.4D55D9FBE06DAA46.quest_desc: [
+		"If you want to infuse your weapons, armour, and spell books with even more power, one of the best options is crafting some &3Upgrade Orbs&r."
+		""
+		"These Orbs are created by combining an &aEmpty Upgrade Orb&r with 8 &3Runes&r."
+		""
+		"To add the Upgrade Orb to your equipment, use the &dArcane Anvil&r. Up to 3 Orbs can be applied per equipment piece."
+	]
+	quest.4E474C940C683371.quest_desc: [
+		"The &6Draconic Reactor&r is the ultimate energy generator, capable of producing hundreds of millions of RF/t with the correct setup. &cThis Reactor can explode!&r"
+		""
+		"To start setting one, place the &6Reactor Core&r in the centre with the &aStabilisers&r up to 5 blocks away from it each in a separate direction, and the &2Injector&r above or below it."
+		""
+		"To fuel the Reactor, you must provide it with &6Awakened Draconium&r (max 8 blocks at a time) and a massive amount of energy: the more energy you provide, the more energy it'll produce."
+		""
+		"&7&oMore information on the next page ->"
+		"{@pagebreak}"
+		"{image:ftb:textures/quests/draconic_evolution/reactor_ui_charge.png width:150 height:133 align:center}"
+		"Before you can power on your reactor, you'll be met with this interface, and you'll need to know what's what to avoid a Reactor meltdown that will nuke everything within 500 blocks."
+		""
+		"We'll go over the interface, from left to right, on the next page ->"
+		"{@pagebreak}"
+		"- Core Temperature: Requires at least 2000°C to Activate the Reactor. A temperature of 8000°C or higher will begin heating up the core exponentially, increasing the chance of a meltdown occurring."
+		""
+		"- Containment Field Strength: Controls the protection around the core. If this reaches 0 the Reactor will explode. The lower this value the more power you can make."
+		""
+		"- Energy Saturation: Increases as it absorbs more energy and reduces when you pull out energy. The higher the saturation the lower the generation rate. Higher Saturation also increases temperature"
+		""
+		"- Fuel Conversion: How much fuel you have left and how much has been converted into energy (how much fuel is spent per tick to keep the reactor going). A perfectly balanced reactor burns nothing per tick. The Longer it stays balanced the longer it'll maintain its temperature."
+		""
+		"&7&oMore on the next page ->"
+		"{@pagebreak}"
+		"Once everything is in place and you've provided fuel to your Reactor, you can safely hit \"Charge\" to start the Reactor."
+		""
+		"First, it'll change the Containment Field and Energy Saturation to 50%, then start heating up to 2kC. At this point it'll give you the option to Activate the reactor. If all goes well, nothing blows up."
+		""
+		"Your \"Active\" interface should look something like this:"
+		"{image:ftb:textures/quests/draconic_evolution/reactor_ui_activate.png width:188 height:166 align:center}"
+	]
+	quest.511B01F40006FC4B.quest_desc: [
+		"&zInfinity Tools&r are unbreakable tools that can instantly break blocks."
+		""
+		"The &zPickaxe&r and &zShovel&r can be 'Shift + Right-Clicked' to toggle modes, instantly vaporising large areas of your world."
+	]
+	quest.51EBCDC63A047562.quest_desc: [
+		"There are 3 sets of armour available through &eMalum&r."
+		""
+		"&aSoulhunter Armour&r provides slightly more than leather-tier protection."
+		""
+		"&bSoulstained Armour&r provides diamond-tier protection."
+		""
+		"&dMalignant Stronghold Armour&r provides netherite-tier protection."
+	]
+	quest.51EBCDC63A047562.title: "&eMalum &fArmour"
+	quest.5388B67410670702.quest_desc: [
+		"[\"\", {\"text\": \"Draconic\", \"color\": \"gold\"}, \" weapons are upgraded versions of \", {\"text\": \"Wyvern\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C141655079AC173\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Wyvern Weapons Quest\"}}, \" weapons, with room for more \", {\"text\": \"Upgrade Modules\", \"color\": \"green\"}, \" and better customisability.\"]"
+		""
+		"You can also craft the &6Draconic Staff of Power&r, an All-In-One tool and weapon."
+		""
+		"Their module inventory can be accessed via the keybind &eTool Modules&r, which isn't bound by default."
+	]
+	quest.56E9C123DD727E46.quest_desc: [
+		"The &eInterdiction Matrix&r has 8 slots available for &bModules&r that work off the registration and rights defined in a system's &aBiometric Identifier&r."
+		""
+		"&bWarning Modules&r will increase the additional warning range of the &eMatrix&r by 1 block/module. By default, there is a 3 block radius beyond the range of other &bmodules&r that alerts unregistered players that they may be affected by the &eMatrix's&r actions. This is the only module that has a stacking effect."
+		""
+		"&bBlock Access Modules&r prevent interaction with levers, machines, and the like for players without the right to bypass it."
+		""
+		"&bBlock Alter Modules&r act similarly to the above module, but disallow the breaking and placement of blocks altogether."
+		""
+		"{@pagebreak}"
+		"&bConfiscation Modules&r can be &4very nasty&r in multiplayer. Using the other 9 slots in the &eMatrix&r, up to 9 items can be selected to take from or leave in the inventory of unregistered players, with anything taken being dropped at the &ematrix&r or placed in adjacent inventories. This applies to armour as well. &4Be mindful&r when using this on normally &afriendly&r servers..."
+		""
+		"&bAnti-Friendly&r, &b-Hostile&r, and &b-Personnel Modules&r will cause the matrix to kill animals, hostile creatures, and unregistered players respectively with extremely high damage."
+		""
+		"An &bAnti-Spawn Module&r will prevent any and all mobs from spawning in the working radius of the &ematrix&r."
+	]
+	quest.57ED7DBAC5E8C5BE.quest_desc: [
+		"The &dEnergised Induction Matrix&r from &eMekanism&r is the ultimate way to store tons of power!"
+		""
+		"This is a custom multiblock structure that can be built up to 18x18x18 for all of your power storage needs. It only requires 1 &aInduction Cell&r, 1 &aInduction Provider&r, and &aInduction Ports&r to pull and push power out."
+		"{@pagebreak}"
+		"To build this, the smallest structure that can be made is a 3x4x3 multiblock. The frame must be made up of &aInduction Casings&r, and the faces can be &aStructural Glass&r or &aInduction Ports&r."
+		""
+		"Inside of the structure, you'll place down your &aInduction Cells&r and &aProviders&r. Providers determine how fast the Matrix can push or pull power, whereas the Cells determine the maximum amount of power that can be stored. You can mix and match however many you want of each, as long as it is placed inside of the structure."
+		"{@pagebreak}"
+		"&aInduction Ports&r can be configured to input or output power by sneak-using a &aConfigurator&r on them. I suggest on using at least 2 for your first Matrix!"
+	]
+	quest.57ED7DBAC5E8C5BE.title: "&fThe &dEnergised Induction Matrix"
+	quest.58DDBF43D54AF67F.quest_desc: ["&eMalum&r weapons often have special abilities that synergise very well with other features of the mod, dealing significant amounts of damage."]
+	quest.5A04F7A95366D15F.quest_desc: [
+		"Reconstructing diamonds into &bDiamatine&r is only the first step into creating the core for the &cAdvanced Machine Blocks&r."
+		""
+		"This core needs to allow power to flow through it properly. Using an &bEmpowering Setup&r, you should be able to empower diamonds for this exact purpose."
+		""
+		"&eNote&r: The setup requires an &aEmpowerer&r connected to power as the centre of the setup, with 4 &2Display Stands&r two blocks away from each side of the &aEmpowerer&r."
+	]
+	quest.5B7448EEC26FF0E3.quest_desc: [
+		"The &aCooking Table&r is the first big craft you'll want to make to get started making your kitchen!"
+		""
+		"This block acts as the main crafting table for foods, and is the centrepiece of your &aKitchen Multiblock&r. When opened, it will show you every food you can make based on what you have stored in the multiblock and what appliances you have connected."
+		""
+		"You can expand your kitchen by adding &aCabinets&r or &aCounters&r."
+		""
+		"&eNote&r: Certain mods won't connect with it, like the &bFarmer's Delight Cooking Pot&r. Make sure to always check JEI for specific recipes! "
+	]
+	quest.5CD7299E8709E7F6.quest_desc: [
+		"The &aWorker Token&r that the villager converted into was just an example of what the &aEcho Encoder&r can do."
+		""
+		"If you encode villagers with specific jobs, you can put them to work for you in an &2Unearther&r."
+		""
+		"This is a 3x3x3 block that allows you to automate block brushing. All it requires is a little Villager labour!"
+		""
+		"&o&7The Unearther supports automatic item input and output via hoppers and pipes."
+	]
+	quest.5D7BABE1A37EC6D3.quest_desc: [
+		"Where &eMalignant Weapons&r &oseemed&r to have some will, weapons made with Fused Consciousness leave no room for doubt."
+		""
+		"The &6Sundering Anchor&r continues to attack after you swing, not yet finished with your foe."
+		"Using the blade unleashes it, sending it out to gleefully attack anything it can in a large area repeatedly before returning, striking deep into their souls."
+		"&7Aside from you, of course. Who else would wield it?&r"
+		""
+		"The &6Unwinding Chaos&r sears every foe it affects with magical fervour, the staff sapping energy from the flames it caused to regain the hexing charges used to create them."
+		"&7You don't want it to be over after all do you? Not yet, at least.&r"
+	]
+	quest.5DF92F096DB91299.quest_desc: ["The &dMeka-Tool&r is a power-consuming tool that can be upgraded and customised in a &aModification Station&r with a variety of &bModules&r to improve its performance.&r"]
+	quest.5E2F4A6147694D5C.quest_desc: [
+		"[\"\", {\"text\": \"Chaotic\", \"color\": \"rainbow\"}, \" tools are the final upgrades to \", {\"text\": \"Draconic\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11A35E8F97ACA240\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Draconic Tools Quest\"}}, \" tools, with the most room for \", {\"text\": \"Upgrade Modules\", \"color\": \"green\"}, \" and maximum customisability.\"]"
+		""
+		"You can also upgrade into or craft the &zChaotic Staff of Power&r, an All-In-One tool and weapon."
+		""
+		"Their module inventory can be accessed via the keybind &eTool Modules&r, which isn't bound by default."
+	]
+	quest.5E3A4A3F00FDDEC0.quest_desc: [
+		"The &aArcane Anvil&r will quickly become your best friend when using this mod."
+		""
+		"This anvil can be used to &bupgrade spells, equipment,&r and even &bimbue spells onto your gear!&r"
+		""
+		"Have a favourite spell but it's rather weak? Upgrade it using higher tier inks using the &aArcane Anvil&r!"
+	]
+	quest.5ED10C54AE06DB40.quest_desc: [
+		"&zInfinity Armour&r negates all damage to the player and provides jump boost and movement speed."
+		""
+		"&eNote&r: You will need the entire set to prevent damage."
+	]
+	quest.5ED10C54AE06DB40.title: "&zInfinity Armour"
+	quest.5FD42392FCECCB47.quest_desc: [
+		"With the power of &dEnderic Lasers&r, you can focus the laser to mine Amethyst Clusters to get &dFluxite&r."
+		""
+		"Using the laser on a Budding Amethyst will energise it and increase its growth rate."
+		""
+		"&dFluxite&r is used to make &dFlux Gates&r."
+	]
+	quest.5FFC80176D33E4E1.title: "ProjectE Armours"
+	quest.60BBE214131DF6EB.quest_desc: [
+		"Once you have a Data Model for a mob, you'll need to level it up to at least the &aBasic&r tier by killing that type of mob."
+		""
+		"When provided with a &2Prediction Matrix&r and power, the &aSimulation Chamber&r will run simulations as if you were killing that specific mob."
+		""
+		"If the simulation fails, you'll get a &bGeneralised Prediction&r. If it succeeds, you'll get that mob's &6Prediction&r."
+		""
+		"This &6Prediction&r can be run through a &dLoot Fabricator&r to create loot!"
+	]
+	quest.61B948F3E526ADF9.quest_desc: [
+		"With the right combination of ingredients placed into a &aSoulbinding Brazier&r, semi-permanent &bOaths&r (also known as Geasa, singular: Geas) can be sworn on one's soul that change your experience in ways from minor to drastic."
+		""
+		"Some examples are providing &2innate armour&r at the cost of &onever&r wearing any, or making you a &3titan of the sea&r, but &oonly&r when in water..."
+		""
+		"Check &eMalum's Encyclopaedia&r to see the conditions of these various Oaths."
+		"Check the next page for details on the Oath-making process."
+		"{@pagebreak}"
+		"To use the &aBrazier&r, the central item outlined in the &eEncyclopaedia&r must be inserted first. From there, the spirits and additional materials can be applied. Once the &bOath&r is prepared, use &eEther&r on the brazier to light it and begin the Oath."
+		""
+		"The Oath process will take a few dozen seconds, and any willing player may interact with the Brazier to accept the Oath at this time at the cost of a little damage, with each player able to take on two Oaths at once."
+		""
+		"&o&7Unwilling, or unwitting, players and creatures can be included into Oaths by applying weakness to them before lighting the Brazier."
+		""
+		"To end the effects of an Oath, this process can be repeated with a &eParacasual Flame&r lighting the &aBrazier&r instead."
+	]
+	quest.64B237B611F88036.quest_desc: [
+		"&dEclipse Alloy&r is the final tier from &6Just Dire Things&r."
+		""
+		"These are powered armours that can use the best upgrades from the mod."
+		""
+		"These can be made once you've defeated the &dChicken Jockey&r and made &dShadowpulse Goo&r. "
+	]
+	quest.64B237B611F88036.title: "&dEclipse Alloy &fArmour"
+	quest.652650C157E16712.quest_desc: [
+		"One obvious use of &bSpirit&r is to make equipment from it. Infusing it into cloth provides a fine base to use the Spirit's properties."
+		""
+		"A &aSoulwoven Pouch&r can help you when gathering Spirits by funnelling Spirits and certain other drops into itself before they'd touch its holder’s inventory, up to 8 stacks worth. The pouch can be used to dump its contents into the world, or used in the inventory to pull out sets of items at a time."
+	]
+	quest.663460DE8AF7E464.quest_desc: [
+		"The &aCircuit Fabricator&r is a multiblock that creates processors for all of your network parts and technology. These do require power but can accept regular FE power from other modded sources."
+		""
+		"To create the multiblock, you will need a &dMysterious Cube&r. This can be purchased from the &6Machinist&r, or traded from a &dWandering Trader&r or &aFluix Researcher&r. Along with some &dBlue Sheetmetal&r and &dVibrant Quartz Glass&r"
+		""
+		"{@pagebreak}"
+		"The &aCircuit Fabricator&r utilises the same dimensional parallaxing as the world engine and is able to process up to 16 recipes at once! You can overclock the fabricator by placing up to 10 &dAcceleration Cards&r into its upgrade slot. Fully upgraded this machine has the potential to consume A LOT of power!"
+	]
+	quest.664F7957756D84FF.quest_desc: [
+		"No matter what kind of spell school you choose to use, there is an armour set just for you."
+		""
+		"To make these, you'll need to make &dArcane Cloth&r first. Combine several pieces of the cloth with a &aRune&r, and you can make some of the strongest mage armour!"
+	]
+	quest.674AFF1CFDE5886F.title: "Armourer"
+	quest.6B584FB6F2EEBCD0.quest_desc: [
+		"&dArcane Essence&r can be useful in making your first magic armour set from &6Iron's Spells&r."
+		""
+		"When combined with a piece of leather armour, it creates a piece of the &aWandering Magician Set&r."
+		""
+		"Once you have a good bit of essence, you can create the &dWizard&r set using &dArcane Cloth&r."
+		""
+		"These are both great starting sets for slinging spells."
+	]
+	quest.6B584FB6F2EEBCD0.title: "&eIron's Spells &fBasic Armour"
+	quest.6BCA2ED05C7D9D4E.quest_desc: [
+		"The rejection of magic, when properly isolated from the mage wearing it, provides a powerful defence."
+		""
+		"Magic attacks and boons alike are partially absorbed by the &5Malignant Stronghold&r, used to further fuel the armour's integrity and warding capabilities."
+		""
+		"&7The more they fight, the closer their end approaches."
+	]
+	quest.6BCA2ED05C7D9D4E.title: "&6Malignant Armour"
+	quest.6C4441CC63BC7603.quest_desc: [
+		"The &cThermal Evaporation Tower&r is a multiblock that heats up the liquid inside of it to create a new liquid. For this, we'll be making &eBrine&r from &9Water&r."
+		""
+		"To make this, you'll need a minimum of 53 Thermal Evaporation Blocks, 3 Valves, and 1 Controller. Once you have those, let's learn how to build it!"
+		"{@pagebreak}"
+		"The &cThermal Evaporation Tower&r multiblock is built 4 blocks wide and 4 blocks long, with a minimum height of 3 blocks and a maximum height of 18 blocks. Aside from the first layer, the centre is hollow, no matter the height. Think of it like a giant bucket! The frame must also be Thermal Evaporation Blocks, with the Controller and Valves placed on the faces."
+		""
+		"Here is an example of how it might look:"
+		""
+		"{image:ftb:textures/quests/mekanism/thermalevaptower.png width:125 height:100 align:center}"
+		"{@pagebreak}"
+		"To interact with the block, you'll need to place the &aController&r on one of the faces."
+		""
+		"Each &cValve&r is used to pump liquids in and out of the Tower. To make &eBrine&r, you'll need to give it water which can easily be done by using a &aSink&r and some mechanical pipes pumping out of it."
+		""
+		"You'll need another Valve to output the Brine you create, and the 3rd Valve is used to heat up the multiblock. You can make either a &aFuelwood Heater&r or a &cResistive Heater&r to achieve this. Fuelwood burns items like coal, while Resistive Heaters use power instead. 2k is the perfect number for a max size Tower!"
+		""
+		"Once built, you'll see red sparkles indicating that it formed!"
+		""
+		"Pro Tip: You can place the Heater directly on the Valve, so no pipes needed!"
+	]
+	quest.70753CD7045AE9E1.quest_desc: [
+		"&dMalignant Pewter&r is a material made of magic that is inherently counter to the world of magic and creation."
+		"Weapons and armour made from the stuff seem to seek to undo, to end, if not outright destroy."
+		""
+		"&7The greatest tales all told, end with silence."
+	]
+	quest.711E7B6204708BD7.quest_desc: [
+		"&dForce Field Projectors&r consume &3Fortron&r to create a procedurally regenerating area of blocks. It doesn't do much without a &2Mode&r to work from, but it's what makes all the &mmagic&r technology happen!"
+		""
+		"Each change in the interface will cause the &dProjector&r to delete the current projection and rebuild the new one, so be mindful of how often you make changes."
+		""
+		"&7&oLarger Force Fields will negatively affect performance."
+		"{@pagebreak}"
+		"&eMatrix Slots&r accept various &2Modules&r that add to/tweak how the &dProjector&r and shield blocks function, such as making them silent, filling the affected area, or destroying terrain."
+		""
+		"The red &eMode Slot&r in the centre defines the basic shape of the projected area."
+		""
+		"The 12 &eField Slots&r are for &2Scale&r, &2Translation&r, and &2Rotation Modules&r, which help define the area your &dProjector&r will build on each of the three axes: N/S, E/W, Up/Down."
+	]
+	quest.7244348CAB8356E0.quest_desc: [
+		"[\"The \", {\"text\": \"Chaotic Chestpiece\", \"color\": \"rainbow\"}, \" is the final upgrade to the \", {\"text\": \"Draconic Chestpiece\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5388B67410670702\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Draconic Chestpiece Quest\"}}, \", with the most room for \", {\"text\": \"Upgrade Modules\", \"color\": \"green\"}, \" and maximum customisability.\"]"
+		""
+		"Its module inventory can be accessed via the keybind &eTool Modules&r, which isn't set by default."
+	]
+	quest.726891EAC51F5F70.quest_desc: [
+		"To upgrade to the final tier of machine frames, we'll need to extract &bEther Gas&r from the &dWither&r."
+		""
+		"To do this, you'll need the &dFluid Laser Base&r and some &aLaser Drills&r. You might also want to look into making the &dStasis Chamber&r to keep it from exploding!"
+		""
+		"The Laser Base is placed in the centre above the Wither and needs the &aLaser Drills&r and &5Purple Laser Lens&r to work. "
+		"{@pagebreak}"
+		"The &aLaser Drills&r are the main \"work\" machines in this setup. The Drills are placed connecting to either the Laser Base or another Laser Drill."
+		""
+		"The easiest way to place this is by looking directly at the side of the Laser Base, then sneak-right click to place the Drill. The animated face should be pointing to you in placed properly."
+		""
+		"You can open up the interface of one of the Laser Drills to see if it is connected to the base!"
+		"{@pagebreak}"
+		"Inside of the &dFluid Laser Base&r, make sure to place in the &5Purple Laser Lens&r to tell it what type of fluid to extract."
+		""
+		"You'll also need to adjust the &bY Level&r to match up with the Wither. If done properly, you'll start extracting &dEther Gas&r!"
+	]
+	quest.726B56E54CAC971B.quest_desc: [
+		"&aRituals&r will require more than just some symbols drawn on the ground!"
+		""
+		"Each ritual will need several &aSacrificial Bowls&r, which are used to place items that will be sacrificed to perform the ritual. For the first ritual, you will only need four of these."
+		""
+		"The &aGolden Sacrificial Bowl&r is the centrepiece of the ritual &bPentacle&r. This bowl will hold the key item used in the ritual, which is usually a &dBound Book&r."
+		""
+		"For the regular &aSacrificial Bowls&r, the exact placement does not matter as long as they are within 8 blocks of the &aGolden Sacrificial Bowl&r."
+		"{@pagebreak}"
+		"What type of ritual is it if it doesn't require some &eCandles&r! Any vanilla candle will do."
+		""
+		"If you want to get special with it, you can also make &aLarge Candles&r using Tallow."
+		""
+		"To get &aTallow&r, you will need to kill large animals with a &aButcher's Knife&r. Large animals include:"
+		""
+		"- Cows"
+		"- Horses"
+		"- Llamas"
+		"- Pigs"
+		"- Sheep"
+	]
+	quest.7279FFED00B223D7.quest_desc: ["The &aDraconium Core&r is one of the main crafting components in &eDE&r and can be used in some basic recipes for items and &bModules&r used in Draconic Armour and Tools."]
+	quest.73871351B8E5775B.quest_desc: [
+		"If you are more of a spellcaster and want to power up your spells, &6Iron's Spells&r has plenty of options for gearing up."
+		""
+		"There are many different armour sets that provide powerful buffs to different spell schools."
+	]
+	quest.73871351B8E5775B.title: "&eIron's Spells &fElemental Armour"
+	quest.75D3AC9CCA5A82E4.quest_desc: [
+		"&dMechanical Crafters&r are gigantic crafting tables that can be automated in several different ways."
+		""
+		"&aCrafter Slot Covers&r can be used to cover up any slots that are not used in autocrafting. However, you can also use a redstone signal to force-start a crafting recipe."
+		""
+		""
+		"&c&lFTB Notice&r: Due to impact on load times, general crafting is currently disabled. We apologise for the inconvenience."
+	]
+	quest.778A876616D4638E.quest_desc: [
+		"When a redstone signal is applied to a non-straight &aGuide Rings&r, it becomes a switch block. When powered on, it leads particles straight; when powered off, it guides them into the original curved direction. A particle can also enter from the 'other' direction, visualised by the smaller red glass tube, following the path of the white tube, and entering from both the red and white tubes."
+		""
+		"At higher speeds, the particle can't take tight turns. If the last full 90-degree turn is too close, it exits the guided path and shoots out into the world. If the distance between &aGuide Rings&r is too big, or no next &aGuide Ring&r is found, it will also shoot out."
+		""
+		"{@pagebreak}"
+		"A particle's speed can be measured with a &aParticle Accelerator Sensor&r. A comparator can then provide a redstone signal based on the particle's speed."
+		""
+		"The following shows the required speed for each redstone level:"
+		""
+		"&71.&r  0"
+		"&72.&r  10"
+		"&73.&r  50"
+		"&74.&r  75"
+		"&75.&r  100"
+		"&76.&r  150"
+		"&77.&r  250"
+		"&78.&r  500"
+		"&79.&r  750"
+		"&710.&r 1000"
+		"&711.&r 2500"
+		"&712.&r 5000"
+		"&713.&r 7500"
+		"&714.&r 10000"
+		"&715.&r 15000"
+	]
+	quest.77F8CCE971B9B186.quest_desc: [
+		"&eOccultism's&r upgradeable storage system allows you to store your items in a separate dimension of &9The Otherworld&r."
+		""
+		"The &aStorage Actuator Base&r is the first of two parts needed to access your storage dimension."
+		""
+		"This block functions very much like a big shulker box. This means that when breaking the &aDimensional Storage Actuator&r, your items will stay safe inside the block."
+		"{@pagebreak}"
+		"&aStorage Stabilisers&r increase the storage space in the &aStorage Actuator&r."
+		""
+		"Higher tier &aStorage Stabilisers&r provide a bigger storage increase for both items and item types."
+		""
+		"&aStorage Stabilisers&r can be placed up to five blocks away, facing the &aDimensional Matrix&r texture. Check the &aDictionary of Spirits&r for the exact layout."
+		""
+		"Each &aTier 1 Dimensional Storage Stabiliser&r adds 512000 items, and 64 item types, up to four &aStabilisers&r."
+		"{@pagebreak}"
+		"The &aStable Wormhole&r allows access to a Dimensional Storage from a remote destination."
+		""
+		"Shift-click the &aDimensional Storage Actuator&r to link it, then place the &aStable Wormhole&r in the world to use as a remote access point."
+		""
+		"Shift + right-click a &aDimensional Storage Actuator&r with a &cStorage Accessor&r to link them, allowing you to access your items from anywhere in the world, even across dimensions."
+	]
+	quest.7983727D0EE456FD.quest_desc: [
+		"&eJust Dire Things&r (&eJDT&r) is a cool tech mod that despite the name, actually adds some &oimpressive&r and slightly overpowered &2Gadgets&r, &aTools&r and &9Armours&r!"
+		""
+		"&eJDT&r has a very unique mechanic for acquiring its materials."
+		""
+		"It starts by making &bGoo&r which will spread onto other blocks to convert them over time."
+		""
+		"The first &bGoo&r that you'll make is called &aPrimogel Goo&r, which takes only a few basic materials."
+	]
+	quest.7B20023BE78887DA.quest_desc: [
+		"Other mods may add their own types, but &eSimple Magnets&r keeps it...simple. Just craft a &aMagnet&r, activate it with right click, and while it's on your person any items in range will be swiftly pulled to your person to get picked up!"
+		""
+		"The &dAdvanced Magnet&r has a larger range and a filter menu opened by sneak + right clicking."
+		""
+		"Don't want your magnet to pull items in a particular area? Check out the &2Demagnetisation Coils&r!"
+		""
+		"Any items in their range will ignore &aSimple Magnets&r pulling on them."
+	]
+	quest.7B496376BC7B399A.quest_desc: ["&aThe Ender&r is a diamond-tier sword that specialises in beheading your enemies."]
+	quest.7C72E7E48CCA7BB1.quest_desc: [
+		"The &dAdvanced Dislocator&r allows you to store multiple warp points at once. It has infinite uses, but needs to be fuelled by &dEnder Pearls&r to work."
+		""
+		"To fuel it, open up the interface with Ender Pearls in your inventory, then click the + buttons at the bottom of the GUI to add them in as fuel."
+	]
+	quest.7C9B4CE2A2F62096.quest_desc: [
+		"Using the &aPressurised Reaction Chamber&r, we can use Substrates to make &6HDPE Pellets&r. These advanced pellets are used to create many high tier items and machines!"
+		""
+		"To make these, you'll need to combine &6Liquid Ethene&r, Oxygen, and Substrates. From here, you can run them through an Enrichment Chamber to create &6HDPE Sheets&r!"
+		""
+		"Note that it takes LIQUID Ethene, meaning you'll need to create a &aRotary Condensentrator&r to convert it from a gas to a liquid first. Did you pump in the gas already? Use a &aGauge Dropper&r to remove it!"
+	]
+	task.06F0C110F6DF4933.title: "Colour Guide"
+	task.0D2B50FDF033C966.title: "Iron's Armour"
+	task.1464DA1D0A45EF99.title: "Wizard Armour"
+	task.16D5556D98667242.title: "Ferricore Armour"
+	task.251CDFF26C59DD32.title: "Dark Matter Armour"
+	task.293421D07539E14B.title: "Any wizard armour"
+	task.36E4280D3F1F4D95.title: "&bCelestigem Armour"
+	task.52E6F8489C66A549.title: "Soulstained Armour"
+	task.546F475B57F686A3.title: "Red Matter Armour"
+	task.54900CC98541771C.title: "Any Psi CAD Colouriser"
+	task.5A652535811A2B66.title: "Quantum Armour"
+	task.5FFDD210AFD0055D.title: "Specialised Tomes"
+	task.61D894B195259EFE.title: "Netherite Armour"
+	task.623C40B073B6326E.title: "Eclipse Alloy Armour"
+	task.69AAE2EC36ADE0C3.title: "Malignant Armour"
+	task.69C17D93099B4E1D.title: "Wandering Magician Armour"
+	task.72426E00128EBE6D.title: "Soulhunter Armour"
+	task.72566E6107743A29.title: "armour"
+	task.757B783AC8A9410F.title: "Psimetal Armour"
+	task.7695C5FDA30F4196.title: "Blazegold Armour"
+	task.7E02151602B34E2A.title: "Dimensional Storage Stabiliser"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "productivelib:upgrade_base"
+    },
+    "O": {
+      "item": "minecraft:clock"
+    },
+    "S": {
+      "tag": "c:dusts/osmium"
+    },
+    "X": {
+      "item": "productivemetalworks:fire_brick"
+    }
+  },
+  "pattern": [
+    "XOX",
+    "SBS",
+    "XOX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "productivelib:upgrade_time"
+  }
+}

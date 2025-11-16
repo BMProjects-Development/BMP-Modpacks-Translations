@@ -34,22 +34,24 @@ qualityPenaltyPerHit: 0.2
 # Starting quality of a minigame.
 startingQuality: # 0.0 - 10.0
     2.0
-# Determines whether or not losing the minigame unlocks the lock.
+# Determines whether losing the minigame unlocks the lock.
 unlocksAfterLosing: true
 # Clamps the difficulty to this value.
 upperDifficultyClamp: 1.5
-# A collection of valuable tags and its values. If an item doesn't have any of these tags, it will use the base item value above.
-valuableTags:
-    c:storage_blocks: 16.0
-    c:music_discs: 8.0
-    c:ingots: 5.0
-    c:gems: 8.0
-    c:foods/golden: 16.0
-    c:dusts: 1.0
-    c:raw_materials: 4.0
-    c:rods: 6.0
-    c:armors: 2.0
-    c:alloys: 6.0
-    c:tools: 2.0
-    c:ores: 4.0
-    c:circuits: 8.0
+# A collection of valuable items and tags and its values. If an item isn't in the list and doesn't have any of these tags, it will use the base item value above. Item IDs are prioritized over tags.
+valuableItems:
+    minecraft:saddle: 1.25
+    minecraft:name_tag: 1.0
+    '#c:ingots': 5.0
+    '#c:gems': 8.0
+    '#c:storage_blocks': 16.0
+    '#c:ores': 4.0
+    '#c:raw_materials': 4.0
+    '#c:rods': 6.0
+    '#c:alloys': 6.0
+    '#c:circuits': 8.0
+    '#c:dusts': 1.0
+    '#c:foods/golden': 16.0
+    '#c:tools': 2.0
+    '#c:armors': 2.0
+    '#c:music_discs': 8.0

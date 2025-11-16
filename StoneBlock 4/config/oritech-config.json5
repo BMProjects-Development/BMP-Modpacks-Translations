@@ -52,6 +52,7 @@
 	},
 	"generators": {
 		"animationSpeedMultiplier": 10.0,
+		"steamId": "oritech:still_steam",		
 		"basicGeneratorData": {
 			"energyCapacity": 50000,
 			"maxEnergyInsertion": 0,
@@ -73,8 +74,8 @@
 		"fuelGeneratorData": {
 			"energyCapacity": 250000,
 			"maxEnergyInsertion": 0,
-			"maxEnergyExtraction": 16384,
-			"energyPerTick": 2048
+			"maxEnergyExtraction": 32768,
+			"energyPerTick": 8192
 		},
 		"steamEngineData": {
 			"energyCapacity": 1000000,
@@ -82,7 +83,8 @@
 			"rfToSteamRatio": 4.0,
 			"steamToRfRatio": 1,
 			"stopOnEnergyFull": false,
-			"stopOnWaterFull": false
+			"stopOnWaterFull": false,
+			"steamBoilerCapacityBuckets": 128.0			
 		},
 		"solarGeneratorData": {
 			"energyCapacity": 100000,
@@ -123,6 +125,21 @@
 		"moveEnergyUsage": 8,
 		"workEnergyUsage": 64
 	},
+	"addonConfig": {
+		"speedAddonSpeed": 0.5,
+		"speedAddonEfficiency": 1.2000000476837158,
+		"efficiencyAddonEfficiency": 0.800000011920929,
+		"ultimateAddonSpeed": 0.25,
+		"ultimateAddonEfficiency": 1.100000023841858,
+		"chamberAddonEfficiency": 1.5,
+		"burstAddonSpeedMultiplier": 8.0,
+		"burstAddonThrottleMultiplier": 1.2000000476837158,
+		"burstAddonTicks": 240,
+		"addonShrinkerRF": 50000000
+	},
+	"additiveAddons": true,
+	"layeredExtenders": false,
+	"blockBreakHardnessExponentialFactor": 0.5,
 	"smallEnergyStorage": {
 		"energyCapacity": 1000000,
 		"maxEnergyInsertion": 5000,
@@ -198,18 +215,18 @@
 		"chargeSpeed": 512
 	},
 	"chainsawTreeCutting": true,
-	"generateOres": true,
+	"generateOres": false,
 	"easyFindFeatures": true,
 	"safeMode": false,
 	"safeModeCooldown": 2400,
 	"maxSize": 64,
-	"reactorMaxEnergyStored": 50000000,
-	"reactorMaxEnergyOutput": 25000,
-	"rfPerPulse": 640,
+	"reactorMaxEnergyStored": 500000000,
+	"reactorMaxEnergyOutput": 50000000,
+	"rfPerPulse": 9600,
 	"absorberRate": 16,
 	"ventBaseRate": 4,
 	"ventRelativeRate": 100,
-	"maxHeat": 2000,
+	"maxHeat": 4000,
 	"maxUnstableTicks": 400,
 	"boringNukes": false,
 	"enchanterCostMultiplier": 5,

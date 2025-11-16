@@ -74,7 +74,6 @@
 			y: -3.0d
 		}
 		{
-			dependency: "7F7C0B1523AA28C4"
 			height: 1.5d
 			image: "ftb:textures/quests/ars/ars_nouveau_title.png"
 			rotation: 0.0d
@@ -115,7 +114,6 @@
 			y: 1.5d
 		}
 		{
-			dependency: "48005B47655AD525"
 			height: 2.5d
 			image: "ftb:textures/quests/ars/drygmyperch.png"
 			rotation: 0.0d
@@ -124,7 +122,6 @@
 			y: 6.5d
 		}
 		{
-			dependency: "7F7C0B1523AA28C4"
 			height: 1.0d
 			image: "ars_nouveau:block/fire_2"
 			rotation: 0.0d
@@ -133,7 +130,6 @@
 			y: -1.2000000000000002d
 		}
 		{
-			dependency: "7F7C0B1523AA28C4"
 			height: 1.0d
 			image: "ars_nouveau:block/gilded_sourcestone_basketweave"
 			order: -1
@@ -143,7 +139,6 @@
 			y: -0.7000000000000002d
 		}
 		{
-			dependency: "7F7C0B1523AA28C4"
 			height: 1.0d
 			image: "ars_nouveau:block/gilded_sourcestone_basketweave"
 			order: -1
@@ -153,7 +148,6 @@
 			y: -0.7000000000000002d
 		}
 		{
-			dependency: "7F7C0B1523AA28C4"
 			height: 1.0d
 			image: "ars_nouveau:block/fire_2"
 			rotation: 0.0d
@@ -162,7 +156,6 @@
 			y: -1.2000000000000002d
 		}
 		{
-			dependency: "48005B47655AD525"
 			height: 2.0d
 			image: "ftb:textures/quests/ars/scribetable.png"
 			rotation: 0.0d
@@ -238,7 +231,6 @@
 			y: 5.0d
 		}
 		{
-			dependency: "48005B47655AD525"
 			height: 2.5d
 			image: "ars_elemental:item/_glyph_template_form"
 			rotation: 45.0d
@@ -306,6 +298,7 @@
 			color: 0
 			height: 11.0d
 			image: "ftbquests:textures/shapes/square/shape.png"
+			order: -3
 			rotation: 0.0d
 			width: 8.0d
 			x: -12.5d
@@ -358,6 +351,7 @@
 			y: -1.0d
 		}
 		{
+			dependency: "7F7C0B1523AA28C4"
 			height: 1.5d
 			image: "ars_nouveau:block/warp_portal"
 			order: -1
@@ -2103,7 +2097,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["71F25B7D688EE182"]
 			icon: {
 				id: "psi:cad_assembly_psimetal"
 			}

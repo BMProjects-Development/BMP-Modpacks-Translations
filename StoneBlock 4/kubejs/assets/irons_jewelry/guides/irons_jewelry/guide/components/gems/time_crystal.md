@@ -1,7 +1,7 @@
 ---
 navigation:
   title: Time Crystal
-  position: 20
+  position: 21
   icon: "justdirethings:time_crystal"
   parent: irons_jewelry:gems.md
 item_ids:

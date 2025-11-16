@@ -168,11 +168,6 @@ logFoundExploits = true
 		#Determines whether this EMC Mapper is enabled.
 		enabled = false
 
-	#Allows KubeJS ProjectE to function
-	[mappers.KubeJSProjectE]
-		#Determines whether this EMC Mapper is enabled.
-		enabled = false
-
 	#Avaritia EMC Mapper.
 	[mappers.Avaritia-EMC-Mapper]
 		#Determines whether this EMC Mapper is enabled.
