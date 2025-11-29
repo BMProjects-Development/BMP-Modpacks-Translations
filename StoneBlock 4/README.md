@@ -28,4 +28,5 @@
 4. Приятной игры!
 
 ## ❗️Скачать оригинальную версию сборки
-[CurseForge](https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4)
+Нужно установить приложение [FTB](https://feed-the-beast.com/), лицензия не нужна, там установить версию 1.1.0, [ссылка на сайте FTB](https://feed-the-beast.com/modpacks/130-ftb-stoneblock-4/versions?v=100150), ведь на 
+[CurseForge](https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4) нет нужной версии в данный момент
