@@ -215,7 +215,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# The minimum Y value for homes, as set by the /sethome command
 			# Default: -2147483648

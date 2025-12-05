@@ -38,7 +38,7 @@ DEFAULT_INNER_OVERLAY_TYPE = "gradient"
 # 
 # Default: -268435456
 # Range: -Infinity ~ Infinity
-DEFAULT_BACKGROUND_COLOR = -268435456
+DEFAULT_BACKGROUND_COLOR = -872415232
 # Override vanilla tooltips even when no ItemStack is present (e.g., JEI category buttons or unsupported stacks). To disable custom
 # tooltips for specific items, edit your custom_frames.json and set disableTooltip=true for those items (or tags).
 # 

@@ -72,10 +72,10 @@ removeRecipe.push(
   "create:blasting/ingot_lead_compat_mekanism",
   "create:smelting/ingot_lead_compat_mekanism",
   "create:blasting/ingot_uranium_compat_mekanism",
-  "create:smelting/ingot_uranium_compat_mekanism"
-)
+  "create:smelting/ingot_uranium_compat_mekanism",
+);
 
-removeOre.push("create:zinc_ore", "create:deepslate_zinc_ore")
+removeOre.push("create:zinc_ore", "create:deepslate_zinc_ore");
 
 removeItem.push(
   "create:raw_zinc_block",
@@ -92,41 +92,40 @@ removeItem.push(
   "create:brass_ingot",
   "create:zinc_ingot",
   "create:honey_bucket",
-  "create:dough"
-)
+  "create:dough",
+);
 
 ServerEvents.recipes((event) => {
-
   //Manually Removing these Recipes since for some reason placing them
   // In the correct removeRecipe Global is not doing the trick.
   const manual_removals = [
     "create:smelting/zinc_ingot_from_raw_ore",
     "create:smelting/zinc_ingot_from_crushed",
     "create:blasting/zinc_ingot_from_raw_ore",
-    "create:blasting/zinc_ingot_from_crushed"
+    "create:blasting/zinc_ingot_from_crushed",
   ];
 
-  manual_removals.forEach(recipeId => {
-    event.remove({ id: recipeId })
+  manual_removals.forEach((recipeId) => {
+    event.remove({ id: recipeId });
   });
 
   // Loop For Resource Ores
   global.resourceOresIngots.forEach((mod) => {
     mod.materials.forEach((material) => {
-      const oreTag = `${global.tagPrefix}:ores/${material}`
-      const crushedTag = `create:crushed/${material}`
-      const ingotTag = `${global.tagPrefix}:ingots/${material}`
-      const dust = `ftbmaterials:${material}_dust`
+      const oreTag = `${global.tagPrefix}:ores/${material}`;
+      const crushedTag = `create:crushed/${material}`;
+      const ingotTag = `${global.tagPrefix}:ingots/${material}`;
+      const dust = `ftbmaterials:${material}_dust`;
       const ingot = ["iron", "gold", "copper"].includes(material)
         ? `minecraft:${material}_ingot`
-        : `ftbmaterials:${material}_ingot`
+        : `ftbmaterials:${material}_ingot`;
 
       const nugget =
         material === "copper"
           ? "ftbmaterials:copper_nugget"
           : ["iron", "gold"].includes(material)
           ? `minecraft:${material}_nugget`
-          : `ftbmaterials:${material}_nugget`
+          : `ftbmaterials:${material}_nugget`;
 
       // Stop issue with MI stuff being missing
       if (material !== "antimony" && material !== "iridium") {
@@ -135,11 +134,11 @@ ServerEvents.recipes((event) => {
           event,
           crushedTag,
           [[nugget, 9], getCreateOutput(material)],
-          `ftb:create/washing/crushed/${material}`
-        )
+          `ftb:create/washing/crushed/${material}`,
+        );
 
         // Crushed -> Ingots
-        addOreProcessingRecipes(event, `#${crushedTag}`, ingot, material, "create", 200)
+        addOreProcessingRecipes(event, `#${crushedTag}`, ingot, material, "create", 200);
       }
 
       // Ore -> Crushed
@@ -149,42 +148,42 @@ ServerEvents.recipes((event) => {
         [
           [`create:crushed_raw_${material}`, 2],
           [`create:crushed_raw_${material}`, 1, 0.25],
-          ["create:experience_nugget", 1, 0.75]
+          ["create:experience_nugget", 1, 0.75],
         ],
-        `ftb:create/crushing/ores/${material}`
-      )
+        `ftb:create/crushing/ores/${material}`,
+      );
 
       // Ingot -> Dust
-      addRecipeCreateCrushing(event, ingotTag, [[dust]], `ftb:create/crushing/ingots/${material}`)
+      addRecipeCreateCrushing(event, ingotTag, [[dust]], `ftb:create/crushing/ingots/${material}`);
 
-      const result = getSecondaryOutput(material)
-      const output = [[dust, 1]]
+      const result = getSecondaryOutput(material);
+      const output = [[dust, 1]];
       if (result) {
         if (global.enableTinyDust) {
-          output.push([`ftbmaterials:${result.material}_tiny_dust`, 3])
+          output.push([`ftbmaterials:${result.material}_tiny_dust`, 3]);
         } else {
-          output.push([nugget, 3])
+          output.push([nugget, 3]);
         }
       }
 
-      addRecipeCreateSplashing(event, `c:clumps/${material}`, output, `ftb:create/washing/clumps/${material}`)
+      addRecipeCreateSplashing(event, `c:clumps/${material}`, output, `ftb:create/washing/clumps/${material}`);
 
       addRecipeCreateSplashing(
         event,
         `c:dirty_dusts/${material}`,
         [[dust, 2]],
-        `ftb:create/washing/dirty_dust/${material}`
-      )
-    })
-  })
+        `ftb:create/washing/dirty_dust/${material}`,
+      );
+    });
+  });
 
   // Loop For Gem Ores
   global.resourcesOresGem.forEach((mod) => {
     mod.materials.forEach((material) => {
-      const gemType = material[0]
-      const oreTag = `${global.tagPrefix}:ores/${gemType}`
-      const outputId = material[2] ?? `${mod.modID}:${gemType}`
-      const outputAmount = material[1] ?? 1
+      const gemType = material[0];
+      const oreTag = `${global.tagPrefix}:ores/${gemType}`;
+      const outputId = material[2] ?? `${mod.modID}:${gemType}`;
+      const outputAmount = material[1] ?? 1;
 
       // Ore -> Gem
       addRecipeCreateCrushing(
@@ -192,44 +191,44 @@ ServerEvents.recipes((event) => {
         oreTag,
         [
           [outputId, outputAmount],
-          [outputId, Math.max(1, Math.floor(outputAmount / 2)), 0.33]
+          [outputId, Math.max(1, Math.floor(outputAmount / 2)), 0.33],
         ],
-        `ftb:create/crusher/ores/${gemType}`
-      )
-    })
-  })
+        `ftb:create/crusher/ores/${gemType}`,
+      );
+    });
+  });
 
   // Loop For Alloys
   global.enabledAlloys.forEach((material) => {
-    const outputType = material.output.id
-    const outputAmount = material.output.amount
-    const input1Type = material.first.id
-    const input1Amount = material.first.amount
-    const input2Type = material.second.id
-    const input2Amount = material.second.amount
+    const outputType = material.output.id;
+    const outputAmount = material.output.amount;
+    const input1Type = material.first.id;
+    const input1Amount = material.first.amount;
+    const input2Type = material.second.id;
+    const input2Amount = material.second.amount;
 
-    const ingotTag = `${global.tagPrefix}:ingots/${outputType}`
-    const dust = `ftbmaterials:${outputType}_dust`
+    const ingotTag = `${global.tagPrefix}:ingots/${outputType}`;
+    const dust = `ftbmaterials:${outputType}_dust`;
 
     // Ingot -> Dust
-    addRecipeCreateCrushing(event, ingotTag, [[dust]], `ftb:create/crushing/ingots/${outputType}`)
+    addRecipeCreateCrushing(event, ingotTag, [[dust]], `ftb:create/crushing/ingots/${outputType}`);
 
     // Plates -> Dust
     addRecipeCreateCrushing(
       event,
       `${global.tagPrefix}:plates/${outputType}`,
       [[dust]],
-      `ftb:create/crushing/plates/${outputType}`
-    )
+      `ftb:create/crushing/plates/${outputType}`,
+    );
 
-    const ingredients = []
+    const ingredients = [];
 
     for (let i = 0; i < input1Amount; i++) {
-      ingredients.push({ tag: `c:ingots/${input1Type}` })
+      ingredients.push({ tag: `c:ingots/${input1Type}` });
     }
 
     for (let i = 0; i < input2Amount; i++) {
-      ingredients.push({ tag: `c:ingots/${input2Type}` })
+      ingredients.push({ tag: `c:ingots/${input2Type}` });
     }
 
     event
@@ -240,41 +239,41 @@ ServerEvents.recipes((event) => {
         results: [
           {
             count: outputAmount,
-            id: `ftbmaterials:${outputType}_ingot`
-          }
-        ]
+            id: `ftbmaterials:${outputType}_ingot`,
+          },
+        ],
       })
-      .id(`ftb:create/mixing/plates/${outputType}`)
-  })
+      .id(`ftb:create/mixing/plates/${outputType}`);
+  });
 
   global.enabledWires.forEach((entry) => {
-    const material = entry[0]
+    const material = entry[0];
     if (entry[2] === false) {
-      return
+      return;
     }
-    const tag = entry[1] ?? `c:plates/${material}`
+    const tag = entry[1] ?? `c:plates/${material}`;
 
-    addRecipeCreateCutting(event, tag, [[`ftbmaterials:${material}_wire`, 2]], `ftb:create/cutting/wire/${material}`)
-  })
+    addRecipeCreateCutting(event, tag, [[`ftbmaterials:${material}_wire`, 2]], `ftb:create/cutting/wire/${material}`);
+  });
 
   global.enabledPlates.forEach((entry) => {
-    const material = entry[0]
+    const material = entry[0];
     if (entry[2] === false) {
-      return
+      return;
     }
-    const tag = entry[1] ?? `c:ingots/${material}`
+    const tag = entry[1] ?? `c:ingots/${material}`;
 
-    addRecipeCreatePressing(event, tag, [[`ftbmaterials:${material}_plate`]], `ftb:create/pressing/plate/${material}`)
-  })
-})
+    addRecipeCreatePressing(event, tag, [[`ftbmaterials:${material}_plate`]], `ftb:create/pressing/plate/${material}`);
+  });
+});
 
 ServerEvents.tags("item", (event) => {
   global.resourceOresIngots.forEach((mod) => {
     mod.materials.forEach((material) => {
-      const itemID = `create:crushed_raw_${material}`
-      event.removeAllTagsFrom(itemID)
-      event.add("create:crushed", itemID)
-      event.add(`create:crushed/${material}`, itemID)
-    })
-  })
-})
+      const itemID = `create:crushed_raw_${material}`;
+      event.removeAllTagsFrom(itemID);
+      event.add("create:crushed", itemID);
+      event.add(`create:crushed/${material}`, itemID);
+    });
+  });
+});

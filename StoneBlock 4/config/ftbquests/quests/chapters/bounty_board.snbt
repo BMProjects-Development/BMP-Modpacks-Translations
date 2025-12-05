@@ -1655,13 +1655,10 @@
 			shape: "square"
 			size: 1.5d
 			tasks: [{
-				entity: "fdbosses:malkuth"
-				icon: {
-					id: "fdbosses:malkuth_trophy"
-				}
-				id: "32463C2AE2B4F13B"
-				type: "kill"
-				value: 1L
+				consume_items: true
+				id: "15ABCBF9042647FD"
+				item: { count: 1, id: "fdbosses:malkuth_trophy" }
+				type: "item"
 			}]
 			x: 4.0d
 			y: 3.0d

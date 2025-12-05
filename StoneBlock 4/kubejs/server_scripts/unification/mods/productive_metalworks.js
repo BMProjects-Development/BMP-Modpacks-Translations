@@ -160,6 +160,22 @@ ServerEvents.recipes((event) => {
 
   event
     .custom({
+      type: "productivemetalworks:block_casting",
+      cast: [],
+      consume_cast: false,
+      fluid: {
+        amount: 810,
+        tag: "c:molten_duratium"
+      },
+      result: {
+        count: 1,
+        id: "oritech:duratium_block"
+      }
+    })
+    .id("ftb:productivemetalworks/casting/block/duratium")
+
+  event
+    .custom({
       type: "productivemetalworks:item_casting",
       cast: {
         item: "productivemetalworks:ingot_cast"

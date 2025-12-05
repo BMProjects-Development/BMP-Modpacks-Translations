@@ -29,7 +29,9 @@
       "tipsmod:nether_travel",
       "tipsmod:portal_trick",
       "tipsmod:weather_sleep",
-      "tipsmod:west"
+      "tipsmod:west",
+      "tipsmod:wandering_invis",
+      "tipsmod:job_site_dimension"
     ]
   },
   "tip_render_width_percentage": {

@@ -1,5 +1,3 @@
-let $Player = Java.loadClass("net.minecraft.world.entity.player.Player")
-let $FakePlayer = Java.loadClass("net.neoforged.neoforge.common.util.FakePlayer")
 let $SalvagingMenu = Java.loadClass("dev.shadowsoffire.apotheosis.affix.salvaging.SalvagingMenu")
 
 const RANGETYPE = {
@@ -56,7 +54,7 @@ EntityEvents.drops((event) => {
 
   let new_items_list = [];
 
-  if ((actual instanceof $Player) && (!(actual instanceof $FakePlayer))) {
+  if (isEntityRealPlayer(actual)) {
 
   } else {
     event.getDrops().removeIf((item) => {
@@ -72,5 +70,12 @@ EntityEvents.drops((event) => {
     new_items_list.forEach((item)=> {
       event.addDrop(item)
     })
+  }
+})
+
+EntityEvents.spawned(["justdirethings:portal_entity","justdirethings:portal_projectile"], (event) => {
+  if (event.getLevel().isOverworld()) {
+    event.getEntity().discard()
+    event.cancel()
   }
 })

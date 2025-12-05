@@ -238,7 +238,7 @@ const codex_tier_3 = [
   // Very rare / strong
   { weight: 2, entry: "ars_nouveau:glyph_wither" },
   { weight: 2, entry: "ars_nouveau:glyph_intangible" },
-  { weight: 2, entry: "ars_nouveau:glyph_rewind" },
+  { weight: 2, entry: "ars_nouveau:rewind" },
 
   // New Ars Elemental entries, slightly rarer than most existing entries
   { weight: 3, entry: "ars_elemental:glyph_homing_projectile" },

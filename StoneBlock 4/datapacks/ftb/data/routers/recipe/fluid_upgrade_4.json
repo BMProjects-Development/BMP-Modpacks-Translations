@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "strainers",
+  "key": {
+    "A": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "D": {
+      "item": "chicken_roost:ingot_enderium"
+    }
+  },
+  "pattern": [
+    "CAD",
+    "ABA",
+    "DAC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "routers:fluid_upgrade_4"
+  }
+}

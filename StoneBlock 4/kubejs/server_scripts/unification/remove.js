@@ -59,6 +59,18 @@ const removeItem = [
 ]
 
 /**
+ * List of Fluids to fully remove from visibility and functionality.
+ *
+ * Each fluid will:
+ * - Be removed from all tags (fluid)
+ * - Be hidden from JEI
+ * - And its Fluid Bucket will also be hidden from JEI
+ *
+ * @type {string[]}
+ */
+const remFluid = []
+
+/**
  * List of JEI recipe categories to hide from the interface.
  *
  * Each entry is a category ID (e.g., "minecraft:crafting", "mekanism:enriching").

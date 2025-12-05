@@ -1,0 +1,16 @@
+	#.
+	#Fine tune the kinetic stats of individual components
+	[stressValues.v2]
+		#.
+		#The maximum distance a Phlogiport can forward a package, in blocks
+		# Default: 128
+		# Range: 8 ~ 2048
+		"Phlogiport Range" = 128
+
+		#.
+		#.
+		#[in Stress Units]
+		#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
+		[stressValues.v2.impact]
+			mechanical_chamber = 4.0
+			mechanical_pulverizer = 4.0

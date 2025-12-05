@@ -11,7 +11,6 @@ ServerEvents.recipes((event) => {
         },
         {
           item: "minecraft:iron_ingot",
-          count: 2,
         },
       ],
       result: {
@@ -25,9 +24,6 @@ ServerEvents.recipes((event) => {
     .custom({
       type: "create:mixing",
       ingredients: [
-        {
-          tag: "c:ingots/iron",
-        },
         {
           tag: "c:ingots/iron",
         },
@@ -51,7 +47,7 @@ ServerEvents.recipes((event) => {
       ],
     })
     .id("ftb:quartz_enriched_iron_create");
-    event.shapeless('refinedstorage:machine_casing', ['3x refinedstorage:quartz_enriched_iron', 'mekanism:steel_casing']).id('ftb:rs_machine_casing');
-    event.shapeless('4x refinedstorage:quartz_enriched_copper', ['2x minecraft:copper_ingot', 'ae2:certus_quartz_crystal', 'minecraft:redstone']).id('ftb:quartz_enriched_copper');
-    event.shapeless('4x refinedstorage:processor_binding', ['2x minecraft:slime_ball', 'minecraft:clay_ball', ['minecraft:redstone']]).id('ftb:processor_binding');
+    event.shapeless("refinedstorage:machine_casing", ["3x refinedstorage:quartz_enriched_iron", "mekanism:steel_casing"]).id("ftb:rs_machine_casing");
+    event.shapeless("4x refinedstorage:quartz_enriched_copper", ["2x minecraft:copper_ingot", "ae2:certus_quartz_crystal", "minecraft:redstone"]).id("ftb:quartz_enriched_copper");
+    event.shapeless("4x refinedstorage:processor_binding", ["2x minecraft:slime_ball", "minecraft:clay_ball", ["minecraft:redstone"]]).id("ftb:processor_binding");
 });

@@ -584,7 +584,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			id: "6C974CC33C5BADD8"
@@ -729,8 +729,8 @@
 				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.0d
+			x: 2.5d
+			y: 4.0d
 		}
 		{
 			icon: {
@@ -851,7 +851,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 0.5d
 			y: 6.0d
 		}
 		{
@@ -1282,7 +1282,7 @@
 				item: { count: 1, id: "oritech:fuel_generator_block" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 6.0d
 		}
 		{
@@ -1363,7 +1363,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(powah:reactor_starter)item(powah:reactor_basic)item(powah:reactor_hardened)item(powah:reactor_blazing)item(powah:reactor_niotic)item(powah:reactor_spirited)item(powah:reactor_nitro))", "minecraft:custom_name": "\"Powah Reactors\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 6.0d
 		}
 		{
@@ -1675,7 +1675,7 @@
 				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 6.0d
 		}
 		{

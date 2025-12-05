@@ -26,6 +26,12 @@
 	# Default: 1000
 	# Range: > 1
 	item_slot_cycle_time = 1000
+	#How the machine list must be ordered in the machine editor.
+	#Allowed Values: A_Z, Z_A, NEWEST, OLDEST
+	sort_machine_list = "A_Z"
+	#How the upgrade list must be ordered in the upgrade editor.
+	#Allowed Values: ITEM, MACHINE, NEWEST, OLDEST
+	sort_upgrade_list = "ITEM"
 
 [misc]
 	#A list of folder names where CM will load models json. These folders must be under the 'assets/namespace/models' folder.

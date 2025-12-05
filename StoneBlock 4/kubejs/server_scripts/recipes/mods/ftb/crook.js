@@ -124,22 +124,47 @@ const crookRecipes = [
       ["ars_elemental:yellow_archwood_sapling", 1, 0.35],
       ["ars_elemental:flashpine_pod", 1, 0.2]
     ]
+  },
+  {
+    tagged: true,
+    input: "ftb:mushroom_soils",
+    max: 1,
+    outputs: [
+      ["farmersdelight:brown_mushroom_colony", 1, 0.5],
+      ["farmersdelight:red_mushroom_colony", 1, 0.5],
+      ["twilightforest:mushgloom", 1, 0.15]
+    ]
   }
 ]
 
 ServerEvents.recipes((event) => {
   crookRecipes.forEach((recipe) => {
-    event
-      .custom({
-        type: "ftbstuff:crook",
-        input: { item: recipe.input },
-        max: recipe.max,
-        replace_drops: recipe.replace ?? true,
-        results: recipe.outputs.map(([id, amount, chance]) => ({
-          chance: chance,
-          item: { count: amount, id: id }
-        }))
-      })
+    if (recipe.tagged) {
+      event
+        .custom({
+          type: "ftbstuff:crook",
+          input: { tag: recipe.input },
+          max: recipe.max,
+          replace_drops: recipe.replace ?? true,
+          results: recipe.outputs.map(([id, amount, chance]) => ({
+            chance: chance,
+            item: { count: amount, id: id }
+          }))
+        })
       .id(`ftb:ftbstuff/crook/${recipe.input.split(":")[1]}`)
+    } else {
+      event
+        .custom({
+          type: "ftbstuff:crook",
+          input: { item: recipe.input },
+          max: recipe.max,
+          replace_drops: recipe.replace ?? true,
+          results: recipe.outputs.map(([id, amount, chance]) => ({
+            chance: chance,
+            item: { count: amount, id: id }
+          }))
+        })
+      .id(`ftb:ftbstuff/crook/${recipe.input.split(":")[1]}`)
+    }
   })
 })

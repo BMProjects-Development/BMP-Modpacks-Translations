@@ -13,5 +13,7 @@ item_ids:
 
 This item can be used as a <Color id="light_purple">Gem</Color> for Iron's Jewelry.
 
+- <Color id="gray">Quality Multiplier:</Color> 1.5
+
 ### Attribute
 - Adds Ars Nouveau Spell Damage (Percentage)

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "ftb:chests/stone_aqua/meta/tipped_arrow",
+          "value": "ftb:chests/stone_aqua/meta/tipped_arrow",
           "weight": 10,
           "functions": [
             {
@@ -245,7 +245,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "ftb:chests/stone_aqua/meta/stone_tool",
+          "value": "ftb:chests/stone_aqua/meta/stone_tool",
           "weight": 10,
           "functions": [
             {
@@ -258,7 +258,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "ftb:chests/stone_aqua/meta/iron_tool",
+          "value": "ftb:chests/stone_aqua/meta/iron_tool",
           "weight": 6,
           "functions": [
             {
@@ -271,7 +271,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "ftb:chests/stone_aqua/meta/golden_tool",
+          "value": "ftb:chests/stone_aqua/meta/golden_tool",
           "weight": 2,
           "functions": [
             {
@@ -284,7 +284,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "ftb:chests/stone_aqua/meta/leather_armor",
+          "value": "ftb:chests/stone_aqua/meta/leather_armor",
           "weight": 10,
           "functions": [
             {
@@ -297,7 +297,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "ftb:chests/stone_aqua/meta/iron_armor",
+          "value": "ftb:chests/stone_aqua/meta/iron_armor",
           "weight": 6,
           "functions": [
             {
@@ -310,7 +310,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "ftb:chests/stone_aqua/meta/golden_armor",
+          "value": "ftb:chests/stone_aqua/meta/golden_armor",
           "weight": 2,
           "functions": [
             {
@@ -341,7 +341,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "ftb:chests/stone_aqua/meta/candle",
+          "value": "ftb:chests/stone_aqua/meta/candle",
           "weight": 5,
           "functions": [
             {
@@ -358,7 +358,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "ftb:chests/stone_aqua/meta/spawn_egg",
+          "value": "ftb:chests/stone_aqua/meta/spawn_egg",
           "weight": 1
         }
       ]
@@ -369,7 +369,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "ftb:chests/stone_aqua/lootbox/rare",
+          "value": "ftb:chests/stone_aqua/lootbox/rare",
           "weight": 1
         }
       ]
@@ -380,7 +380,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "ftb:chests/ocean_treasure",
+          "value": "ftb:chests/ocean_treasure",
           "weight": 1
         }
       ]

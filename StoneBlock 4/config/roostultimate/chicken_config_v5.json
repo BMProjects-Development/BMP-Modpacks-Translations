@@ -18,6 +18,24 @@
     "CanGetWitherDamage": false
   },
   {
+    "ChickenName": "Otherstone Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_otherstone",
+    "itemtexture": "otherstonechicken",
+    "mobtexture": "otherstonechicken",
+    "dropitem": "occultism:otherstone",
+    "eggtime": 600,
+    "tier": 6,
+    "CanGetFireDamage": false,
+    "CanGetProjectileDamage": false,
+    "CanGetExplosionDamage": false,
+    "CanGetFallDamage": false,
+    "CanGetDrowningDamage": false,
+    "CanGetFreezingDamage": false,
+    "CanGetLightningDamage": false,
+    "CanGetWitherDamage": false
+  },
+  {
     "ChickenName": "Time Crystal Chicken",
     "MobOrMonster": "Mob",
     "id": "c_time",

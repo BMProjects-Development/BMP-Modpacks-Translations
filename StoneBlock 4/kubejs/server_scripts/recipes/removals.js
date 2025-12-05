@@ -1,6 +1,8 @@
 // Remove Recipes By ID
 
 const recipeIdsToRemove = [
+  "irregular_implements:diaphanous_block",
+  "mekanism:portable_qio_dashboard",
   "cataclysm:chiseled_purpur_block",
   "draconicevolution:machines/awakened_crafting_injector",
   "draconicevolution:machines/chaotic_crafting_injector",
@@ -86,8 +88,14 @@ const recipeIdsToRemove = [
   "rftoolsbase:machine_frame",
   "ars_nouveau:blank_thread",
   "ars_nouveau:ring_of_lesser_discount",
+  "compactmachines:new_machine_tiny",
   "compactmachines:new_machine_small",
+  "compactmachines:new_machine_farming",
+  "compactmachines:new_machine_normal",
+  "compactmachines:new_machine_large",
   "compactmachines:new_machine_giant",
+  "compactmachines:new_machine_colossal",
+  "compactmachines:new_machine_soaryn",
   "gateways:hellish_fortress",
   "gateways:basic/enderman",
   "mob_grinding_utils:recipe_mob_swab",
@@ -100,7 +108,6 @@ const recipeIdsToRemove = [
   "actuallyadditions:phantom_connector",
   "pipez:ultimate_upgrade",
   "ars_nouveau:ring_of_greater_discount",
-  "compactmachines:new_machine_soaryn",
   "functionalstorage:dripping_upgrade",
   "functionalstorage:obsidian_upgrade",
   "justdynathings:blazegold_anvil",
@@ -229,6 +236,7 @@ const recipeIdsToRemove = [
   "projecte:black_hole_band",
   "projecte:harvest_goddess_band",
   "projecte:iron_band",
+  "routers:router_connector",
   "projecte:ignition_ring",
   "projecte:zero_ring",
   "projecte:swiftwolf_rending_gale",
@@ -300,29 +308,43 @@ const recipeIdsToRemove = [
   "productivelib:upgrades/range",
   "computercraft:turtle_advanced",
   "projecte:relay_mk3",
-  "projecte:condenser_mk2"
-]
+  "projecte:condenser_mk2",
+  "create:mechanical_crafting/extendo_grip",
+  "cabletiers:elite_autocrafter",
+  "cabletiers:ultra_autocrafter",
+  "cabletiers:mega_autocrafter",
+  "occultengineering:smelting/silver_ingot",
+  "refinedtypes:energy/infinite_energy_storage_block_upgrade",
+  "refinedtypes:energy/infinite_energy_storage_disk_upgrade",
+  "refinedtypes:soul/infinite_soul_storage_block_upgrade",
+  "refinedtypes:soul/infinite_soul_storage_disk_upgrade",
+  "refinedtypes:source/infinite_source_storage_disk_upgrade",
+  "refinedtypes:source/infinite_source_storage_block_upgrade",
+  "gateways:basic/slime",
+  "farmersdelight:wheat_dough_from_water",
+  "create:mixing/honey",
+];
 
-const recipeTypesToRemove = ["immersiveengineering:arc_recycling"]
+const recipeTypesToRemove = ["immersiveengineering:arc_recycling", "irregular_implements:custom_crafting_table"];
 
 const removeByOutput = [
   "ars_nouveau:thread_spellpower",
   "fluxnetworks:flux_dust",
   "apotheosis:mythic_material",
   "ars_nouveau:shapers_focus",
-  "ars_nouveau:glyph_animate_block"
-]
+  "ars_nouveau:glyph_animate_block",
+];
 
 ServerEvents.recipes((event) => {
   recipeIdsToRemove.forEach((recipeId) => {
-    event.remove({ id: recipeId })
-  })
+    event.remove({ id: recipeId });
+  });
 
   removeByOutput.forEach((output) => {
-    event.remove({ output: output })
-  })
+    event.remove({ output: output });
+  });
 
   recipeTypesToRemove.forEach((recipeType) => {
-    event.remove({ type: recipeType })
-  })
-})
+    event.remove({ type: recipeType });
+  });
+});

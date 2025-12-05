@@ -76,6 +76,10 @@ pitcherPlantPipeDrainRate = 1000
 # Default: 0
 # Range: > 0
 slimeCubeChunkRadius = 1
+#What is the maximum Levenshtein distance allowed when searching for a Floo Fireplace by name?
+# Default: 2
+# Range: > 0
+flooNameMaxDistance = 2
 
 [biome_painter]
 	#The radius that the Biome Painter will affect. 0 is just the targeted block, 1 is a 3x3x3 area, etc.

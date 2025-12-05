@@ -92,6 +92,22 @@ ServerEvents.recipes((event) => {
 
   event
     .custom({
+      type: "productivemetalworks:block_casting",
+    cast: [],
+    consume_cast: false,
+    fluid: {
+      amount: 900,
+      fluid: "productivemetalworks:molten_carbon"
+    },
+    result: {
+      count: 1,
+      id: "minecraft:coal_block"
+      },
+    })
+    .id("ftb:productivemetalworks/block_casting/coal");
+
+  event
+    .custom({
       type: "productivemetalworks:item_casting",
       cast: {
         item: "productivemetalworks:gem_cast",
@@ -106,7 +122,7 @@ ServerEvents.recipes((event) => {
         id: "xycraft_machines:resin_ball",
       },
     })
-    .id("ftb:productivemetalworks/gem_casting/resin");    
+    .id("ftb:productivemetalworks/gem_casting/resin");
 
   event
     .custom({
@@ -125,4 +141,22 @@ ServerEvents.recipes((event) => {
       },
     })
     .id("ftb:productivemetalworks/gem_casting/redstone");
+
+  event
+    .custom({
+      type: "productivemetalworks:item_casting",
+      cast: {
+        tag: "c:nuggets",
+      },
+      consume_cast: true,
+      fluid: {
+        amount: 360,
+        fluid: "productivemetalworks:molten_steel",
+      },
+      result: {
+        count: 1,
+        id: "productivemetalworks:nugget_cast",
+      },
+    })
+    .id("ftb:productivemetalworks/nugget_casting/steel_nugget_cast");
 });

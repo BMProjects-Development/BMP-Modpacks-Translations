@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+  "type": "create_enchantment_industry:grinding",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:greater_experience_gem"
+    }
+  ],
+  "results": [
+    {
+      "amount": 12,
+      "id": "cognition:cognitium_source"
+    }
+  ]
+}

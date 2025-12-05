@@ -1,11 +1,9 @@
 ---
 navigation:
   title: Band Materials
-  position: 3
+  position: 2
   icon: "minecraft:iron_ingot"
 ---
-# Metals
+# Band Materials
 
-<Color id="green">Metals</Color> are the main components used when creating Jewelry. These are required for every craft.
-
-
+<Color id="green">Band Materials</Color> are the main components used when creating Jewelry. These are required for every craft.

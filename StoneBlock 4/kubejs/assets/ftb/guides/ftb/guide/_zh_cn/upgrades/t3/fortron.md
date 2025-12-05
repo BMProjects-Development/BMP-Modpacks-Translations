@@ -24,5 +24,6 @@ item_ids:
   <ItemIcon id="ae2:controller" />
   <ItemIcon id="ae2:crafting_unit" />
   <ItemIcon id="modularrouters:modular_router" />
+  <ItemIcon id="ironfurnaces:augment_generator" />
 
 </ItemGrid>

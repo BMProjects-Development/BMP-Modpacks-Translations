@@ -52,7 +52,8 @@ const stopTeleportingEntities = [
   "minecraft:warden",
   "minecraft:wither",
   "irons_spellbooks:fire_boss",
-  "minecraft:text_display"
+  "minecraft:text_display",
+  "cataclysm:ignis"
 ]
 
 const blacklistModPrefixes = ["cataclysm"]

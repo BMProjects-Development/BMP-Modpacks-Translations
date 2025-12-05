@@ -7,11 +7,11 @@
     "metal"
   ],
   "paletteLocation": "irons_jewelry:palettes/platinum",
-  "quality": 3.0,
+  "quality": 2.5,
   "bonusParameters": {
     "irons_jewelry:attribute": {
       "attribute": "apothic_attributes:armor_pierce",
-      "amount": 1,
+      "amount": 1.5,
       "operation": "add_value"
     },
     "irons_jewelry:positive_effect": {

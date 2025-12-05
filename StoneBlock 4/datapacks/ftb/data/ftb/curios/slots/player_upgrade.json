@@ -1,0 +1,6 @@
+{
+  "icon": "ftb:slot/empty_player_upgrade_slot",
+  "size": 1,
+  "order": 850,
+  "validators": ["curios:tag"]
+}

@@ -12,6 +12,14 @@ const plateEntries = [
 
 ServerEvents.recipes((event) => {
   event
+    .shaped("mekanism:portable_qio_dashboard", ["III", "ILI", "IEI"], {
+      L: "mekanism:qio_dashboard",
+      E: "mekanism:teleportation_core",
+      I: "#c:ingots/fortron_infused",
+    })
+    .id("ftb:crafting/portable_qio_dashboard");
+
+  event
     .shaped("mekanism_lasers:ore_generator", ["IGI", "FLF", "IEI"], {
       F: "#c:ingots/fortron_infused",
       G: "#c:glass_blocks",

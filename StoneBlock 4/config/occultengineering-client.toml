@@ -1,0 +1,8 @@
+#.
+#Client-only settings
+[client]
+	#.
+	#The vision range through Spirit Solution will be multiplied by this factor
+	# Default: 1.0
+	# Range: 0.125 ~ 256.0
+	spirit_solution = 1.0

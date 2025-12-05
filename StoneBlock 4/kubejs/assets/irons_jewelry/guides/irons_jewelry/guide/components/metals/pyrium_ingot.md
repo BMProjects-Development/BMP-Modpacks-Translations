@@ -11,7 +11,15 @@ item_ids:
 
 <ItemImage id="irons_spellbooks:pyrium_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Metal</Color> for Iron's Jewelry.
+This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+
+- <Color id="gray">Quality Multiplier:</Color> 3
 
 ### Attribute
-- Adds Fire Damage+++ (Percentage)
+- Adds Cast Time Reduction (Percentage)
+
+### Immunity Effect
+- Guided
+
+### Positive Effect
+- Vigor

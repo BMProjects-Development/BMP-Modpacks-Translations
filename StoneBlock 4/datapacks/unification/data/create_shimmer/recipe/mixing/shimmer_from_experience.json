@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 15,
+      "tag": "c:experience"
+    },
+    {
+      "tag": "c:glowing_berries"
+    },
+    {
+      "tag": "c:luminous_substances"
+    },
+    {
+      "tag": "c:decoration"
+    }
+  ],
+  "results": [
+    {
+      "amount": 50,
+      "id": "create_shimmer:shimmer"
+    }
+  ]
+}

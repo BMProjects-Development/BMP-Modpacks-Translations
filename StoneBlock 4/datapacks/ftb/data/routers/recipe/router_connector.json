@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "strainers",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "routers:router_connector"
+  }
+}

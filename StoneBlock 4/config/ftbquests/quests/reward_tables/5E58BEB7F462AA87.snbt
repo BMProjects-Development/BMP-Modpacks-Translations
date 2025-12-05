@@ -35,13 +35,6 @@
 		{ id: "725E0E3FB9F1F85A", item: { count: 1, id: "sophisticatedstorage:compression_upgrade" } }
 		{ id: "5EE9900317FDB7F4", item: { count: 1, id: "sophisticatedstorage:hopper_upgrade" } }
 		{ id: "73FD569E8223653F", item: { count: 1, id: "sophisticatedstorage:alchemy_upgrade" } }
-		{ id: "1F9119A300C0D242", item: { count: 1, id: "sophisticatedstorage:chipped/botanist_workbench_upgrade" } }
-		{ id: "1F3FA3BD3C287CE6", item: { count: 1, id: "sophisticatedstorage:chipped/glassblower_upgrade" } }
-		{ id: "5E8C52993E0761F6", item: { count: 1, id: "sophisticatedstorage:chipped/carpenters_table_upgrade" } }
-		{ id: "1DF7FF71735412FC", item: { count: 1, id: "sophisticatedstorage:chipped/loom_table_upgrade" } }
-		{ id: "6E57F9BF3C8EC243", item: { count: 1, id: "sophisticatedstorage:chipped/mason_table_upgrade" } }
-		{ id: "2185285711F2C37D", item: { count: 1, id: "sophisticatedstorage:chipped/alchemy_bench_upgrade" } }
-		{ id: "5F2F34A6CB2DEDF6", item: { count: 1, id: "sophisticatedstorage:chipped/tinkering_table_upgrade" } }
 	]
 	use_title: true
 }

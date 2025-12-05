@@ -14,7 +14,6 @@ const ECHO_STORE_ONLY = [
   "oritechthings:addon_block_capacitor_tier_9",
   "oritechthings:addon_block_speed_tier_9",
   "rarcompat:mimi_dust",
-  "oritechthings:particle_accelerator_speed_sensor",
   "justdynathings:eclipse_alloy_anvil",
   "sophisticatedstorage:stack_upgrade_omega_tier",
   "create:creative_blaze_cake",
@@ -217,6 +216,36 @@ const tooltipPairs = [
   {
     items: ["rftoolsutility:weakness_module"],
     lines: [{ key: "ftb.tooltip.rftoolsutility.weakness_module.uses_piglin" }]
+  },
+  {
+    items: [
+      "ae2:fluix_glass_cable",
+      "ae2:fluix_covered_cable",
+      "ae2:fluix_smart_cable",
+      "ae2:energy_acceptor"
+  ],
+    lines: [{ key: "ftb.tooltip.ae2.channels_multiplied_info" }]
+  },
+  {
+    items: [
+      "ae2:fluix_covered_dense_cable",
+      "ae2:fluix_smart_dense_cable",
+      "ae2:controller"
+  ],
+    lines: [{ key: "ftb.tooltip.ae2.channels_multiplied_info_1" }]
+  },
+  {
+    items: [
+    "mob_grinding_utils:dreadful_dirt",
+    "mob_grinding_utils:delightful_dirt"
+    ],
+    lines: [{ key: "ftb.tooltip.silktouch"}]
+  },
+  {
+    items: [
+    "enderio:grains_of_infinity"
+    ],
+    lines: [{ key: "ftb.tooltip.grains_of_infinity_and_xycraft"}]
   }
 ]
 

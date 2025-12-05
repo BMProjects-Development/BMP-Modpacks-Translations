@@ -6,11 +6,11 @@ const streamers = {
   "Matrixis": {
     items: [ 'trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"Mat\'s Banana",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"oritech:banana"},TrophyType:"item"}]'],
     
-    lines: ["For the release of StoneBlock 4, a small token of graditude", "With love from the FTB Team"],
+    lines: ["For the release of StoneBlock 4, a small token of gratitude", "With love from the FTB Team"],
   },
   "MCTCReese": {
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"MCTCReese Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"minecraft:cactus"},TrophyType:"item"}]'],
-    lines: ["For the release of StoneBlock 4, a small token of graditude", "With love from the FTB Team"],
+    lines: ["For the release of StoneBlock 4, a small token of gratitude", "With love from the FTB Team"],
   },
   "AlfredGG": {
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"AlfredGG Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"gag:no_solicitors"},TrophyType:"item"}]'],
@@ -22,15 +22,15 @@ const streamers = {
   },
   "ChosenArchitect":{
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"ChosenArchitect Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"ars_nouveau:creative_spell_book"},TrophyType:"item"}]'],
-    lines: ["For the release of StoneBlock 4, a small token of graditude", "With love from the FTB Team"],
+    lines: ["For the release of StoneBlock 4, a small token of gratitude", "With love from the FTB Team"],
   },
   "ectorvynk":{
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"ectorvynk Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"ftb:clapple"},TrophyType:"item"}]'],
-    lines: ["For the release of StoneBlock 4, a small token of graditude", "With love from the FTB Team"],
+    lines: ["For the release of StoneBlock 4, a small token of gratitude", "With love from the FTB Team"],
   },
   "Lashmak":{
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"Lashmak Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"chicken_roost:c_purple"},TrophyType:"item"}]'],
-    lines: ["Lord of Darkness!", "For the release of StoneBlock 4, a small token of graditude", "With love from the FTB Team"],
+    lines: ["Lord of Darkness!", "For the release of StoneBlock 4, a small token of gratitude", "With love from the FTB Team"],
   },
   "Threefold":{
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"Threefold Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"minecraft:music_disc_precipice"},TrophyType:"item"}]'],
@@ -38,19 +38,19 @@ const streamers = {
   },
   "SystemCollapse":{
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"SystemCollapse Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"ae2:singularity"},TrophyType:"item"}]'],
-    lines: ["For the release of StoneBlock 4, a small token of graditude", "With love from the FTB Team"],
+    lines: ["For the release of StoneBlock 4, a small token of gratitude", "With love from the FTB Team"],
   },
   "Vlofast":{
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"Vlofast Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"minecraft:cauldron"},TrophyType:"item"}]'],
-    lines: ["For the release of StoneBlock 4, a small token of graditude", "With love from the FTB Team"],
+    lines: ["For the release of StoneBlock 4, a small token of gratitude", "With love from the FTB Team"],
   },
   "Joprebond":{
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"Joprebond Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"ars_nouveau:frostaya_pod"},TrophyType:"item"}]'],
-    lines: ["For the release of StoneBlock 4, a small token of graditude", "With love from the FTB Team"],
+    lines: ["For the release of StoneBlock 4, a small token of gratitude", "With love from the FTB Team"],
   },
   "reninsane":{
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"reninsane Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"minecraft:cake"},TrophyType:"item"}]'],
-    lines: ["For the release of StoneBlock 4, a small token of graditude", "With love from the FTB Team"],
+    lines: ["For the release of StoneBlock 4, a small token of gratitude", "With love from the FTB Team"],
   },
   "MrButton_": {
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"MrButton_ Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"oritech:tech_button"},TrophyType:"item"}]'],
@@ -58,11 +58,11 @@ const streamers = {
   },
   "generikb": {
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"generikb Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"farmersdelight:dumplings"},TrophyType:"item"}]'],
-    lines: ["For the release of StoneBlock 4, a small token of graditude", "With love from Tazz"],
+    lines: ["For the release of StoneBlock 4, a small token of gratitude", "With love from Tazz"],
   },
   "direwolf20":{
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"direwolf20 Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"justdirethings:celestigem_paxel"},TrophyType:"item"}]'],
-    lines: ["For the release of StoneBlock 4, a small token of graditude", "With love from the FTB Team"],
+    lines: ["For the release of StoneBlock 4, a small token of gratitude", "With love from the FTB Team"],
   },
   "shynieke":{
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"NOT A TROPHY :copium:",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"supplementaries:statue"},TrophyType:"item"}]'],
@@ -70,7 +70,7 @@ const streamers = {
   },
   "darkphan":{
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"darkphan Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"actuallyadditions:engineers_goggles"},TrophyType:"item"}]'],
-    lines: ["For the release of StoneBlock 4, a small token of graditude", "With love from the FTB Team"],
+    lines: ["For the release of StoneBlock 4, a small token of gratitude", "With love from the FTB Team"],
   },
   "forestfaerie": {
     items: ['trophymanager:trophy[custom_data={BaseBlock:"air",Name:"Snock Trophy!",OffsetY:0.25d,Scale:1.5d,TrophyEntity:{entityType:"minecraft:cat", variant:"minecraft:all_black"},TrophyType:"entity"}]'],
@@ -82,7 +82,7 @@ const streamers = {
   },
   "MiyoshiEira":{
     items: ['trophymanager:trophy[custom_data={BaseBlock:"air",Name:"for Miyo!",OffsetY:0.25d,Scale:1.5d,TrophyEntity:{entityType:"minecraft:wolf"},TrophyType:"entity"}]'],
-    lines: ["For the release of StoneBlock 4, a small token of graditude", "永遠の友情に乾杯!"],
+    lines: ["For the release of StoneBlock 4, a small token of gratitude", "永遠の友情に乾杯!"],
   },
   "AlpDerps":{
     items: ['minecraft:cake'],
@@ -90,15 +90,15 @@ const streamers = {
   },
   "Saereth":{
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"Saereth Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"minecraft:ender_eye"},TrophyType:"item"}]'],
-    lines: ["For the release of StoneBlock 4, a small token of graditude", "With love from the FTB Team"],
+    lines: ["For the release of StoneBlock 4, a small token of gratitude", "With love from the FTB Team"],
   },
   "slowpoke101": {
     items: ['trophymanager:trophy[custom_data={BaseBlock:"ftbechoes:echo_projector",Name:"Slowpoke Trophy",OffsetY:0.6d,Scale:1.0d,TrophyItem:{id:"minecraft:clay_ball"},TrophyType:"item"}]'],
-    lines: ["Yes u old fart", "you get a special trophy aswell", "With love from ur packdevs :)"],
+    lines: ["Yes u old fart", "you get a special trophy as well", "With love from ur packdevs :)"],
   },
   "Jake_Evans": {
     items: ['trophymanager:trophy[custom_data={BaseBlock:"air",Name:"Special Jake Trophy!",OffsetY:0.25d,Scale:1.5d,TrophyEntity:{entityType:"minecraft:parrot"},TrophyType:"entity"}]'],
-    lines: ["For the release of StoneBlock 4, a small token of graditude", "With love from the FTB Team"],
+    lines: ["For the release of StoneBlock 4, a small token of gratitude", "With love from the FTB Team"],
   },
   "twsparklecat": {
     items: ['trophymanager:trophy[custom_data={BaseBlock:"air",Name:"Sparkle Trophy!",OffsetY:0.25d,Scale:1.5d,TrophyEntity:{entityType:"minecraft:cat", variant:"minecraft:persian"},TrophyType:"entity"}]'],

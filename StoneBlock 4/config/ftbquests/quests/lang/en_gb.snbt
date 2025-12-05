@@ -289,6 +289,15 @@
 		"&7&oThis could be handy for looting."
 	]
 	quest.25023C87AA259688.title: "&fCardboard Armour"
+	quest.25CCA572C4D5CEA0.quest_desc: [
+		"The first step of &zAscension&r is to become a godlike."
+		""
+		"Equip yourself with the strongest weapon and armour known in this dimension."
+		""
+		"Prove yourself worthy of the power of &zcreative items&r."
+		""
+		"&eNote&r: All quests in this chapter must be completed using a &n&6Task Screen&r."
+	]
 	quest.26D7C5298D95C69A.quest_desc: [
 		"When crafting &bJewellery&r, &aBanding Materials&r can be used by themselves to grant effects and/or stat increases."
 		""
@@ -313,6 +322,8 @@
 		"The &3Vault&r comes alive once the jukebox is activated with its favourite song."
 		""
 		"&eNote&r: This vault is dangerous. Come prepared for a fight!"
+		"{@pagebreak}"
+		"To unlock the &3Vault&r, you will need to complete the dance once activated by the music disc. You can kill the &cBlazes&r to increase your &cHeat&r, or you can do the dance by following the lightest coloured floor tiles."
 	]
 	quest.2DF77DA2ED65FBAC.quest_desc: [
 		"The &dWyvern Chestpiece&r is a powered piece of armour that allows for a ton of customisation options."
@@ -901,6 +912,11 @@
 		""
 		"The 12 &eField Slots&r are for &2Scale&r, &2Translation&r, and &2Rotation Modules&r, which help define the area your &dProjector&r will build on each of the three axes: N/S, E/W, Up/Down."
 	]
+	quest.71F17C85D540C559.quest_desc: [
+		"&aCables&r are used to connect network devices with each other."
+		""
+		"Full blocks will connect to any adjecent block regardless of their colour, while &aCable&r blocks will only connect to those of the same colour."
+	]
 	quest.7244348CAB8356E0.quest_desc: [
 		"[\"The \", {\"text\": \"Chaotic Chestpiece\", \"color\": \"rainbow\"}, \" is the final upgrade to the \", {\"text\": \"Draconic Chestpiece\", \"color\": \"gold\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5388B67410670702\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Draconic Chestpiece Quest\"}}, \", with the most room for \", {\"text\": \"Upgrade Modules\", \"color\": \"green\"}, \" and maximum customisability.\"]"
 		""
@@ -1014,6 +1030,13 @@
 		"It starts by making &bGoo&r which will spread onto other blocks to convert them over time."
 		""
 		"The first &bGoo&r that you'll make is called &aPrimogel Goo&r, which takes only a few basic materials."
+	]
+	quest.7AB7D06E0DD24F7A.quest_desc: [
+		"If you're struggling with the &3Vault&r, or killing &cIgnis&r, you may use this music disc in your offhand to &6Light Your Inner Fire&r."
+		""
+		"This will generate 10x more heat for killing blazes and doing the dance puzzle, while also eliminate any penalty for missing colours."
+		""
+		"It will also let you deal triple damage with all of your attacks against &cIgnis&r."
 	]
 	quest.7B20023BE78887DA.quest_desc: [
 		"Other mods may add their own types, but &eSimple Magnets&r keeps it...simple. Just craft a &aMagnet&r, activate it with right click, and while it's on your person any items in range will be swiftly pulled to your person to get picked up!"

@@ -1,0 +1,15 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "neoforge:tag",
+      "amount": 27,
+      "tag": "c:experience"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:experience_block"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "values": {
+    "cofh_core:experience": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "cofh_core"
+        }
+      ],
+      "neoforge:value": 10
+    },
+    "cyclic:xpjuice": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "cyclic"
+        }
+      ],
+      "neoforge:value": 10
+    },
+    "enderio:xpjuice": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "enderio"
+        }
+      ],
+      "neoforge:value": 10
+    },
+    "cognition:cognitium_source": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "cognition"
+        }
+      ],
+      "neoforge:value": 10
+    },
+    "industrialforegoing:essence": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "industrialforegoing"
+        }
+      ],
+      "neoforge:value": 10
+    },
+    "justdirethings:xp_fluid_source": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "justdirethings"
+        }
+      ],
+      "neoforge:value": 10
+    },
+    "mob_grinding_utils:fluid_xp": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "mob_grinding_utils"
+        }
+      ],
+      "neoforge:value": 10
+    },
+    "pneumaticcraft:memory_essence": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "pneumaticcraft"
+        }
+      ],
+      "neoforge:value": 10
+    },
+    "reliquary:xp_juice_still": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "reliquary"
+        }
+      ],
+      "neoforge:value": 10
+    },
+    "sophisticatedcore:xp_still": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "sophisticatedcore"
+        }
+      ],
+      "neoforge:value": 10
+    }
+  }
+}

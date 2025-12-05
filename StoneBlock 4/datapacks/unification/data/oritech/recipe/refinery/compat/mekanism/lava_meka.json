@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ],
+  "type": "oritech:refinery",
+  "fluidInput": {
+    "amount": 1000,
+    "fluid": "minecraft:lava"
+  },
+  "fluidOutputs": [
+    {
+      "amount": 64000,
+      "fluid": "mekanism:steam"
+    },
+    {
+      "amount": 100,
+      "fluid": "mekanism:sulfuric_acid"
+    },
+    {
+      "amount": 200,
+      "fluid": "oritech:still_sheol_fire"
+    }
+  ],
+  "ingredients": [],
+  "results": [],
+  "time": 120
+}

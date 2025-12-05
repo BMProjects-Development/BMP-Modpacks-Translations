@@ -3,6 +3,7 @@
     "minecraft:player"
   ],
   "slots": [
-    "stick"
+    "stick",
+    "player_upgrade"
   ]
 }

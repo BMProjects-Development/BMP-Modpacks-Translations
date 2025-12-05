@@ -234,6 +234,12 @@ ItemEvents.entityInteracted(function (event) {
 // ---- MooFluids alloy breeding recipe generation (kept) ----
 const cow_recipes = [
   {
+    success_chance: 0.25,
+    result: "productivemetalworks:molten_obsidian",
+    parent_1: "minecraft:water",
+    parent_2: "minecraft:lava",
+  },
+  {
     success_chance: 0.5,
     result: "productivemetalworks:molten_bronze",
     parent_1: "productivemetalworks:molten_copper",
@@ -307,8 +313,14 @@ const cow_recipes = [
   },
   {
     success_chance: 0.25,
-    result: "productivemetalworks:molten_glowstone",
-    parent_1: "ftb:molten_tin_silver_alloy",
+    result: "productivemetalworks:molten_refined_glowstone",
+    parent_1: "productivemetalworks:molten_lumium",
+    parent_2: "productivemetalworks:molten_osmium",
+  },
+  {
+    success_chance: 0.25,
+    result: "productivemetalworks:molten_refined_obsidian",
+    parent_1: "productivemetalworks:molten_obsidian",
     parent_2: "productivemetalworks:molten_osmium",
   },
 ];
@@ -324,12 +336,12 @@ ServerEvents.recipes((event) => {
         output: cow.result,
       })
       .id(
-        "ftb:moofluids/cow_alloying/" + cow.result.split(":")[1].split("_")[1]
+        "ftb:moofluids/cow_alloying/" + cow.result.split(":")[1].split("molten_")[1]
       );
 
     console.log(
       "Added a Cow Breeding Recipe for " +
-        cow.result.split(":")[1].split("_")[1] +
+        cow.result.split(":")[1].split("molten_")[1] +
         " [" +
         cow.parent_1 +
         ", " +

@@ -923,15 +923,25 @@
 				id: "minecraft:ender_eye"
 			}
 			id: "67AD604F2C4E5CC9"
-			rewards: [{
-				amount: 5
-				id: "08F6ED2DF8C8B09E"
-				type: "currency"
-			}]
+			rewards: [
+				{
+					amount: 5
+					id: "08F6ED2DF8C8B09E"
+					type: "currency"
+				}
+				{
+					id: "3AD5DFD2D84E73E1"
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
-				id: "45E16BAC26D921B8"
-				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:ender_eye)item(minecraft:blaze_rod)item(appflux:insulating_resin)item(chicken_roost:ingot_enderium)item(ftb:stable_antimatter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "14E50AE68E2967C5"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:ender_eye)item(minecraft:blaze_rod)item(appflux:insulating_resin)item(ftb:stable_antimatter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 6.5d

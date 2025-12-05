@@ -1,5 +1,10 @@
 const matterValues = [
   {
+    itemID: "minecraft:netherite_upgrade_smithing_template",
+    precious: 252,
+    nether: 1,
+  },
+  {
     itemID: "justdirethings:ferricore_ingot",
     metallic: 18,
   },
@@ -459,6 +464,7 @@ const matterValues = [
     ender: 32768,
     quantum: 32768,
     living: 32768,
+    organic: 32768,
   },
   {
     itemID: "projecte:collector_mk1",

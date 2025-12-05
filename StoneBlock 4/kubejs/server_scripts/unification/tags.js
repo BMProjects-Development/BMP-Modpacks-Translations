@@ -40,6 +40,11 @@ ServerEvents.tags("item", (event) => {
   event.removeAllTagsFrom(removeOre)
   event.add("c:hidden_from_recipe_viewers", removeOre)
 
+  remFluid.forEach(fluid => {
+    event.removeAllTagsFrom(`${fluid}_bucket`);
+    event.add("c:hidden_from_recipe_viewers", `${fluid}_bucket`);
+  });
+
   // Fix FTB Materials Tags
   event.removeAllTagsFrom("ftbmaterials:silicon_gem")
   event.add("c:silicon", "ftbmaterials:silicon_gem")
@@ -88,6 +93,10 @@ ServerEvents.tags("fluid", (event) => {
   event.removeAllTagsFrom(fluidIds)
 
   event.add("c:hidden_from_recipe_viewers", fluidIds)
+
+  event.removeAllTagsFrom(remFluid);
+  event.add("c:hidden_from_recipe_viewers", remFluid);
+
 })
 
 ServerEvents.tags("block", (event) => {

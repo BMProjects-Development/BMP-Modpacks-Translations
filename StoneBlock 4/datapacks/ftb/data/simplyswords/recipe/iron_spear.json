@@ -5,7 +5,7 @@
       "tag": "c:wood_sticks"
     },
     "X": {
-      "item": "minecraft:iron_ingot"
+      "tag": "c:plates/iron"
     }
   },
   "pattern": [

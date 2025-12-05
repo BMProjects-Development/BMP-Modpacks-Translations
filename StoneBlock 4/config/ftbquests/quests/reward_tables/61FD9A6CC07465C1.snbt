@@ -68,7 +68,7 @@
 			}
 			weight: 5.0f
 		}
-		{ id: "0F75701E7ED68839", item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"light_purple\",\"text\":\"R\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"b\"},{\"color\":\"yellow\",\"text\":\"o\"},{\"color\":\"yellow\",\"text\":\"w\"},{\"color\":\"aqua\",\"text\":\" \"},{\"color\":\"aqua\",\"text\":\"F\"},{\"color\":\"light_purple\",\"text\":\"u\"},{\"color\":\"aqua\",\"text\":\"r\"},{\"color\":\"green\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"c\"},{\"color\":\"yellow\",\"text\":\"e\"}],\"text\":\"\"}" }, count: 1, id: "ironfurnaces:million_furnace" } }
+		{ id: "0F75701E7ED68839", item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"light_purple\",\"text\":\"Р\"},{\"color\":\"red\",\"text\":\"а\"},{\"color\":\"light_purple\",\"text\":\"д\"},{\"color\":\"aqua\",\"text\":\"у\"},{\"color\":\"light_purple\",\"text\":\"ж\"},{\"color\":\"yellow\",\"text\":\"н\"},{\"color\":\"yellow\",\"text\":\"а\"},{\"color\":\"aqua\",\"text\":\"я\"},{\"color\":\"aqua\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"П\"},{\"color\":\"aqua\",\"text\":\"е\"},{\"color\":\"green\",\"text\":\"ч\"},{\"color\":\"yellow\",\"text\":\"ь\"}],\"text\":\"\"}" }, count: 1, id: "ironfurnaces:million_furnace" } }
 	]
 	use_title: true
 }

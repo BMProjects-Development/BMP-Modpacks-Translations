@@ -543,6 +543,12 @@
 					item: { count: 1, id: "draconicevolution:draconium_block" }
 					type: "item"
 				}
+				{
+					count: 32L
+					id: "4ABEB876C0A95FB8"
+					item: { count: 1, id: "draconicevolution:energy_core_stabilizer" }
+					type: "item"
+				}
 			]
 			x: -2.0d
 			y: 7.0d
@@ -1000,6 +1006,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 32L
 					id: "0C593E67E9892721"
 					item: { count: 1, id: "draconicevolution:energy_core_stabilizer" }

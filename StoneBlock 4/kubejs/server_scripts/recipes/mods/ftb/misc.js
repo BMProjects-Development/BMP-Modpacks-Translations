@@ -24,6 +24,11 @@ ServerEvents.recipes((event) => {
     .shapeless("ftb:blaze_lamp", ["9x minecraft:blaze_rod"])
     .id("ftb:crafting/blaze_lamp");
 
+  event.shapeless("ftb:player_upgrade", [
+    "apotheosis:iron_upgrade_smithing_template",
+    "minecraft:player_head"
+  ]).id("ftb:crafting/player_upgrade");
+
   event
     .shaped(
       Item.of("chisel_chipped_integration:metal_cobalt_thermal", 32),
@@ -321,6 +326,7 @@ ServerEvents.recipes((event) => {
   ];
 
   for (let color of colors) {
+    // Adding Concrete Powder recipes
     event
       .shaped(
         Item.of(`minecraft:${color}_concrete`, 8),
@@ -331,5 +337,43 @@ ServerEvents.recipes((event) => {
         }
       )
       .id(`ftb:${color}_concrete_from_powder`);
+
+
+    //Adding Glazed Terracotta recipes
+    var input = `minecraft:${color}_terracotta`;
+    var output = `minecraft:${color}_glazed_terracotta`;
+
+    event.smelting(output, input)
+      .id(`minecraft:${color}_glazed_terracotta_smelting`);
+
+    event.blasting(output, input)
+      .id(`minecraft:${color}_glazed_terracotta_blasting`);
   }
+
+  //Adding Compacting Drawer Recipes for FTB's Pebbles.
+  addFunctionalStorageCompactingRecipe(
+    event,
+    ["ftb:stone_pebble", 4],
+    "minecraft:cobblestone",
+    `ftb:functional_storage/compacting/pebbles/stone`
+  );
+  addFunctionalStorageCompactingRecipe(
+    event,
+    ["ftb:andesite_pebble", 4],
+    "minecraft:andesite",
+    `ftb:functional_storage/compacting/pebbles/andesite`
+  );
+  addFunctionalStorageCompactingRecipe(
+    event,
+    ["ftb:diorite_pebble", 4],
+    "minecraft:diorite",
+    `ftb:functional_storage/compacting/pebbles/diorite`
+  );
+
+  //Adding Bauble Hearts Wither Bones 
+  event.
+    stonecutting(
+      "bhc:wither_bone",
+      "minecraft:wither_skeleton_skull"
+    ).id("ftb:wither_bones");
 });

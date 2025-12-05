@@ -108,4 +108,30 @@ ServerEvents.recipes((event) => {
     })
     .id("ftb:productivemetalworks/casting/crimsite");
 
+  event
+    .custom({
+      type: "create:emptying",
+      ingredients: [{
+        "item": "chicken_roost:lava_egg"
+      }],
+      results: [{
+        "amount": 1000,
+        "id": "minecraft:lava"
+      }]
+    })
+    .id("ftb:emptying/lava_egg_to_lava")
+
+  event
+    .custom({
+      type: "create:emptying",
+      ingredients: [{
+        "item": "chicken_roost:water_egg"
+      }],
+      results: [{
+        "amount": 1000,
+        "id": "minecraft:water"
+      }]
+    })
+    .id("ftb:emptying/water_egg_to_water")
+
 });

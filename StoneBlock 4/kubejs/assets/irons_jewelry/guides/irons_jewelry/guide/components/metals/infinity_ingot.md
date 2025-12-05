@@ -11,9 +11,9 @@ item_ids:
 
 <ItemImage id="avaritia:infinity_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Metal</Color> for Iron's Jewelry.
+This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
 
-This also has an insane quality multiplier of <Color id="light_purple">100</Color>.
+- <Color id="gray">Quality Multiplier:</Color> 100
 
 ### Attribute
 - Adds Creative Flight

@@ -1,5 +1,8 @@
 // priority: 50000
+let $Player  = Java.loadClass("net.minecraft.world.entity.player.Player")
+let $FakePlayer = Java.loadClass("net.neoforged.neoforge.common.util.FakePlayer")
 
+/**@type {import("dev.ftb.mods.ftbteambases.data.bases.BaseInstanceManager").$BaseInstanceManager$$Type} */
 const $BaseInstanceManager = Java.loadClass(
   "dev.ftb.mods.ftbteambases.data.bases.BaseInstanceManager"
 );
@@ -131,7 +134,7 @@ function isEntityInPlayerDimension(entity, player) {
 /**
  * Is the player in creative mode, spectator mode, or null
  * 
- * @param {$Player_} player - the player
+ * @param {import("net.minecraft.world.entity.player.Player").$Player$$Type} player - the player
  * @returns {boolean} TRUE if {@link player} is in creative/spectator or null, otherwise FALSE
  */
 function isPlayerInCreativeSpectator(player) {
@@ -139,4 +142,17 @@ function isPlayerInCreativeSpectator(player) {
     return true
   }
   return player.isCreative() || player.isSpectator()
+}
+
+/**
+ * Is the player in creative mode, spectator mode, or null
+ * 
+ * @param {import("net.minecraft.world.entity.LivingEntity").$LivingEntity$$Type} entity - the player
+ * @returns {import("net.minecraft.world.entity.player.Player").$Player$$Type | null} TRUE if instance of {@link Player} but not FakePlayer, otherwise FALSE
+ */
+function isEntityRealPlayer(entity) {
+  if ((entity instanceof $Player) && (!(entity instanceof $FakePlayer))) {
+    return true
+  }
+  return false
 }

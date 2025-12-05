@@ -11,7 +11,7 @@ let jukebox;
 let tick = 0;
 
 const { abs, atan2, hypot, max, min, random, sin, PI, E } = Math;
-const noteStateMap = []
+const noteStateMap = [];
 PlayerEvents.loggedOut(event => {
   if (!noteStateMap) return;
   delete noteStateMap[event.player.uUID];
@@ -54,24 +54,27 @@ function updateHeatDisplay(event, funk, displayHeat) {
   // kill old
   var killCmd =
     "execute in " + funk.dim + " positioned " + pos.x + " " + pos.y + " " + pos.z +
-    " run kill @e[type=minecraft:text_display,tag=" + tag + ",distance=..3]";
+    " run kill @e[type=minecraft:text_display,tag=" + tag + ",distance=..4]";
   event.server.runCommandSilent(killCmd);
 
-  // build text component JSON, then quote it for SNBT
-  var textJson = JSON.stringify({
-    translate: key,
-    extra: [{ text: " (" + pct + "% to goal)" }]
-  });
+  // Build the text component JSON as a simple string
+  var textJson =
+    '{"translate":"' + key + '",' +
+    '"extra":[{"text":" (' + pct + '% to goal)"}]}';
 
   var summonCmd =
     "execute in " + funk.dim + " positioned " + pos.x + " " + pos.y + " " + pos.z + " run " +
     "summon minecraft:text_display ~ ~ ~ " +
-    "{text:" + JSON.stringify(textJson) + // STRING value, not compound
+    "{text:'" + textJson + "'" +
     ',billboard:"center",shadow:1b,background:1b,view_range:32.0f,text_opacity:255b,Tags:["' + tag + '"]}';
+
   event.server.runCommandSilent(summonCmd);
 
   funk.lastMsgUpdate = event.server.tickCount;
 }
+
+
+
 
 function clearHeatDisplay(event, funk) {
   const pos = funk.jukebox.pos.center.add(0, 1.0, 0);
@@ -88,7 +91,7 @@ function finishVault(event, funk, wasSuccess) {
     // Give a final celebratory message
     updateHeatDisplay(event, funk, HEAT_GOAL);
 
-    // Remove jukebox stack and pop a tiny puff
+    // Remove jukebox stack and clear the immediate column
     funk.jukebox.set("minecraft:air");
     event.level.setBlockAndUpdate(
       funk.jukebox.pos.offset(0, -1, 0),
@@ -98,23 +101,59 @@ function finishVault(event, funk, wasSuccess) {
       funk.jukebox.pos.offset(0, -2, 0),
       Blocks.AIR.defaultBlockState()
     );
-    event.level
-      .createExplosion(funk.jukebox.pos.x, funk.jukebox.pos.y, funk.jukebox.pos.z)
-      .strength(0)
-      .explode();
+
+    // Explosion-like particles
+    event.server.runCommandSilent(
+      "execute in " + funk.dim +
+      " positioned " +
+      (funk.jukebox.pos.x + 0.5) + " " +
+      (funk.jukebox.pos.y + 0.5) + " " +
+      (funk.jukebox.pos.z + 0.5) +
+      " run particle minecraft:explosion ~ ~ ~ 0.5 0.5 0.5 0.1 80"
+    );
+
+    // Explosion sound
+    event.server.runCommandSilent(
+      "execute in " + funk.dim +
+      " positioned " +
+      (funk.jukebox.pos.x + 0.5) + " " +
+      (funk.jukebox.pos.y + 0.5) + " " +
+      (funk.jukebox.pos.z + 0.5) +
+      " run playsound minecraft:entity.generic.explode master @a[distance=..32] ~ ~ ~ 1 1"
+    );
+
+    // Prebuild the deferred cleanup command (no closures on event/funk objects)
+    // Prebuild the deferred cleanup command (no closures on funk)
+    var fillCmd =
+      "execute in " + funk.dim + " run " +
+      "fill " +
+      funk.jukebox.pos.x + " " + (funk.jukebox.pos.y - 1) + " " + funk.jukebox.pos.z + " " +
+      funk.jukebox.pos.x + " " + (funk.jukebox.pos.y - 6) + " " + funk.jukebox.pos.z +
+      " minecraft:air replace";
+
+    // Deferred cleanup: clear up to 6 blocks below the jukebox (to catch falling powder)
+    event.server.scheduleInTicks(20, () => {
+      event.server.runCommandSilent(fillCmd);
+    });
+
+
   } else {
     // Failure: do NOT remove any blocks. Just stop the loop and clear UI/mobs.
     event.server.runCommandSilent(
-      `execute in ${funk.dim} run particle smoke ${funk.jukebox.pos.x} ${funk.jukebox.pos.y} ${funk.jukebox.pos.z} 0.2 0.2 0.2 0.01 10`
+      "execute in " + funk.dim +
+      " run particle smoke " +
+      funk.jukebox.pos.x + " " + funk.jukebox.pos.y + " " + funk.jukebox.pos.z +
+      " 0.2 0.2 0.2 0.01 10"
     );
   }
 
   // Cleanup mobs and displays
   event.server.runCommandSilent(
-    `execute in ${funk.dim} run kill @e[type=minecraft:blaze,tag=funky,distance=..32]`
+    "execute in " + funk.dim + " run kill @e[type=minecraft:blaze,tag=funky,distance=..32]"
   );
   clearHeatDisplay(event, funk);
 }
+
 
 // --- Utility ---
 let posToString = (p) => "".concat(p.toString()).replace(/[\(\)\,]/g, "");
@@ -142,7 +181,7 @@ PlayerEvents.tick((event) => {
   const feet = event.player.blockPosition();
   const underPos = feet.below();
   const underId = String(event.level.getBlock(underPos).id); // e.g. "minecraft:orange_concrete"
-  const offhand = player.getOffhandItem()
+  const offhand = event.player.getOffhandItem();
 
   const isCool =
     underId === "minecraft:red_concrete" ||
@@ -155,11 +194,10 @@ PlayerEvents.tick((event) => {
   let delta = funk.jukebox.pos.offset(0, 2, 0).center.subtract(playerPos);
 
   if (isCool) {
-     if (!offhand.isEmpty() && offhand.id === "cataclysm:music_disc_ignis") {
-      //no heat penalty with record
-    }
-    else {
-    funk.heat = max(0, funk.heat - 2);
+    if (!offhand.isEmpty() && offhand.id === "cataclysm:music_disc_ignis") {
+      // no heat penalty with record
+    } else {
+      funk.heat = max(0, funk.heat - 2);
     }
     event.server.runCommandSilent(
       `execute in ${funk.dim} run particle soul_fire_flame ${posToString(
@@ -167,10 +205,9 @@ PlayerEvents.tick((event) => {
       )} ${posToString(delta)} 0.075 0 force`
     );
   } else if (isWarm) {
-     if (!offhand.isEmpty() && offhand.id === "cataclysm:music_disc_ignis") {
+    if (!offhand.isEmpty() && offhand.id === "cataclysm:music_disc_ignis") {
       funk.heat = funk.heat + 20;
-    }
-    else {
+    } else {
       funk.heat = funk.heat + 2;
     }
     event.server.runCommandSilent(

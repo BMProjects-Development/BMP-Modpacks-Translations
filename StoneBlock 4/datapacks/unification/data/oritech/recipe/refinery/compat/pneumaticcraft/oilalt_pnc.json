@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:and",
+      "values": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "pneumaticcraft"
+        },
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:mod_loaded",
+            "modid": "mekanism"
+          }
+        }
+      ]
+    }
+  ],
+  "type": "oritech:refinery",
+  "fluidInput": {
+    "amount": 1000,
+    "fluid": "#c:oil"
+  },
+  "fluidOutputs": [
+    {
+      "amount": 500,
+      "fluid": "pneumaticcraft:diesel"
+    },
+    {
+      "amount": 500,
+      "fluid": "oritech:still_naphtha"
+    },
+    {
+      "amount": 500,
+      "fluid": "oritech:still_sulfuric_acid"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "oritech:clay_catalyst_beads"
+    }
+  ],
+  "results": [],
+  "time": 120
+}

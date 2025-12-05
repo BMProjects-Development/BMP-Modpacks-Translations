@@ -45,7 +45,7 @@
 	#Remembers the last search term and restores it when the terminal opens
 	rememberLastSearch = true
 	#Automatically focuses the search field when the terminal opens
-	autoFocusSearch = false
+	autoFocusSearch = true
 
 [tooltips]
 	#Show installed upgrades in the tooltips of storage cells, color applicators and matter cannons

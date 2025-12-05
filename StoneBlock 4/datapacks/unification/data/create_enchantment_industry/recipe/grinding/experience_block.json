@@ -1,0 +1,15 @@
+{
+  "type": "create_enchantment_industry:grinding",
+  "ingredients": [
+    {
+      "item": "create:experience_block"
+    }
+  ],
+  "sound": "minecraft:book_page_turn",
+  "results": [
+    {
+      "amount": 27,
+      "id": "cognition:cognitium_source"
+    }
+  ]
+}

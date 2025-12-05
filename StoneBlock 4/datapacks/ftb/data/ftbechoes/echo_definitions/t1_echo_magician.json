@@ -19,7 +19,7 @@
         {"name": "Red Fertilizer", "item": {"id": "farmingforblockheads:red_fertilizer", "count": 1}, "cost": 15},
         {"name": "Common Ink", "item": {"id": "irons_spellbooks:common_ink", "count": 16}, "cost": 10},
         {"name": "Brewing Stand", "item": {"id": "minecraft:brewing_stand", "count": 1}, "cost": 10}
-      ]
+        ]
     },
     {
       "title": {"translate": "ftb.echo.stage1.title1"},
@@ -36,6 +36,9 @@
       "shop_unlock": [
         {"name": "Nutritious Chicken Feed", "item": {"id": "mob_grinding_utils:nutritious_chicken_feed", "count": 1}, "cost": 45, "description": {"translate": "ftb.shop.description.exclusive"}},
         {"name": "Enchanting Table", "item": {"id": "minecraft:enchanting_table", "count": 1}, "cost": 15},
+        {"name": "Bat Spawn Egg", "item": {"id": "minecraft:bat_spawn_egg", "count": 1}, "cost": 25},
+        {"name": "Armadillo Spawn Egg", "item": {"id": "minecraft:armadillo_spawn_egg", "count": 1}, "cost": 25},
+        {"name": "Turtle Spawn Egg", "item": {"id": "minecraft:turtle_spawn_egg", "count": 1}, "cost": 25},
         {"name": "Mega Torch", "item": {"id": "torchmaster:megatorch", "count": 1}, "cost": 20},
         {"name": "Dread Lamp", "item": {"id": "torchmaster:dreadlamp", "count": 1}, "cost": 20},
         {"name": "Magebloom Seeds", "item": {"id": "arsnouveau:magebloom_crop", "count": 1, "cost": 10}},

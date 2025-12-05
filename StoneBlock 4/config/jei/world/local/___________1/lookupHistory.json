@@ -1,5 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"custommachinery:custom_machine_item","components":{"custommachinery:machine":"ftb:steam_pressurizer"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"custommachinery:custom_machine_item","components":{"custommachinery:machine":"ftb:neutron_activator"}},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]

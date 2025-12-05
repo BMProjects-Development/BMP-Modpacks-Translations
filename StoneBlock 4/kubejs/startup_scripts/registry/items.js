@@ -50,7 +50,8 @@ const addItems = [
     food: (food) => {
       food.eatSeconds(3).nutrition(3).effect("minecraft:resistance", 200, 1, 1)
     }
-  }
+  },
+  { itemID: "player_upgrade", fireResistant: true, maxStackSize: 1, rarity: "epic"}
 ]
 
 StartupEvents.registry("item", (event) => {

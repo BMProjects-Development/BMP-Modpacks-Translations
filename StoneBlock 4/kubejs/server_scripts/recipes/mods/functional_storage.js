@@ -15,4 +15,46 @@ ServerEvents.recipes((event) => {
       D: "functionalstorage:storage_controller",
     })
     .id("ftb:framed_storage_controller");
+
+  event
+    .custom({
+      type: "functionalstorage:custom_compacting",
+      higher_input: {
+        count: 1,
+        id: "minecraft:white_wool"
+      },
+      lower_input: {
+        count: 4,
+        id: "minecraft:string"
+      }
+  })
+  .id("ftb:compacting/string_to_wool")
+
+  event
+    .custom({
+      type: "functionalstorage:custom_compacting",
+      higher_input: {
+        count: 1,
+        id: "minecraft:honeycomb_block"
+      },
+      lower_input: {
+        count: 4,
+        id: "minecraft:honeycomb"
+      }
+	})
+  .id("ftb:compacting/honeycomb_block");
+
+  event
+    .custom({
+      type: "functionalstorage:custom_compacting",
+      higher_input: {
+        count: 1,
+        id: "minecraft:snow_block"
+      },
+      lower_input: {
+        count: 4,
+        id: "minecraft:snowball"
+      }
+	})
+  .id("ftb:compacting/snow_block");
 });

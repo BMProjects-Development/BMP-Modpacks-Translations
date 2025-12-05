@@ -1,0 +1,14 @@
+{
+  "type": "create_enchantment_industry:grinding",
+  "ingredients": [
+    {
+      "item": "create_enchantment_industry:super_experience_block"
+    }
+  ],
+  "results": [
+    {
+      "amount": 27,
+      "id": "cognition:cognitium_source"
+    }
+  ]
+}

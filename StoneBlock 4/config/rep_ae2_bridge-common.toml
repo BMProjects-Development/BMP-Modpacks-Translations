@@ -5,5 +5,5 @@ bridgeEnergyConsumption = 500
 #Enable aggressive debug logging for troubleshooting (includes network state dumps and reconnection logs)
 enableDebugLogging = false
 #Path to directory containing replication bridge matter declaration files
-#Default: 'kubejs/startup_scripts'
-bridgeCustomMatterDeclarePath = "kubejs/startup_scripts"
+#Default: 'config'
+bridgeCustomMatterConfigPath = "config"

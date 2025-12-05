@@ -1,5 +1,5 @@
 {
-    "descriptionId": "material.irons_jewelry.lead",
+    "descriptionId": "ftb.irons.material.lead",
     "ingredient": {
       "tag": "c:ingots/lead"
     },
@@ -10,7 +10,7 @@
     "quality": 0.75,
     "bonusParameters": {
       "irons_jewelry:attribute": {
-        "attribute": "minecraft:player.submerged_mining_speed",
+        "attribute": "minecraft:generic.attack_speed",
         "amount": 5,
         "operation": "add_value"
       }

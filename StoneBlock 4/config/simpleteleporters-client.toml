@@ -1,0 +1,6 @@
+#Client settings
+[client]
+	#Disable the particles shown above an active teleporter [Default: false]
+	disableParticles = false
+	#Disable the nameplate shown above a teleporter with a named crystal [Default: false]
+	disableNameplate = false

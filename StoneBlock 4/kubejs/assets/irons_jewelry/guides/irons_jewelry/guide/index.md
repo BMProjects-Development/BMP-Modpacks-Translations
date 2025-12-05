@@ -8,10 +8,8 @@ item_ids:
 ---
 # Iron's Gems and Jewelry
 
-<Color id="gold">Iron's Gems & Jewelry</Color> is a mod that focus on combining <Color id="green">Metals</Color> and <<Color id="light_purple">Gems</Color> to create jewelry with special stats and effects.
+<Color id="gold">Iron's Gems & Jewelry</Color> is a mod that focuses on combining <Color id="green">Metals</Color> and <Color id="light_purple">Gems</Color> to create jewelry with special stats and effects.
 
-You will need to craft a <Color id="gold">Jewelcrafting Station</Color> to begin making some basic Jewelry.
+You will need to craft a <Color id="gold">Jewelcrafting Station</Color> to begin making Jewelry.
 
-To learn more advanced recipes for Jewelry, you will need to find their blueprints by trading with villagers, crafting them in the <Color id="gold">World Engine</Color>, or buying them from the <Color id="gold">Shop</Color>.
-
-
+To learn more advanced Jewelry recipes, you will need to find their blueprints by trading with villagers, crafting them in the <Color id="gold">World Engine</Color>, or buying them from the <Color id="gold">Shop</Color>.

@@ -29,5 +29,4 @@ item_ids:
   <ItemIcon id="rftoolsbuilder:builder" />
   <ItemIcon id="compactmachines:personal_shrinking_device" />
   <ItemIcon id="mekanism:basic_tier_installer" />
-  <ItemIcon id="ironfurnaces:augment_generator" />
 </ItemGrid>

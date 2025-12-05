@@ -16,8 +16,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: true
 			id: "27EFEC10CAA8466D"
 			rewards: [{
+				auto: "no_toast"
 				id: "0EE7D3BEEC77D6D5"
 				item: {
 					components: {
@@ -294,6 +296,7 @@
 					count: 1
 					id: "psi:spell_bullet"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -304,8 +307,10 @@
 			y: 9.0d
 		}
 		{
+			can_repeat: true
 			id: "39591758177F9B88"
 			rewards: [{
+				auto: "no_toast"
 				id: "2AEA75A5F2440A03"
 				item: {
 					components: {
@@ -541,6 +546,7 @@
 					count: 1
 					id: "psi:spell_bullet_grenade"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -551,8 +557,10 @@
 			y: 9.0d
 		}
 		{
+			can_repeat: true
 			id: "27E32F12C9434D5F"
 			rewards: [{
+				auto: "no_toast"
 				id: "73B2E9F1A96380E6"
 				item: {
 					components: {
@@ -727,6 +735,7 @@
 					count: 1
 					id: "psi:spell_bullet"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -737,8 +746,10 @@
 			y: 9.0d
 		}
 		{
+			can_repeat: true
 			id: "31C0030BC01A7371"
 			rewards: [{
+				auto: "no_toast"
 				id: "25F33162429E3EC4"
 				item: {
 					components: {
@@ -865,6 +876,7 @@
 					count: 1
 					id: "psi:spell_bullet"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -875,8 +887,10 @@
 			y: 10.0d
 		}
 		{
+			can_repeat: true
 			id: "1D5E4FE4560B115C"
 			rewards: [{
+				auto: "no_toast"
 				id: "4341A72F0E3AAB8D"
 				item: {
 					components: {
@@ -1026,6 +1040,7 @@
 					count: 1
 					id: "psi:spell_bullet"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -1036,8 +1051,10 @@
 			y: 10.0d
 		}
 		{
+			can_repeat: true
 			id: "07883932FC21CFAA"
 			rewards: [{
+				auto: "no_toast"
 				id: "710B276F6BB88D96"
 				item: {
 					components: {
@@ -1280,6 +1297,7 @@
 					count: 1
 					id: "psi:spell_bullet"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
@@ -2608,13 +2626,14 @@
 			y: -1.5d
 		}
 		{
+			can_repeat: true
 			icon: {
 				id: "industrialforegoing:mycelial_reactor"
 			}
 			id: "71EF740F3234EA08"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "01A656B76F5708E9"
+				id: "2BE2C94E9E81AEFB"
 				table_id: 8119412201504344609L
 				type: "all_table"
 			}]
@@ -2909,6 +2928,42 @@
 				}
 			]
 			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "0BE524ECA97A0E63"
+			rewards: [{
+				auto: "enabled"
+				id: "407E5E7C278C76C4"
+				tags: ["echo_complete"]
+				type: "custom"
+			}]
+			tasks: [{
+				id: "520D23A6FBA0E76B"
+				stage: "dev_debug"
+				type: "gamestage"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "5639361BF45D4C34"
+			rewards: [{
+				auto: "invisible"
+				id: "0938097891FEF46B"
+				item: {
+					count: 1
+					id: "twilightforest:knight_phantom_trophy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "4649E93D4F8E517C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
 			y: 7.0d
 		}
 	]

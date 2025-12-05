@@ -210,7 +210,7 @@ const SB4$CAT_KEYS = {
   },
   "maow tsu tung": {
     weight: 1,
-    name: Text.of("maow tsu tung").toNBT()
+    name: Text.of("Maow").toNBT()
   },
   "Pretinho": {
     weight: 1,
@@ -461,7 +461,7 @@ function SB4$SPAWN_CAT_LOOT(server, cat, player) {
   loottable.getRandomItems(lootparams).forEach(item => {
     cat["spawnAtLocation(net.minecraft.world.item.ItemStack)"](item)
   });
-  player.tell(Text.translate("ftb.event.gift_of_pets.loot",cat.getCustomName()))
+  player.tell(Text.translate("ftb.event.gift_of_pets.loot",cat.getDisplayName()))
   cat.addEffect(MobEffectUtil.of("minecraft:glowing", 200, 0, true, false))
 }
 

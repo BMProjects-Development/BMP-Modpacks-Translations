@@ -396,6 +396,16 @@ removeItem.push(
   "oritech:small_plutonium_dust"
 )
 
+//Mekanism adds its own Sulfuric Acid, so oritech recipes should be unified with it.
+if (Platform.isLoaded("mekanism")) {
+  remFluid.push(
+    "oritech:still_sulfuric_acid",
+    "oritech:flowing_sulfuric_acid",
+    "oritech:still_biofuel",
+    "oritech:flowing_biofuel"
+  )
+}
+
 removeItemTag.push([`c:ingots/steel`, `oritech:biosteel_ingot`])
 
 ServerEvents.recipes((event) => {

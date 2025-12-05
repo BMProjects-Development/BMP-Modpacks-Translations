@@ -1,14 +1,8 @@
 {
-  "neoforge:conditions": [
-		{
-			"type": "neoforge:mod_loaded",
-			"modid": "redacted"
-		}
-	],
   "type": "oritech:cooler",
   "fluidInput": {
     "amount": 1000,
-    "fluid": "oritech:still_steam"
+    "fluid": "#c:steam"
   },
   "fluidOutputs": [],
   "ingredients": [],

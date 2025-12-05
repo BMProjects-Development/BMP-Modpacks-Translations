@@ -13,8 +13,10 @@ item_ids:
 
 This item can be used as a <Color id="light_purple">Gem</Color> for Iron's Jewelry.
 
+- <Color id="gray">Quality Multiplier:</Color> 2
+
 ### Attribute
-- Adds Mining Damage (Percentage)
+- Adds Mining Speed (Percentage)
 
 ### Positive Effect
 - Haste

@@ -8,3 +8,9 @@
 [scarf]
 	#How long should the Malignant Stronghold Scarf be? This value will affect all rendered scarves, not just the one worn by the local player.
 	scarfLength = 30
+
+[ui]
+	#X offset from the center of the screen for the Soul Ward and Malignant Aegis HUD Elements.
+	shieldX = 0
+	#Y offset from the bottom of the screen for the Soul Ward and Malignant Aegis HUD Elements.
+	shieldY = 47

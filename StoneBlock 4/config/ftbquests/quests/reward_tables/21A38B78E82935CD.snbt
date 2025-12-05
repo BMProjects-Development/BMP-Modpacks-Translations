@@ -503,6 +503,17 @@
 		{ id: "42D3A191CD9313FE", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:ender_dragon" }, count: 1, id: "hostilenetworks:data_model" } }
 		{ id: "42D3A191CD9313FE", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:warden" }, count: 1, id: "hostilenetworks:data_model" } }
 		{ id: "42D3A191CD9313FE", item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:wither" }, count: 1, id: "hostilenetworks:data_model" } }
+		{
+			id: "78583BB258D661FB"
+			item: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:bee"
+				}
+				count: 1
+				id: "hostilenetworks:data_model"
+			}
+			weight: 100.0f
+		}
 	]
 	use_title: true
 }

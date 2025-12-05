@@ -45,14 +45,30 @@ EntityEvents.death("minecraft:player", (event) => {
       event.cancel();
     } else if (isEntityInVault(player)) {
       let player = event.getPlayer()
-      player.setHealth(player.getMaxHealth())
-      $FTBEPlayerData.addTeleportHistory(event.getPlayer())
-      let { x, y, z } = player.getRespawnPosition()
-      let yRot = player.getYaw()
-      let xRot = player.getPitch()
-      let dimension = event.getServer()["getLevel(net.minecraft.resources.ResourceKey)"](player.getRespawnDimension())
-      player["teleportTo(net.minecraft.server.level.ServerLevel,double,double,double,float,float)"](dimension, x, y, z, yRot, xRot)
-      event.cancel()
+      try {
+        let { x, y, z } = player.getRespawnPosition()
+        let yRot = player.getYaw()
+        let xRot = player.getPitch()
+        let dimension = event.getServer()["getLevel(net.minecraft.resources.ResourceKey)"](player.getRespawnDimension())
+        if (dimension == null) {
+          throw new Error("")
+        }
+        $FTBEPlayerData.addTeleportHistory(player)
+        player["teleportTo(net.minecraft.server.level.ServerLevel,double,double,double,float,float)"](dimension, x, y, z, yRot, xRot)
+      } catch (EE) {
+        let {x, y, z} = $BaseInstanceManager.get(player.getServer()).getLobbySpawnPos()
+        let yRot = player.getYaw()
+        let xRot = player.getPitch()
+        let dimension = event.getServer()["getLevel(net.minecraft.resources.ResourceLocation)"]("minecraft:overworld")
+        $FTBEPlayerData.addTeleportHistory(player)
+        player["teleportTo(net.minecraft.server.level.ServerLevel,double,double,double,float,float)"](dimension, x+0.5, y+1, z+0.5, yRot, xRot)
+      } finally {
+
+        player.setHealth(player.getMaxHealth())
+        event.cancel()
+      }
+
+
     }
   }
 });

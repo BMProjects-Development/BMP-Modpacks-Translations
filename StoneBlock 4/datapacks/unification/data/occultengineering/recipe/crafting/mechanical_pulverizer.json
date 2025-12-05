@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "SB ",
+    " O "
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/iron"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "B": {
+      "item": "occultengineering:sterling_silver_block"
+    },
+    "O": {
+      "item": "occultism:otherstone_slab"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "occultengineering:mechanical_pulverizer"
+  }
+}

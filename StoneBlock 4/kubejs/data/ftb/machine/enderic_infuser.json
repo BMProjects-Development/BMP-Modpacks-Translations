@@ -1,0 +1,164 @@
+{
+  "name": {
+    "text": "Enderic Infuser",
+    "color": "dark_aqua"
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "immersiveengineering:charge_slow",
+        "volume": 0.19,
+        "pitch": 0.7
+      },
+      "custommachinery:block": "ftb:machine/enderic_infuser_active#standalone"
+    },
+    "errored": {
+      "custommachinery:block": "ftb:machine/enderic_infuser#standalone"
+    },
+    "paused": {
+      "custommachinery:block": "ftb:machine/enderic_infuser_idle#standalone"
+    },
+    "custommachinery:block": "ftb:machine/enderic_infuser#standalone",
+    "idle": {
+      "custommachinery:block": "ftb:machine/enderic_infuser_idle#standalone"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:contraption",
+      "stress_impact": 128.0
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "max_output": 10000,
+      "id": "fluid_input",
+      "capacity": 64000
+    },
+    {
+      "type": "custommachinery:heat",
+      "base_temp": 0.0
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "item_output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 229,
+      "y": 6,
+      "width": 20
+    },
+    {
+      "type": "custommachinery:dump",
+      "x": 81,
+      "y": 86,
+      "width": 18,
+      "height": 9,
+      "tanks": "fluid_input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input",
+      "texture": {
+        "texture": "ftb:textures/gui/base_fluid_storage.png"
+      },
+      "x": 81,
+      "y": 41
+    },
+    {
+      "type": "custommachinery:heat",
+      "x": 71,
+      "y": 39,
+      "texture_empty": {
+        "texture": "ftb:textures/gui/base_heat_storage.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 42,
+      "y": 112
+    },
+    {
+      "type": "custommachinery:progress",
+      "priority": 4,
+      "x": 115,
+      "y": 53,
+      "texture_empty": {
+        "texture": "ftb:textures/gui/base_progres"
+      },
+      "texture_filled": {
+        "texture": "ftb:textures/gui/base_progress_filled.png"
+      }
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 119,
+      "y": 55
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 101,
+      "y": 44
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input_1",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 101,
+      "y": 64
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_output",
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 144,
+      "y": 54
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 6,
+      "y": 6,
+      "width": 16,
+      "height": 16
+    }
+  ],
+  "processor": {
+    "type": "custommachinery:machine",
+    "amount": 16
+  }
+}

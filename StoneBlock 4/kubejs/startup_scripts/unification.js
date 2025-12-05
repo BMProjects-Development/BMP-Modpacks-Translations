@@ -210,7 +210,7 @@ global.enabledRods = []
  *
  * @type {Array<[string, (string|undefined)]>}
  */
-global.enabledPlates = [["invar"]]
+global.enabledPlates = []
 
 /**
  * List of enabled wire materials.
@@ -272,6 +272,9 @@ global.geoOres = []
 global.tags = [global.tagPrefix]
 
 // Mods
+
+//Manual Additions
+global.enabledPlates.push(["invar"])
 
 // Minecraft
 if (Platform.isLoaded("minecraft")) {
@@ -453,7 +456,16 @@ if (Platform.isLoaded("immersiveengineering")) {
       amount: 2
     }
   })
-  global.enabledPlates.push(["aluminum"], ["nickel"], ["steel"], ["electrum"], ["bronze"], ["constantan"], ["lead"])
+  global.enabledPlates.push(
+    ["silver"],
+    ["aluminum"],
+    ["nickel"],
+    ["steel"],
+    ["electrum"],
+    ["bronze"],
+    ["constantan"],
+    ["lead"]
+  )
   global.enabledWires.push(["aluminum"], ["copper"], ["electrum"], ["steel"])
   global.enabledRods.push(["iron"], ["steel"], ["aluminum"], ["netherite"])
 
@@ -708,7 +720,7 @@ if (Platform.isLoaded("modern_industrialization")) {
 if (Platform.isLoaded("industrialforegoing")) {
   global.fluids.push("industrialforegoing:raw_ore_meat_bucket")
 
-  global.enabledGears.push(["gold"], ["diamond", "c:gems/diamond"])
+  global.enabledGears.push(["gold"], ["diamond", "c:gems/diamond"], ["iron"])
 }
 
 // Actually Additions

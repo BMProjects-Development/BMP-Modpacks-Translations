@@ -43,7 +43,7 @@ RecipeViewerEvents.removeEntries("item", (event) => {
 
 const FEEDABLE_COW_RULES = [
   { item: "minecraft:ender_eye", fluids: ["productivemetalworks:molten_ender"] },
-  { item: "chicken_roost:ingot_enderium", fluids: ["productivemetalworks:molten_enderium"] },
+  { item: "minecraft:water_bucket", fluids: ["minecraft:water"] },
   {
     item: "ftb:clapple",
     fluids: [
@@ -52,15 +52,16 @@ const FEEDABLE_COW_RULES = [
       "productivemetalworks:molten_tin",
       "productivemetalworks:molten_zinc",
       "productivemetalworks:molten_lead",
+      "productivemetalworks:molten_carbon",
       "productivemetalworks:molten_nickel",
       "productivemetalworks:molten_silver",
       "productivemetalworks:molten_aluminum",
+      "productivemetalworks:molten_slime",
       "productivemetalworks:molten_gold",
       "productivemetalworks:molten_uranium",
       "productivemetalworks:molten_amethyst",
       "productivemetalworks:molten_redstone",
-      "productivemetalworks:molten_carbon",
-      "productivemetalworks:molten_slime"
+      "productivemetalworks:molten_osmium"
     ]
   }
 ];

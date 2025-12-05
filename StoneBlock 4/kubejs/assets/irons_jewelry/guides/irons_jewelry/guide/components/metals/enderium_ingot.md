@@ -11,7 +11,9 @@ item_ids:
 
 <ItemImage id="chicken_roost:ingot_enderium" scale="3" />
 
-This item can be used as a <Color id="green">Metal</Color> for Iron's Jewelry.
+This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+
+- <Color id="gray">Quality Multiplier:</Color> 2.8
 
 ### Attribute
 - Adds Crit Chance+ (Percentage)

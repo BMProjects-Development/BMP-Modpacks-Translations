@@ -20,4 +20,10 @@ ServerEvents.recipes((event) => {
       },
     })
     .id("ftb:cutting/black_dye");
+
+  //Readding Dough Recipe
+  event.shapeless(Item.of("farmersdelight:wheat_dough", 1),
+    ["#c:crops/wheat", "#c:buckets/water"]).id("ftb:farmers_delight/shapeless/wheat_dough_from_water");
+
+
 });

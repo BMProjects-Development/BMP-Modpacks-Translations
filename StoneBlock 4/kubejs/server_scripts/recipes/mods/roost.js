@@ -451,6 +451,12 @@ const chickenRecipes = [
         parent_1: "c_diamond",
         parent_2: "c_quartz",
         item: "minecraft:prismarine_crystals"
+      },
+      {
+        output: "c_otherstone",
+        parent_1: "c_skystone",
+        parent_2: "c_stone",
+        item: "occultism:otherstone"
       }
     ]
   },
@@ -475,6 +481,28 @@ const chickenRecipes = [
       { output: "c_time", item: "justdirethings:time_crystal" },
       { output: "c_neutron", item: "avaritia:neutron_pile" },
       { output: "c_chaos", item: "draconicevolution:small_chaos_frag" }
+    ]
+  },
+  {
+    tier: 6,
+    time: 60,
+    breed: false,
+    chickens: [
+      {
+        output: "c_skystone",
+        item: "ae2:sky_dust"
+      }
+    ]
+  },
+  {
+    tier: 9,
+    time: 12000,
+    breed: false,
+    chickens: [
+      {
+        output: "c_antimatter",
+        item: "mekanism:pellet_antimatter"
+      }
     ]
   }
 ]
@@ -780,40 +808,6 @@ ServerEvents.recipes((event) => {
       }
     })
     .id("ftb:roost/roost/c_water")
-
-
-  event
-    .custom({
-      type: "chicken_roost:roost_output",
-      food: {
-        tag: "c:seeds/tier6orup"
-      },
-      chicken: {
-        item: "chicken_roost:c_skystone"
-      },
-      time: 60,
-      output: {
-        item: "ae2:sky_dust"
-      }
-    })
-    .id("ftb:roost/roost/c_skystone")
-  event
-    .custom({
-      type: "chicken_roost:roost_output",
-      food: {
-        tag: "c:seeds/tier9orup"
-      },
-      chicken: {
-        item: "chicken_roost:c_antimatter"
-      },
-      time: 12000,
-      output: {
-        item: "mekanism:pellet_antimatter"
-      }
-    })
-    .id("ftb:roost/roost/c_antimatter")
-
-
 
 })
 

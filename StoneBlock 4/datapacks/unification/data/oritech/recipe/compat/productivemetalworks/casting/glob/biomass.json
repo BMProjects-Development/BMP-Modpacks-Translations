@@ -12,7 +12,7 @@
   "consume_cast": false,
   "fluid": {
     "amount": 100,
-    "fluid": "oritech:still_biofuel"
+    "tag": "c:biofuel"
   },
   "result": {
     "count": 1,

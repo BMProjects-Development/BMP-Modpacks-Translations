@@ -1,0 +1,48 @@
+{
+	icon: {
+		id: "irons_spellbooks:wandering_magician_helmet"
+	}
+	id: "1DA364008CA08643"
+	loot_crate: {
+		color: 11141120
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "Random Iron's Spells Gear"
+		string_id: "random_irons_mods_gear"
+	}
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ id: "1B30020BF08B5F19", item: { count: 1, id: "irons_spellbooks:blood_staff" } }
+		{ id: "36B33C90908BB684", item: { count: 1, id: "irons_spellbooks:graybeard_staff" } }
+		{ id: "2F4D911B8C60B27C", item: { count: 1, id: "irons_spellbooks:ice_staff" } }
+		{ id: "71F0F76724FBA2C1", item: { count: 1, id: "irons_spellbooks:artificer_cane" } }
+		{ id: "4BE8162A8F4FA0D6", item: { count: 1, id: "irons_spellbooks:lightning_rod" } }
+		{ id: "69F2A32870DC49D5", item: { count: 1, id: "irons_spellbooks:pyrium_staff" } }
+		{ id: "4920896689F3661D", item: { count: 1, id: "irons_spellbooks:magehunter" } }
+		{ id: "4C67B67F77127433", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:counterspell", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:spellbreaker" } }
+		{ id: "112FF50A3F0859DE", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:echoing_strikes", index: 0, level: 5, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:amethyst_rapier" } }
+		{ id: "685A05B612B6A339", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:frostbite", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:boreal_blade" } }
+		{ id: "7E0D10D770D09B35", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:volt_strike", index: 0, level: 5, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:twilight_gale" } }
+		{ id: "2F58A939B1FD6758", item: { count: 1, id: "irons_spellbooks:keeper_flamberge" } }
+		{ id: "64D816769FD80397", item: { count: 1, id: "irons_spellbooks:legionnaire_flamberge" } }
+		{ id: "615050D884D88741", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:raise_hell", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:hellrazor" } }
+		{ id: "0B71D5EE2F1C065C", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:portal", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:hither_thither_wand" } }
+		{ id: "1B7EC1311E1E2299", item: { count: 1, id: "irons_spellbooks:mana_ring" } }
+		{ id: "11C973D07513A2BD", item: { count: 1, id: "irons_spellbooks:cooldown_ring" } }
+		{ id: "69DB01A032CB3E9A", item: { count: 1, id: "irons_spellbooks:cast_time_ring" } }
+		{ id: "713D929B33E060F6", item: { count: 1, id: "irons_spellbooks:heavy_chain_necklace" } }
+		{ id: "6537AA380782AA0D", item: { count: 1, id: "irons_spellbooks:emerald_stoneplate_ring" } }
+		{ id: "5D60953E6CBF0C7C", item: { count: 1, id: "irons_spellbooks:fireward_ring" } }
+		{ id: "5F2DE996601956F4", item: { count: 1, id: "irons_spellbooks:frostward_ring" } }
+		{ id: "297A3DB10E694E1B", item: { count: 1, id: "irons_spellbooks:poisonward_ring" } }
+		{ id: "4991E949F3379215", item: { count: 1, id: "irons_spellbooks:conjurers_talisman" } }
+		{ id: "0029C727C6F3CDCD", item: { count: 1, id: "irons_spellbooks:concentration_amulet" } }
+		{ id: "25CD9AF60107FBC2", item: { count: 1, id: "irons_spellbooks:betrayer_signet" } }
+		{ id: "6A3BA517EA33B82C", item: { count: 1, id: "irons_spellbooks:invisibility_ring" } }
+	]
+}

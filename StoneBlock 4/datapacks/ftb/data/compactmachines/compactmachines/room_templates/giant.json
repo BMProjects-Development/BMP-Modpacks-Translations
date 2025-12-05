@@ -1,4 +1,10 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "ftb:redacted"
+    }
+  ],
   "color": "#43D6CD",
   "dimensions": {
     "depth": 11,

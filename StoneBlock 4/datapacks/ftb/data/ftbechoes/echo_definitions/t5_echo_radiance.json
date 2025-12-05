@@ -19,7 +19,7 @@
       "completion_reward": {"command": {"run": "kubejs stages add @s echo_radiance_stage5_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "Radiance Casings", "item": {"id": "create:refined_radiance_casing", "count": 64}, "cost": 10, "description": {"translate": "ftb.shop.description.exclusive"}},
-        {"name": "Particle Accelerator Speed Sensor", "item": {"id": "oritechthings:particle_accelerator_speed_sensor", "count": 1}, "cost": 150, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Particle Accelerator Speed Sensor", "item": {"id": "oritechthings:particle_accelerator_speed_sensor", "count": 1}, "cost": 75},
         {"name": "Efficient Speed Addon Tier 9", "item": {"id": "oritechthings:addon_block_efficient_speed_tier_9", "count": 1}, "cost": 450, "description": {"translate": "ftb.shop.description.exclusive"}}
       ]
     },

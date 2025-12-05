@@ -1,10 +1,7 @@
-const chicken_unbreakable = ['draconicevolution:dislocator_receptacle', 'draconicevolution:infused_obsidian', 'antiblocksrechiseled:bright_black']
-
 BlockEvents.modification((event) => {
-  event.modify("minecraft:stone", (block) => {
-    block.setRequiresTool(false)
+  event.modify(global.SB4$CREATIVE_BLOCKS, (block) => {
+    block.setExplosionResistance(3600000.8)
   })
-
   event.modify("twilightforest:mazestone", (block) => {
     block.destroySpeed = 7
   })

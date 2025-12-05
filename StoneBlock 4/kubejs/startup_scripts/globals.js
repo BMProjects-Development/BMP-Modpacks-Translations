@@ -3,22 +3,54 @@
 // - fluid: "ns:id"
 // - fluids: ["ns:id", ...]  unweighted random
 // - weighted: [{id:"ns:id", weight:n}, ...]
-global.COW_TRANSMUTE_RULES = [
-  { item: "minecraft:ender_eye", fluid: "productivemetalworks:molten_ender" },
-  { item: "minecraft:blaze_rod", fluid: "minecraft:lava" },
-  { item: "appflux:insulating_resin", fluid: "industrialforegoing:latex" },
-  {
-    item: "chicken_roost:ingot_enderium",
-    fluid: "productivemetalworks:molten_enderium",
-  },
+global.SB4$CREATIVE_BLOCKS = [
+  'ae2:creative_energy_cell',
+  'rftoolsutility:creative_screen',
+  'cabletiers:creative_importer',
+  'create:creative_motor',
+  'ars_nouveau:creative_source_jar',
+  'mekanism:creative_energy_cube',
+  'refinedstorage:creative_controller',
+  'refinedstorage_mekanism_integration:creative_chemical_storage_block',
+  'create:creative_crate',
+  'justdynathings:creative_goo',
+  'draconicevolution:creative_op_capacitor',
+  'cabletiers:creative_disk_interface',
+  'mekanism_lasers:creative_laser',
+  'powah:energy_cell_creative',
+  'create:creative_fluid_tank',
+  'create_connected:creative_fluid_vessel',
+  'oritech:creative_storage_block',
+  'cabletiers:creative_autocrafter',
+  'refinedstorage:creative_fluid_storage_block',
+  'enderio:creative_power',
+  'refinedstorage:creative_portable_grid',
+  'mekanism:creative_bin',
+  'replication:creative_matter_tank',
+  'mekanism_lasers:creative_toggleable_laser',
+  'rftoolspower:dimensionalcell_creative',
+  'cabletiers:creative_exporter',
+  'xycraft_machines:fluid_selector',
+  'refinedstorage:creative_storage_block',
+  'oritech:creative_tank_block',
+  'cabletiers:creative_destructor',
+  'createaddition:creative_energy',
+  'xycraft_machines:item_selector',
+  'cabletiers:creative_interface',
+  'immersiveengineering:capacitor_creative'
+];
 
+global.COW_TRANSMUTE_RULES = [
+  { item: "minecraft:water_bucket", fluid: "minecraft:water" },
+  { item: "minecraft:blaze_rod", fluid: "minecraft:lava" },
+  { item: "minecraft:ender_eye", fluid: "productivemetalworks:molten_ender" },
+  { item: "appflux:insulating_resin", fluid: "industrialforegoing:latex" },
   {
     item: "ftb:clapple",
     weighted: [
       // common base metals
       { id: "productivemetalworks:molten_copper", weight: 20 },
       { id: "productivemetalworks:molten_iron", weight: 18 },
-      { id: "minecraft:water", weight: 18 },
       { id: "productivemetalworks:molten_tin", weight: 14 },
       { id: "productivemetalworks:molten_zinc", weight: 14 },
       { id: "productivemetalworks:molten_lead", weight: 12 },
@@ -41,5 +73,5 @@ global.COW_TRANSMUTE_RULES = [
 ];
 
 if (!global.noteStateMap) {
-    global.noteStateMap = {};
-  }
+  global.noteStateMap = {};
+}

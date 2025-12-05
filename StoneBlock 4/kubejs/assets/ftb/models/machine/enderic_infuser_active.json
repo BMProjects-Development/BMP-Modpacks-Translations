@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "ftb:block/circuit_fabricator/circuit_fabricator",
+    "north":   "ftb:block/circuit_fabricator/circuit_fabricator_active",
+    "east":    "ftb:block/circuit_fabricator/circuit_fabricator_side",
+    "south":   "ftb:block/circuit_fabricator/circuit_fabricator_side",
+    "west":    "ftb:block/circuit_fabricator/circuit_fabricator_side",
+    "up":      "ftb:block/circuit_fabricator/circuit_fabricator_top",
+    "down":    "ftb:block/circuit_fabricator/circuit_fabricator_bottom"
+  }
+}

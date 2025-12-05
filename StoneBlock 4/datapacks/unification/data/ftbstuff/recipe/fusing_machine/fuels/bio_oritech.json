@@ -1,0 +1,25 @@
+{
+    "neoforge:conditions": [
+        {
+          "type": "neoforge:not",
+          "value": {
+            "type": "neoforge:mod_loaded",
+            "modid": "industrialforegoing"
+          }
+        }
+    ],
+    "type": "ftbstuff:fusing_machine",
+    "energy": {
+        "fe_per_tick": 50,
+        "ticks_to_process": 40
+    },
+    "inputs": [
+        {
+            "tag": "c:fuels/bio"
+        }
+    ],
+    "result": {
+        "id": "oritech:still_biofuel",
+        "amount": 100
+    }
+}

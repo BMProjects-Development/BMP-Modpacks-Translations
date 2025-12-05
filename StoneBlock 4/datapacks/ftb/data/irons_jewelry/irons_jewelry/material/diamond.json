@@ -18,7 +18,7 @@
       "effect": "minecraft:resistance"
     },
     "irons_jewelry:negative_effect": {
-      "effect": "minecraft:weakness"
+      "effect": "minecraft:mining_fatigue"
     },
     "irons_jewelry:action": {
       "targetSelf": false,

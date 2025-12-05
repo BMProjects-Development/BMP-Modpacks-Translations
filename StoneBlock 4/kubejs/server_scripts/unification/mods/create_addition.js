@@ -19,6 +19,11 @@ removeRecipe.push(
   "createaddition:crafting/electrum_ingot_from_electrum_block"
 )
 
+remFluid.push(
+  "createaddition:bioethanol",
+  "createaddition:flowing_bioethanol"
+)
+
 ServerEvents.recipes((event) => {
   global.enabledRods.forEach((rod) => {
     const material = rod[0]

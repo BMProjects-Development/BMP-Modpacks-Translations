@@ -11,7 +11,9 @@ item_ids:
 
 <ItemImage id="draconicevolution:awakened_draconium_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Metal</Color> for Iron's Jewelry.
+This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+
+- <Color id="gray">Quality Multiplier:</Color> 4
 
 ### Attribute
 - Adds Current HP Damage (Percentage)

@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "more_immersive_wires:id_connector"
+    }
+  ],
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "more_immersive_wires:id_connector"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "more_immersive_wires:blocks/id_connector"
+}

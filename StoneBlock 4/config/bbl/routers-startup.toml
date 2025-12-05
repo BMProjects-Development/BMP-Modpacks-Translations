@@ -1,0 +1,112 @@
+#Routers Config
+["RF Upgrades"]
+	#The maximum RF per tick that tier 1 can provide.
+	# Default: 10
+	# Range: > 1
+	"RF Per Operation 1" = 10
+	#The maximum RF per tick that tier 2 can provide.
+	# Default: 240
+	# Range: > 1
+	"RF Per Operation 2" = 240
+	#The maximum RF per tick that tier 3 can provide.
+	# Default: 12000
+	# Range: > 1
+	"RF Per Operation 3" = 12000
+	#The maximum RF per tick that tier 4 can provide.
+	# Default: 50000
+	# Range: > 1
+	"RF Per Operation 4" = 50000
+
+["Item Upgrades"]
+	#The maximum items per operation that tier 1 can provide.
+	# Default: 1
+	# Range: > 1
+	"Items Per Operation 1" = 1
+	#The maximum items per operation that tier 2 can provide.
+	# Default: 8
+	# Range: > 1
+	"Items Per Operation 2" = 8
+	#The maximum items per operation that tier 3 can provide.
+	# Default: 32
+	# Range: > 1
+	"Items Per Operation 3" = 32
+	#The maximum items per operation that tier 4 can provide.
+	# Default: 64
+	# Range: > 1
+	"Items Per Operation 4" = 64
+
+["Fluid Upgrades"]
+	#The maximum mb per operation that tier 1 can provide.
+	# Default: 100
+	# Range: > 1
+	"Fluid Per Operation 1" = 100
+	#The maximum mb per operation that tier 2 can provide.
+	# Default: 1000
+	# Range: > 1
+	"Fluid Per Operation 2" = 1000
+	#The maximum mb per operation that tier 3 can provide.
+	# Default: 10000
+	# Range: > 1
+	"Fluid Per Operation 3" = 10000
+	#The maximum mb per operation that tier 4 can provide.
+	# Default: 100000
+	# Range: > 1
+	"Fluid Per Operation 4" = 100000
+
+["Chemical Upgrades"]
+	#The maximum mB per operation that tier 1 can provide.
+	# Default: 10
+	# Range: > 1
+	"Chemical Per Operation 1" = 10
+	#The maximum mB per operation that tier 2 can provide.
+	# Default: 100
+	# Range: > 1
+	"Chemical Per Operation 2" = 100
+	#The maximum mB per operation that tier 3 can provide.
+	# Default: 1000
+	# Range: > 1
+	"Chemical Per Operation 3" = 1000
+	#The maximum mB per operation that tier 4 can provide.
+	# Default: 10000
+	# Range: > 1
+	"Chemical Per Operation 4" = 10000
+
+["Speed Upgrades"]
+	#The default speed multiplier that is used when no speed upgrades are installed.
+	# Default: 40
+	# Range: > 1
+	"Default Speed Per Operation" = 40
+	#The speed multiplier that tier 1 can provide.
+	# Default: 30
+	# Range: > 1
+	"Speed Per Operation 1" = 30
+	#The speed multiplier that tier 2 can provide.
+	# Default: 20
+	# Range: > 1
+	"Speed Per Operation 2" = 20
+	#The speed multiplier that tier 3 can provide.
+	# Default: 10
+	# Range: > 1
+	"Speed Per Operation 3" = 10
+	#The speed multiplier that tier 4 can provide.
+	# Default: 1
+	# Range: > 1
+	"Speed Per Operation 4" = 1
+
+["Source Upgrades"]
+	#The maximum sources per operation that tier 1 can provide.
+	# Default: 10
+	# Range: > 1
+	"Source Per Operation 1" = 10
+	#The maximum sources per operation that tier 2 can provide.
+	# Default: 100
+	# Range: > 1
+	"Source Per Operation 2" = 100
+	#The maximum sources per operation that tier 3 can provide.
+	# Default: 500
+	# Range: > 1
+	"Source Per Operation 3" = 500
+	#The maximum sources per operation that tier 4 can provide.
+	# Default: 1000
+	# Range: > 1
+	"Source Per Operation 4" = 1000

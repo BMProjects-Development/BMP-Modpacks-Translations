@@ -3581,11 +3581,24 @@ ServerEvents.recipes(function (event) {
       energyPerTick: 16192,
       structures: ["machine_block_upgrade", "fortron_upgrade"],
       itemInputs: [
-        { item: "refinedstorage:advanced_processor", count: 2 },
         { item: "refinedstorage:autocrafter", count: 1 },
+        { item: "refinedstorage:advanced_processor", count: 2 },
         { item: "minecraft:iron_block", count: 4 },
       ],
       itemOutputs: [{ item: "extrastorage:iron_crafter", count: 1 }],
+    },
+    {
+      id: "ftb:world_engine/rs_elite_autocrafter",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 16192,
+      structures: ["machine_block_upgrade", "fortron_upgrade"],
+      itemInputs: [
+        { item: "refinedstorage:advanced_processor", count: 1 },
+        { item: "#refinedstorage:autocrafters", count: 4 },
+        { item: "minecraft:iron_block", count: 4 },
+      ],
+      itemOutputs: [{ item: "cabletiers:elite_autocrafter", count: 1 }],
     },
     {
       id: "ftb:world_engine/rs_gold_autocrafter",
@@ -3618,6 +3631,23 @@ ServerEvents.recipes(function (event) {
       itemOutputs: [{ item: "extrastorage:diamond_crafter", count: 1 }],
     },
     {
+      id: "ftb:world_engine/rs_ultra_autocrafter",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 32768,
+      structures: [
+        "machine_block_upgrade",
+        "ender_power_upgrade",
+        "advanced_machine_upgrade",
+      ],
+      itemInputs: [
+        { item: "#cabletiers:elite_autocrafters", count: 4 },
+        { item: "refinedstorage:advanced_processor", count: 1 },
+        { item: "minecraft:diamond_block", count: 4 },
+      ],
+      itemOutputs: [{ item: "cabletiers:ultra_autocrafter", count: 1 }],
+    },
+    {
       id: "ftb:world_engine/rs_netherite_autocrafter",
       machineId: "ftb:world_engine",
       duration: 120,
@@ -3634,6 +3664,24 @@ ServerEvents.recipes(function (event) {
         { item: "minecraft:netherite_block", count: 4 },
       ],
       itemOutputs: [{ item: "extrastorage:netherite_crafter", count: 1 }],
+    },
+    {
+      id: "ftb:world_engine/rs_mega_autocrafter",
+      machineId: "ftb:world_engine",
+      duration: 120,
+      energyPerTick: 65536,
+      structures: [
+        "machine_block_upgrade",
+        "ender_power_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+      ],
+      itemInputs: [
+        { item: "minecraft:dragon_head", count: 2 },
+        { item: "#cabletiers:ultra_autocrafters", count: 4 },
+        { item: "minecraft:netherite_block", count: 4 },
+      ],
+      itemOutputs: [{ item: "cabletiers:mega_autocrafter", count: 1 }],
     },
     {
       id: "ftb:world_engine/reactor_niotic_batch",
@@ -4067,8 +4115,8 @@ ServerEvents.recipes(function (event) {
       energyPerTick: 131072,
       itemInputs: [
         { item: "refinedtypes:8388608b_source_storage_part", count: 3 },
-        { item: "refinedstorage:advanced_processor", count: 4 },
         { item: "avaritia:crystal_matrix_ingot", count: 2 },
+        { item: "refinedstorage:advanced_processor", count: 4 },
       ],
       fluidInputs: [
         { fluid: "mffs:fortron_fluid", amount: 2000, tank: "fluid_input_1" },
@@ -4088,8 +4136,8 @@ ServerEvents.recipes(function (event) {
       ],
       energyPerTick: 131072,
       itemInputs: [
-        { item: "refinedtypes:2097152k_soul_storage_part", count: 3 },
         { item: "refinedstorage:advanced_processor", count: 4 },
+        { item: "refinedtypes:2097152k_soul_storage_part", count: 3 },
         { item: "avaritia:crystal_matrix_ingot", count: 2 },
       ],
       fluidInputs: [
@@ -4209,7 +4257,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/dm_smithing_template",
       machineId: "ftb:world_engine",
       duration: 160,
-      structures: ["machine_block_upgrade"],
+      structures: ["machine_block_upgrade", "enderium_upgrade"],
       energyPerTick: 8192,
       itemInputs: [
         { item: "minecraft:netherite_upgrade_smithing_template", count: 1 },
@@ -4221,7 +4269,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/rm_smithing_template",
       machineId: "ftb:world_engine",
       duration: 320,
-      structures: ["machine_block_upgrade"],
+      structures: ["machine_block_upgrade", "draconic_upgrade"],
       energyPerTick: 8192,
       itemInputs: [
         { item: "ftb:dark_matter_smithing_template", count: 1 },
@@ -4529,6 +4577,25 @@ ServerEvents.recipes(function (event) {
       itemOutputs: [{ item: "chicken_roost:c_neutron", count: 1 }],
     },
     {
+      id: "ftb:world_engine/extendo_grip",
+      machineId: "ftb:world_engine",
+      duration: 80,
+      energyPerTick: 4096,
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "resonant_void_upgrade",
+      ],
+      itemInputs: [
+        { item: "create:precision_mechanism", count: 2 },
+        { item: "create:brass_hand", count: 1 },
+        { item: "ftbmaterials:brass_ingot", count: 8 },
+        { item: "minecraft:stick", count: 8 },
+      ],
+      itemOutputs: [{ item: "create:extendo_grip", count: 1 }],
+    },
+    {
       id: "ftb:world_engine/chicken/timey_wimey",
       machineId: "ftb:world_engine",
       duration: 1200,
@@ -4541,7 +4608,7 @@ ServerEvents.recipes(function (event) {
         { item: "occultism:awakened_feather", count: 8 },
         { item: "justdirethings:time_crystal", count: 4 },
         { item: "tempad:time_steel", count: 36 },
-        { item: "create:mysterious_cuckoo_clock", count: 1 },
+        { item: "#ftb:cuckoo", count: 1 },
       ],
       fluidInputs: [
         {
@@ -5243,6 +5310,33 @@ ServerEvents.recipes(function (event) {
       ],
       itemOutputs: [
         { item: "draconicevolution:chaotic_crafting_injector", count: 4 },
+      ],
+    },
+    {
+      id: "ftb:world_engine/enderic_infuser",
+      machineId: "ftb:world_engine",
+      duration: 240,
+      energyPerTick: 225000,
+      structures: [
+        "machine_block_upgrade",
+        "advanced_machine_upgrade",
+        "draconic_upgrade",
+        "ender_power_upgrade",
+        "enderium_upgrade",
+        "fortron_upgrade",
+      ],
+      itemInputs: [
+        { item: "industrialforegoing:machine_frame_supreme", count: 1 },
+        { item: "create:large_cogwheel", count: 1 },
+        { item: "create:cogwheel", count: 4 },
+        { item: "rftoolsutility:screen", count: 1 },
+        { item: "mekanism:ultimate_control_circuit", count: 1 },
+      ],
+      itemOutputs: [
+        {
+          item: 'custommachinery:custom_machine_item[custommachinery:machine="ftb:enderic_infuser"]',
+          count: 1,
+        },
       ],
     },
 

@@ -19,7 +19,8 @@
       "completion_reward": {"item": {"id": "ae2:entropy_manipulator", "components":{"ae2:stored_energy":75000}, "count": 1}},
       "shop_unlock":[
         {"name": "Ultimate Train Set", "item": [{"id": "create:track", "count": 32}, {"id": "create:railway_casing", "count": 1}, {"id": "create:super_glue", "count": 1}, {"id": "create:gray_seat", "count": 1}, {"id": "create:track_station", "count": 1}, {"id": "create:controls", "count": 1}], "cost": 20, "description": {"translate": "ftb.shop.description.exclusive"}, "icon": "create:item/track"},
-        {"name": "Hand Crank", "item": {"id": "create:hand_crank", "count": 1}, "cost": 5},
+        {"name": "Router", "item": {"id": "routers:router_connector", "count": 1}, "cost": 15, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Hand Crank", "item": {"id": "create:hand_crank", "count": 1}, "cost": 15},
         {"name": "Schematicannon", "item": {"id": "create:schematicannon", "count": 1}, "cost": 5},
         {"name": "Light Blue Drill", "item": {"id": "actuallyadditions:drill_light_blue", "components": {"actuallyadditions:energy": 250000}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.filled_rf"}},
         {"name": "Drill Silk Touch Augment", "item": {"id": "actuallyadditions:drill_upgrade_silk_touch", "count": 1}, "cost": 10},
@@ -28,7 +29,7 @@
         {"name": "External Heater", "item": {"id": "immersiveengineering:furnace_heater", "count": 1}, "cost": 10},
         {"name": "Entropy Manipulator", "item": {"id": "ae2:entropy_manipulator", "components": {"ae2:stored_energy": 200000}, "count": 1}, "cost": 10, "description": {"translate": "ftb.shop.description.filled_rf"}},
         {"name": "Double Battery", "item": {"id": "actuallyadditions:double_battery", "components": {"actuallyadditions:energy": 350000}, "count": 1}, "cost": 25, "description": {"translate": "ftb.shop.description.filled_rf"}}
-      ]
+        ]
     },
     {
       "title": {"translate": "ftb.echo.stage1.title1"},

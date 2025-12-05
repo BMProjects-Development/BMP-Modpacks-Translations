@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_enchantment_industry:experience_cake_base"
+    },
+    {
+      "type": "neoforge:tag",
+      "amount": 1000,
+      "tag": "c:experience"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_enchantment_industry:experience_cake"
+    }
+  ]
+}
