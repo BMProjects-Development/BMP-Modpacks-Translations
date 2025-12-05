@@ -5,7 +5,7 @@
 ## ❗️Важная информация
 - Версия Minecraft для сборки 1.21.1 
 - Загрузчик модов NeoForge 21.1.213 
-- Перевод создан для версии сборки 1.1.0 (вполне вероятно на других версиях он тоже будет работать, но могут возникать ошибки)
+- Перевод создан для версии сборки 1.3.0 (вполне вероятно на других версиях он тоже будет работать, но могут возникать ошибки)
 - Авторы перевода [BMProjects](https://t.me/BMProjects) (в тг канале можно задавать вопросы по переводу)
 
 ## ❗️Способ 1 - Установка с нуля:
@@ -28,5 +28,5 @@
 4. Приятной игры!
 
 ## ❗️Скачать оригинальную версию сборки
-[CurseForge](https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4) | [FTB](https://feed-the-beast.com/), (здесь можно найти версию [1.1.0](https://feed-the-beast.com/modpacks/130-ftb-stoneblock-4/versions?v=100150), которой нет на CF)
+[CurseForge](https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4) | [FTB](https://feed-the-beast.com/), (здесь можно найти версию [1.3.0](https://feed-the-beast.com/modpacks/130-ftb-stoneblock-4/versions?v=100158), которой нет на CF)
 
