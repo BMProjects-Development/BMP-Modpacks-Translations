@@ -28,5 +28,5 @@
 4. Приятной игры!
 
 ## ❗️Скачать оригинальную версию сборки
-[CurseForge](https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4) | [FTB](https://feed-the-beast.com/), (здесь можно найти версию [1.3.0](https://feed-the-beast.com/modpacks/130-ftb-stoneblock-4/versions?v=100158), которой нет на CF)
+[CurseForge](https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4) | [FTB](https://feed-the-beast.com/)
 
