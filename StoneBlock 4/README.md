@@ -17,7 +17,7 @@
 
 ## ❗️Способ 2 - Установка в уже имеющуюся сборку:
 1. Скачайте архив с переводом [Google Drive](https://drive.google.com/file/d/1GiXWb82v6MC1Y7cRf7hhH6AhbnfvVaAV/view?usp=drive_link)
-2. Перенесите папки config, kubejs, resourcepacks с заменой в .minecraft
+2. Перенесите папки config, kubejs, resourcepacks с заменой в папку где находится установленная сборка
 3. Запустите игру
 4. Приятной игры!
 
