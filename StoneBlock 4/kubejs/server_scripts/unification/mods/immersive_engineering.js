@@ -338,8 +338,11 @@ removeRecipe.push(
   "immersiveengineering:arc_recycling_list245",
   "immersiveengineering:alloysmelter/electrum",
   "immersiveengineering:alloysmelter/bronze",
-  "immersiveengineering:alloysmelter/invar"
-)
+  "immersiveengineering:alloysmelter/invar",
+  "immersiveengineering:smelting/ingot_silver3",
+  "immersiveengineering:smelting/ingot_silver_from_dust",
+  "immersiveengineering:crafting/plate_uranium_hammering"
+);
 
 removeOre.push(
   "immersiveengineering:ore_uranium",
@@ -352,7 +355,7 @@ removeOre.push(
   "immersiveengineering:deepslate_ore_silver",
   "immersiveengineering:deepslate_ore_lead",
   "immersiveengineering:deepslate_ore_aluminum"
-)
+);
 
 removeItem.push(
   "immersiveengineering:coal_coke",
@@ -429,24 +432,24 @@ removeItem.push(
   "immersiveengineering:dust_lead",
   "immersiveengineering:ingot_silver",
   "immersiveengineering:ingot_lead"
-)
+);
 
 ServerEvents.tags("item", (event) => {
   //Making Duroplast its own Thing, separate from Plastic Sheets.
-  event.remove("c:plates/plastic", "immersiveengineering:plate_duroplast")
-  event.add("c:plates/duroplast", "immersiveengineering:plate_duroplast")
-})
+  event.remove("c:plates/plastic", "immersiveengineering:plate_duroplast");
+  event.add("c:plates/duroplast", "immersiveengineering:plate_duroplast");
+});
 
 ServerEvents.recipes((event) => {
   global.resourceOresIngots.forEach((mod) => {
     mod.materials.forEach((material) => {
-      const rawMaterialTag = `${global.tagPrefix}:raw_materials/${material}`
-      const oreTag = `${global.tagPrefix}:ores/${material}`
-      const ingotTag = `${global.tagPrefix}:ingots/${material}`
-      const dust = `ftbmaterials:${material}_dust`
+      const rawMaterialTag = `${global.tagPrefix}:raw_materials/${material}`;
+      const oreTag = `${global.tagPrefix}:ores/${material}`;
+      const ingotTag = `${global.tagPrefix}:ingots/${material}`;
+      const dust = `ftbmaterials:${material}_dust`;
       const ingot = ["iron", "gold", "copper"].includes(material)
         ? `minecraft:${material}_ingot`
-        : `ftbmaterials:${material}_ingot`
+        : `ftbmaterials:${material}_ingot`;
 
       // Ore -> Ingot
       addRecipeImmersiveEngineeringArcFurnace(
@@ -454,10 +457,10 @@ ServerEvents.recipes((event) => {
         oreTag,
         [
           [ingot, 2],
-          [ingot, 1, 0.25]
+          [ingot, 1, 0.25],
         ],
         `ftb:immersive/arc/ore/${material}`
-      )
+      );
 
       // Raw Ore -> Dust
       addRecipeImmersiveEngineeringArcFurnace(
@@ -465,10 +468,10 @@ ServerEvents.recipes((event) => {
         rawMaterialTag,
         [
           [ingot, 1],
-          [ingot, 1, 0.33]
+          [ingot, 1, 0.33],
         ],
         `ftb:immersive/arc/raw_ore/${material}`
-      )
+      );
 
       // Ore -> Raw Ore
       addRecipeImmersiveEngineeringCrusher(
@@ -476,10 +479,10 @@ ServerEvents.recipes((event) => {
         oreTag,
         [
           [getRawOreId(material), 2],
-          [getRawOreId(material), 1, 0.25]
+          [getRawOreId(material), 1, 0.25],
         ],
         `ftb:immersive/crusher/ore/${material}`
-      )
+      );
 
       // Raw Ore -> Dust
       addRecipeImmersiveEngineeringCrusher(
@@ -487,23 +490,23 @@ ServerEvents.recipes((event) => {
         rawMaterialTag,
         [
           [dust, 1],
-          [dust, 1, 0.33]
+          [dust, 1, 0.33],
         ],
         `ftb:immersive/crusher/raw_ore/${material}`
-      )
+      );
 
       // Ingot -> Dust
-      addRecipeImmersiveEngineeringCrusher(event, ingotTag, [[dust]], `ftb:immersive/crusher/ingot/${material}`)
-    })
-  })
+      addRecipeImmersiveEngineeringCrusher(event, ingotTag, [[dust]], `ftb:immersive/crusher/ingot/${material}`);
+    });
+  });
 
   // Loop For Gem Ores
   global.resourcesOresGem.forEach((mod) => {
     mod.materials.forEach((material) => {
-      const gemType = material[0]
-      const oreTag = `${global.tagPrefix}:ores/${gemType}`
-      const outputId = material[2] ?? `${mod.modID}:${gemType}`
-      const outputAmount = material[1] ?? 1
+      const gemType = material[0];
+      const oreTag = `${global.tagPrefix}:ores/${gemType}`;
+      const outputId = material[2] ?? `${mod.modID}:${gemType}`;
+      const outputAmount = material[1] ?? 1;
 
       // Ore -> Gem
       addRecipeImmersiveEngineeringCrusher(
@@ -511,20 +514,20 @@ ServerEvents.recipes((event) => {
         oreTag,
         [
           [outputId, outputAmount],
-          [outputId, Math.max(1, Math.floor(outputAmount / 2)), 0.33]
+          [outputId, Math.max(1, Math.floor(outputAmount / 2)), 0.33],
         ],
         `ftb:immersive/crusher/ore/${gemType}`
-      )
-    })
-  })
+      );
+    });
+  });
 
   // Wires
   global.enabledWires.forEach((entry) => {
-    const material = entry[0]
+    const material = entry[0];
     if (entry[2] === false) {
-      return
+      return;
     }
-    const tag = entry[1] ?? `c:plates/${material}`
+    const tag = entry[1] ?? `c:plates/${material}`;
 
     addRecipeIEMetalPressWire(
       event,
@@ -532,16 +535,16 @@ ServerEvents.recipes((event) => {
       [`ftbmaterials:${material}_wire`, 2],
       "immersiveengineering:mold_wire",
       `ftb:ie/metal_press/wire/${material}`
-    )
-  })
+    );
+  });
 
   // Plates
   global.enabledPlates.forEach((entry) => {
-    const material = entry[0]
+    const material = entry[0];
     if (entry[2] === false) {
-      return
+      return;
     }
-    const tag = entry[1] ?? `c:ingots/${material}`
+    const tag = entry[1] ?? `c:ingots/${material}`;
 
     addRecipeIEMetalPressWire(
       event,
@@ -549,16 +552,16 @@ ServerEvents.recipes((event) => {
       [`ftbmaterials:${material}_plate`, 1],
       "immersiveengineering:mold_plate",
       `ftb:ie/metal_press/plate/${material}`
-    )
-  })
+    );
+  });
 
   // Gears
   global.enabledGears.forEach((entry) => {
-    const material = entry[0]
+    const material = entry[0];
     if (entry[2] === false) {
-      return
+      return;
     }
-    const tag = entry[1] ?? `c:ingots/${material}`
+    const tag = entry[1] ?? `c:ingots/${material}`;
 
     addRecipeIEMetalPressWire(
       event,
@@ -566,16 +569,16 @@ ServerEvents.recipes((event) => {
       [`ftbmaterials:${material}_gear`],
       "immersiveengineering:mold_gear",
       `ftb:ie/metal_press/gear/${material}`
-    )
-  })
+    );
+  });
 
   // Rods
   global.enabledRods.forEach((entry) => {
-    const material = entry[0]
+    const material = entry[0];
     if (entry[2] === false) {
-      return
+      return;
     }
-    const tag = entry[1] ?? `c:ingots/${material}`
+    const tag = entry[1] ?? `c:ingots/${material}`;
 
     addRecipeIEMetalPressWire(
       event,
@@ -583,16 +586,16 @@ ServerEvents.recipes((event) => {
       [`ftbmaterials:${material}_rod`, 2],
       "immersiveengineering:mold_rod",
       `ftb:ie/metal_press/rod/${material}`
-    )
-  })
+    );
+  });
 
   global.enabledAlloys.forEach((material) => {
-    const outputType = material.output.id
-    const outputAmount = material.output.amount
-    const input1Type = material.first.id
-    const input1Amount = material.first.amount
-    const input2Type = material.second.id
-    const input2Amount = material.second.amount
+    const outputType = material.output.id;
+    const outputAmount = material.output.amount;
+    const input1Type = material.first.id;
+    const input1Amount = material.first.amount;
+    const input2Type = material.second.id;
+    const input2Amount = material.second.amount;
 
     addRecipeImmersiveEngineeringAlloy(
       event,
@@ -600,8 +603,8 @@ ServerEvents.recipes((event) => {
       [`c:ingots/${input2Type}`, input2Amount],
       [`ftbmaterials:${outputType}_ingot`, outputAmount],
       `ftb:ie/alloy_smelting/${outputType}`
-    )
-  })
+    );
+  });
 
   addRecipeImmersiveEngineeringAlloy(
     event,
@@ -609,7 +612,7 @@ ServerEvents.recipes((event) => {
     [`c:dusts/glowstone`, 1],
     [`enderio:clayed_glowstone`, 2],
     `ftb:ie/alloy_smelting/clayed_glowstone`
-  )
+  );
 
   //Salt Crushing
   addRecipeImmersiveEngineeringCrusher(
@@ -617,8 +620,8 @@ ServerEvents.recipes((event) => {
     "c:gems/salt",
     [
       ["ftbmaterials:salt_dust", 2],
-      ["ftbmaterials:salt_dust", 1, 0.25]
+      ["ftbmaterials:salt_dust", 1, 0.25],
     ],
     `ftb:immersive/crusher/gem/salt`
-  )
-})
+  );
+});

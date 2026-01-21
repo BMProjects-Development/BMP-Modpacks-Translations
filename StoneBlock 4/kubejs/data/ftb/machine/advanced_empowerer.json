@@ -1,0 +1,198 @@
+{
+  "name": {
+    "text": "ftb.machine.advanced_empowerer"
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "immersiveengineering:tesla",
+        "volume": 0.21,
+        "pitch": 0.3
+      },
+      "custommachinery:block": "ftb:machine/advanced_empowerer_active",
+      "custommachinery:hardness": 50.430264,
+      "custommachinery:resistance": 1000.3684
+    },
+    "errored": {
+      "custommachinery:block": "ftb:machine/advanced_empowerer_errored"
+    },
+    "paused": {
+      "custommachinery:block": "ftb:machine/advanced_empowerer_idle"
+    },
+    "custommachinery:hardness": 50.164474,
+    "custommachinery:keep_inventory": true,
+    "custommachinery:resistance": 1000.5263,
+    "idle": {
+      "custommachinery:block": "ftb:machine/advanced_empowerer_idle",
+      "custommachinery:hardness": 3.6383379
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 1000000,
+      "max_input": 1000000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_1",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_2",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_3",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_4",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "actuallyadditions:restonia_crystal",
+        "actuallyadditions:restonia_crystal_block",
+        "actuallyadditions:palis_crystal",
+        "actuallyadditions:palis_crystal_block",
+        "actuallyadditions:diamatine_crystal",
+        "actuallyadditions:diamatine_crystal_block",
+        "actuallyadditions:void_crystal",
+        "actuallyadditions:void_crystal_block",
+        "actuallyadditions:emeradic_crystal",
+        "actuallyadditions:emeradic_crystal_block",
+        "actuallyadditions:enori_crystal",
+        "actuallyadditions:enori_crystal_block",
+        "actuallyadditions:crystallized_canola_seed"
+      ],
+      "id": "input_main",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "whitelist": "mekanism:upgrade_speed",
+      "id": "upgrade",
+      "mode": "none"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 176,
+      "height": 166
+    },
+    {
+      "type": "custommachinery:config",
+      "x": 152,
+      "y": 5,
+      "width": 14,
+      "height": 14
+    },
+    {
+      "type": "custommachinery:energy",
+      "id": "energy",
+      "x": 14,
+      "y": 19,
+      "width": 9,
+      "height": 61
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 84,
+      "width": 162
+    },
+    {
+      "type": "custommachinery:progress",
+      "priority": 1,
+      "texture": {
+        "texture": "custommachinery:textures/gui/base_arrow.png"
+      },
+      "x": 103,
+      "y": 29,
+      "width": 24,
+      "height": 17
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_1",
+      "x": 39,
+      "y": 56
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_2",
+      "x": 58,
+      "y": 56
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_3",
+      "x": 77,
+      "y": 56
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_4",
+      "x": 96,
+      "y": 56
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_main",
+      "x": 65,
+      "y": 26,
+      "width": 22,
+      "height": 22
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "priority": 1,
+      "x": 143,
+      "y": 26,
+      "width": 22,
+      "height": 22
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "priority": 1,
+      "x": 146,
+      "y": 55,
+      "ghost": {
+        "items": {
+          "item": "mekanism:upgrade_speed"
+        },
+        "color": {
+          "alpha": 0.2784314
+        }
+      }
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 92,
+      "y": 6,
+      "text": {
+        "text": "ftb.machine.advanced_empowerer"
+      },
+      "alignment": "center"
+    }
+  ]
+}

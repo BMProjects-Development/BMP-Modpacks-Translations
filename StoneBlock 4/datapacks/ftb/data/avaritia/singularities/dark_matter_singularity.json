@@ -1,0 +1,9 @@
+{
+  "id": "dark_matter_singularity",
+  "color": [-14145496, -14408668],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ]
+}

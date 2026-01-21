@@ -11,9 +11,9 @@ item_ids:
 
 <ItemImage id="ftb:fortron_infused_block" scale="3" />
 
-<Color id="aqua">"Пропитанный фортроном блок"</Color> дополнительное улучшение, которое разблокирует некоторые автоматизированные механизмы как рецепт для <Color id="gold">Мирового двигателя</Color>. Включая автокрафтер из <Color id="gold">AE2</Color>, а также несколько функциональных блоков, например <Color id="light_purple">Телепорт</Color> из <Color id="gold">Mekanism</Color>.
+<Color id="aqua">"Пропитанный фортроном блок"</Color> дополнительное улучшение, которое разблокирует некоторые автоматизированные механизмы как рецепт для <Color id="gold">мирового двигателя</Color>. Включая автокрафт из <Color id="gold">AE2</Color>, а также несколько функциональных блоков, например <Color id="light_purple">телепорт</Color> из <Color id="gold">Mekanism</Color>.
 
-## Разблокируемые рецепты
+## Разблокируемые рецепты:
 
 <ItemGrid>
   <ItemIcon id="justdirethings:portalgun_v2" />

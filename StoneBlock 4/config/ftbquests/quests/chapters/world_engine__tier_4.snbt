@@ -904,7 +904,7 @@
 					type: "structure"
 				}
 				{
-					id: "3AE70742B9A07A8A"
+					id: "0E2AF9372422AC52"
 					item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
 					type: "item"
 				}
@@ -922,8 +922,8 @@
 			id: "586C935010D2FE74"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Сумеречная и древний\" -23 2 28 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"Twilight Ancient\" -23 2 28 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -951,8 +951,8 @@
 			id: "37499343396BC372"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Змеедел\" -3 2 51 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"The Wyrmwright\" -3 2 51 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -980,8 +980,8 @@
 			id: "4B92EBBA1F2BBFEA"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Древний и сумеречная\" -23 2 28 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"Twilight Ancient\" -23 2 28 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1131,7 +1131,6 @@
 				id: "create:empty_schematic"
 			}
 			id: "51B3EF0BCEB804A4"
-			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true

@@ -1,15 +1,20 @@
 {
-	"type": "avaritia:compressor",
-	"result": {
-		"id": "avaritia:json_singularity",
-		"components": {
-			"avaritia:singularity_id": "dark_matter_singularity"
-		}
-	},
-	"cost": 10,
-	"ingredients": [
-		{
-			"item": "projecte:dark_matter"
-		}
-	]
+  "type": "avaritia:compressor",
+  "result": {
+    "id": "avaritia:json_singularity",
+    "components": {
+      "avaritia:singularity_id": "dark_matter_singularity"
+    }
+  },
+  "cost": 10,
+  "ingredients": [
+    {
+      "item": "projecte:dark_matter"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "tag": "c:sands"
+  },
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "ftbstuff:dust"
+      }
+    }
+  ]
+}

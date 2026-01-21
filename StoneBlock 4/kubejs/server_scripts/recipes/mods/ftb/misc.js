@@ -12,33 +12,24 @@ ServerEvents.recipes((event) => {
   var transmute = function (arrayOfBlocks) {
     var cpt = 0;
     while (cpt < arrayOfBlocks.length) {
-      var otherBlocks = arrayOfBlocks
-        .slice(0, cpt)
-        .concat(arrayOfBlocks.slice(cpt + 1));
+      var otherBlocks = arrayOfBlocks.slice(0, cpt).concat(arrayOfBlocks.slice(cpt + 1));
       stonecutting(arrayOfBlocks[cpt], otherBlocks);
       cpt++;
     }
   };
 
-  event
-    .shapeless("ftb:blaze_lamp", ["9x minecraft:blaze_rod"])
-    .id("ftb:crafting/blaze_lamp");
-
-  event.shapeless("ftb:player_upgrade", [
-    "apotheosis:iron_upgrade_smithing_template",
-    "minecraft:player_head"
-  ]).id("ftb:crafting/player_upgrade");
+  event.shapeless("ftb:blaze_lamp", ["9x minecraft:blaze_rod"]).id("ftb:crafting/blaze_lamp");
 
   event
-    .shaped(
-      Item.of("chisel_chipped_integration:metal_cobalt_thermal", 32),
-      ["SLS", "SAS", "SLS"],
-      {
-        S: "minecraft:stone",
-        L: "minecraft:lapis_lazuli",
-        A: "minecraft:amethyst_shard",
-      }
-    )
+    .shapeless("ftb:player_upgrade", ["apotheosis:iron_upgrade_smithing_template", "minecraft:player_head"])
+    .id("ftb:crafting/player_upgrade");
+
+  event
+    .shaped(Item.of("chisel_chipped_integration:metal_cobalt_thermal", 32), ["SLS", "SAS", "SLS"], {
+      S: "minecraft:stone",
+      L: "minecraft:lapis_lazuli",
+      A: "minecraft:amethyst_shard",
+    })
     .id("ftb:chisel/cobalt_thermal");
 
   event
@@ -75,6 +66,14 @@ ServerEvents.recipes((event) => {
       M: "projecte:dark_matter",
     })
     .id("ftb:crafting/mighty_chicken_egg");
+
+  event
+    .shaped("mecrh:music_disc_chicken_of_chaos", ["DPD", "PMP", "DPD"], {
+      D: "#c:gems/dimensional_shard",
+      P: "#c:ender_pearls",
+      M: "#c:music_discs",
+    })
+    .id("ftb:crafting/mighty_chicken_disc");
 
   event
     .shaped("ftbunearthed:crude_brush", ["  S", " P ", "I  "], {
@@ -151,9 +150,7 @@ ServerEvents.recipes((event) => {
     })
     .id("ftb:ftb/crafting/fortron_block");
   event
-    .shapeless(Item.of("ftb:fortron_infused_ingot", 9), [
-      "ftb:fortron_infused_block",
-    ])
+    .shapeless(Item.of("ftb:fortron_infused_ingot", 9), ["ftb:fortron_infused_block"])
     .id("ftb:ftb/decompressing/fortron_block");
 
   //Enderium Block Recipe
@@ -163,9 +160,7 @@ ServerEvents.recipes((event) => {
     })
     .id("ftb:ftb/crafting/enderium_block");
   event
-    .shapeless(Item.of("chicken_roost:ingot_enderium", 9), [
-      "ftb:enderium_block",
-    ])
+    .shapeless(Item.of("chicken_roost:ingot_enderium", 9), ["ftb:enderium_block"])
     .id("ftb:ftb/decompressing/enderium_block");
 
   event
@@ -180,54 +175,9 @@ ServerEvents.recipes((event) => {
     })
     .id("ftb:crafting/wooden_basin");
 
-  event
-    .campfireCooking("ftb:dry_leaves", "#minecraft:leaves", 0.1, 600)
-    .id("ftb:campfire/dry_leaves");
+  event.campfireCooking("ftb:dry_leaves", "#minecraft:leaves", 0.1, 600).id("ftb:campfire/dry_leaves");
 
   //Adding Alloying Recipes for and with Ported Custom Alloys from NC ===================
-
-  //Shibuichi =====
-  event
-    .custom({
-      type: "productivemetalworks:fluid_alloying",
-      fluids: [
-        {
-          amount: 3,
-          tag: "c:molten_copper",
-        },
-        {
-          amount: 1,
-          tag: "c:molten_silver",
-        },
-      ],
-      result: {
-        amount: 4,
-        id: "ftb:molten_shibuichi",
-      },
-      speed: 10,
-    })
-    .id("ftb:productivemetalworks/fluid_alloying/shibuichi");
-
-  event
-    .custom({
-      type: "productivemetalworks:fluid_alloying",
-      fluids: [
-        {
-          amount: 20,
-          tag: "c:molten_redstone",
-        },
-        {
-          amount: 90,
-          fluid: "ftb:molten_shibuichi",
-        },
-      ],
-      result: {
-        amount: 90,
-        id: "productivemetalworks:molten_signalum",
-      },
-      speed: 10,
-    })
-    .id("ftb:productivemetalworks/fluid_alloying/signalum_from_alloy");
 
   //Tin Silver Alloy =====
   event
@@ -273,15 +223,11 @@ ServerEvents.recipes((event) => {
     .id("ftb:productivemetalworks/fluid_alloying/lumium_from_alloy");
 
   event
-    .shapeless(Item.of("minecraft:lapis_lazuli", 4), [
-      "supplementaries:lapis_bricks",
-    ])
+    .shapeless(Item.of("minecraft:lapis_lazuli", 4), ["supplementaries:lapis_bricks"])
     .id("ftb:supplementaries/lapis_uncraft");
   // ==============================================================================================
 
-  event
-    .stonecutting("twilightforest:aurora_block", `minecraft:stone`)
-    .id(`ftb:twilightforest/stonecutting/aurora`);
+  event.stonecutting("twilightforest:aurora_block", `minecraft:stone`).id(`ftb:twilightforest/stonecutting/aurora`);
 
   //Adding Recipes for the Decorative Portal Blocks ====
   event
@@ -328,26 +274,19 @@ ServerEvents.recipes((event) => {
   for (let color of colors) {
     // Adding Concrete Powder recipes
     event
-      .shaped(
-        Item.of(`minecraft:${color}_concrete`, 8),
-        ["PPP", "PWP", "PPP"],
-        {
-          P: `minecraft:${color}_concrete_powder`,
-          W: "#c:buckets/water",
-        }
-      )
+      .shaped(Item.of(`minecraft:${color}_concrete`, 8), ["PPP", "PWP", "PPP"], {
+        P: `minecraft:${color}_concrete_powder`,
+        W: "#c:buckets/water",
+      })
       .id(`ftb:${color}_concrete_from_powder`);
-
 
     //Adding Glazed Terracotta recipes
     var input = `minecraft:${color}_terracotta`;
     var output = `minecraft:${color}_glazed_terracotta`;
 
-    event.smelting(output, input)
-      .id(`minecraft:${color}_glazed_terracotta_smelting`);
+    event.smelting(output, input).id(`minecraft:${color}_glazed_terracotta_smelting`);
 
-    event.blasting(output, input)
-      .id(`minecraft:${color}_glazed_terracotta_blasting`);
+    event.blasting(output, input).id(`minecraft:${color}_glazed_terracotta_blasting`);
   }
 
   //Adding Compacting Drawer Recipes for FTB's Pebbles.
@@ -370,10 +309,28 @@ ServerEvents.recipes((event) => {
     `ftb:functional_storage/compacting/pebbles/diorite`
   );
 
-  //Adding Bauble Hearts Wither Bones 
-  event.
-    stonecutting(
-      "bhc:wither_bone",
-      "minecraft:wither_skeleton_skull"
-    ).id("ftb:wither_bones");
+  //Adding Bauble Hearts Wither Bones
+  event.stonecutting("bhc:wither_bone", "minecraft:wither_skeleton_skull").id("ftb:wither_bones");
+
+  // Multiblock Printer
+  event
+    .shaped("ftb:multiblock_printer", ["RGQ", "GCG", "QGR"], {
+      R: "#c:dusts/redstone",
+      Q: "#c:gems/quartz",
+      G: "#c:glass_panes",
+      C: "#c:ingots/copper",
+    })
+    .id("ftb:crafting/multiblock_printer");
+  
+  event
+    .shaped("ftb:multiblock_validator", [
+      " GR", 
+      "GCG", 
+      "RG "
+    ], {
+      R: "#c:dusts/redstone",
+      G: "#c:glass_panes",
+      C: "minecraft:spyglass",
+    })
+    .id("ftb:crafting/multiblock_validator");
 });

@@ -1,23 +1,17 @@
 {
-  "neoforge:conditions": [
+  "type": "apotheosis:salvaging",
+  "input": {
+    "type": "apotheosis:affix",
+    "rarity": "apotheosis:mythic"
+  },
+  "outputs": [
     {
-      "type": "neoforge:item_exists",
-      "item": "ftb:redacted"
+      "max_count": 16,
+      "min_count": 4,
+      "stack": {
+        "count": 1,
+        "id": "apotheosis:epic_material"
+      }
     }
-  ],
-    "type": "apotheosis:salvaging",
-    "input": {
-        "type": "apotheosis:affix",
-        "rarity": "apotheosis:mythic"
-    },
-    "outputs": [
-        {
-            "max_count": 4,
-            "min_count": 1,
-            "stack": {
-                "count": 1,
-                "id": "apotheosis:mythic_material"
-            }
-        }
-    ]
+  ]
 }

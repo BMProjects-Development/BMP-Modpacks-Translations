@@ -55,6 +55,12 @@ const addBlockTags = [
       "chicken_roost:seed_crop_9",
     ],
   },
+  {
+    tagName: "ftb:printable_multiblock",
+    blockIDs: [
+      "custommachinery:custom_machine_block",
+    ],
+  }
 ];
 
 const relocationDenyBlocks = [
@@ -163,7 +169,10 @@ const removeBlockTags = [
     tagName: "minecraft:mineable/axe",
     blockIDs: ["minecraft:crafting_table"],
   },
-  { tagName: "sfm:anvil_disenchanting", blockIDs: ["minecraft:obsidian"] },
+  { tagName: "sfm:anvil_disenchanting", blockIDs: [
+    "minecraft:obsidian", 
+    "minecraft:crying_obsidian"] 
+  },
   {
     tagName: "twilightforest:mazestone",
     blockIDs: ["twilightforest:mazestone"],
@@ -181,15 +190,12 @@ const tickSpeedDenyBlocks = [
 ];
 
 ServerEvents.tags("block", (event) => {
-  tickSpeedDenyBlocks.forEach((block) => {
-    event.add("tickaccelerator:deny", block);
-    event.add("justdirethings:tick_speed_deny", block);
-  });
 
   tickSpeedDenyBlocks.forEach((block) => {
     event.add("tickaccelerator:deny", block);
     event.add("gag:do_not_accelerate", block);
     event.add("justdirethings:tick_speed_deny", block);
+    event.add("industrialforegoingsouls:cant_accelerate", block);
   });
 
   relocationDenyBlocks.forEach((block) => {

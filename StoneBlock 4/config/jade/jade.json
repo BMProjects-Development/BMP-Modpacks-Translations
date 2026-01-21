@@ -7,7 +7,7 @@
     "hideFromGUIs": true,
     "accessibilityModMemory": false,
     "enableAccessibilityPlugin": false,
-    "fluidMode": "NONE",
+    "fluidMode": "ANY",
     "perspectiveMode": "CAMERA",
     "extendedReach": 0.0,
     "debug": false,
@@ -16,7 +16,7 @@
     "enableTextToSpeech": false,
     "ttsMode": "PRESS",
     "previewOverlay": true,
-    "displayTooltip": true,
+    "displayTooltip": false,
     "displayBlocks": true,
     "displayEntities": true
   },

@@ -2,14 +2,14 @@
 	#Cooldown of the ore generator (in seconds)
 	# Default: 4
 	# Range: > 0
-	oreGeneratorCooldown = 4
+	oreGeneratorCooldown = 0.5
 	#Energy cost of fabricating ore/ores
 	# Default: 16000000
 	# Range: 0 ~ 2147483647
-	oreGeneratorFabricationCost = 16000000
+	oreGeneratorFabricationCost = 50000
 	#How much ores do you get from one cycle
 	# Default: 1
 	# Range: > 1
 	oreGeneratorNumberOfOres = 1
 	#List of ores to blacklist from generation
-	blacklistedOres = ["justdirethings:raw_ferricore_ore", "justdirethings:raw_blazegold_ore", "justdirethings:raw_celestigem_ore", "justdirethings:raw_eclipsealloy_ore", "justdirethings:raw_coal_t1_ore", "justdirethings:raw_coal_t2_ore", "justdirethings:raw_coal_t3_ore", "justdirethings:raw_coal_t4_ore"]
+	blacklistedOres = ["justdirethings:raw_ferricore_ore", "justdirethings:raw_blazegold_ore", "justdirethings:raw_celestigem_ore", "justdirethings:raw_eclipsealloy_ore", "justdirethings:raw_coal_t1_ore", "justdirethings:raw_coal_t2_ore", "justdirethings:raw_coal_t3_ore", "justdirethings:raw_coal_t4_ore", "ftbmaterials:antimony_stone_ore", "ftbmaterials:apatite_stone_ore", "ftbmaterials:bauxite_stone_ore", "ftbmaterials:cinnabar_stone_ore", "ftbmaterials:antimony_deepslate_ore", "ftbmaterials:apatite_deepslate_ore", "ftbmaterials:bauxite_deepslate_ore", "ftbmaterials:cinnabar_deepslate_ore", "ftbmaterials:iridium_deepslate_ore", "ftbmaterials:monazite_deepslate_ore", "ftbmaterials:quartz_deepslate_ore", "ftbmaterials:titanium_deepslate_ore", "ftbmaterials:tungsten_deepslate_ore", "ftbmaterials:iridium_stone_ore", "ftbmaterials:monazite_stone_ore", "ftbmaterials:titanium_stone_ore", "ftbmaterials:tungsten_stone_ore"]

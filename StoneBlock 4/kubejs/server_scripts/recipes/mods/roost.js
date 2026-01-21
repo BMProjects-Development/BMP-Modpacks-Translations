@@ -129,6 +129,12 @@ const chickenRecipes = [
         parent_1: "c_gravel",
         parent_2: "c_gray",
         item: "minecraft:flint"
+      },
+      {
+        output: "c_tuff",
+        parent_1: "c_flint",
+        parent_2: "c_stone",
+        item: "minecraft:tuff"
       }
     ]
   },

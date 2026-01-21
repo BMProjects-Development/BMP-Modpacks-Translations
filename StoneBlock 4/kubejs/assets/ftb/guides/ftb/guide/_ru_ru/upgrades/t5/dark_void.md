@@ -11,10 +11,10 @@ item_ids:
 
 <ItemImage id="xycraft_machines:void_container" scale="3" />
 
-<Color id="dark_purple">"Пустота"</Color> необзодимое улучшение, которое разблокирует <Color id="gold">Сингулярность</Color> создаваемую в <Color id="gold">Мировом двигателе</Color>.
+<Color id="dark_purple">"Пустота"</Color> необходимое улучшение, которое разблокирует <Color id="gold">сингулярность</Color>, создаваемую в <Color id="gold">мировом двигателе</Color>.
 
 
-## Разблокируемые рецепты
+## Разблокируемые рецепты:
 
 <ItemGrid>
   <ItemIcon id="mekanism:ultimate_tier_installer" />

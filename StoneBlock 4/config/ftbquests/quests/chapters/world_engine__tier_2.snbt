@@ -802,8 +802,8 @@
 			id: "66FF7D88B712C969"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Следопыт\" 55 2 -5 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"The Wayfinder\" 55 2 -5 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -831,8 +831,8 @@
 			id: "08000D28B577EF94"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Зачаровыватель\" 22 2 17 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"The Enchanter\" 22 2 17 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -860,8 +860,8 @@
 			id: "0B02B72259362345"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Созидатель\" 43 2 4 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"The Fabricator\" 43 2 4 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimed"
 				icon: {
 					id: "minecraft:compass"
 				}

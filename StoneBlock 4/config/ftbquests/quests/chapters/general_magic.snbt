@@ -74,7 +74,6 @@
 			y: -3.0d
 		}
 		{
-			dependency: "7F7C0B1523AA28C4"
 			height: 1.5d
 			image: "ftb:textures/quests/ars/ars_nouveau_title.png"
 			rotation: 0.0d
@@ -115,7 +114,6 @@
 			y: 1.5d
 		}
 		{
-			dependency: "48005B47655AD525"
 			height: 2.5d
 			image: "ftb:textures/quests/ars/drygmyperch.png"
 			rotation: 0.0d
@@ -124,7 +122,6 @@
 			y: 6.5d
 		}
 		{
-			dependency: "7F7C0B1523AA28C4"
 			height: 1.0d
 			image: "ars_nouveau:block/fire_2"
 			rotation: 0.0d
@@ -133,7 +130,6 @@
 			y: -1.2000000000000002d
 		}
 		{
-			dependency: "7F7C0B1523AA28C4"
 			height: 1.0d
 			image: "ars_nouveau:block/gilded_sourcestone_basketweave"
 			order: -1
@@ -143,7 +139,6 @@
 			y: -0.7000000000000002d
 		}
 		{
-			dependency: "7F7C0B1523AA28C4"
 			height: 1.0d
 			image: "ars_nouveau:block/gilded_sourcestone_basketweave"
 			order: -1
@@ -153,7 +148,6 @@
 			y: -0.7000000000000002d
 		}
 		{
-			dependency: "7F7C0B1523AA28C4"
 			height: 1.0d
 			image: "ars_nouveau:block/fire_2"
 			rotation: 0.0d
@@ -162,7 +156,6 @@
 			y: -1.2000000000000002d
 		}
 		{
-			dependency: "48005B47655AD525"
 			height: 2.0d
 			image: "ftb:textures/quests/ars/scribetable.png"
 			rotation: 0.0d
@@ -238,7 +231,6 @@
 			y: 5.0d
 		}
 		{
-			dependency: "48005B47655AD525"
 			height: 2.5d
 			image: "ars_elemental:item/_glyph_template_form"
 			rotation: 45.0d
@@ -293,7 +285,6 @@
 		{
 			alpha: 80
 			color: 0
-			dependency: "7F7C0B1523AA28C4"
 			height: 2.0d
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -1
@@ -305,7 +296,6 @@
 		{
 			alpha: 55
 			color: 0
-			dependency: "7F7C0B1523AA28C4"
 			height: 11.0d
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -3
@@ -371,7 +361,6 @@
 			y: -1.0d
 		}
 		{
-			dependency: "7F7C0B1523AA28C4"
 			height: 1.5d
 			image: "ars_affinity:textures/gui/perk_tree_frame.png"
 			order: -1
@@ -1902,16 +1891,6 @@
 			size: 1.5d
 			tasks: [
 				{
-					id: "47B3519E9BAE88EB"
-					item: { components: { "ftbfiltersystem:filter": "or(item(malum:azure_runewood_sapling)item(malum:runewood_sapling))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "6FF2B7DB98E63996"
-					item: { count: 1, id: "malum:raw_soulstone" }
-					type: "item"
-				}
-				{
 					icon: {
 						id: "malum:void_depot"
 					}
@@ -1921,6 +1900,16 @@
 					timer: 0L
 					to_observe: "malum:void_conduit"
 					type: "observation"
+				}
+				{
+					id: "6FF2B7DB98E63996"
+					item: { count: 1, id: "malum:raw_soulstone" }
+					type: "item"
+				}
+				{
+					id: "35CCA9A1F02BC50A"
+					item: { count: 1, id: "malum:runewood_sapling" }
+					type: "item"
 				}
 			]
 			x: 10.0d
@@ -2108,7 +2097,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["71F25B7D688EE182"]
 			icon: {
 				id: "psi:cad_assembly_psimetal"
 			}

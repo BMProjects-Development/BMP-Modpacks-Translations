@@ -382,10 +382,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"47D745A94C534B48"
-				"58BC57B1119204CA"
-			]
 			icon: {
 				id: "ars_nouveau:blue_archwood_sapling"
 			}
@@ -424,7 +420,7 @@
 			tasks: [
 				{
 					id: "19893A74AF61880F"
-					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:blue_archwood_sapling)item(ars_nouveau:red_archwood_sapling)item(ars_nouveau:purple_archwood_sapling)item(ars_nouveau:green_archwood_sapling)item(ars_elemental:yellow_archwood_sapling))", "minecraft:custom_name": "\"Archwood Saplings\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:blue_archwood_sapling)item(ars_nouveau:red_archwood_sapling)item(ars_nouveau:purple_archwood_sapling)item(ars_nouveau:green_archwood_sapling))", "minecraft:custom_name": "\"Archwood Saplings\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -1024,8 +1020,8 @@
 			id: "31CCB73669788855"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Механик\" -40 2 13 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"The Machinist\" -40 2 13 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1053,8 +1049,8 @@
 			id: "20168B6357665708"
 			optional: true
 			rewards: [{
-				command: "ftbchunks waypoint add \"Квартирмейстер\"-28 2 -15 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "ftbchunks waypoint add \"The Quartermaster\" -28 2 -15 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimable"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1082,8 +1078,8 @@
 			id: "15B551FCA8790707"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Маг\" -43 2 -5 minecraft:overworld light_purple true"
-				feedback_message: "Точка создана"
+				command: "/ftbchunks waypoint add \"The Magician\" -43 2 -5 minecraft:overworld light_purple true"
+				feedback_message: "Waypoint claimed"
 				icon: {
 					id: "minecraft:compass"
 				}

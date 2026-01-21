@@ -142,6 +142,15 @@
             unlocked_at: "echo_twilight_ancients_unlock",
             name: "ftb.echowarp.ancient",
             icon: "occultism:item/entity_wormhole_portal"
+        },
+        {
+            command_action: {
+                command: "execute as @s run echo fracture",
+                execution_level: 4
+            },
+            unlocked_at: "t5_zone_unlocked",
+            name: "ftb.echowarp.zone_5",
+            icon: "draconicevolution:textures/particle/portal.png"
         }
     ]
 }

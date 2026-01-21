@@ -37,5 +37,10 @@
 		# Default: 24000
 		# Range: 1 ~ 2147483647
 		max_food_buffer: 24000
+		
+		# Speed boost provided when a Super Brush is in use.
+		# Default: 100
+		# Range: 1 ~ 2147483647
+		super_brush_speed_boost: 100
 	}
 }

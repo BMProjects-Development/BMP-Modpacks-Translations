@@ -65,7 +65,7 @@
 		#[@cui:RequiresReload:server]
 		# Default: 4000
 		# Range: > 1000
-		printerFluidCapacity = 4000
+		printerFluidCapacity = 50000
 		#.
 		#Whether printing custom names (displayed in italics) should instead print as as item names (displayed in non-italics).
 		printingCustomNameAsItemName = false

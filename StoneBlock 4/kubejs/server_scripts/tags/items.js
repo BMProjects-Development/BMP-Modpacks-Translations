@@ -200,6 +200,7 @@ const addItemTags = [
       "twilightforest:knight_phantom_trophy",
       "fdbosses:chesed_trophy",
       "ars_nouveau:wilden_tribute",
+      "minecraft:iron_sword",
     ],
   },
   {
@@ -234,8 +235,14 @@ const addItemTags = [
   },
   {
     tagName: "ftb:mushroom_soils",
-    itemIDs: ["minecraft:mycelium", "minecraft:podzol", "farmersdelight:organic_compost", "twilightforest:uberous_soil"]
+    itemIDs: [
+      "minecraft:mycelium",
+      "minecraft:podzol",
+      "farmersdelight:organic_compost",
+      "twilightforest:uberous_soil",
+    ],
   },
+  { tagName: "chisel:carving/charcoal", itemIDs: ["ftbmaterials:charcoal_block"] },
 ];
 
 const removeItemTags = [

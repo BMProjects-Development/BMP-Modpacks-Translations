@@ -1,0 +1,24 @@
+{
+  "id": "ftbechoes:test_echo3",
+  "title": { "text": "Test Echo 3", "color": "yellow" },
+  "stages": [
+    {
+      "title": "Stage I",
+      "lore": [
+        { "type": "ftbechoes:text", "text": "No shop!" }
+      ],
+      "not_ready": "You're not ready yet :(",
+      "ready": "Ok, good to go",
+      "required_stage": "echo3_stage1"
+    },
+    {
+      "title": "Stage II",
+      "lore": [
+        { "type": "ftbechoes:text", "text": "Welcome to stage II !" }
+      ],
+      "not_ready": "Not yet...",
+      "ready": "Ok good",
+      "required_stage": "echo3_stage2"
+    }
+  ]
+}

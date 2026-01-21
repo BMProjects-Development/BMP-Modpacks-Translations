@@ -230,13 +230,6 @@ const disabledItems = [
   "projecte:transmutation_tablet",
   "relics:researching_table",
   "reliquified_twilight_forest:invisibility_cloak",
-  "rftoolsbuilder:shape_card_quarry_clear_fortune",
-  "rftoolsbuilder:shape_card_quarry_clear_silk",
-  "rftoolsbuilder:shape_card_quarry_clear",
-  "rftoolsbuilder:shape_card_quarry_fortune",
-  "rftoolsbuilder:shape_card_quarry_silk",
-  "rftoolsbuilder:shape_card_quarry",
-  "rftoolsbuilder:shape_card_quarry",
   "rftoolsutility:saturation_module",
   "sophisticatedbackpacks:advanced_alchemy_upgrade",
   "sophisticatedbackpacks:alchemy_upgrade",
@@ -293,7 +286,9 @@ const disabledItems = [
   "utilitarian:yellow_trapped_soliciting_carpet",
   "minecraft:suspicious_sand",
   "minecraft:suspicious_gravel",
-  "draconicevolution:draconium_chest"
+  "draconicevolution:draconium_chest",
+  "avaritia:quartz_singularity",
+  "avaritia:emerald_singularity"
 ];
 
 const refined_colors = ["yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "light_blue", "blue", "brown", "green", "red", "black", "white", "orange", "magenta"];

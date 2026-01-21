@@ -323,6 +323,19 @@ const recipeIdsToRemove = [
   "gateways:basic/slime",
   "farmersdelight:wheat_dough_from_water",
   "create:mixing/honey",
+  "chisel:charcoal/raw",
+  "chisel:charcoal/raw_uncraft",
+  "chisel:futura/controller",
+  "chisel:runic_voidstone/black",
+  /^chisel:glassdyed\/.*_bubble/,
+  "chisel:marble_pillar/pillar",
+  "chisel:red_sandstone_scribbles/scribbles_0",
+  "chisel:sandstone_scribbles/scribbles_0",
+  "oritech:raw_uranium_blockblockinv",
+  "supplementaries:trapped_present_3",
+  "enderio:sag_milling/sand",
+  "mekanism:compat/ae2/sand_to_silicon",
+  "productivemetalworks:alloying/molten_signalum",
 ];
 
 const recipeTypesToRemove = ["immersiveengineering:arc_recycling", "irregular_implements:custom_crafting_table"];

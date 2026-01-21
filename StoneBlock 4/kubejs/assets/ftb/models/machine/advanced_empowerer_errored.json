@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "ftb:block/advanced_empowerer/advanced_empowerer",
+    "north":   "ftb:block/advanced_empowerer/advanced_empowerer_errored",
+    "east":    "ftb:block/advanced_empowerer/advanced_empowerer_side",
+    "south":   "ftb:block/advanced_empowerer/advanced_empowerer_back",
+    "west":    "ftb:block/advanced_empowerer/advanced_empowerer_side",
+    "up":      "ftb:block/advanced_empowerer/advanced_empowerer_side",
+    "down":    "ftb:block/advanced_empowerer/advanced_empowerer_bottom"
+  }
+}

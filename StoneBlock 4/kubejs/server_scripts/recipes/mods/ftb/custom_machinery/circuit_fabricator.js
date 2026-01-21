@@ -13,29 +13,22 @@ ServerEvents.recipes((event) => {
       .requireItem(input_2, "input_3")
       .produceItem(output,  "item_output")
       .requireStructure(
-        [
-          ["aaa", "a a", "ama"],
-          ["aba", "bcb", "a a"],
-          ["aaa", "aaa", "a a"],
-        ],
-        {
-          a: "immersiveengineering:sheetmetal_colored_blue",
-          b: "ae2:quartz_vibrant_glass",
-          c: "ae2:mysterious_cube",
-        }
+        FTBStructures$CircuitFabricator.main.pattern,
+        FTBStructures$CircuitFabricator.main.keys
       )
       .id(`ftb:circuit_fabricator/${output.split(":")[1]}`);
 
     console.log(`Adding Circuit Fabricator Recipe for: ${output.split(":")[1]}`);
   }
 
-  function addSimpleDualInputFabricatorRecipe(input, input_1, output) {
+  function addSimpleDualInputFabricatorRecipe(input, input_1, output, outputCount) {
+    outputCount = outputCount || 1;
     event.recipes.custommachinery
       .custom_machine("ftb:circuit_fabricator", 140 /* Ticks */)
       .requireEnergyPerTick(40)
       .requireItem(input,   "input_1")
       .requireItem(input_1, "input_2")
-      .produceItem(output,  "item_output")
+      .produceItem(Item.of(output, outputCount), "item_output")
       .requireStructure(
         [
           ["aaa", "a a", "ama"],
@@ -90,7 +83,7 @@ ServerEvents.recipes((event) => {
     { input: "extendedae:entro_crystal",  output: "extendedae:concurrent_processor_print" },
 
     // RS Binding (dual input)
-    { input: "minecraft:slime_ball", input_1: "minecraft:redstone", output: "4x refinedstorage:processor_binding" },
+    { input: "minecraft:slime_ball", input_1: "minecraft:redstone", output: "refinedstorage:processor_binding", outputCount: 4 },
 
     // AE2 Processors (3-input)
     { input: "ae2:printed_calculation_processor", input_1: "minecraft:redstone", input_2: "ae2:printed_silicon", output: "ae2:calculation_processor" },
@@ -125,7 +118,7 @@ ServerEvents.recipes((event) => {
     if (recipe.input_1 && recipe.input_2) {
       addCircuitFabricatorRecipe(recipe.input, recipe.input_1, recipe.input_2, recipe.output);
     } else if (recipe.input_1) {
-      addSimpleDualInputFabricatorRecipe(recipe.input, recipe.input_1, recipe.output);
+      addSimpleDualInputFabricatorRecipe(recipe.input, recipe.input_1, recipe.output, recipe.outputCount);
     } else {
       addSimpleCircuitFabricatorRecipe(recipe.input, recipe.output);
     }

@@ -34,3 +34,9 @@
 		# Default: 2147483647
 		# Range: > 64
 		maxStackSize = 2147483647
+
+	[general.neutronCollector]
+		#ProductionTicks
+		# Default: 7111
+		# Range: > 1
+		productionTicks = 7111

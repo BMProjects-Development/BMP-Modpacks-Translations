@@ -116,3 +116,8 @@
 	# Default: 48.0
 	# Range: 4.0 ~ 100.0
 	Range = 48.0
+
+["Cognitive Bow"]
+	#Whether to show the projectile velocity & accuracy boost in the tooltip. Default = true
+	#Disable this if tooltip components are being displayed in the wrong order.
+	Show = true

@@ -885,7 +885,7 @@
 		"{@pagebreak}"
 		"To interact with the block, you'll need to place the &aController&r on one of the faces."
 		""
-		"Each &cValve&r is used to pump liquids in and out of the Tower. To make &eBrine&r, you'll need to give it water which can easily be done by using a &aSink&r and some mechanical pipes pumping out of it."
+		"Each &cValve&r is used to pump liquids in and out of the Tower. To make &eBrine&r, you'll need to give it water which can be done by pumping water into the Valve using Mechanical Pipes from a water source."
 		""
 		"You'll need another Valve to output the Brine you create, and the 3rd Valve is used to heat up the multiblock. You can make either a &aFuelwood Heater&r or a &cResistive Heater&r to achieve this. Fuelwood burns items like coal, while Resistive Heaters use power instead. 2k is the perfect number for a max size Tower!"
 		""

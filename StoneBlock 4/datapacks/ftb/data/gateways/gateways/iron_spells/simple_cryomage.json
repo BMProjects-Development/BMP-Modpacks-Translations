@@ -5,7 +5,7 @@
     {
       "entities": [
         {
-          "entity": "creeperoverhaul:snowy_creeper",
+          "entity": "twilightforest:ice_crystal",
           "modifiers": [
             {
               "attribute": "generic.attack_damage",

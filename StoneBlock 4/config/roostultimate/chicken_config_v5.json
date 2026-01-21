@@ -25,7 +25,7 @@
     "mobtexture": "otherstonechicken",
     "dropitem": "occultism:otherstone",
     "eggtime": 600,
-    "tier": 6,
+    "tier": 7,
     "CanGetFireDamage": false,
     "CanGetProjectileDamage": false,
     "CanGetExplosionDamage": false,

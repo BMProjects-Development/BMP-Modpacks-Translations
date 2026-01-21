@@ -1,7 +1,7 @@
 {
   "id": "ftbechoes:t1_echo_machinist",
   "title": {"translate": "ftb.echo.machinist.title"},
-  "all_complete": {"translate": "ftb.echo.all_stages_completed"},
+  "all_complete": {"translate": "ftb.echo.machinist.completed"},
   "stages": [
     {
       "title": {"translate": "ftb.echo.stage0.title"},
@@ -28,8 +28,11 @@
         {"name": "Coffee Machine", "item": {"id": "actuallyadditions:coffee_machine", "count": 1}, "cost": 10},
         {"name": "External Heater", "item": {"id": "immersiveengineering:furnace_heater", "count": 1}, "cost": 10},
         {"name": "Entropy Manipulator", "item": {"id": "ae2:entropy_manipulator", "components": {"ae2:stored_energy": 200000}, "count": 1}, "cost": 10, "description": {"translate": "ftb.shop.description.filled_rf"}},
-        {"name": "Double Battery", "item": {"id": "actuallyadditions:double_battery", "components": {"actuallyadditions:energy": 350000}, "count": 1}, "cost": 25, "description": {"translate": "ftb.shop.description.filled_rf"}}
-        ]
+        {"name": "Double Battery", "item": {"id": "actuallyadditions:double_battery", "components": {"actuallyadditions:energy": 350000}, "count": 1}, "cost": 25, "description": {"translate": "ftb.shop.description.filled_rf"}},
+        {"name": "Arrow Damage Increase", "command": {"run": "echo_attribute ftbechoes:t1_echo_machinist \"Arrow Damage Increase\" @s apothic_attributes:arrow_damage modifier add 0.25 1 add_value", "permission": 3, "silent": true, "description": {"translate": "ftb.shop.description.arrow_damage.reward"}}, "cost": 25, "description": [{"translate": "ftb.shop.description.arrow_damage.reward1"}, {"translate": "ftb.shop.description.arrow_damage.reward2"}, {"translate": "ftb.shop.description.attribute.warning"}], "icon": "relics:textures/gui/description/icons/arrow_quiver/arrow.png"},
+        {"name": "Attack Speed Increase", "command": {"run": "echo_attribute ftbechoes:t1_echo_machinist \"Attack Speed Increase\" @s minecraft:generic.attack_speed modifier add 0.2 1 add_multiplied_total", "permission": 3, "silent": true, "description": {"translate": "ftb.shop.description.attack_speed.reward"}}, "cost": 25, "description": [{"translate": "ftb.shop.description.attack_speed.reward1"}, {"translate": "ftb.shop.description.attack_speed.reward2"}, {"translate": "ftb.shop.description.attribute.warning"}], "icon": "apothic_attributes:textures/mob_effect/detonation.png"},
+        {"name": "Draw Speed Increase", "command": {"run": "echo_attribute ftbechoes:t1_echo_machinist \"Draw Speed Increase\" @s apothic_attributes:draw_speed modifier add 0.1 0.5 add_value", "permission": 3, "silent": true, "description": {"translate": "ftb.shop.description.draw_speed.reward"}}, "cost": 25, "description": [{"translate": "ftb.shop.description.draw_speed.reward1"}, {"translate": "ftb.shop.description.draw_speed.reward2"}, {"translate": "ftb.shop.description.attribute.warning"}], "icon": "draconicevolution:item/tools/draconic_bow_pulling_e1"}
+      ]
     },
     {
       "title": {"translate": "ftb.echo.stage1.title1"},
@@ -77,17 +80,6 @@
       "ready": {"translate": "ftb.echo.machinist.stage1.task2.ready"},
       "completed": {"translate": "ftb.echo.machinist.stage1.task2.completed"},
       "completion_reward": {"command": {"run": "kubejs stages add @s echo_machinist_stage1_task2_check", "permission": 3}},
-      "shop_unlock": []
-    },
-    {
-      "title": {"translate": "ftb.echo.stage2.title"},
-      "lore": [
-        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.machinist.stage2.task1.lore"}]}
-      ],
-      "not_ready": {"translate": "ftb.echo.placeholder.stage6.task1.lore"},
-      "required_stage": "echo_machinist_stage2_task1_completed",
-      "ready": {"translate": "ftb.echo.machinist.stage2.task1.ready"},
-      "completed": {"translate": "ftb.echo.machinist.stage2.task1.completed"},
       "shop_unlock": []
     }
   ]

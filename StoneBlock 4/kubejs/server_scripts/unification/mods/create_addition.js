@@ -16,32 +16,33 @@ removeRecipe.push(
   "createaddition:rolling/brass_rod",
   "createaddition:rolling/copper_plate",
   "createaddition:crafting/electrum_ingot_from_nugget",
-  "createaddition:crafting/electrum_ingot_from_electrum_block"
-)
+  "createaddition:crafting/electrum_ingot_from_electrum_block",
+  "createaddition:compat/immersiveengineering/constantan",
+  "createaddition:compat/immersiveengineering/crushing/steel_ingot"
+);
 
-remFluid.push(
-  "createaddition:bioethanol",
-  "createaddition:flowing_bioethanol"
-)
+remFluid.push("createaddition:bioethanol", "createaddition:flowing_bioethanol");
+
+removeItem.push("createaddition:copper_rod");
 
 ServerEvents.recipes((event) => {
   global.enabledRods.forEach((rod) => {
-    const material = rod[0]
+    const material = rod[0];
     if (rod[2] === false) {
-      return
+      return;
     }
-    const tag = rod[1] ?? `c:ingots/${material}`
+    const tag = rod[1] ?? `c:ingots/${material}`;
 
-    addRecipeCreateRolling(event, tag, [[`ftbmaterials:${material}_rod`, 2]], `ftb:create/rolling/rods/${material}`)
-  })
+    addRecipeCreateRolling(event, tag, [[`ftbmaterials:${material}_rod`, 2]], `ftb:create/rolling/rods/${material}`);
+  });
 
   global.enabledPlates.forEach((plate) => {
-    const material = plate[0]
+    const material = plate[0];
     if (plate[2] === false) {
-      return
+      return;
     }
-    const tag = plate[1] ?? `c:plates/${material}`
+    const tag = plate[1] ?? `c:plates/${material}`;
 
-    addRecipeCreateRolling(event, tag, [[`ftbmaterials:${material}_wire`, 2]], `ftb:create/rolling/wire/${material}`)
-  })
-})
+    addRecipeCreateRolling(event, tag, [[`ftbmaterials:${material}_wire`, 2]], `ftb:create/rolling/wire/${material}`);
+  });
+});

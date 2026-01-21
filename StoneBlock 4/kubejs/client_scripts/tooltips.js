@@ -52,7 +52,8 @@ const ECHO_STORE_ONLY = [
   "ars_creo:starbuncle_wheel",
   "sophisticatedstorage:basic_tier_upgrade",
   "sophisticatedstorage:basic_to_gold_tier_upgrade",
-  "chancecubes:chance_cube"
+  "chancecubes:chance_cube",
+  "malum:umbral_spirit"
 ]
 
 const uneartherFoods = []
@@ -246,7 +247,47 @@ const tooltipPairs = [
     "enderio:grains_of_infinity"
     ],
     lines: [{ key: "ftb.tooltip.grains_of_infinity_and_xycraft"}]
-  }
+  },
+  {
+    items: ["ftb:multiblock_printer"],
+    lines: [
+      {
+        key: "ftb.tooltip.multiblock_printer.desc.keybind",
+        args: [{ type: "keybind", id: "key.use"}, {literal: "§aftb:printable_multiblock§f"}]
+      },
+      {
+        key: "ftb.tooltip.multiblock_printer.desc.extract"
+      }
+    ]
+  },
+  {
+    items: [
+      `custommachinery:custom_machine_item[custommachinery:machine="ftb:circuit_fabricator"]`,
+      `custommachinery:custom_machine_item[custommachinery:machine="ftb:advanced_empowerer"]`,
+      `custommachinery:custom_machine_item[custommachinery:machine="ftb:neutron_activator"]`
+    ],
+    lines: [
+      {
+        key: "ftb.tooltip.multiblock_printer.compatible"
+      }
+    ]
+  },
+  {
+    items: ["ftb:multiblock_validator"],
+    lines: [
+      {
+        key: "ftb.tooltip.multiblock_validator.desc.check",
+        args: [{ type: "keybind", id: "key.attack"}]
+      },
+      {
+        key: "ftb.tooltip.multiblock_validator.desc.realign"
+      },
+      {
+        key: "ftb.tooltip.multiblock_validator.desc.reset",
+        args: [{type: "keybind", id:"key.sneak"},{ type: "keybind", id: "key.use"}]
+      }
+    ]
+  },
 ]
 
 function keybindText(id) {
@@ -301,6 +342,25 @@ ItemEvents.modifyTooltips((event) => {
     }
   }
   event.modify("petrock:kibble", (tooltip) => tooltip.removeLine(0))
+
+  //Adding Info Tooltips to Valid Thermoelectric Gen Inputs.
+  const thermoelectric_gen_valid = [
+    { block: "powah:blazing_crystal_block", value: 4280 },
+    { block: "minecraft:blue_ice", value: 200 },
+    { block: "minecraft:ice", value: 260 },
+    { block: "cataclysm:ignitium_block", value: 4280 },
+    { block: "minecraft:magma_block", value: 1300 },
+    { block: "minecraft:packed_ice", value: 240 },
+    { block: "minecraft:snow", value: 273 },
+    { block: "ftbmaterials:uranium_block", value: 2000 }
+  ];
+
+  thermoelectric_gen_valid.forEach(entry => {
+    const color = entry.value > 1000 ? "red" : "aqua";
+    event.add(entry.block, Text.translate("ftb.tooltip.immersiveengineering.thermoelectric_gen")
+        .append(Text.of(`${entry.value}K`).color(color))
+    );
+  });
 })
 
 // ---------------------------------------------------------------------------

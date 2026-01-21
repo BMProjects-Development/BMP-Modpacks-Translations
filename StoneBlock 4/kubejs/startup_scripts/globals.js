@@ -9,7 +9,7 @@ global.SB4$CREATIVE_BLOCKS = [
   'cabletiers:creative_importer',
   'create:creative_motor',
   'ars_nouveau:creative_source_jar',
-  'mekanism:creative_energy_cube',
+  // 'mekanism:creative_energy_cube',
   'refinedstorage:creative_controller',
   'refinedstorage_mekanism_integration:creative_chemical_storage_block',
   'create:creative_crate',

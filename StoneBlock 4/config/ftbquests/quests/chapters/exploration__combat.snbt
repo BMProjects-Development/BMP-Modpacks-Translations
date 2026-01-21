@@ -182,7 +182,6 @@
 				id: "trophymanager:trophy"
 			}
 			id: "7DE9A4C7979AC1FA"
-			min_width: 300
 			rewards: [
 				{
 					amount: 15
@@ -281,7 +280,6 @@
 		{
 			dependencies: ["54B7D149B45635F4"]
 			id: "575A111D4418BFB6"
-			min_width: 300
 			rewards: [{
 				amount: 10
 				id: "56DC22833A5266EF"
@@ -861,12 +859,12 @@
 			}]
 			shape: "square"
 			tasks: [{
-				biome: "dimdungeons:biome_dungeon"
 				icon: {
 					id: "cataclysm:void_stone"
 				}
-				id: "11F622D03AF39A5C"
-				type: "biome"
+				id: "64E418FC4666C686"
+				structure: "minecraft:mineshaft"
+				type: "structure"
 			}]
 			x: 3.0d
 			y: -3.0d

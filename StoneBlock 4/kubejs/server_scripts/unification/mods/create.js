@@ -73,6 +73,22 @@ removeRecipe.push(
   "create:smelting/ingot_lead_compat_mekanism",
   "create:blasting/ingot_uranium_compat_mekanism",
   "create:smelting/ingot_uranium_compat_mekanism",
+  "create:crushing/nether_gold_ore",
+  "create:crushing/gold_ore",
+  "create:crushing/deepslate_gold_ore",
+  "create:crushing/deepslate_redstone_ore",
+  "create:crushing/redstone_ore",
+  "create:crushing/copper_ore",
+  "create:crushing/deepslate_copper_ore",
+  "create:crushing/deepslate_iron_ore",
+  "create:crushing/iron_ore",
+  "create:crushing/deepslate_coal_ore",
+  "create:crushing/coal_ore",
+  "create:crushing/deepslate_lapis_ore",
+  "create:crushing/lapis_ore",
+  "create:crushing/emerald_ore",
+  "create:crushing/deepslate_emerald_ore",
+  "create:crushing/compat/immersiveengineering/coke_block"
 );
 
 removeOre.push("create:zinc_ore", "create:deepslate_zinc_ore");
@@ -92,7 +108,7 @@ removeItem.push(
   "create:brass_ingot",
   "create:zinc_ingot",
   "create:honey_bucket",
-  "create:dough",
+  "create:dough"
 );
 
 ServerEvents.recipes((event) => {
@@ -134,7 +150,7 @@ ServerEvents.recipes((event) => {
           event,
           crushedTag,
           [[nugget, 9], getCreateOutput(material)],
-          `ftb:create/washing/crushed/${material}`,
+          `ftb:create/washing/crushed/${material}`
         );
 
         // Crushed -> Ingots
@@ -150,7 +166,7 @@ ServerEvents.recipes((event) => {
           [`create:crushed_raw_${material}`, 1, 0.25],
           ["create:experience_nugget", 1, 0.75],
         ],
-        `ftb:create/crushing/ores/${material}`,
+        `ftb:create/crushing/ores/${material}`
       );
 
       // Ingot -> Dust
@@ -172,7 +188,7 @@ ServerEvents.recipes((event) => {
         event,
         `c:dirty_dusts/${material}`,
         [[dust, 2]],
-        `ftb:create/washing/dirty_dust/${material}`,
+        `ftb:create/washing/dirty_dust/${material}`
       );
     });
   });
@@ -192,8 +208,9 @@ ServerEvents.recipes((event) => {
         [
           [outputId, outputAmount],
           [outputId, Math.max(1, Math.floor(outputAmount / 2)), 0.33],
+          ["create:experience_nugget", 1, 0.75],
         ],
-        `ftb:create/crusher/ores/${gemType}`,
+        `ftb:create/crusher/ores/${gemType}`
       );
     });
   });
@@ -218,7 +235,7 @@ ServerEvents.recipes((event) => {
       event,
       `${global.tagPrefix}:plates/${outputType}`,
       [[dust]],
-      `ftb:create/crushing/plates/${outputType}`,
+      `ftb:create/crushing/plates/${outputType}`
     );
 
     const ingredients = [];
