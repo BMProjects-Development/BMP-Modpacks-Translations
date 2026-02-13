@@ -168,6 +168,7 @@ const addItemTags = [
       "ars_nouveau:enchanters_gauntlet",
       "ftbunearthed:unbreakable_brush",
       "mekanism:meka_tool",
+      "omnitools:omni_vajra",
       "actuallyadditions:drill_light_blue",
       "actuallyadditions:drill_black",
       "actuallyadditions:drill_blue",

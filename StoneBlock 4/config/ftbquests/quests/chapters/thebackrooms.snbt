@@ -16,8 +16,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: true
 			id: "27EFEC10CAA8466D"
 			rewards: [{
+				auto: "no_toast"
 				id: "0EE7D3BEEC77D6D5"
 				item: {
 					components: {
@@ -294,18 +296,21 @@
 					count: 1
 					id: "psi:spell_bullet"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				id: "6C4F6F7CCB752E40"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 9.0d
+			x: -2.0d
+			y: 7.5d
 		}
 		{
+			can_repeat: true
 			id: "39591758177F9B88"
 			rewards: [{
+				auto: "no_toast"
 				id: "2AEA75A5F2440A03"
 				item: {
 					components: {
@@ -541,18 +546,21 @@
 					count: 1
 					id: "psi:spell_bullet_grenade"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				id: "790E980439FC4650"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 9.0d
+			x: -4.0d
+			y: 7.5d
 		}
 		{
+			can_repeat: true
 			id: "27E32F12C9434D5F"
 			rewards: [{
+				auto: "no_toast"
 				id: "73B2E9F1A96380E6"
 				item: {
 					components: {
@@ -727,18 +735,21 @@
 					count: 1
 					id: "psi:spell_bullet"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				id: "6F1C143FA5B837E0"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 9.0d
+			x: -3.0d
+			y: 7.5d
 		}
 		{
+			can_repeat: true
 			id: "31C0030BC01A7371"
 			rewards: [{
+				auto: "no_toast"
 				id: "25F33162429E3EC4"
 				item: {
 					components: {
@@ -865,18 +876,21 @@
 					count: 1
 					id: "psi:spell_bullet"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				id: "78918E2B71F9DBDC"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 10.0d
+			x: -4.0d
+			y: 8.5d
 		}
 		{
+			can_repeat: true
 			id: "1D5E4FE4560B115C"
 			rewards: [{
+				auto: "no_toast"
 				id: "4341A72F0E3AAB8D"
 				item: {
 					components: {
@@ -1026,18 +1040,21 @@
 					count: 1
 					id: "psi:spell_bullet"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				id: "7FD699B15DB9BFF3"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 10.0d
+			x: -3.0d
+			y: 8.5d
 		}
 		{
+			can_repeat: true
 			id: "07883932FC21CFAA"
 			rewards: [{
+				auto: "no_toast"
 				id: "710B276F6BB88D96"
 				item: {
 					components: {
@@ -1280,14 +1297,15 @@
 					count: 1
 					id: "psi:spell_bullet"
 				}
+				team_reward: true
 				type: "item"
 			}]
 			tasks: [{
 				id: "122C939DA69AC47A"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: -2.0d
+			y: 8.5d
 		}
 		{
 			can_repeat: true
@@ -1363,8 +1381,8 @@
 				id: "76D42E59F98B63FA"
 				type: "checkmark"
 			}]
-			x: -5.5d
-			y: 9.0d
+			x: -7.5d
+			y: 7.5d
 		}
 		{
 			id: "78610F56E29472F7"
@@ -2608,13 +2626,14 @@
 			y: -1.5d
 		}
 		{
+			can_repeat: true
 			icon: {
 				id: "industrialforegoing:mycelial_reactor"
 			}
 			id: "71EF740F3234EA08"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "01A656B76F5708E9"
+				id: "2BE2C94E9E81AEFB"
 				table_id: 8119412201504344609L
 				type: "all_table"
 			}]
@@ -2908,8 +2927,124 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 3.0d
 			y: 7.0d
+		}
+		{
+			id: "0BE524ECA97A0E63"
+			rewards: [{
+				auto: "enabled"
+				id: "407E5E7C278C76C4"
+				tags: ["echo_complete"]
+				type: "custom"
+			}]
+			tasks: [{
+				id: "520D23A6FBA0E76B"
+				stage: "dev_debug"
+				type: "gamestage"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "5639361BF45D4C34"
+			rewards: [{
+				auto: "invisible"
+				id: "0938097891FEF46B"
+				item: {
+					count: 1
+					id: "twilightforest:knight_phantom_trophy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "4649E93D4F8E517C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["25CCA572C4D5CEA0"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						BaseBlock: "air"
+						OffsetY: 0.0d
+						Scale: 2.0d
+						TrophyItem: {
+							id: "avaritia:infinity_singularity"
+						}
+						TrophyType: "item"
+					}
+				}
+				id: "trophymanager:trophy"
+			}
+			icon_scale: 1.5d
+			id: "1EDA30A2DF0D64CC"
+			rewards: [{
+				auto: "invisible"
+				command: "/ftbquests change_progress @s complete 09D15AF118F0C8D8"
+				id: "3B7DD41F08617414"
+				permission_level: 3
+				silent: true
+				type: "command"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "263B9F804E4A2F28"
+					item: { count: 1, id: "ars_nouveau:creative_source_jar" }
+					type: "item"
+				}
+				{
+					id: "1059E839E2704E90"
+					item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:ender_dragon" }, count: 1, id: "hostilenetworks:data_model" }
+					type: "item"
+				}
+				{
+					id: "18995AB0C6133CB8"
+					item: { count: 1, id: "create:creative_motor" }
+					type: "item"
+				}
+				{
+					id: "267AD273F633FEA9"
+					item: { count: 1, id: "mffs:infinite_power_card" }
+					type: "item"
+				}
+				{
+					id: "32234D6A7EA6A6BD"
+					item: { count: 1, id: "tempad:creative_chronometer" }
+					type: "item"
+				}
+				{
+					id: "4B63BF069D25BAC1"
+					item: { count: 1, id: "justdynathings:creative_goo" }
+					type: "item"
+				}
+				{
+					id: "48A6BBD6FDBC789D"
+					item: { count: 1, id: "chancecubes:creative_pendant" }
+					type: "item"
+				}
+				{
+					id: "786B89139F85C614"
+					item: { count: 1, id: "replication:creative_memory_chip" }
+					type: "item"
+				}
+				{
+					id: "6B673A2CF8E9A806"
+					item: { count: 1, id: "mekanism_lasers:creative_toggleable_laser" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 4.5d
 		}
 	]
 }

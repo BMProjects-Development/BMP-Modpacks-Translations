@@ -9,8 +9,14 @@
     "constraints": {
         "biomes": [
             "ftb:twilight_forest",
+            "ftb:lower/twilight_forest",
+            "ftb:upper/twilight_forest",
             "ftb:eternal_stone",
-            "ftb:void_chasms"
+            "ftb:lower/eternal_stone",
+            "ftb:upper/eternal_stone",
+            "ftb:void_chasms",
+            "ftb:lower/void_chasms",
+            "ftb:upper/void_chasms"
         ]
     },
     "min_purity": "flawed",

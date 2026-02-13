@@ -198,12 +198,6 @@ const chickenRecipes = [
         item: "minecraft:basalt"
       },
       {
-        output: "c_amethystshard",
-        parent_1: "c_ghasttear",
-        parent_2: "c_magenta",
-        item: "minecraft:amethyst_shard"
-      },
-      {
         output: "c_nickel",
         parent_1: "c_bone",
         parent_2: "c_green",
@@ -459,11 +453,17 @@ const chickenRecipes = [
         item: "minecraft:prismarine_crystals"
       },
       {
-        output: "c_otherstone",
+        output: "c_otherrock",
         parent_1: "c_skystone",
         parent_2: "c_stone",
-        item: "occultism:otherstone"
-      }
+        item: "occultism:otherrock"
+      },
+      {
+        output: "c_amethystshard",
+        parent_1: "c_ghasttear",
+        parent_2: "c_magenta",
+        item: "minecraft:amethyst_shard"
+      },
     ]
   },
   {

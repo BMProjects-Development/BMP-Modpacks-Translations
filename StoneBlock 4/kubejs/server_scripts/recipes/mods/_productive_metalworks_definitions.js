@@ -44,7 +44,6 @@ function addRecipeProductiveMetalworksItemMeltingRecipe(event, inputItemTag, flu
  *
  * @param {RecipesEventJS} event - recipeEvent
  * @param {string} castItem - item ID for the cast (e.g., "productivemetalworks:gear_cast")
- * @param {boolean} consumeCast - whether to consume the cast
  * @param {string} fluidTag - fluid tag (e.g., "c:molten_aluminum")
  * @param {number} fluidAmount - amount of fluid in mB
  * @param {string | [string, number]} resultItem - item ID or [item ID, count] for the output
@@ -53,7 +52,6 @@ function addRecipeProductiveMetalworksItemMeltingRecipe(event, inputItemTag, flu
 function addRecipeProductiveMetalworksBlockCastingRecipe(
   event,
   castItem,
-  consumeCast,
   fluidTag,
   fluidAmount,
   resultItem,

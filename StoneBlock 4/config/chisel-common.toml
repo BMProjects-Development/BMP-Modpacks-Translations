@@ -40,23 +40,87 @@ hitechChiselAttackDamage = 3
 autoChiselPowered = true
 #Whether the auto chisel requires power to function
 autoChiselNeedsPower = false
-#Amount of marble veins per chunk (0 to disable)
-# Default: 20
-# Range: 0 ~ 100
-marbleAmount = 20
-#Amount of limestone veins per chunk (0 to disable)
-# Default: 18
-# Range: 0 ~ 100
-limestoneAmount = 18
-#Amount of basalt veins per chunk (0 to disable)
-# Default: 0
-# Range: 0 ~ 100
-basaltVeinAmount = 0
-#Amount of diabase veins per chunk near lava level (0 to disable)
-# Default: 8
-# Range: 0 ~ 100
-diabaseAmount = 8
 #Enable FTB Ultimine integration (requires FTB Ultimine to be installed)
 enableUltimineCompat = true
 #When using FTB Ultimine with a chisel, select blocks of the same type together
 ultimineGroupVariants = true
+
+	[worldgen.marble]
+		#Enable marble ore generation
+		enabled = true
+		#Number of marble veins per chunk
+		# Default: 1
+		# Range: 0 ~ 64
+		veinCount = 1
+		#Maximum size of marble veins
+		# Default: 48
+		# Range: 1 ~ 128
+		veinSize = 48
+		#Minimum Y level for marble generation
+		# Default: 0
+		# Range: -64 ~ 320
+		minY = 0
+		#Maximum Y level for marble generation
+		# Default: 60
+		# Range: -64 ~ 320
+		maxY = 60
+
+	[worldgen.limestone]
+		#Enable limestone ore generation
+		enabled = true
+		#Number of limestone veins per chunk
+		# Default: 1
+		# Range: 0 ~ 64
+		veinCount = 1
+		#Maximum size of limestone veins
+		# Default: 48
+		# Range: 1 ~ 128
+		veinSize = 48
+		#Minimum Y level for limestone generation
+		# Default: 0
+		# Range: -64 ~ 320
+		minY = 0
+		#Maximum Y level for limestone generation
+		# Default: 60
+		# Range: -64 ~ 320
+		maxY = 60
+
+	[worldgen.diabase]
+		#Enable diabase ore generation
+		enabled = true
+		#Number of diabase veins per chunk
+		# Default: 1
+		# Range: 0 ~ 64
+		veinCount = 1
+		#Maximum size of diabase veins
+		# Default: 48
+		# Range: 1 ~ 128
+		veinSize = 48
+		#Minimum Y level for diabase generation (near lava level)
+		# Default: -64
+		# Range: -64 ~ 320
+		minY = -64
+		#Maximum Y level for diabase generation
+		# Default: 0
+		# Range: -64 ~ 320
+		maxY = 0
+
+	[worldgen.basalt]
+		#Enable basalt ore generation
+		enabled = false
+		#Number of basalt veins per chunk
+		# Default: 1
+		# Range: 0 ~ 64
+		veinCount = 1
+		#Maximum size of basalt veins
+		# Default: 48
+		# Range: 1 ~ 128
+		veinSize = 48
+		#Minimum Y level for basalt generation
+		# Default: -64
+		# Range: -64 ~ 320
+		minY = -64
+		#Maximum Y level for basalt generation
+		# Default: 0
+		# Range: -64 ~ 320
+		maxY = 0

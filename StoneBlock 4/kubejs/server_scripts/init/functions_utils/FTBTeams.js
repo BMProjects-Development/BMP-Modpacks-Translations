@@ -1,3 +1,4 @@
+const $TeamStagesHelper  = Java.loadClass("dev.ftb.mods.ftbteams.api.TeamStagesHelper")
 const $TeamsApi = Java.loadClass("dev.ftb.mods.ftbteams.api.FTBTeamsAPI");
 
 const Teams = {
@@ -43,6 +44,14 @@ const Teams = {
         let teamBase = $BaseInstanceManager.get(player.getServer()).getBaseForPlayer(player);
         if (!teamBase.isPresent()) return null;
         return player.getServer().getLevel(teamBase.get().dimension().location());
+    },
+    hasStage: (player, teamstage) => {
+        let team = Teams.getTeam(player);
+        return team ? $TeamStagesHelper.hasTeamStage(player, teamstage) : null;
+    },
+    getTeamStages: (player) => {
+        let team = Teams.getTeam(player);
+        return team ? $TeamStagesHelper.getStages(team) : null;
     }
 };
 

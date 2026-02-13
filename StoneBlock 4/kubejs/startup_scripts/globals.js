@@ -9,7 +9,7 @@ global.SB4$CREATIVE_BLOCKS = [
   'cabletiers:creative_importer',
   'create:creative_motor',
   'ars_nouveau:creative_source_jar',
-  // 'mekanism:creative_energy_cube',
+  'mekanism:creative_energy_cube',
   'refinedstorage:creative_controller',
   'refinedstorage_mekanism_integration:creative_chemical_storage_block',
   'create:creative_crate',
@@ -74,4 +74,48 @@ global.COW_TRANSMUTE_RULES = [
 
 if (!global.noteStateMap) {
   global.noteStateMap = {};
+}
+
+global["$$TransmutationRules"] = {
+  "minecraft:water_bucket": {
+    type: "static",
+    fluid: "minecraft:water"
+  },
+  "minecraft:blaze_rod": {
+    type: "static",
+    fluid: "minecraft:lava"
+  },
+  "minecraft:ender_eye": {
+    type: "static",
+    fluid:"productivemetalworks:molten_ender"
+  },
+  "appflux:insulating_resin": {
+    type: "static",
+    fluid: "industrialforegoing:latex"
+  },
+  "ftb:clapple": {
+    type: "weighted",
+    weights: [
+      // common base metals
+      { id: "productivemetalworks:molten_copper", weight: 20 },
+      { id: "productivemetalworks:molten_iron", weight: 18 },
+      { id: "productivemetalworks:molten_tin", weight: 14 },
+      { id: "productivemetalworks:molten_zinc", weight: 14 },
+      { id: "productivemetalworks:molten_lead", weight: 12 },
+      { id: "productivemetalworks:molten_carbon", weight: 12 },
+
+      // mid-tier
+      { id: "productivemetalworks:molten_nickel", weight: 10 },
+      { id: "productivemetalworks:molten_silver", weight: 8 },
+      { id: "productivemetalworks:molten_aluminum", weight: 8 },
+      { id: "productivemetalworks:molten_slime", weight: 9 },
+
+      // rarer
+      { id: "productivemetalworks:molten_gold", weight: 4 },
+      { id: "productivemetalworks:molten_uranium", weight: 3 },
+      { id: "productivemetalworks:molten_amethyst", weight: 2 },
+      { id: "productivemetalworks:molten_redstone", weight: 6 },
+      { id: "productivemetalworks:molten_osmium", weight: 6 },
+    ],
+  },
 }

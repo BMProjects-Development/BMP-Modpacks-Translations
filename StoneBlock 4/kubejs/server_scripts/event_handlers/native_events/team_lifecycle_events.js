@@ -20,8 +20,9 @@ FTBTeamsEvents.playerLeftParty((event) => {
 
   // Reset Coins
   server.runCommandSilent(`coins set ${name} 0`);
-  // Clear all stages
+  // Clear all player stages
   server.runCommandSilent(`execute run kjs stages clear ${name}`);
+  // Reset Quest progress
   server.runCommandSilent(
     `execute run ftbquests change_progress ${name} reset-all`
   );

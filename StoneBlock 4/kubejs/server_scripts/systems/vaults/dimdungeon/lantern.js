@@ -1,7 +1,7 @@
-let $DataComponents = Java.loadClass('net.minecraft.core.component.DataComponents')
-let $CustomData = Java.loadClass('net.minecraft.world.item.component.CustomData')
-let $CompoundTag = Java.loadClass('net.minecraft.nbt.CompoundTag')
-let $EnchantmentHelper = Java.loadClass('net.minecraft.world.item.enchantment.EnchantmentHelper')
+let $DataComponents = Java.loadClass("net.minecraft.core.component.DataComponents");
+let $CustomData = Java.loadClass("net.minecraft.world.item.component.CustomData");
+let $CompoundTag = Java.loadClass("net.minecraft.nbt.CompoundTag");
+let $EnchantmentHelper = Java.loadClass("net.minecraft.world.item.enchantment.EnchantmentHelper");
 
 const LanternSettings = {
   checkForStructure: false,
@@ -13,8 +13,8 @@ const LanternSettings = {
   tag: "soulcage",
   soulsPerKill: 1,
   summoningBlock: "cataclysm:cursed_tombstone",
-  boss: "cataclysm:maledictus"
-}
+  boss: "cataclysm:maledictus",
+};
 
 const SoulCageHandler = {
   TICK_INTERVAL: 20,
@@ -30,7 +30,7 @@ const SoulCageHandler = {
   initializeSouls: function (item) {
     if (!item.getComponents().has($DataComponents.CUSTOM_DATA)) {
       const souls = new $CompoundTag();
-      souls.putInt('ftb:souls', 0);
+      souls.putInt("ftb:souls", 0);
       $CustomData.set($DataComponents.CUSTOM_DATA, item, souls);
       const maxDamage = item.item.getMaxDamage(item);
       item.item.setDamage(item, maxDamage);
@@ -42,7 +42,7 @@ const SoulCageHandler = {
     if (!this.isSoulCage(item)) return 0;
     this.initializeSouls(item);
     const customData = item.getComponents().get($DataComponents.CUSTOM_DATA);
-    return customData.copyTag().getInt('ftb:souls');
+    return customData.copyTag().getInt("ftb:souls");
   },
 
   // Get max soul capacity
@@ -63,7 +63,7 @@ const SoulCageHandler = {
   // Set soul count and update damage
   setSoulCount: function (item, newSouls) {
     const souls = new $CompoundTag();
-    souls.putInt('ftb:souls', newSouls);
+    souls.putInt("ftb:souls", newSouls);
     $CustomData.set($DataComponents.CUSTOM_DATA, item, souls);
 
     const maxSouls = this.getMaxSouls(item);
@@ -80,7 +80,7 @@ const SoulCageHandler = {
 
     return {
       newSouls: newSouls,
-      maxSouls: this.getMaxSouls(item)
+      maxSouls: this.getMaxSouls(item),
     };
   },
 
@@ -99,35 +99,44 @@ const SoulCageHandler = {
     return {
       newSouls: newSouls,
       maxSouls: maxSouls,
-      added: newSouls - currentSouls
+      added: newSouls - currentSouls,
     };
   },
 
   // Find soul cage in inventory
   findInInventory: function (player) {
-    return player.getInventory().getAllItems().find(function (item) {
-      return item.id === "ftb:soulcage" || item.id === LanternSettings.item;
-    });
+    return player
+      .getInventory()
+      .getAllItems()
+      .find(function (item) {
+        return item.id === "ftb:soulcage" || item.id === LanternSettings.item;
+      });
   },
   fixDurability: function (item) {
     const maxSouls = this.getMaxSouls(item);
     item.item.setDamage(item, maxSouls - this.getSoulCount(item));
-  }
+  },
 };
 
-
 EntityEvents.spawned("cataclysm:maledictus", (event) => {
-  const { entity, level, server } = event
-  if (!entity.isLiving()) return
-  if (level.dimension != "dimdungeons:dungeon_dimension") return
-  let spawnPos = entity.blockPosition()
-  let aabb = AABB.of(spawnPos.x - 15, spawnPos.y - 3, spawnPos.z - 15, spawnPos.x + 15, spawnPos.y + 15, spawnPos.z + 15)
+  const { entity, level, server } = event;
+  if (!entity.isLiving()) return;
+  if (level.dimension != "dimdungeons:dungeon_dimension") return;
+  let spawnPos = entity.blockPosition();
+  let aabb = AABB.of(
+    spawnPos.x - 15,
+    spawnPos.y - 3,
+    spawnPos.z - 15,
+    spawnPos.x + 15,
+    spawnPos.y + 15,
+    spawnPos.z + 15
+  );
 
   customTick(entity, 20, () => {
     if (!aabb.intersects(entity.getBoundingBox())) {
       entity.teleportTo(spawnPos.x + 0.5, spawnPos.y, spawnPos.z + 0.5);
     }
-  })
+  });
 });
 
 EntityEvents.death(function (event) {
@@ -157,14 +166,17 @@ EntityEvents.death(function (event) {
 
   // Calculate souls to add (including enchantment bonus)
   let mainHandItem = player.getMainHandItem();
-  const additionalSouls = $EnchantmentHelper.getTagEnchantmentLevel('draconicevolution:reaper', mainHandItem);
+  const additionalSouls = $EnchantmentHelper.getTagEnchantmentLevel("draconicevolution:reaper", mainHandItem);
   const soulsToAdd = LanternSettings.soulsPerKill + additionalSouls;
 
   // Add souls to the cage
   const result = SoulCageHandler.addSouls(soulCage, soulsToAdd);
 
   if (result) {
-    if (SoulCageHandler.getSoulCount(soulCage) == result.maxSouls && player.getEffect("ftb:vault_light").getDuration() < 20 * 120) {
+    if (
+      SoulCageHandler.getSoulCount(soulCage) == result.maxSouls &&
+      player.getEffect("ftb:vault_light").getDuration() < 20 * 120
+    ) {
       player.potionEffects.add("ftb:vault_light", 20 * 60 * 5, 0, true, false);
       server.runCommandSilent(
         `title ${player.username} title ${JSON.stringify({
@@ -181,19 +193,14 @@ EntityEvents.death(function (event) {
           italic: false,
           color: "red",
         })}`
-
       );
-
     }
     player.sendSystemMessage(
       Text.translate("ftb.lantern.soul_absorbed", [result.newSouls.toFixed(0), result.maxSouls]).green(),
       true
     );
   } else {
-    player.sendSystemMessage(
-      Text.translate("ftb.lantern.full").yellow(),
-      true
-    );
+    player.sendSystemMessage(Text.translate("ftb.lantern.full").yellow(), true);
   }
 });
 
@@ -203,8 +210,8 @@ BlockEvents.rightClicked(LanternSettings.summoningBlock, (event) => {
   const isThere = kuLevel.isStructureAtLocation(player, LanternSettings.structure);
   if (!isThere && LanternSettings.checkForStructure) event.cancel();
 
-  let mainHand = player.getMainHandItem()
-  let offHand = player.getOffHandItem()
+  let mainHand = player.getMainHandItem();
+  let offHand = player.getOffHandItem();
   let item = mainHand.id == LanternSettings.item ? mainHand : offHand.id == LanternSettings.item ? offHand : null;
   console.log(item);
   if (item.id != LanternSettings.item) event.cancel();
@@ -222,10 +229,9 @@ BlockEvents.rightClicked(LanternSettings.summoningBlock, (event) => {
   player.sendSystemMessage(Text.translate("ftb.lantern.summon_boss").red(), true);
 
   event.cancel(); // Canceling original event to start timer
-})
+});
 
-
-PlayerEvents.tick(event => {
+PlayerEvents.tick((event) => {
   const { player, server } = event;
 
   if (server.tickCount % SoulCageHandler.TICK_INTERVAL !== 0) return;
@@ -251,32 +257,30 @@ PlayerEvents.tick(event => {
   }
 });
 
-
-EntityEvents.spawned(event => {
+EntityEvents.spawned((event) => {
   const { entity, level } = event;
-  if (!entity.isLiving() || entity.isPlayer()) return
+  if (!entity.isLiving() || entity.isPlayer()) return;
 
   if (level.dimension == LanternSettings.dimension) {
-    entity.tags.add(LanternSettings.tag)
+    entity.tags.add(LanternSettings.tag);
   }
-})
-
+});
 
 // Randomized dungeon buffs
-EntityEvents.spawned(event => {
-  const { entity, level } = event
-  if (!entity || !entity.isLiving()) return
-  if (entity.isPlayer()) return
-  if (String(level.dimension) !== "dimdungeons:dungeon_dimension") return
+EntityEvents.spawned((event) => {
+  const { entity, level } = event;
+  if (!entity || !entity.isLiving()) return;
+  if (entity.isPlayer()) return;
+  if (String(level.dimension) !== "dimdungeons:dungeon_dimension") return;
 
   // Only affect monsters or the specific boss
-  const isMaledictus = entity.type === "cataclysm:maledictus"
-  const isMonster = typeof entity.isMonster === "function" ? entity.isMonster() : entity.type?.includes("monster")
-  if (!isMonster && !isMaledictus) return
+  const isMaledictus = entity.type === "cataclysm:maledictus";
+  const isMonster = typeof entity.isMonster === "function" ? entity.isMonster() : entity.type?.includes("monster");
+  if (!isMonster && !isMaledictus) return;
   if (entity.getTags().contains("dimdungeon_buffed")) return;
-  entity.getTags().add("dimdungeon_buffed")
-  const radius = 64
-  const healthScalePerNearbyPlayer = 0.15
+  entity.getTags().add("dimdungeon_buffed");
+  const radius = 64;
+  const healthScalePerNearbyPlayer = 0.15;
 
   const baseAttrs = [
     ["minecraft:generic.attack_damage", 0.1],
@@ -291,69 +295,71 @@ EntityEvents.spawned(event => {
     ["twilightforest:clone_count", 1],
     ["apothic_attributes:crit_chance", 0.01],
     ["minecraft:generic.movement_speed", 0.01],
-  ]
+  ];
 
   // Roll randomized amounts (min..5*min). Maledictus gets max on all except clone_count.
   const rolledAttrs = baseAttrs.map(([id, min]) => {
-    const max = min * 5
-    const isCloneCount = id === "twilightforest:clone_count"
-    let value
+    const max = min * 5;
+    const isCloneCount = id === "twilightforest:clone_count";
+    let value;
 
     if (isMaledictus && !isCloneCount) {
-      value = max
+      value = max;
     } else {
       // uniform random in [min, max]
-      value = min + Math.random() * (max - min)
+      value = min + Math.random() * (max - min);
     }
 
     // Sanity clamps for percentage-like attributes
-    if (id === "apothic_attributes:dodge_chance" || id === "apothic_attributes:crit_chance" || id === "minecraft:generic.movement_speed") {
-      if (value > 0.5) value = 0.5
+    if (
+      id === "apothic_attributes:dodge_chance" ||
+      id === "apothic_attributes:crit_chance" ||
+      id === "minecraft:generic.movement_speed"
+    ) {
+      if (value > 0.5) value = 0.5;
     }
 
-    return [id, value]
-  })
-  modifyEntity(event, radius, healthScalePerNearbyPlayer, rolledAttrs)
-})
-
+    return [id, value];
+  });
+  modifyEntity(event, radius, healthScalePerNearbyPlayer, rolledAttrs);
+});
 
 function modifyEntity(event, radius, healthScale, attributes) {
-  const { entity, level } = event
-  const { x, y, z } = entity
+  const { entity, level } = event;
+  const { x, y, z } = entity;
 
   // Get Entities in an Area
-  let aabb = AABB.of(x - radius, y - radius, z - radius, x + radius, y + radius, z + radius)
-  let entities = level.getEntitiesWithin(aabb)
-  let totalPlayers = 0
-  entities.forEach(entity => {
+  let aabb = AABB.of(x - radius, y - radius, z - radius, x + radius, y + radius, z + radius);
+  let entities = level.getEntitiesWithin(aabb);
+  let totalPlayers = 0;
+  entities.forEach((entity) => {
     if (entity.isPlayer()) {
-      totalPlayers++
+      totalPlayers++;
     }
-  })
-  let baseHealth = entity.getMaxHealth()
-  entity.setMaxHealth(2 * baseHealth + (baseHealth * totalPlayers * healthScale))
-  entity.setHealth(2 * baseHealth + (baseHealth * totalPlayers * healthScale))
+  });
+  let baseHealth = entity.getMaxHealth();
+  entity.setMaxHealth(2 * baseHealth + baseHealth * totalPlayers * healthScale);
+  entity.setHealth(2 * baseHealth + baseHealth * totalPlayers * healthScale);
 
-  attributes.forEach(attributeArr => {
-    let attribute = attributeArr[0]
-    let baseValue = entity.getAttributeBaseValue(attribute)
-    let value = baseValue + (attributeArr[1] * totalPlayers)
-    entity.setAttributeBaseValue(attribute, value)
-  })
+  attributes.forEach((attributeArr) => {
+    let attribute = attributeArr[0];
+    if (entity.getAttributes().hasAttribute(attribute)) {
+      let value = baseValue + attributeArr[1] * totalPlayers;
+      let baseValue = entity.getAttributeBaseValue(attribute);
+      entity.setAttributeBaseValue(attribute, value);
+    }
+  });
 }
 
-
-NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.PlayerEvent$PlayerChangedDimensionEvent", event => {
+NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.PlayerEvent$PlayerChangedDimensionEvent", (event) => {
   const { entity: player } = event;
   try {
-    if (event.getTo() != "dimdungeons:dungeon_dimension") return
-
+    if (event.getTo() != "dimdungeons:dungeon_dimension") return;
 
     let pData = player.level.persistentData;
     if (!pData["dimdungeon_boss_arena_spawn"]) {
-      pData["dimdungeon_boss_arena_spawn"] = {}
+      pData["dimdungeon_boss_arena_spawn"] = {};
     }
-
 
     let key = `${player.x.toFixed(0)}-${player.y.toFixed(0)}-${player.z.toFixed(0)}`;
     let kuLevel = new Ku.Level(player.level);
@@ -362,9 +368,7 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.PlayerEvent$Pla
       kuLevel.spawnStructure("ftb:vaults/dimdungeons/boss", player.block.pos.offset(-22, 25, -27));
       pData["dimdungeon_boss_arena_spawn"][key] = true;
     }
-
-
   } catch (e) {
     console.log(`Error logging player travel to Dimensional Dungeon: ${e}`);
   }
-})
+});

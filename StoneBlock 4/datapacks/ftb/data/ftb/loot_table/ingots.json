@@ -189,12 +189,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "enderio:copper_alloy_ingot",
-          "weight": 5,
+          "name": "enderio:end_steel_ingot",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": { "type": "minecraft:uniform", "min": 2.0, "max": 4.0 },
+              "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 },
               "add": false
             }
           ]

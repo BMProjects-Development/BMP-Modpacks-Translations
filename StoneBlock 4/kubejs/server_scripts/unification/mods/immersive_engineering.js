@@ -606,14 +606,6 @@ ServerEvents.recipes((event) => {
     );
   });
 
-  addRecipeImmersiveEngineeringAlloy(
-    event,
-    [`c:clay`, 1],
-    [`c:dusts/glowstone`, 1],
-    [`enderio:clayed_glowstone`, 2],
-    `ftb:ie/alloy_smelting/clayed_glowstone`
-  );
-
   //Salt Crushing
   addRecipeImmersiveEngineeringCrusher(
     event,

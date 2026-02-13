@@ -20,7 +20,7 @@ let renderCowTransmutationRecipe = (event, left, right) => {
     event.drawTexture(oblong_frame, (screenWidth / 2) - 10, (screenHeight / 2) - 8 + 12, 20, 20)
     event.drawTexture("lychee:textures/gui/sprites/right_click.png", (screenWidth / 2) - 8, (screenHeight / 2) - 8 + 14, 16, 16)
     event.drawTexture(arrow, (screenWidth / 2) - 8, (screenHeight / 2) - 8 + 36, 16, 10, 0, 0, Math.min(((Utils.getSystemTime() % 1800) / 100.0), 16.0), 10 )
-    event.renderGuiItem(right, (screenWidth / 2) - 8 + 24, (screenHeight / 2) - 8 + 32)
+    // event.renderGuiItem(right, (screenWidth / 2) - 8 + 24, (screenHeight / 2) - 8 + 32)
     event.drawString(Fluid.of(right).getDisplayName(), (screenWidth / 2) - 8 + 24, (screenHeight / 2) - 8 + 15, 255, 255, 255, 255)
 
     let x;
@@ -93,8 +93,9 @@ RenderJSEvents.onGuiPostRender(event => {
                         let index = Math.floor(time / 2) % weightedList.length;
                         let selectedFluid = weightedList[index].id;
                         renderCowTransmutationRecipe(event, handItem, selectedFluid);
+                    } else {
+                      renderCowTransmutationRecipe(event, handItem, rule[0].fluid);
                     }
-                    renderCowTransmutationRecipe(event, handItem, rule[0].fluid);
                     return;
                 }
         }

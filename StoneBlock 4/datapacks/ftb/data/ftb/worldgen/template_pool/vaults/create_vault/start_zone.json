@@ -7,7 +7,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "rotation": "none",        
+        "rotation": "none",
         "location": "ftb:vaults/create_vault/start_zone",
         "processors": "ftb:vaults/create_vault/replace_wool"
       }

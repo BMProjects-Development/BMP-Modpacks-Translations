@@ -20,8 +20,6 @@ ServerEvents.recipes((event) => {
   ];
 
   for (let color of colors) {
-    var stained = `minecraft:${color}_stained_glass`;
-
     event
       .shaped(
         Item.of(`chisel:glassdyed_${color}/bubble`, 8),

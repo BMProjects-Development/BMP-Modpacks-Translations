@@ -37,7 +37,8 @@ removeRecipe.push(
   "occultism:blasting/gold_ingot_from_dust",
   "occultism:blasting/copper_ingot_from_dust",
   "occultism:blasting/iron_ingot_from_dust",
-  "occultism:crushing/diamond_dust_from_ore"
+  "occultism:crushing/diamond_dust_from_ore",
+  "occultism:crushing/plutonium_dust_from_ingot"
 );
 
 removeItem.push(

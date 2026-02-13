@@ -1,0 +1,17 @@
+#Compatibility Features
+[1-compat]
+	#This section is dedicated to override the ModIsLoaded-compat
+	#It can be useful when you dont want some extra features or they cause some issues
+	#It doesn't disable/remove all data-stuff so you need to change that!
+	#All placed compat blocks will be removed and all items will be overriden with useless items!
+	#
+	#Disable AppliedEnergistics2 Compat
+	disable_ae2 = false
+	#Disable ExtendedAE Compat
+	disable_extendedae = false
+	#Disable PhasoriteNetworks Compat
+	disable_phasoritenetworks = false
+	#Disable GeOre Compat
+	disable_geore = false
+	#Disable Chisel Modern Compat
+	disable_chisel_modern = false

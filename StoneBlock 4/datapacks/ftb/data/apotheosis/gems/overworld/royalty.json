@@ -3,10 +3,20 @@
     "constraints": {
         "biomes": [
             "ftb:stone",
+            "ftb:lower/stone",
+            "ftb:upper/stone",
             "ftb:deepslate",
+            "ftb:lower/deepslate",
+            "ftb:upper/deepslate",
             "ftb:ocean",
+            "ftb:lower/ocean",
+            "ftb:upper/ocean",
             "ftb:eternal_stone",
-            "ftb:void_chasms"
+            "ftb:lower/eternal_stone",
+            "ftb:upper/eternal_stone",
+            "ftb:void_chasms",
+            "ftb:lower/void_chasms",
+            "ftb:upper/void_chasms"
         ]
     },
     "min_purity": "flawed",

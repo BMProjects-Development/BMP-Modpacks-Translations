@@ -46,7 +46,15 @@
     "playerMalkuthFireballAbilityCooldown": 200,
     "justiceCoreDamageReduction": 15,
     "phaseSphereUseDuration": 200,
-    "phaseSphereCooldown": 100
+    "phaseSphereCooldown": 100,
+    "iceFireGauntletCooldown": 60,
+    "iceFireGauntletCrushDamage": 15,
+    "divineGearAttackCooldown": 60,
+    "divineGearDamage": 25,
+    "divineGearLifetime": 500,
+    "divineGearCharges": 3,
+    "divineGearChargeReplenishTime": 500,
+    "divineGearAttackRadius": 25.0
   },
   "malkuthConfig": {
     "slashAttackDamage": 20.0,

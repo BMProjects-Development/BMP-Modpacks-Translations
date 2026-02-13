@@ -52,7 +52,7 @@
         "input": true
       },
       "capacity": 250000,
-      "max_input": 4000000
+      "max_input": 8000000
     },
     {
       "type": "custommachinery:fluid",

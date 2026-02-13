@@ -133,24 +133,29 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:bee": true
-			"minecraft:chicken": true
-			"minecraft:skeleton": true
-			"minecraft:pig": true
 			"minecraft:rabbit": true
-			"minecraft:creeper": true
-			"minecraft:enderman": true
-			"minecraft:wolf": true
-			"minecraft:cow": true
-			"minecraft:cat": true
+			"minecraft:bee": true
 			"minecraft:zombie_villager": true
-			"minecraft:spider": true
-			"minecraft:zombie": true
-			"minecraft:villager": true
-			"twilightforest:quest_ram": true
-			"minecraft:breeze": true
+			"minecraft:cow": true
 			"minecraft:goat": true
+			"minecraft:vindicator": true
+			"minecraft:stray": true
+			"minecraft:wolf": true
+			"minecraft:villager": true
+			"minecraft:creeper": true
+			"minecraft:pig": true
+			"minecraft:zombie": true
+			"minecraft:husk": true
 			"minecraft:bogged": true
+			"minecraft:witch": true
+			"mecrh:ender_chicken": true
+			"minecraft:chicken": true
+			"minecraft:spider": true
+			"minecraft:enderman": true
+			"minecraft:wandering_trader": true
+			"minecraft:skeleton": true
+			"minecraft:cat": true
+			"twilightforest:quest_ram": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
@@ -161,6 +166,7 @@
 		# Info hidden under minimap
 		# Default: ["ftbchunks:fps", "ftbchunks:game_time", "ftbchunks:real_time", "ftbchunks:debug"]
 		info_hidden: [
+			"ftbchunks:fps"
 			"ftbchunks:game_time"
 			"ftbchunks:real_time"
 			"ftbchunks:debug"

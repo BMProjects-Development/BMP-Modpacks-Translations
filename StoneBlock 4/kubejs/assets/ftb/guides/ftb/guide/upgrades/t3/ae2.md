@@ -24,5 +24,4 @@ This upgrade will also need the <Color id="red">Advanced Machine Block</Color> u
   <ItemIcon id="mekanism:elite_tier_installer" />
   <ItemIcon id="pipez:ultimate_upgrade" />
   <ItemIcon id="xp_synthesiser:xp_synthesiser" />
-
 </ItemGrid>

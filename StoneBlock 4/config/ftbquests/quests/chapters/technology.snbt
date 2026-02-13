@@ -2109,5 +2109,21 @@
 			x: -5.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["283EA4E7BA93DA11"]
+			id: "269DC26776DD377D"
+			rewards: [{
+				amount: 25
+				id: "220438B6A19BAAC8"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "15A05C592A65EDB3"
+				item: { components: { "custommachinery:machine": "ftb:advanced_empowerer" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
 	]
 }

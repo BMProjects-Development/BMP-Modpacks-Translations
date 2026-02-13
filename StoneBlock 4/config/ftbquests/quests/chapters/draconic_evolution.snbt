@@ -238,18 +238,21 @@
 				{
 					id: "038F39578B3A7CC6"
 					item: { count: 1, id: "draconicevolution:wyvern_capacitor" }
+					match_components: "fuzzy"
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0C7FC8FD790E219D"
 					item: { count: 1, id: "draconicevolution:draconic_capacitor" }
+					match_components: "fuzzy"
 					optional_task: true
 					type: "item"
 				}
 				{
 					id: "00CDE01ED37D4EE3"
 					item: { count: 1, id: "draconicevolution:chaotic_capacitor" }
+					match_components: "fuzzy"
 					optional_task: true
 					type: "item"
 				}

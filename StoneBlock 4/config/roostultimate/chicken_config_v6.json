@@ -72,12 +72,12 @@
     "CanGetWitherDamage": false
   },
   {
-    "ChickenName": "Otherstone Chicken",
+    "ChickenName": "Otherrock Chicken",
     "MobOrMonster": "Mob",
-    "id": "c_otherstone",
-    "itemtexture": "otherstonechicken",
-    "mobtexture": "otherstonechicken",
-    "dropitem": "occultism:otherstone",
+    "id": "c_otherrock",
+    "itemtexture": "otherrockchicken",
+    "mobtexture": "otherrockchicken",
+    "dropitem": "occultism:otherrock",
     "eggtime": 600,
     "tier": 7,
     "CanGetFireDamage": false,

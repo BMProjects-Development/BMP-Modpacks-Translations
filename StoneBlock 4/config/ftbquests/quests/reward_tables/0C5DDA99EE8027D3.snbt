@@ -41,7 +41,7 @@
 				count: 1
 				id: "ftbstuff:netherite_basalt_generator"
 			}
-			weight: 100.0f
+			weight: 80.0f
 		}
 		{
 			id: "2DC72C3C562E9488"
@@ -304,7 +304,7 @@
 				count: 1
 				id: "gag:time_sand_pouch"
 			}
-			weight: 30.0f
+			weight: 40.0f
 		}
 		{
 			id: "5AF55FEBCD089CA5"
@@ -312,7 +312,7 @@
 				count: 1
 				id: "gaze:adaptive_wheel"
 			}
-			weight: 30.0f
+			weight: 40.0f
 		}
 		{
 			count: 2
@@ -355,7 +355,7 @@
 				count: 1
 				id: "projecte:collector_mk3"
 			}
-			weight: 30.0f
+			weight: 40.0f
 		}
 		{
 			id: "60E6A0E28A0C2933"

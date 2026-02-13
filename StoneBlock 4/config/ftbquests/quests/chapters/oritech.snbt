@@ -665,6 +665,7 @@
 		{
 			dependencies: ["0A92084D7043133A"]
 			id: "5535D64E2B05005E"
+			optional: true
 			rewards: [{
 				amount: 3
 				id: "050AB322624CEF91"

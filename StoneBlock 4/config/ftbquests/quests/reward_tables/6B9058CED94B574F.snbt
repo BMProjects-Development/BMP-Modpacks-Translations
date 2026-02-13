@@ -105,7 +105,6 @@
 			}
 		}
 		{ id: "7DC6413751C6925D", item: { count: 1, id: "draconicevolution:generator" } }
-		{ id: "5336D4C3F387496F", item: { count: 1, id: "draconicevolution:draconium_chest" } }
 		{ id: "495DF49EBBF0B77D", item: { components: { "minecraft:stored_enchantments": { levels: { "apothic_enchanting:boon_of_the_earth": 5 } } }, count: 1, id: "minecraft:enchanted_book" } }
 		{ id: "54DC27E90D2295BC", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:looting": 8 } } }, count: 1, id: "minecraft:enchanted_book" } }
 		{ id: "34186D9A02BF619D", item: { count: 1, id: "ae2:mysterious_cube" } }

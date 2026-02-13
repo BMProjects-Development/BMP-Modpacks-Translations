@@ -205,6 +205,11 @@
     "pump": true,
     "autohammer": true
   },
+  "justdynathings": {
+    "paradox_mixer": true,
+    "stabilizer": true,
+    "echoing_budding": true
+  },
   "xycraft": {
     "energy_pipe_debug": true,
     "tank_component": true,

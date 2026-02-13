@@ -3,6 +3,7 @@ const $AttributeModifier = Java.loadClass("net.minecraft.world.entity.ai.attribu
 const $EchoManager = Java.loadClass("dev.ftb.mods.ftbechoes.echo.EchoManager");
 const $ShoppingKey = Java.loadClass("dev.ftb.mods.ftbechoes.shopping.ShoppingKey");
 const $EchoArgumentType = Java.loadClass("dev.ftb.mods.ftbechoes.command.EchoArgumentType");
+const $RitualWildenSummon = Java.loadClass("com.hollingsworth.arsnouveau.common.ritual.RitualWildenSummoning");
 
 const SB4$WE_BLACKLIST_BLOCKS = [
   "minecraft:deepslate",
@@ -10,7 +11,7 @@ const SB4$WE_BLACKLIST_BLOCKS = [
   "minecraft:green_stained_glass",
   "twilightforest:green_force_field",
   "ae2:not_so_mysterious_cube",
-  "chisel_chipped_integration:factory_wireframe",
+  "chisel:factory/wireframewhite",
   "minecraft:verdant_froglight",
   "minecraft:deepslate_bricks",
   "minecraft:stone",
@@ -21,28 +22,28 @@ const SB4$WE_BLACKLIST_BLOCKS = [
   "create:cut_deepslate_wall",
   "minecraft:cyan_stained_glass",
   "minecraft:deepslate_tiles",
-  "chisel_chipped_integration:metal_iron_shipping_crate",
+  "chisel:iron/crate",
   "minecraft:polished_deepslate",
   "antiblocksrechiseled:bright_orange",
-  "chisel_chipped_integration:wool_legacy_green",
+  "chisel:wool_green/legacy",
   "minecraft:oxidized_copper_bulb",
   "ftb:world_engine_slab_plating",
-  "chisel_chipped_integration:carpet_legacy_green",
+  "chisel:carpet_green/legacy",
   "ftb:world_engine_plating",
   "chipped:sheet_waxed_oxidized_copper",
   "supplementaries:deepslate_lamp",
-  "chisel_chipped_integration:factory_circuit",
+  "chisel:factory/circuit",
   "antiblocksrechiseled:bright_black",
-  "chisel_chipped_integration:technical_large_pipes",
+  "chisel:technical/pipeslarge",
   "create:cut_deepslate",
   "chipped:arched_white_stained_glass_pane_pillar",
   "ftb:world_engine_wall_plating",
-  "chisel_chipped_integration:metal_iron_scaffold",
-  "chisel_chipped_integration:technical_malfunction_fan",
+  "chisel:iron/scaffold",
+  "chisel:technical/malfunctionfan",
   "minecraft:deepslate_tile_wall",
   "enderio:dark_steel_trapdoor",
   "create:copper_table_cloth",
-  "chisel_chipped_integration:metal_invar_shipping_crate",
+  "chisel:metals_invar/crate",
   "minecraft:cobbled_deepslate_wall",
   "minecraft:deepslate_brick_slab",
   "chipped:tiled_acacia_planks",
@@ -53,7 +54,7 @@ const SB4$WE_BLACKLIST_BLOCKS = [
   "minecraft:polished_deepslate_wall",
   "simplylight:rodlamp",
   "minecraft:deepslate_tile_stairs",
-  "chisel_chipped_integration:technical_grate",
+  "chisel:technical/grate",
   "minecraft:waxed_chiseled_copper",
   "minecraft:cobbled_deepslate_stairs",
   "simplylight:wall_lamp",
@@ -305,6 +306,28 @@ ItemEvents.entityInteracted((event) => {
 
 BlockEvents.rightClicked((event) => {
   cancelOverWorldInteractions(event);
+
+  // Prevents Wilden Ritual in World Engine and Vaults
+  let { block, level, player } = event;
+  let pos = block.pos;
+  if (block.id == "ars_nouveau:ritual_brazier") {
+    let blockEntity = level.getBlockEntity(pos);
+    let ritual = blockEntity.ritual;
+    if (blockEntity && ritual) {
+      if (ritual instanceof $RitualWildenSummon) {
+        let biome = level.getBiome(pos);
+        if (ritual.isBossSpawn() && (biome.is("minecraft:the_void") || isEntityInVault(blockEntity))) {
+          player.tell(Text.translate("ftb.ars.ritual.denied").red());
+          // Replaces brazier to cancel block effects (easiest method of doing this)
+          let blockState = level.getBlockState(pos);
+          level.destroyBlock(pos, false);
+          player.give("ars_nouveau:ritual_wilden_summon");
+          level.setBlock(pos, blockState, 3);
+          return;
+        }
+      }
+    }
+  }
 });
 
 NativeEvents.onEvent("net.neoforged.neoforge.event.ItemAttributeModifierEvent", (event) => {

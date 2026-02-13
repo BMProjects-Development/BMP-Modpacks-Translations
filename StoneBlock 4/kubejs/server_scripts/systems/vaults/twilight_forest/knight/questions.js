@@ -173,7 +173,7 @@ const triviaSettings = {
   startOffset: { x: 0, y: -2, z: 40 },
   arenaOffset: { x: 0, y: -13, z: 28 },
   wallBottomLeft: { x: -4, y: -3, z: 1 },
-  wallTopRight: { x: 4, y: 1, z: -5 }
+  wallTopRight: { x: 2, y: 0, z: -4 }
 }
 
 ServerEvents.commandRegistry((event) => {
@@ -384,16 +384,18 @@ PlayerEvents.tick((event) => {
       (e) => e.type === "minecraft:text_display" && distanceBetween(player.block.pos.offset(0, 1, 1), e.block.pos) < 1.7
     )
     .forEach((display) => {
-      if (display.getTags().contains("win")) {
-        player.tell(Text.translate("ftb.trivia.correct_answer"))
+      if(display.getTags().contains("awnsered")) {
+        removeBlockWall(level, display, player)
+      } else if (display.getTags().contains("win")) {
+        player.sendSystemMessage(Text.translate("ftb.trivia.correct_answer"), true)
         removeBlockWall(level, display, player)
       } else if (display.getTags().contains("lose")) {
-        player.tell(Text.translate("ftb.trivia.wrong_answer"))
+        player.sendSystemMessage(Text.translate("ftb.trivia.wrong_answer"), true)
         let tier = display
           .getTags()
           .find((tag) => tag.startsWith("trivia_"))
           .split("_")[1]
-        teleportToArena(level, player, triviaSettings.gateways[tier])
+          teleportToArena(level, player, triviaSettings.gateways[tier])
       }
     })
 })
@@ -453,11 +455,11 @@ const removeBlockWall = (level, display, player) => {
         (e.getTags().contains(`trivia_${tier}_answer_1`) ||
           e.getTags().contains(`trivia_${tier}_answer_2`) ||
           e.getTags().contains(`trivia_${tier}_answer_3`) ||
-          e.getTags().contains(`trivia_${tier}_answer_4`) ||
-          e.getTags().contains(`trivia_${tier}_question`))
+          e.getTags().contains(`trivia_${tier}_answer_4`)
+        )
     )
     .forEach((e) => {
-      e.discard()
+      e.getTags().push("awnsered");
     })
 
   Teams.setData(player, "tf_vault_wins", parseInt(tier))

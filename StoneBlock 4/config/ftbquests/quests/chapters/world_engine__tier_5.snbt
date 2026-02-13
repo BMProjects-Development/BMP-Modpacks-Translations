@@ -472,6 +472,12 @@
 					item: { count: 1, id: "avaritia:infinity_singularity" }
 					type: "item"
 				}
+				{
+					id: "223A14462F14AFF6"
+					item: { components: { "ftbfiltersystem:filter": "or(item(draconicevolution:draconium_core)item(draconicevolution:awakened_core)item(draconicevolution:chaotic_core))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
 			]
 			x: 0.0d
 			y: 14.5d
@@ -541,6 +547,12 @@
 					count: 786L
 					id: "256123071C53A5CE"
 					item: { count: 1, id: "draconicevolution:draconium_block" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4ABEB876C0A95FB8"
+					item: { count: 1, id: "draconicevolution:energy_core_stabilizer" }
 					type: "item"
 				}
 			]
@@ -1000,6 +1012,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 32L
 					id: "0C593E67E9892721"
 					item: { count: 1, id: "draconicevolution:energy_core_stabilizer" }

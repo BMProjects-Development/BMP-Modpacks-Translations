@@ -20,7 +20,7 @@ It can also be located in the **Void Chasm**, the final outer ring.
 
 ## Presses and the Mysterious Cube
 
-The [Inscriber Presses](../items-blocks-machines/inscriber_press.md) and the <ItemLink id="mysterious_cube" /> are not hidden inside meteorites.  
+The [Inscriber Presses](../items-blocks-machines/presses.md) and the <ItemLink id="mysterious_cube" /> are not hidden inside meteorites.  
 Instead, they can be:
 
 - **Purchased from the in-game shop**, or  

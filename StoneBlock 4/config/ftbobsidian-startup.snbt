@@ -1,0 +1,11 @@
+{
+	packs: {
+		# List of force loaded resource packs to use, the resource pack must exist in the resourcepacks folder for it to be automatically enabled.
+		# Default: []
+		force_loaded: [ ]
+		
+		# List of resource packs that are forced to be compatible with the current Minecraft version even if they would normally be marked as incompatible.
+		# Default: []
+		forced_compatible: [ ]
+	}
+}

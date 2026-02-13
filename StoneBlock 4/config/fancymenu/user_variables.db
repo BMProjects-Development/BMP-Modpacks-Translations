@@ -31,6 +31,12 @@ variable {
 }
 
 variable {
+  name = ab-testing-variable
+  value = 
+  reset_on_launch = true
+}
+
+variable {
   name = small_button_height
   value = 279
   reset_on_launch = false

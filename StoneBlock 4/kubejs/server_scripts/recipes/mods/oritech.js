@@ -46,6 +46,8 @@ const oritechRecipeRemovals = [
   "oritech:crafting/addon/processingalt",
   "oritech:centrifuge/fluid/siliconwafers",
   "oritech:compat/ae2/charger/fluxite",
+  "oritech:laser/plutoniumdust",
+  "oritech:pulverizer/uraniumcrystal"
 ];
 
 ServerEvents.recipes((event) => {

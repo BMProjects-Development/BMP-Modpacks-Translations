@@ -1,6 +1,10 @@
 // Remove Recipes By ID
 
 const recipeIdsToRemove = [
+  "pocketstorage:tier1",
+  "pocketstorage:tier2",
+  "pocketstorage:tier3",
+  "pocketstorage:tier4",
   "irregular_implements:diaphanous_block",
   "mekanism:portable_qio_dashboard",
   "cataclysm:chiseled_purpur_block",
@@ -314,6 +318,10 @@ const recipeIdsToRemove = [
   "cabletiers:ultra_autocrafter",
   "cabletiers:mega_autocrafter",
   "occultengineering:smelting/silver_ingot",
+  "occultengineering:smelting/brass_ingot_from_crushed",
+  "occultengineering:smelting/zinc_ingot_from_crushed",
+  "occultengineering:blasting/brass_ingot_from_crushed",
+  "occultengineering:blasting/zinc_ingot_from_crushed",
   "refinedtypes:energy/infinite_energy_storage_block_upgrade",
   "refinedtypes:energy/infinite_energy_storage_disk_upgrade",
   "refinedtypes:soul/infinite_soul_storage_block_upgrade",
@@ -336,6 +344,21 @@ const recipeIdsToRemove = [
   "enderio:sag_milling/sand",
   "mekanism:compat/ae2/sand_to_silicon",
   "productivemetalworks:alloying/molten_signalum",
+  "create_enchantment_industry:item_application/experience_hatch_using_deployer",
+  "create_enchantment_industry:item_application/experience_hatch",
+  /^immersiveengineering:crafting\/hammercrushing_.*/,
+  /^immersiveengineering:crafting\/raw_hammercrushing_.*/,
+  "enderio:void_vial",
+  "supplementaries:cannon_boat/minecraft/bamboo",
+  "twilightforest:copper_ingot_to_nuggets",
+  "twilightforest:copper_nuggets_to_ingot",
+  "twilightforest:sticky_piston_maze_ver",
+  "twilightforest:copper_ingot_to_nuggets",
+  "twilightforest:lead_maze_ver",
+  "twilightforest:magma_cream_maze_ver",
+  "irregular_implements:lapis_lamp",
+  "create_shimmer:blasting/raw_knightmetal",
+  "create_shimmer:smelting/raw_knightmetal"
 ];
 
 const recipeTypesToRemove = ["immersiveengineering:arc_recycling", "irregular_implements:custom_crafting_table"];
@@ -359,5 +382,10 @@ ServerEvents.recipes((event) => {
 
   recipeTypesToRemove.forEach((recipeType) => {
     event.remove({ type: recipeType });
+  });
+
+  // Removing PhiloStone conversions from Create mixer
+  event.findRecipes({input: "projecte:philosophers_stone"}).forEach((recipe) => {
+    recipe.id(recipe.getId()+"_manual_only")
   });
 });

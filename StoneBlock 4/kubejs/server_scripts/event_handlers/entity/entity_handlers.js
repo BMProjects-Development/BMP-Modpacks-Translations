@@ -74,15 +74,13 @@ let LootJSEntityList = Registry.of("minecraft:entity_type").getKeys()
 LootJS.modifiers((event) => {
   LootJSEntityList.forEach((entityID) => {
     event.addEntityModifier(entityID).customAction((ctx, bkt) => {
-      bkt.forEach((stack) => {
-        console.log(stack)
-      })
       let entity = ctx.getDamageSource().getActual()
+      if (ctx.getLevel() == null) return
       if (!(isEntityRealPlayer(entity))) {
         let new_items_list = []
         bkt.forEach((stack)=>{
           if (stack.has("apotheosis:gem")) {
-            $SalvagingMenu.getSalvageResults(entity.getLevel(), stack).forEach((new_item) => {
+            $SalvagingMenu.getSalvageResults(ctx.getLevel(), stack).forEach((new_item) => {
               new_items_list.push(new_item)
             })
             stack.setCount(0)

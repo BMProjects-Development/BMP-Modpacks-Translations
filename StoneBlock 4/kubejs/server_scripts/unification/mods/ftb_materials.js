@@ -13,7 +13,9 @@ removeRecipe.push(
   "ftbmaterials:chromium_ingot_from_blasting_chromium_raw_ore",
   "ftbmaterials:chromium_ingot_from_smelting_chromium_raw_ore",
   "ftbmaterials:titanium_ingot_from_blasting_titanium_raw_ore",
-  "ftbmaterials:titanium_ingot_from_smelting_titanium_raw_ore"
+  "ftbmaterials:titanium_ingot_from_smelting_titanium_raw_ore",
+  "ftbmaterials:plutonium_dust_from_plutonium_tiny_dust",
+  "ftbmaterials:plutonium_tiny_dust_from_plutonium_dust"
 );
 
 removeOre.push(

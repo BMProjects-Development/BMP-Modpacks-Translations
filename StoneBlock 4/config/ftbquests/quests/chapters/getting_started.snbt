@@ -1380,5 +1380,25 @@
 			x: 11.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["54A433FAF8A65CC0"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "4FE01499D831CACC"
+			rewards: [{
+				amount: 1
+				id: "32244D7C313130E0"
+				type: "currency"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "187D3A2680948DF2"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: -1.0d
+		}
 	]
 }

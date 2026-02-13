@@ -21,5 +21,4 @@ By itself, this upgrade only unlocks one recipe.
 
 <ItemGrid>
   <ItemIcon id="entangled:block" />
-
 </ItemGrid>

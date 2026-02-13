@@ -151,6 +151,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "ars_nouveau:creative_source_jar"
@@ -268,35 +269,49 @@
 				id: "trophymanager:trophy"
 			}
 			id: "25CCA572C4D5CEA0"
-			rewards: [{
-				amount: 100
-				id: "14DA10C8742CAA9A"
-				type: "currency"
-			}]
+			rewards: [
+				{
+					amount: 100
+					id: "14DA10C8742CAA9A"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					id: "38059CA15A969EF6"
+					ignore_reward_blocking: true
+					stage: "creative_unlock"
+					type: "gamestage"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [
 				{
+					disable_toast: true
 					id: "32632683A87010F0"
 					item: { count: 1, id: "avaritia:infinity_sword" }
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "0B9961DB84A60523"
 					item: { count: 1, id: "avaritia:infinity_helmet" }
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "51296F7540D18A31"
 					item: { count: 1, id: "avaritia:infinity_chestplate" }
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "7D55F8A28B18CBC6"
 					item: { count: 1, id: "avaritia:infinity_leggings" }
 					type: "item"
 				}
 				{
+					disable_toast: true
 					id: "6EDECEEC553261A3"
 					item: { count: 1, id: "avaritia:infinity_boots" }
 					type: "item"
@@ -306,6 +321,7 @@
 			y: -0.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "replication:creative_memory_chip"
@@ -383,6 +399,7 @@
 			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "chancecubes:creative_pendant"
@@ -439,9 +456,10 @@
 				}
 			]
 			x: -0.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "justdynathings:creative_goo"
@@ -487,10 +505,11 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 1.0d
 			y: 2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "create:creative_motor"
@@ -541,6 +560,7 @@
 			y: 2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				components: {
@@ -580,10 +600,10 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 100L
 					id: "155C05544786B2ED"
 					item: { count: 1, id: "minecraft:dragon_egg" }
-					optional_task: true
 					task_screen_only: true
 					type: "item"
 				}
@@ -596,10 +616,11 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 2.5d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "mekanism_lasers:creative_toggleable_laser"
@@ -607,7 +628,7 @@
 			id: "308135F2F191443E"
 			rewards: [
 				{
-					id: "7C5E0E41A706E1C5"
+					id: "17A237E609AFB3A6"
 					item: {
 						count: 1
 						id: "mekanism_lasers:creative_toggleable_laser"
@@ -633,7 +654,6 @@
 					consume_items: true
 					id: "087CD6A49C1DDD56"
 					item: { components: { "mekanism:energy": { energy_containers: [L;256000000L] } }, count: 1, id: "mekanism:ultimate_energy_cube" }
-					match_components: "fuzzy"
 					task_screen_only: true
 					type: "item"
 				}
@@ -666,6 +686,7 @@
 			y: 3.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "universalgrid:creative_wireless_universal_grid"
@@ -717,6 +738,7 @@
 			y: 2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "cabletiers:creative_disk_interface"
@@ -769,6 +791,7 @@
 			y: 2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "tempad:creative_chronometer"
@@ -839,10 +862,11 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 0.0d
 			y: 2.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["25CCA572C4D5CEA0"]
 			icon: {
 				id: "mffs:infinite_power_card"
@@ -865,6 +889,13 @@
 			]
 			shape: "diamond"
 			tasks: [
+				{
+					consume_items: true
+					id: "4E82C638E60A2B29"
+					item: { count: 1, id: "mffs:coercion_deriver" }
+					task_screen_only: true
+					type: "item"
+				}
 				{
 					consume_items: true
 					id: "26A26EB050E04982"
@@ -890,16 +921,9 @@
 				}
 				{
 					consume_items: true
-					id: "4E82C638E60A2B29"
-					item: { count: 1, id: "mffs:coercion_deriver" }
-					task_screen_only: true
-					type: "item"
-				}
-				{
-					consume_items: true
 					count: 64L
-					id: "1FF219F06DBA63C3"
-					item: { count: 1, id: "ftbmaterials:electrum_gear" }
+					id: "407F20781F2F0E3F"
+					item: { count: 1, id: "immersiveengineering:wirecoil_electrum_ins" }
 					task_screen_only: true
 					type: "item"
 				}
@@ -911,8 +935,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 3.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["09D15AF118F0C8D8"]
@@ -972,7 +996,7 @@
 					consume_items: true
 					count: 16L
 					id: "34036373B717A7CE"
-					item: { components: { "avaritia:singularity_id": "fortron_infused_singularity" }, count: 1, id: "avaritia:json_singularity" }
+					item: { components: { "avaritia:singularity_id": "energite_singularity" }, count: 1, id: "avaritia:json_singularity" }
 					task_screen_only: true
 					type: "item"
 				}
@@ -1356,7 +1380,8 @@
 					consume_items: true
 					count: 16L
 					id: "4627130DB81CB216"
-					item: { components: { "draconicevolution:config_properties": [ [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_held_item", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_armor", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_hot_bar", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_main", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_curios", show_on_hud: 1b, value: 0b } ] ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 803266230, 905528751, -1204635490, -96207276 ] }, count: 1, id: "draconicevolution:chaotic_capacitor" }
+					item: { count: 1, id: "draconicevolution:chaotic_capacitor" }
+					match_components: "fuzzy"
 					task_screen_only: true
 					type: "item"
 				}
@@ -1391,7 +1416,9 @@
 				"5D1DD9EA59C3078D"
 				"308135F2F191443E"
 				"7CC7824471E1B45F"
+				"25CCA572C4D5CEA0"
 			]
+			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -1412,10 +1439,61 @@
 			id: "09D15AF118F0C8D8"
 			shape: "rsquare"
 			size: 1.5d
-			tasks: [{
-				id: "2EA8AAC21E19C202"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "4479AA390569F520"
+					item: { count: 1, id: "ars_nouveau:creative_source_jar" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "10A8A0586024145E"
+					item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:ender_dragon" }, count: 1, id: "hostilenetworks:data_model" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "0A53706C4182658C"
+					item: { count: 1, id: "create:creative_motor" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "23D64D597CD3979A"
+					item: { count: 1, id: "mffs:infinite_power_card" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "07C3D0C838A6485B"
+					item: { count: 1, id: "tempad:creative_chronometer" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "6BE96AC115E95591"
+					item: { count: 1, id: "justdynathings:creative_goo" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "2EA509EA29681CD3"
+					item: { count: 1, id: "chancecubes:creative_pendant" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "3D3135FDC098C7ED"
+					item: { count: 1, id: "replication:creative_memory_chip" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					id: "4E9D3C9234867C2E"
+					item: { count: 1, id: "mekanism_lasers:creative_toggleable_laser" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 5.5d
 		}

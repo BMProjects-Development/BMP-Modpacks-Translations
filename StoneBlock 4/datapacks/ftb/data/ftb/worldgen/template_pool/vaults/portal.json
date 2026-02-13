@@ -7,8 +7,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
+        "rotation": "none",
         "location": "ftb:vaults/portal/start",
-        "processors": []
+        "processors": "ftb:vaults/portal_vault/replace_wool"
       }
     }
   ]

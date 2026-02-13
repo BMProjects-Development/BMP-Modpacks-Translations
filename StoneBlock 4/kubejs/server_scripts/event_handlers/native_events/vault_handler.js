@@ -63,7 +63,10 @@ EntityEvents.death("minecraft:player", (event) => {
         $FTBEPlayerData.addTeleportHistory(player)
         player["teleportTo(net.minecraft.server.level.ServerLevel,double,double,double,float,float)"](dimension, x+0.5, y+1, z+0.5, yRot, xRot)
       } finally {
-
+        let source = event.getSource();
+        if (source.getActual() != null) {
+          showBuffForMob(player, source.getActual());
+        }
         player.setHealth(player.getMaxHealth())
         event.cancel()
       }
@@ -113,19 +116,34 @@ BlockEvents.broken((event) => {
 });
 
 BlockEvents.rightClicked((event) => {
-  if (!event.getBlock().hasTag("create:wrench_pickup")) return;
-  if (!(event.getItem() == Item.of("create:wrench"))) return;
-  /**@type {$ServerLevel_} */
-  let server = event.getLevel();
-  if (server.isClientSide()) return;
-  if (
-    !server
-      .structureManager()
-      .getStructureAt(event.getBlock().getPos(), "ftb:vaults/create_vault")
-      .isValid()
-  )
+  const { player, block, item, level } = event;
+  if (!player) return;
+
+  /** @type {$ServerLevel_} */
+  if (level.isClientSide()) return;
+
+  // Prevents Create wrench pickup inside Create Vault
+  if (block.hasTag("create:wrench_pickup")) {
+    if (item.id !== "create:wrench") return;
+
+    let structure = level
+      .registryAccess()
+      .registryOrThrow(Registries.STRUCTURE)
+      .get(ResourceLocation.of("ftb:vaults/create_vault", ":"));
+
+    let result = level.structureManager().getStructureAt(block.pos, structure);
+    if (!result.isValid()) return;
+
+    event.cancel();
     return;
-  event.cancel();
+  }
+
+  // Prevent EnderIO conduit interaction in vaults
+  if (item.id == "enderio:conduit") {
+    if (!isEntityInVault(player)) return;
+    event.cancel();
+    return;
+  }
 });
 
 let effect_throttle = 80;
@@ -178,3 +196,45 @@ LevelEvents.loaded((event) => {
     }
   });
 });
+
+const $DeusExBuffsHelper = Java.loadClass("com.breakinblocks.deus_ex_machina.data.DeusExBuffsHelper");
+const $DeusConfig = Java.loadClass("com.breakinblocks.deus_ex_machina.Config");
+const $BuiltInRegistries = Java.loadClass("net.minecraft.core.registries.BuiltInRegistries");
+const showBuffForMob = (player, mob) => {
+  try{
+    if (!player.hasEffect("deus_ex_machina:deus_ex_machina_effect")) return;
+    let type = $BuiltInRegistries.ENTITY_TYPE.get(mob.getType())
+    if (!$DeusConfig.isDeusExMob(type)) return;
+
+
+    $DeusExBuffsHelper.withBuffsForMob(player, mob, (buff, key) => {
+      let resistanceGain = $DeusConfig.resistanceIncrease
+      let attackGain = $DeusConfig.attackBoostIncrease
+
+      let command = `title ${player.username} title {"translate": "deus_ex_machina.death_screen.header", "with":[{"translate":${type.description.toNBT().translate}}], "color":"#FFAA00"}`
+      player.server.runCommandSilent(command)
+      let resistance = `{"translate":"deus_ex_machina.death_screen.resistance", "with":[{"text":"${resistanceGain}"}], "color":"#55FF55"}`
+      let resistance_now = `{"translate":"deus_ex_machina.death_screen.resistance.now", "with":[{"text":"${buff.getResistance(key)}"}], "color":"#AAAAAA"}`
+      let attack = `{"translate":"deus_ex_machina.death_screen.attack", "with":[{"text":"${attackGain}"}], "color":"#FF5555"}`
+      let attack_now = `{"translate":"deus_ex_machina.death_screen.attack.now", "with":[{"text":"${buff.getStrength(key)}"}], "color":"#AAAAAA"}`
+      let subtitle = `title ${player.username} subtitle [${resistance}, ${resistance_now}, ${attack}, ${attack_now}]`
+      player.server.runCommandSilent(subtitle)
+      // player.sendSystemMessage(
+      //   Text.translate("deus_ex_machina.death_screen.resistance", resistanceGain).withColor(0x55FF55)
+      //   .append(Text.translate("deus_ex_machina.death_screen.resistance.now", buff.getResistance(key)).withColor(0xAAAAAA))
+      //   .append(
+      //     Text.translate("deus_ex_machina.death_screen.attack", attackGain).withColor(0xFF5555)
+      //   .append(Text.translate("deus_ex_machina.death_screen.attack.now", buff.getStrength(key)).withColor(0xAAAAAA)) 
+      //   )
+      //   , true
+      // )
+
+    });
+  }catch(e){console.log(e)}
+}
+
+
+ItemEvents.rightClicked("minecraft:debug_stick", event => {
+  const { player, level } = event;
+  showBuffForMob(player, player);
+})

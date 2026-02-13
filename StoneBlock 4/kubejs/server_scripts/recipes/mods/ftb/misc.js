@@ -94,7 +94,6 @@ ServerEvents.recipes((event) => {
   addRecipeProductiveMetalworksBlockCastingRecipe(
     event,
     "ftbstuff:compressed_basalt_2",
-    true,
     "minecraft:lava",
     1000,
     "ftb:magmalith",

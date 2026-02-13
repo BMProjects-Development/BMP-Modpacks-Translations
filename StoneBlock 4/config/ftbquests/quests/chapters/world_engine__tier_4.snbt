@@ -904,7 +904,7 @@
 					type: "structure"
 				}
 				{
-					id: "0E2AF9372422AC52"
+					id: "3AE70742B9A07A8A"
 					item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
 					type: "item"
 				}
@@ -1131,6 +1131,7 @@
 				id: "create:empty_schematic"
 			}
 			id: "51B3EF0BCEB804A4"
+			optional: true
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true

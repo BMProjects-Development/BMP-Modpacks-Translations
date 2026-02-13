@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"draconicevolution:chaotic_crafting_injector"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"draconicevolution:dragon_heart"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

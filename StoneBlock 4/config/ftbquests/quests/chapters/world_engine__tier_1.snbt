@@ -382,6 +382,10 @@
 			y: 6.0d
 		}
 		{
+			dependencies: [
+				"47D745A94C534B48"
+				"58BC57B1119204CA"
+			]
 			icon: {
 				id: "ars_nouveau:blue_archwood_sapling"
 			}
@@ -420,7 +424,7 @@
 			tasks: [
 				{
 					id: "19893A74AF61880F"
-					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:blue_archwood_sapling)item(ars_nouveau:red_archwood_sapling)item(ars_nouveau:purple_archwood_sapling)item(ars_nouveau:green_archwood_sapling))", "minecraft:custom_name": "\"Archwood Saplings\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:blue_archwood_sapling)item(ars_nouveau:red_archwood_sapling)item(ars_nouveau:purple_archwood_sapling)item(ars_nouveau:green_archwood_sapling)item(ars_elemental:yellow_archwood_sapling))", "minecraft:custom_name": "\"Archwood Saplings\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -1264,7 +1268,34 @@
 				id: "6865F20C1E218901"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["615D1A52ED3A9C78"]
+			icon: {
+				id: "ftb:multiblock_printer"
+			}
+			id: "2140EAC255C3EA09"
+			optional: true
+			rewards: [{
+				amount: 20
+				id: "417F7DD6163231AF"
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "13A73C3BE594063F"
+					item: { count: 1, id: "ftb:multiblock_printer" }
+					type: "item"
+				}
+				{
+					id: "285C19B2604207EF"
+					item: { count: 1, id: "ftb:multiblock_validator" }
+					type: "item"
+				}
+			]
+			x: 0.5d
 			y: -4.0d
 		}
 	]

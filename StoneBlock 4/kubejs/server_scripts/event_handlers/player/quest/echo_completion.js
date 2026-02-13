@@ -1,3 +1,4 @@
+// echo_completion Script
 let echoStages = [
   "echo_ancient_meet",
   "echo_ancient_stage4_task1_check",
@@ -109,17 +110,18 @@ let echoStages = [
   "t5_zone_unlocked",
   "tf_unlock_hydra",
   "world_engine_unlocked",
-  "creative_motor_unlock"
+  "creative_unlock"
 ]
 
 FTBQuestsEvents.customReward((event) => {
-  const {reward, player, server} = event
-  const tags = event.reward
+  const server = event.server
+  const tags = event.reward.tags
   const p = event.player.username
   if (!tags) return;
-  if (tags == "echo_complete") {
+  if (tags.contains("echo_complete")) {
     for (let i = 0; i < echoStages.length; i++) {
       let stage = echoStages[i]
-      server.runCommandSilent(`execute as ${p} run kjs stages add ${p} ${stage}`)
+      server.runCommandSilent(`kjs stages add ${p} ${stage}`)
+      console.log(`Added Stage ${stage} for player ${p}`)
   }}
 });

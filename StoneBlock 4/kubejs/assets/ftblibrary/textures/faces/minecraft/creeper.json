@@ -1,5 +1,5 @@
 {
-  "use_mob_texture": false,
+  "use_mob_texture": true,
   "slice": {
     "x": 8,
     "y": 8,

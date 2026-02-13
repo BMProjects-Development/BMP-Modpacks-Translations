@@ -950,7 +950,7 @@ ServerEvents.recipes(function (event) {
       // duration omitted → helper defaults to 200
       itemInputs: [
         { item: "oritech:machine_core_2", count: 1 },
-        { item: "minecraft:lava_bucket", count: 1 },
+        { item: "#c:buckets/lava", count: 1 },
         { item: "createaddition:capacitor", count: 1 },
         { item: "immersiveengineering:component_iron", count: 2 },
       ],
@@ -962,7 +962,7 @@ ServerEvents.recipes(function (event) {
       id: "ftb:world_engine/super_cooler",
       machineId: "ftb:world_engine",
       itemInputs: [
-        { item: "minecraft:water_bucket", count: 1 },
+        { item: "#c:buckets/water", count: 1 },
         { item: "createaddition:capacitor", count: 1 },
         { item: "oritech:machine_core_2", count: 1 },
         { item: "immersiveengineering:component_iron", count: 2 },
@@ -1164,9 +1164,9 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/replication_replicator",
       machineId: "ftb:world_engine",
-      duration: 600,
+      duration: 300,
       structures: ["machine_block_upgrade"],
-      energyPerTick: 768,
+      energyPerTick: 1536,
       itemInputs: [
         { item: "oritech:machine_core_2", count: 1 },
         { item: "replication:replica_ingot", count: 6 },
@@ -2354,9 +2354,8 @@ ServerEvents.recipes(function (event) {
       energyPerTick: 16192,
       structures: ["machine_block_upgrade", "fortron_upgrade"],
       itemInputs: [
-        { item: "refinedstorage:advanced_processor", count: 1 },
+        { item: "extrastorage:iron_crafter", count: 1 },
         { item: "#refinedstorage:autocrafters", count: 4 },
-        { item: "minecraft:iron_block", count: 4 },
       ],
       itemOutputs: [{ item: "cabletiers:elite_autocrafter", count: 1 }],
     },
@@ -3487,7 +3486,7 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/infinity_sword",
       machineId: "ftb:world_engine",
-      duration: 600,
+      duration: 200,
       structures: [
         "source_upgrade",
         "machine_block_upgrade",
@@ -3497,7 +3496,7 @@ ServerEvents.recipes(function (event) {
         "awakened_core_upgrade",
         "dark_void_upgrade",
       ],
-      energyPerTick: 250000,
+      energyPerTick: 1000000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
       itemInputs: [
@@ -3519,7 +3518,7 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/infinity_bow",
       machineId: "ftb:world_engine",
-      duration: 600,
+      duration: 200,
       structures: [
         "source_upgrade",
         "machine_block_upgrade",
@@ -3529,7 +3528,7 @@ ServerEvents.recipes(function (event) {
         "awakened_core_upgrade",
         "dark_void_upgrade",
       ],
-      energyPerTick: 250000,
+      energyPerTick: 1000000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
       itemInputs: [
@@ -3551,7 +3550,7 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/infinity_shovel",
       machineId: "ftb:world_engine",
-      duration: 600,
+      duration: 200,
       structures: [
         "source_upgrade",
         "machine_block_upgrade",
@@ -3561,7 +3560,7 @@ ServerEvents.recipes(function (event) {
         "awakened_core_upgrade",
         "dark_void_upgrade",
       ],
-      energyPerTick: 250000,
+      energyPerTick: 1000000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
       itemInputs: [
@@ -3577,7 +3576,7 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/infinity_hoe",
       machineId: "ftb:world_engine",
-      duration: 600,
+      duration: 200,
       structures: [
         "source_upgrade",
         "machine_block_upgrade",
@@ -3587,7 +3586,7 @@ ServerEvents.recipes(function (event) {
         "awakened_core_upgrade",
         "dark_void_upgrade",
       ],
-      energyPerTick: 250000,
+      energyPerTick: 1000000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
       itemInputs: [
@@ -3603,7 +3602,7 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/infinity_axe",
       machineId: "ftb:world_engine",
-      duration: 600,
+      duration: 200,
       structures: [
         "source_upgrade",
         "machine_block_upgrade",
@@ -3613,7 +3612,7 @@ ServerEvents.recipes(function (event) {
         "awakened_core_upgrade",
         "dark_void_upgrade",
       ],
-      energyPerTick: 250000,
+      energyPerTick: 1000000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
       itemInputs: [
@@ -3629,7 +3628,7 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/infinity_pickaxe_fortune",
       machineId: "ftb:world_engine",
-      duration: 600,
+      duration: 200,
       structures: [
         "source_upgrade",
         "machine_block_upgrade",
@@ -3639,7 +3638,7 @@ ServerEvents.recipes(function (event) {
         "awakened_core_upgrade",
         "dark_void_upgrade",
       ],
-      energyPerTick: 250000,
+      energyPerTick: 1000000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
       itemInputs: [
@@ -3655,7 +3654,7 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/infinity_chestplate",
       machineId: "ftb:world_engine",
-      duration: 600,
+      duration: 200,
       structures: [
         "source_upgrade",
         "machine_block_upgrade",
@@ -3665,7 +3664,7 @@ ServerEvents.recipes(function (event) {
         "awakened_core_upgrade",
         "dark_void_upgrade",
       ],
-      energyPerTick: 250000,
+      energyPerTick: 1000000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
       itemInputs: [
@@ -3683,7 +3682,7 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/infinity_helmet",
       machineId: "ftb:world_engine",
-      duration: 600,
+      duration: 200,
       structures: [
         "source_upgrade",
         "machine_block_upgrade",
@@ -3693,7 +3692,7 @@ ServerEvents.recipes(function (event) {
         "awakened_core_upgrade",
         "dark_void_upgrade",
       ],
-      energyPerTick: 250000,
+      energyPerTick: 1000000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
       itemInputs: [
@@ -3711,7 +3710,7 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/infinity_leggings",
       machineId: "ftb:world_engine",
-      duration: 600,
+      duration: 200,
       structures: [
         "source_upgrade",
         "machine_block_upgrade",
@@ -3721,7 +3720,7 @@ ServerEvents.recipes(function (event) {
         "awakened_core_upgrade",
         "dark_void_upgrade",
       ],
-      energyPerTick: 250000,
+      energyPerTick: 1000000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
       itemInputs: [
@@ -3739,7 +3738,7 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/infinity_boots",
       machineId: "ftb:world_engine",
-      duration: 600,
+      duration: 200,
       structures: [
         "source_upgrade",
         "machine_block_upgrade",
@@ -3749,7 +3748,7 @@ ServerEvents.recipes(function (event) {
         "awakened_core_upgrade",
         "dark_void_upgrade",
       ],
-      energyPerTick: 250000,
+      energyPerTick: 1000000,
       source: { amount: 10000 },
       tempC: { min: 1000 },
       itemInputs: [
@@ -3767,7 +3766,7 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/infinity_catalyst",
       machineId: "ftb:world_engine",
-      duration: 240,
+      duration: 150,
       structures: [
         "machine_block_upgrade",
         "advanced_machine_upgrade",
@@ -3776,7 +3775,7 @@ ServerEvents.recipes(function (event) {
         "awakened_core_upgrade",
         "dark_void_upgrade",
       ],
-      energyPerTick: 150000,
+      energyPerTick: 250000,
       tempC: { min: 750 },
       itemInputs: [
         { item: "avaritia:neutronium_ingot", count: 1 },
@@ -3821,7 +3820,7 @@ ServerEvents.recipes(function (event) {
     {
       id: "ftb:world_engine/infinity_ingot",
       machineId: "ftb:world_engine",
-      duration: 240,
+      duration: 150,
       structures: [
         "machine_block_upgrade",
         "advanced_machine_upgrade",
@@ -3830,7 +3829,7 @@ ServerEvents.recipes(function (event) {
         "awakened_core_upgrade",
         "dark_void_upgrade",
       ],
-      energyPerTick: 225000,
+      energyPerTick: 500000,
       tempC: { min: 750 },
       itemInputs: [
         { item: "avaritia:infinity_catalyst", count: 8 },

@@ -189,7 +189,21 @@ const tickSpeedDenyBlocks = [
   "twilightforest:time_log_core",
 ];
 
+const CataclysmBossImmune = [
+  "minecraft:trial_spawner"
+]
+
 ServerEvents.tags("block", (event) => {
+
+  CataclysmBossImmune.forEach((block) => {
+    event.add("cataclysm:ignis_immune")
+    event.add("cataclysm:harbinger_immune")
+    event.add("cataclysm:leviathan_immune")
+    event.add("cataclysm:remnant_immune")
+    event.add("cataclysm:maledictus_immune")
+    event.add("cataclysm:scylla_immune")
+    event.add("cataclysm:clawdian_immune")
+  })
 
   tickSpeedDenyBlocks.forEach((block) => {
     event.add("tickaccelerator:deny", block);

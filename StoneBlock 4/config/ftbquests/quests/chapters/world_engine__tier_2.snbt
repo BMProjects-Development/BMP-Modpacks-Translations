@@ -662,7 +662,6 @@
 			}]
 			shape: "square"
 			tasks: [{
-				count: 8L
 				id: "18380B9921A3AEEC"
 				item: { count: 1, id: "mekanism:ultimate_thermodynamic_conductor" }
 				type: "item"

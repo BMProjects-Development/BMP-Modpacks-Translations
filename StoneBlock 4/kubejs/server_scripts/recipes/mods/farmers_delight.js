@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
   //Readding Dough Recipe - water bucket is kept
   event.shapeless(Item.of("farmersdelight:wheat_dough", 1),
     ["#c:crops/wheat", "#c:buckets/water"])
-    .keepIngredient("#c:buckets/water")
+    .keepIngredient("minecraft:water_bucket")
     .id("ftb:farmers_delight/shapeless/wheat_dough_from_water");
 
 

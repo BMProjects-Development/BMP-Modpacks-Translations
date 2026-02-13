@@ -1,4 +1,7 @@
 {
+	# A mapping of dimension IDs to forced game modes. Players entering the dimension will have their game mode changed accordingly.
+	dimension_forced_gamemodes: { }
+	
 	# If non-zero, set the base health of all mobs to be multiplied by this value. Set to 0 to disable.
 	# Default: 0.0
 	# Range: 0.0 ~ 1000.0

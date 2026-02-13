@@ -23,7 +23,7 @@
 		custom_spread_factors: [ ]
 	}
 	forced-game-rules: {
-		# Mapping of game rule keys to their values. Boolean game rules are stored as byte tags (0 or 1), integer game rules are stored as int tags.
+		# Game rules that are forced on the server. The keys must be valid game rule IDs.
 		rules: { }
 	}
 	integrations: {

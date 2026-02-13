@@ -561,16 +561,6 @@ ServerEvents.recipes((event) => {
     )
   })
 
-  addRecipeOritechFoundry(
-    event,
-    [
-      [`c:clay`, 1],
-      [`c:dusts/glowstone`, 1]
-    ],
-    [[`enderio:clayed_glowstone`, 2]],
-    `ftb:oritech/foundry/clayed_glowstone`
-  )
-
   addRecipeOritechPulverizer(
     event,
     "minecraft:coal",

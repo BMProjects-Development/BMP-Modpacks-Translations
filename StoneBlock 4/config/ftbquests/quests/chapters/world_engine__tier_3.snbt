@@ -1045,8 +1045,8 @@
 		}
 		{
 			dependencies: [
-				"71F25B7D688EE182"
 				"1E307C13D534A75C"
+				"71F25B7D688EE182"
 			]
 			icon: {
 				id: "ae2:quantum_link"
@@ -1077,17 +1077,17 @@
 			tasks: [
 				{
 					count: 8L
-					id: "341379E1F696FFE7"
+					id: "1847CA339E2717A4"
 					item: { count: 1, id: "ae2:quantum_ring" }
 					type: "item"
 				}
 				{
-					id: "5972CC1B5FF3A6F2"
+					id: "5F650760DBBF9317"
 					item: { count: 1, id: "ae2:quantum_link" }
 					type: "item"
 				}
 				{
-					id: "4A4A4740109F3D51"
+					id: "5FE7828B75C1BC07"
 					item: { count: 1, id: "ae2:pattern_provider" }
 					type: "item"
 				}
@@ -1103,7 +1103,7 @@
 				id: "58C4714D8D4234C1"
 				type: "currency"
 			}]
-			shape: "square"
+			shape: "circle"
 			tasks: [{
 				id: "6CA2150609C9BB36"
 				item: { count: 1, id: "mffs:coercion_deriver" }
