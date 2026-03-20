@@ -9,6 +9,7 @@ autocraftingNotification = true
 debug = false
 #Allowed Values: LIST, TREE
 autocraftingPreviewStyle = "LIST"
+tenthAnniversaryCape = false
 
 [cable]
 	# Default: 0

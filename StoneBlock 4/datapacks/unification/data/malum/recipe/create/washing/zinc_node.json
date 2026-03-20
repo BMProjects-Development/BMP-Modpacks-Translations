@@ -13,11 +13,11 @@
   ],
   "results": [
     {
-      "item": "ftbmaterials:zinc_nugget",
-      "count": 6
+      "id": "ftbmaterials:zinc_nugget",
+      "amount": 6
     },
     {
-      "item": "minecraft:gunpowder",
+      "id": "minecraft:gunpowder",
       "chance": 0.25
     }
   ]

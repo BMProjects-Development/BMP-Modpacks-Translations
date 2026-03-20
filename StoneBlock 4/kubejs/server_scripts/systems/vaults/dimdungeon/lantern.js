@@ -344,8 +344,8 @@ function modifyEntity(event, radius, healthScale, attributes) {
   attributes.forEach((attributeArr) => {
     let attribute = attributeArr[0];
     if (entity.getAttributes().hasAttribute(attribute)) {
-      let value = baseValue + attributeArr[1] * totalPlayers;
       let baseValue = entity.getAttributeBaseValue(attribute);
+      let value = baseValue + attributeArr[1] * totalPlayers;
       entity.setAttributeBaseValue(attribute, value);
     }
   });
@@ -361,7 +361,11 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.PlayerEvent$Pla
       pData["dimdungeon_boss_arena_spawn"] = {};
     }
 
-    let key = `${player.x.toFixed(0)}-${player.y.toFixed(0)}-${player.z.toFixed(0)}`;
+    // Snap to 32-block grid to prevent overlapping arenas when re-entering at slightly different positions (#11333)
+    let snapX = Math.floor(player.x / 32) * 32;
+    let snapY = Math.floor(player.y / 32) * 32;
+    let snapZ = Math.floor(player.z / 32) * 32;
+    let key = `${snapX}-${snapY}-${snapZ}`;
     let kuLevel = new Ku.Level(player.level);
 
     if (!pData["dimdungeon_boss_arena_spawn"][key]) {

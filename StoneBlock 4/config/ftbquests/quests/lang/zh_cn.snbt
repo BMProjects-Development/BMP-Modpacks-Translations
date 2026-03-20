@@ -2793,21 +2793,6 @@
 		""
 		"&d机械手&r可以挤牛奶、剪羊毛、开垦农田、攻击怪物，还有更多功能。"
 	]
-	quest.3CFC372F57CF6B82.quest_desc: [
-		"&eCustom Machinery&r模组内置结构预览系统，能让你查看方块应放置在世界中的位置。"
-		""
-		"只需要点击界面中的配方箭头，然后在打开的JEI界面中点击结构方块，便能查看世界中的方块位置。"
-		""
-		"&7&o下一页包含截图以作操作引导，最后一页则是完整的结构截图。->"
-		"{@pagebreak}"
-		"{image:ftb:textures/quests/neutron_activator/neutron_activator_ui.png width:200 height:90 align:center}"
-		""
-		"{image:ftb:textures/quests/neutron_activator/neutron_activator_jei.png width:180 height:150 align:center}"
-		"{@pagebreak}"
-		"完整的结构应像下图所示，四面的墙上各有两个轻语玻璃，底部中心的方块上方一格处为反应堆反射器，其上方为反应堆散热口，顶部中心的方块则是充能煤晶块。"
-		""
-		"{image:ftb:textures/quests/neutron_activator/neutron_activator_build.png width:120 height:150 align:center}"
-	]
 	quest.3CFDFD0BA7D30118.quest_desc: [
 		"在&6石头世界4&r整合包中，整个世界都是按环生成的！"
 		""

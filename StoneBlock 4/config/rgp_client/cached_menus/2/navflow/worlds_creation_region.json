@@ -1,0 +1,220 @@
+{
+  "type": "list",
+  "id": "worlds_creation_region",
+  "title": "Worlds Creation - Region",
+  "entries": [
+  ],
+  "back": {
+    "action": "open_screen",
+    "id": "worlds_list"
+  },
+  "elements": [
+    {
+      "type": "panel_list",
+      "id": "loadout_selection_panel",
+      "scroll": true,
+      "render_background": false,
+      "elements": [
+      ],
+      "entry_loader": {
+        "type": "modpack_region_entry",
+        "widget_height": 70,
+        "entry_template": {
+          "id": "$regionId",
+          "elements": [
+            {
+              "type": "image",
+              "id": "region_icon",
+              "icon": "textures/misc/unknown_server.png",
+              "hover_border": true,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "pivot": "center"
+              },
+              "options": {
+                "width": 96,
+                "height": 96
+              },
+              "callback": {
+                "action": "store_variables",
+                "variables": [
+                  {
+                    "key": "selectedRegionId",
+                    "value": "$regionId"
+                  },
+                  {
+                    "key": "selectedRegionName",
+                    "value": "$regionName"
+                  }
+                ],
+                "on_complete": {
+                  "action": "open_screen",
+                  "id": "worlds_creation_loadout",
+                  "pass_storage": true
+                }
+              }
+            },
+            {
+              "type": "text",
+              "id": "region_name",
+              "text": "$regionName",
+              "shadow": true,
+              "alignment": "center",
+              "position": {
+                "x": 0,
+                "y": 40,
+                "pivot": "center"
+              }
+            }
+          ]
+        }
+      },
+      "position": {
+        "x": 205,
+        "y": 46,
+        "pivot": "top_left"
+      },
+      "options": {
+        "height_padding": 20
+      },
+      "end_position": {
+        "x": 20,
+        "y": 64
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "back",
+      "text": {
+        "translate": "gui.back"
+      },
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_list"
+      }
+    },
+    {
+      "type": "divider",
+      "id": "divider",
+      "position": {
+        "x": 75,
+        "y": 44,
+        "pivot": "top_left"
+      },
+      "end_position": {
+        "x": 0,
+        "y": 64
+      },
+      "options": {
+        "width": 125
+      }
+    },
+    {
+      "type": "icon_button",
+      "id": "region",
+      "text": {
+        "translate": "rgp_client.gui.worlds_creation.region"
+      },
+      "icon": "rgp_client:textures/gui/button/button_dirt_selected.png",
+      "position": {
+        "x": 87,
+        "y": 60,
+        "pivot": "top_left"
+      },
+      "options": {
+        "width": 100,
+        "height": 20
+      }
+    },
+    {
+      "type": "icon_button",
+      "id": "loadout",
+      "text": {
+        "translate": "rgp_client.gui.worlds_creation.loadout"
+      },
+      "icon": "rgp_client:textures/gui/button/button_dirt.png",
+      "position": {
+        "x": 87,
+        "y": 90,
+        "pivot": "top_left"
+      },
+      "options": {
+        "width": 100,
+        "height": 20
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_creation_loadout",
+        "pass_storage": true
+      }
+    },
+    {
+      "type": "icon_button",
+      "id": "tier",
+      "text": {
+        "translate": "rgp_client.gui.worlds_creation.tier"
+      },
+      "icon": "rgp_client:textures/gui/button/button_dirt.png",
+      "position": {
+        "x": 87,
+        "y": 120,
+        "pivot": "top_left"
+      },
+      "options": {
+        "width": 100,
+        "height": 20
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_creation_tier",
+        "pass_storage": true
+      }
+    },
+    {
+      "type": "icon_button",
+      "id": "checkout",
+      "text": {
+        "translate": "rgp_client.gui.worlds_creation.checkout"
+      },
+      "icon": "rgp_client:textures/gui/button/button_dirt.png",
+      "position": {
+        "x": 87,
+        "y": 150,
+        "pivot": "top_left"
+      },
+      "options": {
+        "width": 100,
+        "height": 20
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_creation_checkout",
+        "pass_storage": true
+      }
+    },
+    {
+      "type": "image",
+      "id": "logo",
+      "icon": "rgp_client:textures/gui/ftb_worlds_logo.png",
+      "options": {
+        "width": 112,
+        "height": 56
+      },
+      "position": {
+        "x": 0,
+        "y": -6,
+        "pivot": "top_center"
+      }
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "name": {
-    "text": "Enderic Infuser",
-    "color": "dark_aqua"
+    "text": {
+      "translate": "ftb.machine.enderic_infuser"
+    }
   },
   "appearance": {
     "running": {

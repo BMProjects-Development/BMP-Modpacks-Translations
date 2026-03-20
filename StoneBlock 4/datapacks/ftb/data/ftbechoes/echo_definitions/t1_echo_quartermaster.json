@@ -44,7 +44,7 @@
       "required_stage": "echo_quartermaster_stage1_task1_completed",
       "ready": {"translate": "ftb.echo.quartermaster.stage1.task1.ready"},
       "completed": {"translate": "ftb.echo.quartermaster.stage1.task1.completed"},
-      "completion_reward" : {"command": {"run": "kubejs stages add @s echo_quartermaster_stage1_task1_check", "permission": 3}, "experience": 50},
+      "completion_reward" : {"command": {"run": "ftbteams teamstage @s add echo_quartermaster_stage1_task1_check", "permission": 3}, "experience": 50},
       "shop_unlock": [
         {"name": "Copper to Iron Chest Upgrade", "item": {"id": "sophisticatedstorage:copper_to_iron_tier_upgrade", "count": 1}, "cost": 15},
         {"name": "Iron to Gold Chest Upgrade", "item": {"id": "sophisticatedstorage:iron_to_gold_tier_upgrade", "count": 1}, "cost": 20},
@@ -81,7 +81,7 @@
       "required_stage": "echo_quartermaster_stage1_task2_completed",
       "ready": {"translate": "ftb.echo.quartermaster.stage1.task2.ready"},
       "completed": {"translate": "ftb.echo.quartermaster.stage1.task2.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_quartermaster_stage1_task2_check", "permission": 3}, "experience": 200},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_quartermaster_stage1_task2_check", "permission": 3}, "experience": 200},
       "shop_unlock": []
     }
   ]

@@ -1,0 +1,121 @@
+{
+  "type": "simple",
+  "id": "worlds_join_world",
+  "title": {
+    "translate": "rgp_client.gui.worlds_join_world.title"
+  },
+  "back": {
+    "action": "open_screen",
+    "id": "worlds_list"
+  },
+  "entries": [
+  ],
+  "elements": [
+    {
+      "type": "text",
+      "id": "title",
+      "text": {
+        "translate": "rgp_client.gui.worlds_join_world.title"
+      },
+      "alignment": "center",
+      "position": {
+        "x": 0,
+        "y": 15,
+        "pivot": "top_center"
+      }
+    },
+    {
+      "type": "text",
+      "id": "invite_code_name",
+      "text": {
+        "translate": "rgp_client.gui.worlds_join_world.invite_code",
+        "color": "gray"
+      },
+      "alignment": "left",
+      "position": {
+        "x": 0,
+        "y": -20,
+        "pivot": "center"
+      },
+      "options": {
+        "width": 200
+      }
+    },
+    {
+      "type": "image",
+      "id": "invite_code_info",
+      "icon": "ftblibrary:textures/icons/info.png",
+      "tooltip": {
+        "translate": "rgp_client.gui.worlds_join_world.invite_code_info"
+      },
+      "position": {
+        "x": -38,
+        "y": -20,
+        "pivot": "center"
+      },
+      "options": {
+        "width": 8,
+        "height": 8
+      }
+    },
+    {
+      "type": "text_box",
+      "id": "invite_code",
+      "variable_id": "inviteCode",
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "pivot": "center"
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "join_server",
+      "text": {
+        "translate": "rgp_client.gui.worlds_join_world.title"
+      },
+      "required_variable": "inviteCode",
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -35,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "invite_code",
+        "invite_code": "$inviteCode",
+        "on_complete": {
+          "action": "open_screen",
+          "id": "worlds_list"
+        }
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "back",
+      "text": {
+        "translate": "gui.back"
+      },
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_list"
+      }
+    }
+  ]
+}

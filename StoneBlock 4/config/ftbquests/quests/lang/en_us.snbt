@@ -1663,6 +1663,20 @@
 		"This machine requires heat to simulate the power of the sun that is obviously missing in this stone world."
 		"{@pagebreak}"
 		"It can convert &eNuclear Waste&r into &dPolonium&r, and &eLithium&r into &aTritium&r when powered with a single &6Neutron Pile&r."
+		"{@pagebreak}"
+		"&eCustom Machinery&r has a built-in structure preview function that allows you to see where the blocks should be placed in the world."
+		""
+		"To access this feature, simply click the Recipe arrow inside of the UI, then click the structure block in JEI to see the block placements in the world."
+		""
+		"&7&oThe next page contains screenshots to help guide you, and the final page contains a screenshot of the fully-built structure. ->"
+		"{@pagebreak}"
+		"{image:ftb:textures/quests/neutron_activator/neutron_activator_ui.png width:200 height:90 align:center}"
+		""
+		"{image:ftb:textures/quests/neutron_activator/neutron_activator_jei.png width:180 height:150 align:center}"
+		"{@pagebreak}"
+		"The final structure should look like the picture below, with 2 Whisperglass on each of the four walls, the Reactor Reflector one up from the bottom-middle block, the Reactor Vent on top of that and the Empowered Void Block on the top-middle block."
+		""
+		"{image:ftb:textures/quests/neutron_activator/neutron_activator_build.png width:120 height:150 align:center}"
 	]
 	quest.21322BAF061FE83F.title: "&zNeutron Activator&r"
 	quest.213FE1D19D589513.quest_desc: [
@@ -1969,6 +1983,16 @@
 	quest.28E63B302DFCF6D9.title: "&dArcana&r Items"
 	quest.28F636FAA3397479.quest_desc: ["The &aBasic Coal Generator&r from &6RFTools&r is a simple-to-use generator that burns furnace fuel items to generate power."]
 	quest.28F636FAA3397479.title: "&fBasic Coal Generator"
+	quest.28F9C2B43B31DE16.quest_desc: [
+		"The &dAtomic Forge&f can now combine your &oEnchanted&r &5Trinity Gem&f with a pair of &oEnchanted&r &dNeutronium Ingots&f to create a &6Fortified Containment Device&f."
+		""
+		"&eNote&f: The &5Trinity Gem&f needs Unbreaking 112 and Blast Protection 10 and the &dNeutronium Ingots&f need Unbreaking 16!"
+		""
+		"Once you have obtained the &6Containment Device&f to capture the &dAntimatter&f, it is time to create some!"
+		""
+		"Smashing the &6Containment Device&f with a highly radioactive &2Plutonium Pellet&f at a high enough speed will generate plenty of &dAntimatter&f that the &6Containment Device&f can capture into an &dAntimatter Fragment&f before it dissipates."
+	]
+	quest.28F9C2B43B31DE16.title: "&zFortified Containment Device&r"
 	quest.294AB45D52BE342B.quest_desc: [
 		"&6Create&r has a very unique way of storing items as well as doing autocrafting!"
 		""
@@ -2606,6 +2630,12 @@
 	quest.35791C02AC048594.quest_subtitle: "Unlocking /home"
 	quest.35791C02AC048594.title: "&fChronon Management"
 	quest.35A0BC59FB62D5F9.title: "Ocean Shards"
+	quest.35AB3E816F51A68E.quest_desc: [
+		"To mass produce the enchanted books for hyper-enchanting, you might consider the &aPrinter&r or &2Enchanter&r."
+		""
+		"A steady supply of &eLiquid XP&r and input items can create all the enchanted books you will need."
+	]
+	quest.35AB3E816F51A68E.title: "&zEnchanted Book Production"
 	quest.35E8F57E93106BFE.quest_desc: [
 		"&aPatterns&r are used to store crafting or processing recipes. This can be done inside the &3Pattern Grid&r, which can hold up to a stack of &aPatterns&r at once."
 		""
@@ -2726,6 +2756,16 @@
 	]
 	quest.38869642A2E6F8B6.quest_subtitle: "They Can Do Anything"
 	quest.38869642A2E6F8B6.title: "Modular Routers"
+	quest.38893C57D1D9A5DE.quest_desc: [
+		"There are two ways to get &3Souls&f for your &aArcane Catalyst&f. These need to be within a 16-block range of a &aCatalyst&f to harvest a &3Soul&f."
+		""
+		"1. Mob deaths will provide 1 soul each. Not all methods of killing mobs will produce souls. The Mob Crusher from Industrial Foregoing is a notable example of one that does not."
+		""
+		"2. Growing &nand&r Breaking &aSoul Flowers&r. A fully-grown &aSoul Flower&r will produce 1 soul. Many methods of harvesting will not produce a soul because they are not actually breaking the flower."
+		""
+		"&7&oYou will need about 350,000 soul per Antimatter Pellet."
+	]
+	quest.38893C57D1D9A5DE.title: "&zSoul Production"
 	quest.388FDE6183B26A5E.title: "Wyvern Core Trade"
 	quest.38E2176886386133.quest_desc: [
 		"The &aAlloy Kiln&r is an early-game multiblock used to make alloys like: constantan, invar, electrum, and bronze."
@@ -2926,21 +2966,6 @@
 		"&dDeployers&r are used to mimic player interactions and process item recipes."
 		""
 		"&dDeployers&r can milk cows, shear sheep, create farmland, attack monsters, and much more."
-	]
-	quest.3CFC372F57CF6B82.quest_desc: [
-		"&eCustom Machinery&r has a built-in structure preview function that allows you to see where the blocks should be placed in the world."
-		""
-		"To access this feature, simply click the Recipe arrow inside of the UI, then click the structure block in JEI to see the block placements in the world."
-		""
-		"&7&oThe next page contains screenshots to help guide you, and the final page contains a screenshot of the fully-built structure. ->"
-		"{@pagebreak}"
-		"{image:ftb:textures/quests/neutron_activator/neutron_activator_ui.png width:200 height:90 align:center}"
-		""
-		"{image:ftb:textures/quests/neutron_activator/neutron_activator_jei.png width:180 height:150 align:center}"
-		"{@pagebreak}"
-		"The final structure should look like the picture below, with 2 Whisperglass on each of the four walls, the Reactor Reflector one up from the bottom-middle block, the Reactor Vent on top of that and the Empowered Void Block on the top-middle block."
-		""
-		"{image:ftb:textures/quests/neutron_activator/neutron_activator_build.png width:120 height:150 align:center}"
 	]
 	quest.3CFDFD0BA7D30118.quest_desc: [
 		"In &6Stoneblock 4&r, the world is generated in rings!"
@@ -3626,6 +3651,25 @@
 		"This uses &6Time Fluid&r to speed up any block it's used on, similar to the Time in a Bottle or Temporal Pouch."
 	]
 	quest.48C1A1BB346B7D07.title: "&zTime Wands"
+	quest.48EEEEDA95AD9C67.quest_desc: [
+		"&oTired of &eMekanism&f having the only way to produce &dAntimatter&f?"
+		""
+		"Arcane scientists figured out that a particular arcane tool can capture &dAntimatter&r produced from particle collisions."
+		""
+		"You will first need to expand your arcane knowledge and get your hands on this magic containment vessel imbued with Otherworld energy."
+		"{@pagebreak}"
+		"The &6Trinity Gem&f will need some additional enhancements to survive the particle collision. A very high level of Unbreaking and some Blast Protection should do the trick."
+		""
+		"The &aArcane Catalyst&f can apply enchantments that go well beyond the normal enchantment level limits. To operate, it will require 3 things:"
+		""
+		"- A steady supply of souls collected from neary entities deaths, or from harvesting &3Soul Flowers&r nearby."
+		""
+		"- A steady supply of the max vanilla level &2Enchanted Books&r to apply (Unbreaking III or Blast Protection IV, in this case)"
+		""
+		"- Soul Stabilization for at least 2550 souls. This is done by directing speed-upgraded &dEnderic Lasers&r at the &aArcane Catalyst&r. Speed addons allow you to store more souls per Catalyst."
+	]
+	quest.48EEEEDA95AD9C67.quest_subtitle: "Time For Something New"
+	quest.48EEEEDA95AD9C67.title: "&6Mek Haters Unite"
 	quest.496903AB7E8A0A92.quest_desc: [
 		"&eIron's Gems \\&\\ Jewelry&r is a mod that focus on combining materials and &bJewels&r to provide the player with special effects or stat increases."
 		""
@@ -4179,15 +4223,7 @@
 	]
 	quest.53E949B1A0D04290.title: "&6Foundry &fOuter Structure"
 	quest.5417C0BED57AE8DA.quest_desc: ["Generates power by consuming Nether Fauna."]
-	quest.543C6917A16F266C.quest_desc: [
-		"With the &zNeutron Activator&r, you have the power of the sun now to convert &aNuclear Waste&r."
-		""
-		"This will give you the ability to create &zAntimatter&r using the &6Supercritical Phase Shifter&r."
-		""
-		"[\"\", {\"text\": \"Note\", \"color\": \"yellow\"},  \": Take a look at the \", {\"text\": \"Mekanism Reactor\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"49B8310D0C7A6C55\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Reactor Quest\"}}, \" quest if you want to learn more about creating Reactors and converting Nuclear Waste.\"]"
-		""
-		"Also, you will only need half the normal amount of &aNuclear Waste&r compared to other packs."
-	]
+	quest.543C6917A16F266C.quest_desc: ["Regardless of which path you've taken, you should now have the ability to make the &dAntimatter&f needed to craft the &zBlack Hole&f."]
 	quest.543C6917A16F266C.title: "&zAntimatter&r"
 	quest.54404B81EAC760E8.quest_subtitle: "(Sold by Echo)"
 	quest.5455CF5D3C37ECA9.quest_desc: [
@@ -4600,8 +4636,6 @@
 	quest.5CFC04F4F9A4B01D.title: "Oritech Pipes"
 	quest.5D1DD9EA59C3078D.title: "Ender Dragon Data Model"
 	quest.5D20790BCDE45CF9.quest_desc: [
-		"This item is currently disabled while a bug is being fixed, sorry for the inconvenience"
-		"{@pagebreak}"
 		"The &dEnderic Railgun&r from &6Oritech&r is a powerful ranged weapon that fires a high-speed projectile, dealing significant damage to enemies and breaking blocks at a distance."
 		""
 		"Left mouse button can fire a continuous beam that damages any entities in its path and can also mine the first block in line. Energy will be transferred to an energy containing block instead of breaking it. It can also transform mined blocks, similar to the &aEnderic Laser&r."
@@ -4829,7 +4863,7 @@
 		""
 		"The basic wooden pipes can be used to transport items and fluids."
 		""
-		"The &aIron&r versions are used to extract items or fluids when given redstone power."
+		"The &aCopper&r versions are used to extract items or fluids when given redstone power."
 		""
 		"There are also several different tiers of pipes that do different things, so check them out!"
 		""

@@ -26,6 +26,8 @@ const addItems = [
   { itemID: "infernal_dust", fireResistant: true },
   { itemID: "iron_amulet" },
   { itemID: "blank_slate" },
+  { itemID: "fortified_containment_device" },
+  { itemID: "antimatter_fragments" },
   { itemID: "stable_antimatter", 
     food: (food) => {
       food

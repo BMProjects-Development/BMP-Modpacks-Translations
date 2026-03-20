@@ -1,6 +1,6 @@
 {
 	icon: {
-		id: "stonechest:chest_smooth_stone"
+		id: "stonechest:chest_cobblestone"
 	}
 	id: "0C5DDA99EE8027D3"
 	loot_size: 1

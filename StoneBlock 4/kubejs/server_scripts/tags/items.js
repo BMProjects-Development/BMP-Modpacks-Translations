@@ -244,6 +244,8 @@ const addItemTags = [
     ],
   },
   { tagName: "chisel:carving/charcoal", itemIDs: ["ftbmaterials:charcoal_block"] },
+  { tagName: "forge:leather", itemIDs: ["minecraft:leather"] },
+  { tagName: "c:leather", itemIDs: ["minecraft:leather"] },
 ];
 
 const removeItemTags = [

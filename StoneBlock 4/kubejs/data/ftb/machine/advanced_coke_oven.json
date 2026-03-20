@@ -160,7 +160,7 @@
   ],
   "tooltips": {
     "text": {
-      "translate": "§aⓘ§f A §eMore Efficient§f and §dFast Alternative§f to Basic §6Coke Ovens§f."
+      "translate": "ftb.tooltip.machine.advanced_coke_oven"
     }
   }
 }

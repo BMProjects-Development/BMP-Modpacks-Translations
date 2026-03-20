@@ -66,6 +66,18 @@ const addBiomeTags = [
   {
     tagName: "justdirethings:unstable_portal_fluid_viable",
     biomeIDs: ["#ftb:is_end"]
+  },
+  {
+    tagName: "ftb:is_void",
+    biomeIDs: []
+  },
+  {
+    tagName: "c:valid_geyser_spawn",
+    biomeIDs: []
+  },
+  {
+    tagName: "colorfulallays:allay_spawn_biome",
+    biomeIDs: []
   }
 ]
 

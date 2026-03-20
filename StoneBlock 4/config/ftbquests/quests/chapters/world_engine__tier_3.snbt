@@ -159,7 +159,7 @@
 					id: "1A6CA9952CEC88EB"
 					ignore_reward_blocking: true
 					stage: "echo_infernal_meet"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -213,7 +213,7 @@
 					id: "71918E3D24CD00FF"
 					ignore_reward_blocking: true
 					stage: "echo_catalyst_meet"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -270,7 +270,7 @@
 					id: "5D141E7F10EB5C95"
 					ignore_reward_blocking: true
 					stage: "echo_light_bender_meet"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -317,6 +317,7 @@
 					id: "0A9E0481E61E3991"
 					ignore_reward_blocking: true
 					stage: "echo_light_bender_stage3_task1_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -360,6 +361,7 @@
 					id: "608CC77E6D609C25"
 					ignore_reward_blocking: true
 					stage: "echo_infernal_stage3_task1_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -408,6 +410,7 @@
 					id: "74DE2C23FFD29F55"
 					ignore_reward_blocking: true
 					stage: "echo_catalyst_stage3_task2_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -526,6 +529,7 @@
 					id: "3B36A84AA6FAE41C"
 					ignore_reward_blocking: true
 					stage: "echo_catalyst_stage3_task3_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -570,6 +574,7 @@
 					id: "15CC6D43D6B5EF58"
 					ignore_reward_blocking: true
 					stage: "ftb:bee_3"
+					team_reward: false
 					type: "gamestage"
 				}
 			]
@@ -585,6 +590,7 @@
 				}
 				id: "7747C8ECA64D179D"
 				stage: "echo_guidance_stage3_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -690,6 +696,7 @@
 					id: "5E2E8AA5094A8CDE"
 					ignore_reward_blocking: true
 					stage: "echo_catalyst_stage3_task1_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -752,6 +759,7 @@
 				}
 				id: "7805089FB14CE3E1"
 				stage: "echo_infernal_stage3_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -6.0d
@@ -800,6 +808,7 @@
 				}
 				id: "00ABB62332FC4C09"
 				stage: "echo_catalyst_stage3_task3_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -848,6 +857,7 @@
 				}
 				id: "10414FF6D2800922"
 				stage: "echo_light_bender_stage3_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 6.0d
@@ -1069,6 +1079,7 @@
 					id: "360F3563CFD76206"
 					ignore_reward_blocking: true
 					stage: "echo_light_bender_stage3_task2_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 			]

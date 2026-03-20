@@ -63,6 +63,7 @@ LootJS.lootTables((event) => {
         entry.when((conditions) => {
           conditions.add(LootCondition.hasAnyStage("creative_unlock"));
         });
+        return entry;
       });
     } catch (_) {}
   });
@@ -76,7 +77,8 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.PlayerEvent$Har
   if (!isCreativeItem) return;
 
   let player = event.getEntity();
-  let hasStage = player.getStages().has("creative_unlock");
+  if (player.level.isClientSide()) return;
+  let hasStage = player.getStages().has("creative_unlock") || Teams.hasStage(player, "creative_unlock");
 
   if (hasStage) {
     event.setCanHarvest(true);
@@ -90,7 +92,8 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.PlayerEvent$Bre
   if (!isCreativeItem) return;
 
   let player = event.getEntity();
-  let hasStage = player.getStages().has("creative_unlock");
+  if (player.level.isClientSide()) return;
+  let hasStage = player.getStages().has("creative_unlock") || Teams.hasStage(player, "creative_unlock");
 
   if (hasStage) {
     event.setNewSpeed(event.getOriginalSpeed());

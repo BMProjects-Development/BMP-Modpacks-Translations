@@ -292,6 +292,8 @@ const disabledItems = [
   "create_dragons_plus:fluid_hatch",
   "oritech:uranium_crystal",
   "create_shimmer:raw_knightmetal",
+  'enderio:big_advanced_item_filter',
+  'enderio:big_item_filter'
 ];
 
 const refined_storage_block_types = [

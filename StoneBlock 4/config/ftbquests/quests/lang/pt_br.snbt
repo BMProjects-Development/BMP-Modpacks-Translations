@@ -1209,6 +1209,8 @@
 		""
 		"Por exemplo, você pode configurar a autofundição para receitas colocando uma &2Fornalha&r na frente do &aProvedor&r, e então codificando as receitas de fundição apropriadas em padrões para serem colocados nos &aProvedores&r."
 		""
+		"&aProvedores de Padrões&r também podem ser renomeados usando uma &cFaca de Corte&r neles, o que pode ajudar você a encontrá-los mais facilmente em seus Terminais de Padrões!"
+		"{@pagebreak}"
 		"Para mais informações sobre como fazer os &aProvedores de Padrões&r e &3Montadores&r funcionarem mais rápido, consulte o Guia AE2!"
 	]
 	quest.16B60BCB8240F808.title: "&fArmazenando Padrões"
@@ -1409,7 +1411,7 @@
 	quest.1C6508B8B2C94CAF.quest_desc: [
 		"Essas ferramentas que consomem energia podem ser melhoradas dentro de uma &aBancada de Modificação&r."
 		""
-		"Melhorias podem ser instaladas para diminuir seu consumo de energia, aumentar o alcance de escavação, ou aplicar toque suave ou fortuna."
+		"Melhorias podem ser instaladas para aumentar o alcance e a velocidade de mineração, ou aplicar Toque Suave ou Fortuna."
 	]
 	quest.1C6508B8B2C94CAF.title: "&eDispositivos de Mineração"
 	quest.1CA7E96F42B75C2F.quest_desc: [
@@ -1675,6 +1677,28 @@
 		"&9Corações Azuis&r são dropados pela &zGalinha do Ender Poderosa&r, &6Leviatã&r, &6Tyros&r, e &cMaledictus&r."
 	]
 	quest.213FE1D19D589513.title: "&6Cristais de Coração Baubley"
+	quest.2140EAC255C3EA09.quest_desc: [
+		"A &aImpressora Multibloco&f e o &aValidador Multibloco&f são duas ferramentas que podem ajudá-lo a construir novas estruturas e validar multiblocos quebrados."
+		""
+		"As páginas a seguir ensinarão como usar cada item."
+		"{@pagebreak}"
+		"A &aImpressora Multibloco&f suporta apenas certas estruturas, que você pode encontrar no &eJEI&r pesquisando por “&aImpressora Multibloco&r” e verificando a tag \"&aⓘ&f Compatível\"."
+		""
+		"Depois de coletar os blocos necessários e liberar espaço suficiente para o multibloco, coloque o &bControlador&r e clique com o botão direito nele usando a &aImpressora Multibloco&r."
+		""
+		"Ela colocará os blocos automaticamente usando itens do seu inventário."
+		""
+		"Se algo bloquear a colocação do bloco ou um item não for encontrado no seu inventário, a &aImpressora Multibloco&f para de funcionar e mostra um erro explicando o problema."
+		"{@pagebreak}"
+		"O &aValidador Multibloco&f ajuda a diagnosticar e manter multiblocos de &eMáquinas Personalizadas&r."
+		""
+		"Usá-lo em um &bControlador de Máquinas Personalizadas&r mostra todos os &aMódulos de Multibloco Instalados&f."
+		""
+		"Ele também pode realinhar o Motor do Mundo automaticamente."
+		""
+		"Você também pode resetar todos os núcleos de multibloco. Esta ação &c&n&lNÃO&r&c&n reembolsará nenhum item perdido&r para núcleos com erro, o que significa que quaisquer itens nesses núcleos serão efetivamente perdidos."
+	]
+	quest.2140EAC255C3EA09.title: "Ferramentas Multibloco"
 	quest.214D210F200CD11F.quest_desc: [
 		"O &dTrocador de Tempo&r registra eventos importantes como mortes ou mudanças de dimensão em uma linha do tempo. Você pode então se teleportar para a localização exata desses eventos da linha do tempo, desde que tenha &bChronon&r suficiente."
 		""
@@ -1729,6 +1753,12 @@
 		""
 		"&eNota&r: Reatores do &6Oritech&r foram massivamente bufados."
 	]
+	quest.23562C59CEDE9879.quest_desc: [
+		"&eDeus Ex Machina&f fortalece você ao lutar contra inúmeros monstros dentro deste mundo de pedra."
+		""
+		"Cada morte contra o mesmo chefe concede a você resistência a danos e aumento de dano causado contra quem o matou."
+	]
+	quest.23562C59CEDE9879.title: "&6Deus Ex Machina"
 	quest.238137090A4F8FD6.title: "Verificação Melhoria Menor WE"
 	quest.23DC842244086CB9.title: "Encontro com Navegador"
 	quest.24401E59D87AC23A.quest_desc: [
@@ -1829,7 +1859,14 @@
 		""
 		"{image:ftb:textures/quests/ae2/circuit_fabricator_full.png width:180 height:150 align:center}"
 	]
-	quest.2690BF30D8119E77.title: "Montando O Fabricador de Circuitos"
+	quest.2690BF30D8119E77.title: "Montando o Fabricador de Circuitos"
+	quest.269DC26776DD377D.quest_desc: [
+		"O &dEmpoderador Avançado&f é uma versão multibloco aprimorada do &2Empoderador&f."
+		""
+		"Ele pode aceitar até um pack de &aMelhorias de Velocidade&r do &eMekanism&r para processar receitas na velocidade de ticks, tornando-o ideal para receitas de final de jogo."
+		""
+		"&e&nNota&r: Algumas receitas diferem do &2Empoderador&r padrão, então certifique-se de verificar sua automação."
+	]
 	quest.269EE6FF35CA9857.quest_desc: [
 		"A maioria dos geradores do &6Oritech&r pode aceitar o &aAddon de Caldeira a Vapor&r. Isso permite que você bombeie água para o addon, o que converterá a saída de energia do gerador em &bVapor."
 		""
@@ -3371,7 +3408,8 @@
 	]
 	quest.4498E3F4B2DC24FC.title: "&aGemas"
 	quest.44A61436D2FE34E9.quest_subtitle: "Galinha de Ferro"
-	quest.44A61436D2FE34E9.title: "Um Bom Ponto de Partida"
+	quest.44A61436D2FE34E9.title: "Um bom ponto de partida"
+	quest.44B2831C7225AB4B.quest_desc: ["&7&oProcure por \"@refinedtypes FE\" no JEI para extrair energia."]
 	quest.44B2831C7225AB4B.title: "Peças de Armazenamento de Energia"
 	quest.44C341DE3BCD64CC.quest_desc: [
 		"Esta versão aprimorada da &dBiblioteca de Encantamentos&r pode armazenar valores de encantamentos até o nível 31."
@@ -4462,7 +4500,7 @@
 		""
 		"Este núcleo precisa permitir que a energia flua através dele corretamente. Usando uma &bConfiguração de Fortalecimento&r, você deve ser capaz de fortalecer diamantes para este propósito exato."
 		""
-		"&eNota&r: A configuração requer um &aFortalecedor&r conectado à energia como o centro da configuração, com 4 &2Expositores&r a dois blocos de distância de cada lado do &aFortalecedor&r."
+		"&eNota&r: A configuração requer um &aEmpoderador&r como o centro da configuração, com 4 &2Expositores&r conectados à energia, a dois blocos de distância de cada lado do &aEmpoderador&r."
 	]
 	quest.5A04F7A95366D15F.title: "&fFortalecendo Diamantes"
 	quest.5A284AE3AC14D070.title: "&fJogue por 1 Hora"
@@ -4574,6 +4612,8 @@
 	quest.5CFC04F4F9A4B01D.title: "Canos Oritech"
 	quest.5D1DD9EA59C3078D.title: "Modelo de Dados do Dragão do Ender"
 	quest.5D20790BCDE45CF9.quest_desc: [
+		"Este item está desativado no momento enquanto um erro está sendo corrigido, desculpe pelo inconveniente"
+		"{@pagebreak}"
 		"O &dCanhão Elétrico Ênderico&r da &6Oritech&r é uma poderosa arma de longo alcance que dispara um projétil de alta velocidade, causando dano significativo aos inimigos e quebrando blocos à distância."
 		""
 		"O botão esquerdo do mouse pode disparar um feixe contínuo que causa dano a quaisquer entidades em seu caminho e também pode minerar o primeiro bloco na linha. A energia será transferida para um bloco que contém energia em vez de quebrá-lo. Ele também pode transformar blocos minerados, semelhante ao &aLaser Ênderico&r."
@@ -5100,7 +5140,7 @@
 	]
 	quest.68583162106594A8.title: "&fMovendo Baús"
 	quest.68668718B414B6E4.quest_desc: [
-		"O &6Dreno da &aFundição&r com uma &aTorneira de Fundição&r nele pode extrair os metais derretidos que você cria para uma &2Bancada deFundição&r."
+		"Um &aDreno de Fundição&r (ou a maioria dos outros &2Tanques&f de mods) com a &aTorneira de Fundição&r nele pode extrair os metais derretidos que você cria para uma &2Bancada deFundição&r."
 		""
 		"Os metais derretidos precisarão de algum tipo de &bMolde&r antes que possam ser despejados na mesa."
 		""
@@ -5335,6 +5375,8 @@
 		"Com o &6Motor do Mundo&r aprimorado com o poder do &zVazio&r, você pode criar o &dCompressor de Neutrônio&r para compactar itens em &zSingularidades&r."
 		""
 		"Use-as para criar a &zSingularidade do Infinito&r."
+		""
+		"&eNota&f: Você precisará instalar alguns &3Núcleos de Energia Dracônicos&r em seu &6Motor do Mundo&f para aumentar seu buffer de energia."
 	]
 	quest.6E24701C49A6114D.title: "&zSingularidades&r"
 	quest.6E458E2978B64C77.title: "Troca de Placas Básicas"
@@ -6250,6 +6292,8 @@
 	quest.7EEBD17F0EA6EE0C.quest_desc: [
 		"Enviar os blocos necessários para o &3Aprimoramento&f e reivindicar suas recompensas montará automaticamente o &6Motor do Mundo&r da sua equipe."
 		""
+		"&cIMPORTANTE&f: Esta melhoria não afetará nada em seu &6Motor do Mundo&f, exceto o desbloqueio de novas receitas. Certifique-se de entregar uma &aCélula de Ender&r recém-fabricada, pois quaisquer melhorias aplicadas a ela &cNÃO&f serão mantidas."
+		""
 		"&eNota&f: Quaisquer blocos colocados onde um aprimoramento deveria ir serão anulados."
 	]
 	quest.7EEBD17F0EA6EE0C.title: "&fAuto-Construir o &3Aprimoramento de Energia do Ender"
@@ -6629,6 +6673,7 @@
 	task.20FE0359B927FE66.title: "Opções de Geração de Minério"
 	task.21F1C6036A37CED9.title: "&eLocalize&f: &dTwilight"
 	task.220AEB0F13353108.title: "&fMelhorias de Livro de Feitiços Fabricáveis"
+	task.223A14462F14AFF6.title: "&6Motor do Mundo&f - Melhorias de Buffer de Energia"
 	task.224C16DC19629B4B.title: "Geradores Iniciais"
 	task.22DC2FE65941A0AB.title: "Addons de Aparelhos"
 	task.22F4D12640FE8DE4.title: "Cultivando Recursos"

@@ -280,6 +280,7 @@
 					id: "38059CA15A969EF6"
 					ignore_reward_blocking: true
 					stage: "creative_unlock"
+					team_reward: true
 					type: "gamestage"
 				}
 			]

@@ -1,36 +1,14 @@
-#A List of mobs that are considered 'Deus Ex Machina' mobs. Supports exact matches (minecraft:zombie) or regex patterns wrapped in slashes (/minecraft:.*/)
-deusExMobs = ["/cataclysm:.*/"]
-#Allowed Values: WHITELIST, BLACKLIST
-deusMode = "WHITELIST"
 #Show Deus Ex Machina icon on the player's HUD when the effect is active.
 showIcon = true
 #Enable debug mode for additional logging.
 debugMode = false
-
-[Resistance]
-	#Resistance Settings when Deus Ex Machina is active
-	# Default: 0
-	# Range: 0 ~ 1000
-	minResistance = 10
-	# Default: 80
-	# Range: 0 ~ 1000
-	maxResistance = 80
-	# Default: 1
-	# Range: 0 ~ 1000
-	resistanceIncrease = 5
-	#Reset Resistance for a mob when it's killed by the player. if false, Resistance will permanently increase until cap is reached.
-	resistanceReset = true
-
-[Attack-Boost]
-	#Attack Boost Settings when Deus Ex Machina is active
-	# Default: 0
-	# Range: 0 ~ 1000
-	minAttackBoost = 10
-	# Default: 80
-	# Range: 0 ~ 1000
-	maxAttackBoost = 80
-	# Default: 1
-	# Range: 0 ~ 1000
-	attackBoostIncrease = 5
-	#Reset Attack Boost for a mob when it's killed by the player. if false, Attack Boost will permanently increase until cap is reached.
-	attackBoostReset = true
+#Default reset behavior for Resistance when a mob is killed by the player.
+#FULL resets to minimum, PARTIAL reduces by the increase value, NONE keeps current value.
+#Can be overridden per-mob via datapacks (data/<namespace>/deus_mobs/<name>.json)
+#Allowed Values: NONE, FULL, PARTIAL
+resistanceReset = "FULL"
+#Default reset behavior for Attack Boost when a mob is killed by the player.
+#FULL resets to minimum, PARTIAL reduces by the increase value, NONE keeps current value.
+#Can be overridden per-mob via datapacks (data/<namespace>/deus_mobs/<name>.json)
+#Allowed Values: NONE, FULL, PARTIAL
+attackBoostReset = "FULL"

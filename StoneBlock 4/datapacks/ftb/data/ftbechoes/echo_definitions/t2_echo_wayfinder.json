@@ -45,7 +45,7 @@
       "required_stage": "echo_wayfinder_stage2_task1_completed",
       "ready": {"translate": "ftb.echo.wayfinder.stage2.task1.ready"},
       "completed": {"translate": "ftb.echo.wayfinder.stage2.task1.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_wayfinder_stage2_task1_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_wayfinder_stage2_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "Aerial Pearl", "item": {"id": "powah:aerial_pearl", "count": 1}, "cost": 60, "description": {"translate": "ftb.shop.description.exclusive"}},
         {"name": "Gateway - Enderman Gateway", "item": {"id": "gateways:gate_pearl", "components": {"gateways:gateway": "gateways:basic/enderman"}, "count": 1}, "cost": 50, "description": [{"translate": "ftb.shop.description.exclusive"}, {"translate": "ftb.shop.description.gate_pearl.rewards"}, {"translate": "ftb.shop.description.gate_pearl.enderman_gateway"}]},

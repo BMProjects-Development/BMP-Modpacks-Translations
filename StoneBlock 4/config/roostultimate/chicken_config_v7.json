@@ -1654,5 +1654,41 @@
     "CanGetFreezingDamage": true,
     "CanGetLightningDamage": true,
     "CanGetWitherDamage": true
+  },
+  {
+    "ChickenName": "Quartz Enriched Iron Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_quartz_enriched_iron",
+    "itemtexture": "quartzenrichedironchicken",
+    "mobtexture": "quartzenrichedironchicken",
+    "dropitem": "refinedstorage:quartz_enriched_iron",
+    "eggtime": 600,
+    "tier": 6,
+    "CanGetFireDamage": false,
+    "CanGetProjectileDamage": true,
+    "CanGetExplosionDamage": true,
+    "CanGetFallDamage": false,
+    "CanGetDrowningDamage": true,
+    "CanGetFreezingDamage": true,
+    "CanGetLightningDamage": true,
+    "CanGetWitherDamage": true
+  },
+  {
+    "ChickenName": "Quartz Enriched Copper Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_quartz_enriched_copper",
+    "itemtexture": "quartzenrichedcopperchicken",
+    "mobtexture": "quartzenrichedcopperchicken",
+    "dropitem": "refinedstorage:quartz_enriched_copper",
+    "eggtime": 600,
+    "tier": 6,
+    "CanGetFireDamage": false,
+    "CanGetProjectileDamage": true,
+    "CanGetExplosionDamage": true,
+    "CanGetFallDamage": false,
+    "CanGetDrowningDamage": true,
+    "CanGetFreezingDamage": true,
+    "CanGetLightningDamage": true,
+    "CanGetWitherDamage": true
   }
 ]

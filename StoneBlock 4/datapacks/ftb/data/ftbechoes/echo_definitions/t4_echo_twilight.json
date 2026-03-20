@@ -32,7 +32,7 @@
       "required_stage": "echo_twilight_stage4_task1_completed",
       "ready": {"translate": "ftb.echo.twilight.stage4.task1.ready"},
       "completed": {"translate": "ftb.echo.twilight.stage4.task1.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_twilight_stage4_task1_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_twilight_stage4_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "Tree of Time Sapling", "item": {"id": "twilightforest:time_sapling", "count": 1}, "cost": 100},
         {"name": "Data Model - Kobold", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:twilightforest/kobold"}, "count": 1}, "cost": 90, "description": {"translate": "ftb.shop.description.data_model.basic"}},

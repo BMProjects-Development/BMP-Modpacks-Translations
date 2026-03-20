@@ -16,7 +16,7 @@
       "required_stage": "echo_radiance_stage5_task1_completed",
       "ready": {"translate": "ftb.echo.radiance.stage5.task1.ready"},
       "completed": {"translate": "ftb.echo.radiance.stage5.task1.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_radiance_stage5_task1_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_radiance_stage5_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "Radiance Casings", "item": {"id": "create:refined_radiance_casing", "count": 64}, "cost": 10, "description": {"translate": "ftb.shop.description.exclusive"}},
         {"name": "Particle Accelerator Speed Sensor", "item": {"id": "oritechthings:particle_accelerator_speed_sensor", "count": 1}, "cost": 75},

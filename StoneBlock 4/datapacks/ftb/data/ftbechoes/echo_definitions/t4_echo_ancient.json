@@ -36,7 +36,7 @@
       "required_stage": "echo_ancient_stage4_task1_completed",
       "ready": {"translate": "ftb.echo.ancient.stage4.task1.ready"},
       "completed": {"translate": "ftb.echo.ancient.stage4.task1.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_ancient_stage4_task1_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_ancient_stage4_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "Watch of Flowing Time", "item": {"id": "projecte:watch_of_flowing_time", "count": 1}, "cost": 325, "description": {"translate": "ftb.shop.description.exclusive"}},
         {"name": "2.5 Hrs of Temporal Time", "command": {"run": "gag give_time @s 180000", "permission": 3, "description": {"translate":"ftb.shop.title.temporal_pouch_two_half_hours"}}, "cost": 125, "description": {"translate": "ftb.shop.description.temporal_pouch_warning"}, "icon": "gag:item/time_sand_pouch"},

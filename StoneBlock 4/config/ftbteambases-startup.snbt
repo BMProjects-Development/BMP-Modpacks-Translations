@@ -1,0 +1,21 @@
+{
+	# Additional dimensions to copy pregen files for on new world creation.
+	# Place MCA files in ftbteambases/pregen_initial/dimensions/<namespace>/<path>/region/
+	additional_pregen_dimensions: [ ]
+	
+	# Dimension ID of the level in which the lobby is created.
+	# This *must* be a static pre-existing dimension, not a dynamically created one!
+	# New players will be automatically teleported to this dimension the first time they connect.
+	# WARNING: Do NOT modify this on existing worlds!
+	# Default: "minecraft:overworld"
+	lobby_dimension: "minecraft:overworld"
+	
+	# Position at which new players spawn.
+	# Only used if the lobby structure comes from a pregenerated region!
+	# Default: [0, 0, 0]
+	lobby_spawn_pos: [I;
+		-64
+		-17
+		37
+	]
+}

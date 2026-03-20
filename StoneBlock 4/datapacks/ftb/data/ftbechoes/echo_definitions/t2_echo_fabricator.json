@@ -37,7 +37,7 @@
       "required_stage": "echo_fabricator_stage2_task1_completed",
       "ready": {"translate": "ftb.echo.fabricator.stage2.task1.ready"},
       "completed": {"translate": "ftb.echo.fabricator.stage2.task1.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_fabricator_stage2_task1_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_fabricator_stage2_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "Gold to Diamond Chest Upgrade", "item": {"id": "sophisticatedstorage:gold_to_diamond_tier_upgrade", "count": 1}, "cost": 25},
         {"name": "Infinity Cobblestone Cell", "item": {"id": "extendedae:infinity_cobblestone_cell", "count": 1}, "cost": 35, "description": {"translate": "ftb.shop.description.exclusive"}},

@@ -30,7 +30,7 @@
       "required_stage": "echo_wyrmwright_stage4_task1_completed",
       "ready": {"translate": "ftb.echo.wyrmwright.stage4.task1.ready"},
       "completed": {"translate": "ftb.echo.wyrmwright.stage4.task1.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_wyrmwright_stage4_task1_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_wyrmwright_stage4_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "Speed Addon Tier 9", "item": {"id": "oritechthings:addon_block_speed_tier_9", "count": 1}, "cost": 125},
         {"name": "Efficiency Addon Tier 9", "item": {"id": "oritechthings:addon_block_efficiency_tier_9", "count": 1}, "cost": 125},
@@ -52,7 +52,7 @@
       "required_stage": "echo_wyrmwright_stage4_task2_completed",
       "ready": {"translate": "ftb.echo.wyrmwright.stage4.task2.ready"},
       "completed": {"translate": "ftb.echo.wyrmwright.stage4.task2.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_wyrmwright_stage4_task2_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_wyrmwright_stage4_task2_check", "permission": 3}, "experience": 100},
       "shop_unlock": []
     },
     {
@@ -64,7 +64,7 @@
       "required_stage": "echo_wyrmwright_stage5_task1_completed",
       "ready": {"translate": "ftb.echo.wyrmwright.stage5.task1.ready"},
       "completed": {"translate": "ftb.echo.wyrmwright.stage5.task1.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_wyrmwright_stage5_task1_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_wyrmwright_stage5_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": []
     },
     {
@@ -78,7 +78,7 @@
       "required_stage": "echo_wyrmwright_stage5_task2_completed",
       "ready": {"translate": "ftb.echo.wyrmwright.stage5.task2.ready"},
       "completed": {"translate": "ftb.echo.wyrmwright.stage5.task2.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_wyrmwright_stage5_task2_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_wyrmwright_stage5_task2_check", "permission": 3}, "experience": 100},
       "shop_unlock": []
     }
   ]

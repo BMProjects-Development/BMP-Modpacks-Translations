@@ -15,7 +15,7 @@
       "required_stage": "echo_chaos_stage5_task1_completed",
       "ready": {"translate": "ftb.echo.chaos.stage5.task1.ready"},
       "completed": {"translate": "ftb.echo.chaos.stage5.task1.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_chaos_stage5_task1_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_chaos_stage5_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "Gateway - Apothic Endless", "item": {"id": "gateways:gate_pearl", "components": {"gateways:gateway": "apotheosis:endless_invader"}, "count": 1}, "cost": 350, "description": [{"translate": "ftb.shop.description.gate_pearl.endless_invader1"}, {"translate": "ftb.shop.description.gate_pearl.endless_invader2"}, {"translate": "ftb.shop.description.gate_pearl.endless_invader3"}, {"translate": "ftb.shop.description.gate_pearl.endless_invader4"}, {"translate": "ftb.shop.description.gate_pearl.endless_invader5"}]},
         {"name": "Eclipse Alloy Anvil", "item": {"id": "justdynathings:eclipse_alloy_anvil", "count": 1}, "cost": 250, "description": {"translate": "ftb.shop.description.exclusive"}}

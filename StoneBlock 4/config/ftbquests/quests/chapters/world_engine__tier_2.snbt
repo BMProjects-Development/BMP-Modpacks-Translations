@@ -159,7 +159,7 @@
 					id: "39BF463108B50B5F"
 					ignore_reward_blocking: true
 					stage: "echo_enchanter_meet"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -213,7 +213,7 @@
 					id: "68453F12D19A7729"
 					ignore_reward_blocking: true
 					stage: "echo_fabricator_meet"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -267,7 +267,7 @@
 					id: "33A48C9FF596694F"
 					ignore_reward_blocking: true
 					stage: "echo_wayfinder_meet"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -320,6 +320,7 @@
 					id: "28DFC574866859F8"
 					ignore_reward_blocking: true
 					stage: "echo_wayfinder_stage2_task1_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -348,6 +349,7 @@
 					id: "6B39CA36E5C8B6CE"
 					ignore_reward_blocking: true
 					stage: "echo_enchanter_stage2_task1_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -396,6 +398,7 @@
 					id: "38B945498E9C6403"
 					ignore_reward_blocking: true
 					stage: "echo_fabricator_stage2_task1_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -497,6 +500,7 @@
 					auto: "invisible"
 					id: "359D5787451DA677"
 					stage: "ftb:bee_2"
+					team_reward: false
 					type: "gamestage"
 				}
 			]
@@ -512,6 +516,7 @@
 				}
 				id: "7ECEEC776BBA8B53"
 				stage: "echo_guidance_stage2_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -540,6 +545,7 @@
 					id: "4C7ABFA34E09C78C"
 					ignore_reward_blocking: true
 					stage: "echo_enchanter_stage2_task2_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -712,6 +718,7 @@
 				}
 				id: "6B46A4D5E6915E1B"
 				stage: "echo_fabricator_stage2_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -6.0d
@@ -738,6 +745,7 @@
 				}
 				id: "2DD1C42797FC03F0"
 				stage: "echo_enchanter_stage2_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -786,6 +794,7 @@
 				}
 				id: "6A6EB35F2D0397D5"
 				stage: "echo_wayfinder_stage2_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 6.0d

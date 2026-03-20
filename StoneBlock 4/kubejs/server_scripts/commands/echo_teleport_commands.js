@@ -4,38 +4,62 @@ ServerEvents.commandRegistry((event) => {
   const YAW = { SOUTH: 0, WEST: 90, NORTH: 180, EAST: -90 };
 
   const ECHOS = [
-    { key: "guidance",      displayKey: "ftb.echo.archive.guidance",         coords: [-64,-19, 31], facing: YAW.NORTH, stage: "echo_guidance_interact"},
-    { key: "magician",      displayKey: "ftb.echo.archive.magician",         coords: [-59,-15,-28], facing: YAW.WEST  },
-    { key: "quartermaster", displayKey: "ftb.echo.archive.quartermaster",    coords: [-18,-15,-21], facing: YAW.SOUTH },
-    { key: "machinist",     displayKey: "ftb.echo.archive.machinist",        coords: [-35,-20,  2], facing: YAW.NORTH },
-    { key: "fabricator",    displayKey: "ftb.echo.archive.fabricator",       coords: [ 54,-16,  9], facing: YAW.WEST  },
-    { key: "enchanter",     displayKey: "ftb.echo.archive.enchanter",        coords: [ 32,-14, 35], facing: YAW.WEST  },
-    { key: "wayfinder",     displayKey: "ftb.echo.archive.wayfinder",        coords: [ 70,-15,-17], facing: YAW.EAST  },
-    { key: "infernal",      displayKey: "ftb.echo.archive.infernal",         coords: [ 18,-19,-25], facing: YAW.NORTH },
-    { key: "catalyst",      displayKey: "ftb.echo.archive.catalyst",         coords: [ -6,-21,-50], facing: YAW.SOUTH },
-    { key: "light_bender",  displayKey: "ftb.echo.archive.light_bender",     coords: [-29,-15,-76], facing: YAW.SOUTH },
-    { key: "wyrmwright",    displayKey: "ftb.echo.archive.wyrmwright",       coords: [-20,-17, 58], facing: YAW.EAST  },
-    { key: "twilight",      displayKey: "ftb.echo.archive.twilight_ancient", coords: [-10,-20, 23], facing: YAW.SOUTH, stage: "echo_twilight_ancients_unlock" },
-    { key: "ancient",       displayKey: "ftb.echo.archive.twilight_ancient", coords: [ -6,-20, 23], facing: YAW.SOUTH, stage: "echo_twilight_ancients_unlock" },
-    { key: "fracture",      displayKey: "ftb.echo.archive.ascended",   coords: [-10,-71,  0], facing: YAW.EAST, stage: "t5_zone_unlocked"}
+    {
+      key: "guidance",
+      displayKey: "ftb.echo.archive.guidance",
+      coords: [-64, -19, 31],
+      facing: YAW.NORTH,
+      stage: "echo_guidance_interact",
+    },
+    { key: "magician", displayKey: "ftb.echo.archive.magician", coords: [-59, -15, -28], facing: YAW.WEST },
+    { key: "quartermaster", displayKey: "ftb.echo.archive.quartermaster", coords: [-18, -15, -21], facing: YAW.SOUTH },
+    { key: "machinist", displayKey: "ftb.echo.archive.machinist", coords: [-35, -20, 2], facing: YAW.NORTH },
+    { key: "fabricator", displayKey: "ftb.echo.archive.fabricator", coords: [54, -16, 9], facing: YAW.WEST },
+    { key: "enchanter", displayKey: "ftb.echo.archive.enchanter", coords: [32, -14, 35], facing: YAW.WEST },
+    { key: "wayfinder", displayKey: "ftb.echo.archive.wayfinder", coords: [70, -15, -17], facing: YAW.EAST },
+    { key: "infernal", displayKey: "ftb.echo.archive.infernal", coords: [18, -19, -25], facing: YAW.NORTH },
+    { key: "catalyst", displayKey: "ftb.echo.archive.catalyst", coords: [-6, -21, -50], facing: YAW.SOUTH },
+    { key: "light_bender", displayKey: "ftb.echo.archive.light_bender", coords: [-29, -15, -76], facing: YAW.SOUTH },
+    { key: "wyrmwright", displayKey: "ftb.echo.archive.wyrmwright", coords: [-20, -17, 58], facing: YAW.EAST },
+    {
+      key: "twilight",
+      displayKey: "ftb.echo.archive.twilight_ancient",
+      coords: [-10, -20, 23],
+      facing: YAW.SOUTH,
+      stage: "echo_twilight_ancients_unlock",
+    },
+    {
+      key: "ancient",
+      displayKey: "ftb.echo.archive.twilight_ancient",
+      coords: [-6, -20, 23],
+      facing: YAW.SOUTH,
+      stage: "echo_twilight_ancients_unlock",
+    },
+    {
+      key: "fracture",
+      displayKey: "ftb.echo.archive.ascended",
+      coords: [-10, -71, 0],
+      facing: YAW.EAST,
+      stage: "t5_zone_unlocked",
+    },
   ];
 
   for (var i = 0; i < ECHOS.length; i++) if (!ECHOS[i].stage) ECHOS[i].stage = "echo_" + ECHOS[i].key + "_meet";
 
-  const MSG_ONLY_PLAYER   = "ftb.echo.msg.only_player";
-  const MSG_OUT_OF_RANGE  = "ftb.echo.msg.out_of_range";
-  const MSG_UNMET         = "ftb.echo.msg.unmet";
+  const MSG_ONLY_PLAYER = "ftb.echo.msg.only_player";
+  const MSG_OUT_OF_RANGE = "ftb.echo.msg.out_of_range";
+  const MSG_UNMET = "ftb.echo.msg.unmet";
   const MSG_ROUTED_PREFIX = "ftb.echo.msg.routed_prefix";
   const MSG_ROUTED_SUFFIX = "ftb.echo.msg.routed_suffix";
-  const MSG_VOID_SUFFIX   = "ftb.echo.msg.fractured_suffix";
-  const MSG_USAGE         = "ftb.echo.msg.usage";
-  const MSG_AVAILABLE     = "ftb.echo.msg.available_prefix";
+  const MSG_VOID_SUFFIX = "ftb.echo.msg.fractured_suffix";
+  const MSG_USAGE = "ftb.echo.msg.usage";
+  const MSG_AVAILABLE = "ftb.echo.msg.available_prefix";
 
   // Everyone can use /echo
   let root = Commands.literal("echo").requires((cs) => cs.hasPermission(0));
 
   for (var i = 0; i < ECHOS.length; i++) {
-    (function(entry) {
+    (function (entry) {
       root = root.then(
         Commands.literal(entry.key).executes((context) => {
           const fracture = entry.key === "fracture";
@@ -55,7 +79,7 @@ ServerEvents.commandRegistry((event) => {
           }
 
           // Stage gate
-          if (!player.stages.has(entry.stage)) {
+          if (!player.stages.has(entry.stage) && !Teams.hasStage(player, entry.stage)) {
             player.sendSystemMessage(Text.translate(MSG_UNMET));
             return 1;
           }
@@ -76,10 +100,7 @@ ServerEvents.commandRegistry((event) => {
                 .append(Text.translate(MSG_ROUTED_SUFFIX))
             );
           } else {
-            player.sendSystemMessage(
-              Text.translate(entry.displayKey)
-                .append(Text.translate(MSG_VOID_SUFFIX))
-            );
+            player.sendSystemMessage(Text.translate(entry.displayKey).append(Text.translate(MSG_VOID_SUFFIX)));
           }
 
           return 1;

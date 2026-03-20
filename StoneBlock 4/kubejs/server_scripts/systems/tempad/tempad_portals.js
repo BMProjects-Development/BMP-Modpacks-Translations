@@ -1,8 +1,6 @@
 // temppad.js
 
-const $FTBEPlayerData = Java.loadClass(
-  "dev.ftb.mods.ftbessentials.util.FTBEPlayerData"
-);
+const $FTBEPlayerData = Java.loadClass("dev.ftb.mods.ftbessentials.util.FTBEPlayerData");
 
 const LANG = {
   WORLD_ENGINE_LOCKED: "ftb.portal.world_engine_locked",
@@ -39,8 +37,7 @@ function getEntryYaw(player) {
     if (typeof player.getYHeadRot === "function") return player.getYHeadRot();
   } catch (_) {}
   try {
-    if (player.getDirection && player.getDirection().toYRot)
-      return player.getDirection().toYRot();
+    if (player.getDirection && player.getDirection().toYRot) return player.getDirection().toYRot();
   } catch (_) {}
   return 0;
 }
@@ -49,15 +46,7 @@ function getEntryYaw(player) {
  * yawEntry: how the entry door (near the player) should face
  * yawExit: how the exit door (at the destination) should face
  */
-const spawnTimeDoor = (
-  level,
-  player,
-  position,
-  dimension,
-  color,
-  yawEntry,
-  yawExit
-) => {
+const spawnTimeDoor = (level, player, position, dimension, color, yawEntry, yawExit) => {
   let [modid, path] = String(dimension).split(":");
   color = color || $Color.RAINBOW;
   let isSurvival = !player.isCreative() && !player.isSpectator();
@@ -65,30 +54,17 @@ const spawnTimeDoor = (
   let NamedGlobalVec3 = new $NamedGlobalVec3(
     Component.literal("Portal"),
     new Vec3d(position.x + 0.5, position.y, position.z),
-    ResourceKey.create(
-      Registries.DIMENSION,
-      new ResourceLocation.fromNamespaceAndPath(modid, path)
-    ),
+    ResourceKey.create(Registries.DIMENSION, new ResourceLocation.fromNamespaceAndPath(modid, path)),
     typeof yawExit === "number" ? yawExit : 180,
     color
   );
 
-  let result = $TimeDoorEntity.Companion.getTimedoor(
-    level,
-    NamedGlobalVec3,
-    true
-  );
+  let result = $TimeDoorEntity.Companion.getTimedoor(level, NamedGlobalVec3, true);
   let timedoor = result.left().get();
   timedoor.owner = player.id;
 
-  const entryYaw =
-    typeof yawEntry === "number" ? yawEntry : getEntryYaw(player);
-  timedoor.sizing.placeTimedoor(
-    $DoorType.EXIT,
-    player.position(),
-    entryYaw,
-    timedoor
-  );
+  const entryYaw = typeof yawEntry === "number" ? yawEntry : getEntryYaw(player);
+  timedoor.sizing.placeTimedoor($DoorType.EXIT, player.position(), entryYaw, timedoor);
 
   // Get BoundBox area around entrance timedoor location
   let entry_aabb = timedoor.getBoundingBox().inflate(1.5, 0, 1.5);
@@ -100,20 +76,16 @@ const spawnTimeDoor = (
   let exit_aabb = AABB.ofSize(timedoor.getTargetPos(), x_size, y_size, z_size);
 
   // Validate entry
-  let invalid_entry = BlockPos.betweenClosedStream(entry_aabb).anyMatch(
-    (block) => {
-      let block_state = level.getBlockState(block);
-      return block_state.getId() == "ftbquests:stage_barrier";
-    }
-  );
+  let invalid_entry = BlockPos.betweenClosedStream(entry_aabb).anyMatch((block) => {
+    let block_state = level.getBlockState(block);
+    return block_state.getId() == "ftbquests:stage_barrier";
+  });
 
   // Validate Exit
-  let invalid_exit = BlockPos.betweenClosedStream(exit_aabb).anyMatch(
-    (block) => {
-      let block_state = level.getBlockState(block);
-      return block_state.getId() == "ftbquests:stage_barrier";
-    }
-  );
+  let invalid_exit = BlockPos.betweenClosedStream(exit_aabb).anyMatch((block) => {
+    let block_state = level.getBlockState(block);
+    return block_state.getId() == "ftbquests:stage_barrier";
+  });
 
   // Do not spawn portal if invalid locations if in survival
   if ((invalid_exit || invalid_entry) && isSurvival) {
@@ -124,26 +96,9 @@ const spawnTimeDoor = (
   }
 };
 
-const trySpawnTimeDoor = (
-  location,
-  level,
-  player,
-  position,
-  dimension,
-  color,
-  yawEntry,
-  yawExit
-) => {
+const trySpawnTimeDoor = (location, level, player, position, dimension, color, yawEntry, yawExit) => {
   try {
-    let spawned = spawnTimeDoor(
-      level,
-      player,
-      position,
-      dimension,
-      color,
-      yawEntry,
-      yawExit
-    );
+    let spawned = spawnTimeDoor(level, player, position, dimension, color, yawEntry, yawExit);
     if (spawned) {
       player.tell(Text.translate(LANG.OPENING, location));
       return true;
@@ -160,30 +115,18 @@ const trySpawnTimeDoor = (
   }
 };
 
-const $ServerConfig = Java.loadClass(
-  "dev.ftb.mods.ftbteambases.config.ServerConfig"
-);
+const $ServerConfig = Java.loadClass("dev.ftb.mods.ftbteambases.config.ServerConfig");
 const $Level = Java.loadClass("net.minecraft.world.level.Level");
 
 ServerEvents.commandRegistry((event) => {
-  const {
-    commands: Commands,
-    arguments: Arguments,
-    builtinSuggestions: Suggestions,
-  } = event;
+  const { commands: Commands, arguments: Arguments, builtinSuggestions: Suggestions } = event;
 
+  event.register(Commands.literal("home").executes((context) => spawnHomePortal(context)));
   event.register(
-    Commands.literal("home").executes((context) => spawnHomePortal(context))
-  );
-  event.register(
-    Commands.literal("ftbteambases").then(
-      Commands.literal("home").executes((context) => spawnHomePortal(context))
-    )
+    Commands.literal("ftbteambases").then(Commands.literal("home").executes((context) => spawnHomePortal(context)))
   );
 
-  event.register(
-    Commands.literal("spawn").executes((context) => spawnSpawnPortal(context))
-  );
+  event.register(Commands.literal("spawn").executes((context) => spawnSpawnPortal(context)));
 });
 
 const disabledCommand = (context) => {
@@ -266,11 +209,7 @@ function findChrononCellWithCharge(player, cost, debug) {
     var cap = capOpt.get(); // ICuriosItemHandler
     if (!cap) return;
 
-    var curiosMap = cap.getCurios
-      ? cap.getCurios()
-      : cap.getCurioMap
-      ? cap.getCurioMap()
-      : null;
+    var curiosMap = cap.getCurios ? cap.getCurios() : cap.getCurioMap ? cap.getCurioMap() : null;
     if (!curiosMap) return;
 
     var entries = curiosMap.entrySet().toArray();
@@ -309,15 +248,13 @@ function spawnHomePortal(ctx) {
   var player = src.getPlayerOrException();
   let is_survival = !player.isCreative() && !player.isSpectator();
   if (is_survival) {
-    if (!player.stages.has("home_unlocked")) {
+    if (!player.stages.has("home_unlocked") && !Teams.hasStage(player, "home_unlocked")) {
       src.sendFailure(Text.translate(LANG.HOME_LOCKED));
       return 0;
     }
   }
 
-  var baseOpt = $BaseInstanceManager
-    .get(player.server)
-    .getBaseForPlayer(player);
+  var baseOpt = $BaseInstanceManager.get(player.server).getBaseForPlayer(player);
   if (!baseOpt.isPresent()) {
     src.sendFailure(Text.translate(LANG.NO_BASE));
     return 0;
@@ -387,9 +324,7 @@ function spawnSpawnPortal(ctx) {
     return 1;
   }
 
-  var baseOpt = $BaseInstanceManager
-    .get(player.server)
-    .getBaseForPlayer(player);
+  var baseOpt = $BaseInstanceManager.get(player.server).getBaseForPlayer(player);
 
   if (!baseOpt.isPresent()) {
     // What is this for? Nyxane
@@ -459,12 +394,9 @@ function getChronon(stack) {
   const components = stack.componentMap;
 
   // Prefer the tempad key if this is the tempad or if that key exists
-  const useTempadKey =
-    stack.id === "tempad:tempad" || components.get(CHRONON_KEY_TEMPAD) != null;
+  const useTempadKey = stack.id === "tempad:tempad" || components.get(CHRONON_KEY_TEMPAD) != null;
 
-  const raw = components.get(
-    useTempadKey ? CHRONON_KEY_TEMPAD : CHRONON_KEY_CELL
-  );
+  const raw = components.get(useTempadKey ? CHRONON_KEY_TEMPAD : CHRONON_KEY_CELL);
   return raw != null ? Number(raw) || 0 : 0;
 }
 
@@ -476,8 +408,7 @@ function setChronon(stack, value) {
   const next = (Number(value) || 0) | 0;
 
   // Mirror the same key choice logic as getChronon
-  const useTempadKey =
-    stack.id === "tempad:tempad" || components.get(CHRONON_KEY_TEMPAD) != null;
+  const useTempadKey = stack.id === "tempad:tempad" || components.get(CHRONON_KEY_TEMPAD) != null;
 
   const key = useTempadKey ? CHRONON_KEY_TEMPAD : CHRONON_KEY_CELL;
   components.set(key, JInt.valueOf(String(next)));
@@ -497,14 +428,12 @@ ItemEvents.rightClicked((event) => {
   if (!player.isShiftKeyDown()) return;
   if (player.level.isClientSide()) return;
 
-  if (!player.stages.has("world_engine_unlocked")) {
+  if (!player.stages.has("world_engine_unlocked") && !Teams.hasStage(player, "world_engine_unlocked")) {
     player.tell(Text.translate(LANG.WORLD_ENGINE_LOCKED));
     return;
   }
 
-  const baseOpt = $BaseInstanceManager
-    .get(player.server)
-    .getBaseForPlayer(player);
+  const baseOpt = $BaseInstanceManager.get(player.server).getBaseForPlayer(player);
   if (!baseOpt.isPresent()) {
     player.tell(Text.translate(LANG.NO_BASE));
     return;
@@ -553,7 +482,7 @@ ItemEvents.rightClicked((event) => {
   if (!player.isShiftKeyDown()) return;
   if (player.level.isClientSide()) return;
 
-  if (!player.stages.has("t5_zone_unlocked")) {
+  if (!player.stages.has("t5_zone_unlocked") && !Teams.hasStage(player, "t5_zone_unlocked")) {
     player.tell(Text.translate(LANG.T5_ZONE_LOCKED));
     event.cancel();
     return;
@@ -574,8 +503,6 @@ ItemEvents.rightClicked((event) => {
     y: OVERWORLD_DEST.y,
     z: OVERWORLD_DEST.z + 0.5,
   };
-
-
 
   let portal_spawned = trySpawnTimeDoor(
     Text.of(Text.translate(LANG.HIDDEN)).obfuscated(),
@@ -607,41 +534,33 @@ function playPostTeleportFX(player) {
   });
 }
 
-NativeEvents.onEvent(
-  "earth.terrarium.tempad.api.event.TimedoorEvent$Enter",
-  (event) => {
-    try {
-      let entity = event.entity;
-      let teleportee = event.teleportee;
-      if (!teleportee) return;
+NativeEvents.onEvent("earth.terrarium.tempad.api.event.TimedoorEvent$Enter", (event) => {
+  try {
+    let entity = event.entity;
+    let teleportee = event.teleportee;
+    if (!teleportee) return;
 
-      // Only allow non-player entities if not to Overworld
-      if (teleportee.type != "minecraft:player") {
-        if (entity.targetDimension == "minecraft:overworld")
-          event.setCanceled(true);
-        return;
-      }
-
-      // Player successfully arrived: play FX on them
-      playPostTeleportFX(teleportee);
-    } catch (error) {
-      console.log(
-        `\ntemppad.js TimedoorEvent$Enter error:\n${error}\nPlease Report this to FTB via Github Issues if you see this`
-      );
+    // Only allow non-player entities if not to Overworld
+    if (teleportee.type != "minecraft:player") {
+      if (entity.targetDimension == "minecraft:overworld") event.setCanceled(true);
+      return;
     }
+
+    // Player successfully arrived: play FX on them
+    playPostTeleportFX(teleportee);
+  } catch (error) {
+    console.log(
+      `\ntemppad.js TimedoorEvent$Enter error:\n${error}\nPlease Report this to FTB via Github Issues if you see this`
+    );
   }
-);
+});
 
 // --- Register only /timedoor worldengine ---
 ServerEvents.commandRegistry((event) => {
   const { commands: Commands } = event;
 
   event.register(
-    Commands.literal("timedoor").then(
-      Commands.literal("worldengine").executes((ctx) =>
-        spawnWorldEnginePortal(ctx)
-      )
-    )
+    Commands.literal("timedoor").then(Commands.literal("worldengine").executes((ctx) => spawnWorldEnginePortal(ctx)))
   );
 });
 
@@ -653,16 +572,14 @@ function spawnWorldEnginePortal(ctx) {
 
   // Stage gate (creative/spectator bypass)
   if (is_survival) {
-    if (!player.stages.has("world_engine_unlocked")) {
+    if (!player.stages.has("world_engine_unlocked") && !Teams.hasStage(player, "world_engine_unlocked")) {
       src.sendFailure(Text.translate(LANG.WORLD_ENGINE_LOCKED));
       return 0;
     }
   }
 
   // Must have a base to resolve the World Engine dimension
-  var baseOpt = $BaseInstanceManager
-    .get(player.server)
-    .getBaseForPlayer(player);
+  var baseOpt = $BaseInstanceManager.get(player.server).getBaseForPlayer(player);
   if (!baseOpt.isPresent()) {
     src.sendFailure(Text.translate(LANG.NO_BASE));
     return 0;
@@ -725,21 +642,13 @@ ItemEvents.rightClicked("minecraft:compass", (event) => {
   let label;
 
   if (!components.has("minecraft:custom_data")) return;
-  if (!components.get("minecraft:custom_data").contains("can_spawn_timedoor"))
-    return;
+  if (!components.get("minecraft:custom_data").contains("can_spawn_timedoor")) return;
 
   if (!components.has("minecraft:lodestone_tracker")) {
     return;
   } else {
     try {
-      label = itemstack
-        .getCustomName()
-        .copy()
-        .toJson()
-        .get("with")
-        .get(0)
-        .get("translate")
-        .getAsString();
+      label = itemstack.getCustomName().copy().toJson().get("with").get(0).get("translate").getAsString();
     } catch (_) {
       player.tell(`${Text.translate(LANG.INVALID_LOCATOR)}`);
       return;
@@ -776,12 +685,7 @@ ItemEvents.rightClicked("minecraft:compass", (event) => {
   if (is_survival) {
     if (horizontalDist > MAX_COMPASS_DISTANCE) {
       var shortfall = Math.ceil(horizontalDist - MAX_COMPASS_DISTANCE);
-      player.tell(
-        Text.translate(LANG.VAULT_TOO_FAR, [
-          String(shortfall),
-          String(MAX_COMPASS_DISTANCE),
-        ]).red()
-      );
+      player.tell(Text.translate(LANG.VAULT_TOO_FAR, [String(shortfall), String(MAX_COMPASS_DISTANCE)]).red());
       return;
     }
   }
@@ -823,18 +727,15 @@ ItemEvents.rightClicked("minecraft:compass", (event) => {
   event.cancel();
 });
 
-NativeEvents.onEvent(
-  "earth.terrarium.tempad.api.event.TimedoorEvent$Exit",
-  (event) => {
-    try {
-      let entrance = event.entity.linkedPortalEntity;
-      let exit = event.entity;
-      entrance.placePortalTicket(entrance.blockPosition());
-      exit.placePortalTicket(exit.blockPosition());
-    } catch (error) {
-      console.log(
-        `\ntemppad.js TimedoorEvent$Enter error:\n${error}\nPlease Report this to FTB via Github Issues if you see this`
-      );
-    }
+NativeEvents.onEvent("earth.terrarium.tempad.api.event.TimedoorEvent$Exit", (event) => {
+  try {
+    let entrance = event.entity.linkedPortalEntity;
+    let exit = event.entity;
+    entrance.placePortalTicket(entrance.blockPosition());
+    exit.placePortalTicket(exit.blockPosition());
+  } catch (error) {
+    console.log(
+      `\ntemppad.js TimedoorEvent$Enter error:\n${error}\nPlease Report this to FTB via Github Issues if you see this`
+    );
   }
-);
+});

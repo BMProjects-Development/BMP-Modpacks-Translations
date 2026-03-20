@@ -40,12 +40,11 @@
       "required_stage": "echo_catalyst_stage3_task1_completed",
       "ready": {"translate": "ftb.echo.catalyst.stage3.task1.ready"},
       "completed": {"translate": "ftb.echo.catalyst.stage3.task1.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_catalyst_stage3_task1_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_catalyst_stage3_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "Diamond to Obsidian Chest Upgrade", "item": {"id": "sophisticatedstorage:diamond_to_netherite_tier_upgrade", "count": 1}, "cost": 30},
         {"name": "Elite Tier Upgrade", "item": {"id": "mekanism:elite_tier_installer", "count": 1}, "cost": 80},
         {"name": "Basic Flux Storage", "item": {"id": "fluxnetworks:basic_flux_storage", "count": 1}, "cost": 45},
-        {"name": "Extraction Speed Upgrade 4", "item": {"id": "enderio:extraction_speed_upgrade_4", "count": 1}, "cost": 80},
         {"name": "Energizing Rod (Nitro)", "item": {"id": "powah:energizing_rod_nitro", "count": 1}, "cost": 75},
         {"name": "Gateway - A Tale of Fire and Ice", "item": {"id": "gateways:gate_pearl", "components": {"gateways:gateway": "gateways:iron_spells/apothehostage_situation"}, "count": 1}, "cost": 50, "description": [{"translate": "ftb.shop.description.exclusive"}, {"translate": "ftb.shop.description.gate_pearl.rewards"}, {"translate": "ftb.shop.description.gate_pearl.life_and_death"}]},
         {"name": "Gateway - A Peer into the Abyss", "item": {"id": "gateways:gate_pearl", "components": {"gateways:gateway": "gateways:basic/skulk"}, "count": 1}, "cost": 60, "description": [{"translate": "ftb.shop.description.exclusive"}, {"translate": "ftb.shop.description.gate_pearl.rewards"}, {"translate": "ftb.shop.description.gate_pearl.basic_sculk"}]},
@@ -70,7 +69,7 @@
       "required_stage": "echo_catalyst_stage3_task2_completed",
       "ready": {"translate": "ftb.echo.catalyst.stage3.task2.ready"},
       "completed": {"translate": "ftb.echo.catalyst.stage3.task2.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_catalyst_stage3_task2_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_catalyst_stage3_task2_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "Advanced Turtle", "item": {"id": "computercraft:turtle_advanced", "count": 1}, "cost": 55},
         {"name": "Tree of Transformation Sapling", "item": {"id": "twilightforest:transformation_sapling", "count": 1}, "cost": 25},
@@ -93,7 +92,7 @@
       "required_stage": "echo_catalyst_stage3_task3_completed",
       "ready": {"translate": "ftb.echo.catalyst.stage3.task3.ready"},
       "completed": {"translate": "ftb.echo.catalyst.stage3.task3.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_catalyst_stage3_task3_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_catalyst_stage3_task3_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "Dislocator", "item": {"id": "draconicevolution:dislocator", "count": 1}, "cost": 65},
         {"name": "Ultimate Tier Upgrade", "item": {"id": "mekanism:ultimate_tier_installer", "count": 1}, "cost": 115},

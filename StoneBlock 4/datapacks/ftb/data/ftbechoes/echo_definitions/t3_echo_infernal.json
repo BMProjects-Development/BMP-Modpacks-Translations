@@ -34,7 +34,7 @@
       "required_stage": "echo_infernal_stage3_task1_completed",
       "ready": {"translate": "ftb.echo.infernal.stage3.task1.ready"},
       "completed": {"translate": "ftb.echo.infernal.stage3.task1.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_infernal_stage3_task1_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_infernal_stage3_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "Creative Blaze Cake", "item": {"id": "create:creative_blaze_cake", "count": 1}, "cost": 420, "description": {"translate": "ftb.shop.description.exclusive"}},
         {"name": "Spawner", "cost": 100, "description": [{"translate": "ftb.shop.description.exclusive"}, {"translate": "ftb.shop.description.spawner"}], "item": {"id": "minecraft:spawner", "components": {"minecraft:custom_name": "{translate: ftb.shop.title.item.spawner}", "minecraft:block_entity_data": {"Delay": 211, "MaxNearbyEntities": 32, "MaxSpawnDelay": 20, "MinSpawnDelay": 20, "RequiredPlayerRange": 48, "SpawnCount": 16, "SpawnData": {"entity": {"id": "minecraft:zombie"}}, "SpawnPotentials": [{"data": {"entity": {"id": "minecraft:zombie"}}, "weight": 1}], "SpawnRange": 4, "id": "minecraft:mob_spawner", "modified": 1, "stats": {"apothic_spawners:echoing": 3, "apothic_spawners:ignore_conditions": 1, "apothic_spawners:ignore_light": 1, "apothic_spawners:ignore_players": 1, "apothic_spawners:initial_health": 0.2, "apothic_spawners:no_ai": 1, "apothic_spawners:redstone_control": 1, "apothic_spawners:silent": 1}}}}},

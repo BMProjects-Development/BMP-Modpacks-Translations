@@ -1,5 +1,6 @@
 {
 	# Autoclaim lobby areas (FTB Chunks required)
+	# If you change any autoclaim settings after initial autoclaim is done, run '/ftbteambases redo_autoclaim'
 	autoclaiming: {
 		# The server team color
 		# Many color names work, and hex codes in the form '#RRGGBB' are accepted
@@ -25,6 +26,10 @@
 		server_team_name: "Lobby"
 	}
 	general: {
+		# If true, allow spectator-mode players to use the lobby portal
+		# Default: false
+		allow_lobby_spectators: false
+		
 		# Base separation (in 512-block regions) when allocating regions for new bases in shared dimensions; the amount of clear space between the edges of two adjacent bases
 		# Default: 4
 		# Range: 0 ~ 16
@@ -59,10 +64,6 @@
 			0
 		]
 		
-		# Dimension ID of the level in which the lobby is created. This *must* be a static pre-existing dimension, not a dynamically created one! New players will be automatically teleported to this dimension the first time they connect to the server. This setting should be defined in default config so the server has it before any levels are created - do NOT modify this on existing worlds!
-		# Default: "minecraft:overworld"
-		lobby_dimension: "minecraft:overworld"
-		
 		# The default game mode given to players when in the lobby.
 		# Note that admin-mode players are free to change this.
 		# Default: "adventure"
@@ -73,14 +74,6 @@
 		# Default: 0.0
 		# Range: 0.0 ~ 360.0
 		lobby_player_yaw: 180.0d
-		
-		# Position at which new players spawn. Only used if the lobby structure comes from a pregenerated region!
-		# Default: [0, 0, 0]
-		lobby_spawn_pos: [I;
-			-64
-			-17
-			37
-		]
 		
 		# Resource location of the structure NBT for the lobby
 		# This is ignored if using pregenerated lobby region files (.mca files copied from ftbteambases/pregen_initial/)

@@ -176,6 +176,19 @@ const triviaSettings = {
   wallTopRight: { x: 2, y: 0, z: -4 }
 }
 
+// Entity layout offsets relative to trivia_1_question anchor.
+// Derived from the structure template NBT positions.
+const TIER_Z_OFFSET = -9 // each tier is 9 blocks further in -Z
+const ANSWER_X = { 1: -3, 2: -1, 3: 1, 4: 3 }
+const triviaEntityOffsets = {}
+for (let tier = 1; tier <= 5; tier++) {
+  let tz = (tier - 1) * TIER_Z_OFFSET
+  triviaEntityOffsets[`trivia_${tier}_question`] = { x: 0, y: 0, z: tz }
+  for (let a = 1; a <= 4; a++) {
+    triviaEntityOffsets[`trivia_${tier}_answer_${a}`] = { x: ANSWER_X[a], y: -1, z: tz }
+  }
+}
+
 ServerEvents.commandRegistry((event) => {
   const { commands: Commands, arguments: Arguments } = event
 
@@ -183,35 +196,68 @@ ServerEvents.commandRegistry((event) => {
     Commands.literal("trivia")
       .requires((s) => s.hasPermission(2))
       .executes((c) => {
-        const player = c.source?.player ?? c.source?.entity
-        const level = player.level
+        const level = c.source.getLevel()
         const server = level.server
+        const sourcePos = c.source.getPosition()
 
+        // --- Phase 1: Deduplicate entities ---
+        // After structure regeneration, old entities persist alongside new ones.
+        // Keep only the nearest entity per trivia tag, discard duplicates.
+        let seenTags = {}
+        let survivingEntities = {}
+        level
+          .getEntities()
+          .filter(
+            (e) =>
+              e.type === "minecraft:text_display" &&
+              e.getTags().find((tag) => tag.startsWith("trivia_")) &&
+              distanceBetween(sourcePos, e) < triviaSettings.distance
+          )
+          .sort((a, b) => distanceBetween(sourcePos, a) - distanceBetween(sourcePos, b))
+          .forEach((e) => {
+            let triviaTag = e.getTags().find((tag) => tag.startsWith("trivia_") && tag !== "trivia_questions" && tag !== "trivia_start")
+            if (!triviaTag) return
+            if (seenTags[triviaTag]) {
+              e.discard()
+            } else {
+              seenTags[triviaTag] = true
+              survivingEntities[triviaTag] = e
+              // Clear stale state (structure template has win/lose baked in)
+              e.removeTag("win")
+              e.removeTag("lose")
+              e.removeTag("awnsered")
+            }
+          })
+
+        // --- Phase 2: Reposition entities to correct locations ---
+        // respawningstructures can misplace entities. Use trivia_1_question
+        // as anchor and teleport all others to their correct offsets.
+        let anchor = survivingEntities["trivia_1_question"]
+        if (anchor) {
+          let ax = anchor.x
+          let ay = anchor.y
+          let az = anchor.z
+          for (let [tag, offset] of Object.entries(triviaEntityOffsets)) {
+            let entity = survivingEntities[tag]
+            if (!entity || tag === "trivia_1_question") continue
+            let targetX = ax + offset.x
+            let targetY = ay + offset.y
+            let targetZ = az + offset.z
+            entity.teleportTo(targetX, targetY, targetZ)
+          }
+        }
+
+        // --- Phase 3: Set randomized questions and answers ---
         Object.keys(questions).forEach((tier) => {
           let randomIndex = Math.floor(Math.random() * questions[tier].length)
           let randomQuestion = questions[tier][randomIndex]
-          let playerName = player.getUsername()
-
-          //if (customQuestions[playerName] !== undefined) {
-          //  if (customQuestions[playerName][tier] !== undefined) {
-          //    randomQuestion = customQuestions[playerName][tier]
-          //  }
-          //}
 
           let answer = randomQuestion.answer
           for (let i = 1; i <= 4; i++) {
-            // assuming there aren't going to be more displays in a 128block radius
-            let display = level
-              .getEntities()
-              .filter(
-                (e) =>
-                  e.type === "minecraft:text_display" &&
-                  e.getTags().contains(`trivia_${tier}_answer_${parseInt(i)}`) &&
-                  e.distanceToEntity(player) < triviaSettings.distance
-              )[0]
-
             let tag = `trivia_${tier}_answer_${parseInt(i)}`
-            let atPosition = `positioned ${player.x} ${player.y} ${player.z}`
+            let display = survivingEntities[tag]
+
+            let atPosition = `positioned ${sourcePos.x} ${sourcePos.y} ${sourcePos.z}`
             let as = `as @e[type=minecraft:text_display,tag=${tag},sort=nearest,limit=1]`
             let inDimension = `in ${level.dimension}`
 
@@ -223,14 +269,11 @@ ServerEvents.commandRegistry((event) => {
             )
             if (display) {
               display.addTag(win ? "win" : "lose")
-              if (display.getTags().contains(win ? "win" : "lose")) {
-                display.removeTag(win ? "lose" : "win")
-              }
             }
           }
 
-          player.runCommandSilent(
-            `execute as @e[type=minecraft:text_display,tag=trivia_${tier}_question,sort=nearest,limit=1] run data modify entity @s text set value '{color:"aqua",translate:"${randomQuestion.question}"}'`
+          server.runCommandSilent(
+            `execute positioned ${sourcePos.x} ${sourcePos.y} ${sourcePos.z} in ${level.dimension} as @e[type=minecraft:text_display,tag=trivia_${tier}_question,sort=nearest,limit=1] run data modify entity @s text set value '{color:"aqua",translate:"${randomQuestion.question}"}'`
           )
         })
 
@@ -400,8 +443,8 @@ PlayerEvents.tick((event) => {
     })
 })
 
-const distanceBetween = (pos1, pos2) => {
-  return Math.sqrt(Math.pow(pos1.x - pos2.x, 2) + Math.pow(pos1.y - pos2.y, 2) + Math.pow(pos1.z - pos2.z, 2))
+const distanceBetween = (a, b) => {
+  return Math.sqrt(Math.pow(a.x - b.x, 2) + Math.pow(a.y - b.y, 2) + Math.pow(a.z - b.z, 2))
 }
 
 const $GatewayRegistry = Java.loadClass("dev.shadowsoffire.gateways.gate.GatewayRegistry")

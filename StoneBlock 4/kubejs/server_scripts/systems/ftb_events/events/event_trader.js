@@ -166,7 +166,12 @@ EntityEvents.spawned((event) => {
 
   merchantOffers.push(offer);
 
-  wanderingTradertrades.forEach((trade) => {
+  // Shuffle trades and pick a random subset (6-10 trades) so each trader is different
+  let shuffledTrades = Array.from(wanderingTradertrades)
+    .sort(() => Math.random() - 0.5)
+    .sort(() => Math.random() - 0.5);
+  let tradeCount = Math.floor(Math.random() * 5) + 6; // 6 to 10 trades
+  shuffledTrades.slice(0, Math.min(tradeCount, shuffledTrades.length)).forEach((trade) => {
     let input = Item.of(trade.input.id);
     let output = Item.of(trade.output.id, trade.output.count);
     let offer = new $MerchantOffer(

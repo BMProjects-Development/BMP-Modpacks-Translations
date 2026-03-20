@@ -294,6 +294,7 @@ removeRecipe.push(
   "immersiveengineering:metalpress/rod_lead",
   "immersiveengineering:metalpress/rod_nickel",
   "immersiveengineering:metalpress/rod_osmium",
+  "immersiveengineering:metalpress/rod_steel",
   "immersiveengineering:metalpress/rod_tin",
   "immersiveengineering:metalpress/rod_tungsten",
   "immersiveengineering:metalpress/rod_uranium",

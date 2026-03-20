@@ -32,7 +32,7 @@ variable {
 
 variable {
   name = ab-testing-variable
-  value = 
+  value = 1
   reset_on_launch = true
 }
 

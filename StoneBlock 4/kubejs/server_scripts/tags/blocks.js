@@ -60,7 +60,9 @@ const addBlockTags = [
     blockIDs: [
       "custommachinery:custom_machine_block",
     ],
-  }
+  },
+  { tagName: "cataclysm:needs_black_steel_tool", blockIDs: [] },
+  { tagName: "cataclysm:needs_monstrosity_tool", blockIDs: [] }
 ];
 
 const relocationDenyBlocks = [
@@ -196,13 +198,13 @@ const CataclysmBossImmune = [
 ServerEvents.tags("block", (event) => {
 
   CataclysmBossImmune.forEach((block) => {
-    event.add("cataclysm:ignis_immune")
-    event.add("cataclysm:harbinger_immune")
-    event.add("cataclysm:leviathan_immune")
-    event.add("cataclysm:remnant_immune")
-    event.add("cataclysm:maledictus_immune")
-    event.add("cataclysm:scylla_immune")
-    event.add("cataclysm:clawdian_immune")
+    event.add("cataclysm:ignis_immune", block)
+    event.add("cataclysm:harbinger_immune", block)
+    event.add("cataclysm:leviathan_immune", block)
+    event.add("cataclysm:remnant_immune", block)
+    event.add("cataclysm:maledictus_immune", block)
+    event.add("cataclysm:scylla_immune", block)
+    event.add("cataclysm:clawdian_immune", block)
   })
 
   tickSpeedDenyBlocks.forEach((block) => {

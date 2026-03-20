@@ -27,7 +27,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "1.21.1-107"
+								modVersion: "1.21.1-108"
 							}]
 							spellList: {
 								spellList: [
@@ -318,7 +318,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "1.21.1-107"
+								modVersion: "1.21.1-108"
 							}]
 							spellList: {
 								spellList: [
@@ -568,7 +568,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "1.21.1-107"
+								modVersion: "1.21.1-108"
 							}]
 							spellList: {
 								spellList: [
@@ -757,7 +757,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "1.21.1-107"
+								modVersion: "1.21.1-108"
 							}]
 							spellList: {
 								spellList: [
@@ -898,7 +898,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "1.21.1-107"
+								modVersion: "1.21.1-108"
 							}]
 							spellList: {
 								spellList: [
@@ -1062,7 +1062,7 @@
 						"psi:spell": {
 							modsRequired: [{
 								modName: "psi"
-								modVersion: "1.21.1-107"
+								modVersion: "1.21.1-108"
 							}]
 							spellList: {
 								spellList: [
@@ -1392,7 +1392,7 @@
 					id: "2785D1379001D147"
 					ignore_reward_blocking: true
 					stage: "echo_guidance_interact"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -1400,7 +1400,7 @@
 					id: "4C656BD1CB90E7CF"
 					ignore_reward_blocking: true
 					stage: "parkour_vault"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -1445,6 +1445,7 @@
 			tasks: [{
 				id: "50BB619C3A042223"
 				stage: "echo_guidance_stage1_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -22.0d
@@ -1495,6 +1496,7 @@
 			tasks: [{
 				id: "2B89423DF7AB36C8"
 				stage: "echo_guidance_stage1_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -21.0d
@@ -1513,7 +1515,7 @@
 					id: "4D3425E957D5A974"
 					ignore_reward_blocking: true
 					stage: "echo_quartermaster_unlock"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -1521,7 +1523,7 @@
 					id: "052BD091E892E651"
 					ignore_reward_blocking: true
 					stage: "echo_magician_unlock"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -1529,13 +1531,14 @@
 					id: "7945A70D89BE8D46"
 					ignore_reward_blocking: true
 					stage: "echo_machinist_unlock"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 			]
 			tasks: [{
 				id: "275CBA2077DB22E7"
 				stage: "echo_guidance_stage1_task3_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -20.0d
@@ -1573,6 +1576,7 @@
 			tasks: [{
 				id: "51B14FCEF2275E2B"
 				stage: "echo_quartermaster_stage1_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -17.0d
@@ -1610,6 +1614,7 @@
 			tasks: [{
 				id: "707CDCD86016358A"
 				stage: "echo_magician_stage1_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -17.0d
@@ -1647,6 +1652,7 @@
 			tasks: [{
 				id: "3D0D830FB254A606"
 				stage: "echo_machinist_stage1_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -17.0d
@@ -1662,6 +1668,7 @@
 			tasks: [{
 				id: "3AB95366D8408D00"
 				stage: "echo_machinist_stage1_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -16.0d
@@ -1677,6 +1684,7 @@
 			tasks: [{
 				id: "0DFADA5EB73CF7BB"
 				stage: "echo_magician_stage1_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -16.0d
@@ -1692,6 +1700,7 @@
 			tasks: [{
 				id: "6DFF2F80CD9F6DC9"
 				stage: "echo_quartermaster_stage1_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -16.0d
@@ -1709,6 +1718,7 @@
 				id: "0A4E1E2E149BA299"
 				ignore_reward_blocking: true
 				stage: "echo_stage1_or_check"
+				team_reward: true
 				type: "gamestage"
 			}]
 			tasks: [
@@ -1716,12 +1726,14 @@
 					id: "763427A1BF70A881"
 					optional_task: true
 					stage: "echo_magician_stage1_task2_check"
+					team_stage: true
 					type: "gamestage"
 				}
 				{
 					id: "6795DF86789B032C"
 					optional_task: true
 					stage: "echo_machinist_stage1_task2_check"
+					team_stage: true
 					type: "gamestage"
 				}
 			]
@@ -1739,17 +1751,20 @@
 				id: "5B254AD78975E6B6"
 				ignore_reward_blocking: true
 				stage: "echo_guidance_stage1_final_completed"
+				team_reward: true
 				type: "gamestage"
 			}]
 			tasks: [
 				{
 					id: "1CE6C0D97A224B36"
 					stage: "echo_quartermaster_stage1_task2_check"
+					team_stage: true
 					type: "gamestage"
 				}
 				{
 					id: "2536467173592D22"
 					stage: "echo_stage1_or_check"
+					team_stage: true
 					type: "gamestage"
 				}
 			]
@@ -1769,7 +1784,7 @@
 					id: "2121CF71360672B9"
 					ignore_reward_blocking: true
 					stage: "echo_fabricator_unlock"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -1777,7 +1792,7 @@
 					id: "5BE7A90EFC784449"
 					ignore_reward_blocking: true
 					stage: "echo_enchanter_unlock"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -1785,13 +1800,14 @@
 					id: "447BDA6811AEF89D"
 					ignore_reward_blocking: true
 					stage: "echo_wayfinder_unlock"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 			]
 			tasks: [{
 				id: "7FE771A0DD6054A0"
 				stage: "echo_guidance_stage1_final_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -13.0d
@@ -1807,6 +1823,7 @@
 			tasks: [{
 				id: "25F7E7EC79C4414D"
 				stage: "echo_magician_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -18.0d
@@ -1822,6 +1839,7 @@
 			tasks: [{
 				id: "5E3002517C5A8977"
 				stage: "echo_machinist_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -18.0d
@@ -1837,6 +1855,7 @@
 			tasks: [{
 				id: "11B4ABD24F3737BF"
 				stage: "echo_quartermaster_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -18.0d
@@ -1851,6 +1870,7 @@
 			tasks: [{
 				id: "635354D4093EF3EC"
 				stage: "echo_wayfinder_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -11.0d
@@ -1866,6 +1886,7 @@
 			tasks: [{
 				id: "3FC8DF401EE7ED88"
 				stage: "echo_enchanter_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -11.0d
@@ -1880,6 +1901,7 @@
 			tasks: [{
 				id: "6EF868E388DEDDDF"
 				stage: "echo_fabricator_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -11.0d
@@ -1898,7 +1920,7 @@
 					id: "3B9C2576AFEF58C0"
 					ignore_reward_blocking: true
 					stage: "echo_catalyst_unlock"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -1906,7 +1928,7 @@
 					id: "11ED9F5D42516D54"
 					ignore_reward_blocking: true
 					stage: "echo_infernal_unlock"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -1914,13 +1936,14 @@
 					id: "034833B138ECD561"
 					ignore_reward_blocking: true
 					stage: "echo_light_bender_unlock"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 			]
 			tasks: [{
 				id: "645CB7CE69C86067"
 				stage: "echo_guidance_stage2_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -7.0d
@@ -1958,6 +1981,7 @@
 			tasks: [{
 				id: "08105020B1962F4C"
 				stage: "echo_enchanter_stage2_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -10.0d
@@ -1972,6 +1996,7 @@
 			tasks: [{
 				id: "0F269804D32736F1"
 				stage: "echo_fabricator_stage2_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -10.0d
@@ -1986,6 +2011,7 @@
 			tasks: [{
 				id: "24B8CA24A7120A55"
 				stage: "echo_enchanter_stage2_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -9.0d
@@ -2004,6 +2030,7 @@
 				id: "1EA6309C93207C52"
 				ignore_reward_blocking: true
 				stage: "echo_guidance_stage2_task1_completed"
+				team_reward: true
 				type: "gamestage"
 			}]
 			tasks: [
@@ -2011,18 +2038,21 @@
 					id: "791CDF83988C8022"
 					optional_task: true
 					stage: "echo_fabricator_stage2_task1_check"
+					team_stage: true
 					type: "gamestage"
 				}
 				{
 					id: "7DE7B6EEA93B6F07"
 					optional_task: true
 					stage: "echo_enchanter_stage2_task2_check"
+					team_stage: true
 					type: "gamestage"
 				}
 				{
 					id: "7771223200D7FF32"
 					optional_task: true
 					stage: "echo_wayfinder_stage2_task1_check"
+					team_stage: true
 					type: "gamestage"
 				}
 			]
@@ -2038,6 +2068,7 @@
 			tasks: [{
 				id: "68407D47A81F9C46"
 				stage: "echo_wayfinder_stage2_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -10.0d
@@ -2052,6 +2083,7 @@
 			tasks: [{
 				id: "6FD68EA32BE21762"
 				stage: "echo_light_bender_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -5.0d
@@ -2066,6 +2098,7 @@
 			tasks: [{
 				id: "79C3DBBB466E5818"
 				stage: "echo_infernal_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -5.0d
@@ -2080,6 +2113,7 @@
 			tasks: [{
 				id: "0E30468FAD290B9E"
 				stage: "echo_catalyst_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -5.0d
@@ -2116,6 +2150,7 @@
 			tasks: [{
 				id: "2B9B045385AAD723"
 				stage: "echo_catalyst_stage3_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -4.0d
@@ -2152,6 +2187,7 @@
 			tasks: [{
 				id: "500AEA2E607B504B"
 				stage: "echo_light_bender_stage3_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -4.0d
@@ -2188,6 +2224,7 @@
 			tasks: [{
 				id: "1D0594B06168294F"
 				stage: "echo_catalyst_stage3_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -3.0d
@@ -2202,6 +2239,7 @@
 			tasks: [{
 				id: "4040D78EF3E3FF58"
 				stage: "echo_catalyst_stage3_task3_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -2.0d
@@ -2218,17 +2256,20 @@
 				id: "615C1FD5DD4A9ED7"
 				ignore_reward_blocking: true
 				stage: "echo_guidance_stage3_task1_completed"
+				team_reward: true
 				type: "gamestage"
 			}]
 			tasks: [
 				{
 					id: "75E2655468661DCB"
 					stage: "echo_catalyst_stage3_task3_check"
+					team_stage: true
 					type: "gamestage"
 				}
 				{
 					id: "1F7D04C9CB664695"
 					stage: "echo_stage3_or_check"
+					team_stage: true
 					type: "gamestage"
 				}
 			]
@@ -2244,6 +2285,7 @@
 			tasks: [{
 				id: "28B24BEE7982BFE4"
 				stage: "echo_infernal_stage3_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -4.0d
@@ -2261,6 +2303,7 @@
 				id: "005F296736184692"
 				ignore_reward_blocking: true
 				stage: "echo_stage3_or_check"
+				team_reward: true
 				type: "gamestage"
 			}]
 			tasks: [
@@ -2268,12 +2311,14 @@
 					id: "1728CB43BC834A89"
 					optional_task: true
 					stage: "echo_infernal_stage3_task1_check"
+					team_stage: true
 					type: "gamestage"
 				}
 				{
 					id: "7D61748E5F7F9C6E"
 					optional_task: true
 					stage: "echo_light_bender_stage3_task2_check"
+					team_stage: true
 					type: "gamestage"
 				}
 			]
@@ -2289,6 +2334,7 @@
 			tasks: [{
 				id: "6970791A82051920"
 				stage: "echo_light_bender_stage3_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -3.0d
@@ -2307,19 +2353,21 @@
 					id: "3EAB5831E7E743A4"
 					ignore_reward_blocking: true
 					stage: "echo_wyrmwright_unlock"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
 					auto: "invisible"
 					id: "5D2F4F7AD8624538"
 					stage: "echo_twilight_ancients_unlock"
+					team_reward: true
 					type: "gamestage"
 				}
 			]
 			tasks: [{
 				id: "62400C977847F808"
 				stage: "echo_guidance_stage3_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -2334,6 +2382,7 @@
 			tasks: [{
 				id: "5F9A79E270AA0E85"
 				stage: "echo_twilight_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 2.0d
@@ -2348,6 +2397,7 @@
 			tasks: [{
 				id: "69FD03C63BD5BFB4"
 				stage: "echo_ancient_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 2.0d
@@ -2362,6 +2412,7 @@
 			tasks: [{
 				id: "7902EE94E19C51C3"
 				stage: "echo_wyrmwright_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 2.0d
@@ -2376,6 +2427,7 @@
 			tasks: [{
 				id: "732D6C85B4A7BC52"
 				stage: "echo_ancient_stage4_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 3.0d
@@ -2390,6 +2442,7 @@
 			tasks: [{
 				id: "05FBFA2186452330"
 				stage: "echo_twilight_stage4_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 3.0d
@@ -2426,6 +2479,7 @@
 			tasks: [{
 				id: "2D2E8DEAD23247C3"
 				stage: "echo_wyrmwright_stage4_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 3.0d
@@ -2440,6 +2494,7 @@
 			tasks: [{
 				id: "57CC2CE5DB3EC04C"
 				stage: "echo_wyrmwright_stage4_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 4.0d
@@ -2456,17 +2511,20 @@
 				id: "728DC60A2908EDD0"
 				ignore_reward_blocking: true
 				stage: "echo_guidance_stage4_task1_completed"
+				team_reward: true
 				type: "gamestage"
 			}]
 			tasks: [
 				{
 					id: "7762922F1057AE7D"
 					stage: "echo_wyrmwright_stage4_task2_check"
+					team_stage: true
 					type: "gamestage"
 				}
 				{
 					id: "3F35D79FAF7C7483"
 					stage: "echo_stage4_or_check"
+					team_stage: true
 					type: "gamestage"
 				}
 			]
@@ -2484,6 +2542,7 @@
 				auto: "invisible"
 				id: "65650B8BD817B4A5"
 				stage: "echo_stage4_or_check"
+				team_reward: true
 				type: "gamestage"
 			}]
 			tasks: [
@@ -2491,12 +2550,14 @@
 					id: "6A6ED330E6B1AF66"
 					optional_task: true
 					stage: "echo_twilight_stage4_task1_check"
+					team_stage: true
 					type: "gamestage"
 				}
 				{
 					id: "0E808CBF7247B617"
 					optional_task: true
 					stage: "echo_ancient_stage4_task1_check"
+					team_stage: true
 					type: "gamestage"
 				}
 			]
@@ -2515,30 +2576,35 @@
 					id: "75001C69939C3905"
 					ignore_reward_blocking: true
 					stage: "echo_guidance_stage4_task2_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 				{
 					auto: "invisible"
 					id: "6A14CC1294E7C8E6"
 					stage: "echo_radiance_unlock"
+					team_reward: true
 					type: "gamestage"
 				}
 				{
 					auto: "invisible"
 					id: "162E0C03DCC403EF"
 					stage: "echo_infinity_unlock"
+					team_reward: true
 					type: "gamestage"
 				}
 				{
 					auto: "invisible"
 					id: "1EAD616B5F429F04"
 					stage: "echo_chaos_unlock"
+					team_reward: true
 					type: "gamestage"
 				}
 			]
 			tasks: [{
 				id: "17BEE20171A7C667"
 				stage: "echo_wyrmwright_stage5_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 8.0d
@@ -2555,11 +2621,13 @@
 				auto: "invisible"
 				id: "1F4829BED674DA6D"
 				stage: "echo_wyrmwright_stage5_task1_completed"
+				team_reward: true
 				type: "gamestage"
 			}]
 			tasks: [{
 				id: "357809578F6803F2"
 				stage: "echo_guidance_stage4_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 7.0d
@@ -2653,6 +2721,7 @@
 			tasks: [{
 				id: "09C1D5FBF6DA076A"
 				stage: "echo_radiance_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 10.0d
@@ -2668,6 +2737,7 @@
 			tasks: [{
 				id: "1CBC3CFCC853513A"
 				stage: "echo_infinity_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 13.0d
@@ -2682,6 +2752,7 @@
 			tasks: [{
 				id: "62F9B63FDC985A93"
 				stage: "echo_chaos_meet"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 10.0d
@@ -2696,6 +2767,7 @@
 			tasks: [{
 				id: "22E52B991F176145"
 				stage: "echo_chaos_stage5_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 11.0d
@@ -2710,6 +2782,7 @@
 			tasks: [{
 				id: "58DB660E017ECC26"
 				stage: "echo_infinity_stage5_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 14.0d
@@ -2724,6 +2797,7 @@
 			tasks: [{
 				id: "1452553B002718DE"
 				stage: "echo_radiance_stage5_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 11.0d
@@ -2737,22 +2811,26 @@
 				id: "07BCEE90A3EECA9A"
 				ignore_reward_blocking: true
 				stage: "echo_guidance_stage5_task1_completed"
+				team_reward: true
 				type: "gamestage"
 			}]
 			tasks: [
 				{
 					id: "653C6205F3F6CE55"
 					stage: "echo_chaos_stage5_task1_check"
+					team_stage: true
 					type: "gamestage"
 				}
 				{
 					id: "0084A7FF13FB5259"
 					stage: "echo_infinity_stage5_task1_check"
+					team_stage: true
 					type: "gamestage"
 				}
 				{
 					id: "2A52E94E2D2D390C"
 					stage: "echo_radiance_stage5_task1_check"
+					team_stage: true
 					type: "gamestage"
 				}
 			]
@@ -2770,17 +2848,20 @@
 				id: "5DA6EB0BA82F1D91"
 				ignore_reward_blocking: true
 				stage: "echo_stage5_and_check"
+				team_reward: true
 				type: "gamestage"
 			}]
 			tasks: [
 				{
 					id: "1633C25DA34E9638"
 					stage: "echo_chaos_stage5_task1_check"
+					team_stage: true
 					type: "gamestage"
 				}
 				{
 					id: "03EEFD0598713D09"
 					stage: "echo_radiance_stage5_task1_check"
+					team_stage: true
 					type: "gamestage"
 				}
 			]
@@ -2913,6 +2994,7 @@
 				auto: "invisible"
 				id: "210EF0F44F7C23E4"
 				stage: "tf_unlock_knight"
+				team_reward: true
 				type: "gamestage"
 			}]
 			tasks: [

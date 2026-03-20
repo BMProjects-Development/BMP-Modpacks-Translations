@@ -112,6 +112,7 @@
 					}
 					id: "59521977C507A466"
 					stage: "echo_guidance_meet"
+					team_stage: true
 					type: "gamestage"
 				}
 			]
@@ -476,7 +477,7 @@
 					id: "5EF124E7084F06BA"
 					ignore_reward_blocking: true
 					stage: "echo_guidance_stage1_task3_completed"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -654,7 +655,7 @@
 					id: "0E91DBA45C7125BF"
 					ignore_reward_blocking: true
 					stage: "world_engine_unlocked"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -662,7 +663,7 @@
 					id: "7EE09043A043CE49"
 					ignore_reward_blocking: true
 					stage: "home_unlocked"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -670,7 +671,7 @@
 					id: "2EE0369071462EAC"
 					ignore_reward_blocking: true
 					stage: "echo_guidance_stage1_task2_completed"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -984,7 +985,7 @@
 					id: "5D8D40D899EE89BD"
 					ignore_reward_blocking: true
 					stage: "echo_guidance_stage1_task1_completed"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 			]

@@ -39,7 +39,7 @@
       "required_stage": "echo_magician_stage1_task1_completed",
       "ready": {"translate": "ftb.echo.magician.stage1.task1.ready"},
       "completed": {"translate": "ftb.echo.magician.stage1.task1.completed"},
-      "completion_reward" : {"command": {"run": "kubejs stages add @s echo_magician_stage1_task1_check", "permission": 3}},
+      "completion_reward" : {"command": {"run": "ftbteams teamstage @s add echo_magician_stage1_task1_check", "permission": 3}},
       "shop_unlock": [
         {"name": "Nutritious Chicken Feed", "item": {"id": "mob_grinding_utils:nutritious_chicken_feed", "count": 1}, "cost": 45, "description": {"translate": "ftb.shop.description.exclusive"}},
         {"name": "Enchanting Table", "item": {"id": "minecraft:enchanting_table", "count": 1}, "cost": 15},
@@ -48,7 +48,7 @@
         {"name": "Turtle Spawn Egg", "item": {"id": "minecraft:turtle_spawn_egg", "count": 1}, "cost": 25},
         {"name": "Mega Torch", "item": {"id": "torchmaster:megatorch", "count": 1}, "cost": 20},
         {"name": "Dread Lamp", "item": {"id": "torchmaster:dreadlamp", "count": 1}, "cost": 20},
-        {"name": "Magebloom Seeds", "item": {"id": "arsnouveau:magebloom_crop", "count": 1, "cost": 10}},
+        {"name": "Magebloom Seeds", "item": {"id": "ars_nouveau:magebloom_crop", "count": 1}, "cost": 10},
         {"name": "Ring of Lesser Discount", "item": {"id": "ars_nouveau:ring_of_lesser_discount", "count": 1}, "cost": 50, "description": [{"translate":"ftb.shop.description.exclusive"}, {"translate": "ftb.shop.description.ars.discount_ring"}]},
         {"name": "Glyph of Sensitive", "item": {"id": "ars_nouveau:glyph_sensitive", "count": 1}, "cost": 15},
         {"name": "Glyph of Amplify", "item": {"id": "ars_nouveau:glyph_amplify", "count": 1}, "cost": 15},
@@ -76,7 +76,7 @@
       "required_stage": "echo_magician_stage1_task2_completed",
       "ready": {"translate": "ftb.echo.magician.stage1.task2.ready"},
       "completed": {"translate": "ftb.echo.magician.stage1.task2.completed"},
-      "completion_reward" : {"command": {"run": "kubejs stages add @s echo_magician_stage1_task2_check", "permission": 3}},
+      "completion_reward" : {"command": {"run": "ftbteams teamstage @s add echo_magician_stage1_task2_check", "permission": 3}},
       "shop_unlock": []
     }
   ]

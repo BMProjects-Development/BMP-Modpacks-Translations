@@ -45,7 +45,7 @@
       "required_stage": "echo_enchanter_stage2_task1_completed",
       "ready": {"translate": "ftb.echo.enchanter.stage2.task1.ready"},
       "completed": {"translate": "ftb.echo.enchanter.stage2.task1.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_enchanter_stage2_task1_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_enchanter_stage2_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "GM Chicken Feed Cursed", "item": {"id": "mob_grinding_utils:gm_chicken_feed_cursed", "count": 1}, "cost": 35, "description": {"translate": "ftb.shop.description.exclusive"}},
         {"name": "Ferricore Anvil", "item": {"id": "justdynathings:ferricore_anvil", "count": 1}, "cost": 35, "description": {"translate": "ftb.shop.description.exclusive"}},
@@ -99,7 +99,7 @@
       "required_stage": "echo_enchanter_stage2_task2_completed",
       "ready": {"translate": "ftb.echo.enchanter.stage2.task2.ready"},
       "completed": {"translate": "ftb.echo.enchanter.stage2.task2.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_enchanter_stage2_task2_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_enchanter_stage2_task2_check", "permission": 3}, "experience": 100},
       "shop_unlock": []
     }
   ]

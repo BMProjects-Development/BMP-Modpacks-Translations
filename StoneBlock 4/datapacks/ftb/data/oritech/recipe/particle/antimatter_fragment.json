@@ -1,0 +1,23 @@
+{
+  "type": "oritech:particle_collision",
+  "fluidInput": {
+    "amount": 0,
+    "fluid": "minecraft:empty"
+  },
+  "fluidOutputs": [],
+  "ingredients": [
+    {
+      "item": "ftb:fortified_containment_device"
+    },
+    {
+      "item": "oritech:plutonium_pellet"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "ftb:antimatter_fragments"
+    }
+  ],
+  "time": 7500
+}

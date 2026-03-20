@@ -45,7 +45,7 @@
       "required_stage": "echo_machinist_stage1_task1_completed",
       "ready": {"translate": "ftb.echo.machinist.stage1.task1.ready"},
       "completed": {"translate": "ftb.echo.machinist.stage1.task1.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_machinist_stage1_task1_check", "permission": 3}},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_machinist_stage1_task1_check", "permission": 3}},
       "shop_unlock": [
         {"name": "Impact Core", "item": {"id": "justhammers:impact_core", "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.exclusive"}},
         {"name": "Speed Upgrade", "item": {"id": "mekanism:upgrade_speed", "count": 4}, "cost": 15},
@@ -79,7 +79,7 @@
       "required_stage": "echo_machinist_stage1_task2_completed",
       "ready": {"translate": "ftb.echo.machinist.stage1.task2.ready"},
       "completed": {"translate": "ftb.echo.machinist.stage1.task2.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_machinist_stage1_task2_check", "permission": 3}},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_machinist_stage1_task2_check", "permission": 3}},
       "shop_unlock": []
     }
   ]

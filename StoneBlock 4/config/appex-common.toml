@@ -6,7 +6,7 @@
 	#Defines the amount(mB) necesary per XP point
 	# Default: 250
 	# Range: > 1
-	rate = 250
+	rate = 140
 	#Defined the amount of xp given per Bottle o'Enchanting
 	# Default: 1
 	# Range: > 1

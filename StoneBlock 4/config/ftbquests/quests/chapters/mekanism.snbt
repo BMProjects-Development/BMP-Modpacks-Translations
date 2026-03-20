@@ -745,12 +745,17 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["333E8FBE15AE980D"]
+			dependencies: [
+				"333E8FBE15AE980D"
+				"21322BAF061FE83F"
+			]
+			hide_until_deps_complete: true
 			icon: {
 				id: "mekanism:supercharged_coil"
 			}
 			id: "01DB719967817220"
 			min_width: 300
+			optional: true
 			rewards: [
 				{
 					amount: 50
@@ -803,8 +808,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: 1.5d
+			x: 10.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["333E8FBE15AE980D"]
@@ -892,8 +897,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 2.5d
+			x: 9.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0533C0C07AE600FD"]

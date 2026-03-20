@@ -242,8 +242,8 @@ function spawnFallingBlock(level, spawnPos, blockType, isSuspicious, lootTable) 
             nbt.TileEntityData = {
                 id: "brushable_block",
                 item: {
-                    id: selectedItem.item,
-                    count: Math.floor(Math.random() * 16) + 1
+                    id: selectedItem.entry.item,
+                    count: Math.floor(Math.random() * selectedItem.entry.count) + 1
                 }
             };
         } else {
@@ -325,7 +325,7 @@ const event_collapse = {
                 server.scheduleInTicks(delay, () => {
                     try {
                         // 25% chance for suspicious blocks
-                        let isSuspicious = Math.random() < 1;
+                        let isSuspicious = Math.random() < 0.25;
                         let blockType = Math.random() < 0.6 ? "sand" : "gravel";
                         
                         if (isSuspicious) suspiciousCount++;

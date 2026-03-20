@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "ftb.machine.advanced_empowerer"
+    "text": {
+      "translate": "ftb.machine.advanced_empowerer"
+    }
   },
   "appearance": {
     "running": {
@@ -30,8 +32,7 @@
   "components": [
     {
       "type": "custommachinery:energy",
-      "capacity": 1000000,
-      "max_input": 1000000
+      "capacity": 1000000
     },
     {
       "type": "custommachinery:item",
@@ -94,70 +95,105 @@
   "gui": [
     {
       "type": "custommachinery:background",
-      "width": 176,
-      "height": 166
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advanced_empowerer_bg.png"
+      },
+      "width": 192,
+      "height": 192
     },
     {
       "type": "custommachinery:config",
-      "x": 152,
-      "y": 5,
-      "width": 14,
-      "height": 14
+      "texture_hovered": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_config_hovered.png"
+      },
+      "priority": 9,
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_config_button.png"
+      },
+      "x": 122,
+      "y": 66,
+      "width": 16,
+      "height": 16
     },
     {
       "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_energybar_full.png"
+      },
       "id": "energy",
       "x": 14,
-      "y": 19,
+      "y": 21,
       "width": 9,
-      "height": 61
+      "height": 63,
+      "texture_empty": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_energybar_empty.png"
+      }
     },
     {
       "type": "custommachinery:player_inventory",
-      "x": 7,
-      "y": 84,
-      "width": 162
+      "texture": {
+        "texture": "ftb:textures/gui/base_inventory.png"
+      },
+      "x": 15,
+      "y": 106
     },
     {
       "type": "custommachinery:progress",
-      "priority": 1,
-      "texture": {
-        "texture": "custommachinery:textures/gui/base_arrow.png"
-      },
-      "x": 103,
-      "y": 29,
+      "x": 84,
+      "y": 44,
       "width": 24,
-      "height": 17
+      "height": 17,
+      "texture_empty": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_arrow_empty.png"
+      },
+      "texture_filled": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_arrow_full.png"
+      }
     },
     {
       "type": "custommachinery:slot",
       "id": "input_1",
-      "x": 39,
-      "y": 56
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_bottomslot.png"
+      },
+      "x": 61,
+      "y": 19
     },
     {
       "type": "custommachinery:slot",
       "id": "input_2",
-      "x": 58,
-      "y": 56
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_bottomslot.png"
+      },
+      "x": 61,
+      "y": 36
     },
     {
       "type": "custommachinery:slot",
       "id": "input_3",
-      "x": 77,
-      "y": 56
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_bottomslot.png"
+      },
+      "x": 61,
+      "y": 53
     },
     {
       "type": "custommachinery:slot",
       "id": "input_4",
-      "x": 96,
-      "y": 56
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_bottomslot.png"
+      },
+      "x": 61,
+      "y": 70
     },
     {
       "type": "custommachinery:slot",
       "id": "input_main",
-      "x": 65,
-      "y": 26,
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_topslot.png"
+      },
+      "x": 33,
+      "y": 41,
       "width": 22,
       "height": 22
     },
@@ -165,8 +201,11 @@
       "type": "custommachinery:slot",
       "id": "output",
       "priority": 1,
-      "x": 143,
-      "y": 26,
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_topslot.png"
+      },
+      "x": 119,
+      "y": 41,
       "width": 22,
       "height": 22
     },
@@ -174,14 +213,19 @@
       "type": "custommachinery:slot",
       "id": "upgrade",
       "priority": 1,
-      "x": 146,
-      "y": 55,
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_speedupgrade_outline.png"
+      },
+      "x": 90,
+      "y": 22,
+      "width": 12,
+      "height": 14,
       "ghost": {
         "items": {
           "item": "mekanism:upgrade_speed"
         },
         "color": {
-          "alpha": 0.2784314
+          "alpha": 0.0
         }
       }
     },
@@ -190,7 +234,9 @@
       "x": 92,
       "y": 6,
       "text": {
-        "text": "ftb.machine.advanced_empowerer"
+        "text": {
+          "translate": "ftb.machine.advanced_empowerer"
+        }
       },
       "alignment": "center"
     }

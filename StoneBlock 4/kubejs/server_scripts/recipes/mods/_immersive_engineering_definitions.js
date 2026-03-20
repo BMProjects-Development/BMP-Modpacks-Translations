@@ -107,7 +107,9 @@ function addRecipeIEMetalPressWire(event, itemInputTag, output, mold, id) {
       input: input,
       mold: mold,
       result: {
-        item: itemID,
+        basePredicate: {
+          item: itemID,
+        },
         count: count ?? 1
       }
     })

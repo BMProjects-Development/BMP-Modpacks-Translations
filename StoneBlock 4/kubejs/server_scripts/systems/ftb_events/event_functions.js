@@ -202,6 +202,28 @@ const checks = {
   },
 };
 
+// Rejects locations that are too enclosed (e.g. inside reactors, turbines, glass structures)
+const isLocationEnclosed = (level, pos) => {
+  let solidNeighbors = 0;
+  let offsets = [[1, 0, 0], [-1, 0, 0], [0, 0, 1], [0, 0, -1]];
+  for (let i = 0; i < offsets.length; i++) {
+    let neighborId = level.getBlock(pos.x + offsets[i][0], pos.y + offsets[i][1], pos.z + offsets[i][2]).id;
+    if (neighborId !== "minecraft:air" && neighborId !== "minecraft:cave_air") {
+      solidNeighbors++;
+    }
+  }
+  // Check vertical clearance (need at least 3 air blocks above)
+  let ceilingHeight = 0;
+  for (let y = 1; y <= 3; y++) {
+    let aboveId = level.getBlock(pos.x, pos.y + y, pos.z).id;
+    if (aboveId === "minecraft:air" || aboveId === "minecraft:cave_air") {
+      ceilingHeight++;
+    }
+  }
+  // Enclosed if 3+ sides are solid OR ceiling is too low
+  return solidNeighbors >= 3 || ceilingHeight < 2;
+};
+
 const checkSpawnLocation = (
   level,
   pos,
@@ -217,8 +239,13 @@ const checkSpawnLocation = (
       ? (pos) => Ku.Utils.notNullOrEmpty(level.getBlock(pos))
       : null
   );
+  if (blocks.length <= 0) return { okay: false, blocks: [] };
+
+  // Reject enclosed locations (inside reactors, turbines, glass structures, etc.)
+  if (isLocationEnclosed(level, pos)) return { okay: false, blocks: [] };
+
   return {
-    okay: blocks.length > 0,
+    okay: true,
     blocks: Ku.Streams.mapToBlock(level, blocks),
   };
 };

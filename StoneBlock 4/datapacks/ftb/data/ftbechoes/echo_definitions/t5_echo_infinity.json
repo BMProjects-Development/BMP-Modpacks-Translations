@@ -29,7 +29,7 @@
       "required_stage": "echo_infinity_stage5_task1_completed",
       "ready": {"translate": "ftb.echo.infinity.stage5.task1.ready"},
       "completed": {"translate": "ftb.echo.infinity.stage5.task1.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_infinity_stage5_task1_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_infinity_stage5_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "Stack Upgrade Omega Tier", "item": {"id": "sophisticatedstorage:stack_upgrade_omega_tier", "count": 1}, "cost": 500, "description": {"translate": "ftb.shop.description.exclusive"}},
         {"name": "100 Hrs of Temporal Time", "command": {"run": "gag give_time @s 7200000", "permission": 3, "description": {"translate": "ftb.shop.title.temporal_pouch_hundred_hours"}}, "cost": 500, "description": {"translate": "ftb.shop.description.temporal_pouch_warning"}, "icon": "gag:item/time_sand_pouch"},

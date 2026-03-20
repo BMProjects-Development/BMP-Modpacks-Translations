@@ -149,6 +149,13 @@
 			x: 0.0d
 			y: 29.0d
 		}
+		{
+			id: "7E4A2AC51F3DC9B3"
+			linked_quest: "01DB719967817220"
+			shape: "square"
+			x: 2.0d
+			y: 4.5d
+		}
 	]
 	quests: [
 		{
@@ -166,7 +173,7 @@
 					id: "1EABC1901175F0B7"
 					ignore_reward_blocking: true
 					stage: "echo_chaos_meet"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -206,7 +213,7 @@
 					id: "38F07D3091D37295"
 					ignore_reward_blocking: true
 					stage: "echo_radiance_meet"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -251,7 +258,7 @@
 					id: "06A35BA788ADFFE0"
 					ignore_reward_blocking: true
 					stage: "echo_infinity_meet"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -292,6 +299,7 @@
 					auto: "invisible"
 					id: "46773D44807FE793"
 					stage: "echo_radiance_stage5_task1_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -316,7 +324,7 @@
 				}
 			]
 			x: 2.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["30EE07811728D901"]
@@ -334,6 +342,7 @@
 					auto: "invisible"
 					id: "526B386362F93EAF"
 					stage: "echo_infinity_stage5_task1_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -425,7 +434,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 1.0d
 			y: 1.5d
 		}
 		{
@@ -506,7 +515,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 3.0d
 			y: 2.5d
 		}
 		{
@@ -525,6 +534,7 @@
 					auto: "invisible"
 					id: "54FFDFFA1DE48481"
 					stage: "echo_chaos_stage5_task1_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -601,6 +611,7 @@
 				}
 				id: "77F88B2E5E3A0AE2"
 				stage: "echo_chaos_stage5_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -2.0d
@@ -648,6 +659,7 @@
 				}
 				id: "76987C0F742A8A14"
 				stage: "echo_infinity_stage5_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -695,6 +707,7 @@
 				}
 				id: "32877EA200F47B95"
 				stage: "echo_radiance_stage5_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 2.0d
@@ -729,6 +742,7 @@
 				}
 				id: "7D8611641B6611FB"
 				stage: "echo_guidance_stage5_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -752,7 +766,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -786,25 +800,29 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["21322BAF061FE83F"]
+			dependencies: [
+				"01DB719967817220"
+				"28F9C2B43B31DE16"
+			]
 			icon: {
 				id: "mekanism:pellet_antimatter"
 			}
 			id: "543C6917A16F266C"
 			rewards: [{
-				amount: 75
+				amount: 100
 				id: "166B33BB018798E1"
 				type: "currency"
 			}]
 			shape: "square"
 			tasks: [
 				{
-					id: "13CB5ECF57A6A1F2"
-					item: { count: 1, id: "mekanism:sps_casing" }
+					id: "35A7A3789D3B5C53"
+					item: { count: 1, id: "mekanism:chemical_crystallizer" }
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -813,8 +831,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 4.5d
+			x: 3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["17C23A586C708425"]
@@ -825,6 +843,8 @@
 				id: "custommachinery:custom_machine_item"
 			}
 			id: "21322BAF061FE83F"
+			min_width: 300
+			optional: true
 			rewards: [{
 				amount: 50
 				id: "4B3EF12C817B88B3"
@@ -865,7 +885,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 2.0d
 			y: 3.5d
 		}
 		{
@@ -885,6 +905,7 @@
 					id: "1A06380591B1C95A"
 					ignore_reward_blocking: true
 					stage: "echo_wyrmwright_stage5_task2_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -924,12 +945,14 @@
 					auto: "invisible"
 					id: "4609182644671B5B"
 					stage: "echo_guidance_stage4_task2_completed"
+					team_reward: true
 					type: "gamestage"
 				}
 				{
 					auto: "invisible"
 					id: "113498AAC7D77969"
 					stage: "t5_zone_unlocked"
+					team_reward: true
 					type: "gamestage"
 				}
 			]
@@ -944,6 +967,7 @@
 				}
 				id: "64B290466E13BE30"
 				stage: "echo_wyrmwright_stage5_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -969,6 +993,7 @@
 				}
 				id: "061CA75E28BD6BF6"
 				stage: "echo_wyrmwright_stage5_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -1153,30 +1178,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["21322BAF061FE83F"]
-			icon: {
-				components: {
-					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "3CFC372F57CF6B82"
-			rewards: [{
-				amount: 1
-				id: "16A295C812371EF6"
-				type: "currency"
-			}]
-			shape: "diamond"
-			size: 0.75d
-			tasks: [{
-				id: "5B1EDE30C0E98068"
-				type: "checkmark"
-			}]
-			x: 3.5d
+			x: 1.0d
 			y: 3.5d
 		}
 		{
@@ -1193,8 +1195,117 @@
 				item: { count: 1, id: "draconicevolution:medium_chaos_frag" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["17C23A586C708425"]
+			icon: {
+				id: "occultism:trinity_gem"
+			}
+			id: "48EEEEDA95AD9C67"
+			min_width: 300
+			optional: true
+			rewards: [{
+				amount: 50
+				id: "080726D1E5598CF5"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "6BD2666EC8277A3D"
+					item: { count: 1, id: "occultism:trinity_gem" }
+					type: "item"
+				}
+				{
+					id: "543E4366B5FA3091"
+					item: { count: 1, id: "oritech:enchantment_catalyst_block" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48EEEEDA95AD9C67"]
+			icon: {
+				id: "ftb:fortified_containment_device"
+			}
+			id: "28F9C2B43B31DE16"
+			min_width: 300
+			optional: true
+			rewards: [{
+				amount: 75
+				id: "3A96D3CECC350334"
+				type: "currency"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "4F77E9A1AC4F0F19"
+					item: { count: 1, id: "ftb:fortified_containment_device" }
+					type: "item"
+				}
+				{
+					id: "500D2C5C1A418CB5"
+					item: { count: 1, id: "ftb:antimatter_fragments" }
+					type: "item"
+				}
+			]
+			x: 3.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["48EEEEDA95AD9C67"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "enderio:enchanter"
+			}
+			id: "35AB3E816F51A68E"
+			optional: true
+			rewards: [{
+				amount: 10
+				id: "5C44EE555BC78CC0"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "321AE58794520063"
+					item: { count: 1, id: "enderio:enchanter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1649D33F9412DBA0"
+					item: { count: 1, id: "create_enchantment_industry:printer" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["48EEEEDA95AD9C67"]
+			hide_until_deps_complete: true
+			id: "38893C57D1D9A5DE"
+			min_width: 300
+			optional: true
+			rewards: [{
+				amount: 15
+				id: "2B4F2E51AF298FAE"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "474AFBE17492A12E"
+				item: { count: 1, id: "oritech:wither_crop_block" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
 		}
 	]
 }

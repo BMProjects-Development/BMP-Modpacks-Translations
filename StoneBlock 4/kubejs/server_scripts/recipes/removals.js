@@ -358,7 +358,23 @@ const recipeIdsToRemove = [
   "twilightforest:magma_cream_maze_ver",
   "irregular_implements:lapis_lamp",
   "create_shimmer:blasting/raw_knightmetal",
-  "create_shimmer:smelting/raw_knightmetal"
+  "create_shimmer:smelting/raw_knightmetal",
+  "sophisticatedbackpacks:stonecutter_upgrade",
+  /^ae2:upgrade\/item_storage_cell_1k_to_.*/,
+  /^ae2:upgrade\/item_storage_cell_4k_to_.*/,
+  /^ae2:upgrade\/item_storage_cell_16k_to_.*/,
+  /^ae2:upgrade\/item_storage_cell_64k_to_.*/,
+  /^ae2:upgrade\/item_storage_cell_256k_to_.*/,
+  /^ae2:upgrade\/fluid_storage_cell_1k_to_.*/,
+  /^ae2:upgrade\/fluid_storage_cell_4k_to_.*/,
+  /^ae2:upgrade\/fluid_storage_cell_16k_to_.*/,
+  /^ae2:upgrade\/fluid_storage_cell_64k_to_.*/,
+  /^ae2:upgrade\/fluid_storage_cell_256k_to_.*/,
+  /^appmek:upgrade\/chemical_storage_cell_1k_to_.*/,
+  /^appmek:upgrade\/chemical_storage_cell_4k_to_.*/,
+  /^appmek:upgrade\/chemical_storage_cell_16k_to_.*/,
+  /^appmek:upgrade\/chemical_storage_cell_64k_to_.*/,
+  /^appmek:upgrade\/chemical_storage_cell_256k_to_.*/
 ];
 
 const recipeTypesToRemove = ["immersiveengineering:arc_recycling", "irregular_implements:custom_crafting_table"];

@@ -414,6 +414,18 @@ const chickenRecipes = [
         parent_1: "c_diamond",
         parent_2: "c_netherwart",
         item: "minecraft:ender_pearl"
+      },
+      {
+        output: "c_quartz_enriched_iron",
+        parent_1: "c_certusquartz",
+        parent_2: "c_iron",
+        item: "refinedstorage:quartz_enriched_iron"
+      },
+      {
+        output: "c_quartz_enriched_copper",
+        parent_1: "c_certusquartz",
+        parent_2: "c_copper",
+        item: "refinedstorage:quartz_enriched_copper"
       }
     ]
   },

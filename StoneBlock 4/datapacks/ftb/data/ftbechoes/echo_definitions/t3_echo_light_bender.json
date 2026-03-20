@@ -32,7 +32,7 @@
       "required_stage": "echo_light_bender_stage3_task1_completed",
       "ready": {"translate": "ftb.echo.light_bender.stage3.task1.ready"},
       "completed": {"translate": "ftb.echo.light_bender.stage3.task1.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_light_bender_stage3_task1_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_light_bender_stage3_task1_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "Phantom Connector", "item": {"id": "actuallyadditions:phantom_connector", "count": 1}, "cost": 60, "description": {"translate": "ftb.shop.description.exclusive"}},
         {"name": "1 Hr of Temporal Time", "command": {"run": "gag give_time @s 72000", "permission": 3, "description": {"translate": "ftb.shop.title.temporal_pouch_one_hour"}}, "cost": 15, "description": {"translate": "ftb.shop.description.temporal_pouch_warning"}, "icon": "gag:item/time_sand_pouch"},
@@ -65,7 +65,7 @@
       "required_stage": "echo_light_bender_stage3_task2_completed",
       "ready": {"translate": "ftb.echo.light_bender.stage3.task2.ready"},
       "completed": {"translate": "ftb.echo.light_bender.stage3.task2.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_light_bender_stage3_task2_check", "permission": 3}, "experience": 100},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_light_bender_stage3_task2_check", "permission": 3}, "experience": 100},
       "shop_unlock": [
         {"name": "QIO Dashboard", "item": {"id": "mekanism:qio_dashboard", "count": 1}, "cost": 45},
         {"name": "portable_qio", "item": {"id": "mekanism:portable_qio_dashboard", "count": 1}, "cost": 60},
