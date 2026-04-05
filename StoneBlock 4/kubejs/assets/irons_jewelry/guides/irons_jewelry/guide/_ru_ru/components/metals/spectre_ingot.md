@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Spectre Ingot
+  title: Спектральный слиток
   position: 21
   icon: "irregular_implements:spectre_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - irregular_implements:spectre_ingot
 ---
-# Spectre Ingot
+# Спектральный слиток
 
 <ItemImage id="irregular_implements:spectre_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 2
+- <Color id="gray">Множитель качества:</Color> 2
 
-### Attribute
-- Adds Arrow Velocity+ (Percentage)
+### Атрибут
+- Добавляет скорость полёта стрелы+ (процент)

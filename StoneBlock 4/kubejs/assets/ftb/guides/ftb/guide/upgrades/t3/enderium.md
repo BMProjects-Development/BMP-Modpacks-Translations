@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - ftb:enderium_block
 ---
-# Enderium Block Upgrade
+# <Color id="gold">Enderium Block Upgrade</Color>
 
 <ItemImage id="ftb:enderium_block" scale="3" />
 
@@ -15,7 +15,7 @@ The <Color id="red">Enderium Block</Color> is a major upgrade that unlocks a lot
 
 This upgrade is also need to craft the <Color id="gold">Advanced Machine Block</Color> upgrade.
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="projecte:collector_mk2" />

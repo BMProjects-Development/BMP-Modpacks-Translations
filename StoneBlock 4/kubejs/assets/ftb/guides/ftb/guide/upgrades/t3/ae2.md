@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - ae2:quantum_ring
 ---
-# Quantum Tunnel Upgrade
+# <Color id="green">Quantum Tunnel Upgrade</Color>
 
 <ItemImage id="ae2:quantum_ring" scale="3" />
 
@@ -17,7 +17,7 @@ You will need to set up a Quantum Ring connected to your AE2 system and make sur
 
 This upgrade will also need the <Color id="red">Advanced Machine Block</Color> upgrade for its recipe unlocks.
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="advanced_ae:reaction_chamber" />

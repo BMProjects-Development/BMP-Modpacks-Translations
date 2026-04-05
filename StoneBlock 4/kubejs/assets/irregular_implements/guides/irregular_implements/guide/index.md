@@ -7,10 +7,14 @@ item_ids:
   - irregular_implements:ectoplasm
   - irregular_implements:spectre_sapling
 ---
-# Irregular Implements
+
+<Column alignItems="center" fullWidth={true}>
+# <Color id="gold">Irregular Implements</Color>
+</Column>
 
 <Color id="gold">Irregular Implements</Color> is a mod that adds a ton of useful items, inlcuding early game wireless energy and your own personal dimension!
 
+***
 
 <Column alignItems="center" fullWidth={true}>
 ### <ItemImage id="irregular_implements:ectoplasm" scale="0.75" /> <Color id="aqua">Ectoplasm</Color>
@@ -20,6 +24,8 @@ item_ids:
 Most of the items in the mod will require <Color id="aqua">Ectoplasm</Color> to craft.
 
 <Color id="aqua">Ectoplasm</Color> can be acquired as a drop from the <Color id="gold">Loot Bee</Color>, can be found in loot chests, or as a drop from killing <Color id="aqua">Vexes</Color> or <Color id="aqua">Wraiths</Color>.
+
+***
 
 <Column alignItems="center" fullWidth={true}>
 ### <ItemImage id="irregular_implements:spectre_sapling" scale="0.75" /> <Color id="aqua">Automating Ectoplasm</Color>

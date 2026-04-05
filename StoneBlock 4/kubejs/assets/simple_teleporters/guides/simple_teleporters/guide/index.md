@@ -7,7 +7,10 @@ item_ids:
   - simpleteleporters:teleporter
   - simpleteleporters:ender_shard
 ---
-# Simple Teleporters
+
+<Column alignItems="center" fullWidth={true}>
+# <Color id="gold">Simple Teleporters</Color>
+</Column>
 
 <Color id="gold">Simple Teleporters</Color> does exactly what you think! This mod adds easy to use Teleporters for instant travel across your world.
 
@@ -18,8 +21,6 @@ To use this mod, you will need the two base items: A <Color id="aqua">Teleporter
 <Column alignItems="center" fullWidth={true}>
 ### <ItemImage id="simpleteleporters:teleporter" scale="0.75" /> <Color id="aqua">How To Set Up A Teleporter</Color> <ItemImage id="simpleteleporters:teleporter" scale="0.75" />
 </Column>
-
-***
 
 The <Color id="aqua">Teleporter</Color> is the main block that teleports you around. Where it teleports you is determined by the <Color id="light_purple">Ender Shard</Color> that is installed into it.
 
@@ -32,8 +33,6 @@ To teleport to the bound location, simply sneak while on the Teleporter.
 <Column alignItems="center" fullWidth={true}>
 ### <ItemImage id="minecraft:anvil" scale="0.75" /> <Color id="aqua">Creating Hover Text</Color> <ItemImage id="minecraft:anvil" scale="0.75" />
 </Column>
-
-***
 
 Once you've bound a location to an <Color id="light_purple">Ender Shard</Color>, you can also use an <Color id="green">Anvil</Color> to name them.
 

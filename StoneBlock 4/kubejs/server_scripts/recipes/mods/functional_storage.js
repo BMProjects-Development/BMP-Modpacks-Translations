@@ -63,12 +63,26 @@ ServerEvents.recipes((event) => {
       type: "functionalstorage:custom_compacting",
       higher_input: {
         count: 1,
+        id: "minecraft:hay_block",
+      },
+      lower_input: {
+        count: 3,
+        id: "oritech:packed_wheat",
+      },
+    })
+    .id("ftb:compacting/hay_block_to_packed_wheat");
+
+      event
+    .custom({
+      type: "functionalstorage:custom_compacting",
+      higher_input: {
+        count: 1,
         id: "oritech:packed_wheat",
       },
       lower_input: {
-        count: 4,
+        count: 3,
         id: "minecraft:wheat",
       },
     })
-    .id("ftb:compacting/wheat");
+    .id("ftb:compacting/packed_wheat_to_wheat");
 });

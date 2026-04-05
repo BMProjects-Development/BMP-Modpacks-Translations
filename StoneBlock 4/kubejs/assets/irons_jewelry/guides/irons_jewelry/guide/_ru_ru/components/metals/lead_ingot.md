@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Lead Ingot
+  title: Свинцовый слиток
   position: 13
   icon: "ftbmaterials:lead_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - ftbmaterials:lead_ingot
 ---
-# Lead Ingot
+# Свинцовый слиток
 
 <ItemImage id="ftbmaterials:lead_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 0.75
+- <Color id="gray">Множитель качества:</Color> 0.75
 
-### Attribute
-- Adds Underwater Mining Speed (Flat)
+### Атрибут
+- Добавляет скорость добычи под водой (фиксированную)

@@ -1,23 +1,23 @@
 ---
 navigation:
-  title: Silver Ingot
+  title: Серебряный слиток
   position: 20
   icon: "ftbmaterials:silver_ingot"
   parent: irons_jewelry:metals.md
 ---
-# Silver Ingot
+# Серебряный слиток
 
 <ItemImage id="ftbmaterials:silver_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 1
+- <Color id="gray">Множитель качества:</Color> 1
 
-### Attribute
-- Adds Movement Speed (Percentage)
+### Атрибут
+- Добавляет скорость передвижения (процент)
 
-### Immunity Effect
-- Bad Omen
+### Эффект иммунитета
+- Дурное предзнаменование
 
-### Action Effect
-- Creates Explosion
+### Эффект действия
+- Создаёт взрыв

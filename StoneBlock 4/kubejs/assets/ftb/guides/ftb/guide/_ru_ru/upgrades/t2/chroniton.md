@@ -7,13 +7,14 @@ navigation:
 item_ids:
   - ftb:chroniton_glass
 ---
+# <Color id="green">Улучшение "Хронитоновое стекло"</Color>
 # Улучшение "Хронитоновое стекло"
 
 <ItemImage id="ftb:chroniton_glass" scale="3" />
 
-<Color id="green">"Хронитоновое стекло"</Color> дополнительное улучшение, которое открывает множество полезных рецептов в <Color id="gold">мировом двигателе</Color>, включая начало выработки EMC.
+<Color id="green">"Хронитоновое стекло"</Color> второстепенное улучшение, которое открывает множество полезных рецептов в <Color id="gold">мировом двигателе</Color>, включая начало выработки EMC.
 
-## Разблокируемые рецепты:
+## <Color id="gold">Разблокируемые рецепты:</Color>
 
 <ItemGrid>
   <ItemIcon id="enderstorage:ender_chest" />

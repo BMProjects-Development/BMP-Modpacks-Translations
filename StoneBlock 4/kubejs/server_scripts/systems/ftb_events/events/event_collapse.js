@@ -238,12 +238,12 @@ function spawnFallingBlock(level, spawnPos, blockType, isSuspicious, lootTable) 
             let selectedItem = Ku.Lists.getEntryBasedOnWeight(lootTable)
 
             ///give @a suspicious_sand[block_entity_data={id:brushable_block,item:{id:acacia_button,count:1}}]
-                // Add block entity data with the item (equivalent to block_entity_data in /give command)
+                // FallingBlockEntity uses "TileEntityData" in its NBT (not "block_entity_data" which is the item component name)
             nbt.TileEntityData = {
                 id: "brushable_block",
                 item: {
-                    id: selectedItem.entry.item,
-                    count: Math.floor(Math.random() * selectedItem.entry.count) + 1
+                    id: selectedItem.item,
+                    count: Math.floor(Math.random() * selectedItem.count) + 1
                 }
             };
         } else {

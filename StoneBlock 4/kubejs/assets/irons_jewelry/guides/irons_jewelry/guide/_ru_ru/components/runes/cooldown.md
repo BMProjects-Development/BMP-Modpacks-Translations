@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Cooldown Rune
+  title: Руна восстановления
   position: 3
   icon: "irons_spellbooks:cooldown_rune"
   parent: irons_jewelry:runes.md
 item_ids:
   - irons_spellbooks:cooldown_rune
 ---
-# Cooldown Rune
+# Руна восстановления
 
 <ItemImage id="irons_spellbooks:cooldown_rune" scale="3" />
 
-This item can be used as a <Color id="aqua">Rune</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Руна</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 1.5
+- <Color id="gray">Множитель качества:</Color> 1.5
 
-### Attribute
-- Adds Cooldown Reduction (Percentage)
+### Атрибут
+- Добавляет сокращение времени восстановления (процент)

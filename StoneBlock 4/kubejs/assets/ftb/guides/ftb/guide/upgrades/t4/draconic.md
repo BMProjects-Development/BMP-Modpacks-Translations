@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - draconicevolution:energy_core_stabilizer
 ---
-# Resonant Void Upgrade
+# <Color id="gold">Draconic Upgrade</Color>
 
 <ItemImage id="draconicevolution:energy_core_stabilizer" scale="3" />
 
@@ -17,7 +17,7 @@ It is also required to craft the <Color id="light_purple">Resonant Void</Color> 
 
 This upgrade will need the <Color id="red">Advanced Machine Block</Color> upgrade for its recipe unlocks.
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="apotheosis:mythic_material" />

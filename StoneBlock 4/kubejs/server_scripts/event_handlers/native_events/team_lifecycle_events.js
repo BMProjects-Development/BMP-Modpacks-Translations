@@ -72,13 +72,21 @@ FTBTeamsEvents.playerJoinedParty((event) => {
         .dimension()
         .location()} run spawnpoint ${player.getUsername()} ${x} ${y} ${z}`
     );
-    let owner = Teams.getTeam(player).getOwner();
-    server
-      .getPlayer(owner)
-      .stages.getAll()
-      .forEach((stage) => {
+    // Sync team stages to the joining player's player stages
+    let teamStages = Teams.getTeamStages(player);
+    if (teamStages) {
+      teamStages.forEach((stage) => {
         server.runCommandSilent(`kjs stages add ${player.username} ${stage}`);
       });
+    }
+    // Also copy owner's player stages (catches any player-only stages)
+    let owner = Teams.getTeam(player)?.getOwner();
+    let ownerPlayer = owner ? server.getPlayer(owner) : null;
+    if (ownerPlayer) {
+      ownerPlayer.stages.getAll().forEach((stage) => {
+        server.runCommandSilent(`kjs stages add ${player.username} ${stage}`);
+      });
+    }
   });
 });
 

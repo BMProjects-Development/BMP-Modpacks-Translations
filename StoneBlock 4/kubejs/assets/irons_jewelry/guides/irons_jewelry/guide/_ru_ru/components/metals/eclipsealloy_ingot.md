@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Eclipse Alloy Ingot
+  title: Слиток сплава затмения
   position: 7
   icon: "justdirethings:eclipsealloy_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - justdirethings:eclipsealloy_ingot
 ---
-# Eclipse Alloy Ingot
+# Слиток сплава затмения
 
 <ItemImage id="justdirethings:eclipsealloy_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 3
+- <Color id="gray">Множитель качества:</Color> 3
 
-### Attribute
-- Adds Life Steal (Percentage)
+### Атрибут
+- Добавляет вампиризм (процент)

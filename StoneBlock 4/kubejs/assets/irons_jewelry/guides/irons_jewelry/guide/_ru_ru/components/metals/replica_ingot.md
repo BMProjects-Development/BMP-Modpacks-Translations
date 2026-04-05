@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Replica Ingot
+  title: Слиток реплики
   position: 20
   icon: "replication:replica_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - replication:replica_ingot
 ---
-# Replica Ingot
+# Слиток реплики
 
 <ItemImage id="replication:replica_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 2
+- <Color id="gray">Множитель качества:</Color> 2
 
-### Attribute
-- Adds Mining Speed+ (Percentage)
+### Атрибут
+- Добавляет скорость добычи+ (процент)

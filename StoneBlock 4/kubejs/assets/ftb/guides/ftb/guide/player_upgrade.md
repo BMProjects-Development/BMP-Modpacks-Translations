@@ -10,11 +10,13 @@ item_ids:
 <Column alignItems="center" fullWidth={true}>
 <ItemImage id="ftb:player_upgrade" scale="2" />
 The <Color id="light_purple">Player Upgrade</Color> is a curio item that can be upgraded via <Color id="gold">Shop purchases</Color>.
+</Column>
+
+***
 
 These upgrades can only be bought while holding the <Color id="light_purple">Player Upgrade</Color> in your hand. If done correctly, it will add the purchased attribute upgrade to the item, which can then be equipped in the special <Color id="light_purple">Player Upgrade</Color> curio slot for a permanent upgrade to your attributes.
 
 Each attribute has a max amount that the <Color id="light_purple">Player Upgrade</Color> can hold. If for any reason the upgrade cannot be applied, you will be refunded for the purchase.
-</Column>
 
 ***
 
@@ -22,7 +24,6 @@ Each attribute has a max amount that the <Color id="light_purple">Player Upgrade
 ### <ItemImage id="ftb:player_upgrade" scale="0.75" /> <Color id="aqua">List of Available Shop Purchases</Color> <ItemImage id="ftb:player_upgrade" scale="0.75" />
 </Column>
 
-***
 
 ## <Color id="gold">Guidance</Color>
 

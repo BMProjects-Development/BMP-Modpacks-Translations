@@ -10,19 +10,20 @@ item_ids:
 <Column alignItems="center" fullWidth={true}>
 <ItemImage id="ftb:player_upgrade" scale="2" />
 <Color id="light_purple">Улучшение игрока</Color> - это диковинка, которую можно улучшать с помощью <Color id="gold">покупок в магазине</Color>.
+</Column>
+
+***
 
 Эти улучшения можно купить, только держа <Color id="light_purple">улучшение игрока</Color> в руке. При правильном выполнении, это добавит приобретенное улучшение атрибутов к предмету, который можно будет экипировать в специальный слот Curio <Color id="light_purple">улучшение игрока</Color> для постоянного повышения Ваших характеристик.
 
 Каждый атрибут имеет максимальное количество, которое может содержать <Color id="light_purple">улучшение игрока</Color>. Если по какой-либо причине улучшение не может быть применено, покупка будет возвращена.
-</Column>
 
 ***
 
 <Column alignItems="center" fullWidth={true}>
-### <ItemImage id="ftb:player_upgrade" scale="0.75" /> <Color id="aqua">List Available Shop Purchases</Color> <ItemImage id="ftb:player_upgrade" scale="0.75" />
+### <ItemImage id="ftb:player_upgrade" scale="0.75" /> <Color id="aqua">Список доступных покупок</Color> <ItemImage id="ftb:player_upgrade" scale="0.75" />
 </Column>
 
-***
 
 ## <Color id="gold">Наставник</Color>
 

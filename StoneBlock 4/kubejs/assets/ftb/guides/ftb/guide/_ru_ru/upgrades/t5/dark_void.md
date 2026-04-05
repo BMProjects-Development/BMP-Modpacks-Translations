@@ -7,14 +7,14 @@ navigation:
 item_ids:
   - xycraft_machines:void_container
 ---
-# Улучшение "Пустота"
+# <Color id="gold">Улучшение "Тёмная пустота"</Color>
 
 <ItemImage id="xycraft_machines:void_container" scale="3" />
 
-<Color id="dark_purple">"Пустота"</Color> необходимое улучшение, которое разблокирует <Color id="gold">сингулярность</Color>, создаваемую в <Color id="gold">мировом двигателе</Color>.
+<Color id="dark_purple">"Тёмная пустота"</Color> - необходимое улучшение, которое разблокирует <Color id="gold">сингулярность</Color>, создаваемую в <Color id="gold">мировом двигателе</Color>.
 
 
-## Разблокируемые рецепты:
+## <Color id="gold">Разблокируемые рецепты:</Color>
 
 <ItemGrid>
   <ItemIcon id="mekanism:ultimate_tier_installer" />

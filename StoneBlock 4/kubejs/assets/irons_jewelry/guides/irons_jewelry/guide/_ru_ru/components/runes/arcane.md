@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Arcane Rune
+  title: Руна волшебства
   position: 1
   icon: "irons_spellbooks:arcane_rune"
   parent: irons_jewelry:runes.md
 item_ids:
   - irons_spellbooks:arcane_rune
 ---
-# Arcane Rune
+# Руна волшебства
 
 <ItemImage id="irons_spellbooks:arcane_rune" scale="3" />
 
-This item can be used as a <Color id="aqua">Rune</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Руна</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 1.5
+- <Color id="gray">Множитель качества:</Color> 1.5
 
-### Attribute
-- Adds Iron's Spells Max Mana (Flat)
+### Атрибут
+- Добавляет максимальную ману заклинаний Iron's (фиксированную)

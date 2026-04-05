@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Dark Steel Ingot
+  title: Слиток тёмной стали
   position: 4
   icon: "enderio:dark_steel_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - enderio:dark_steel_ingot
 ---
-# Dark Steel Ingot
+# Слиток тёмной стали
 
 <ItemImage id="enderio:dark_steel_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 2
+- <Color id="gray">Множитель качества:</Color> 2
 
-### Attribute
-- Adds Mining Efficiency (Percentage)
+### Атрибут
+- Добавляет эффективность добычи (процент)

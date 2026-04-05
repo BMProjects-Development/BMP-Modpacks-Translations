@@ -1,25 +1,25 @@
 ---
 navigation:
-  title: Pyrium Ingot
+  title: Пириевый слиток
   position: 17
   icon: "irons_spellbooks:pyrium_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - irons_spellbooks:pyrium_ingot
 ---
-# Pyrium Ingot
+# Пириевый слиток
 
 <ItemImage id="irons_spellbooks:pyrium_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 3
+- <Color id="gray">Множитель качества:</Color> 3
 
-### Attribute
-- Adds Cast Time Reduction (Percentage)
+### Атрибут
+- Добавляет сокращение времени каста (процент)
 
-### Immunity Effect
-- Guided
+### Эффект иммунитета
+- Наведение
 
-### Positive Effect
-- Vigor
+### Положительный эффект
+- Жизнестойкость

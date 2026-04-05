@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - ftb:world_engine_machine_block
 ---
-# Basic Machine Block Upgrade
+# <Color id="gold">Basic Machine Block Upgrade</Color>
 
 <ItemImage id="ftb:world_engine_machine_block" scale="3" />
 
@@ -15,7 +15,7 @@ The <Color id="green">World Engine Machine Block</Color> upgrade is the first ma
 
 This upgrade unlocks a lot of the basic machinery you will need as you progress in the pack, including the start of <Color id="gold">AE2</Color>.
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="pipez:item_pipe" />

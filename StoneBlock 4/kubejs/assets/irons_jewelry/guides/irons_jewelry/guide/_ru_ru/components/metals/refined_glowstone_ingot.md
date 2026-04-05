@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Refined Glowstone Ingot
+  title: Слиток очищенного светокамня
   position: 18
   icon: "ftbmaterials:refined_glowstone_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - ftbmaterials:refined_glowstone_ingot
 ---
-# Refined Glowstone Ingot
+# Слиток очищенного светокамня
 
 <ItemImage id="ftbmaterials:refined_glowstone_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 2.1
+- <Color id="gray">Множитель качества:</Color> 2.1
 
-### Attribute
-- Adds Mining Speed+ (Percentage)
+### Атрибут
+- Добавляет скорость добычи+ (процент)

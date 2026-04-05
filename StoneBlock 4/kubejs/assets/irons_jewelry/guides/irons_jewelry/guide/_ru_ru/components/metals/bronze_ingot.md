@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Bronze Ingot
+  title: Бронзовый слиток
   position: 4
   icon: "ftbmaterials:bronze_ingot"
   parent: irons_jewelry:metals.md
 ---
-# Bronze Ingot
+# Бронзовый слиток
 
 <ItemImage id="ftbmaterials:bronze_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 1
+- <Color id="gray">Множитель качества:</Color> 1
 
-### Attribute
-- Adds Swim Speed (Percentage)
+### Атрибут
+- Добавляет скорость плавания (процент)

@@ -17,7 +17,7 @@
           "block_entity_modifier": {
             "type": "minecraft:append_static",
             "data": {
-              "Command": "/trivia"
+              "Command": "/execute as @p run trivia"
             }
           }
         }

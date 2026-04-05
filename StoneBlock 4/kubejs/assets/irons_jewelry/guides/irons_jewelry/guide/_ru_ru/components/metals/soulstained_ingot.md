@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Soulstained Ingot
+  title: Слиток духостали
   position: 20
   icon: "malum:soul_stained_steel_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - malum:soul_stained_steel_ingot
 ---
-# Soulstained Ingot
+# Слиток духостали
 
 <ItemImage id="malum:soul_stained_steel_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 2.2
+- <Color id="gray">Множитель качества:</Color> 2.2
 
-### Attribute
-- Adds Mining Speed+ (Percentage)
+### Атрибут
+- Добавляет скорость добычи+ (процент)

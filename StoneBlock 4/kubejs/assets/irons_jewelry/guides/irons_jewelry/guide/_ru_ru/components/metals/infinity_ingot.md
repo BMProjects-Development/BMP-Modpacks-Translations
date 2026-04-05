@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Infinity Ingot
+  title: Слиток бесконечности
   position: 12
   icon: "avaritia:infinity_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - avaritia:infinity_ingot
 ---
-# Infinity Ingot
+# Слиток бесконечности
 
 <ItemImage id="avaritia:infinity_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 100
+- <Color id="gray">Множитель качества:</Color> 100
 
-### Attribute
-- Adds Creative Flight
+### Атрибут
+- Даёт творческий полёт

@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Protective Rune
+  title: Руна защиты
   position: 11
   icon: "irons_spellbooks:protection_rune"
   parent: irons_jewelry:runes.md
 item_ids:
   - irons_spellbooks:protection_rune
 ---
-# Protective Rune
+# Руна защиты
 
 <ItemImage id="irons_spellbooks:protection_rune" scale="3" />
 
-This item can be used as a <Color id="aqua">Rune</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Руна</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 1.5
+- <Color id="gray">Множитель качества:</Color> 1.5
 
-### Attribute
-- Adds Spell Resistance (Percentage)
+### Атрибут
+- Добавляет сопротивление заклинаниям (процент)

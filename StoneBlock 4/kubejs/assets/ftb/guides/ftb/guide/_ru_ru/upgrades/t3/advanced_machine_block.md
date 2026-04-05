@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - ftb:world_engine_advanced_machine_block
 ---
-# Улучшение "Усовершенствованный корпус механизма"
+# <Color id="gold">Улучшение "Усовершенствованный корпус механизма"</Color>
 
 <ItemImage id="ftb:world_engine_advanced_machine_block" scale="3" />
 
@@ -17,9 +17,8 @@ item_ids:
 
 Саможе оно разблокирует всего один рецепт.
 
-## Разблокируемые рецепты:
+## <Color id="gold">Разблокируемые рецепты:</Color>
 
 <ItemGrid>
   <ItemIcon id="entangled:block" />
-
 </ItemGrid>

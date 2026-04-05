@@ -7,13 +7,13 @@ navigation:
 item_ids:
   - ftb:fortron_infused_block
 ---
-# Улучшение "Пропитанный фортроном блок"
+# <Color id="green">Улучшение "Пропитанный фортроном блок"</Color>
 
 <ItemImage id="ftb:fortron_infused_block" scale="3" />
 
-<Color id="aqua">"Пропитанный фортроном блок"</Color> дополнительное улучшение, которое разблокирует некоторые автоматизированные механизмы как рецепт для <Color id="gold">мирового двигателя</Color>. Включая автокрафт из <Color id="gold">AE2</Color>, а также несколько функциональных блоков, например <Color id="light_purple">телепорт</Color> из <Color id="gold">Mekanism</Color>.
+<Color id="aqua">"Пропитанный фортроном блок"</Color> - второстепенное улучшение, которое разблокирует некоторые автоматизированные механизмы для <Color id="gold">мирового двигателя</Color>. Включая автокрафт из <Color id="gold">AE2</Color>, а также несколько функциональных блоков, например <Color id="light_purple">телепорт</Color> из <Color id="gold">Mekanism</Color>.
 
-## Разблокируемые рецепты:
+## <Color id="gold">Разблокируемые рецепты:</Color>
 
 <ItemGrid>
   <ItemIcon id="justdirethings:portalgun_v2" />
@@ -24,5 +24,4 @@ item_ids:
   <ItemIcon id="ae2:controller" />
   <ItemIcon id="ae2:crafting_unit" />
   <ItemIcon id="modularrouters:modular_router" />
-
 </ItemGrid>

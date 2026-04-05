@@ -7,13 +7,13 @@ navigation:
 item_ids:
   - powah:ender_cell_nitro
 ---
-# Улучшение "Энергоячейка (Нитро)"
+# <Color id="gold">Улучшение "Энергоячейка (Нитро)"</Color>
 
 <ItemImage id="powah:ender_cell_nitro" scale="3" />
 
-<Color id="red">"Энергоячейка (Нитро)"</Color> необходимое улучшение, которое разблокирует множество вариантов беспроводной передачи энергии в <Color id="gold">мировой двигатель</Color>, включая <Color id="light_purple">Flux сеть</Color>!
+<Color id="red">"Энергоячейка (Нитро)"</Color> - необходимое улучшение, которое разблокирует множество вариантов беспроводной передачи энергии в <Color id="gold">мировой двигатель</Color>, включая <Color id="light_purple">Flux сеть</Color>!
 
-## Разблокируемые рецепты:
+## <Color id="gold">Разблокируемые рецепты:</Color>
 
 <ItemGrid>
   <ItemIcon id="fluxnetworks:flux_dust" />

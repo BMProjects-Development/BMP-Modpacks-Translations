@@ -222,6 +222,11 @@ ServerEvents.recipes((event) => {
     })
     .id("ftb:oritech/refinery/still_oil");
 
+    event.shaped("oritech:packed_wheat", ["WW", "W "] , {
+      W: "minecraft:wheat"
+    })
+    .id("ftb:oritech/packed_wheat");
+
   //Exo Armor Requiring exclusively Carbon Plating
   const exo_recipes = [
     "oritech:crafting/exohelm",

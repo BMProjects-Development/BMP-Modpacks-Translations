@@ -1,22 +1,22 @@
 ---
 navigation:
-  title: Arcane Ingot
+  title: Волшебный слиток
   position: 1
   icon: "irons_spellbooks:arcane_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - irons_spellbooks:arcane_ingot
 ---
-# Arcane Ingot
+# Волшебный слиток
 
 <ItemImage id="irons_spellbooks:arcane_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 1.5
+- <Color id="gray">Множитель качества:</Color> 1.5
 
-### Attribute
-- Adds <Color id="yellow">Iron's Spells</Color> Mana (Flat)
+### Атрибут
+- Добавляет ману <Color id="yellow">Iron's Spells</Color> (фиксированную)
 
-### Action
-- Small Chance to create Arcane Essence
+### Действие
+- Небольшой шанс создать эссенцию волшебства

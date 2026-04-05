@@ -234,7 +234,7 @@
 					consume_items: true
 					count: 100L
 					id: "2401C8A4DB1FCE2D"
-					item: { count: 1, id: "ars_elemental:anima_essence" }
+					item: { count: 1, id: "sauce:anima_essence" }
 					task_screen_only: true
 					type: "item"
 				}

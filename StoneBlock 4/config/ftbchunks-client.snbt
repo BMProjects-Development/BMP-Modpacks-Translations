@@ -138,23 +138,31 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:cat": true
-			"minecraft:chicken": true
-			"twilightforest:quest_ram": true
-			"minecraft:cow": true
-			"minecraft:creeper": true
+			"minecraft:husk": true
 			"minecraft:villager": true
-			"minecraft:wolf": true
-			"minecraft:spider": true
-			"minecraft:witch": true
-			"minecraft:bee": true
-			"minecraft:zombie_villager": true
+			"minecraft:vindicator": true
+			"minecraft:stray": true
+			"minecraft:bogged": true
 			"minecraft:rabbit": true
 			"minecraft:zombie": true
-			"minecraft:pig": true
-			"minecraft:goat": true
+			"minecraft:zombie_villager": true
+			"mecrh:ender_chicken": true
+			"minecraft:phantom": true
 			"minecraft:skeleton": true
-			"minecraft:bogged": true
+			"minecraft:cow": true
+			"minecraft:breeze": true
+			"minecraft:spider": true
+			"minecraft:witch": true
+			"minecraft:creeper": true
+			"minecraft:wandering_trader": true
+			"twilightforest:quest_ram": true
+			"minecraft:enderman": true
+			"minecraft:goat": true
+			"minecraft:cat": true
+			"minecraft:wolf": true
+			"minecraft:pig": true
+			"minecraft:bee": true
+			"minecraft:chicken": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

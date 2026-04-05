@@ -1,25 +1,25 @@
 ---
 navigation:
-  title: Mithril Ingot
+  title: Мифриловый слиток
   position: 13
   icon: "irons_spellbooks:mithril_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - irons_spellbooks:mithril_ingot
 ---
-# Mithril Ingot
+# Мифриловый слиток
 
 <ItemImage id="irons_spellbooks:mithril_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 3
+- <Color id="gray">Множитель качества:</Color> 3
 
-### Attribute
-- Adds Iron's Spells Spell Power+ (Percentage)
+### Атрибут
+- Добавляет силу заклинаний Iron's Spells+ (процент)
 
-### Immunity Effect
-- Rend
+### Эффект иммунитета
+- Раздирание
 
-### Positive Effect
-- Charged
+### Положительный эффект
+- Заряженность

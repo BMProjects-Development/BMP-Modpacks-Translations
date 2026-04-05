@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Ender Rune
+  title: Руна эндера
   position: 4
   icon: "irons_spellbooks:ender_rune"
   parent: irons_jewelry:runes.md
 item_ids:
   - irons_spellbooks:ender_rune
 ---
-# Ender Rune
+# Руна эндера
 
 <ItemImage id="irons_spellbooks:ender_rune" scale="3" />
 
-This item can be used as a <Color id="aqua">Rune</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Руна</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 1.5
+- <Color id="gray">Множитель качества:</Color> 1.5
 
-### Attribute
-- Adds Spell Power: Ender (Percentage)
+### Атрибут
+- Добавляет силу заклинаний: эндер (процент)

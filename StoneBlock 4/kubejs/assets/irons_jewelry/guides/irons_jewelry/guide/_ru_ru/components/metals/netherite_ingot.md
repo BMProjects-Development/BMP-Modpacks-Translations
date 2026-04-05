@@ -1,26 +1,26 @@
 ---
 navigation:
-  title: Netherite Ingot
+  title: Незеритовый слиток
   position: 14
   icon: "minecraft:netherite_ingot"
   parent: irons_jewelry:metals.md
 ---
-# Netherite Ingot
+# Незеритовый слиток
 
 <ItemImage id="minecraft:netherite_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 2.5
+- <Color id="gray">Множитель качества:</Color> 2.5
 
-### Attribute
-- Adds Attack Damage (Percentage)
+### Атрибут
+- Добавляет урон атаки (процент)
 
-### Positive Effect
-- Strength
+### Положительный эффект
+- Сила
 
-### Immunity Effect
-- Wither
+### Эффект иммунитета
+- Иссушение
 
-### Action Effect
-- Grants Strength
+### Эффект действия
+- Даёт силу

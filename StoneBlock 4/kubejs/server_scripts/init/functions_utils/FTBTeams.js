@@ -6,7 +6,8 @@ const Teams = {
     return $TeamsApi.api().getManager();
   },
   getTeam: (player) => {
-    return Teams.getManager().getTeamForPlayer(player).get();
+    let opt = Teams.getManager().getTeamForPlayer(player);
+    return opt.isPresent() ? opt.get() : null;
   },
   getData: (player) => {
     return Teams.getTeam(player).getExtraData();
@@ -47,7 +48,7 @@ const Teams = {
   },
   hasStage: (player, teamstage) => {
     let team = Teams.getTeam(player);
-    return team ? $TeamStagesHelper.hasTeamStage(player, teamstage) : null;
+    return team ? $TeamStagesHelper.hasTeamStage(player, teamstage) : false;
   },
   getTeamStages: (player) => {
     let team = Teams.getTeam(player);

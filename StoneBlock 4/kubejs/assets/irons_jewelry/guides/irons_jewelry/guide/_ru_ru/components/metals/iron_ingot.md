@@ -1,26 +1,26 @@
 ---
 navigation:
-  title: Iron Ingot
+  title: Железный слиток
   position: 13
   icon: "minecraft:iron_ingot"
   parent: irons_jewelry:metals.md
 ---
-# Iron Ingot
+# Железный слиток
 
 <ItemImage id="minecraft:iron_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 0.75
+- <Color id="gray">Множитель качества:</Color> 0.75
 
-### Attribute
-- Adds Armor (Flat)
+### Атрибут
+- Добавляет броню (фиксированную)
 
-### Positive Effect
-- Resistance
+### Положительный эффект
+- Сопротивление
 
-### Immunity Effect
-- Slowness
+### Эффект иммунитета
+- Замедление
 
-### Action Effect
-- Knocks back on Attack
+### Эффект действия
+- Отбрасывает при атаке

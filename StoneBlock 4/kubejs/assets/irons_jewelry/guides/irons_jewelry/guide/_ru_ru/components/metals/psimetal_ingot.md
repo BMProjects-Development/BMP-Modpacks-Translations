@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Psimetal Ingot
+  title: Слиток пси-металла
   position: 16
   icon: "psi:psimetal"
   parent: irons_jewelry:metals.md
 item_ids:
   - psi:psimetal
 ---
-# Psimetal Ingot
+# Слиток пси-металла
 
 <ItemImage id="psi:psimetal" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 2.25
+- <Color id="gray">Множитель качества:</Color> 2.25
 
-### Attribute
-- Adds <Color id="yellow">Ars Nouveau</Color> Mana Discount (Percentage)
+### Атрибут
+- Добавляет скидку на ману <Color id="yellow">Ars Nouveau</Color> (процент)

@@ -1,26 +1,26 @@
 ---
 navigation:
-  title: Gold Ingot
+  title: Золотой слиток
   position: 10
   icon: "minecraft:gold_ingot"
   parent: irons_jewelry:metals.md
 ---
-# Gold Ingot
+# Золотой слиток
 
 <ItemImage id="minecraft:gold_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 1.5
+- <Color id="gray">Множитель качества:</Color> 1.5
 
-### Attribute
-- Adds Mining Speed+ (Percentage)
+### Атрибут
+- Добавляет скорость добычи+ (процент)
 
-### Positive Effect
-- Resistance
+### Положительный эффект
+- Сопротивление
 
-### Immunity Effect
-- Poison
+### Эффект иммунитета
+- Яд
 
-### Action Effect
-- Ignites
+### Эффект действия
+- Воспламеняет

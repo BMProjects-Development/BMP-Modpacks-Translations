@@ -265,7 +265,7 @@ PlayerEvents.tick((event) => {
   if (server.tickCount % 20 !== 0) return;
   if (
     (player.stages.has("echo_guidance_meet") || Teams.hasStage(player, "echo_guidance_meet")) &&
-    !player.stages.has("echo_guidance_intro_cutscene")
+    !player.stages.has("echo_guidance_intro_cutscene") && !Teams.hasStage(player, "echo_guidance_intro_cutscene")
   ) {
     player.sendData("intro_ready", {});
   }

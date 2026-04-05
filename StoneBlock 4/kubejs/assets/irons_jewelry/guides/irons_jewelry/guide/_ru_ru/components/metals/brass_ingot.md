@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Brass Ingot
+  title: Латунный слиток
   position: 4
   icon: "ftbmaterials:brass_ingot"
   parent: irons_jewelry:metals.md
 ---
-# Brass Ingot
+# Латунный слиток
 
 <ItemImage id="ftbmaterials:brass_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 0.75
+- <Color id="gray">Множитель качества:</Color> 0.75
 
-### Attribute
-- Adds Knockback Resistance (Flat)
+### Атрибут
+- Добавляет сопротивление отбрасыванию (фиксированное)

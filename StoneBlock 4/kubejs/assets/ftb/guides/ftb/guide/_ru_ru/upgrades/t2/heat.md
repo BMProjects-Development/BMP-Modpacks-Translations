@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - mekanism:resistive_heater
 ---
-# Улучшение "Нагреватель"
+# <Color id="gold">Улучшение "Нагреватель"</Color>
 
 <ItemImage id="mekanism:resistive_heater" scale="3" />
 
@@ -17,7 +17,7 @@ item_ids:
 
 Это улучшение разблокирует <Color id="gold">зарядную сферу</Color> для продолжения развития в <Color id="gold">Powah</Color>.
 
-## Разблокируемые рецепты:
+## <Color id="gold">Разблокируемые рецепты:</Color>
 
 <ItemGrid>
   <ItemIcon id="powah:energizing_orb" />

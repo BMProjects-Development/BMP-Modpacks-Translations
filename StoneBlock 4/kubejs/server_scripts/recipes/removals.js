@@ -374,7 +374,9 @@ const recipeIdsToRemove = [
   /^appmek:upgrade\/chemical_storage_cell_4k_to_.*/,
   /^appmek:upgrade\/chemical_storage_cell_16k_to_.*/,
   /^appmek:upgrade\/chemical_storage_cell_64k_to_.*/,
-  /^appmek:upgrade\/chemical_storage_cell_256k_to_.*/
+  /^appmek:upgrade\/chemical_storage_cell_256k_to_.*/,
+  "utilitarian:utility/bread",
+  "oritech:packed_wheat"
 ];
 
 const recipeTypesToRemove = ["immersiveengineering:arc_recycling", "irregular_implements:custom_crafting_table"];

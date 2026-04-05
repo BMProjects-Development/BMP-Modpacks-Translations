@@ -159,7 +159,7 @@
 	#Enables custom Configured config screen
 	custom_configured_screen = true
 	#unfunny
-	"I am very boring" = false
+	"I am very boring" = true
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
 

@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Lightning Rune
+  title: Руна молнии
   position: 9
   icon: "irons_spellbooks:lightning_rune"
   parent: irons_jewelry:runes.md
 item_ids:
   - irons_spellbooks:lightning_rune
 ---
-# Lightning Rune
+# Руна молнии
 
 <ItemImage id="irons_spellbooks:lightning_rune" scale="3" />
 
-This item can be used as a <Color id="aqua">Rune</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Руна</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 1.5
+- <Color id="gray">Множитель качества:</Color> 1.5
 
-### Attribute
-- Adds Spell Power: Lightning (Percentage)
+### Атрибут
+- Добавляет силу заклинаний: молния (процент)

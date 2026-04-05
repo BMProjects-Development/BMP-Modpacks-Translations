@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Nature Rune
+  title: Руна природы
   position: 10
   icon: "irons_spellbooks:nature_rune"
   parent: irons_jewelry:runes.md
 item_ids:
   - irons_spellbooks:nature_rune
 ---
-# Nature Rune
+# Руна природы
 
 <ItemImage id="irons_spellbooks:nature_rune" scale="3" />
 
-This item can be used as a <Color id="aqua">Rune</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Руна</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 1.5
+- <Color id="gray">Множитель качества:</Color> 1.5
 
-### Attribute
-- Adds Spell Power: Nature (Percentage)
+### Атрибут
+- Добавляет силу заклинаний: природа (процент)

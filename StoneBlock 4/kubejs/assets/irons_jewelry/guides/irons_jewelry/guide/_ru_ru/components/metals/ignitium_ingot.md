@@ -1,25 +1,25 @@
 ---
 navigation:
-  title: Ignitium Ingot
+  title: Игнитовый слиток
   position: 12
   icon: "cataclysm:ignitium_ingot"
   parent: irons_jewelry:metals.md
 item_ids:
   - cataclysm:ignitium_ingot
 ---
-# Ignitium Ingot
+# Игнитовый слиток
 
 <ItemImage id="cataclysm:ignitium_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 3.5
+- <Color id="gray">Множитель качества:</Color> 3.5
 
-### Attribute
-- Adds Fire Damage+ (Flat)
+### Атрибут
+- Добавляет огненный урон+ (фиксированный)
 
-### Positive Effect
-- Fire Resistance
+### Положительный эффект
+- Огнеупорность
 
-### Action Effect
-- Ignites on Attack
+### Эффект действия
+- Воспламеняет при атаке

@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - twilightforest:knight_phantom_trophy
 ---
-# Twilight Upgrade
+# <Color id="green">Twilight Upgrade</Color>
 
 <ItemImage id="twilightforest:knight_phantom_trophy" scale="3" />
 
@@ -15,7 +15,7 @@ The <Color id="light_purple">Twilight Upgrade</Color> is a minor upgrade that un
 
 This requires all 4 trophies from the Twilight bosses.
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="ars_nouveau:warp_scroll" />

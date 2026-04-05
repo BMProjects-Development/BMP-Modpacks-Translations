@@ -176,19 +176,6 @@ const triviaSettings = {
   wallTopRight: { x: 2, y: 0, z: -4 }
 }
 
-// Entity layout offsets relative to trivia_1_question anchor.
-// Derived from the structure template NBT positions.
-const TIER_Z_OFFSET = -9 // each tier is 9 blocks further in -Z
-const ANSWER_X = { 1: -3, 2: -1, 3: 1, 4: 3 }
-const triviaEntityOffsets = {}
-for (let tier = 1; tier <= 5; tier++) {
-  let tz = (tier - 1) * TIER_Z_OFFSET
-  triviaEntityOffsets[`trivia_${tier}_question`] = { x: 0, y: 0, z: tz }
-  for (let a = 1; a <= 4; a++) {
-    triviaEntityOffsets[`trivia_${tier}_answer_${a}`] = { x: ANSWER_X[a], y: -1, z: tz }
-  }
-}
-
 ServerEvents.commandRegistry((event) => {
   const { commands: Commands, arguments: Arguments } = event
 
@@ -196,25 +183,28 @@ ServerEvents.commandRegistry((event) => {
     Commands.literal("trivia")
       .requires((s) => s.hasPermission(2))
       .executes((c) => {
-        const level = c.source.getLevel()
+        const player = c.source?.player ?? c.source?.entity
+        const level = player.level
         const server = level.server
-        const sourcePos = c.source.getPosition()
 
-        // --- Phase 1: Deduplicate entities ---
+        // --- Deduplicate entities ---
         // After structure regeneration, old entities persist alongside new ones.
         // Keep only the nearest entity per trivia tag, discard duplicates.
+        // IMPORTANT: Store surviving entities in a map so the setup step below
+        // tags the correct entity. Discarded entities linger in getEntities()
+        // until end-of-tick, so re-querying could find a doomed copy instead.
         let seenTags = {}
         let survivingEntities = {}
-        level
+        let triviaDisplays = level
           .getEntities()
           .filter(
             (e) =>
               e.type === "minecraft:text_display" &&
-              e.getTags().find((tag) => tag.startsWith("trivia_")) &&
-              distanceBetween(sourcePos, e) < triviaSettings.distance
+              !!e.getTags().find((tag) => tag.startsWith("trivia_")) &&
+              e.distanceToEntity(player) < triviaSettings.distance
           )
-          .sort((a, b) => distanceBetween(sourcePos, a) - distanceBetween(sourcePos, b))
-          .forEach((e) => {
+        triviaDisplays.sort((a, b) => a.distanceToEntity(player) - b.distanceToEntity(player))
+        triviaDisplays.forEach((e) => {
             let triviaTag = e.getTags().find((tag) => tag.startsWith("trivia_") && tag !== "trivia_questions" && tag !== "trivia_start")
             if (!triviaTag) return
             if (seenTags[triviaTag]) {
@@ -229,25 +219,40 @@ ServerEvents.commandRegistry((event) => {
             }
           })
 
-        // --- Phase 2: Reposition entities to correct locations ---
-        // respawningstructures can misplace entities. Use trivia_1_question
-        // as anchor and teleport all others to their correct offsets.
-        let anchor = survivingEntities["trivia_1_question"]
-        if (anchor) {
-          let ax = anchor.x
-          let ay = anchor.y
-          let az = anchor.z
-          for (let [tag, offset] of Object.entries(triviaEntityOffsets)) {
-            let entity = survivingEntities[tag]
-            if (!entity || tag === "trivia_1_question") continue
-            let targetX = ax + offset.x
-            let targetY = ay + offset.y
-            let targetZ = az + offset.z
-            entity.teleportTo(targetX, targetY, targetZ)
+        // --- Repair missing entities ---
+        // The respawning structures mod can fail to place some entities.
+        // Use any surviving entity as an anchor to summon replacements.
+        let anchorEntity = null
+        for (let t = 1; t <= 5; t++) {
+          let qe = survivingEntities[`trivia_${t}_question`]
+          if (qe) { anchorEntity = { entity: qe, tier: t }; break }
+        }
+        if (anchorEntity) {
+          let ae = anchorEntity.entity
+          let tierZBase = ae.z + (anchorEntity.tier - 1) * 9
+          let centerX = ae.x
+          let qY = ae.y
+          let aY = qY - 1
+          let answerXOff = [-3, -1, 1, 3]
+          let dim = String(level.dimension)
+
+          for (let t = 1; t <= 5; t++) {
+            let tz = tierZBase - (t - 1) * 9 + 0.01
+            let qTag = `trivia_${t}_question`
+            if (!survivingEntities[qTag]) {
+              server.runCommandSilent(`execute in ${dim} run summon minecraft:text_display ${centerX} ${qY} ${tz} {Tags:["${qTag}"]}`)
+            }
+            for (let a = 0; a < 4; a++) {
+              let aTag = `trivia_${t}_answer_${a + 1}`
+              if (!survivingEntities[aTag]) {
+                let ax = centerX + answerXOff[a]
+                server.runCommandSilent(`execute in ${dim} run summon minecraft:text_display ${ax} ${aY} ${tz} {Tags:["${aTag}"]}`)
+              }
+            }
           }
         }
 
-        // --- Phase 3: Set randomized questions and answers ---
+        // --- Set randomized questions and answers ---
         Object.keys(questions).forEach((tier) => {
           let randomIndex = Math.floor(Math.random() * questions[tier].length)
           let randomQuestion = questions[tier][randomIndex]
@@ -257,23 +262,34 @@ ServerEvents.commandRegistry((event) => {
             let tag = `trivia_${tier}_answer_${parseInt(i)}`
             let display = survivingEntities[tag]
 
-            let atPosition = `positioned ${sourcePos.x} ${sourcePos.y} ${sourcePos.z}`
-            let as = `as @e[type=minecraft:text_display,tag=${tag},sort=nearest,limit=1]`
             let inDimension = `in ${level.dimension}`
+            let atPosition = `positioned ${player.x} ${player.y} ${player.z}`
+            let as = `as @e[type=minecraft:text_display,tag=${tag},sort=nearest,limit=1]`
 
             let win = i === answer
             server.runCommandSilent(
-              `execute ${as} ${inDimension} ${atPosition} run data modify entity @s text set value '{"color":"aqua","translate":"${
+              `execute ${inDimension} ${atPosition} ${as} run data modify entity @s text set value '{"color":"aqua","translate":"${
                 randomQuestion.answers[parseInt(i)]
               }"}'`
             )
             if (display) {
               display.addTag(win ? "win" : "lose")
+              if (display.getTags().contains(win ? "win" : "lose")) {
+                display.removeTag(win ? "lose" : "win")
+              }
+            } else {
+              // Entity exists (summoned or not yet in getEntities) — use commands
+              server.runCommandSilent(
+                `execute ${inDimension} ${atPosition} ${as} run tag @s add ${win ? "win" : "lose"}`
+              )
+              server.runCommandSilent(
+                `execute ${inDimension} ${atPosition} ${as} run tag @s remove ${win ? "lose" : "win"}`
+              )
             }
           }
 
-          server.runCommandSilent(
-            `execute positioned ${sourcePos.x} ${sourcePos.y} ${sourcePos.z} in ${level.dimension} as @e[type=minecraft:text_display,tag=trivia_${tier}_question,sort=nearest,limit=1] run data modify entity @s text set value '{color:"aqua",translate:"${randomQuestion.question}"}'`
+          player.runCommandSilent(
+            `execute as @e[type=minecraft:text_display,tag=trivia_${tier}_question,sort=nearest,limit=1] run data modify entity @s text set value '{color:"aqua",translate:"${randomQuestion.question}"}'`
           )
         })
 
@@ -450,6 +466,7 @@ const distanceBetween = (a, b) => {
 const $GatewayRegistry = Java.loadClass("dev.shadowsoffire.gateways.gate.GatewayRegistry")
 const teleportToStart = (level, player) => {
   let display = getQuestionDisplay(level, 5, player)
+  if (!display) return
   const { x, y, z } = triviaSettings.startOffset
   let start = display.getOnPos().offset(x, y, z)
   player.teleportTo(start.x, start.y, start.z)
@@ -458,6 +475,7 @@ const teleportToStart = (level, player) => {
 const teleportToArena = (level, player, gateway) => {
   player.potionEffects.add("minecraft:blindness", 40, 1, false, false)
   let display = getQuestionDisplay(level, 5, player)
+  if (!display) return
   const { x, y, z } = triviaSettings.arenaOffset
   let arena = display.getOnPos().offset(x, y, z)
   player.teleportTo(arena.x, arena.y, arena.z)
@@ -484,11 +502,24 @@ const getQuestionDisplay = (level, tier, player) => {
     )[0]
 }
 const removeBlockWall = (level, display, player) => {
-  let tier = display
+  let tierTag = display
     .getTags()
-    .find((tag) => tag.startsWith("trivia_"))
-    .split("_")[1]
+    .find((tag) => tag.startsWith("trivia_") && tag !== "trivia_questions" && tag !== "trivia_start")
+  if (!tierTag) return
+  let tier = tierTag.split("_")[1]
   let questionDisplay = getQuestionDisplay(level, tier, player)
+
+  if (!questionDisplay) {
+    // Question display missing (can happen after structure respawn).
+    // Derive wall position from the answer display the player is standing at.
+    // Answer X offsets from center: answer_1=-3, answer_2=-1, answer_3=+1, answer_4=+3
+    // Question Y is 1 block above answers. Z is the same.
+    let answerNum = tierTag.split("_")[3]
+    let xOffsets = { "1": -3, "2": -1, "3": 1, "4": 3 }
+    let xAdj = xOffsets[answerNum] || 0
+    questionDisplay = { x: display.x - xAdj, y: display.y + 1, z: display.z }
+    console.log("[Trivia] Using answer display fallback for tier " + tier + " at " + questionDisplay.x + ", " + questionDisplay.y + ", " + questionDisplay.z)
+  }
 
   level
     .getEntities()
@@ -543,6 +574,27 @@ const removeBlockWall = (level, display, player) => {
   //   });
   // });
 
-  // Remove all trivia text displays for the tier
-  // Comment this out if you want to keep the displays (e.g. for debugging)
+  // Hide answered tier displays instead of discarding them.
+  // Discarding interferes with the respawning structures mod's entity tracking,
+  // causing missing displays on the next reset. Clearing text + tags makes them
+  // invisible and inert so the tick handler ignores them.
+  level
+    .getEntities()
+    .filter(
+      (e) =>
+        e.type === "minecraft:text_display" &&
+        (e.getTags().contains(`trivia_${tier}_question`) ||
+          e.getTags().contains(`trivia_${tier}_answer_1`) ||
+          e.getTags().contains(`trivia_${tier}_answer_2`) ||
+          e.getTags().contains(`trivia_${tier}_answer_3`) ||
+          e.getTags().contains(`trivia_${tier}_answer_4`))
+    )
+    .forEach((e) => {
+      e.removeTag("win")
+      e.removeTag("lose")
+      e.removeTag("awnsered")
+      level.server.runCommandSilent(
+        `data modify entity ${e.getUuid()} text set value '""'`
+      )
+    })
 }

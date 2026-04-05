@@ -1,26 +1,26 @@
 ---
 navigation:
-  title: Platinum Ingot
+  title: Платиновый слиток
   position: 15
   icon: "ftbmaterials:platinum_ingot"
   parent: irons_jewelry:metals.md
 ---
-# Platinum Ingot
+# Платиновый слиток
 
 <ItemImage id="ftbmaterials:platinum_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 2.5
+- <Color id="gray">Множитель качества:</Color> 2.5
 
-### Attribute
-- Adds Armor Pierce (Percentage)
+### Атрибут
+- Добавляет пробивание брони (процент)
 
-### Positive Effect
-- Resistance
+### Положительный эффект
+- Сопротивление
 
-### Immunity Effect
-- Weakness
+### Эффект иммунитета
+- Слабость
 
-### Action Effect
-- Knocks back
+### Эффект действия
+- Отбрасывает

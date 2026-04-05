@@ -7,15 +7,15 @@ navigation:
 item_ids:
   - create:shadow_steel_casing
 ---
-# Улучшение теневого корпуса для Create
+# <Color id="green">Улучшение теневого корпуса для Create</Color>
 
 <ItemImage id="create:shadow_steel_casing" scale="3" />
 
-<Color id="green">"Теневой корпус"</Color> дополнительное улучшение, дающее Вам базовые знания в <Color id="gold">Create</Color>.
+<Color id="green">"Теневой корпус"</Color> - второстепенное улучшение, дающее Вам базовые знания в <Color id="gold">Create</Color>.
 
 Это улучшение разблокирует несколько улучшенных механизмов из <Color id="gold">Create</Color>, а также некоторые полезные механизмы из <Color id="gold">ProjectE</Color>.
 
-## Разблокируемые рецепты:
+## <Color id="gold">Разблокируемые рецепты:</Color>
 
 <ItemGrid>
   <ItemIcon id="createaddition:electric_motor" />

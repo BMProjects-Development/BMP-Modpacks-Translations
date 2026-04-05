@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Enderium Ingot
+  title: Слиток эндериума
   position: 8
   icon: "chicken_roost:ingot_enderium"
   parent: irons_jewelry:metals.md
 item_ids:
   - chicken_roost:ingot_enderium
 ---
-# Enderium Ingot
+# Слиток эндериума
 
 <ItemImage id="chicken_roost:ingot_enderium" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 2.8
+- <Color id="gray">Множитель качества:</Color> 2.8
 
-### Attribute
-- Adds Crit Chance+ (Percentage)
+### Атрибут
+- Добавляет шанс крита+ (процент)

@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - draconicevolution:awakened_draconium_block
 ---
-# Awakened Core Upgrade
+# <Color id="gold">Awakened Core Upgrade</Color>
 
 <ItemImage id="draconicevolution:awakened_draconium_block" scale="3" />
 
@@ -16,7 +16,7 @@ The <Color id="gold">Awakened Core Upgrade</Color> is a major upgrade that unloc
 It requires a Tier 8 Energy Core, which needs 378 <Color id="gold">Awakened Draconium Blocks</Color> and 786 <Color id="light_purple">Draconium Blocks</Color>.
 
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="avaritia:infinity_sword" />

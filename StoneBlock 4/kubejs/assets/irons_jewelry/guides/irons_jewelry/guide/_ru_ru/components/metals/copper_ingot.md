@@ -1,26 +1,26 @@
 ---
 navigation:
-  title: Copper Ingot
+  title: Медный слиток
   position: 4
   icon: "minecraft:copper_ingot"
   parent: irons_jewelry:metals.md
 ---
-# Copper Ingot
+# Медный слиток
 
 <ItemImage id="minecraft:copper_ingot" scale="3" />
 
-This item can be used as a <Color id="green">Band Material</Color> for Iron's Jewelry.
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
 
-- <Color id="gray">Quality Multiplier:</Color> 0.5
+- <Color id="gray">Множитель качества:</Color> 0.5
 
-### Attribute
-- Adds Attack Speed (Percentage)
+### Атрибут
+- Добавляет скорость атаки (процент)
 
-### Positive Effect
-- Haste
+### Положительный эффект
+- Ускорение
 
-### Immunity Effect
-- Poison
+### Эффект иммунитета
+- Яд
 
-### Action Effect
-- Lightning Damage
+### Эффект действия
+- Урон молнией
