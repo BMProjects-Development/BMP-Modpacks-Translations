@@ -1,0 +1,48 @@
+{
+	# When enabled, light sources near spawners will be broken to allow for mob spawning.
+	# Default: false
+	break_light_sources_near_spawners: false
+	
+	# When enabled, the light level around spawners will be ignored for mob spawning.
+	# Default: false
+	ignore_light_level_for_spawners: false
+	
+	# When enabled, the random bias applied to concentric ring distances is removed
+	# Default: false
+	remove_concentric_ring_placement_bias: true
+	
+	# Sparse structures configuration. See https://github.com/MCTeamPotato/SparseStructuresReforged/tree/1201 for more information.
+	sparse_structures: {
+		# Whether sparse structures are enabled.
+		enabled: false
+		
+		# The global spread factor for all structures when no custom spread factor is defined.
+		global_spread_factor: 2.0d
+		
+		# Custom spread factors for specific structures.
+		custom_spread_factors: [ ]
+	}
+	integrations: {
+		# Configuration options for the FTB Chunks mod integration. Only effective if FTB Chunks is installed.
+		ftb_chunks: {
+			custom_y_level_chunk_positions: [{
+				dimension: "ftbteambases:private_for_"
+				equalityCheck: "starts_with"
+				x: 0
+				z: 0
+				minY: 40
+				range: 256
+				asRadius: true
+			}]
+		}
+	}
+	shaders_notice: {
+		# The shader pack to use when enabling shaders. Leave empty to use the default shader pack / first available shader pack in the list
+		# Default: ""
+		shader_pack_to_use: ""
+		
+		# When enabled, the shaders notice will be shown on world start if shaders are included in the pack.
+		# Default: false
+		show_on_start: true
+	}
+}

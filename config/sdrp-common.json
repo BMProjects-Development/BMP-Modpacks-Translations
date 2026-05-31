@@ -1,0 +1,17 @@
+{
+  "clientId": 1432390546223005900,
+  "enabled": true,
+  "screenEvent": true,
+  "clientJoinEvent": false,
+  "logState": true,
+  "buttons": [
+    {
+      "label": "Join us on Discord!",
+      "url": "https://go.ftb.team/discord"
+    },
+    {
+      "label": "Download the FTB App",
+      "url": "https://go.ftb.team/app"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "size": "large",
+  "color": "#AAAAFF",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "creeperoverhaul:snowy_creeper",
+          "modifiers": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "add_value",
+              "value": 5.0
+            }
+          ],
+          "count": 8
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.armor",
+          "operation": "add_value",
+          "value": 4
+        },
+        {
+          "attribute": "generic.attack_damage",
+          "operation": "add_value",
+          "value": 1.0
+        }
+      ],
+      "max_wave_time": 2000,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "minecraft:polar_bear",
+          "count": 4
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.armor",
+          "operation": "add_value",
+          "value": 8
+        },
+        {
+          "attribute": "generic.attack_damage",
+          "operation": "add_value",
+          "value": 5.0
+        }
+      ],
+      "max_wave_time": 2000,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "irons_spellbooks:cryomancer",
+          "modifiers": [
+            {
+              "attribute": "generic.attack_damage",
+              "operation": "add_value",
+              "value": -4.5
+            }
+          ]
+        }
+      ],
+      "modifiers": [
+        {
+          "attribute": "generic.armor",
+          "operation": "add_value",
+          "value": 7
+        }
+      ],
+      "max_wave_time": 2400,
+      "setup_time": 100
+    }
+  ],
+  "rewards": [
+    {
+            "type": "gateways:loot_table",
+            "loot_table": "irons_spellbooks:entities/cryomancer",
+            "rolls": 1,
+            "desc": "desc.gateways.loottable.cryomancer"
+        }
+  ],
+  "failures": [],
+  "spawn_algorithm": "gateways:inward_spiral",
+  "rules": {
+    "spawn_range": 8,
+    "leash_range": 24,
+    "allow_discarding": false,
+    "allow_dim_change": false,
+    "player_damage_only": true,
+    "spacing": 8,
+    "default_drop_chance": 0.0,
+    "remove_mobs_on_failure": true,
+    "requires_nearby_players": true,
+    "lives": 2
+  }
+}

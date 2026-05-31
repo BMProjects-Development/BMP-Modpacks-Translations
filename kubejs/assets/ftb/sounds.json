@@ -1,0 +1,630 @@
+{
+  "fired": {
+    "sounds": [
+      {
+        "name": "ftb:fired",
+        "preload": true,
+        "stream": false,
+        "attenuation_distance": 16
+      }
+    ],
+    "subtitle": "subtitles.ftb.fired"
+  },
+  "music_disc.echo": {
+    "sounds": [
+      {
+        "name": "ftb:records/the_voice_of_the_echoborne",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.ancient.stage4.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.ancient.stage4.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.catalyst.stage3.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.catalyst.stage3.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.catalyst.stage3.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.catalyst.stage3.task2",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.catalyst.stage3.task3": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.catalyst.stage3.task3",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.chaos.stage5.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.chaos.stage5.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.enchanter.stage2.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.enchanter.stage2.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.enchanter.stage2.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.enchanter.stage2.task2",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.fabricator.stage2.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.fabricator.stage2.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.guidance.stage0.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.guidance.stage0.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.guidance.stage1.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.guidance.stage1.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.guidance.stage1.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.guidance.stage1.task2",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.guidance.stage1.task3": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.guidance.stage1.task3",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.guidance.stage1.task4": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.guidance.stage1.task4",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.guidance.stage2.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.guidance.stage2.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.guidance.stage3.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.guidance.stage3.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.guidance.stage4.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.guidance.stage4.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.guidance.stage4.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.guidance.stage4.task2",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.guidance.stage5.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.guidance.stage5.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.infernal.stage3.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.infernal.stage3.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.infinity.stage5.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.infinity.stage5.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.infinity.stage6.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.infinity.stage6.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.light_bender.stage3.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.light_bender.stage3.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.light_bender.stage3.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.light_bender.stage3.task2",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.machinist.stage0.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.machinist.stage0.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.machinist.stage1.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.machinist.stage1.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.machinist.stage1.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.machinist.stage1.task2",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.magician.stage1.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.magician.stage1.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.magician.stage1.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.magician.stage1.task2",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.quartermaster.stage1.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.quartermaster.stage1.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.quartermaster.stage1.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.quartermaster.stage1.task2",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.quartermaster.stage5.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.quartermaster.stage5.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.radiance.stage5.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.radiance.stage5.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.startup": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.startup",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.twilight.stage4.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.twilight.stage4.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.wayfinder.stage2.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.wayfinder.stage2.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.wyrmwright.stage4.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.wyrmwright.stage4.task1",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.wyrmwright.stage4.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.wyrmwright.stage4.task2",
+        "stream": true
+      }
+    ]
+  },
+  "ftb.echo.wyrmwright.stage4.task3": {
+    "sounds": [
+      {
+        "name": "ftb:echo/ftb.echo.wyrmwright.stage5.task2",
+        "stream": true
+      }
+    ]
+  },  
+  
+  "pt_br/ftb.echo.ancient.stage4.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.ancient.stage4.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.catalyst.stage3.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.catalyst.stage3.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.catalyst.stage3.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.catalyst.stage3.task2",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.catalyst.stage3.task3": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.catalyst.stage3.task3",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.chaos.stage5.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.chaos.stage5.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.enchanter.stage2.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.enchanter.stage2.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.enchanter.stage2.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.enchanter.stage2.task2",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.fabricator.stage2.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.fabricator.stage2.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.guidance.stage0.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.guidance.stage0.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.guidance.stage1.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.guidance.stage1.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.guidance.stage1.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.guidance.stage1.task2",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.guidance.stage1.task3": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.guidance.stage1.task3",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.guidance.stage1.task4": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.guidance.stage1.task4",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.guidance.stage2.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.guidance.stage2.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.guidance.stage3.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.guidance.stage3.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.guidance.stage4.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.guidance.stage4.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.guidance.stage4.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.guidance.stage4.task2",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.guidance.stage5.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.guidance.stage5.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.infernal.stage3.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.infernal.stage3.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.infinity.stage5.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.infinity.stage5.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.infinity.stage6.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.infinity.stage6.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.light_bender.stage3.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.light_bender.stage3.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.light_bender.stage3.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.light_bender.stage3.task2",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.machinist.stage0.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.machinist.stage0.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.machinist.stage1.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.machinist.stage1.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.machinist.stage1.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.machinist.stage1.task2",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.magician.stage1.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.magician.stage1.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.magician.stage1.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.magician.stage1.task2",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.quartermaster.stage1.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.quartermaster.stage1.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.quartermaster.stage1.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.quartermaster.stage1.task2",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.quartermaster.stage5.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.quartermaster.stage5.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.radiance.stage5.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.radiance.stage5.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.startup": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.startup",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.twilight.stage4.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.twilight.stage4.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.wayfinder.stage2.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.wayfinder.stage2.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.wyrmwright.stage4.task1": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.wyrmwright.stage4.task1",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.wyrmwright.stage4.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.wyrmwright.stage4.task2",
+        "stream": true
+      }
+    ]
+  },
+  "pt_br/ftb.echo.wyrmwright.stage5.task2": {
+    "sounds": [
+      {
+        "name": "ftb:echo/pt_br/ftb.echo.wyrmwright.stage5.task2",
+        "stream": true
+      }
+    ]
+  }
+}

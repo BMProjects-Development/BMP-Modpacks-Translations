@@ -1,0 +1,47 @@
+{
+  "id": "ftbechoes:test_echo1",
+  "title": { "text": "Test Echo 1", "color": "blue" },
+  "stages": [
+    {
+      "title": "Stage 1",
+      "lore": [
+        { "type": "ftbechoes:text", "text": "this is stage 1! some literal text\nwith an extra line\nand one more" },
+        { "type": "ftbechoes:image", "location": "ftblibrary:icons/player", "width": 32, "height": 32, "align": "center" },
+        { "type": "ftbechoes:audio", "location": "music_disc.mellohi", "text": "mellohi" },
+        { "type": "ftbechoes:text", "text" : [ { "translate" : "advancements.end.root.title" } ] },
+        { "type": "ftbechoes:text", "text" : [ { "translate" : "jigsaw_block.placement_priority.tooltip" } ] }
+      ],
+      "not_ready": "To continue, you need to do task A",
+      "ready": "Well done! You are ready to finish stage 1",
+      "required_stage": "echo1_stage1",
+      "shop_unlock": [
+      ]
+    },
+    {
+      "title": { "text": "Stage 2", "color": "aqua" },
+      "lore": [
+        { "type": "ftbechoes:text", "text": "this is stage2!" },
+        { "type": "ftbechoes:audio", "location": "music_disc.strad", "text": "strad" },
+        { "type": "ftbechoes:text", "text" : [ { "translate" : "advancements.nether.create_beacon.title" } ] }
+      ],
+      "not_ready": "To continue, you need to do task B\nThis might be tricky...",
+      "ready": "Stage 2 ready to complete!",
+      "required_stage": "echo1_stage2",
+      "shop_unlock": [
+      ]
+    },
+    {
+      "title": "Stage 3",
+      "lore": [
+        { "type": "ftbechoes:text", "text": "welcome to stage 3!" },
+        { "type": "ftbechoes:audio", "location": "music_disc.ward", "text": "ward" },
+        { "type": "ftbechoes:text", "text" : [ { "translate" : "advancements.adventure.hero_of_the_village.description" } ] }
+      ],
+      "not_ready": "To continue, you need to do task C\nGood luck!",
+      "ready": "Stage 3 ready to complete!",
+      "required_stage": "echo1_stage3",
+      "shop_unlock": [
+      ]
+    }
+  ]
+}

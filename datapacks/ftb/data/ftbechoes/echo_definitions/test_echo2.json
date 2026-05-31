@@ -1,0 +1,29 @@
+{
+  "id": "ftbechoes:test_echo2",
+  "title": { "text": "Test Echo 2", "color": "green" },
+  "stages": [
+    {
+      "title": "Stage I",
+      "lore": [
+        { "type": "ftbechoes:text", "text": "Hello world" },
+        { "type": "ftbechoes:audio", "location": "entity.ender_dragon.growl", "text": "dragon" }
+      ],
+      "not_ready": "You're not ready yet :(",
+      "ready": "Ok, good to go",
+      "required_stage": "echo2_stage1",
+      "shop_unlock": [
+      ]
+    },
+    {
+      "title": "Stage II",
+      "lore": [
+        { "type": "ftbechoes:text", "text": "Welcome to stage II !" }
+      ],
+      "not_ready": "Not yet...",
+      "ready": "Ok good",
+      "required_stage": "echo2_stage2",
+      "shop_unlock": [
+      ]
+    }
+  ]
+}

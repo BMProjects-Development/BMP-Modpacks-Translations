@@ -1,0 +1,37 @@
+{
+  "id": "ftbechoes:t5_echo_chaos",
+  "title": {"translate": "ftb.echo.chaos.title"},
+  "all_complete": {"translate": "ftb.echo.all_stages_completed"},
+  "stages": [
+    {
+      "title": {"translate": "ftb.echo.stage5.title"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.chaos.stage5.task1", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.chaos.stage5.task1.lore"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.chaos.stage5.task1.lore2"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.chaos.stage5.task1.lore3"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.chaos.stage5.task1.not_ready"},
+      "required_stage": "echo_chaos_stage5_task1_completed",
+      "ready": {"translate": "ftb.echo.chaos.stage5.task1.ready"},
+      "completed": {"translate": "ftb.echo.chaos.stage5.task1.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_chaos_stage5_task1_check", "permission": 3}, "experience": 100},
+      "shop_unlock": [
+        {"name": "Gateway - Apothic Endless", "item": {"id": "gateways:gate_pearl", "components": {"gateways:gateway": "apotheosis:endless_invader"}, "count": 1}, "cost": 350, "description": [{"translate": "ftb.shop.description.gate_pearl.endless_invader1"}, {"translate": "ftb.shop.description.gate_pearl.endless_invader2"}, {"translate": "ftb.shop.description.gate_pearl.endless_invader3"}, {"translate": "ftb.shop.description.gate_pearl.endless_invader4"}, {"translate": "ftb.shop.description.gate_pearl.endless_invader5"}]},
+        {"name": "Eclipse Alloy Anvil", "item": {"id": "justdynathings:eclipse_alloy_anvil", "count": 1}, "cost": 250, "description": {"translate": "ftb.shop.description.exclusive"}}
+      ]
+    },
+    {
+      "title": {"translate": "ftb.echo.stage6.title", "color": "ftb:rainbow"},
+      "lore": [
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.placeholder.stage6.task1.lore"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.placeholder.stage6.task1.not_ready"},
+      "required_stage": "echo_placeholder_stage6_task1_completed",
+      "ready": {"translate": "ftb.echo.bugged"},
+      "completed": {"translate": "ftb.echo.bugged"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_placeholder_stage6_task1_check", "permission": 3}, "experience": 3000},
+      "shop_unlock": []
+    }
+  ]
+}

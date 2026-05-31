@@ -1,0 +1,509 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:gunpowder",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 4
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:gunpowder_barrel",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 16
+                  }
+                ]
+              },
+              "trader_experience": 1
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 4
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:blueprint",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                  }
+                ]
+              },
+              "trader_experience": 5,
+              "price_multiplier": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 12,
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:target",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 12
+                  }
+                ]
+              },
+              "trader_experience": 10
+            },
+            {
+              "num_to_select": 1,
+              "trades": [
+                {
+                  "cost_a": {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 2
+                      }
+                    ]
+                  },
+                  "cost_b": {
+                    "type": "minecraft:item",
+                    "name": "immersiveengineering:empty_casing",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 4
+                      }
+                    ]
+                  },
+                  "result": {
+                    "type": "minecraft:item",
+                    "name": "immersiveengineering:casull_bullet",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 4
+                      }
+                    ]
+                  },
+                  "trader_experience": 5,
+                  "price_multiplier": 0.05
+                },
+                {
+                  "cost_a": {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 2
+                      }
+                    ]
+                  },
+                  "cost_b": {
+                    "type": "minecraft:item",
+                    "name": "immersiveengineering:empty_casing",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 4
+                      }
+                    ]
+                  },
+                  "result": {
+                    "type": "minecraft:item",
+                    "name": "immersiveengineering:silver_bullet",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 4
+                      }
+                    ]
+                  },
+                  "trader_experience": 5,
+                  "price_multiplier": 0.05
+                },
+                {
+                  "cost_a": {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 2
+                      }
+                    ]
+                  },
+                  "cost_b": {
+                    "type": "minecraft:item",
+                    "name": "immersiveengineering:empty_shell",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 4
+                      }
+                    ]
+                  },
+                  "result": {
+                    "type": "minecraft:item",
+                    "name": "immersiveengineering:buckshot_shell",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 4
+                      }
+                    ]
+                  },
+                  "trader_experience": 5,
+                  "price_multiplier": 0.05
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 24,
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:blueprint",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 12
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 3
+                  }
+                ]
+              },
+              "trader_experience": 20,
+              "price_multiplier": 0.2
+            },
+            {
+              "num_to_select": 1,
+              "trades": [
+                {
+                  "cost_a": {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 1
+                      }
+                    ]
+                  },
+                  "result": {
+                    "type": "minecraft:item",
+                    "name": "immersiveengineering:empty_casing",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 8
+                      }
+                    ]
+                  },
+                  "trader_experience": 20
+                },
+                {
+                  "cost_a": {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 1
+                      }
+                    ]
+                  },
+                  "result": {
+                    "type": "minecraft:item",
+                    "name": "immersiveengineering:empty_shell",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 8
+                      }
+                    ]
+                  },
+                  "trader_experience": 20
+                },
+                {
+                  "cost_a": {
+                    "type": "minecraft:item",
+                    "name": "minecraft:emerald",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": {
+                          "type": "minecraft:uniform",
+                          "min": 5,
+                          "max": 10
+                        }
+                      }
+                    ]
+                  },
+                  "result": {
+                    "type": "minecraft:item",
+                    "name": "immersiveengineering:revolver_barrel",
+                    "functions": [
+                      {
+                        "function": "minecraft:set_count",
+                        "count": 1
+                      }
+                    ]
+                  },
+                  "trader_experience": 45,
+                  "price_multiplier": 0.25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 40,
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  }
+                ]
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:empty_casing",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:high_explosive_bullet",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  }
+                ]
+              },
+              "trader_experience": 15,
+              "price_multiplier": 0.05
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  }
+                ]
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:empty_shell",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:flare_shell",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 2
+                  }
+                ]
+              },
+              "trader_experience": 15,
+              "price_multiplier": 0.05
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 5,
+                      "max": 10
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:revolver_barrel",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              "trader_experience": 45,
+              "price_multiplier": 0.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 60,
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 5,
+                      "max": 10
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:revolver_barrel",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              "trader_experience": 45,
+              "price_multiplier": 0.25
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 5,
+                      "max": 10
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "immersiveengineering:revolver_barrel",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 1
+                  }
+                ]
+              },
+              "trader_experience": 45,
+              "price_multiplier": 0.25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

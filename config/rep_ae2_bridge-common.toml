@@ -1,0 +1,9 @@
+#Energy consumption rate (AE/t) for the RepAE2Bridge
+# Default: 500
+# Range: > 0
+bridgeEnergyConsumption = 500
+#Enable aggressive debug logging for troubleshooting (includes network state dumps and reconnection logs)
+enableDebugLogging = false
+#Path to directory containing replication bridge matter declaration files
+#Default: 'config'
+bridgeCustomMatterConfigPath = "config"

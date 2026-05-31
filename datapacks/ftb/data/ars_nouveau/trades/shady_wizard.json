@@ -1,0 +1,459 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 5,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 16,
+                      "max": 16
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "ars_nouveau:sourceberry_bush",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 2,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 16,
+                      "max": 16
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "ars_nouveau:mage_fiber",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 2,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 6,
+                      "max": 16
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "#ars_nouveau:shady_wizard_fruits",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 2,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 32,
+                      "max": 32
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:amethyst_shard",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 2,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "ars_nouveau:source_berry_roll",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 4,
+                      "max": 4
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 2,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 12,
+      "groups": [
+        {
+          "num_to_select": 5,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 1
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "ars_nouveau:ghost_weave",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 2,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 1
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "ars_nouveau:mirror_weave",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 2,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 1
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "ars_nouveau:false_weave",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 2,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "#ars_nouveau:wilden_drop_tag",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 4,
+                      "max": 4
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 12,
+                      "max": 12
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 24,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 4,
+                      "max": 4
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "#ars_nouveau:ritual_trade_blacklist",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 1
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 40,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 20,
+                      "max": 20
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "#ars_nouveau:summon_shards_tag",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 1
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 60,
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "ars_nouveau:source_berry_pie",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 4,
+                      "max": 4
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 2,
+                      "max": 2
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 2
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 48,
+                      "max": 48
+                    }
+                  }
+                ]
+              },
+              "result": {
+                "type": "minecraft:item",
+                "name": "dungeon_loot_tables:rare_loot",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": {
+                      "type": "minecraft:uniform",
+                      "min": 1,
+                      "max": 1
+                    }
+                  }
+                ]
+              },
+              "trader_experience": 20,
+              "max_uses": 1,
+              "price_multiplier": 0.2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

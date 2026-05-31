@@ -1,0 +1,95 @@
+{
+ "id": "ftbechoes:t2_echo_fabricator",
+  "title": {"translate": "ftb.echo.fabricator.title"},
+  "all_complete": {"translate": "ftb.echo.all_stages_completed"},
+  "stages": [
+    {
+      "title": {"translate": "ftb.echo.stage0.title"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.startup", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.startup.lore"}]}
+      ],
+      "not_ready" : {"translate": "ftb.echo.bugged"},
+      "required_stage": "echo_fabricator_meet",
+      "ready": {"translate": "ftb.echo.bugged"},
+      "completed": {"translate": "ftb.echo.startup.completed"},
+      "shop_unlock":[
+        {"name": "Water Generator Upgrade", "item": {"id": "functionalstorage:water_generator_upgrade", "count": 1}, "cost": 35, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Basic to Iron Tier Upgrade", "item": {"id": "sophisticatedstorage:basic_to_iron_tier_upgrade", "count": 1}, "cost": 25, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Basic to Gold Tier Upgrade", "item": {"id": "sophisticatedstorage:basic_to_gold_tier_upgrade", "count": 1}, "cost": 45, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Cardboard Box", "item": {"id": "mekanism:cardboard_box", "count": 1}, "cost": 15},
+        {"name": "Pocket Generator", "item": {"id": "justdirethings:pocket_generator", "components": {"justdirethings:forge_energy":1000000}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.filled_rf"}},
+        {"name": "Equipment Charger", "item": {"id": "oritech:charger_block", "count": 1}, "cost": 35},
+        {"name": "Drill Speed Augment III", "item": [{"id": "actuallyadditions:drill_upgrade_speed_iii", "count": 1}, {"id": "actuallyadditions:drill_upgrade_speed_ii", "count": 1}], "cost": 30, "icon": "actuallyadditions:item/drill_upgrade_speed_iii"},
+        {"name": "Drill Area Augment II", "item": {"id": "actuallyadditions:drill_upgrade_five_by_five", "count": 1}, "cost": 25},
+        {"name": "Drill Fortune Augment II", "item": [{"id": "actuallyadditions:drill_upgrade_fortune_ii", "count": 1}, {"id": "actuallyadditions:drill_upgrade_fortune"}], "cost": 40, "icon": "actuallyadditions:item/drill_upgrade_fortune_ii"}
+      ]
+    },
+    {
+      "title": {"translate": "ftb.echo.stage2.title"},
+      "lore": [
+        {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.fabricator.stage2.task1", "text": {"translate": "ftb.echo.voice_over"}},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.fabricator.stage2.task1.lore"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.fabricator.stage2.task1.lore2"}]},
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.fabricator.stage2.task1.lore3"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.fabricator.stage2.task1.not_ready"},
+      "required_stage": "echo_fabricator_stage2_task1_completed",
+      "ready": {"translate": "ftb.echo.fabricator.stage2.task1.ready"},
+      "completed": {"translate": "ftb.echo.fabricator.stage2.task1.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_fabricator_stage2_task1_check", "permission": 3}, "experience": 100},
+      "shop_unlock": [
+        {"name": "Gold to Diamond Chest Upgrade", "item": {"id": "sophisticatedstorage:gold_to_diamond_tier_upgrade", "count": 1}, "cost": 25},
+        {"name": "Infinity Cobblestone Cell", "item": {"id": "extendedae:infinity_cobblestone_cell", "count": 1}, "cost": 35, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Compact Giant Chance Cube", "item": {"id": "chancecubes:compact_giant_chance_cube", "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Special Bullet Blueprint", "item": {"id": "immersiveengineering:blueprint", "components": {"immersiveengineering:blueprint":"specialBullet"}, "count": 1}, "cost": 10, "description": {"translate": "ftb.shop.description.blueprint"}},
+        {"name": "Energizing Rod (Blazing)", "item": {"id": "powah:energizing_rod_blazing", "count": 1}, "cost": 35},
+        {"name": "Dense Energy Cell", "item": {"id": "ae2:dense_energy_cell", "count": 1}, "cost": 20},
+        {"name": "Crafting Card", "item": {"id": "ae2:crafting_card", "count": 1}, "cost": 20},
+        {"name": "Acceleration Card", "item": {"id": "ae2:speed_card", "count": 4 }, "cost": 40},
+        {"name": "Wireless Booster", "item": {"id": "ae2:wireless_booster", "count": 1}, "cost": 35},
+        {"name": "Wireless Access Point", "item": {"id": "ae2:wireless_access_point", "count": 1}, "cost": 20},
+        {"name": "Crafting Unit", "item": {"id": "ae2:crafting_unit", "count": 1}, "cost": 25},
+        {"name": "Energy Card", "item": {"id": "ae2:energy_card", "count": 2}, "cost": 20},
+        {"name": "Fluix Smart Cables", "item": {"id": "ae2:fluix_smart_cable", "count": 16 }, "cost": 15},
+        {"name": "Advanced Fluid Tank", "item": {"id": "mekanism:advanced_fluid_tank", "count": 1}, "cost": 20},
+        {"name": "Stone Generator Upgrade", "item": {"id": "mekanism:upgrade_stone_generator", "count": 1}, "cost": 25},
+        {"name": "Hyper-Dense QIO Drive", "item": {"id": "mekanism:qio_drive_hyper_dense", "count": 1}, "cost": 30},
+        {"name": "Basic Tier Upgrade", "item": {"id": "mekanism:basic_tier_installer", "count": 1}, "cost": 25},
+        {"name": "Advanced Tier Upgrade", "item": {"id": "mekanism:advanced_tier_installer", "count": 1}, "cost": 40},
+        {"name": "Upgrade: Hammer", "item": {"id": "justdirethings:upgrade_hammer", "count": 1}, "cost": 25},
+        {"name": "Smithing Template", "item": {"id": "minecraft:netherite_upgrade_smithing_template", "count": 1}, "cost": 35},
+        {"name": "Battery Template", "item": {"id": "constructionstick:template_battery", "count": 1}, "cost": 35},
+        {"name": "Thermoelectric Generator", "item": {"id": "immersiveengineering:thermoelectric_generator", "count": 4}, "cost": 30, "description": {"translate": "ftb.shop.description.exclusive"}},
+        {"name": "Garden Cloche", "item": {"id": "immersiveengineering:cloche", "count": 1}, "cost": 40},
+        {"name": "Advanced Electronic Component", "item": {"id": "immersiveengineering:component_electronic_adv", "count": 2}, "cost": 20},
+        {"name": "Precision Mechanism", "item": {"id": "create:precision_mechanism", "count": 1}, "cost": 20},
+        {"name": "Electric Motor", "item": {"id": "createaddition:electric_motor", "count": 1}, "cost": 35},
+        {"name": "Powercell (High)", "item": {"id": "rftoolspower:cell3", "count": 1}, "cost": 25},
+        {"name": "Matter Receiver", "item": {"id": "rftoolsutility:matter_receiver", "count": 1}, "cost": 20},
+        {"name": "Matter Transmitter", "item": {"id": "rftoolsutility:matter_transmitter", "count": 1}, "cost": 20},
+        {"name": "Advanced Charged Porter", "item": {"id": "rftoolsutility:advanced_charged_porter", "count": 1}, "cost": 25},
+        {"name": "Data Model - Glow Squid", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:glow_squid"}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.data_model.basic"}},
+        {"name": "Data Model - Deer", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:twilightforest/deer"}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.data_model.basic"}},
+        {"name": "Data Model - Squid", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:squid"}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.data_model.basic"}},
+        {"name": "Data Model - Sheep", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:sheep"}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.data_model.basic"}},
+        {"name": "Data Model - Cow", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:cow"}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.data_model.basic"}},
+        {"name": "Data Model - Chicken", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:chicken"}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.data_model.basic"}},
+        {"name": "Data Model - Pig", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:pig"}, "count": 1}, "cost": 20, "description": {"translate": "ftb.shop.description.data_model.basic"}},
+        {"name": "Data Model - Slime", "item": {"id": "hostilenetworks:data_model", "components": {"hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:slime"}, "count": 1}, "cost": 25, "description": {"translate": "ftb.shop.description.data_model.basic"}}
+      ]
+    },
+    {
+      "title": {"translate": "ftb.echo.stage3.title"},
+      "lore": [
+        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.fabricator.stage3.task1.lore"}]}
+      ],
+      "not_ready": {"translate": "ftb.echo.placeholder.stage6.task1.lore"},
+      "required_stage": "echo_fabricator_stage3_task1_completed",
+      "ready": {"translate": "ftb.echo.fabricator.stage3.task1.ready"},
+      "completed": {"translate": "ftb.echo.fabricator.stage3.task1.completed"},
+      "completion_reward": {"command": {"run": "kubejs stages add @s echo_fabricator_stage3_task1_check", "permission": 3}, "experience": 100},
+      "shop_unlock": []
+    }
+  ]
+}

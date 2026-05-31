@@ -1,0 +1,39 @@
+{
+    "type": "apotheosis:gem",
+    "constraints": {
+        "biomes": [
+            "ftb:end",
+            "ftb:eternal_stone",
+            "ftb:void_chasms"
+        ]
+    },
+    "min_purity": "flawless",
+    "unique": true,
+    "weights": {
+        "summit": {
+            "quality": 2.0,
+            "weight": 50
+        },
+        "pinnacle": {
+            "quality": 2.0,
+            "weight": 50
+        }
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:enchantment",
+            "enchantment": "minecraft:sharpness",
+            "gem_class": {
+                "key": "anything",
+                "types": {
+                    "type": "neoforge:any"
+                }
+            },
+            "mode": "global",
+            "values": {
+                "flawless": 1,
+                "perfect": 2
+            }
+        }
+    ]
+}

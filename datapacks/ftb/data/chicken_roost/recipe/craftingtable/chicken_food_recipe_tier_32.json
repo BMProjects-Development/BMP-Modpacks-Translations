@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "chicken_roost:chicken_essence_tier_3"
+    },
+    {
+      "item": "enderio:clayed_glowstone"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "enderio:clayed_glowstone"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_2"
+    },
+    {
+      "item": "chicken_roost:chicken_food_tier_2"
+    }
+  ],
+  "result": {
+    "id": "chicken_roost:chicken_food_tier_3",
+    "count": 2
+  }
+}

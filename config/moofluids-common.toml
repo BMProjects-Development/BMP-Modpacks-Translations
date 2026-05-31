@@ -1,0 +1,33 @@
+#The number of ticks before you can milk a fluid cow again
+# Default: 3600
+# Range: > 0
+defaultMilkingCooldown = 3600
+#Whether fluid cows should spawn naturally
+naturalSpawning = false
+#Milk can be obtained from fluids cows when on cooldown.
+milkCow = false
+#A list of modid:fluid to blacklist from spawning.
+#Can also use modid:* to disable all fluids from a mod.
+fluidBlacklist = ["industrialforegoing:fermented_ore_meat", "industrialforegoing:raw_ore_meat", "immersiveengineering:potion", "minecraft:milk", "ftb:molten_chaos", "productivemetalworks:molten_heavy_core", "productivemetalworks:molten_glass", "productivemetalworks:molten_emerald", "productivemetalworks:molten_diamond", "productivemetalworks:molten_lapis", "productivemetalworks:molten_quartz", "productivemetalworks:molten_ancient_debris", "productivemetalworks:molten_shulker_shell", "productivemetalworks:molten_blaze", "productivemetalworks:molten_magma_cream", "productivemetalworks:molten_wax", "productivemetalworks:meat", "productivemetalworks:molten_netherite", "ftboceanmobs:*", "create_dragons_plus:*", "create_shimmer:*", "actuallyadditions:*", "mekanism:*", "enderio:*", "justdirethings:*", "mob_grinding_utils:*", "create:*", "createaddition:*", "create_enchantment_industry:*", "mekanismgenerators:*", "sauce:*", "advanced_ae:*", "sophisticatedcore:*", "supplementaries:*", "oritech:still_sulfuric_acid", "oritech:still_biofuel", "oritech:still_molten_biosteel", "oritech:still_molten_duratium", "oritech:still_molten_energite", "oritech:still_molten_adamant", "productivemetalworks:molten_enderium"]
+#Restrict specific fluid cows to spawn only in specific dimensions.
+#Format: 'modid:fluid->modid:dimension'
+#Example: 'minecraft:water->minecraft:overworld'
+#Example: 'minecraft:lava->minecraft:the_nether'
+#Example: 'kubejs:fluid_ender->minecraft:the_end'
+dimensionSpawnRestrictions = []
+#Blacklist specific biomes from spawning all fluid cows.
+#Format: 'modid:biome' or use tags like '#modid:biome_tag'
+#Example: 'minecraft:deep_dark'
+#Example: 'minecraft:mushroom_fields'
+#Example: '#minecraft:is_ocean' to blacklist all ocean biomes
+biomeSpawnBlacklist = ["minecraft:deep_dark"]
+#The amount of fluid the cow jar can hold
+# Default: 32000
+# Range: > 0
+cowJarCapacity = 32000
+#Whitelist specific biomes for spawning fluid cows (empty = all biomes allowed).
+#If this list is not empty, ONLY these biomes will allow fluid cow spawns.
+#Format: 'modid:biome' or use tags like '#modid:biome_tag'
+#Example: 'minecraft:plains'
+#Example: '#minecraft:is_overworld' to allow only overworld biomes
+biomeSpawnWhitelist = []
