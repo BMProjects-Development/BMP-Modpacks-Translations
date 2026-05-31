@@ -1,14 +1,32 @@
-# ⭐️ BMP-Modpacks-Translations
+# ⭐️ Установка перевода сборки StoneBlock 4
 
-В данном репозитории находятся наши переводы сборок, а также инструкции по их установке! 🔮 
-
-## ❗️Список переведенных сборок
-- [StoneBlock 4](https://github.com/BMProjects-Development/BMP-Modpacks-Translations/tree/main/StoneBlock%204)
-
-## ❗️Дополнительные проекты
-- BMP-Translations - ресурспак с переводом множества модов (постоянно обновляется) [CurseForge](https://www.curseforge.com/minecraft/texture-packs/bmp-translations) | [Modrinth](https://modrinth.com/resourcepack/bmp-translations) 
+В данном небольшом руководстве мы описали инструкции для установки перевода StoneBlock 4 двумя способами!
 
 ## ❗️Важная информация
-- Наш [Telegram канал](https://t.me/BMProjects) (здесь можно быстрее всех получать новости о новых переводах и обновлениях, а также задавать вопросы по ним)
-- Наш [Discord сервер](https://discord.gg/9GWKBVw3Ty) (здесь также можно получать новости о переводах и задавать вопросы по ним)
-- Наш [Boosty](https://boosty.to/barmaxx) (здесь можно поддержать нас и мотивировать делать больше и качественнее) 
+- Версия Minecraft для сборки 1.21.1 
+- Загрузчик модов NeoForge 21.1.220 
+- Перевод создан для версии сборки 1.9.6 (вполне вероятно на других версиях он тоже будет работать, но могут возникать ошибки)
+- Авторы перевода [BMProjects](https://t.me/BMProjects) (в тг канале можно задавать вопросы по переводу)
+
+## ❗️Способ 1 - Установка с нуля:
+1. Скачайте архив с переводом [Google Drive](https://drive.google.com/file/d/1AAD_wq1YdBk4byolbxJ_CyrwgZE6yTKP/view?usp=sharing)
+2. Очистите папку .minecraft
+3. Перенесите все папки из архива в .minecraft
+4. Запустите игру
+5. Приятной игры!
+
+## ❗️Способ 2 - Установка в уже имеющуюся сборку:
+1. Скачайте архив с переводом [Google Drive](https://drive.google.com/file/d/1GiXWb82v6MC1Y7cRf7hhH6AhbnfvVaAV/view?usp=drive_link)
+2. Перенесите папки config, kubejs, resourcepacks с заменой в папку где находится установленная сборка
+3. Запустите игру
+4. Приятной игры!
+
+## ❗️Способ 3 - Установка через CurseForge Launcher, Prism Launcher и прочее!
+1. Скачайте архив с переводом [Google Drive](https://drive.google.com/file/d/1EmpT8aXJx6cehgAnHC4FOaKlnaqUsqAD/view?usp=drive_link)
+2. Импортируйте архив через CurseForge Launcher, Prism Launcher и прочее
+3. Запустите игру
+4. Приятной игры!
+
+## ❗️Скачать оригинальную версию сборки
+[CurseForge](https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4) | [FTB](https://feed-the-beast.com/)
+
