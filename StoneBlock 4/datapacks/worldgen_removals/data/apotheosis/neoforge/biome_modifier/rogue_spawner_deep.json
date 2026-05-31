@@ -1,6 +1,0 @@
-{
-  "neoforge:conditions": [{"type": "neoforge:false"}],
-  "type": "neoforge:none",
-  "blacklisted_biomes": [],
-  "feature": "apotheosis:rogue_spawner_deep"
-}

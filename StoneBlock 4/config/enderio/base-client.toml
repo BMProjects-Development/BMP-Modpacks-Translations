@@ -1,7 +1,0 @@
-[visual]
-	#Enable machine particles
-	machineParticles = true
-
-[behavior]
-	#Ticks before Staff Of Traveling Keybind is considered 'held' for anchor teleports 
-	travelKeyHoldDelayTicks = 8

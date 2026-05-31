@@ -1,3 +1,0 @@
-#Synesthesia: Sound Visualizer Client Configuration
-#If true, sound visualizations will render through walls (disables depth testing)
-renderThroughWalls = true

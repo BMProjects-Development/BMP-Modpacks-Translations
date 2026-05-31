@@ -1,5 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"malum:malignant_pewter_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"psi:cad_assembler"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]
