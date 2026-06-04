@@ -1,0 +1,19 @@
+{
+  "id": "mekanism_plastic_glow",
+  "name": {
+    "translate": "collapsible_groups.group.mekanism_plastic_glow",
+    "fallback": "Mekanism: Plastic Blocks (Glow)"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "mekanismadditions"
+      },
+      {
+        "item_path_ends_with": "_plastic_glow"
+      }
+    ]
+  }
+}

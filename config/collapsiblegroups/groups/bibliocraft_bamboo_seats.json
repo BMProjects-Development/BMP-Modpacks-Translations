@@ -1,0 +1,14 @@
+{
+  "id": "bibliocraft_bamboo_seats",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_bamboo_seats",
+    "fallback": "BiblioCraft: Bamboo Seats"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "bibliocraft" },
+      { "item_path_ends_with": "_bamboo_seat" }
+    ]
+  }
+}

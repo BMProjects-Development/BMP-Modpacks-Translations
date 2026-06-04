@@ -1,0 +1,12 @@
+{
+  "id": "bibliocraft_sword_pedestals",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_sword_pedestals",
+    "fallback": "BiblioCraft: Sword Pedestals"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "bibliocraft:sword_pedestal"
+  }
+}

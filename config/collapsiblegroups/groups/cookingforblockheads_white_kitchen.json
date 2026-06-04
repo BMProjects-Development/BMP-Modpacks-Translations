@@ -1,0 +1,19 @@
+{
+  "id": "cookingforblockheads_white_kitchen",
+  "name": {
+    "translate": "collapsible_groups.group.cookingforblockheads_white_kitchen",
+    "fallback": "Cooking For Blockheads: White Kitchen Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "cookingforblockheads"
+      },
+      {
+        "item_path_starts_with": "white"
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Обновление источника
+  title: Улучшение источника
   position: 2
   parent: ftb:t1_upgrades.md
   icon: "ars_nouveau:relay"
@@ -8,15 +8,15 @@ item_ids:
   - ars_nouveau:relay
   - ars_nouveau:sourcestone
 ---
-# Улучшение "Источник Ars"
+# <Color id="green">Улучшение источника</Color>
 
 <ItemImage id="ars_nouveau:sourcestone" scale="3" />
 
-Одно из первых улучшений мирового двигателя, которое ты можешь открыть это <Color id="light_purple">"Источник Ars"</Color>. Это дополнительное улучшение позволит тебе направить <Color id="light_purple">Источник</Color> в <Color id="gold">Контроллер Мирового двигателя</Color>.
+Одно из первых улучшений мирового двигателя, которое Вы можете открыть - это <Color id="light_purple">"улучшение источника"</Color>. Это второстепенное улучшение позволит Вам связать <Color id="light_purple">Исток</Color> и <Color id="gold">контроллер мирового двигателя</Color>.
 
-Для начала вам понадобится принести <Color id="green">заполненный сосуд с источником</Color> и <Color id="light_purple">Жезл Владычества</Color> чтобы связать поток <Color id="light_purple">Источника</Color> в контроллер из сосуда. В дальнейшем вы сможете использовать <Color id="light_purple">"Ретранслятор источника: Передача"</Color>, чтобы передавать источник прямо из вашей базы.
+Для начала Вам понадобится принести <Color id="green">заполненный кувшин с Истоком</Color> и <Color id="light_purple">жезл владычества</Color>, чтобы направить поток <Color id="light_purple">Истока</Color> и контроллер из сосуда. В дальнейшем Вы сможете использовать <Color id="light_purple">"Реле источника: передача"</Color>, чтобы передавать Исток прямо с Вашей базы.
 
-## Разблокируемые рецепты
+## <Color id="gold">Разблокируемые рецепты:</Color>
 
 <ItemGrid>
   <ItemIcon id="ars_nouveau:enchanting_apparatus" />

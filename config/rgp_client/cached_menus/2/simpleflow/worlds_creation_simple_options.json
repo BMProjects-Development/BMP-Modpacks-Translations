@@ -1,0 +1,103 @@
+{
+  "type": "simple",
+  "id": "worlds_creation_simple_options",
+  "title": "Worlds Creation",
+  "back": {
+    "action": "open_screen",
+    "id": "worlds_creation_simple_checkout",
+    "pass_storage": true
+  },
+  "entries": [
+  ],
+  "elements": [
+    {
+      "type": "text",
+      "id": "title",
+      "text": {
+        "translate": "rgp_client.gui.worlds_creation.plan_options"
+      },
+      "alignment": "center",
+      "position": {
+        "x": 0,
+        "y": 15,
+        "pivot": "top_center"
+      }
+    },
+    {
+      "type": "panel",
+      "id": "options_info",
+      "render_background": true,
+      "elements": [
+        {
+          "type": "text",
+          "id": "checkout_name",
+          "text": {
+            "translate": "options.title",
+            "color": "dark_gray"
+          },
+          "alignment": "left",
+          "position": {
+            "x": 5,
+            "y": 5,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "simple_button",
+          "id": "region",
+          "text": {
+            "translate": "rgp_client.gui.worlds_creation.region"
+          },
+          "required_variable": "!gameServerId",
+          "disabled_tooltip": {
+            "translate": "rgp_client.gui.worlds_creation.region_selection_disabled"
+          },
+          "options": {
+            "width": 190,
+            "height": 20
+          },
+          "position": {
+            "x": 0,
+            "y": -30,
+            "pivot": "bottom_center"
+          },
+          "callback": {
+            "action": "open_screen",
+            "id": "worlds_creation_simple_region",
+            "pass_storage": true
+          }
+        }
+      ],
+      "options": {
+        "width": 200,
+        "height": 70
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "pivot": "center"
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "back",
+      "text": {
+        "translate": "gui.back"
+      },
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_creation_simple_checkout",
+        "pass_storage": true
+      }
+    }
+  ]
+}

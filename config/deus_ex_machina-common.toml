@@ -1,0 +1,14 @@
+#Show Deus Ex Machina icon on the player's HUD when the effect is active.
+showIcon = true
+#Enable debug mode for additional logging.
+debugMode = false
+#Default reset behavior for Resistance when a mob is killed by the player.
+#FULL resets to minimum, PARTIAL reduces by the increase value, NONE keeps current value.
+#Can be overridden per-mob via datapacks (data/<namespace>/deus_mobs/<name>.json)
+#Allowed Values: NONE, FULL, PARTIAL
+resistanceReset = "FULL"
+#Default reset behavior for Attack Boost when a mob is killed by the player.
+#FULL resets to minimum, PARTIAL reduces by the increase value, NONE keeps current value.
+#Can be overridden per-mob via datapacks (data/<namespace>/deus_mobs/<name>.json)
+#Allowed Values: NONE, FULL, PARTIAL
+attackBoostReset = "FULL"

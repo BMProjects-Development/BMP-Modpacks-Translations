@@ -182,7 +182,7 @@ let addBlocks = [
     textures: {
       default: "ftb:block/dry_leaves"
     },
-    sound: "AZALEA_LEAVES",
+    sound: "azalea_leaves",
     hardness: 0.2,
     noOcclusion: true,
     opaque: false,
@@ -196,7 +196,7 @@ let addBlocks = [
     textures: {
       default: "ftb:block/tesseract"
     },
-    sound: "LODESTONE",
+    sound: "lodestone",
     hardness: 5.0,
     resistance: 1200.0,
     noOcclusion: true,
@@ -264,7 +264,7 @@ StartupEvents.registry("block", (event) => {
     // Require Tools
     newBlock.requiresTool(block.requiresTool !== undefined ? block.requiresTool : false)
     // Sound
-    newBlock.soundType(block.sound !== undefined ? block.sound : "WOOD")
+    newBlock.soundType(block.sound !== undefined ? block.sound : "wood")
     // Tags (object form or array)
     if (block.tags) {
       if (block.tags.both) block.tags.both.forEach((tag) => newBlock.tagBoth(tag))

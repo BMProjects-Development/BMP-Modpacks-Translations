@@ -1,0 +1,14 @@
+{
+  "id": "more_red_network_cables",
+  "name": {
+    "translate": "collapsible_groups.group.more_red_network_cables",
+    "fallback": "More Red: Network Cables"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "morered" },
+      { "item_path_ends_with": "_network_cable" }
+    ]
+  }
+}

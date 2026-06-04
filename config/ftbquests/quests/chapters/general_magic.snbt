@@ -1930,7 +1930,7 @@
 			dependencies: ["272E84656D0F133C"]
 			icon: {
 				components: {
-					"ftbquests:icon": "malum:textures/mob_effect/sacrificial_empowerment.png"
+					"ftbquests:icon": "malum:textures/vfx/rite/rite_of_empowerment.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -1981,8 +1981,8 @@
 					type: "item"
 				}
 				{
-					id: "704B13C98EE2CDCD"
-					item: { components: { "minecraft:damage": 1875 }, count: 1, id: "gaze:veil_dagger" }
+					id: "151B4D3D6820A99C"
+					item: { components: { "irons_spellbooks:affinity_data": { bonuses: { "irons_spellbooks:eldritch_blast": 3 } }, "irons_spellbooks:spell_container": { data: [{ id: "gaze:soulward_shield", index: 0, level: 1, locked: 1b }], maxSpells: 11, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "gaze:encyclopedia_unveiled" }
 					optional_task: true
 					type: "item"
 				}
@@ -2124,7 +2124,7 @@
 					id: "15E003A299B271A6"
 					item: {
 						components: {
-							"minecraft:custom_name": "\"Gamer Colorizer\""
+							"minecraft:custom_name": "{\"translate\":\"item.ftb.gamer_colorizer\"}"
 						}
 						count: 1
 						id: "psi:cad_colorizer_rainbow"

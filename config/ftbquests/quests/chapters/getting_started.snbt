@@ -112,6 +112,7 @@
 					}
 					id: "59521977C507A466"
 					stage: "echo_guidance_meet"
+					team_stage: true
 					type: "gamestage"
 				}
 			]
@@ -459,7 +460,7 @@
 				{
 					auto: "disabled"
 					command: "/ftbunearthed setlevel @s 3"
-					feedback_message: "Ваш уровень землекопа был увеличен!"
+					feedback_message: "feedback_message.ftb.unearthing_level_up"
 					icon: {
 						components: {
 							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active.png"
@@ -476,7 +477,13 @@
 					id: "5EF124E7084F06BA"
 					ignore_reward_blocking: true
 					stage: "echo_guidance_stage1_task3_completed"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "088FED300153B019"
+					stage: "echo_guidance_stage1_task3_completed"
 					type: "gamestage"
 				}
 			]
@@ -635,7 +642,7 @@
 					id: "568A955FED6B97A7"
 					item: {
 						components: {
-							"minecraft:custom_name": "\"Lost Cell of the Echoes\""
+							"minecraft:custom_name": "{\"translate\":\"item.ftb.lost_cell\"}"
 						}
 						count: 1
 						id: "tempad:chronon_cell"
@@ -654,7 +661,7 @@
 					id: "0E91DBA45C7125BF"
 					ignore_reward_blocking: true
 					stage: "world_engine_unlocked"
-					team_reward: false
+					team_reward: true
 					type: "gamestage"
 				}
 				{
@@ -662,7 +669,13 @@
 					id: "7EE09043A043CE49"
 					ignore_reward_blocking: true
 					stage: "home_unlocked"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "4D51838BBD20CB44"
+					stage: "home_unlocked"
 					type: "gamestage"
 				}
 				{
@@ -670,7 +683,13 @@
 					id: "2EE0369071462EAC"
 					ignore_reward_blocking: true
 					stage: "echo_guidance_stage1_task2_completed"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "044FB94ADA3273DB"
+					stage: "echo_guidance_stage1_task2_completed"
 					type: "gamestage"
 				}
 			]
@@ -702,7 +721,7 @@
 				{
 					auto: "enabled"
 					command: "/ftbunearthed setlevel @s 2"
-					feedback_message: "Ваш уровень землекопа был увеличен!"
+					feedback_message: "feedback_message.ftb.unearthing_level_up"
 					icon: {
 						components: {
 							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active.png"
@@ -984,7 +1003,13 @@
 					id: "5D8D40D899EE89BD"
 					ignore_reward_blocking: true
 					stage: "echo_guidance_stage1_task1_completed"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "5E257F916005847B"
+					stage: "echo_guidance_stage1_task1_completed"
 					type: "gamestage"
 				}
 			]
@@ -1132,7 +1157,7 @@
 			rewards: [{
 				auto: "disabled"
 				command: "/compass locate ftb:healing_spring"
-				feedback_message: "Healing Spring Locator Acquired"
+				feedback_message: "feedback_message.ftb.locator_healing_spring"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1379,6 +1404,26 @@
 			}]
 			x: 11.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["54A433FAF8A65CC0"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "4FE01499D831CACC"
+			rewards: [{
+				amount: 1
+				id: "32244D7C313130E0"
+				type: "currency"
+			}]
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "187D3A2680948DF2"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: -1.0d
 		}
 	]
 }

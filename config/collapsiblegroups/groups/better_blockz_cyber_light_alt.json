@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_cyber_light_alt",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_cyber_light_alt",
+    "fallback": "Better Blockz: Cyber Light (Alt)"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "item_path_starts_with": "cyberlight_alt_blockz"
+      },
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      }
+    ]
+  }
+}

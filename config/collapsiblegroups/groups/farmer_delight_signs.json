@@ -1,0 +1,19 @@
+{
+  "id": "farmer_delight_signs",
+  "name": {
+    "translate": "collapsible_groups.group.farmer_delight_signs",
+    "fallback": "Farmer\u0027s Delight: Signs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "item_path_ends_with": "canvas_sign"
+      },
+      {
+        "type": "item",
+        "namespace": "farmersdelight"
+      }
+    ]
+  }
+}

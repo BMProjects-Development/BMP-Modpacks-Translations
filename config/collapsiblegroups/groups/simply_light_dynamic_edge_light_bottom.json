@@ -1,0 +1,15 @@
+{
+  "id": "simply_light_dynamic_edge_light_bottom",
+  "name": {
+    "translate": "collapsible_groups.group.simply_light_dynamic_edge_light_bottom",
+    "fallback": "Simply Light: Dynamic Edge Light (Bottom)"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "simplylight" },
+      { "item_path_starts_with": "edge_light" },
+      { "not": { "item_path_starts_with": "edge_light_top" } }
+    ]
+  }
+}

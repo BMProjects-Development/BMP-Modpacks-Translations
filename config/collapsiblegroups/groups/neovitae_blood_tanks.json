@@ -1,0 +1,12 @@
+{
+  "id": "neovitae_blood_tanks",
+  "name": {
+    "translate": "collapsible_groups.group.neovitae_blood_tanks",
+    "fallback": "Neovitae: Blood Tanks"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "neovitae:blood_tank"
+  }
+}

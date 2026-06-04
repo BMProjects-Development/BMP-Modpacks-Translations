@@ -78,7 +78,7 @@
 		}
 		{
 			command: "/ftbquests change_progress @s complete 1986452842DD2E46"
-			feedback_message: "Teleporter + Ender Shard"
+			feedback_message: "feedback_message.ftb.reward_teleporter"
 			icon: {
 				id: "simpleteleporters:teleporter"
 			}
@@ -98,7 +98,7 @@
 		}
 		{
 			command: "/ftbquests change_progress @s complete 3B60BAD2A4BEA950"
-			feedback_message: "Mekanism Teleporter"
+			feedback_message: "feedback_message.ftb.reward_mekanism_teleporter"
 			icon: {
 				id: "mekanism:teleporter"
 			}

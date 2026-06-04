@@ -1,0 +1,28 @@
+{
+  "id": "productive_bees_honey_comb_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.productive_bees_honey_comb_blocks",
+    "fallback": "Productive Bees: Resource Comb Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "productivebees:configurable_comb"
+      },
+      {
+        "type": "item",
+        "id": "productivebees:comb_ghostly"
+      },
+      {
+        "type": "item",
+        "id": "productivebees:comb_milky"
+      },
+      {
+        "type": "item",
+        "id": "productivebees:comb_powdery"
+      }
+    ]
+  }
+}

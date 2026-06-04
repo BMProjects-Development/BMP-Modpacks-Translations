@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_zeon_lime",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_zeon_lime",
+    "fallback": "Better Blockz: Zeon Lime"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "zeon_lime_"
+      }
+    ]
+  }
+}

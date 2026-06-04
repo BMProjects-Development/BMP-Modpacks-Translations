@@ -46,6 +46,8 @@ const oritechRecipeRemovals = [
   "oritech:crafting/addon/processingalt",
   "oritech:centrifuge/fluid/siliconwafers",
   "oritech:compat/ae2/charger/fluxite",
+  "oritech:laser/plutoniumdust",
+  "oritech:pulverizer/uraniumcrystal"
 ];
 
 ServerEvents.recipes((event) => {
@@ -219,6 +221,11 @@ ServerEvents.recipes((event) => {
       time: 80,
     })
     .id("ftb:oritech/refinery/still_oil");
+
+    event.shaped("oritech:packed_wheat", ["WW", "W "] , {
+      W: "minecraft:wheat"
+    })
+    .id("ftb:oritech/packed_wheat");
 
   //Exo Armor Requiring exclusively Carbon Plating
   const exo_recipes = [

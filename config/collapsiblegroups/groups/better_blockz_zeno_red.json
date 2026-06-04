@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_zeno_red",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_zeno_red",
+    "fallback": "Better Blockz: Zeno Red"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "zeno_red_"
+      }
+    ]
+  }
+}

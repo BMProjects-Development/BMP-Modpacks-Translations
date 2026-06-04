@@ -1,0 +1,14 @@
+{
+  "id": "mining_gadget_upgrades",
+  "name": {
+    "translate": "collapsible_groups.group.mining_gadget_upgrades",
+    "fallback": "Mining Gadgets: Upgrades"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "mininggadgets" },
+      { "item_path_starts_with": "upgrade_" }
+    ]
+  }
+}

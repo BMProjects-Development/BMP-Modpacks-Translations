@@ -1,0 +1,18 @@
+{
+  "id": "mixed_spawn_eggs",
+  "name": {
+    "translate": "collapsible_groups.group.mixed_spawn_eggs",
+    "fallback": "Mixed: Spawn Eggs"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "item_path_ends_with": "spawn_egg"
+      },
+      {
+        "item_path_ends_with": "_se"
+      }
+    ]
+  }
+}

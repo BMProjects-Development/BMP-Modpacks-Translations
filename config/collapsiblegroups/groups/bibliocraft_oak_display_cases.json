@@ -1,0 +1,14 @@
+{
+  "id": "bibliocraft_oak_display_cases",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_oak_display_cases",
+    "fallback": "BiblioCraft: Oak Display Cases"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "bibliocraft" },
+      { "item_path_ends_with": "_oak_display_case" }
+    ]
+  }
+}

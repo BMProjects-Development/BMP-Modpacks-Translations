@@ -1,0 +1,14 @@
+{
+  "id": "oritech_efficient_speed_addons",
+  "name": {
+    "translate": "collapsible_groups.group.oritech_efficient_speed_addons",
+    "fallback": "Oritech: Efficient Speed Addons"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "oritechthings" },
+      { "item_path_contains": "efficient_speed" }
+    ]
+  }
+}

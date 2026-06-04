@@ -27,4 +27,26 @@ ServerEvents.recipes((event) => {
 
   event.shapeless(Item.of("minecraft:writable_book", 1), ["#c:books", "#c:feathers", "#c:dyes/black"]).id("ftb:minecraft/shapeless/writable_book");
 
+  //Using Farmer's Delight to Recyle Bowls
+  event.custom({
+    type: "farmersdelight:cutting",
+    ingredients: [
+        {
+        item: "minecraft:bowl"
+        }
+    ],
+    result: [
+        {
+        item: {
+            count: 1,
+            id: "minecraft:oak_planks"
+        }
+        }
+    ],
+    tool: {
+        type: "farmersdelight:item_ability",
+        action: "axe_dig"
+    }
+  }).id("ftb:farmersdelight/cutting/recycling/bowl");
+  
 });

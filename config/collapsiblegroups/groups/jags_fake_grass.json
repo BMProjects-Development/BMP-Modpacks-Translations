@@ -1,0 +1,22 @@
+{
+  "id": "jags_fake_grass",
+  "name": {
+    "translate": "collapsible_groups.group.jags_fake_grass",
+    "fallback": "JAGS: Fake Grass"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "jags"
+      },
+      {
+        "not": {
+          "type": "item",
+          "id": "jags:grass_seed"
+        }
+      }
+    ]
+  }
+}

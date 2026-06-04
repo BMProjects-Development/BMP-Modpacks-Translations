@@ -1,0 +1,12 @@
+{
+  "id": "hostile_neural_network_data_models",
+  "name": {
+    "translate": "collapsible_groups.group.hostile_neural_network_data_models",
+    "fallback": "Hostile Neural Networks: Data Models"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "hostilenetworks:data_model"
+  }
+}

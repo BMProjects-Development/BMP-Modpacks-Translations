@@ -228,7 +228,7 @@ key_key.constructionstick.change_direction:key.keyboard.unknown:
 key_key.constructionstick.open_gui:key.keyboard.unknown:
 key_key.constructionstick.undo:key.keyboard.unknown:
 key_key.constructionstick.show_previous:key.keyboard.unknown:
-key_key.carbon_config.key:key.keyboard.keypad.enter:
+key_key.carbon_config.key:key.keyboard.unknown:
 key_key.ars_nouveau.open_book:key.keyboard.c:
 key_key.ars_nouveau.selection_hud:key.keyboard.unknown:
 key_key.ars_nouveau.next_slot:key.keyboard.x:

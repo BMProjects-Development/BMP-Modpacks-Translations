@@ -1,0 +1,176 @@
+{
+  "id": "supplementaries_s_spikes",
+  "name": {
+    "translate": "collapsible_groups.group.supplementaries_s_spikes",
+    "fallback": "Supplementaries\u0027s Spikes"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_poison\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_poison\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:slowness\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_slowness\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_slowness\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:harming\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:strong_harming\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:weakness\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:long_weakness\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:wind_charged\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"minecraft:weaving\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"geneticsresequenced:substrate\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"geneticsresequenced:cell_growth\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"geneticsresequenced:mutation\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"geneticsresequenced:viral_agents\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"geneticsresequenced:zombify_villager\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:fatigue\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:long_fatigue\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"ars_elemental:shock_potion_long\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"ars_elemental:shock_potion\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"ars_elemental:enderference_potion_long\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"ars_elemental:enderference_potion\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"ars_nouveau:freezing_potion_strong\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"ars_nouveau:freezing_potion_long\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"ars_nouveau:freezing_potion\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"ars_nouveau:blasting_potion_strong\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"ars_nouveau:blasting_potion_long\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"ars_nouveau:blasting_potion\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:levitation\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:strong_grievous\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:long_grievous\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:grievous\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:strong_sundering\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:long_sundering\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:sundering\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:strong_wither\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:long_wither\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:wither\"}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:bamboo_spikes_tipped\",\"components\":{\"minecraft:potion_contents\":{\"potion\":\"apothic_attributes:strong_fatigue\"}}}"
+      }
+    ]
+  }
+}

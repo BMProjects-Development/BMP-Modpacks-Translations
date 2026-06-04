@@ -1,0 +1,12 @@
+{
+  "id": "sophisticated_storage_iron_barrels",
+  "name": {
+    "translate": "collapsible_groups.group.sophisticated_storage_iron_barrels",
+    "fallback": "Sophisticated Storage: Iron Barrels"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "sophisticatedstorage:iron_barrel"
+  }
+}

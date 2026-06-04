@@ -1,0 +1,76 @@
+{
+  "id": "simply_light_s_dynamic_edge_light_top",
+  "name": {
+    "translate": "collapsible_groups.group.simply_light_s_dynamic_edge_light_top",
+    "fallback": "Simply Light\u0027s Dynamic Edge Light (Top)"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_light_gray\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_gray\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_black\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_brown\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_red\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_orange\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_yellow\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_lime\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_green\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_cyan\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_light_blue\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_blue\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_purple\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_magenta\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:edge_light_top_pink\"}"
+      }
+    ]
+  }
+}

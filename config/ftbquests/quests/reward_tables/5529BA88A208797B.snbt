@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			auto: "no_toast"
-			command: "/endershard @s 8 131 -1561 End North"
+			command: "/endershard @s 8 131 -1561 Край: Север"
 			id: "15B421B3ACE269E3"
 			permission_level: 3
 			silent: true
@@ -13,7 +13,7 @@
 		}
 		{
 			auto: "no_toast"
-			command: "/endershard @s 8 131 1575 End South"
+			command: "/endershard @s 8 131 1575 Край: Юг"
 			id: "1EA85DCE2A9227C3"
 			permission_level: 3
 			silent: true
@@ -21,7 +21,7 @@
 		}
 		{
 			auto: "no_toast"
-			command: "/endershard @s 1576 131 7 End East"
+			command: "/endershard @s 1576 131 7 Край: Восток"
 			id: "31A55C1C7979AC74"
 			permission_level: 3
 			silent: true
@@ -29,7 +29,7 @@
 		}
 		{
 			auto: "no_toast"
-			command: "/endershard @s -1560 131 7 End West"
+			command: "/endershard @s -1560 131 7 Край: Запад"
 			id: "042C6860A26F6057"
 			permission_level: 3
 			silent: true

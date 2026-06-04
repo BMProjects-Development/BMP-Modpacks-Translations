@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			auto: "no_toast"
-			command: "/endershard @s 8 131 -2057 Twilight North"
+			command: "/endershard @s 8 131 -2057 Сумеречный лес: Север"
 			id: "7834CF7F86C29EE0"
 			permission_level: 3
 			silent: true
@@ -13,7 +13,7 @@
 		}
 		{
 			auto: "no_toast"
-			command: "/endershard @s 8 131 2071 Twilight South"
+			command: "/endershard @s 8 131 2071 Сумеречный лес: Юг"
 			id: "37851CF3F949515A"
 			permission_level: 3
 			silent: true
@@ -21,7 +21,7 @@
 		}
 		{
 			auto: "no_toast"
-			command: "/endershard @s 2072 131 7 Twilight East"
+			command: "/endershard @s 2072 131 7 Сумеречный лес: Восток"
 			id: "2CA4C34FFD72EA33"
 			permission_level: 3
 			silent: true
@@ -29,7 +29,7 @@
 		}
 		{
 			auto: "no_toast"
-			command: "/endershard @s -2056 131 7 Twilight West"
+			command: "/endershard @s -2056 131 7 Сумеречный лес: Запад"
 			id: "7DB306ACACBC5FA3"
 			permission_level: 3
 			silent: true

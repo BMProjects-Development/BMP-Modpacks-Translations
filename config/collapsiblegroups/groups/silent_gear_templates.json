@@ -1,0 +1,14 @@
+{
+  "id": "silent_gear_templates",
+  "name": {
+    "translate": "collapsible_groups.group.silent_gear_templates",
+    "fallback": "Silent Gear: Templates"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "silentgear" },
+      { "item_path_ends_with": "_template" }
+    ]
+  }
+}

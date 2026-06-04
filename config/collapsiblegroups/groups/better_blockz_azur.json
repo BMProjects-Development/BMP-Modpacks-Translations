@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_azur",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_azur",
+    "fallback": "Better Blockz: Azur"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "azur_"
+      }
+    ]
+  }
+}

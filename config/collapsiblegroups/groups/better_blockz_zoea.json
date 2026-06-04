@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_zoea",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_zoea",
+    "fallback": "Better Blockz: Zoea"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "zoea_"
+      }
+    ]
+  }
+}

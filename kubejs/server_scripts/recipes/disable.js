@@ -35,7 +35,7 @@ const disabledItems = [
   "ae2:name_press",
   "ae2:silicon_press",
   "ars_elemental:glyph_conjure_terrain",
-   "ars_nouveau:glyph_redstone_signal",
+  "ars_nouveau:glyph_redstone_signal",
   "ars_nouveau:ritual_cloudshaping",
   "ars_nouveau:ritual_moonfall",
   "ars_nouveau:ritual_sunrise",
@@ -230,13 +230,6 @@ const disabledItems = [
   "projecte:transmutation_tablet",
   "relics:researching_table",
   "reliquified_twilight_forest:invisibility_cloak",
-  "rftoolsbuilder:shape_card_quarry_clear_fortune",
-  "rftoolsbuilder:shape_card_quarry_clear_silk",
-  "rftoolsbuilder:shape_card_quarry_clear",
-  "rftoolsbuilder:shape_card_quarry_fortune",
-  "rftoolsbuilder:shape_card_quarry_silk",
-  "rftoolsbuilder:shape_card_quarry",
-  "rftoolsbuilder:shape_card_quarry",
   "rftoolsutility:saturation_module",
   "sophisticatedbackpacks:advanced_alchemy_upgrade",
   "sophisticatedbackpacks:alchemy_upgrade",
@@ -293,10 +286,84 @@ const disabledItems = [
   "utilitarian:yellow_trapped_soliciting_carpet",
   "minecraft:suspicious_sand",
   "minecraft:suspicious_gravel",
-  "draconicevolution:draconium_chest"
+  "draconicevolution:draconium_chest",
+  "avaritia:quartz_singularity",
+  "avaritia:emerald_singularity",
+  "create_dragons_plus:fluid_hatch",
+  "oritech:uranium_crystal",
+  "create_shimmer:raw_knightmetal",
+  "enderio:big_advanced_item_filter",
+  "enderio:big_item_filter",
+  "justdynathings:swapper_wand",
+  "justdynathings:picker_wand"
 ];
 
-const refined_colors = ["yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "light_blue", "blue", "brown", "green", "red", "black", "white", "orange", "magenta"];
+const refined_storage_block_types = [
+  "refinedstorage:controller",
+  "refinedstorage:creative_controller",
+  "refinedstorage:cable",
+  "refinedstorage:importer",
+  "refinedstorage:exporter",
+  "refinedstorage:constructor",
+  "refinedstorage:destructor",
+  "refinedstorage:grid",
+  "refinedstorage:crafting_grid",
+  "refinedstorage:pattern_grid",
+  "refinedstorage:detector",
+  "refinedstorage:wireless_transmitter",
+  "refinedstorage:network_transmitter",
+  "refinedstorage:network_receiver",
+  "refinedstorage:security_manager",
+  "refinedstorage:relay",
+  "refinedstorage:disk_interface",
+  "refinedstorage:autocrafter",
+  "refinedstorage:autocrafter_manager",
+  "refinedstorage:autocrafting_monitor",
+  "refinedstorage:external_storage",
+  "cabletiers:creative_autocrafter",
+  "cabletiers:mega_autocrafter",
+  "cabletiers:ultra_autocrafter",
+  "cabletiers:elite_autocrafter",
+  "cabletiers:elite_exporter",
+  "cabletiers:elite_importer",
+  "cabletiers:elite_constructor",
+  "cabletiers:elite_destructor",
+  "cabletiers:elite_disk_interface",
+  "cabletiers:ultra_exporter",
+  "cabletiers:ultra_importer",
+  "cabletiers:ultra_constructor",
+  "cabletiers:ultra_destructor",
+  "cabletiers:ultra_disk_interface",
+  "cabletiers:mega_exporter",
+  "cabletiers:mega_importer",
+  "cabletiers:mega_constructor",
+  "cabletiers:mega_destructor",
+  "cabletiers:mega_disk_interface",
+  "cabletiers:creative_exporter",
+  "cabletiers:creative_importer",
+  "cabletiers:creative_constructor",
+  "cabletiers:creative_destructor",
+  "cabletiers:creative_disk_interface",
+];
+
+const refined_colors = [
+  "yellow",
+  "lime",
+  "pink",
+  "gray",
+  "light_gray",
+  "cyan",
+  "purple",
+  "light_blue",
+  "blue",
+  "brown",
+  "green",
+  "red",
+  "black",
+  "white",
+  "orange",
+  "magenta",
+];
 
 ServerEvents.tags("item", (event) => {
   disabledItems.forEach((item) => {
@@ -307,70 +374,19 @@ ServerEvents.tags("item", (event) => {
   });
   event.add("c:hidden_from_recipe_viewers", disabledItems);
 
-
   //Hidding Refined Storage's Colored Items to Declutter JEI.
-  const refined_storage_block_types = [
-    "refinedstorage:controller",
-    "refinedstorage:creative_controller",
-    "refinedstorage:cable",
-    "refinedstorage:importer",
-    "refinedstorage:exporter",
-    "refinedstorage:constructor",
-    "refinedstorage:destructor",
-    "refinedstorage:grid",
-    "refinedstorage:crafting_grid",
-    "refinedstorage:pattern_grid",
-    "refinedstorage:detector",
-    "refinedstorage:wireless_transmitter",
-    "refinedstorage:network_transmitter",
-    "refinedstorage:network_receiver",
-    "refinedstorage:security_manager",
-    "refinedstorage:relay",
-    "refinedstorage:disk_interface",
-    "refinedstorage:autocrafter",
-    "refinedstorage:autocrafter_manager",
-    "refinedstorage:autocrafting_monitor",
-    "refinedstorage:external_storage",
-    "cabletiers:creative_autocrafter",
-    "cabletiers:mega_autocrafter",
-    "cabletiers:ultra_autocrafter",
-    "cabletiers:elite_autocrafter",
-    "cabletiers:elite_exporter",
-    "cabletiers:elite_importer",
-    "cabletiers:elite_constructor",
-    "cabletiers:elite_destructor",
-    "cabletiers:elite_disk_interface",
-    "cabletiers:ultra_exporter",
-    "cabletiers:ultra_importer",
-    "cabletiers:ultra_constructor",
-    "cabletiers:ultra_destructor",
-    "cabletiers:ultra_disk_interface",
-    "cabletiers:mega_exporter",
-    "cabletiers:mega_importer",
-    "cabletiers:mega_constructor",
-    "cabletiers:mega_destructor",
-    "cabletiers:mega_disk_interface",
-    "cabletiers:creative_exporter",
-    "cabletiers:creative_importer",
-    "cabletiers:creative_constructor",
-    "cabletiers:creative_destructor",
-    "cabletiers:creative_disk_interface",
-  ];
-  refined_storage_block_types.forEach(block_type => {
+  refined_storage_block_types.forEach((block_type) => {
     let modid = block_type.split(":")[0];
     let blockid = block_type.split(":")[1];
-    refined_colors.forEach(color => {
+    refined_colors.forEach((color) => {
       event.add("c:hidden_from_recipe_viewers", `${modid}:${color}_${blockid}`);
     });
   });
-
 });
 
 ServerEvents.recipes((event) => {
   event.remove({ output: disabledItems });
 });
-
-
 
 RecipeViewerEvents.removeCategories((event) => {
   event.remove("ftbstuff:jar");

@@ -1,0 +1,19 @@
+{
+  "id": "cookingforblockheads_red_kitchen",
+  "name": {
+    "translate": "collapsible_groups.group.cookingforblockheads_red_kitchen",
+    "fallback": "Cooking For Blockheads: Red Kitchen Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "cookingforblockheads"
+      },
+      {
+        "item_path_starts_with": "red"
+      }
+    ]
+  }
+}

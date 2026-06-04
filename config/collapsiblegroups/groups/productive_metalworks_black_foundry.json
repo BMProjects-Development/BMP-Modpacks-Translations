@@ -1,0 +1,19 @@
+{
+  "id": "productive_metalworks_black_foundry",
+  "name": {
+    "translate": "collapsible_groups.group.productive_metalworks_black_foundry",
+    "fallback": "Productive Metalworks: Black Foundry"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "productivemetalworks"
+      },
+      {
+        "item_path_starts_with": "black_"
+      }
+    ]
+  }
+}

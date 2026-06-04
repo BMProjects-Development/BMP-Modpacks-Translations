@@ -1,0 +1,80 @@
+{
+  "id": "supplementaries_s_candle_holders",
+  "name": {
+    "translate": "collapsible_groups.group.supplementaries_s_candle_holders",
+    "fallback": "Supplementaries\u0027s Candle Holders"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_white\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_gray\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_light_gray\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_pink\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_magenta\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_purple\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_blue\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_light_blue\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_cyan\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_green\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_lime\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_yellow\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_orange\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_red\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_brown\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:candle_holder_black\"}"
+      }
+    ]
+  }
+}

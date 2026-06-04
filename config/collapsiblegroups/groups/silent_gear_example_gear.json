@@ -1,0 +1,148 @@
+{
+  "id": "silent_gear_example_gear",
+  "name": {
+    "translate": "collapsible_groups.group.silent_gear_example_gear",
+    "fallback": "Silent Gear: Example Gear"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:sword\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:katana\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:machete\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:knife\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:dagger\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:spear\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:trident\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:mace\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:shield\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:bow\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:crossbow\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:slingshot\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:arrow\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:pickaxe\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:shovel\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:axe\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:paxel\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:hammer\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:excavator\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:saw\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:prospector_hammer\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:hoe\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:mattock\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:sickle\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:shears\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:fishing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:helmet\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:chestplate\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:leggings\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:boots\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:elytra\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:ring\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:bracelet\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:necklace\"}"
+      }
+    ]
+  }
+}

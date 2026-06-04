@@ -108,23 +108,30 @@ removeRecipe.push(
   "productivemetalworks:casting/storage_blocks/modern_industrialization/tin",
   "productivemetalworks:casting/storage_blocks/modern_industrialization/uranium",
   "productivemetalworks:casting/ingots/modern_industrialization/steel",
-  "productivemetalworks:casting/mekanism/refined_obsidian_block"
-)
+  "productivemetalworks:casting/mekanism/refined_obsidian_block",
+  "productivemetalworks:casting/immersiveengineering/uranium_ingot",
+  "productivemetalworks:casting/rods/ftbmaterials/uranium",
+  "productivemetalworks:casting/immersiveengineering/uranium_nugget",
+  "productivemetalworks:casting/immersiveengineering/uranium_block",
+  "productivemetalworks:casting/immersiveengineering/lead_ingot",
+  "productivemetalworks:casting/immersiveengineering/lead_nugget",
+  "productivemetalworks:casting/immersiveengineering/lead_block"
+);
 
 ServerEvents.recipes((event) => {
   global.resourceOresIngots.forEach((mod) => {
     mod.materials.forEach((material) => {
       if (material === "antimony") {
-        return
+        return;
       }
       addRecipeProductiveMetalworksItemMeltingRecipe(
         event,
         `c:clumps/${material}`,
         [`productivemetalworks:molten_${material}`, 180],
         `ftb:productivemetalworks/melting/clump/${material}`
-      )
-    })
-  })
+      );
+    });
+  });
 
   event
     .custom({
@@ -133,14 +140,14 @@ ServerEvents.recipes((event) => {
       consume_cast: false,
       fluid: {
         amount: 810,
-        tag: "c:molten_refined_obsidian"
+        tag: "c:molten_refined_obsidian",
       },
       result: {
         count: 1,
-        id: "ftbmaterials:refined_obsidian_block"
-      }
+        id: "ftbmaterials:refined_obsidian_block",
+      },
     })
-    .id("ftb:productivemetalworks/casting/block/refined_obsidian")
+    .id("ftb:productivemetalworks/casting/block/refined_obsidian");
 
   event
     .custom({
@@ -149,14 +156,14 @@ ServerEvents.recipes((event) => {
       consume_cast: false,
       fluid: {
         amount: 810,
-        tag: "c:molten_adamant"
+        tag: "c:molten_adamant",
       },
       result: {
         count: 1,
-        id: "oritech:adamant_block"
-      }
+        id: "oritech:adamant_block",
+      },
     })
-    .id("ftb:productivemetalworks/casting/block/adamant")
+    .id("ftb:productivemetalworks/casting/block/adamant");
 
   event
     .custom({
@@ -165,30 +172,30 @@ ServerEvents.recipes((event) => {
       consume_cast: false,
       fluid: {
         amount: 810,
-        tag: "c:molten_duratium"
+        tag: "c:molten_duratium",
       },
       result: {
         count: 1,
-        id: "oritech:duratium_block"
-      }
+        id: "oritech:duratium_block",
+      },
     })
-    .id("ftb:productivemetalworks/casting/block/duratium")
+    .id("ftb:productivemetalworks/casting/block/duratium");
 
   event
     .custom({
       type: "productivemetalworks:item_casting",
       cast: {
-        item: "productivemetalworks:ingot_cast"
+        item: "productivemetalworks:ingot_cast",
       },
       consume_cast: false,
       fluid: {
         amount: 90,
-        tag: "c:molten_adamant"
+        tag: "c:molten_adamant",
       },
       result: {
         count: 1,
-        id: "oritech:adamant_ingot"
-      }
+        id: "oritech:adamant_ingot",
+      },
     })
-    .id("ftb:productivemetalworks/casting/item/adamant")
-})
+    .id("ftb:productivemetalworks/casting/item/adamant");
+});

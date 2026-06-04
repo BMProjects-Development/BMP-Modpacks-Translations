@@ -53,7 +53,7 @@
 		{
 			click: "https://moddedmc.wiki/en/project/oritech/docs/processing/reactor/introduction"
 			height: 1.0d
-			hover: ["Oritech Reactor Wiki"]
+			hover: ["ftb.hover.reactor_wiki"]
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d

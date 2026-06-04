@@ -1,0 +1,19 @@
+{
+  "id": "geore_geore_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.geore_geore_blocks",
+    "fallback": "GeOre: GeOre Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "geore"
+      },
+      {
+        "item_path_ends_with": "_block"
+      }
+    ]
+  }
+}

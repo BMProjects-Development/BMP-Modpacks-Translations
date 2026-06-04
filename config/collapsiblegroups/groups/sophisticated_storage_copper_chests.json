@@ -1,0 +1,12 @@
+{
+  "id": "sophisticated_storage_copper_chests",
+  "name": {
+    "translate": "collapsible_groups.group.sophisticated_storage_copper_chests",
+    "fallback": "Sophisticated Storage: Copper Chests"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "sophisticatedstorage:copper_chest"
+  }
+}

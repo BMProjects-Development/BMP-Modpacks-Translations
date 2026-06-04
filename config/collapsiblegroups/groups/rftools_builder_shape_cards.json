@@ -1,0 +1,19 @@
+{
+  "id": "rftools_builder_shape_cards",
+  "name": {
+    "translate": "collapsible_groups.group.rftools_builder_shape_cards",
+    "fallback": "RFTools Builder: Shape Cards"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "item_path_starts_with": "shape_card"
+      },
+      {
+        "type": "item",
+        "namespace": "rftoolsbuilder"
+      }
+    ]
+  }
+}

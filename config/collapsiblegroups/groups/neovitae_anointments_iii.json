@@ -1,0 +1,19 @@
+{
+  "id": "neovitae_anointments_iii",
+  "name": {
+    "translate": "collapsible_groups.group.neovitae_anointments_iii",
+    "fallback": "Neovitae: Anointments III"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "neovitae"
+      },
+      {
+        "item_path_ends_with": "anointment_3"
+      }
+    ]
+  }
+}

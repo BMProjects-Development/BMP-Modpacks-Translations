@@ -1,21 +1,21 @@
 ---
 navigation:
-  title: Машинный блок
+  title: Корпус механизма
   position: 1
   parent: ftb:t1_upgrades.md
   icon: "ftb:world_engine_machine_block"
 item_ids:
   - ftb:world_engine_machine_block
 ---
-# Базовое улучшение "Корпус механизма"
+# <Color id="gold">Основное улучшение "Корпус механизма"</Color>
 
 <ItemImage id="ftb:world_engine_machine_block" scale="3" />
 
-Улучшение <Color id="green">"Корпус механизма" Мирового двигателя</Color>, это первое необходимое улучшение для <Color id="gold">Мирового двигателя</Color>.
+Улучшение мирового двигателя <Color id="green">"корпус механизма"</Color> - это первое необходимое улучшение для <Color id="gold">мирового двигателя</Color>.
 
-Это улучшение разблокирует множество базовых механизмов, которые понадобятся для твоего прогресса в сборке, включая начальные этапы в <Color id="gold">AE2</Color>.
+Это улучшение разблокирует множество базовых механизмов, которые понадобятся для Вашего прогресса в сборке, включая начальные этапы в <Color id="gold">AE2</Color>.
 
-## Разблокируемые рецепты
+## <Color id="gold">Разблокируемые рецепты:</Color>
 
 <ItemGrid>
   <ItemIcon id="pipez:item_pipe" />

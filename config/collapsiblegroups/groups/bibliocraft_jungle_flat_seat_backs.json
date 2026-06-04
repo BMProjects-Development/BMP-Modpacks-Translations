@@ -1,0 +1,14 @@
+{
+  "id": "bibliocraft_jungle_flat_seat_backs",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_jungle_flat_seat_backs",
+    "fallback": "BiblioCraft: Jungle Flat Seat Backs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "bibliocraft" },
+      { "item_path_ends_with": "_jungle_flat_seat_back" }
+    ]
+  }
+}

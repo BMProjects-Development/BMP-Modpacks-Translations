@@ -1,0 +1,268 @@
+{
+  "id": "ars_tier_2_glyphs",
+  "name": {
+    "translate": "collapsible_groups.group.ars_tier_2_glyphs",
+    "fallback": "Ars: Tier 2 Glyphs"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_arc_projectile\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_bubble_shield\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_charm\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_geyser\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_discharge\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_envenom\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_mist\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_phantom_grasp\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_poison_spores\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_propagator_arc\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_watery_grave\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_summon_slime\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_summon_bee\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_spike\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_slip_feet\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_ender_inventory\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_animate_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_cold_snap\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_conjure_water\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_crush\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_exchange\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_explosion\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_firework\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_flare\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_gravity\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_grow\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_smelt\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_slowfall\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_sense_magic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_name\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_invisibility\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_infuse\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_heal\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_wind_shear\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_aoe\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_accelerate\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_dampen\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_decelerate\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_extend_time\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_extract\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_fortune\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_pierce\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_duration_down\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_scalaes:glyph_resize\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"arsomega:glyph_missile\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"arsomega:glyph_flatten\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"arsomega:glyph_propagate_missile\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"arsomega:glyph_propagate_overhead\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"arsomega:glyph_propagate_projectile\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"arsomega:glyph_propagate_self\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"arsomega:glyph_propagate_underfoot\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"toomanyglyphs:glyph_filter_is_baby\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"toomanyglyphs:glyph_chaining\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"starbunclemania:glyph_place_fluid\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"starbunclemania:glyph_pickup_fluid\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"not_enough_glyphs:glyph_contingency_health\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"not_enough_glyphs:glyph_contingency_heal\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"not_enough_glyphs:glyph_contingency_fire\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"not_enough_glyphs:glyph_contingency_fall\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"not_enough_glyphs:glyph_contingency_time\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"not_enough_glyphs:glyph_contingency_death\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"not_enough_glyphs:glyph_contingency_blink\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"not_enough_glyphs:glyph_propagate_plane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"toomanyglyphs:glyph_filter_is_mature\"}"
+      }
+    ]
+  }
+}

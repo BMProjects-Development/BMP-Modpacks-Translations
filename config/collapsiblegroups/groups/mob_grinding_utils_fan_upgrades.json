@@ -1,0 +1,14 @@
+{
+  "id": "mob_grinding_utils_fan_upgrades",
+  "name": {
+    "translate": "collapsible_groups.group.mob_grinding_utils_fan_upgrades",
+    "fallback": "Mob Grinding Utils: Fan Upgrades"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "mob_grinding_utils" },
+      { "item_path_starts_with": "fan_upgrade_" }
+    ]
+  }
+}

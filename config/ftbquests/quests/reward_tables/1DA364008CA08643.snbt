@@ -11,7 +11,7 @@
 			passive: 0
 		}
 		glow: 1b
-		item_name: "Random Iron's Spells Gear"
+		item_name: "ftb.shop.title.loot_crate.irons_gear"
 		string_id: "random_irons_mods_gear"
 	}
 	loot_size: 1

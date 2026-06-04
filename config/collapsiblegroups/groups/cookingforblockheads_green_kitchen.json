@@ -1,0 +1,19 @@
+{
+  "id": "cookingforblockheads_green_kitchen",
+  "name": {
+    "translate": "collapsible_groups.group.cookingforblockheads_green_kitchen",
+    "fallback": "Cooking For Blockheads: Green Kitchen Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "cookingforblockheads"
+      },
+      {
+        "item_path_starts_with": "green"
+      }
+    ]
+  }
+}

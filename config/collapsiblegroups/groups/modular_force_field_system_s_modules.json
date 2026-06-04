@@ -1,0 +1,108 @@
+{
+  "id": "modular_force_field_system_s_modules",
+  "name": {
+    "translate": "collapsible_groups.group.modular_force_field_system_s_modules",
+    "fallback": "Modular Force Field System\u0027s Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:translation_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:scale_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:rotation_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:speed_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:capacity_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:fusion_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:dome_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:camouflage_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:disintegration_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:shock_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:glow_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:sponge_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:stabilization_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:collection_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:inverter_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:silence_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:warn_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:block_access_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:block_alter_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:anti_friendly_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:anti_hostile_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:anti_personnel_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:anti_spawn_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mffs:confiscation_module\"}"
+      }
+    ]
+  }
+}

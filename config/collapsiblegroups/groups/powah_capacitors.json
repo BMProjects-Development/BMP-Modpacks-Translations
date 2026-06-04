@@ -1,0 +1,14 @@
+{
+  "id": "powah_capacitors",
+  "name": {
+    "translate": "collapsible_groups.group.powah_capacitors",
+    "fallback": "Powah: Capacitors"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "powah" },
+      { "item_path_starts_with": "capacitor_" }
+    ]
+  }
+}

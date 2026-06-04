@@ -1,10 +1,23 @@
 {
   "name": {
-    "text": "ftb.machine.advanced_coke_oven"
+    "text": {
+      "translate": "ftb.machine.advanced_coke_oven"
+    }
   },
   "appearance": {
     "running": {
+      "custommachinery:ambient_sound": {
+        "relative": true,
+        "sound": "oritech:furnace_burn"
+      },
       "custommachinery:block": "ftb:machine/advanced_coke_oven_active#standalone",
+      "custommachinery:interaction_sound": {
+        "step": "minecraft:block.nether_bricks.step",
+        "place": "minecraft:block.nether_bricks.place",
+        "hit": "minecraft:block.nether_bricks.hit",
+        "fall": "minecraft:block.nether_bricks.fall",
+        "break": "minecraft:block.nether_bricks.break"
+      },
       "custommachinery:light": 15
     },
     "custommachinery:ambient_sound": {
@@ -25,10 +38,6 @@
   },
   "components": [
     {
-      "type": "custommachinery:energy",
-      "capacity": 10000
-    },
-    {
       "type": "custommachinery:fluid",
       "mode": "output",
       "config": {
@@ -41,8 +50,14 @@
         "LEFT": "OUTPUT"
       },
       "max_input": 0,
+      "max_output": 16000,
       "id": "fluid_output",
-      "capacity": 16000
+      "capacity": 64000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "item_input",
+      "mode": "input"
     },
     {
       "type": "custommachinery:item",
@@ -54,19 +69,11 @@
         "BACK": "INPUT",
         "LEFT": "INPUT"
       },
-      "id": "output",
+      "id": "item_output",
       "mode": "output"
     },
     {
       "type": "custommachinery:item_fuel",
-      "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
-      },
       "id": "fuel_input",
       "mode": "input"
     }
@@ -79,33 +86,28 @@
     },
     {
       "type": "custommachinery:config",
-      "x": 120,
+      "x": 91,
       "y": 18,
       "width": 12,
       "height": 12
     },
     {
       "type": "custommachinery:dump",
-      "x": 165,
+      "x": 157,
       "y": 65,
       "width": 16,
       "height": 6,
       "tanks": "fluid_output"
     },
     {
-      "type": "custommachinery:energy",
-      "x": 73,
-      "y": 19
-    },
-    {
       "type": "custommachinery:fluid",
       "id": "fluid_output",
-      "x": 164,
+      "x": 156,
       "y": 19
     },
     {
       "type": "custommachinery:fuel",
-      "x": 114,
+      "x": 107,
       "y": 60,
       "width": 24,
       "height": 24
@@ -118,13 +120,25 @@
     {
       "type": "custommachinery:progress",
       "priority": -1,
-      "x": 116,
+      "x": 108,
       "y": 33
     },
     {
       "type": "custommachinery:slot",
       "id": "fuel_input",
-      "x": 97,
+      "priority": -4,
+      "x": 110,
+      "y": 86,
+      "ghost": {
+        "items": {
+          "item": "minecraft:fire_charge"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "item_input",
+      "x": 88,
       "y": 32,
       "ghost": {
         "items": {
@@ -134,13 +148,19 @@
     },
     {
       "type": "custommachinery:slot",
-      "id": "output",
-      "priority": -2,
-      "x": 141,
-      "y": 32
+      "id": "item_output",
+      "x": 133,
+      "y": 32,
+      "ghost": {
+        "items": {
+          "item": "ftbmaterials:coal_coke_gem"
+        }
+      }
     }
   ],
   "tooltips": {
-    "text": "§aⓘ§f A §eMore Efficient§f and §dFast Alternative§f to Basic §6Coke Ovens§f."
+    "text": {
+      "translate": "ftb.tooltip.machine.advanced_coke_oven"
+    }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_cyber_light_flat",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_cyber_light_flat",
+    "fallback": "Better Blockz: Cyber Light Flat"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "cyberlight_thin_"
+      }
+    ]
+  }
+}

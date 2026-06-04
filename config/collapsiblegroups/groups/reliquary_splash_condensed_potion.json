@@ -1,0 +1,12 @@
+{
+  "id": "reliquary_splash_condensed_potion",
+  "name": {
+    "translate": "collapsible_groups.group.reliquary_splash_condensed_potion",
+    "fallback": "Reliquary: Splash Condensed Potion"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "reliquary:splash_potion"
+  }
+}

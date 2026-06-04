@@ -1,0 +1,60 @@
+{
+  "id": "powah_s_hardened_tier",
+  "name": {
+    "translate": "collapsible_groups.group.powah_s_hardened_tier",
+    "fallback": "Powah\u0027s Hardened Tier"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:battery_hardened\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energy_cell_hardened\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:ender_cell_hardened\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energy_cable_hardened\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:ender_gate_hardened\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energizing_rod_hardened\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:magmator_hardened\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:thermo_generator_hardened\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:reactor_hardened\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:player_transmitter_hardened\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energy_hopper_hardened\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energy_discharger_hardened\"}"
+      }
+    ]
+  }
+}

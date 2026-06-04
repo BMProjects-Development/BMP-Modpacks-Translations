@@ -1,0 +1,14 @@
+{
+  "id": "powah_batteries",
+  "name": {
+    "translate": "collapsible_groups.group.powah_batteries",
+    "fallback": "Powah: Batteries"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "powah" },
+      { "item_path_starts_with": "battery_" }
+    ]
+  }
+}

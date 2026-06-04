@@ -1,0 +1,19 @@
+{
+  "id": "mystical_agriculture_augments",
+  "name": {
+    "translate": "collapsible_groups.group.mystical_agriculture_augments",
+    "fallback": "Mystical Agriculture: Augments"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "item_path_ends_with": "augment"
+      },
+      {
+        "type": "item",
+        "namespace": "mysticalagriculture"
+      }
+    ]
+  }
+}

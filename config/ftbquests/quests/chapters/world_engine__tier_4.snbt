@@ -163,7 +163,13 @@
 					id: "577AC1A91AA40BE3"
 					ignore_reward_blocking: true
 					stage: "echo_wyrmwright_meet"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "3F66A8861E4C10F4"
+					stage: "echo_wyrmwright_meet"
 					type: "gamestage"
 				}
 				{
@@ -220,7 +226,13 @@
 					id: "408182C35BBA8997"
 					ignore_reward_blocking: true
 					stage: "echo_twilight_meet"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "34A91A2E3B0E2900"
+					stage: "echo_twilight_meet"
 					type: "gamestage"
 				}
 				{
@@ -277,7 +289,13 @@
 					id: "7647CC049438AF41"
 					ignore_reward_blocking: true
 					stage: "echo_ancient_meet"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "347166293B9217A9"
+					stage: "echo_ancient_meet"
 					type: "gamestage"
 				}
 				{
@@ -333,6 +351,13 @@
 					id: "237B9363D9AAF003"
 					ignore_reward_blocking: true
 					stage: "echo_ancient_stage4_task1_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "68B9A2C1493C507C"
+					stage: "echo_ancient_stage4_task1_completed"
 					type: "gamestage"
 				}
 			]
@@ -372,6 +397,13 @@
 				{
 					auto: "invisible"
 					id: "4944B155B00A45EB"
+					stage: "echo_wyrmwright_stage4_task1_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "50F5FA1C459ED5E6"
 					stage: "echo_wyrmwright_stage4_task1_completed"
 					type: "gamestage"
 				}
@@ -428,6 +460,13 @@
 					auto: "invisible"
 					id: "4349A10449BCCB3D"
 					stage: "echo_wyrmwright_stage4_task2_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "4257ECB9B7879E13"
+					stage: "echo_wyrmwright_stage4_task2_completed"
 					type: "gamestage"
 				}
 			]
@@ -460,7 +499,7 @@
 				{
 					auto: "invisible"
 					command: "/compass locate ftb:vault/twilight/yeti"
-					feedback_message: "Twilight's Yeti Vault Compass Acquired"
+					feedback_message: "feedback_message.ftb.locator_twilight_yeti_vault"
 					icon: {
 						id: "explorerscompass:explorerscompass"
 					}
@@ -474,6 +513,13 @@
 					auto: "invisible"
 					id: "0848277C23AC8A51"
 					ignore_reward_blocking: true
+					stage: "tf_unlock_yeti"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "014354DE5651DB42"
 					stage: "tf_unlock_yeti"
 					type: "gamestage"
 				}
@@ -568,6 +614,13 @@
 					auto: "invisible"
 					id: "7E30AAA334E6F012"
 					stage: "echo_wyrmwright_stage5_task1_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "7395A20F8D790AC9"
+					stage: "echo_wyrmwright_stage5_task1_completed"
 					type: "gamestage"
 				}
 			]
@@ -583,6 +636,7 @@
 				}
 				id: "2B4A71FE904A1A6D"
 				stage: "echo_guidance_stage4_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -631,6 +685,7 @@
 				}
 				id: "35458B29D8F8E353"
 				stage: "echo_ancient_stage4_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -6.0d
@@ -657,6 +712,7 @@
 				}
 				id: "70DC330B1BB5FE90"
 				stage: "echo_wyrmwright_stage4_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -718,6 +774,7 @@
 				}
 				id: "2FF95590BE56EE26"
 				stage: "echo_twilight_stage4_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 6.0d
@@ -737,7 +794,7 @@
 				}
 				{
 					command: "/compass locate ftb:vault/twilight/hydra"
-					feedback_message: "Twilight's Hydra Vault Compass Acquired"
+					feedback_message: "feedback_message.ftb.locator_twilight_hydra_vault"
 					icon: {
 						id: "explorerscompass:explorerscompass"
 					}
@@ -749,7 +806,7 @@
 				}
 				{
 					command: "/compass locate ftb:vault/twilight/snow_queen"
-					feedback_message: "Twilight's Snow Queen Vault Compass Acquired"
+					feedback_message: "feedback_message.ftb.locator_twilight_snow_queen_vault"
 					icon: {
 						id: "explorerscompass:explorerscompass"
 					}
@@ -763,11 +820,25 @@
 					auto: "invisible"
 					id: "3E36C30665B59439"
 					stage: "tf_unlock_snow"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "5C185D714CBC4E03"
+					stage: "tf_unlock_snow"
 					type: "gamestage"
 				}
 				{
 					auto: "invisible"
 					id: "64B881CEAB018CF5"
+					stage: "tf_unlock_hydra"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "735E93D981FC4AD9"
 					stage: "tf_unlock_hydra"
 					type: "gamestage"
 				}
@@ -876,6 +947,13 @@
 					auto: "invisible"
 					id: "64330F5382A0CDD0"
 					stage: "echo_twilight_stage4_task1_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "280452FD037A8940"
+					stage: "echo_twilight_stage4_task1_completed"
 					type: "gamestage"
 				}
 				{
@@ -922,8 +1000,8 @@
 			id: "586C935010D2FE74"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Сумеречная и древний\" -23 2 28 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"Twilight Ancient\" -23 2 28 minecraft:overworld light_purple true"
+				feedback_message: "feedback_message.ftb.waypoint_claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -951,8 +1029,8 @@
 			id: "37499343396BC372"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Змеедел\" -3 2 51 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"The Wyrmwright\" -3 2 51 minecraft:overworld light_purple true"
+				feedback_message: "feedback_message.ftb.waypoint_claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -980,8 +1058,8 @@
 			id: "4B92EBBA1F2BBFEA"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Древний и сумеречная\" -23 2 28 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"Twilight Ancient\" -23 2 28 minecraft:overworld light_purple true"
+				feedback_message: "feedback_message.ftb.waypoint_claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1254,7 +1332,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/lich"
-				feedback_message: "Lich Vault Compass Acquired"
+				feedback_message: "feedback_message.ftb.locator_lich_vault"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}
@@ -1286,7 +1364,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/yeti"
-				feedback_message: "Yeti Vault Compass Acquired"
+				feedback_message: "feedback_message.ftb.locator_yeti_vault"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}
@@ -1318,7 +1396,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/hydra"
-				feedback_message: "Hydra Vault Compass Acquired"
+				feedback_message: "feedback_message.ftb.locator_hydra_vault"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}
@@ -1350,7 +1428,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/snow_queen"
-				feedback_message: "Snow Queen Vault Compass Acquired"
+				feedback_message: "feedback_message.ftb.locator_snow_queen_vault"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}
@@ -1385,7 +1463,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/twilight/knight"
-				feedback_message: "Knight Vault Compass Acquired"
+				feedback_message: "feedback_message.ftb.locator_knight_vault"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}

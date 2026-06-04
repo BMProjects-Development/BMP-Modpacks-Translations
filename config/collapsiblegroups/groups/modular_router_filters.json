@@ -1,0 +1,14 @@
+{
+  "id": "modular_router_filters",
+  "name": {
+    "translate": "collapsible_groups.group.modular_router_filters",
+    "fallback": "Modular Routers: Filters"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "modularrouters" },
+      { "item_path_ends_with": "_filter" }
+    ]
+  }
+}

@@ -59,6 +59,10 @@
 	extra_files: [ ]
 	
 	# Absolute path to backups folder. Default of "" means to use "ftbackups3" within the game instance folder.
+	# Example valid paths:
+	# - Linux/Mac: "/home/user/mc-backups"
+	# - Windows: "C:\\Backups\\Minecraft"
+	#   (it may be necessary to use double backslashes here since the backslash is an escape character for Java strings
 	# Default: ""
 	folder: ""
 	
@@ -74,7 +78,7 @@
 	# Default: false
 	notify_admins_only: false
 	
-	# Only create backups when at least one player is online.
+	# Only create backups when at least one player is online, or has been online since the last backup was made.
 	# Default: true
 	only_if_players_online: true
 	

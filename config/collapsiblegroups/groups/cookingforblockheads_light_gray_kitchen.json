@@ -1,0 +1,19 @@
+{
+  "id": "cookingforblockheads_light_gray_kitchen",
+  "name": {
+    "translate": "collapsible_groups.group.cookingforblockheads_light_gray_kitchen",
+    "fallback": "Cooking For Blockheads: Light Gray Kitchen Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "cookingforblockheads"
+      },
+      {
+        "item_path_starts_with": "light_gray"
+      }
+    ]
+  }
+}

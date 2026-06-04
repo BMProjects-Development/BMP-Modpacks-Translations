@@ -1,0 +1,12 @@
+{
+  "id": "sophisticated_storage_base_barrels",
+  "name": {
+    "translate": "collapsible_groups.group.sophisticated_storage_base_barrels",
+    "fallback": "Sophisticated Storage: Base Barrels"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "sophisticatedstorage:barrel"
+  }
+}

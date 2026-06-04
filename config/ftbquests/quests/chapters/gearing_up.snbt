@@ -3212,5 +3212,21 @@
 			x: -4.5d
 			y: -4.0d
 		}
+		{
+			id: "23562C59CEDE9879"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15BE6CB692B1788F"
+				table_id: 4032965040264327847L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FF997EE767F992C"
+				item: { count: 1, id: "deus_ex_machina:ambrosia" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
 	]
 }

@@ -1,0 +1,24 @@
+{
+  "id": "excessive_utilities_colored_stone",
+  "name": {
+    "translate": "collapsible_groups.group.excessive_utilities_colored_stone",
+    "fallback": "Excessive Utilities: Colored Stone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "excessive_utilities"
+      },
+      {
+        "not": {
+          "item_path_starts_with": "colored_stone_bricks"
+        }
+      },
+      {
+        "item_path_starts_with": "colored_stone"
+      }
+    ]
+  }
+}

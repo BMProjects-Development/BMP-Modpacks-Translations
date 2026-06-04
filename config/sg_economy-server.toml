@@ -1,0 +1,14 @@
+["ECONOMY SETTINGS"]
+	#If true, the economy will use decimal currency (e.g., 10.5 coins). If false, it will use whole numbers only.
+	#Note: Changing this setting affects players existing balances.
+	decimalCurrency = false
+
+["DEATH SETTINGS"]
+	#The percentage of coins save on death
+	# Default: 100
+	# Range: 0 ~ 100
+	percentageCoinsSaveOnDeath = 100
+
+["PAY COMMAND"]
+	#If true, the /coins pay command will be active.
+	isActivePayCommand = true

@@ -1,0 +1,19 @@
+{
+  "id": "supplementaries_candle_holders",
+  "name": {
+    "translate": "collapsible_groups.group.supplementaries_candle_holders",
+    "fallback": "Supplementaries: Candle Holders"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "supplementaries"
+      },
+      {
+        "item_path_starts_with": "candle_holder"
+      }
+    ]
+  }
+}

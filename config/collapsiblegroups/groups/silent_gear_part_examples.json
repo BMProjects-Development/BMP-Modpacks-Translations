@@ -1,0 +1,188 @@
+{
+  "id": "silent_gear_part_examples",
+  "name": {
+    "translate": "collapsible_groups.group.silent_gear_part_examples",
+    "fallback": "Silent Gear: Part Examples"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:sword_blade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:katana_blade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:machete_blade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:knife_blade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:dagger_blade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:spear_tip\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:trident_prongs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:mace_core\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:shield_plate\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:bow_limbs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:crossbow_limbs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:slingshot_limbs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:arrow_heads\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:pickaxe_head\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:shovel_head\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:axe_head\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:paxel_head\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:hammer_head\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:excavator_head\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:saw_blade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:prospector_hammer_head\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:hoe_head\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:mattock_head\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:sickle_blade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:shear_blades\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:fishing_reel_and_hook\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:helmet_plates\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:chestplate_plates\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:legging_plates\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:boot_plates\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:elytra_wings\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:ring_shank\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:bracelet_band\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:necklace_chain\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:tip\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:coating\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:grip\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:binding\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:lining\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:cord\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:fletching\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:setting\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"irons_jewelry:necklace\",\"components\":{\"irons_jewelry:jewelry_data\":{\"pattern\":\"irons_jewelry:amulet_of_protection\",\"parts\":{\"irons_jewelry:gem_amulet_of_protection\":\"irons_jewelry:example\",\"irons_jewelry:chain_amulet_of_protection\":\"irons_jewelry:example\"}},\"minecraft:lore\":[\"{\\\"italic\\\":false,\\\"text\\\":\\\"\\\"}\",\"{\\\"color\\\":\\\"yellow\\\",\\\"italic\\\":false,\\\"translate\\\":\\\"tooltip.irons_jewelry.bonus_crafted_header\\\",\\\"underlined\\\":true}\",\"{\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false,\\\"translate\\\":\\\"tooltip.irons_jewelry.bonus_with_source\\\",\\\"with\\\":[{\\\"translate\\\":\\\"bonus.irons_jewelry.on_take_damage_bonus\\\"},{\\\"translate\\\":\\\"part.irons_jewelry.gem_amulet_of_protection\\\"}]}\"],\"minecraft:item_name\":\"{\\\"translate\\\":\\\"pattern.irons_jewelry.amulet_of_protection.item\\\",\\\"with\\\":[{\\\"translate\\\":\\\"material.irons_jewelry.example\\\"},{\\\"translate\\\":\\\"material.irons_jewelry.example\\\"}]}\"}}"
+      }
+    ]
+  }
+}

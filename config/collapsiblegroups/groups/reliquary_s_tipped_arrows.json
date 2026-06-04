@@ -1,0 +1,220 @@
+{
+  "id": "reliquary_s_tipped_arrows",
+  "name": {
+    "translate": "collapsible_groups.group.reliquary_s_tipped_arrows",
+    "fallback": "Reliquary\u0027s Tipped Arrows"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:absorption\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":187}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:absorption\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":281}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:absorption\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":2,\"duration\":937}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:blindness\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":93}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:fire_resistance\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":93}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:haste\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":93}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:haste\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":187}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:health_boost\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":187}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:health_boost\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":281}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:health_boost\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":2,\"duration\":937}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:hunger\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":93}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:instant_damage\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":1}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:instant_damage\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":1}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:instant_damage\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":2,\"duration\":1}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:instant_health\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":1}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:instant_health\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":1}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:invisibility\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":62}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:jump_boost\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":218}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:jump_boost\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":843}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:mining_fatigue\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":62}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:mining_fatigue\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":312}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:mining_fatigue\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":2,\"duration\":375}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:nausea\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":62}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:night_vision\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":218}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:poison\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\",\"honey\"],\"duration\":93}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:regeneration\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":31}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:regeneration\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":93}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:resistance\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":218}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:resistance\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":281}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:saturation\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":5,\"duration\":1}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:saturation\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":6,\"duration\":1}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:saturation\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":7,\"duration\":1}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:saturation\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":8,\"duration\":1}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:saturation\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":9,\"duration\":1}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:saturation\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":10,\"duration\":1}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:slowness\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":62}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:slowness\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":125}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:speed\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":218}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:speed\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":281}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:speed\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":2,\"duration\":375}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:strength\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":93}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:strength\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":187}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:water_breathing\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":93}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:weakness\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":62}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:weakness\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":125}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:wither\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":31}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"minecraft:wither\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":62}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"reliquary:cure\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":62}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"reliquary:cure\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":1,\"duration\":62}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"reliquary:cure\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":2,\"duration\":62}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"reliquary:cure\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"amplifier\":3,\"duration\":62}]}}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"reliquary:tipped_arrow\",\"components\":{\"minecraft:potion_contents\":{\"custom_effects\":[{\"id\":\"reliquary:flight\",\"show_icon\":true,\"neoforge:cures\":[\"protected_by_totem\",\"milk\"],\"duration\":62}]}}}"
+      }
+    ]
+  }
+}

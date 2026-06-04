@@ -1,0 +1,12 @@
+{
+  "id": "minecraft_suspicious_stew",
+  "name": {
+    "translate": "collapsible_groups.group.minecraft_suspicious_stew",
+    "fallback": "Minecraft: Suspicious Stew"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "minecraft:suspicious_stew"
+  }
+}

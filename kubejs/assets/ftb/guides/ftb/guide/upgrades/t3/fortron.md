@@ -7,13 +7,13 @@ navigation:
 item_ids:
   - ftb:fortron_infused_block
 ---
-# Fortron Infused Block Upgrade
+# <Color id="green">Fortron Infused Block Upgrade</Color>
 
 <ItemImage id="ftb:fortron_infused_block" scale="3" />
 
 The <Color id="aqua">Fortron Infused Block</Color> is a minor upgrade that unlocks several automation machines as <Color id="gold">World Engine</Color> crafts. This includes autocrafting with <Color id="gold">AE2</Color> as well as a few teleporting blocks, like the <Color id="light_purple">Teleporter</Color> from <Color id="gold">Mekanism</Color>.
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="justdirethings:portalgun_v2" />

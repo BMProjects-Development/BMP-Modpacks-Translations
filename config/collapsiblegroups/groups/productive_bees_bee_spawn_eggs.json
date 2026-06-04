@@ -1,0 +1,19 @@
+{
+  "id": "productive_bees_bee_spawn_eggs",
+  "name": {
+    "translate": "collapsible_groups.group.productive_bees_bee_spawn_eggs",
+    "fallback": "Productive Bees: Spawn Eggs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "productivebees"
+      },
+      {
+        "item_path_starts_with": "spawn_egg"
+      }
+    ]
+  }
+}

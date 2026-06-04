@@ -1,7 +1,7 @@
 {
  "id": "ftbechoes:t1_echo_quartermaster",
   "title": {"translate": "ftb.echo.quartermaster.title"},
-  "all_complete": {"translate": "ftb.echo.all_stages_completed"},
+  "all_complete": {"translate": "ftb.echo.quartermaster.completed"},
   "stages": [
     {
       "title": {"translate": "ftb.echo.stage0.title"},
@@ -9,9 +9,9 @@
         {"type": "ftbechoes:audio", "location": "ftb:ftb.echo.startup", "text": {"translate": "ftb.echo.voice_over"}},
         {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.startup.lore"}]}
       ],
-      "not_ready" : {"translate": "ftb.echo.bugged"},
+      "not_ready" : {"translate": "ftb.echo.unmet.lore"},
       "required_stage": "echo_quartermaster_meet",
-      "ready": {"translate": "ftb.echo.bugged"},
+      "ready": {"translate": "ftb.echo.unmet.lore"},
       "completed": {"translate": "ftb.echo.startup.completed"},
       "shop_unlock":[
         {"name": "Pet Rock", "item": {"id": "petrock:petrockbox", "count": 1}, "cost": 5, "description": {"translate": "ftb.shop.description.exclusive"}},
@@ -44,7 +44,7 @@
       "required_stage": "echo_quartermaster_stage1_task1_completed",
       "ready": {"translate": "ftb.echo.quartermaster.stage1.task1.ready"},
       "completed": {"translate": "ftb.echo.quartermaster.stage1.task1.completed"},
-      "completion_reward" : {"command": {"run": "kubejs stages add @s echo_quartermaster_stage1_task1_check", "permission": 3}, "experience": 50},
+      "completion_reward" : {"command": {"run": "ftbteams teamstage @s add echo_quartermaster_stage1_task1_check", "permission": 3}, "experience": 50},
       "shop_unlock": [
         {"name": "Copper to Iron Chest Upgrade", "item": {"id": "sophisticatedstorage:copper_to_iron_tier_upgrade", "count": 1}, "cost": 15},
         {"name": "Iron to Gold Chest Upgrade", "item": {"id": "sophisticatedstorage:iron_to_gold_tier_upgrade", "count": 1}, "cost": 20},
@@ -63,7 +63,10 @@
         {"name": "Advanced Filter", "item": {"id": "enderio:advanced_filter", "count": 1}, "cost": 10},
         {"name": "Diamond Hammer", "item": {"id": "ftbstuff:diamond_hammer", "components":{"minecraft:enchantments":{"levels":{"minecraft:efficiency":5,"minecraft:unbreaking":5}}}, "count": 1}, "cost": 20, "description": [{"translate":"ftb.shop.description.efficiency5"}, {"translate":"ftb.shop.description.unbreaking5"}]},
         {"name": "Brush", "item": {"id": "minecraft:brush", "components":{"minecraft:enchantments":{"levels":{"minecraft:unbreaking":5}}}, "count": 1}, "cost": 15, "description": {"translate": "ftb.shop.description.unbreaking5"}},
-        {"name": "Lonestar's Steak Knife", "item": {"id": "farmersdelight:diamond_knife", "components":{"minecraft:custom_name": "{translate: ftb.shop.title.item.knife}" ,"minecraft:enchantments":{"levels":{"minecraft:unbreaking":6}}}, "count": 1}, "cost": 15, "description": {"translate": "ftb.shop.description.unbreaking6"}}
+        {"name": "Lonestar's Steak Knife", "item": {"id": "farmersdelight:diamond_knife", "components":{"minecraft:custom_name": "{translate: ftb.shop.title.item.knife}" ,"minecraft:enchantments":{"levels":{"minecraft:unbreaking":6}}}, "count": 1}, "cost": 15, "description": {"translate": "ftb.shop.description.unbreaking6"}},
+        {"name": "Crit Chance Upgrade", "command": {"run": "echo_attribute ftbechoes:t1_echo_quartermaster \"Crit Chance Upgrade\" @s apothic_attributes:crit_chance modifier add 0.1 0.31 add_value", "permission": 3, "silent": true, "description": {"translate": "ftb.shop.description.crit_chance.reward"}}, "cost": 25, "description": [{"translate": "ftb.shop.description.crit_chance.reward1"}, {"translate": "ftb.shop.description.crit_chance.reward2"}, {"translate": "ftb.shop.description.attribute.warning"}], "icon": "apothic_attributes:textures/mob_effect/detonation.png"},
+        {"name": "Dodge Chance Upgrade", "command": {"run": "echo_attribute ftbechoes:t1_echo_quartermaster \"Dodge Chance Upgrade\" @s apothic_attributes:dodge_chance modifier add 0.1 0.31 add_value", "permission": 3, "silent": true, "description": {"translate": "ftb.shop.description.dodge_chance.reward"}}, "cost": 25, "description": [{"translate": "ftb.shop.description.dodge_chance.reward1"}, {"translate": "ftb.shop.description.dodge_chance.reward2"}, {"translate": "ftb.shop.description.attribute.warning"}], "icon": "immersiveengineering:textures/mob_effect/slippery.png"},
+        {"name": "Life Steal Upgrade", "command": {"run": "echo_attribute ftbechoes:t1_echo_quartermaster \"Life Steal Upgrade\" @s apothic_attributes:life_steal modifier add 0.05 0.25 add_value", "permission": 3, "silent": true, "description": {"translate": "ftb.shop.description.life_steal.reward"}}, "cost": 25, "description": [{"translate": "ftb.shop.description.life_steal.reward1"}, {"translate": "ftb.shop.description.life_steal.reward2"}, {"translate": "ftb.shop.description.attribute.warning"}], "icon": "relics:textures/abilities/vampiric_glove/vampire.png"}
       ]
     },
     {
@@ -78,19 +81,7 @@
       "required_stage": "echo_quartermaster_stage1_task2_completed",
       "ready": {"translate": "ftb.echo.quartermaster.stage1.task2.ready"},
       "completed": {"translate": "ftb.echo.quartermaster.stage1.task2.completed"},
-      "completion_reward": {"command": {"run": "kubejs stages add @s echo_quartermaster_stage1_task2_check", "permission": 3}, "experience": 200},
-      "shop_unlock": []
-    },
-
-    {
-      "title": {"translate": "ftb.echo.stage2.title"},
-      "lore": [
-        {"type": "ftbechoes:text", "text": [{"translate": "ftb.echo.quartermaster.stage2.task1.lore"}]}
-      ],
-      "not_ready": {"translate": "ftb.echo.placeholder.stage6.task1.lore"},
-      "required_stage": "echo_quartermaster_stage2_task1_completed",
-      "ready": {"translate": "ftb.echo.quartermaster.stage2.task1.ready"},
-      "completed": {"translate": "ftb.echo.quartermaster.stage2.task1.completed"},
+      "completion_reward": {"command": {"run": "ftbteams teamstage @s add echo_quartermaster_stage1_task2_check", "permission": 3}, "experience": 200},
       "shop_unlock": []
     }
   ]

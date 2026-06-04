@@ -1,0 +1,12 @@
+{
+  "id": "sophisticated_storage_iron_chests",
+  "name": {
+    "translate": "collapsible_groups.group.sophisticated_storage_iron_chests",
+    "fallback": "Sophisticated Storage: Iron Chests"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "sophisticatedstorage:iron_chest"
+  }
+}

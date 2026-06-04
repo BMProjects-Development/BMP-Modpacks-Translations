@@ -1,0 +1,11 @@
+{
+  "id": "compact_machines_machines",
+  "name": {
+    "translate": "collapsible_groups.group.compact_machines_machines",
+    "fallback": "Compact Machines: Machines"
+  },
+  "enabled": true,
+  "filter": {
+    "item_path_starts_with": "new_machine"
+  }
+}

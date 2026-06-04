@@ -1,0 +1,19 @@
+{
+  "id": "productive_lib_upgrades",
+  "name": {
+    "translate": "collapsible_groups.group.productive_lib_upgrades",
+    "fallback": "Productive Lib: Upgrades"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "productivelib"
+      },
+      {
+        "item_path_starts_with": "upgrade"
+      }
+    ]
+  }
+}

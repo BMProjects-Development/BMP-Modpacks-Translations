@@ -1,0 +1,36 @@
+{
+  "id": "productive_bees_honeycombs",
+  "name": {
+    "translate": "collapsible_groups.group.productive_bees_honeycombs",
+    "fallback": "Productive Bees: Resource Combs"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "id": "productivebees:configurable_honeycomb"
+      },
+      {
+        "type": "item",
+        "id": "minecraft:honeycomb"
+      },
+      {
+        "type": "item",
+        "id": "productivebees:honeycomb_ghostly"
+      },
+      {
+        "type": "item",
+        "id": "productivebees:honeycomb_milky"
+      },
+      {
+        "type": "item",
+        "id": "productivebees:honeycomb_powdery"
+      },
+      {
+        "type": "item",
+        "id": "productivebees:sugarbag_honeycomb"
+      }
+    ]
+  }
+}

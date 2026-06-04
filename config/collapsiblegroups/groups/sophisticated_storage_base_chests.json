@@ -1,0 +1,12 @@
+{
+  "id": "sophisticated_storage_base_chests",
+  "name": {
+    "translate": "collapsible_groups.group.sophisticated_storage_base_chests",
+    "fallback": "Sophisticated Storage: Base Chests"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "sophisticatedstorage:chest"
+  }
+}

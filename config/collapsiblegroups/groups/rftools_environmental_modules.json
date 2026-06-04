@@ -1,0 +1,14 @@
+{
+  "id": "rftools_environmental_modules",
+  "name": {
+    "translate": "collapsible_groups.group.rftools_environmental_modules",
+    "fallback": "RFTools: Environmental Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "rftoolsutility" },
+      { "item_path_ends_with": "_module" }
+    ]
+  }
+}

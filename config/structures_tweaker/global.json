@@ -52,7 +52,17 @@
       "simpletomb:grave_simple"
     ],
     "interactionBlacklist": [],
-    "itemUseBlacklist": [],
+    "itemUseBlacklist": [
+      "projecte:rm_morning_star",
+      "projecte:rm_hammer",
+      "projecte:rm_pick",
+      "projecte:rm_axe",
+      "projecte:rm_shovel",
+      "projecte:dm_hammer",
+      "projecte:dm_pick",
+      "projecte:dm_axe",
+      "projecte:dm_shovel"
+    ],
     "itemUseWhitelist": [
       "simpletomb:grave_key"
     ],

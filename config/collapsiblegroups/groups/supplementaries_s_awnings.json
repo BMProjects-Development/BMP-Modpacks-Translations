@@ -1,0 +1,80 @@
+{
+  "id": "supplementaries_s_awnings",
+  "name": {
+    "translate": "collapsible_groups.group.supplementaries_s_awnings",
+    "fallback": "Supplementaries\u0027s Awnings"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_white\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_light_gray\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_gray\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_black\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_brown\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_red\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_orange\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_lime\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_green\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_cyan\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_yellow\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_light_blue\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_blue\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_purple\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_magenta\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"supplementaries:awning_pink\"}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "irregular_implements_colored_stained_bricks",
+  "name": {
+    "translate": "collapsible_groups.group.irregular_implements_colored_stained_bricks",
+    "fallback": "Irregular Implements: Colored Stained Bricks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "irregular_implements"
+      },
+      {
+        "item_path_starts_with": "stained_bricks"
+      }
+    ]
+  }
+}

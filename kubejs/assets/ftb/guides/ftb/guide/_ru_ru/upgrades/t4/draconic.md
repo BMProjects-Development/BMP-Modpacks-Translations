@@ -7,17 +7,17 @@ navigation:
 item_ids:
   - draconicevolution:energy_core_stabilizer
 ---
-# Улучшение "Дракониум"
+# <Color id="gold">Улучшение "Дракониум"</Color>
 
 <ItemImage id="draconicevolution:energy_core_stabilizer" scale="3" />
 
-<Color id="light_purple">"Драконикум"</Color> необходимое улучшение, которое разблокирует более продвинутые предметы, например <Color id="gold">Пробужденный дракониум</Color> для рецептов <Color id="gold">Мирового двигателя</Color> crafts.
+<Color id="light_purple">"Драконикум"</Color> - необходимое улучшение, которое разблокирует более продвинутые предметы, например <Color id="gold">пробужденный дракониум</Color> для рецептов <Color id="gold">мирового двигателя</Color>.
 
 Для этого улучшения необходимо улучшение <Color id="light_purple">"Резонансная пустота"</Color>.
 
 Для этого улучшения необходимо улучшение <Color id="red">"Усовершенствованный корпус механизма"</Color>, чтобы его рецепт разблокировался.
 
-## Разблокируемые рецепты
+## <Color id="gold">Разблокируемые рецепты:</Color>
 
 <ItemGrid>
   <ItemIcon id="apotheosis:mythic_material" />

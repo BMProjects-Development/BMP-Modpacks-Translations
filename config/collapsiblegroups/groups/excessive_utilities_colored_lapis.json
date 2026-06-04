@@ -1,0 +1,19 @@
+{
+  "id": "excessive_utilities_colored_lapis",
+  "name": {
+    "translate": "collapsible_groups.group.excessive_utilities_colored_lapis",
+    "fallback": "Excessive Utilities: Colored Lapis"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "excessive_utilities"
+      },
+      {
+        "item_path_starts_with": "colored_lapis"
+      }
+    ]
+  }
+}

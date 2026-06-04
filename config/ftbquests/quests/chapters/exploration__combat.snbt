@@ -336,14 +336,26 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				icon: {
-					id: "chipped:nether_jack_o_lantern"
+			tasks: [
+				{
+					icon: {
+						id: "chipped:nether_jack_o_lantern"
+					}
+					id: "1B8D2EA3B6BC97C1"
+					optional_task: true
+					structure: "ftb:dungeons/nether"
+					type: "structure"
 				}
-				id: "1B8D2EA3B6BC97C1"
-				structure: "ftb:dungeons/nether"
-				type: "structure"
-			}]
+				{
+					icon: {
+						id: "chipped:nether_jack_o_lantern"
+					}
+					id: "1064CA076306F4FA"
+					optional_task: true
+					structure: "ftb:dungeons/nether_eternal"
+					type: "structure"
+				}
+			]
 			x: -1.0d
 			y: -4.0d
 		}
@@ -358,14 +370,26 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				icon: {
-					id: "minecraft:mossy_cobblestone"
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:mossy_cobblestone"
+					}
+					id: "61EB975FAD009EF7"
+					optional_task: true
+					structure: "ftb:dungeons/stone"
+					type: "structure"
 				}
-				id: "61EB975FAD009EF7"
-				structure: "ftb:dungeons/stone"
-				type: "structure"
-			}]
+				{
+					icon: {
+						id: "minecraft:mossy_cobblestone"
+					}
+					id: "05A9A84D2C345D98"
+					optional_task: true
+					structure: "ftb:dungeons/stone_eternal"
+					type: "structure"
+				}
+			]
 			x: -3.0d
 			y: -4.0d
 		}
@@ -501,17 +525,32 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:icon": "malum:block/weeping_well/primordial_soup"
+			tasks: [
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "malum:block/weeping_well/primordial_soup"
+						}
+						id: "ftbquests:custom_icon"
 					}
-					id: "ftbquests:custom_icon"
+					id: "6A3B0E8AFAFEFD67"
+					optional_task: true
+					structure: "ftb:weeping_well"
+					type: "structure"
 				}
-				id: "6A3B0E8AFAFEFD67"
-				structure: "ftb:weeping_well"
-				type: "structure"
-			}]
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "malum:block/weeping_well/primordial_soup"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "098464A668586D43"
+					optional_task: true
+					structure: "ftb:weeping_well_eternal"
+					type: "structure"
+				}
+			]
 			x: -2.0d
 			y: -4.0d
 		}
@@ -523,17 +562,63 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:icon": "reliquified_twilight_forest:item/giant_glove"
+			tasks: [
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "reliquified_twilight_forest:item/giant_glove"
+						}
+						id: "ftbquests:custom_icon"
 					}
-					id: "ftbquests:custom_icon"
+					id: "41F4FCB0261015FB"
+					optional_task: true
+					structure: "ftb:troll_cave"
+					type: "structure"
 				}
-				id: "41F4FCB0261015FB"
-				structure: "ftb:troll_cave"
-				type: "structure"
-			}]
+				{
+					icon: {
+						components: {
+							"relics:data": {
+								abilities: {
+									abilities: {
+										oversized_grip: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												multiplier: {
+													initialValue: 0.10834d
+												}
+											}
+										}
+									}
+								}
+								leveling: {
+									experience: 0
+									level: 0
+									luck: 0
+									points: 0
+								}
+							}
+						}
+						id: "reliquified_twilight_forest:giant_glove"
+					}
+					id: "06E493860619D414"
+					optional_task: true
+					structure: "ftb:troll_cave_eternal"
+					type: "structure"
+				}
+			]
 			x: 1.0d
 			y: -4.0d
 		}
@@ -546,17 +631,32 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/ice_tomb.png"
+			tasks: [
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/ice_tomb.png"
+						}
+						id: "ftbquests:custom_icon"
 					}
-					id: "ftbquests:custom_icon"
+					id: "78780481BF9D2140"
+					optional_task: true
+					structure: "ftb:ice_spider_den"
+					type: "structure"
 				}
-				id: "78780481BF9D2140"
-				structure: "ftb:ice_spider_den"
-				type: "structure"
-			}]
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "irons_spellbooks:textures/gui/spell_icons/ice_tomb.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "695E3A618A749BC0"
+					optional_task: true
+					structure: "ftb:ice_spider_den_eternal"
+					type: "structure"
+				}
+			]
 			x: 2.0d
 			y: -4.0d
 		}
@@ -757,17 +857,32 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:icon": "fdbosses:item/eye_of_chesed"
+			tasks: [
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "fdbosses:item/eye_of_chesed"
+						}
+						id: "ftbquests:custom_icon"
 					}
-					id: "ftbquests:custom_icon"
+					id: "008F570D8B9BAD62"
+					optional_task: true
+					structure: "fdbosses:chesed_arena"
+					type: "structure"
 				}
-				id: "008F570D8B9BAD62"
-				structure: "fdbosses:chesed_arena"
-				type: "structure"
-			}]
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "fdbosses:item/eye_of_chesed"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7B365CF1103ECE34"
+					optional_task: true
+					structure: "fdbosses:chesed_arena_eternal"
+					type: "structure"
+				}
+			]
 			x: 0.0d
 			y: -4.0d
 		}
@@ -779,17 +894,32 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:icon": "fdbosses:item/eye_of_malkuth"
+			tasks: [
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "fdbosses:item/eye_of_malkuth"
+						}
+						id: "ftbquests:custom_icon"
 					}
-					id: "ftbquests:custom_icon"
+					id: "286928C110C92E98"
+					optional_task: true
+					structure: "fdbosses:malkuth_arena"
+					type: "structure"
 				}
-				id: "286928C110C92E98"
-				structure: "fdbosses:malkuth_arena"
-				type: "structure"
-			}]
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "fdbosses:item/eye_of_malkuth"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "3C2CA97272A3113B"
+					optional_task: true
+					structure: "fdbosses:malkuth_arena_eternal"
+					type: "structure"
+				}
+			]
 			x: 3.0d
 			y: -4.0d
 		}
@@ -841,14 +971,26 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				icon: {
-					id: "supplementaries:end_stone_lamp"
+			tasks: [
+				{
+					icon: {
+						id: "supplementaries:end_stone_lamp"
+					}
+					id: "3BB5F35F98A0D252"
+					optional_task: true
+					structure: "ftb:dungeons/end"
+					type: "structure"
 				}
-				id: "3BB5F35F98A0D252"
-				structure: "ftb:dungeons/end"
-				type: "structure"
-			}]
+				{
+					icon: {
+						id: "supplementaries:end_stone_lamp"
+					}
+					id: "756042878315CE87"
+					optional_task: true
+					structure: "ftb:dungeons/end_eternal"
+					type: "structure"
+				}
+			]
 			x: 0.0d
 			y: -3.0d
 		}
@@ -898,14 +1040,26 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				icon: {
-					id: "irons_spellbooks:keeper_flamberge"
+			tasks: [
+				{
+					icon: {
+						id: "irons_spellbooks:keeper_flamberge"
+					}
+					id: "5C5C0B0C6CC599E2"
+					optional_task: true
+					structure: "ftb:ancient_battleground"
+					type: "structure"
 				}
-				id: "5C5C0B0C6CC599E2"
-				structure: "ftb:ancient_battleground"
-				type: "structure"
-			}]
+				{
+					icon: {
+						id: "irons_spellbooks:keeper_flamberge"
+					}
+					id: "6BEA8B2115B76F9E"
+					optional_task: true
+					structure: "ftb:ancient_battleground_eternal"
+					type: "structure"
+				}
+			]
 			x: -1.0d
 			y: -3.0d
 		}
@@ -917,17 +1071,32 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:icon": "twilightforest:textures/mob_effect/frosted.png"
+			tasks: [
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "twilightforest:textures/mob_effect/frosted.png"
+						}
+						id: "ftbquests:custom_icon"
 					}
-					id: "ftbquests:custom_icon"
+					id: "77CB0065516AC9D6"
+					optional_task: true
+					structure: "cataclysm:frosted_prison"
+					type: "structure"
 				}
-				id: "77CB0065516AC9D6"
-				structure: "cataclysm:frosted_prison"
-				type: "structure"
-			}]
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "twilightforest:textures/mob_effect/frosted.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "041D2D2389CC7640"
+					optional_task: true
+					structure: "cataclysm:frosted_prison_eternal"
+					type: "structure"
+				}
+			]
 			x: 2.0d
 			y: -3.0d
 		}
@@ -939,14 +1108,26 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				icon: {
-					id: "ars_nouveau:water_essence"
+			tasks: [
+				{
+					icon: {
+						id: "ars_nouveau:water_essence"
+					}
+					id: "76343612084D1122"
+					optional_task: true
+					structure: "ftb:dungeons/stone_aqua"
+					type: "structure"
 				}
-				id: "76343612084D1122"
-				structure: "ftb:dungeons/stone_aqua"
-				type: "structure"
-			}]
+				{
+					icon: {
+						id: "ars_nouveau:water_essence"
+					}
+					id: "6BB2272225BEBB39"
+					optional_task: true
+					structure: "ftb:dungeons/stone_aqua_eternal"
+					type: "structure"
+				}
+			]
 			x: 1.0d
 			y: -3.0d
 		}

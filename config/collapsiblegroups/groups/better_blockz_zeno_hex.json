@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_zeno_hex",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_zeno_hex",
+    "fallback": "Better Blockz: Zeno Hex"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "zenohex_"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "create_crimsite_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.create_crimsite_blocks",
+    "fallback": "Create: Crimsite Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "item_path_contains": "crimsite"
+  }
+}

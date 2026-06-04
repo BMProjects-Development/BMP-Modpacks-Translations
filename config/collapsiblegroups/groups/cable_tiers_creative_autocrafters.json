@@ -1,0 +1,19 @@
+{
+  "id": "cable_tiers_creative_autocrafters",
+  "name": {
+    "translate": "collapsible_groups.group.cable_tiers_creative_autocrafters",
+    "fallback": "Cabletiers: Creative Autocrafters"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "cabletiers"
+      },
+      {
+        "item_path_ends_with": "creative_autocrafter"
+      }
+    ]
+  }
+}

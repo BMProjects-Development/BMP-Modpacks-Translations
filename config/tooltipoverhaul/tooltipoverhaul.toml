@@ -22,22 +22,21 @@ DISABLE_TOOLTIP_SCROLLING = false
 DISABLE_DIVIDER_LINE = false
 # Horizontal offset (in pixels) for the second panel when a 3D preview is shown. Negative = left, positive = right.
 # 
-# Default: -5
+# Default: 0
 # Range: -Infinity ~ Infinity
-SECOND_PANEL_X = -5
+SECOND_PANEL_X = 0
 # Vertical offset (in pixels) for the second panel when a 3D preview is shown. Negative = up, positive = down.
 # 
 # Default: 0
 # Range: -Infinity ~ Infinity
 SECOND_PANEL_Y = 0
-# Default inner overlay style for tooltips. Options: glint, solid (monochrome), gradient.
+# Default inner overlay style for tooltips. Options: glint, static (monochrome), gradient.
 # 
 # Default: gradient
 DEFAULT_INNER_OVERLAY_TYPE = "gradient"
-# Default tooltip background color in ARGB format (0xAARRGGBB). Example: 0xF0010110.
+# Default tooltip background color in ARGB format (#AARRGGBB). Example: #F0010110.
 # 
-# Default: -268435456
-# Range: -Infinity ~ Infinity
+# Default: #F0000000
 DEFAULT_BACKGROUND_COLOR = -872415232
 # Override vanilla tooltips even when no ItemStack is present (e.g., JEI category buttons or unsupported stacks). To disable custom
 # tooltips for specific items, edit your custom_frames.json and set disableTooltip=true for those items (or tags).
@@ -46,9 +45,9 @@ DEFAULT_BACKGROUND_COLOR = -872415232
 SHOW_TOOLTIP_WITHOUT_STACK = true
 # Horizontal padding for the main panel.
 # 
-# Default: 4
+# Default: 2
 # Range: -Infinity ~ Infinity
-MAIN_PANEL_PADDING_X = 4
+MAIN_PANEL_PADDING_X = 2
 # Vertical padding for the main panel.
 # 
 # Default: 2
@@ -62,40 +61,10 @@ TITLE_X_ALIGNMENT = "left"
 # 
 # Default: left
 RATING_X_ALIGNMENT = "left"
-# Icon background type. Options: focus, void, slot and slot_border
+# Icon background type. Options: focus, void, slot, slot_border and glow
 # 
 # Default: slot_border
 ICON_BACKGROUND_TYPE = "slot_border"
-# Horizontal position offset for the title.
-# 
-# Default: 1
-# Range: -Infinity ~ Infinity
-TITLE_POSITION_X = 1
-# Vertical position offset for the title.
-# 
-# Default: 0
-# Range: -Infinity ~ Infinity
-TITLE_POSITION_Y = 0
-# Horizontal position offset for the rating text.
-# 
-# Default: 1
-# Range: -Infinity ~ Infinity
-RATING_POSITION_X = 1
-# Vertical position offset for the rating text.
-# 
-# Default: 0
-# Range: -Infinity ~ Infinity
-RATING_POSITION_Y = 0
-# Horizontal position offset for the tooltip description (the main content text).
-# 
-# Default: 0
-# Range: -Infinity ~ Infinity
-TOOLTIP_DESCRIPTION_POSITION_X = 0
-# Vertical position offset for the tooltip description (the main content text).
-# 
-# Default: 0
-# Range: -Infinity ~ Infinity
-TOOLTIP_DESCRIPTION_POSITION_Y = 0
 # Show rating text.
 # 
 # Default: false
@@ -113,16 +82,6 @@ ICON_APPEAR_ANIMATION = "skew"
 # Default: 0.0
 # Range: -Infinity ~ Infinity
 ICON_ROTATING_SPEED = 0.0
-# Size of the icon.
-# 
-# Default: 1.350000023841858
-# Range: -Infinity ~ Infinity
-ICON_SIZE = 1.35
-# Size of the second panel renderer.
-# 
-# Default: 2.75
-# Range: -Infinity ~ Infinity
-SECOND_PANEL_RENDERER_SIZE = 2.75
 # Rotation speed multiplier for the tiered item preview in the second panel.
 # 
 # Default: 1.0
@@ -156,3 +115,81 @@ LEGENDARY_PALETTE_COLORS = "0xFFA0803C, 0xFF815F19, 0xFF372808"
 # 
 # Default: 0xFF9F373A, 0xFF81191B, 0xFF370809
 CHAOS_PALETTE_COLORS = "0xFF9F373A, 0xFF81191B, 0xFF370809"
+# Size (in pixels) of the second panel in the X axis when a 3D preview is shown.
+# 
+# Default: 30
+# Range: -Infinity ~ Infinity
+SECOND_PANEL_SIZE_X = 30
+# Size (in pixels) of the second panel in the Y axis when a 3D preview is shown.
+# 
+# Default: 60
+# Range: -Infinity ~ Infinity
+SECOND_PANEL_SIZE_Y = 60
+# Automatically reposition the preview panel (second panel) to the right side when there is insufficient space on the left. If set to
+# false, the panel will always remain on the left.
+# 
+# Default: true
+AUTO_REPOSITION_PREVIEW_PANEL = true
+# Horizontal offset (in pixels) for the tooltip. Negative = left, positive = right.
+# 
+# Default: 0
+# Range: -Infinity ~ Infinity
+TOOLTIP_POSITION_X = 0
+# Vertical offset (in pixels) for the tooltip. Negative = up, positive = down.
+# 
+# Default: 0
+# Range: -Infinity ~ Infinity
+TOOLTIP_POSITION_Y = 0
+# Extra padding above the divider line
+# 
+# Default: 0
+# Range: -Infinity ~ Infinity
+DIVIDER_LINE_TOP_PADDING = 0
+# Extra padding below the divider line
+# 
+# Default: 0
+# Range: -Infinity ~ Infinity
+DIVIDER_LINE_BOTTOM_PADDING = 0
+# Horizontal padding for the main panel when there isn't a stack present.
+# 
+# Default: 1
+# Range: -Infinity ~ Infinity
+NO_STACK_TOOLTIP_PADDING_X = 1
+# Vertical padding for the main panel when there isn't a stack present.
+# 
+# Default: 1
+# Range: -Infinity ~ Infinity
+NO_STACK_TOOLTIP_PADDING_Y = 1
+# Effects. Options: cinder, echo, galaxy, magic_orbs, speed_lines, nebula, spiral, white_dust, metal_shining, rim_light, ripples,
+# sonar, stars. You can chain effects together, for example: 'white_dust, nebula'
+# 
+# Default:
+EFFECTS = ""
+# Enable the tooltip shadow.
+# 
+# Default: false
+SHOW_TOOLTIP_SHADOW = false
+# Vignette entries for gradient overlays around the tooltip background. Each vignette must be written in parentheses in this exact
+# order: (type, position, color, radius, extraPositionX, extraPositionY). Example: (circular, top_left, #FF567823, 0.4, 0, 0). You
+# can define multiple vignettes by separating them with commas: (...), (...), (...). type = vignette shape (options: circular, hole).
+# position = anchor on the tooltip (e.g. top_left, top_right, middle, right, bottom_left). color = ARGB hex in #AARRGGBB. radius =
+# relative size factor (e.g. radius 0.4). extraPositionX / extraPositionY = additional pixel offset from the chosen position.
+# 
+# Default:
+VIGNETTES = ""
+# Divider line type. Options: 'gradient', 'static', 'linear'
+# 
+# Default: gradient
+DIVIDER_LINE_TYPE = "gradient"
+# Preview model to render in the second panel. Options: armor_stand, player_skin.
+# 
+# Default: armor_stand
+PREVIEW_PANEL_MODEL = "armor_stand"
+# If PREVIEW_PANEL_MODEL is set to player_skin, renders the current player skin (true) or a placeholder skin (false).
+# 
+# Default: true
+USE_PLAYER_SKIN_IN_PREVIEW = true
+# Color palette for tooltips without a stack. Must specify exactly 3 ARGB colors.
+# 
+# Default: 0xFF969696, 0xFF575757, 0xFF3C3C3C
+NO_STACK_PALETTE_COLORS = "0xFF969696, 0xFF575757, 0xFF3C3C3C"

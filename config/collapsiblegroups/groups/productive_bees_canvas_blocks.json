@@ -1,0 +1,26 @@
+{
+  "id": "productive_bees_canvas_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.productive_bees_canvas_blocks",
+    "fallback": "Productive Bees: Canvas Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "productivebees"
+      },
+      {
+        "any": [
+          {
+            "item_path_ends_with": "canvas_beehive"
+          },
+          {
+            "item_path_ends_with": "_canvas"
+          }
+        ]
+      }
+    ]
+  }
+}

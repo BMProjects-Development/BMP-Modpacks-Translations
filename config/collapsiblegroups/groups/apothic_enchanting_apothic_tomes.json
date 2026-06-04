@@ -1,0 +1,19 @@
+{
+  "id": "apothic_enchanting_apothic_tomes",
+  "name": {
+    "translate": "collapsible_groups.group.apothic_enchanting_apothic_tomes",
+    "fallback": "Apothic Enchanting: Tomes"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "apothic_enchanting"
+      },
+      {
+        "item_path_ends_with": "_tome"
+      }
+    ]
+  }
+}

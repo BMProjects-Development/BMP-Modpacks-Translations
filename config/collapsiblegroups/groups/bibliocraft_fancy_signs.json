@@ -1,0 +1,19 @@
+{
+  "id": "bibliocraft_fancy_signs",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_fancy_signs",
+    "fallback": "BiblioCraft: Fancy Signs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "bibliocraft"
+      },
+      {
+        "item_path_ends_with": "_fancy_sign"
+      }
+    ]
+  }
+}

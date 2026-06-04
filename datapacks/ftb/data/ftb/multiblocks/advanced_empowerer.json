@@ -1,0 +1,50 @@
+{
+  "keys": {
+    "A": {
+      "block":"immersiveengineering:slab_sheetmetal_colored_purple"
+    },
+    "B": {
+      "block":"immersiveengineering:sheetmetal_colored_purple"
+    },
+    "C": {
+      "block":"minecraft:tinted_glass"
+    },
+    "D": {
+      "block":"actuallyadditions:display_stand"
+    },
+    "E": {
+      "block":"actuallyadditions:empowerer"
+    },
+    "F": {
+      "block":"actuallyadditions:ender_casing"
+    }
+  },
+  "origin": {
+    "x": 2,
+    "y": 0,
+    "z": 4
+  },
+  "structure": [
+    [
+      "ABBBA",
+      "BBBBB",
+      "BBBBB",
+      "BB BB",
+      "AB BA"
+    ],
+    [
+      " BCB ",
+      "B D B",
+      "CDEDC",
+      "B D B",
+      " BCB "
+    ],
+    [
+      "  A  ",
+      " ACA ",
+      "ACFCA",
+      " ACA ",
+      "  A  "
+    ]
+  ]
+}

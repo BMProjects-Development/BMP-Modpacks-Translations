@@ -1,0 +1,19 @@
+{
+  "id": "bibliocraft_fancy_gold_lanterns",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_fancy_gold_lanterns",
+    "fallback": "BiblioCraft: Fancy Gold Lanterns"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "bibliocraft"
+      },
+      {
+        "item_path_ends_with": "fancy_gold_lantern"
+      }
+    ]
+  }
+}

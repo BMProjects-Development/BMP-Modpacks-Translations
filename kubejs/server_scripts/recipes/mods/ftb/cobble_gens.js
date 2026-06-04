@@ -42,7 +42,6 @@ ServerEvents.recipes((event) => {
     addRecipeProductiveMetalworksBlockCastingRecipe(
       event,
       tier.inputBlock,
-      true,
       `c:molten_${tier.fluidType}`,
       tier.fluidAmount,
       tier.outputBlock,

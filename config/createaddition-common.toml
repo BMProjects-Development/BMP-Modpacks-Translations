@@ -188,3 +188,10 @@
 	# Default: 2.0
 	# Range: 0.0 ~ 3.4028234663852886E38
 	barbed_wire_damage = 2.0
+
+#Compatibility
+[compatibility]
+	#Energy capacity of the Docking Connector (Aeronautics/Simulated).
+	# Default: 80000
+	# Range: > 1
+	docking_connector_capacity = 80000

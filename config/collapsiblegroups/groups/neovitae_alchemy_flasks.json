@@ -1,0 +1,12 @@
+{
+  "id": "neovitae_alchemy_flasks",
+  "name": {
+    "translate": "collapsible_groups.group.neovitae_alchemy_flasks",
+    "fallback": "Neovitae: Alchemy Flasks"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "neovitae:alchemy_flask"
+  }
+}

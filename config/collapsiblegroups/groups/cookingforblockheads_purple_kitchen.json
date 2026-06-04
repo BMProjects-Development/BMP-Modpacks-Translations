@@ -1,0 +1,19 @@
+{
+  "id": "cookingforblockheads_purple_kitchen",
+  "name": {
+    "translate": "collapsible_groups.group.cookingforblockheads_purple_kitchen",
+    "fallback": "Cooking For Blockheads: Purple Kitchen Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "cookingforblockheads"
+      },
+      {
+        "item_path_starts_with": "purple"
+      }
+    ]
+  }
+}

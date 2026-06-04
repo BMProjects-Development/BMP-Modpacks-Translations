@@ -1,0 +1,19 @@
+{
+  "id": "reliquary_potion_essences",
+  "name": {
+    "translate": "collapsible_groups.group.reliquary_potion_essences",
+    "fallback": "Reliquary: Potion Essences"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "reliquary"
+      },
+      {
+        "item_path_starts_with": "potion_essence"
+      }
+    ]
+  }
+}

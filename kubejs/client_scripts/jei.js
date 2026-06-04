@@ -73,6 +73,7 @@ RecipeViewerEvents.removeEntries("item", (event) => {
     event.remove('gateways:gate_pearl[gateways:gateway="ftb:vault/tier_2"]'),
     event.remove('gateways:gate_pearl[gateways:gateway="ftb:vault/tier_3"]'),
     event.remove('gateways:gate_pearl[gateways:gateway="ftb:vault/tier_4"]'),
+    event.remove('gateways:gate_pearl[gateways:gateway="ftb:vault/tier_5"]'),
     event.remove('mekanism:creative_fluid_tank'),
     event.remove('mekanism:creative_chemical_tank')
 })
@@ -85,5 +86,11 @@ RecipeViewerEvents.addEntries("item", (event) => {
 RecipeViewerEvents.addInformation('fluid', event => {
 	event.add('justdirethings:portal_fluid_source', [
 		'Made in the End Ring.'
+	])
+})
+
+RecipeViewerEvents.addInformation('item', event => {
+	event.add('sfm:xp_shard', [
+		Text.translate('ftb.jei.info.sfm.xp_shard')
 	])
 })

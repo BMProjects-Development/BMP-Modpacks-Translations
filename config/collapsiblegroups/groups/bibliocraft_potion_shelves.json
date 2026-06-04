@@ -1,0 +1,19 @@
+{
+  "id": "bibliocraft_potion_shelves",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_potion_shelves",
+    "fallback": "BiblioCraft: Potion Shelves"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "bibliocraft"
+      },
+      {
+        "item_path_ends_with": "_potion_shelf"
+      }
+    ]
+  }
+}

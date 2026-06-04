@@ -9,6 +9,8 @@ autocraftingNotification = true
 debug = false
 #Allowed Values: LIST, TREE
 autocraftingPreviewStyle = "LIST"
+tenthAnniversaryCape = false
+requireEnergy = true
 
 [cable]
 	# Default: 0
@@ -17,7 +19,7 @@ autocraftingPreviewStyle = "LIST"
 
 [controller]
 	# Default: 1000
-	# Range: 0 ~ 9223372036854775807
+	# Range: 1 ~ 9223372036854775807
 	energyCapacity = 10000
 
 [diskDrive]
@@ -171,7 +173,7 @@ autocraftingPreviewStyle = "LIST"
 
 [wirelessGrid]
 	# Default: 1000
-	# Range: 0 ~ 9223372036854775807
+	# Range: 1 ~ 9223372036854775807
 	energyCapacity = 1000
 	# Default: 5
 	# Range: 0 ~ 9223372036854775807
@@ -208,7 +210,7 @@ autocraftingPreviewStyle = "LIST"
 
 [portableGrid]
 	# Default: 1000
-	# Range: 0 ~ 9223372036854775807
+	# Range: 1 ~ 9223372036854775807
 	energyCapacity = 1000
 	# Default: 5
 	# Range: 0 ~ 9223372036854775807
@@ -267,7 +269,7 @@ autocraftingPreviewStyle = "LIST"
 
 [wirelessAutocraftingMonitor]
 	# Default: 1000
-	# Range: 0 ~ 9223372036854775807
+	# Range: 1 ~ 9223372036854775807
 	energyCapacity = 1000
 	# Default: 5
 	# Range: 0 ~ 9223372036854775807

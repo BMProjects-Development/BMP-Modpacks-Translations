@@ -158,7 +158,13 @@
 					id: "68957CD816996804"
 					ignore_reward_blocking: true
 					stage: "echo_quartermaster_meet"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "2950D310F471C2EF"
+					stage: "echo_quartermaster_meet"
 					type: "gamestage"
 				}
 				{
@@ -222,7 +228,13 @@
 					id: "2B8A706DF102646D"
 					ignore_reward_blocking: true
 					stage: "echo_magician_meet"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "7A6B07AE9F029ACB"
+					stage: "echo_magician_meet"
 					type: "gamestage"
 				}
 				{
@@ -276,7 +288,13 @@
 					id: "3507BD8E87DF782C"
 					ignore_reward_blocking: true
 					stage: "echo_machinist_meet"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "0DDB04D9D545C6D2"
+					stage: "echo_machinist_meet"
 					type: "gamestage"
 				}
 			]
@@ -324,7 +342,13 @@
 					id: "38333F702AC714A3"
 					ignore_reward_blocking: true
 					stage: "echo_machinist_stage1_task2_completed"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "4367ECE95009E507"
+					stage: "echo_machinist_stage1_task2_completed"
 					type: "gamestage"
 				}
 			]
@@ -366,7 +390,13 @@
 					id: "309E97DCD090DB64"
 					ignore_reward_blocking: true
 					stage: "echo_quartermaster_stage1_task2_completed"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "39522B74F5C8B722"
+					stage: "echo_quartermaster_stage1_task2_completed"
 					type: "gamestage"
 				}
 			]
@@ -416,7 +446,13 @@
 					id: "2BD1AFA4BCBBC4F6"
 					ignore_reward_blocking: true
 					stage: "echo_magician_stage1_task1_completed"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "352EBA240C2FD413"
+					stage: "echo_magician_stage1_task1_completed"
 					type: "gamestage"
 				}
 			]
@@ -501,7 +537,13 @@
 					id: "26BB3DDAD603CE2C"
 					ignore_reward_blocking: true
 					stage: "echo_magician_stage1_task2_completed"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "591A69027005449D"
+					stage: "echo_magician_stage1_task2_completed"
 					type: "gamestage"
 				}
 			]
@@ -550,7 +592,13 @@
 					id: "5EC9D655A7882496"
 					ignore_reward_blocking: true
 					stage: "echo_quartermaster_stage1_task1_completed"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "66E6C1A8E0523D79"
+					stage: "echo_quartermaster_stage1_task1_completed"
 					type: "gamestage"
 				}
 			]
@@ -599,7 +647,13 @@
 					id: "3802074E45534739"
 					ignore_reward_blocking: true
 					stage: "echo_machinist_stage1_task1_completed"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "7CB71A975036A48B"
+					stage: "echo_machinist_stage1_task1_completed"
 					type: "gamestage"
 				}
 			]
@@ -820,7 +874,7 @@
 				{
 					auto: "disabled"
 					command: "/ftbunearthed setlevel @s 4"
-					feedback_message: "Your Unearthing Skill Has Leveled Up!"
+					feedback_message: "feedback_message.ftb.unearthing_level_up"
 					icon: {
 						components: {
 							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active.png"
@@ -845,6 +899,7 @@
 				}
 				id: "238BCDF15FC7E9CB"
 				stage: "echo_guidance_stage1_final_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -858,10 +913,7 @@
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			icon: {
-				components: {
-					"ftbquests:icon": "owo:textures/gui/config_search.png"
-				}
-				id: "ftbquests:custom_icon"
+				id: "apothic_enchanting:stoneshelf"
 			}
 			id: "615D1A52ED3A9C78"
 			min_width: 300
@@ -905,6 +957,7 @@
 				}
 				id: "5B3A2DEB3DFBA285"
 				stage: "echo_guidance_stage1_task3_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -931,6 +984,7 @@
 				}
 				id: "2695E2029A6BC6A0"
 				stage: "echo_magician_stage1_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -6.0d
@@ -957,6 +1011,7 @@
 				}
 				id: "402164B895BEDB8E"
 				stage: "echo_quartermaster_stage1_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -983,6 +1038,7 @@
 				}
 				id: "45E18E3EE8C1D683"
 				stage: "echo_machinist_stage1_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 6.0d
@@ -1024,8 +1080,8 @@
 			id: "31CCB73669788855"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Механик\" -40 2 13 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"The Machinist\" -40 2 13 minecraft:overworld light_purple true"
+				feedback_message: "feedback_message.ftb.waypoint_claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1053,8 +1109,8 @@
 			id: "20168B6357665708"
 			optional: true
 			rewards: [{
-				command: "ftbchunks waypoint add \"Квартирмейстер\"-28 2 -15 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "ftbchunks waypoint add \"The Quartermaster\" -28 2 -15 minecraft:overworld light_purple true"
+				feedback_message: "feedback_message.ftb.waypoint_claimable"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1082,8 +1138,8 @@
 			id: "15B551FCA8790707"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Маг\" -43 2 -5 minecraft:overworld light_purple true"
-				feedback_message: "Точка создана"
+				command: "/ftbchunks waypoint add \"The Magician\" -43 2 -5 minecraft:overworld light_purple true"
+				feedback_message: "feedback_message.ftb.waypoint_claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1222,7 +1278,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/create"
-				feedback_message: "Machinist's Vault Compass Acquired"
+				feedback_message: "feedback_message.ftb.locator_machinist_vault"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}
@@ -1268,7 +1324,34 @@
 				id: "6865F20C1E218901"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["615D1A52ED3A9C78"]
+			icon: {
+				id: "ftb:multiblock_printer"
+			}
+			id: "2140EAC255C3EA09"
+			optional: true
+			rewards: [{
+				amount: 20
+				id: "417F7DD6163231AF"
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "13A73C3BE594063F"
+					item: { count: 1, id: "ftb:multiblock_printer" }
+					type: "item"
+				}
+				{
+					id: "285C19B2604207EF"
+					item: { count: 1, id: "ftb:multiblock_validator" }
+					type: "item"
+				}
+			]
+			x: 0.5d
 			y: -4.0d
 		}
 	]

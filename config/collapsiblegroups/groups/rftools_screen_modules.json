@@ -1,0 +1,19 @@
+{
+  "id": "rftools_screen_modules",
+  "name": {
+    "translate": "collapsible_groups.group.rftools_screen_modules",
+    "fallback": "RFTools: Screen Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "any": [
+          { "type": "item", "namespace": "rftoolsutility" },
+          { "type": "item", "namespace": "rftoolsstorage" }
+        ]
+      },
+      { "item_path_ends_with": "_module" }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "computer_craft_floppy_disks",
+  "name": {
+    "translate": "collapsible_groups.group.computer_craft_floppy_disks",
+    "fallback": "Computer Craft: Floppy Disks"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "computercraft:disk"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "draconic_evolution_draconic_modules",
+  "name": {
+    "translate": "collapsible_groups.group.draconic_evolution_draconic_modules",
+    "fallback": "Draconic Evolution: Draconic Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "all": [
+          {
+            "type": "item",
+            "namespace": "draconicevolution"
+          },
+          {
+            "item_path_starts_with": "item_draconic"
+          }
+        ]
+      },
+      {
+        "all": [
+          {
+            "type": "item",
+            "namespace": "draconic_spellbooks"
+          },
+          {
+            "item_path_starts_with": "item_awakened"
+          }
+        ]
+      }
+    ]
+  }
+}

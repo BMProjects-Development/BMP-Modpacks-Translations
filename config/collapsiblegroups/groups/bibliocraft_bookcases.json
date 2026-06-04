@@ -1,0 +1,19 @@
+{
+  "id": "bibliocraft_bookcases",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_bookcases",
+    "fallback": "BiblioCraft: Bookcases"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "bibliocraft"
+      },
+      {
+        "item_path_ends_with": "_bookcase"
+      }
+    ]
+  }
+}

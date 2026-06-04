@@ -1,0 +1,116 @@
+{
+  "id": "geore_s_medium_buds",
+  "name": {
+    "translate": "collapsible_groups.group.geore_s_medium_buds",
+    "fallback": "GeOre\u0027s Medium Buds"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_coal_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_copper_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_diamond_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_emerald_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_gold_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_iron_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_lapis_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_quartz_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_redstone_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_ancient_debris_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_ruby_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_sapphire_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_topaz_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_zinc_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_uraninite_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_black_quartz_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_monazite_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_aluminum_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_lead_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_nickel_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_osmium_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_platinum_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_silver_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_tin_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_tungsten_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:medium_uranium_bud\"}"
+      }
+    ]
+  }
+}

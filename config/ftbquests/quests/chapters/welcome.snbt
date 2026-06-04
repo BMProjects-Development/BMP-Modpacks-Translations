@@ -35,7 +35,7 @@
 		{
 			click: "https://discord.com/invite/X5UGvBs"
 			height: 1.0d
-			hover: ["Присоединится к Discord!"]
+			hover: ["ftb.hover.discord"]
 			image: "ftbpc:textures/gui/discord.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -45,7 +45,7 @@
 		{
 			click: "https://github.com/FTBTeam/FTB-Modpack-Issues/issues"
 			height: 1.0d
-			hover: ["Сообщить об ошибке"]
+			hover: ["ftb.hover.bug"]
 			image: "ftbquests:textures/gui/alert.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -178,20 +178,6 @@
 			}]
 			x: 0.5d
 			y: -1.0d
-		}
-		{
-			icon: {
-				id: "magic_coins:crystal_coin"
-			}
-			id: "30C2E386079225C5"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "5B2087383A6E400E"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: 1.5d
 		}
 	]
 }

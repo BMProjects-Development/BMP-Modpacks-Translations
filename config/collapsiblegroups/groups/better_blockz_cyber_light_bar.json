@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_cyber_light_bar",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_cyber_light_bar",
+    "fallback": "Better Blockz: Cyber Light Bar"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "cyberlight_bar_"
+      }
+    ]
+  }
+}

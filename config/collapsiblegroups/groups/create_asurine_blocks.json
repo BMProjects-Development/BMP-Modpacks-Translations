@@ -1,0 +1,11 @@
+{
+  "id": "create_asurine_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.create_asurine_blocks",
+    "fallback": "Create: Asurine Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "item_path_contains": "asurine"
+  }
+}

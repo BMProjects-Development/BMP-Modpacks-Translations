@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "ftb:redacted"
+    }
+  ],
+  "type": "artifacts:roll_loot_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:entities/mooshroom"
+    }
+  ],
+  "lootTable": "artifacts:inject/entities/mooshroom"
+}

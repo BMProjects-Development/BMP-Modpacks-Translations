@@ -13,15 +13,17 @@ removeRecipe.push(
   "ftbmaterials:chromium_ingot_from_blasting_chromium_raw_ore",
   "ftbmaterials:chromium_ingot_from_smelting_chromium_raw_ore",
   "ftbmaterials:titanium_ingot_from_blasting_titanium_raw_ore",
-  "ftbmaterials:titanium_ingot_from_smelting_titanium_raw_ore"
-)
+  "ftbmaterials:titanium_ingot_from_smelting_titanium_raw_ore",
+  "ftbmaterials:plutonium_dust_from_plutonium_tiny_dust",
+  "ftbmaterials:plutonium_tiny_dust_from_plutonium_dust"
+);
 
 removeOre.push(
   "ftbmaterials:niter_stone_ore",
   "ftbmaterials:niter_deepslate_ore",
   "ftbmaterials:resonating_ore_stone_ore",
   "ftbmaterials:resonating_ore_deepslate_ore"
-)
+);
 
 // Remove Items That Should Not Be A Thing
 removeItem.push(
@@ -74,8 +76,9 @@ removeItem.push(
   "ftbmaterials:tungsten_dirty_dust",
   "ftbmaterials:tungsten_shard",
   "ftbmaterials:ruby_tiny",
-  "ftbmaterials:electrum_gem"
-)
+  "ftbmaterials:electrum_gem",
+  "ftbmaterials:quartz_clump"
+);
 
 const dusts = [
   ["ftbmaterials:bronze_dust", "ftbmaterials:bronze_ingot"],
@@ -92,36 +95,36 @@ const dusts = [
   ["ftbmaterials:sapphire_dust", "ftbmaterials:sapphire_gem"],
   ["ftbmaterials:coal_coke_dust", "ftbmaterials:coal_coke_gem"],
   ["ftbmaterials:brass_dust", "ftbmaterials:brass_ingot"],
-  ["ftbmaterials:constantan_dust", "ftbmaterials:constantan_ingot"]
-]
+  ["ftbmaterials:constantan_dust", "ftbmaterials:constantan_ingot"],
+];
 
 ServerEvents.recipes((event) => {
   global.resourceOresIngots.forEach((mod) => {
     mod.materials.forEach((material) => {
-      const dustTag = `${global.tagPrefix}:dusts/${material}`
-      const blockTag = `${global.tagPrefix}:storage_blocks/raw_${material}`
+      const dustTag = `${global.tagPrefix}:dusts/${material}`;
+      const blockTag = `${global.tagPrefix}:storage_blocks/raw_${material}`;
       const ingot = ["iron", "gold", "copper"].includes(material)
         ? `minecraft:${material}_ingot`
-        : `ftbmaterials:${material}_ingot`
+        : `ftbmaterials:${material}_ingot`;
 
       const block = ["iron", "gold", "copper"].includes(material)
         ? `minecraft:${material}_block`
-        : `ftbmaterials:${material}_block`
+        : `ftbmaterials:${material}_block`;
 
-      addOreProcessingRecipes(event, `#${dustTag}`, ingot, material, "ftbmaterials", 200)
+      addOreProcessingRecipes(event, `#${dustTag}`, ingot, material, "ftbmaterials", 200);
 
-      addOreProcessingRecipes(event, `#${blockTag}`, block, `${material}_block`, "ftbmaterials", 1800)
-    })
-  })
+      addOreProcessingRecipes(event, `#${blockTag}`, block, `${material}_block`, "ftbmaterials", 1800);
+    });
+  });
 
   global.resourcesOresGem.forEach((entry) => {
-    const modID = entry.modID
+    const modID = entry.modID;
     entry.materials.forEach((type) => {
       if (global.clusterTypes.includes(type[0])) {
-        const itemID = type[2] ?? `${modID}:${type[0]}`
+        const itemID = type[2] ?? `${modID}:${type[0]}`;
         if (Ingredient.of(itemID) !== undefined) {
-          const fullAmount = type[1] ?? 1
-          const halfAmount = Math.max(1, Math.floor(fullAmount / 2))
+          const fullAmount = type[1] ?? 1;
+          const halfAmount = Math.max(1, Math.floor(fullAmount / 2));
           addOreProcessingRecipes(
             event,
             `#c:raw_materials/${type[0]}`,
@@ -129,11 +132,11 @@ ServerEvents.recipes((event) => {
             itemID.split(":")[1],
             "ftbmaterials",
             200
-          )
+          );
         }
       }
-    })
-  })
+    });
+  });
 
   const compressPairs = [
     // [input, output, count]
@@ -147,59 +150,59 @@ ServerEvents.recipes((event) => {
     ["ftbmaterials:ruby_gem", "ftbmaterials:ruby_block", 9],
     ["ftbmaterials:monazite_dust", "ftbmaterials:monazite_block", 9],
     ["ftbmaterials:sapphire_gem", "ftbmaterials:sapphire_block", 9],
-    ["ftbmaterials:sulfur_gem", "ftbmaterials:sulfur_block", 9]
-  ]
+    ["ftbmaterials:sulfur_gem", "ftbmaterials:sulfur_block", 9],
+  ];
 
   compressPairs.forEach(([small, large, count]) => {
-    const base = small.split(":")[1]
+    const base = small.split(":")[1];
 
     // Compress: shaped if 9, shapeless if 8
     if (count === 9) {
       // 9 small -> 1 large
-      event.shaped(large, ["CCC", "CCC", "CCC"], { C: small }).id(`ftb:compress/${base}`)
+      event.shaped(large, ["CCC", "CCC", "CCC"], { C: small }).id(`ftb:compress/${base}`);
     } else {
       // 8 small -> 1 large (shapeless)
-      event.shapeless(large, Array(count).fill(small)).id(`ftb:compress/${base}`)
+      event.shapeless(large, Array(count).fill(small)).id(`ftb:compress/${base}`);
     }
 
     // Decompress: 1 large -> X small (shapeless)
-    event.shapeless(Item.of(small, count), [large]).id(`ftb:decompress/${base}`)
-  })
+    event.shapeless(Item.of(small, count), [large]).id(`ftb:decompress/${base}`);
+  });
 
   global.enabledPlates.forEach(([material, tag, enabled]) => {
-    if (enabled === false) return
+    if (enabled === false) return;
 
-    const materialTag = tag ?? `c:plates/${material}`
-    const wireID = `ftbmaterials:${material}_wire`
+    const materialTag = tag ?? `c:plates/${material}`;
+    const wireID = `ftbmaterials:${material}_wire`;
 
-    event.stonecutting(wireID, `#${materialTag}`).id(`ftb:minecraft/stonecutting/wire/${material}`)
+    event.stonecutting(wireID, `#${materialTag}`).id(`ftb:minecraft/stonecutting/wire/${material}`);
 
     event
       .custom({
         type: "minecraft:crafting_shapeless",
         ingredients: [
           {
-            tag: `c:ingots/${material}`
+            tag: `c:ingots/${material}`,
           },
           {
-            tag: `c:ingots/${material}`
+            tag: `c:ingots/${material}`,
           },
           {
-            tag: `c:ingots/${material}`
+            tag: `c:ingots/${material}`,
           },
           {
-            item: "immersiveengineering:hammer"
-          }
+            item: "immersiveengineering:hammer",
+          },
         ],
         result: {
           count: 1,
-          id: `ftbmaterials:${material}_plate`
-        }
+          id: `ftbmaterials:${material}_plate`,
+        },
       })
-      .id(`ftb:crafting/plates/${material}`)
-  })
+      .id(`ftb:crafting/plates/${material}`);
+  });
 
   dusts.forEach((dust) => {
-    addOreProcessingRecipes(event, dust[0], dust[1], dust[0].split(":")[1], "ftbmaterials", 200)
-  })
-})
+    addOreProcessingRecipes(event, dust[0], dust[1], dust[0].split(":")[1], "ftbmaterials", 200);
+  });
+});

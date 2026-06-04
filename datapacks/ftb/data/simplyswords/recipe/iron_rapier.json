@@ -8,11 +8,7 @@
       "item": "minecraft:iron_ingot"
     }
   },
-  "pattern": [
-    "X  ",
-    " X ",
-    "  #"
-  ],
+  "pattern": ["X  ", " X ", " # "],
   "result": {
     "id": "simplyswords:iron_rapier",
     "count": 1

@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_luxe_diamond",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_luxe_diamond",
+    "fallback": "Better Blockz: Luxe Diamond"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "diamond_"
+      }
+    ]
+  }
+}

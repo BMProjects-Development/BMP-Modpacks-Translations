@@ -7,13 +7,13 @@ navigation:
 item_ids:
   - ftb:spirit_block
 ---
-# Улучшение "Призрачный корпус"
+# <Color id="green">Улучшение "Призрачный блок"</Color>
 
 <ItemImage id="ftb:spirit_block" scale="3" />
 
-<Color id="light_purple">"Призрачный корпус"</Color> дополнительное улучшение, которое разблокирует несколько, связанных с душой, предметов в <Color id="gold">Мировом двигателе</Color>, например <Color id="light_purple">Кровожадный клинок</Color>.
+<Color id="light_purple">"Призрачный блок"</Color> - второстепенное улучшение, которое разблокирует несколько, связанных с душой, предметов в <Color id="gold">мировом двигателе</Color>, например <Color id="light_purple">клинок жизненной силы</Color>.
 
-## Разблокируемые предметы
+## Разблокируемые предметы:
 
 <ItemGrid>
   <ItemIcon id="deepdarkdimdungeons:deep_dark_catalyst" />

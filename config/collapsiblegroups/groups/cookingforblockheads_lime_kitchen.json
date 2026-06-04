@@ -1,0 +1,19 @@
+{
+  "id": "cookingforblockheads_lime_kitchen",
+  "name": {
+    "translate": "collapsible_groups.group.cookingforblockheads_lime_kitchen",
+    "fallback": "Cooking For Blockheads: Lime Kitchen Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "cookingforblockheads"
+      },
+      {
+        "item_path_starts_with": "lime"
+      }
+    ]
+  }
+}

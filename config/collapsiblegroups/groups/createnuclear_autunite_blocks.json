@@ -1,0 +1,11 @@
+{
+  "id": "createnuclear_autunite_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.createnuclear_autunite_blocks",
+    "fallback": "Create Nuclear: Autunite Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "item_path_contains": "autunite"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "bibliocraft_dark_oak_tall_seat_backs",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_dark_oak_tall_seat_backs",
+    "fallback": "BiblioCraft: Dark Oak Tall Seat Backs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "bibliocraft" },
+      { "item_path_ends_with": "_dark_oak_tall_seat_back" }
+    ]
+  }
+}

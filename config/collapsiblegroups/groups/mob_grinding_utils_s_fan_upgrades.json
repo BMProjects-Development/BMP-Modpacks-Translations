@@ -1,0 +1,24 @@
+{
+  "id": "mob_grinding_utils_s_fan_upgrades",
+  "name": {
+    "translate": "collapsible_groups.group.mob_grinding_utils_s_fan_upgrades",
+    "fallback": "Mob Grinding Utils\u0027s Fan Upgrades"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mob_grinding_utils:fan_upgrade_height\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mob_grinding_utils:fan_upgrade_width\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mob_grinding_utils:fan_upgrade_speed\"}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mixed_tipped_arrows",
+  "name": {
+    "translate": "collapsible_groups.group.mixed_tipped_arrows",
+    "fallback": "Mixed: Tipped Arrows"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "tipped_arrow"
+  }
+}

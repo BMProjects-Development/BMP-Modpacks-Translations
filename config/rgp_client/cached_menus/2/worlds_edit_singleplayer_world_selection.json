@@ -1,0 +1,143 @@
+{
+  "type": "list",
+  "id": "worlds_edit_singleplayer_world_selection",
+  "title": {
+    "translate": "rgp_client.gui.worlds_edit.upload_world"
+  },
+  "back": {
+    "action": "open_screen",
+    "id": "worlds_edit_create_world",
+    "pass_storage": true
+  },
+  "on_open": {
+    "action": "remove_variables",
+    "variables": [ "selectedWorldPath", "selectedWorldName" ]
+  },
+  "entries": [
+  ],
+  "entry_loader": {
+    "type": "singleplayer_world_entry",
+    "entry_template": {
+      "id": "$worldId",
+      "elements": [
+        {
+          "type": "image",
+          "id": "world_icon",
+          "icon": "$worldIcon",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "world_name",
+          "text": "$worldName",
+          "position": {
+            "x": 35,
+            "y": 0,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "world_last_played",
+          "text": {
+            "text": "$worldName ($worldLastPlayed)",
+            "color": "gray"
+          },
+          "position": {
+            "x": 35,
+            "y": 12,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "world_info",
+          "text": {
+            "text": "$worldInfo",
+            "color": "gray"
+          },
+          "position": {
+            "x": 35,
+            "y": 24,
+            "pivot": "top_left"
+          }
+        }
+      ],
+      "selected_callback": {
+        "action": "store_variables",
+        "variables": [
+          {
+            "key": "selectedWorldPath",
+            "value": "$worldPath"
+          },
+          {
+            "key": "selectedWorldName",
+            "value": "$worldName"
+          }
+        ]
+      }
+    }
+  },
+  "elements": [
+    {
+      "type": "text",
+      "id": "title",
+      "text": {
+        "translate": "rgp_client.gui.worlds_edit.upload_world"
+      },
+      "alignment": "center",
+      "position": {
+        "x": 0,
+        "y": 15,
+        "pivot": "top_center"
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "select_world",
+      "required_variable": "selectedWorldPath",
+      "text": {
+        "translate": "rgp_client.gui.worlds_edit.select_world"
+      },
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -35,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_edit_upload_world",
+        "pass_storage": true
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "back",
+      "text": {
+        "translate": "gui.back"
+      },
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_edit_create_world",
+        "pass_storage": true
+      }
+    }
+  ]
+}

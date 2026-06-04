@@ -1,0 +1,19 @@
+{
+  "id": "mekanism_plastic_stairs_transparent",
+  "name": {
+    "translate": "collapsible_groups.group.mekanism_plastic_stairs_transparent",
+    "fallback": "Mekanism: Plastic Stairs (Transparent)"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "mekanismadditions"
+      },
+      {
+        "item_path_ends_with": "_plastic_transparent_stairs"
+      }
+    ]
+  }
+}

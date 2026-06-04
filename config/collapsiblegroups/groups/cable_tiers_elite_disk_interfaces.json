@@ -1,0 +1,19 @@
+{
+  "id": "cable_tiers_elite_disk_interfaces",
+  "name": {
+    "translate": "collapsible_groups.group.cable_tiers_elite_disk_interfaces",
+    "fallback": "Cabletiers: Elite Disk Interfaces"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "cabletiers"
+      },
+      {
+        "item_path_ends_with": "elite_disk_interface"
+      }
+    ]
+  }
+}

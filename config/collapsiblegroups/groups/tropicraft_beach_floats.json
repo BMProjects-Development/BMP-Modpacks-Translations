@@ -1,0 +1,19 @@
+{
+  "id": "tropicraft_beach_floats",
+  "name": {
+    "translate": "collapsible_groups.group.tropicraft_beach_floats",
+    "fallback": "Tropicraft: Beach Floats"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "tropicraft"
+      },
+      {
+        "item_path_ends_with": "float"
+      }
+    ]
+  }
+}

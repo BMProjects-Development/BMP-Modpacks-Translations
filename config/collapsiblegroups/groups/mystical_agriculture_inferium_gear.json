@@ -1,0 +1,27 @@
+{
+  "id": "mystical_agriculture_inferium_gear",
+  "name": {
+    "translate": "collapsible_groups.group.mystical_agriculture_inferium_gear",
+    "fallback": "Mystical Agriculture: Inferium Gear"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "any": [
+          {
+            "type": "item",
+            "tag": "c:tools"
+          },
+          {
+            "type": "item",
+            "tag": "c:armors"
+          }
+        ]
+      },
+      {
+        "item_path_starts_with": "inferium"
+      }
+    ]
+  }
+}

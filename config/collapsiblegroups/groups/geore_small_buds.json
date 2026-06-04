@@ -1,0 +1,22 @@
+{
+  "id": "geore_small_buds",
+  "name": {
+    "translate": "collapsible_groups.group.geore_small_buds",
+    "fallback": "GeOre: Small Buds"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "geore"
+      },
+      {
+        "item_path_starts_with": "small_"
+      },
+      {
+        "item_path_ends_with": "_bud"
+      }
+    ]
+  }
+}

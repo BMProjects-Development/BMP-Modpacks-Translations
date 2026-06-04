@@ -24,6 +24,8 @@
         "cognition:cognitive_sword": "apotheosis:melee_weapon",
         "cataclysm:black_steel_sword": "apotheosis:melee_weapon",
         "ars_nouveau:enchanters_sword": "apotheosis:melee_weapon",
-        "immersiveengineering:sword_steel": "apotheosis:melee_weapon"
+        "immersiveengineering:sword_steel": "apotheosis:melee_weapon",
+        "draconicevolution:draconic_staff": "apotheosis:melee_weapon",
+        "draconicevolution:chaotic_staff": "apotheosis:melee_weapon"
     }
 }

@@ -1,0 +1,19 @@
+{
+  "id": "productive_metalworks_yellow_foundry",
+  "name": {
+    "translate": "collapsible_groups.group.productive_metalworks_yellow_foundry",
+    "fallback": "Productive Metalworks: Yellow Foundry"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "productivemetalworks"
+      },
+      {
+        "item_path_starts_with": "yellow_"
+      }
+    ]
+  }
+}

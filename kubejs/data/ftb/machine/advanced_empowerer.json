@@ -1,0 +1,244 @@
+{
+  "name": {
+    "text": {
+      "translate": "ftb.machine.advanced_empowerer"
+    }
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "immersiveengineering:tesla",
+        "volume": 0.21,
+        "pitch": 0.3
+      },
+      "custommachinery:block": "ftb:machine/advanced_empowerer_active",
+      "custommachinery:hardness": 50.430264,
+      "custommachinery:resistance": 1000.3684
+    },
+    "errored": {
+      "custommachinery:block": "ftb:machine/advanced_empowerer_errored"
+    },
+    "paused": {
+      "custommachinery:block": "ftb:machine/advanced_empowerer_idle"
+    },
+    "custommachinery:hardness": 50.164474,
+    "custommachinery:keep_inventory": true,
+    "custommachinery:resistance": 1000.5263,
+    "idle": {
+      "custommachinery:block": "ftb:machine/advanced_empowerer_idle",
+      "custommachinery:hardness": 3.6383379
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 1000000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_1",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_2",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_3",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_4",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": [
+        "actuallyadditions:restonia_crystal",
+        "actuallyadditions:restonia_crystal_block",
+        "actuallyadditions:palis_crystal",
+        "actuallyadditions:palis_crystal_block",
+        "actuallyadditions:diamatine_crystal",
+        "actuallyadditions:diamatine_crystal_block",
+        "actuallyadditions:void_crystal",
+        "actuallyadditions:void_crystal_block",
+        "actuallyadditions:emeradic_crystal",
+        "actuallyadditions:emeradic_crystal_block",
+        "actuallyadditions:enori_crystal",
+        "actuallyadditions:enori_crystal_block",
+        "actuallyadditions:crystallized_canola_seed"
+      ],
+      "id": "input_main",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output",
+      "mode": "output",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "whitelist": "mekanism:upgrade_speed",
+      "id": "upgrade",
+      "mode": "none"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advanced_empowerer_bg.png"
+      },
+      "width": 192,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_config_hovered.png"
+      },
+      "priority": 9,
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_config_button.png"
+      },
+      "x": 122,
+      "y": 66,
+      "width": 16,
+      "height": 16
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_energybar_full.png"
+      },
+      "id": "energy",
+      "x": 14,
+      "y": 21,
+      "width": 9,
+      "height": 63,
+      "texture_empty": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_energybar_empty.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "texture": {
+        "texture": "ftb:textures/gui/base_inventory.png"
+      },
+      "x": 15,
+      "y": 106
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 84,
+      "y": 44,
+      "width": 24,
+      "height": 17,
+      "texture_empty": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_arrow_empty.png"
+      },
+      "texture_filled": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_arrow_full.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_1",
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_bottomslot.png"
+      },
+      "x": 61,
+      "y": 19
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_2",
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_bottomslot.png"
+      },
+      "x": 61,
+      "y": 36
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_3",
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_bottomslot.png"
+      },
+      "x": 61,
+      "y": 53
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_4",
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_bottomslot.png"
+      },
+      "x": 61,
+      "y": 70
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_main",
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_topslot.png"
+      },
+      "x": 33,
+      "y": 41,
+      "width": 22,
+      "height": 22
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "priority": 1,
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_topslot.png"
+      },
+      "x": 119,
+      "y": 41,
+      "width": 22,
+      "height": 22
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade",
+      "priority": 1,
+      "texture": {
+        "texture": "ftb:textures/gui/advanced_empowerer/advemp_speedupgrade_outline.png"
+      },
+      "x": 90,
+      "y": 22,
+      "width": 12,
+      "height": 14,
+      "ghost": {
+        "items": {
+          "item": "mekanism:upgrade_speed"
+        },
+        "color": {
+          "alpha": 0.0
+        }
+      }
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 92,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "ftb.machine.advanced_empowerer"
+        }
+      },
+      "alignment": "center"
+    }
+  ]
+}

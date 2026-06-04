@@ -1,0 +1,14 @@
+{
+  "id": "powah_ender_cells",
+  "name": {
+    "translate": "collapsible_groups.group.powah_ender_cells",
+    "fallback": "Powah: Ender Cells"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "powah" },
+      { "item_path_starts_with": "ender_cell_" }
+    ]
+  }
+}

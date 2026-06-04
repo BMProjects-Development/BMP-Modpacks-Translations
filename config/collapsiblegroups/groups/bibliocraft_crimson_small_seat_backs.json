@@ -1,0 +1,14 @@
+{
+  "id": "bibliocraft_crimson_small_seat_backs",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_crimson_small_seat_backs",
+    "fallback": "BiblioCraft: Crimson Small Seat Backs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "bibliocraft" },
+      { "item_path_ends_with": "_crimson_small_seat_back" }
+    ]
+  }
+}

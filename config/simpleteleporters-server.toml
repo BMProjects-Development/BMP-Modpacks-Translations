@@ -1,0 +1,4 @@
+#Server settings
+[server]
+	#Allow Ender Shards to bind to Sable SubLevels (Create: Aeronautics airships). Has no effect when Sable is not installed. [Default: true]
+	enableSableIntegration = true

@@ -21,9 +21,11 @@ ServerEvents.recipes((event) => {
     })
     .id("ftb:cutting/black_dye");
 
-  //Readding Dough Recipe
+  //Readding Dough Recipe - water bucket is kept
   event.shapeless(Item.of("farmersdelight:wheat_dough", 1),
-    ["#c:crops/wheat", "#c:buckets/water"]).id("ftb:farmers_delight/shapeless/wheat_dough_from_water");
+    ["#c:crops/wheat", "#c:buckets/water"])
+    .replaceIngredient("minecraft:water_bucket", "minecraft:bucket")
+    .id("ftb:farmers_delight/shapeless/wheat_dough_from_water");
 
 
 });

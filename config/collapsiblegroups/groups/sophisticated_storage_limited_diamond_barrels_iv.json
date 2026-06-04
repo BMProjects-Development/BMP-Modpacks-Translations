@@ -1,0 +1,12 @@
+{
+  "id": "sophisticated_storage_limited_diamond_barrels_iv",
+  "name": {
+    "translate": "collapsible_groups.group.sophisticated_storage_limited_diamond_barrels_iv",
+    "fallback": "Sophisticated Storage: Limited Diamond Barrels IV"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "sophisticatedstorage:limited_diamond_barrel_4"
+  }
+}

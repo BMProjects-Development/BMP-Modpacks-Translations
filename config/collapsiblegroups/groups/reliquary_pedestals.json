@@ -1,0 +1,24 @@
+{
+  "id": "reliquary_pedestals",
+  "name": {
+    "translate": "collapsible_groups.group.reliquary_pedestals",
+    "fallback": "Reliquary: Pedestals"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "reliquary"
+      },
+      {
+        "item_path_starts_with": "pedestals/"
+      },
+      {
+        "not": {
+          "item_path_starts_with": "pedestals/passive/"
+        }
+      }
+    ]
+  }
+}

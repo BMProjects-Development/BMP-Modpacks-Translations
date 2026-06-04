@@ -1,13 +1,11 @@
 {
   "id": 130,
   "name": "FTB StoneBlock 4",
-  "uid": "01K867DH8KMKN0S0FFTS2F19GD",
   "slug": "ftb-stoneblock-4",
   "type": "release",
   "version": {
-    "id": 100158,
-    "uid": "01KBN1TH3Z6FSTH9EDV8V8WWZC",
-    "name": "1.3.0",
+    "id": 100344,
+    "name": "1.14.2",
     "type": "release"
   }
 }

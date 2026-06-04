@@ -3,8 +3,14 @@
     "constraints": {
         "biomes": [
             "ftb:nether",
+            "ftb:lower/nether",
+            "ftb:upper/nether",
             "ftb:eternal_stone",
-            "ftb:void_chasms"
+            "ftb:lower/eternal_stone",
+            "ftb:upper/eternal_stone",
+            "ftb:void_chasms",
+            "ftb:lower/void_chasms",
+            "ftb:upper/void_chasms"
         ]
     },
     "min_purity": "flawed",

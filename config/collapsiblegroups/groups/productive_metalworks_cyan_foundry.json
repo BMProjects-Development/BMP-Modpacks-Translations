@@ -1,0 +1,19 @@
+{
+  "id": "productive_metalworks_cyan_foundry",
+  "name": {
+    "translate": "collapsible_groups.group.productive_metalworks_cyan_foundry",
+    "fallback": "Productive Metalworks: Cyan Foundry"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "productivemetalworks"
+      },
+      {
+        "item_path_starts_with": "cyan_"
+      }
+    ]
+  }
+}

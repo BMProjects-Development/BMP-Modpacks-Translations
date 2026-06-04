@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_lair_stain",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_lair_stain",
+    "fallback": "Better Blockz: Lair Stain"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "lairstain_"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ceramic_bucket_ceramic_buckets",
+  "name": {
+    "translate": "collapsible_groups.group.ceramic_bucket_ceramic_buckets",
+    "fallback": "Ceramic Bucket: Buckets"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "ceramicbucket:ceramic_bucket"
+  }
+}

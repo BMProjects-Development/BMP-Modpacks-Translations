@@ -1,0 +1,14 @@
+{
+  "id": "iron_furnaces_tier_upgrades",
+  "name": {
+    "translate": "collapsible_groups.group.iron_furnaces_tier_upgrades",
+    "fallback": "Iron Furnaces: Tier Upgrades"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "ironfurnaces" },
+      { "item_path_starts_with": "upgrade_" }
+    ]
+  }
+}

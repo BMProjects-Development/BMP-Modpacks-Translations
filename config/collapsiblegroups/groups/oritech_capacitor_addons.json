@@ -1,0 +1,19 @@
+{
+  "id": "oritech_capacitor_addons",
+  "name": {
+    "translate": "collapsible_groups.group.oritech_capacitor_addons",
+    "fallback": "Oritech: Capacitor Addons"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "any": [
+          { "type": "item", "namespace": "oritech" },
+          { "type": "item", "namespace": "oritechthings" }
+        ]
+      },
+      { "item_path_contains": "capacitor" }
+    ]
+  }
+}

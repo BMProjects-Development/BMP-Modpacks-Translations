@@ -1,0 +1,116 @@
+{
+  "id": "geore_s_large_buds",
+  "name": {
+    "translate": "collapsible_groups.group.geore_s_large_buds",
+    "fallback": "GeOre\u0027s Large Buds"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_coal_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_copper_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_diamond_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_emerald_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_gold_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_iron_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_lapis_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_quartz_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_redstone_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_ancient_debris_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_ruby_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_sapphire_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_topaz_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_zinc_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_uraninite_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_black_quartz_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_monazite_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_aluminum_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_lead_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_nickel_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_osmium_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_platinum_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_silver_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_tin_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_tungsten_bud\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:large_uranium_bud\"}"
+      }
+    ]
+  }
+}

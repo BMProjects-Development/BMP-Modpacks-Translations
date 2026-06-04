@@ -13,7 +13,6 @@ ServerEvents.recipes((event) => {
     addRecipeProductiveMetalworksBlockCastingRecipe(
       event,
       "ftb:tesseract",
-      true,
       "c:molten_ender",
       900,
       "tesseract:tesseract",

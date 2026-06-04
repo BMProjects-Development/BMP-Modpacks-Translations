@@ -1,0 +1,19 @@
+{
+  "id": "tropicraft_chairs",
+  "name": {
+    "translate": "collapsible_groups.group.tropicraft_chairs",
+    "fallback": "Tropicraft: Chairs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "tropicraft"
+      },
+      {
+        "item_path_ends_with": "chair"
+      }
+    ]
+  }
+}

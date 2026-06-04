@@ -577,19 +577,13 @@ ServerEvents.recipes((event) => {
     if (matter.nether)
       matterTypes.push({ type: "replication:nether", amount: matter.nether });
     if (matter.metallic)
-      matterTypes.push({
-        type: "replication:metallic",
-        amount: matter.metallic,
-      });
+      matterTypes.push({ type: "replication:metallic", amount: matter.metallic });
     if (matter.earth)
       matterTypes.push({ type: "replication:earth", amount: matter.earth });
     if (matter.ender)
       matterTypes.push({ type: "replication:ender", amount: matter.ender });
     if (matter.precious)
-      matterTypes.push({
-        type: "replication:precious",
-        amount: matter.precious,
-      });
+      matterTypes.push({ type: "replication:precious", amount: matter.precious });
     if (matter.quantum)
       matterTypes.push({ type: "replication:quantum", amount: matter.quantum });
     if (matter.living)

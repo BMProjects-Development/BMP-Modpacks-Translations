@@ -1,0 +1,14 @@
+{
+  "id": "bibliocraft_warped_seats",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_warped_seats",
+    "fallback": "BiblioCraft: Warped Seats"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "bibliocraft" },
+      { "item_path_ends_with": "_warped_seat" }
+    ]
+  }
+}

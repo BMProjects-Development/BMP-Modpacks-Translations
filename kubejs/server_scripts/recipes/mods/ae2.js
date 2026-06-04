@@ -137,4 +137,25 @@ ServerEvents.recipes((event) => {
   // Register all reactions
   reactions.forEach(addReaction);
 
+  //Entro Dust with Create
+  event.custom({
+    type: "create:milling",
+    ingredients: [
+      {
+        type: "neoforge:compound",
+        ingredients: [
+          {
+            item: "extendedae:entro_crystal"
+          }
+        ]
+      }
+    ],
+    processing_time: 200,
+    results: [
+      {
+        id: "extendedae:entro_dust"
+      }
+    ]
+  }).id("ftb:create/milling/compat/extendedae/entro_dust");
+
 });

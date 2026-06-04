@@ -1,0 +1,14 @@
+{
+  "id": "bibliocraft_warped_display_cases",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_warped_display_cases",
+    "fallback": "BiblioCraft: Warped Display Cases"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "bibliocraft" },
+      { "item_path_ends_with": "_warped_display_case" }
+    ]
+  }
+}

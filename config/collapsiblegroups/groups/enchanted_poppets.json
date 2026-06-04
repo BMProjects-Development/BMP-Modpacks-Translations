@@ -1,0 +1,19 @@
+{
+  "id": "enchanted_poppets",
+  "name": {
+    "translate": "collapsible_groups.group.enchanted_poppets",
+    "fallback": "Enchanted: Poppets"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "enchanted"
+      },
+      {
+        "item_path_ends_with": "poppet"
+      }
+    ]
+  }
+}

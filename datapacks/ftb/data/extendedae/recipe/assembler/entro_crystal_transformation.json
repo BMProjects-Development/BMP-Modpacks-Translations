@@ -1,0 +1,27 @@
+{
+  "type": "extendedae:crystal_assembler",
+  "input_fluid": {
+    "amount": 100,
+    "ingredient": {
+      "fluid": "minecraft:water"
+    }
+  },
+  "input_items": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "tag": "c:dusts/entro"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "ae2:fluix_crystal"
+      }
+    }
+  ],
+  "output": {
+    "count": 4,
+    "id": "extendedae:entro_crystal"
+  }
+}

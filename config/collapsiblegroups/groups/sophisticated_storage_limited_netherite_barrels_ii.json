@@ -1,0 +1,12 @@
+{
+  "id": "sophisticated_storage_limited_netherite_barrels_ii",
+  "name": {
+    "translate": "collapsible_groups.group.sophisticated_storage_limited_netherite_barrels_ii",
+    "fallback": "Sophisticated Storage: Limited Netherite Barrels II"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "sophisticatedstorage:limited_netherite_barrel_2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "mystical_agriculture_prudentium_gear",
+  "name": {
+    "translate": "collapsible_groups.group.mystical_agriculture_prudentium_gear",
+    "fallback": "Mystical Agriculture: Prudentium Gear"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "item_path_starts_with": "prudentium"
+      },
+      {
+        "any": [
+          {
+            "type": "item",
+            "tag": "c:tools"
+          },
+          {
+            "type": "item",
+            "tag": "c:armors"
+          }
+        ]
+      }
+    ]
+  }
+}

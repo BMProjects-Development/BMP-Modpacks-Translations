@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_zeno_white",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_zeno_white",
+    "fallback": "Better Blockz: Zeno White"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "zeno_white_"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "supplementaries_buntings",
+  "name": {
+    "translate": "collapsible_groups.group.supplementaries_buntings",
+    "fallback": "Supplementaries: Buntings"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "supplementaries"
+      },
+      {
+        "item_path_starts_with": "bunting_"
+      }
+    ]
+  }
+}

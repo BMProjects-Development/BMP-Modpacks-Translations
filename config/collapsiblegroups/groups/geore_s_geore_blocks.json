@@ -1,0 +1,116 @@
+{
+  "id": "geore_s_geore_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.geore_s_geore_blocks",
+    "fallback": "GeOre\u0027s GeOre Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:coal_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:copper_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:diamond_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:emerald_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:gold_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:iron_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:lapis_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:quartz_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:redstone_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:ancient_debris_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:ruby_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:sapphire_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:topaz_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:zinc_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:uraninite_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:black_quartz_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:monazite_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:aluminum_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:lead_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:nickel_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:osmium_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:platinum_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:silver_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:tin_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:tungsten_block\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:uranium_block\"}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_vena",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_vena",
+    "fallback": "Better Blockz: Vena"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "vena_"
+      }
+    ]
+  }
+}

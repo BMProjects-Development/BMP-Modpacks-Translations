@@ -1,0 +1,32 @@
+{
+  "id": "metal_buckets",
+  "name": {
+    "translate": "collapsible_groups.group.metal_buckets",
+    "fallback": "Metal Buckets"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "not": {
+          "item_path_ends_with": "ceramic_bucket"
+        }
+      },
+      {
+        "not": {
+          "item_path_ends_with": "wooden_bucket"
+        }
+      },
+      {
+        "any": [
+          {
+            "item_path_starts_with": "bucket_"
+          },
+          {
+            "item_path_ends_with": "_bucket"
+          }
+        ]
+      }
+    ]
+  }
+}

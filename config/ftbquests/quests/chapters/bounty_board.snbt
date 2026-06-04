@@ -49,12 +49,6 @@
 			shape: "square"
 			tasks: [
 				{
-					id: "5C3A03650166A961"
-					optional_task: true
-					structure: "ftb:water_orb"
-					type: "structure"
-				}
-				{
 					id: "6DC46AB9CA4D40C2"
 					item: { components: { "gateways:gateway": "gateways:coralssus" }, count: 1, id: "gateways:gate_pearl" }
 					match_components: "strict"
@@ -72,6 +66,18 @@
 					id: "79B58E484D4196CD"
 					type: "kill"
 					value: 1L
+				}
+				{
+					id: "5C3A03650166A961"
+					optional_task: true
+					structure: "ftb:water_orb"
+					type: "structure"
+				}
+				{
+					id: "3D617DDAF51C2FA1"
+					optional_task: true
+					structure: "ftb:water_orb_eternal"
+					type: "structure"
 				}
 			]
 			x: 0.0d
@@ -93,12 +99,6 @@
 			shape: "square"
 			tasks: [
 				{
-					id: "27B5B3E2F6360E5F"
-					optional_task: true
-					structure: "cataclysm:soul_black_smith"
-					type: "structure"
-				}
-				{
 					entity: "cataclysm:netherite_monstrosity"
 					icon: {
 						id: "cataclysm:monstrous_eye"
@@ -106,6 +106,18 @@
 					id: "0C13FA83021AE4C5"
 					type: "kill"
 					value: 1L
+				}
+				{
+					id: "27B5B3E2F6360E5F"
+					optional_task: true
+					structure: "cataclysm:soul_black_smith"
+					type: "structure"
+				}
+				{
+					id: "4B256EBE152B6261"
+					optional_task: true
+					structure: "cataclysm:soul_black_smith_eternal"
+					type: "structure"
 				}
 			]
 			x: -2.0d
@@ -128,12 +140,6 @@
 			shape: "square"
 			tasks: [
 				{
-					id: "7D9038B9019EBFEC"
-					optional_task: true
-					structure: "cataclysm:ruined_citadel"
-					type: "structure"
-				}
-				{
 					entity: "cataclysm:ender_guardian"
 					icon: {
 						id: "cataclysm:void_core"
@@ -141,6 +147,18 @@
 					id: "5B82C7AEA857BED3"
 					type: "kill"
 					value: 1L
+				}
+				{
+					id: "7D9038B9019EBFEC"
+					optional_task: true
+					structure: "cataclysm:ruined_citadel"
+					type: "structure"
+				}
+				{
+					id: "474B09AC100A59FB"
+					optional_task: true
+					structure: "cataclysm:ruined_citadel_eternal"
+					type: "structure"
 				}
 			]
 			x: 1.0d
@@ -163,12 +181,6 @@
 			shape: "square"
 			tasks: [
 				{
-					id: "226AB3512612624B"
-					optional_task: true
-					structure: "cataclysm:ancient_factory"
-					type: "structure"
-				}
-				{
 					entity: "cataclysm:the_harbinger"
 					icon: {
 						id: "cataclysm:mech_eye"
@@ -176,6 +188,18 @@
 					id: "0707B05028ADBA69"
 					type: "kill"
 					value: 1L
+				}
+				{
+					id: "226AB3512612624B"
+					optional_task: true
+					structure: "cataclysm:ancient_factory"
+					type: "structure"
+				}
+				{
+					id: "0647F8ED8C55C605"
+					optional_task: true
+					structure: "cataclysm:ancient_factory_eternal"
+					type: "structure"
 				}
 			]
 			x: 2.0d
@@ -198,12 +222,6 @@
 			shape: "square"
 			tasks: [
 				{
-					id: "2C540B93320B1588"
-					optional_task: true
-					structure: "ftb:dungeons/otherworld"
-					type: "structure"
-				}
-				{
 					entity: "cataclysm:ancient_remnant"
 					icon: {
 						components: {
@@ -214,6 +232,18 @@
 					id: "55E36C96A2424F59"
 					type: "kill"
 					value: 1L
+				}
+				{
+					id: "2C540B93320B1588"
+					optional_task: true
+					structure: "ftb:dungeons/otherworld"
+					type: "structure"
+				}
+				{
+					id: "214677DD1091588A"
+					optional_task: true
+					structure: "ftb:dungeons/otherworld_eternal"
+					type: "structure"
 				}
 			]
 			x: -1.0d
@@ -511,18 +541,32 @@
 			}]
 			shape: "square"
 			size: 2.0d
-			tasks: [{
-				entity: "minecraft:warden"
-				icon: {
-					components: {
-						"hostilenetworks:data_model": "hostilenetworks:warden"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					icon: {
+						components: {
+							"hostilenetworks:data_model": "hostilenetworks:warden"
+						}
+						id: "hostilenetworks:data_model"
 					}
-					id: "hostilenetworks:data_model"
+					id: "61C0F35123FBB85E"
+					type: "kill"
+					value: 1L
 				}
-				id: "61C0F35123FBB85E"
-				type: "kill"
-				value: 1L
-			}]
+				{
+					id: "7AE348E0063D8825"
+					optional_task: true
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+				{
+					id: "31B5763651B5DF6C"
+					optional_task: true
+					structure: "minecraft:ancient_city_eternal"
+					type: "structure"
+				}
+			]
 			x: -2.5d
 			y: 0.5d
 		}
@@ -611,15 +655,23 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				entity: "irons_spellbooks:archevoker"
-				icon: {
-					id: "irons_spellbooks:archevoker_helmet"
+			tasks: [
+				{
+					entity: "irons_spellbooks:archevoker"
+					icon: {
+						id: "irons_spellbooks:archevoker_helmet"
+					}
+					id: "58DC7CD2A4F595DD"
+					type: "kill"
+					value: 1L
 				}
-				id: "58DC7CD2A4F595DD"
-				type: "kill"
-				value: 1L
-			}]
+				{
+					id: "2635B543038F8843"
+					item: { components: { "gateways:gateway": "gateways:iron_spells/holyhostage_situation" }, count: 1, id: "gateways:gate_pearl" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 4.5d
 		}
@@ -639,13 +691,6 @@
 			shape: "square"
 			tasks: [
 				{
-					id: "49C0CBB8FFE8E6BE"
-					item: { components: { "gateways:gateway": "gateways:iron_spells/apothehostage_situation" }, count: 1, id: "gateways:gate_pearl" }
-					match_components: "strict"
-					optional_task: true
-					type: "item"
-				}
-				{
 					entity: "irons_spellbooks:apothecarist"
 					icon: {
 						id: "irons_spellbooks:cultist_helmet"
@@ -653,6 +698,13 @@
 					id: "6064031AABA0D8D1"
 					type: "kill"
 					value: 1L
+				}
+				{
+					id: "49C0CBB8FFE8E6BE"
+					item: { components: { "gateways:gateway": "gateways:iron_spells/apothehostage_situation" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					optional_task: true
+					type: "item"
 				}
 			]
 			x: 4.5d
@@ -677,13 +729,6 @@
 			shape: "square"
 			tasks: [
 				{
-					id: "2CA8E43529521390"
-					item: { components: { "gateways:gateway": "gateways:iron_spells/simple_cryomage" }, count: 1, id: "gateways:gate_pearl" }
-					match_components: "strict"
-					optional_task: true
-					type: "item"
-				}
-				{
 					entity: "irons_spellbooks:cryomancer"
 					icon: {
 						id: "irons_spellbooks:cryomancer_helmet"
@@ -691,6 +736,13 @@
 					id: "671339615BA68B10"
 					type: "kill"
 					value: 1L
+				}
+				{
+					id: "2CA8E43529521390"
+					item: { components: { "gateways:gateway": "gateways:iron_spells/simple_cryomage" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					optional_task: true
+					type: "item"
 				}
 			]
 			x: -4.0d
@@ -715,13 +767,6 @@
 			shape: "square"
 			tasks: [
 				{
-					id: "08BD3F5E675ECC9F"
-					item: { components: { "gateways:gateway": "gateways:iron_spells/pyrohostage_situation" }, count: 1, id: "gateways:gate_pearl" }
-					match_components: "strict"
-					optional_task: true
-					type: "item"
-				}
-				{
 					entity: "irons_spellbooks:pyromancer"
 					icon: {
 						id: "irons_spellbooks:pyromancer_helmet"
@@ -729,6 +774,13 @@
 					id: "327D6E2AE8863BC1"
 					type: "kill"
 					value: 1L
+				}
+				{
+					id: "08BD3F5E675ECC9F"
+					item: { components: { "gateways:gateway": "gateways:iron_spells/pyrohostage_situation" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					optional_task: true
+					type: "item"
 				}
 			]
 			x: 3.5d
@@ -750,13 +802,6 @@
 			shape: "square"
 			tasks: [
 				{
-					id: "243AF6365F5682FA"
-					item: { components: { "gateways:gateway": "gateways:iron_spells/holyhostage_situation" }, count: 1, id: "gateways:gate_pearl" }
-					match_components: "strict"
-					optional_task: true
-					type: "item"
-				}
-				{
 					entity: "irons_spellbooks:priest"
 					icon: {
 						id: "irons_spellbooks:priest_helmet"
@@ -764,6 +809,13 @@
 					id: "7AC3BD79A70049CA"
 					type: "kill"
 					value: 1L
+				}
+				{
+					id: "243AF6365F5682FA"
+					item: { components: { "gateways:gateway": "gateways:iron_spells/holyhostage_situation" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					optional_task: true
+					type: "item"
 				}
 			]
 			x: 3.5d
@@ -786,23 +838,37 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				entity: "irons_spellbooks:dead_king"
-				icon: {
-					components: {
-						"irons_spellbooks:spell_container": {
-							data: [ ]
-							maxSpells: 1
-							mustEquip: 1b
-							spellWheel: 1b
+			tasks: [
+				{
+					entity: "irons_spellbooks:dead_king"
+					icon: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
 						}
+						id: "irons_spellbooks:tarnished_helmet"
 					}
-					id: "irons_spellbooks:tarnished_helmet"
+					id: "5FD1AC346811740C"
+					type: "kill"
+					value: 1L
 				}
-				id: "5FD1AC346811740C"
-				type: "kill"
-				value: 1L
-			}]
+				{
+					id: "4A6C86454260C4D0"
+					optional_task: true
+					structure: "irons_spellbooks:catacombs"
+					type: "structure"
+				}
+				{
+					id: "4ADEDCDAADDC786F"
+					optional_task: true
+					structure: "irons_spellbooks:catacombs_eternal"
+					type: "structure"
+				}
+			]
 			x: -4.0d
 			y: 5.5d
 		}
@@ -833,7 +899,7 @@
 				}
 				id: "1B724AA2EDADE92A"
 				type: "kill"
-				value: 5L
+				value: 1L
 			}]
 			x: 4.5d
 			y: 5.5d
@@ -890,15 +956,6 @@
 			shape: "square"
 			tasks: [
 				{
-					icon: {
-						id: "minecraft:map"
-					}
-					id: "6B957BA447FEB4F1"
-					optional_task: true
-					structure: "irons_spellbooks:citadel"
-					type: "structure"
-				}
-				{
 					id: "7D7D46E78BC729BC"
 					item: { count: 1, id: "irons_spellbooks:cinderous_soulcaller" }
 					type: "item"
@@ -914,6 +971,21 @@
 					id: "2FB8AB5ADB1F8D26"
 					type: "kill"
 					value: 1L
+				}
+				{
+					icon: {
+						id: "minecraft:map"
+					}
+					id: "6B957BA447FEB4F1"
+					optional_task: true
+					structure: "irons_spellbooks:citadel"
+					type: "structure"
+				}
+				{
+					id: "7C8E8C85E16BE825"
+					optional_task: true
+					structure: "irons_spellbooks:citadel_eternal"
+					type: "structure"
 				}
 			]
 			x: -5.0d
@@ -970,6 +1042,12 @@
 					item: { count: 1, id: "chicken_roost:chicken_stick" }
 					optional_task: true
 					type: "item"
+				}
+				{
+					id: "0093A70F346C84F5"
+					optional_task: true
+					structure: "ftb:vaults/chicken_jockey"
+					type: "structure"
 				}
 			]
 			x: 0.0d
@@ -1197,13 +1275,9 @@
 			}]
 			shape: "octagon"
 			tasks: [{
-				entity: "ars_nouveau:wilden_boss"
-				icon: {
-					id: "ars_nouveau:wilden_tribute"
-				}
-				id: "5A060A616C635858"
-				type: "kill"
-				value: 1L
+				id: "623FE2CE704DC5E3"
+				item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+				type: "item"
 			}]
 			x: 1.0d
 			y: 8.0d
@@ -1228,6 +1302,7 @@
 			shape: "octagon"
 			tasks: [{
 				consume_items: true
+				count: 8L
 				id: "7C1F2A2265294758"
 				item: { count: 1, id: "cataclysm:ignitium_block" }
 				type: "item"
@@ -1311,7 +1386,7 @@
 			shape: "octagon"
 			tasks: [{
 				consume_items: true
-				count: 128L
+				count: 32L
 				id: "771EAFC968D92A8E"
 				item: { count: 1, id: "ftb:world_engine_advanced_machine_block" }
 				type: "item"
@@ -1339,26 +1414,31 @@
 			shape: "octagon"
 			tasks: [
 				{
+					consume_items: true
 					id: "5C58FCAA65555D7A"
 					item: { count: 1, id: "twilightforest:lich_trophy" }
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "29A35F172DCBAD55"
 					item: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "5083062DFD3E1FBD"
 					item: { count: 1, id: "twilightforest:hydra_trophy" }
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "2292C61E211C6782"
 					item: { count: 1, id: "twilightforest:snow_queen_trophy" }
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "7BE7AF5424690962"
 					item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
 					type: "item"
@@ -1618,12 +1698,26 @@
 			}]
 			shape: "square"
 			size: 1.5d
-			tasks: [{
-				consume_items: true
-				id: "03621C876D19389C"
-				item: { count: 1, id: "fdbosses:chesed_trophy" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "03621C876D19389C"
+					item: { count: 1, id: "fdbosses:chesed_trophy" }
+					type: "item"
+				}
+				{
+					id: "7DD668725E39BBE7"
+					optional_task: true
+					structure: "fdbosses:chesed_arena"
+					type: "structure"
+				}
+				{
+					id: "23247C056BF08A06"
+					optional_task: true
+					structure: "fdbosses:chesed_arena_eternal"
+					type: "structure"
+				}
+			]
 			x: -4.5d
 			y: 3.0d
 		}

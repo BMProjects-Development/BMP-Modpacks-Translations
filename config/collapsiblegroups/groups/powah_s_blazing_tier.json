@@ -1,0 +1,60 @@
+{
+  "id": "powah_s_blazing_tier",
+  "name": {
+    "translate": "collapsible_groups.group.powah_s_blazing_tier",
+    "fallback": "Powah\u0027s Blazing Tier"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:battery_blazing\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energy_cell_blazing\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:ender_cell_blazing\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energy_cable_blazing\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:ender_gate_blazing\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energizing_rod_blazing\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:magmator_blazing\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:thermo_generator_blazing\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:player_transmitter_blazing\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energy_hopper_blazing\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energy_discharger_blazing\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:reactor_blazing\"}"
+      }
+    ]
+  }
+}

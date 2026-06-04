@@ -1,0 +1,14 @@
+{
+  "id": "bibliocraft_birch_seats",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_birch_seats",
+    "fallback": "BiblioCraft: Birch Seats"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "bibliocraft" },
+      { "item_path_ends_with": "_birch_seat" }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "bibliocraft_acacia_tall_seat_backs",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_acacia_tall_seat_backs",
+    "fallback": "BiblioCraft: Acacia Tall Seat Backs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "bibliocraft" },
+      { "item_path_ends_with": "_acacia_tall_seat_back" }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "create_scoria_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.create_scoria_blocks",
+    "fallback": "Create: Scoria Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "any": [
+          {
+            "type": "item",
+            "namespace": "create"
+          },
+          {
+            "type": "item",
+            "namespace": "create_chipped"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "item_path_starts_with": "scoria"
+          },
+          {
+            "item_path_starts_with": "cut_scoria"
+          },
+          {
+            "item_path_starts_with": "polished_cut_scoria"
+          },
+          {
+            "item_path_starts_with": "small_scoria"
+          },
+          {
+            "item_path_starts_with": "layered_scoria"
+          }
+        ]
+      }
+    ]
+  }
+}

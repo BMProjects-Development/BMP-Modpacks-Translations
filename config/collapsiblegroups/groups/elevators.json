@@ -1,0 +1,12 @@
+{
+  "id": "elevators",
+  "name": {
+    "translate": "collapsible_groups.group.elevators",
+    "fallback": "Elevators"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "namespace": "elevatorid"
+  }
+}

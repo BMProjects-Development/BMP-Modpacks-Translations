@@ -1,0 +1,22 @@
+{
+  "id": "occultism_impure_chalks",
+  "name": {
+    "translate": "collapsible_groups.group.occultism_impure_chalks",
+    "fallback": "Occultism: Impure Chalks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "occultism"
+      },
+      {
+        "item_path_starts_with": "chalk_"
+      },
+      {
+        "item_path_ends_with": "_impure"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "supplementaries_one_way_signs",
+  "name": {
+    "translate": "collapsible_groups.group.supplementaries_one_way_signs",
+    "fallback": "Supplementaries: One Way Signs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "supplementaries"
+      },
+      {
+        "item_path_starts_with": "way_sign_"
+      }
+    ]
+  }
+}

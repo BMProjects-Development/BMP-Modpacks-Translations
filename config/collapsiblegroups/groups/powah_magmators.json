@@ -1,0 +1,14 @@
+{
+  "id": "powah_magmators",
+  "name": {
+    "translate": "collapsible_groups.group.powah_magmators",
+    "fallback": "Powah: Magmators"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "powah" },
+      { "item_path_starts_with": "magmator_" }
+    ]
+  }
+}

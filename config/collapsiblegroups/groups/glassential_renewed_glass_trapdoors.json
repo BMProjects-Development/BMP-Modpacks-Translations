@@ -1,0 +1,19 @@
+{
+  "id": "glassential_renewed_glass_trapdoors",
+  "name": {
+    "translate": "collapsible_groups.group.glassential_renewed_glass_trapdoors",
+    "fallback": "Glassential Renewed: Glass Trapdoors"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "item_path_ends_with": "glass_trapdoor"
+      },
+      {
+        "type": "item",
+        "namespace": "glassential"
+      }
+    ]
+  }
+}

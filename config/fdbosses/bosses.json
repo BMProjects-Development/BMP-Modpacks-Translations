@@ -43,7 +43,18 @@
     "_comment_lightningStrikeShockDuration": "Time in ticks",
     "lightningStrikeShockDuration": 200,
     "playerMalkuthFireballToolDamagePercent": 200.0,
-    "playerMalkuthFireballAbilityCooldown": 200
+    "playerMalkuthFireballAbilityCooldown": 200,
+    "justiceCoreDamageReduction": 15,
+    "phaseSphereUseDuration": 200,
+    "phaseSphereCooldown": 100,
+    "iceFireGauntletCooldown": 60,
+    "iceFireGauntletCrushDamage": 15,
+    "divineGearAttackCooldown": 60,
+    "divineGearDamage": 25,
+    "divineGearLifetime": 500,
+    "divineGearCharges": 3,
+    "divineGearChargeReplenishTime": 500,
+    "divineGearAttackRadius": 25.0
   },
   "malkuthConfig": {
     "slashAttackDamage": 20.0,
@@ -63,5 +74,16 @@
     "chainpunchCooldown": 150
   },
   "_comment_bossesDespawn": "Should bosses despawn if no target is found",
-  "bossesDespawn": false
+  "bossesDespawn": false,
+  "geburahConfig": {
+    "coreRayStrikeDamage": 40.0,
+    "rotatingLaserAttackDamage": 25.0,
+    "predictiveLaserAttackDamage": 40.0,
+    "justiceHammerDamage": 40.0,
+    "judgementBirdDamage": 15.0,
+    "earthquakeDamage": 40.0,
+    "cannonProjectileDamage": 30.0,
+    "ultimateMoveHealthPercentage": 50.0,
+    "maxPlayerSins": 5
+  }
 }

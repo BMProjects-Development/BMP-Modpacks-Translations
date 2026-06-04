@@ -1,0 +1,11 @@
+{
+  "id": "create_veridium_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.create_veridium_blocks",
+    "fallback": "Create: Veridium Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "item_path_contains": "veridium"
+  }
+}

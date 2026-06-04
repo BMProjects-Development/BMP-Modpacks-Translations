@@ -990,7 +990,7 @@
 				}
 				{
 					id: "1DAFBE54867302AA"
-					item: { components: { "chicken_roost:chickenlevel": 0, "chicken_roost:chickenxp": 0 }, count: 1, id: "chicken_roost:c_vanilla" }
+					item: { count: 1, id: "chicken_roost:c_vanilla" }
 					type: "item"
 				}
 			]

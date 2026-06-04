@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - create:shadow_steel_casing
 ---
-# Create Shadow Casing Upgrade
+# <Color id="green">Create Shadow Casing Upgrade</Color>
 
 <ItemImage id="create:shadow_steel_casing" scale="3" />
 
@@ -15,7 +15,7 @@ The <Color id="green">Shadow Casing</Color> minor upgrade shows your basic knowl
 
 This upgrade unlocks several advanced <Color id="gold">Create</Color> machines, as well as some helpful <Color id="gold">ProjectE</Color> machines.
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="createaddition:electric_motor" />

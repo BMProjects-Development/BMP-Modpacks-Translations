@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_luxe_copper",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_luxe_copper",
+    "fallback": "Better Blockz: Luxe Copper"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "copper_"
+      }
+    ]
+  }
+}

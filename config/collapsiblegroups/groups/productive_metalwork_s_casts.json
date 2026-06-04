@@ -1,0 +1,172 @@
+{
+  "id": "productive_metalwork_s_casts",
+  "name": {
+    "translate": "collapsible_groups.group.productive_metalwork_s_casts",
+    "fallback": "Productive Metalwork\u0027s Casts"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"productivemetalworks:ingot_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"productivemetalworks:nugget_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"productivemetalworks:gem_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"productivemetalworks:gear_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"productivemetalworks:rod_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"productivemetalworks:plate_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:sword_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:katana_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:machete_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:spear_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:trident_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:knife_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:dagger_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:pickaxe_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:shovel_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:axe_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:paxel_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:hammer_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:excavator_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:hoe_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:mattock_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:prospector_hammer_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:saw_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:sickle_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:shears_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:fishing_rod_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:bow_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:crossbow_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:slingshot_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:arrow_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:ring_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:bracelet_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:necklace_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:helmet_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:chestplate_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:leggings_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:boots_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:shield_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:tool_rod_cast\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"sgearmetalworks:tip_cast\"}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "open_block_trophies",
+  "name": {
+    "translate": "collapsible_groups.group.open_block_trophies",
+    "fallback": "OpenBlocks Trophies: Trophies"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "obtrophies:trophy"
+  }
+}

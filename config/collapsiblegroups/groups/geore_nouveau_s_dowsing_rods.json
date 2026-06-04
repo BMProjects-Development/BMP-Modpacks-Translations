@@ -1,0 +1,116 @@
+{
+  "id": "geore_nouveau_s_dowsing_rods",
+  "name": {
+    "translate": "collapsible_groups.group.geore_nouveau_s_dowsing_rods",
+    "fallback": "GeOre Nouveau\u0027s Dowsing Rods"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:coal_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:copper_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:diamond_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:emerald_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:gold_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:iron_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:lapis_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:uranium_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:tungsten_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:tin_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:silver_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:platinum_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:osmium_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:nickel_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:lead_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:aluminum_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:monazite_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:black_quartz_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:uraninite_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:zinc_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:topaz_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:sapphire_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:ruby_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:ancient_debris_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:redstone_geore_dowsing_rod\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"georenouveau:quartz_geore_dowsing_rod\"}"
+      }
+    ]
+  }
+}

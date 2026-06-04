@@ -12,7 +12,7 @@
   },
   "fluidOutputs": [
     {
-      "amount": 64000,
+      "amount": 8000,
       "fluid": "mekanism:steam"
     },
     {

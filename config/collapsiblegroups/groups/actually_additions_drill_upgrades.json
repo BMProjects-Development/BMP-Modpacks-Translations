@@ -1,0 +1,14 @@
+{
+  "id": "actually_additions_drill_upgrades",
+  "name": {
+    "translate": "collapsible_groups.group.actually_additions_drill_upgrades",
+    "fallback": "Actually Additions: Drill Upgrades"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "actuallyadditions" },
+      { "item_path_starts_with": "drill_upgrade_" }
+    ]
+  }
+}

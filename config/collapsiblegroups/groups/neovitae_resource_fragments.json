@@ -1,0 +1,32 @@
+{
+  "id": "neovitae_resource_fragments",
+  "name": {
+    "translate": "collapsible_groups.group.neovitae_resource_fragments",
+    "fallback": "Neovitae: Resource Fragments"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "neovitae"
+      },
+      {
+        "any": [
+          {
+            "item_path_starts_with": "fragment"
+          },
+          {
+            "item_path_ends_with": "fragment"
+          }
+        ]
+      },
+      {
+        "not": {
+          "type": "item",
+          "id": "neovitae:cinder_heart_fragment"
+        }
+      }
+    ]
+  }
+}

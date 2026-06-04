@@ -1,0 +1,19 @@
+{
+  "id": "mekanism_plastic_stair_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.mekanism_plastic_stair_blocks",
+    "fallback": "Mekanism: Plastic Stairs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "mekanismadditions"
+      },
+      {
+        "item_path_ends_with": "_plastic_stairs"
+      }
+    ]
+  }
+}

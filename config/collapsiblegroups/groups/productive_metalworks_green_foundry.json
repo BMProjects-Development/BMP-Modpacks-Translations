@@ -1,0 +1,19 @@
+{
+  "id": "productive_metalworks_green_foundry",
+  "name": {
+    "translate": "collapsible_groups.group.productive_metalworks_green_foundry",
+    "fallback": "Productive Metalworks: Green Foundry"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "productivemetalworks"
+      },
+      {
+        "item_path_starts_with": "green_"
+      }
+    ]
+  }
+}

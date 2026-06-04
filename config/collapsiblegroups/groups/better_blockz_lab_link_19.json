@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_lab_link_19",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_lab_link_19",
+    "fallback": "Better Blockz: Lab Link 19"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "lablink_19_"
+      }
+    ]
+  }
+}

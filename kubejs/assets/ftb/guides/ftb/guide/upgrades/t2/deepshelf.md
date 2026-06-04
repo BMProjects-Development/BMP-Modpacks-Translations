@@ -8,7 +8,7 @@ item_ids:
   - apothic_enchanting:echoing_deepshelf
   - apothic_enchanting:deepshelf
 ---
-# Deepshelf Enchanting Upgrade
+# <Color id="green">Deepshelf Enchanting Upgrade</Color>
 
 <ItemImage id="apothic_enchanting:echoing_deepshelf" scale="3" />
 
@@ -18,7 +18,7 @@ This upgrade is great for those who use <Color id="gold">Ars Nouveau</Color> and
 
 This upgrade also allows you to craft several enchantments, as well as the <Color id="gold">Duality</Color> Iron's Jewelry recipes.
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="minecraft:enchanted_book" />
@@ -27,7 +27,7 @@ This upgrade also allows you to craft several enchantments, as well as the <Colo
   <ItemIcon id="irons_spellbooks:villager_spell_book" />
 </ItemGrid>
 
-## Craftable Enchantments
+## <Color id="gold">Craftable Enchantments</Color>
 
 - Scavenger III
 - Knowledge of the Ages III

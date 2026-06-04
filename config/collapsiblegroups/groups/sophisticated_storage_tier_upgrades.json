@@ -1,0 +1,14 @@
+{
+  "id": "sophisticated_storage_tier_upgrades",
+  "name": {
+    "translate": "collapsible_groups.group.sophisticated_storage_tier_upgrades",
+    "fallback": "Sophisticated Storage: Tier Upgrades"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "sophisticatedstorage" },
+      { "item_path_ends_with": "_tier_upgrade" }
+    ]
+  }
+}

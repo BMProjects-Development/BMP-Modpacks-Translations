@@ -1,0 +1,27 @@
+{
+  "id": "neovitae_anointments_ii",
+  "name": {
+    "translate": "collapsible_groups.group.neovitae_anointments_ii",
+    "fallback": "Neovitae: Anointments II"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "all": [
+          {
+            "type": "item",
+            "namespace": "neovitae"
+          },
+          {
+            "item_path_ends_with": "anointment_2"
+          }
+        ]
+      },
+      {
+        "type": "item",
+        "id": "neovitae:bow_power_anointment_strong"
+      }
+    ]
+  }
+}

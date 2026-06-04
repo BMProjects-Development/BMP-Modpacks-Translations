@@ -94,14 +94,6 @@ const crookRecipes = [
     ]
   },
   {
-    input: "ars_nouveau:green_archwood_leaves",
-    max: 1,
-    outputs: [
-      ["ars_nouveau:green_archwood_sapling", 1, 0.35],
-      ["ars_nouveau:mendosteen_pod", 1, 0.2]
-    ]
-  },
-  {
     input: "ars_nouveau:red_archwood_leaves",
     max: 1,
     outputs: [

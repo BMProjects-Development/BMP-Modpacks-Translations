@@ -1,0 +1,19 @@
+{
+  "id": "draconic_evolution_draconium_modules",
+  "name": {
+    "translate": "collapsible_groups.group.draconic_evolution_draconium_modules",
+    "fallback": "Draconic Evolution: Draconium Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "draconicevolution"
+      },
+      {
+        "item_path_starts_with": "item_draconium"
+      }
+    ]
+  }
+}

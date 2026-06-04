@@ -159,7 +159,13 @@
 					id: "39BF463108B50B5F"
 					ignore_reward_blocking: true
 					stage: "echo_enchanter_meet"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "6481042A43097894"
+					stage: "echo_enchanter_meet"
 					type: "gamestage"
 				}
 				{
@@ -179,7 +185,7 @@
 				ignore_dimension: false
 				position: [I;
 					20
-					-13
+					-15
 					24
 				]
 				size: [I;
@@ -213,7 +219,13 @@
 					id: "68453F12D19A7729"
 					ignore_reward_blocking: true
 					stage: "echo_fabricator_meet"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "425E8A528EEF6B06"
+					stage: "echo_fabricator_meet"
 					type: "gamestage"
 				}
 				{
@@ -267,7 +279,13 @@
 					id: "33A48C9FF596694F"
 					ignore_reward_blocking: true
 					stage: "echo_wayfinder_meet"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "0CFE378AADF1FBD2"
+					stage: "echo_wayfinder_meet"
 					type: "gamestage"
 				}
 				{
@@ -287,7 +305,7 @@
 				ignore_dimension: false
 				position: [I;
 					62
-					-14
+					-15
 					-26
 				]
 				size: [I;
@@ -320,6 +338,13 @@
 					id: "28DFC574866859F8"
 					ignore_reward_blocking: true
 					stage: "echo_wayfinder_stage2_task1_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "03175BF231499551"
+					stage: "echo_wayfinder_stage2_task1_completed"
 					type: "gamestage"
 				}
 			]
@@ -347,6 +372,13 @@
 					auto: "invisible"
 					id: "6B39CA36E5C8B6CE"
 					ignore_reward_blocking: true
+					stage: "echo_enchanter_stage2_task1_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "38BC653BB5BD5303"
 					stage: "echo_enchanter_stage2_task1_completed"
 					type: "gamestage"
 				}
@@ -395,6 +427,13 @@
 					auto: "invisible"
 					id: "38B945498E9C6403"
 					ignore_reward_blocking: true
+					stage: "echo_fabricator_stage2_task1_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "2C36EF9154DA1E69"
 					stage: "echo_fabricator_stage2_task1_completed"
 					type: "gamestage"
 				}
@@ -481,7 +520,7 @@
 				{
 					auto: "enabled"
 					command: "/ftbunearthed setlevel @s 5"
-					feedback_message: "Your Unearthing Skill Has Reached Max Level"
+					feedback_message: "feedback_message.ftb.unearthing_max"
 					icon: {
 						components: {
 							"ftbquests:icon": "relics:textures/gui/description/ability/upgrade_button_active_quick.png"
@@ -497,6 +536,7 @@
 					auto: "invisible"
 					id: "359D5787451DA677"
 					stage: "ftb:bee_2"
+					team_reward: false
 					type: "gamestage"
 				}
 			]
@@ -512,6 +552,7 @@
 				}
 				id: "7ECEEC776BBA8B53"
 				stage: "echo_guidance_stage2_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -539,6 +580,13 @@
 					auto: "invisible"
 					id: "4C7ABFA34E09C78C"
 					ignore_reward_blocking: true
+					stage: "echo_enchanter_stage2_task2_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "05DD78F2AF9F03E9"
 					stage: "echo_enchanter_stage2_task2_completed"
 					type: "gamestage"
 				}
@@ -662,7 +710,6 @@
 			}]
 			shape: "square"
 			tasks: [{
-				count: 8L
 				id: "18380B9921A3AEEC"
 				item: { count: 1, id: "mekanism:ultimate_thermodynamic_conductor" }
 				type: "item"
@@ -713,6 +760,7 @@
 				}
 				id: "6B46A4D5E6915E1B"
 				stage: "echo_fabricator_stage2_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -6.0d
@@ -739,6 +787,7 @@
 				}
 				id: "2DD1C42797FC03F0"
 				stage: "echo_enchanter_stage2_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -787,6 +836,7 @@
 				}
 				id: "6A6EB35F2D0397D5"
 				stage: "echo_wayfinder_stage2_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 6.0d
@@ -802,8 +852,8 @@
 			id: "66FF7D88B712C969"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Следопыт\" 55 2 -5 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"The Wayfinder\" 55 2 -5 minecraft:overworld light_purple true"
+				feedback_message: "feedback_message.ftb.waypoint_claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -831,8 +881,8 @@
 			id: "08000D28B577EF94"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Зачаровыватель\" 22 2 17 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"The Enchanter\" 22 2 17 minecraft:overworld light_purple true"
+				feedback_message: "feedback_message.ftb.waypoint_claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -860,8 +910,8 @@
 			id: "0B02B72259362345"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Созидатель\" 43 2 4 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"The Fabricator\" 43 2 4 minecraft:overworld light_purple true"
+				feedback_message: "feedback_message.ftb.waypoint_claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -969,7 +1019,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/portal"
-				feedback_message: "Wayfinder's Vault Compass Acquired"
+				feedback_message: "feedback_message.ftb.locator_wayfinder_vault"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}

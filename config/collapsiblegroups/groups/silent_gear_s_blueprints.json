@@ -1,0 +1,180 @@
+{
+  "id": "silent_gear_s_blueprints",
+  "name": {
+    "translate": "collapsible_groups.group.silent_gear_s_blueprints",
+    "fallback": "Silent Gear\u0027s Blueprints"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:rod_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:tip_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:coating_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:grip_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:binding_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:lining_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:cord_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:fletching_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:sword_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:katana_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:machete_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:knife_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:dagger_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:spear_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:trident_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:mace_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:shield_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:bow_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:crossbow_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:slingshot_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:arrow_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:pickaxe_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:shovel_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:axe_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:paxel_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:hammer_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:excavator_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:saw_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:prospector_hammer_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:hoe_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:mattock_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:sickle_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:shears_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:fishing_rod_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:helmet_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:chestplate_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:leggings_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:boots_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:elytra_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:ring_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:bracelet_blueprint\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"silentgear:necklace_blueprint\"}"
+      }
+    ]
+  }
+}

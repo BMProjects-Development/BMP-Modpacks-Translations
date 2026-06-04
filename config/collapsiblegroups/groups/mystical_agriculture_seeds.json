@@ -1,0 +1,19 @@
+{
+  "id": "mystical_agriculture_seeds",
+  "name": {
+    "translate": "collapsible_groups.group.mystical_agriculture_seeds",
+    "fallback": "Mystical Agriculture: Seeds"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "mysticalagriculture"
+      },
+      {
+        "item_path_ends_with": "_seeds"
+      }
+    ]
+  }
+}

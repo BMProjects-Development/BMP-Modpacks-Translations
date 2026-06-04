@@ -1,0 +1,12 @@
+{
+  "id": "sophisticated_storage_limited_copper_barrels_ii",
+  "name": {
+    "translate": "collapsible_groups.group.sophisticated_storage_limited_copper_barrels_ii",
+    "fallback": "Sophisticated Storage: Limited Copper Barrels II"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "sophisticatedstorage:limited_copper_barrel_2"
+  }
+}

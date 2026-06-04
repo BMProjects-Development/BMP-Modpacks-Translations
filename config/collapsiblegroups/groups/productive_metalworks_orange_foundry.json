@@ -1,0 +1,19 @@
+{
+  "id": "productive_metalworks_orange_foundry",
+  "name": {
+    "translate": "collapsible_groups.group.productive_metalworks_orange_foundry",
+    "fallback": "Productive Metalworks: Orange Foundry"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "productivemetalworks"
+      },
+      {
+        "item_path_starts_with": "orange_"
+      }
+    ]
+  }
+}

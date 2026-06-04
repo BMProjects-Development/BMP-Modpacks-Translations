@@ -1,5 +1,5 @@
 {
-  "ingredientDedupe": true,
+  "ingredientDedupe": false,
   "entitySectionCME": true,
   "scoreboardDebug": false,
   "debugItemStackModifications": false,

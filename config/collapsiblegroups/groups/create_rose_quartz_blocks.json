@@ -1,0 +1,34 @@
+{
+  "id": "create_rose_quartz_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.create_rose_quartz_blocks",
+    "fallback": "Create: Rose Quartz Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "any": [
+          {
+            "type": "item",
+            "namespace": "create"
+          },
+          {
+            "type": "item",
+            "namespace": "create_chipped"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "item_path_starts_with": "rose_quartz"
+          },
+          {
+            "item_path_starts_with": "polished_rose_quartz"
+          }
+        ]
+      }
+    ]
+  }
+}

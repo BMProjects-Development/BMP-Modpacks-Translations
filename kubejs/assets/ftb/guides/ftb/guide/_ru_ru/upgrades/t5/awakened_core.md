@@ -7,16 +7,16 @@ navigation:
 item_ids:
   - draconicevolution:awakened_draconium_block
 ---
-# Улучшение "Пробужденное ядро"
+# <Color id="gold">Улучшение "Пробужденное ядро"</Color>
 
 <ItemImage id="draconicevolution:awakened_draconium_block" scale="3" />
 
-<Color id="gold">"Пробужденное ядро"</Color> необходимое улучшение которое разблокирует <Color id="gold">"Бесконечность"</Color>, которое создается в <Color id="gold">Мировом двигателе</Color>.
+<Color id="gold">"Пробужденное ядро"</Color> - необходимое улучшение, которое разблокирует <Color id="gold">"Бесконечность"</Color>, которая создаётся в <Color id="gold">мировом двигателе</Color>.
 
-Улучшение требует энергетическое ядро 8 уровня, которое требует 378 <Color id="gold">Пробужденных дракониумовых блоков</Color> и 786 <Color id="light_purple">Дракониумовых блоков</Color>.
+Улучшение требует энергетическое ядро 8 уровня, которое требует 378 <Color id="gold">пробужденных дракониевых блоков</Color> и 786 <Color id="light_purple">дракониевых блоков</Color>.
 
 
-## Разблокируемые рецепты
+## <Color id="gold">Разблокируемые рецепты:</Color>
 
 <ItemGrid>
   <ItemIcon id="avaritia:infinity_sword" />

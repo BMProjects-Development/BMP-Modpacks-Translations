@@ -4,6 +4,7 @@ const plateEntries = [
   { metal: "electrum", plate: "ftbmaterials:electrum_plate" },
   { metal: "invar", plate: "ftbmaterials:invar_plate" },
   { metal: "lead", plate: "ftbmaterials:lead_plate" },
+  { metal: "silver", plate: "ftbmaterials:silver_plate"},
   { metal: "nickel", plate: "ftbmaterials:nickel_plate" },
   { metal: "steel", plate: "ftbmaterials:steel_plate" },
   { metal: "zinc", plate: "ftbmaterials:zinc_plate" },

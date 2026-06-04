@@ -1,0 +1,80 @@
+{
+  "id": "connected_glass_s_scratched_glass_panes",
+  "name": {
+    "translate": "collapsible_groups.group.connected_glass_s_scratched_glass_panes",
+    "fallback": "Connected Glass\u0027s Scratched Glass Panes"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_lime_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_white_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_light_gray_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_purple_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_green_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_light_blue_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_magenta_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_black_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_yellow_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_pink_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_blue_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_cyan_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_brown_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_gray_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_orange_pane\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:scratched_glass_red_pane\"}"
+      }
+    ]
+  }
+}

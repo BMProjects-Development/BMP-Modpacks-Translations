@@ -1,0 +1,19 @@
+{
+  "id": "oritech_processing_addon",
+  "name": {
+    "translate": "collapsible_groups.group.oritech_processing_addon",
+    "fallback": "Oritech: Processing Addon"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "any": [
+          { "type": "item", "namespace": "oritech" },
+          { "type": "item", "namespace": "oritechthings" }
+        ]
+      },
+      { "item_path_contains": "processing" }
+    ]
+  }
+}

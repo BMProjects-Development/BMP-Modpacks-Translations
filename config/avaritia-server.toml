@@ -28,9 +28,17 @@
 		# Default: 1.0
 		# Range: 0.1 ~ 2.0
 		flySpeedValue = 1.0
+		#ClearFrozen
+		clearFrozen = true
 
 	[general.infinityChest]
 		#MaxStackSize
 		# Default: 2147483647
 		# Range: > 64
 		maxStackSize = 2147483647
+
+	[general.neutronCollector]
+		#ProductionTicks
+		# Default: 7111
+		# Range: > 1
+		productionTicks = 7111

@@ -1,0 +1,14 @@
+{
+  "id": "pneumaticcraft_plastic_construction_bricks_smooth",
+  "name": {
+    "translate": "collapsible_groups.group.pneumaticcraft_plastic_construction_bricks_smooth",
+    "fallback": "Pneumatic Craft: Plastic Construction Bricks (Smooth)"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "pneumaticcraft" },
+      { "item_path_starts_with": "smooth_plastic_brick_" }
+    ]
+  }
+}

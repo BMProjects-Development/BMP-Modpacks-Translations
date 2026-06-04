@@ -8,7 +8,7 @@
   "quality": 2,
   "bonusParameters": {
     "irons_jewelry:attribute": {
-      "attribute": "ars_nouveau:sauce.perk.spell_crit",
+      "attribute": "ars_nouveau:sauce.perk.spell_crit_chance",
       "amount": 0.15,
       "operation": "add_multiplied_total"
     }

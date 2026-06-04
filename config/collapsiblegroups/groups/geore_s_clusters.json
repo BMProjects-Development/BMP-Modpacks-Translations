@@ -1,0 +1,116 @@
+{
+  "id": "geore_s_clusters",
+  "name": {
+    "translate": "collapsible_groups.group.geore_s_clusters",
+    "fallback": "GeOre\u0027s Clusters"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:coal_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:iron_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:ruby_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:black_quartz_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:osmium_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:uranium_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:gold_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:ancient_debris_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:uraninite_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:nickel_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:tungsten_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:copper_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:lapis_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:sapphire_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:monazite_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:platinum_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:diamond_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:quartz_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:topaz_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:aluminum_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:silver_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:emerald_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:redstone_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:zinc_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:lead_cluster\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:tin_cluster\"}"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "productive_bees_productivity_genes",
+  "name": {
+    "translate": "collapsible_groups.group.productive_bees_productivity_genes",
+    "fallback": "Productive Bees: Productivity Genes"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "id": "productivebees:gene"
+      },
+      {
+        "not": {
+          "type": "item",
+          "component": "productivebees:gene_group",
+          "path": "attribute",
+          "value": "type"
+        }
+      }
+    ]
+  }
+}

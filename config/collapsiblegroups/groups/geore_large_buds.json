@@ -1,0 +1,22 @@
+{
+  "id": "geore_large_buds",
+  "name": {
+    "translate": "collapsible_groups.group.geore_large_buds",
+    "fallback": "GeOre: Large Buds"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "geore"
+      },
+      {
+        "item_path_starts_with": "large_"
+      },
+      {
+        "item_path_ends_with": "_bud"
+      }
+    ]
+  }
+}

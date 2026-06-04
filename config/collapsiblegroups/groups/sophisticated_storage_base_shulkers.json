@@ -1,0 +1,12 @@
+{
+  "id": "sophisticated_storage_base_shulkers",
+  "name": {
+    "translate": "collapsible_groups.group.sophisticated_storage_base_shulkers",
+    "fallback": "Sophisticated Storage: Base Shulkers"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "sophisticatedstorage:shulker_box"
+  }
+}

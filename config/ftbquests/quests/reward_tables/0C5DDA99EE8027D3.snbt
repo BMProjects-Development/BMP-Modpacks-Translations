@@ -1,6 +1,6 @@
 {
 	icon: {
-		id: "stonechest:chest_smooth_stone"
+		id: "stonechest:chest_cobblestone"
 	}
 	id: "0C5DDA99EE8027D3"
 	loot_size: 1
@@ -128,7 +128,7 @@
 			item: {
 				components: {
 					"apotheosis:affixes": { }
-					"minecraft:custom_name": "\"Slowpoke's Ultimate Balance\""
+					"minecraft:custom_name": "{\"translate\":\"item.ftb.slowpoke\"}"
 					"minecraft:enchantments": {
 						levels: {
 							"apothic_enchanting:knowledge_of_the_ages": 3
@@ -397,7 +397,7 @@
 			id: "1A2FC890065A2191"
 			item: {
 				components: {
-					"minecraft:custom_name": "\"Разрушитель мира\""
+					"minecraft:custom_name": "{\"translate\":\"item.ftb.the_world_breaker\"}"
 					"minecraft:enchantments": {
 						levels: {
 							"minecraft:efficiency": 5
@@ -512,7 +512,7 @@
 					"apotheosis:durability_bonus": 1.0f
 					"apotheosis:rarity": "apotheosis:mythic"
 					"apotheosis:sockets": 4
-					"minecraft:custom_name": "\"Формовщик мира\""
+					"minecraft:custom_name": "{\"translate\":\"item.ftb.world_shaper\"}"
 					"minecraft:enchantments": {
 						levels: {
 							"minecraft:efficiency": 25
@@ -569,7 +569,7 @@
 							}
 						]
 					}
-					"minecraft:custom_name": "\"AlfredGG's Meat Shredder of Destruction\""
+					"minecraft:custom_name": "{\"translate\":\"item.ftb.alfredgg\"}"
 				}
 				count: 1
 				id: "cataclysm:meat_shredder"
@@ -601,7 +601,7 @@
 					"apotheosis:durability_bonus": 0.71055126f
 					"apotheosis:rarity": "apotheosis:mythic"
 					"apotheosis:sockets": 4
-					"minecraft:custom_name": "\"Everlipse's Reality-Twisting Helm\""
+					"minecraft:custom_name": "{\"translate\":\"item.ftb.everlipse\"}"
 				}
 				count: 1
 				id: "projecte:gem_helmet"
@@ -635,7 +635,7 @@
 					"apotheosis:durability_bonus": 0.5590386f
 					"apotheosis:rarity": "apotheosis:mythic"
 					"apotheosis:sockets": 4
-					"minecraft:custom_name": "\"Rylex's Celestial Mantle\""
+					"minecraft:custom_name": "{\"translate\":\"item.ftb.rylex\"}"
 				}
 				count: 1
 				id: "projecte:gem_chestplate"
@@ -668,7 +668,7 @@
 					"apotheosis:durability_bonus": 0.48514473f
 					"apotheosis:rarity": "apotheosis:mythic"
 					"apotheosis:sockets": 4
-					"minecraft:custom_name": "\"Max's Steadfast Slacker Leggings\""
+					"minecraft:custom_name": "{\"translate\":\"item.ftb.max\"}"
 				}
 				count: 1
 				id: "projecte:gem_leggings"
@@ -700,7 +700,7 @@
 					"apotheosis:durability_bonus": 0.50149965f
 					"apotheosis:rarity": "apotheosis:mythic"
 					"apotheosis:sockets": 4
-					"minecraft:custom_name": "\"Saereth's Quickstep Boots\""
+					"minecraft:custom_name": "{\"translate\":\"item.ftb.saereth\"}"
 				}
 				count: 1
 				id: "projecte:gem_boots"
@@ -732,7 +732,7 @@
 					"apotheosis:durability_bonus": 0.66640955f
 					"apotheosis:rarity": "apotheosis:mythic"
 					"apotheosis:sockets": 4
-					"minecraft:custom_name": "\"Sunekaer's Skullfire Sword\""
+					"minecraft:custom_name": "{\"translate\":\"item.ftb.sunekaer\"}"
 					"minecraft:enchantments": {
 						levels: {
 							"minecraft:looting": 25

@@ -17,7 +17,17 @@
 	attractorRangeColor = "8B0000"
 	#The color of the range box of the Wireless Charger
 	wirelessChargerRangeColor = "C7CC2A"
+	#The color of the range box of the Niard
+	niardRangeColor = "FFA500"
 
 [ioconfig]
 	#Neighbour Transparency [0-1]
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
 	neighbourTransparency = 0.4
+
+[general]
+	#Volume of machine sounds [0-1]
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	machineVolume = 1.0

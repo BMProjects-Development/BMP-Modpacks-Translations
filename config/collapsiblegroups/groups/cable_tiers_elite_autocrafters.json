@@ -1,0 +1,19 @@
+{
+  "id": "cable_tiers_elite_autocrafters",
+  "name": {
+    "translate": "collapsible_groups.group.cable_tiers_elite_autocrafters",
+    "fallback": "Cabletiers: Elite Autocrafters"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "cabletiers"
+      },
+      {
+        "item_path_ends_with": "elite_autocrafter"
+      }
+    ]
+  }
+}

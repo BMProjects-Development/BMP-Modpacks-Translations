@@ -1,0 +1,35 @@
+{
+  "id": "ars_armor_threads",
+  "name": {
+    "translate": "collapsible_groups.group.ars_armor_threads",
+    "fallback": "Ars: Armor Threads"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "any": [
+          {
+            "type": "item",
+            "namespace": "ars_nouveau"
+          },
+          {
+            "type": "item",
+            "namespace": "ars_elemental"
+          },
+          {
+            "type": "item",
+            "namespace": "ars_additions"
+          },
+          {
+            "type": "item",
+            "namespace": "ars_caelum"
+          }
+        ]
+      },
+      {
+        "item_path_starts_with": "thread"
+      }
+    ]
+  }
+}

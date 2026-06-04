@@ -31,6 +31,8 @@
 		cakeEatingParticles = true
 		#Enable emissive lava drips
 		emissiveLavaDrips = true
+		#Enable lava splash particles when entities hit lava
+		lavaSplash = true
 
 	#Advanced Particle Settings
 	[general.advancedSettings]
@@ -114,3 +116,31 @@
 			accelChangeChance = 180
 			#Biomes where cave dust won't spawn
 			excludeBiomes = ["minecraft:lush_caves", "minecraft:dripstone_caves", "minecraft:deep_dark"]
+
+		[general.advancedSettings.waterSplashSettings]
+			#Minimum fall distance (in blocks) required to trigger water splash particles
+			# Default: 0.0
+			# Range: 0.0 ~ 100.0
+			minFallDistance = 0.0
+			#Whether small splashes should emit water droplet particles
+			smallDroplets = false
+			#Opacity of water and lava splash particles
+			# Default: 0.75
+			# Range: 0.0 ~ 1.0
+			splashOpacity = 0.75
+			#Whether soft water entries should emit bubbles and tiny falling-water droplets instead of a full splash
+			softEntryParticles = true
+			#Use 1-voxel cuboid particles for waterfall spray
+			cuboidWaterfallSpray = false
+			#Use 1-voxel cuboid particles for splash droplets
+			cuboidSplashDroplets = true
+			#Tint cuboid waterfall spray using the local biome water color
+			waterCuboidBiomeTint = true
+			#Fallback color of cuboid waterfall spray when biome tinting is disabled (RGB hex)
+			# Default: 16777215
+			# Range: 0 ~ 16777215
+			waterCuboidColor = 16777215
+			#Color of cuboid lava droplets (RGB hex)
+			# Default: 16738335
+			# Range: 0 ~ 16777215
+			lavaCuboidColor = 16738335

@@ -1,0 +1,28 @@
+{
+  "id": "enchanted_s_chalks",
+  "name": {
+    "translate": "collapsible_groups.group.enchanted_s_chalks",
+    "fallback": "Enchanted\u0027s Chalks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"enchanted:golden_chalk\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"enchanted:ritual_chalk\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"enchanted:nether_chalk\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"enchanted:otherwhere_chalk\"}"
+      }
+    ]
+  }
+}

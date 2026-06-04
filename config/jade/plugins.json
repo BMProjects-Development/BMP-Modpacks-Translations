@@ -87,6 +87,9 @@
     "block_properties": false,
     "mod_name": true
   },
+  "underlay": {
+    "overlay": true
+  },
   "extendedae": {
     "jade_chamber": true,
     "jade_wireless": true
@@ -109,6 +112,9 @@
   "tesseract": {
     "tesseract": true,
     "remove_default": true
+  },
+  "enderio": {
+    "soul_bound": true
   },
   "projecte": {
     "emc_provider": false
@@ -173,7 +179,6 @@
     "roost.progress": true,
     "breeder.progress": true,
     "soul_extractor.progress": true,
-    "soul_breeder.progress": true,
     "trainer.progress": true
   },
   "apotheosis": {
@@ -203,6 +208,11 @@
     "pump": true,
     "autohammer": true
   },
+  "justdynathings": {
+    "paradox_mixer": true,
+    "stabilizer": true,
+    "echoing_budding": true
+  },
   "xycraft": {
     "energy_pipe_debug": true,
     "tank_component": true,
@@ -215,6 +225,7 @@
     "crystalix_block": true
   },
   "twilightforest": {
+    "drying_rack": true,
     "chiseled_bookshelf_spawner": true,
     "quest_ram_wool": true
   },

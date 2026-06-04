@@ -1,0 +1,12 @@
+{
+  "id": "reliquary_condensed_potions",
+  "name": {
+    "translate": "collapsible_groups.group.reliquary_condensed_potions",
+    "fallback": "Reliquary: Condensed Potions"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "reliquary:potion"
+  }
+}

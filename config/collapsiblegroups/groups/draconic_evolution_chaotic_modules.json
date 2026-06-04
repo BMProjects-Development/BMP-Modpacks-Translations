@@ -1,0 +1,34 @@
+{
+  "id": "draconic_evolution_chaotic_modules",
+  "name": {
+    "translate": "collapsible_groups.group.draconic_evolution_chaotic_modules",
+    "fallback": "Draconic Evolution: Chaotic Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "any": [
+          {
+            "type": "item",
+            "namespace": "draconicevolution"
+          },
+          {
+            "type": "item",
+            "namespace": "draconic_spellbooks"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "item_path_starts_with": "item_chaotic"
+          },
+          {
+            "item_path_starts_with": "item_chaos"
+          }
+        ]
+      }
+    ]
+  }
+}

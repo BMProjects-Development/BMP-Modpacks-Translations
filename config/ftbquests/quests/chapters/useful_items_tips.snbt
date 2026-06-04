@@ -96,7 +96,12 @@
 		}
 	]
 	order_index: 8
-	quest_links: [ ]
+	quest_links: [{
+		id: "626D38E479CAD1EE"
+		linked_quest: "2140EAC255C3EA09"
+		x: -1.5d
+		y: 0.0d
+	}]
 	quests: [
 		{
 			icon: {

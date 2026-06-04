@@ -1,0 +1,14 @@
+{
+  "id": "powah_energy_dischargers",
+  "name": {
+    "translate": "collapsible_groups.group.powah_energy_dischargers",
+    "fallback": "Powah: Energy Dischargers"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "powah" },
+      { "item_path_starts_with": "energy_discharger_" }
+    ]
+  }
+}

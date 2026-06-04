@@ -1,0 +1,12 @@
+{
+  "id": "mystical_agriculture_soul_jars",
+  "name": {
+    "translate": "collapsible_groups.group.mystical_agriculture_soul_jars",
+    "fallback": "Mystical Agriculture: Soul Jars"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "mysticalagriculture:soul_jar"
+  }
+}

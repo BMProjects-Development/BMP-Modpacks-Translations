@@ -1,0 +1,12 @@
+{
+  "id": "actually_additions_drills",
+  "name": {
+    "translate": "collapsible_groups.group.actually_additions_drills",
+    "fallback": "Actually Additions: Drills"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "actuallyadditions:drills"
+  }
+}

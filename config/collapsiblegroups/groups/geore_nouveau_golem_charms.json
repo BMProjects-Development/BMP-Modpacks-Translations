@@ -1,0 +1,19 @@
+{
+  "id": "geore_nouveau_golem_charms",
+  "name": {
+    "translate": "collapsible_groups.group.geore_nouveau_golem_charms",
+    "fallback": "GeOre Nouveau: Golem Charms"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "georenouveau"
+      },
+      {
+        "item_path_ends_with": "_golem_charm"
+      }
+    ]
+  }
+}

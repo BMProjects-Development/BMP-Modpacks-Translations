@@ -1,0 +1,26 @@
+{
+  "id": "cataclysm_azure_seastone_murals",
+  "name": {
+    "translate": "collapsible_groups.group.cataclysm_azure_seastone_murals",
+    "fallback": "Cataclysm: Azure Seastone Murals"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "cataclysm"
+      },
+      {
+        "any": [
+          {
+            "item_path_starts_with": "curved_azure_seastone"
+          },
+          {
+            "item_path_starts_with": "azure_seastone_mural"
+          }
+        ]
+      }
+    ]
+  }
+}

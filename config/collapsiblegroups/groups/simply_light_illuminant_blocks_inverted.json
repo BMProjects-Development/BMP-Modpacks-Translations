@@ -1,0 +1,14 @@
+{
+  "id": "simply_light_illuminant_blocks_inverted",
+  "name": {
+    "translate": "collapsible_groups.group.simply_light_illuminant_blocks_inverted",
+    "fallback": "Simply Light: Illuminant Blocks (Inverted)"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "simplylight" },
+      { "item_path_ends_with": "_block_on" }
+    ]
+  }
+}

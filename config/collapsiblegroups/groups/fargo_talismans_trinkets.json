@@ -1,0 +1,12 @@
+{
+  "id": "fargo_talismans_trinkets",
+  "name": {
+    "translate": "collapsible_groups.group.fargo_talismans_trinkets",
+    "fallback": "Fargo\u0027s Talismans: Trinkets"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "tag": "fargostalismans:trinkets"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "malum_weaves",
+  "name": {
+    "translate": "collapsible_groups.group.malum_weaves",
+    "fallback": "Malum: Weaves"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "any": [
+          {
+            "type": "item",
+            "stack": "{\"id\":\"malum:mechanical_weave_v2\"}"
+          },
+          {
+            "type": "item",
+            "stack": "{\"id\":\"malum:mechanical_weave_v1\"}"
+          },
+          {
+            "type": "item",
+            "stack": "{\"id\":\"malum:esoteric_spool\"}"
+          },
+          {
+            "item_path_ends_with": "weave"
+          }
+        ]
+      },
+      {
+        "type": "item",
+        "namespace": "malum"
+      },
+      {
+        "not": {
+          "item_path_ends_with": "astral_weave"
+        }
+      }
+    ]
+  }
+}

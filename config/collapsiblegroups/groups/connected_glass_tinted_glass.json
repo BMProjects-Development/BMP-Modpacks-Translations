@@ -1,0 +1,14 @@
+{
+  "id": "connected_glass_tinted_glass",
+  "name": {
+    "translate": "collapsible_groups.group.connected_glass_tinted_glass",
+    "fallback": "Connected Glass: Tinted Glass"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "connectedglass" },
+      { "item_path_starts_with": "tinted_borderless_glass" }
+    ]
+  }
+}

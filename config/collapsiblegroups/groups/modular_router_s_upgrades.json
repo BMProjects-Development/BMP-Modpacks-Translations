@@ -1,0 +1,48 @@
+{
+  "id": "modular_router_s_upgrades",
+  "name": {
+    "translate": "collapsible_groups.group.modular_router_s_upgrades",
+    "fallback": "Modular Router\u0027s Upgrades"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"modularrouters:blast_upgrade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"modularrouters:camouflage_upgrade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"modularrouters:energy_upgrade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"modularrouters:fluid_upgrade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"modularrouters:muffler_upgrade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"modularrouters:security_upgrade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"modularrouters:speed_upgrade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"modularrouters:stack_upgrade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"modularrouters:sync_upgrade\"}"
+      }
+    ]
+  }
+}

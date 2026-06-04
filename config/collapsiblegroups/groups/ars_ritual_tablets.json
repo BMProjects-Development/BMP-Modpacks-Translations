@@ -1,0 +1,41 @@
+{
+  "id": "ars_ritual_tablets",
+  "name": {
+    "translate": "collapsible_groups.group.ars_ritual_tablets",
+    "fallback": "Ars: Ritual Tablets"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "any": [
+          {
+            "type": "item",
+            "namespace": "ars_nouveau"
+          },
+          {
+            "type": "item",
+            "namespace": "ars_elemental"
+          },
+          {
+            "type": "item",
+            "namespace": "ars_additions"
+          },
+          {
+            "type": "item",
+            "namespace": "ars_caelum"
+          }
+        ]
+      },
+      {
+        "item_path_starts_with": "ritual"
+      },
+      {
+        "not": {
+          "type": "item",
+          "id": "ars_nouveau:ritual_brazier"
+        }
+      }
+    ]
+  }
+}

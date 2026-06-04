@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			auto: "no_toast"
-			command: "/endershard @s 8 131 -2601 Ocean North"
+			command: "/endershard @s 8 131 -2601 Океан: Север"
 			id: "6AE5675C3DAAB1D9"
 			permission_level: 3
 			silent: true
@@ -13,7 +13,7 @@
 		}
 		{
 			auto: "no_toast"
-			command: "/endershard @s 8 131 2615 Ocean South"
+			command: "/endershard @s 8 131 2615 Океан: Юг"
 			id: "64CB075D188C05CC"
 			permission_level: 3
 			silent: true
@@ -21,7 +21,7 @@
 		}
 		{
 			auto: "no_toast"
-			command: "/endershard @s 2616 131 7 Ocean East"
+			command: "/endershard @s 2616 131 7 Океан: Восток"
 			id: "3FBE85B391697AA3"
 			permission_level: 3
 			silent: true
@@ -29,7 +29,7 @@
 		}
 		{
 			auto: "no_toast"
-			command: "/endershard @s -2600 131 7 Ocean West"
+			command: "/endershard @s -2600 131 7 Океан: Запад"
 			id: "397185875416F4D2"
 			permission_level: 3
 			silent: true

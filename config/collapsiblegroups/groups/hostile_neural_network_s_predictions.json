@@ -1,0 +1,164 @@
+{
+  "id": "hostile_neural_network_s_predictions",
+  "name": {
+    "translate": "collapsible_groups.group.hostile_neural_network_s_predictions",
+    "fallback": "Hostile Neural Network\u0027s Predictions"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:ars_nouveau/wilden_mobs\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:bat\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:blaze\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:breeze\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:snow_golem\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:slime\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:skeleton\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:shulker\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:sheep\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:rabbit\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:polar_bear\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:pig\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:phantom\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:mooshroom\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:magma_cube\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:iron_golem\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:hoglin\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:guardian\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:glow_squid\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:ghast\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:evoker\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:enderman\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:ender_dragon\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:elder_guardian\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:drowned\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:creeper\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:cow\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:cod\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:chicken\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:zombified_piglin\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:zombie\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:wither_skeleton\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:wither\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:witch\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:warden\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:vindicator\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:squid\"}}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"hostilenetworks:prediction\",\"components\":{\"hostilenetworks:data_model\":\"hostilenetworks:spider\"}}"
+      }
+    ]
+  }
+}

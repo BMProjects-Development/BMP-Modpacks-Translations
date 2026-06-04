@@ -1,0 +1,19 @@
+{
+  "id": "neovitae_anointments_l",
+  "name": {
+    "translate": "collapsible_groups.group.neovitae_anointments_l",
+    "fallback": "Neovitae: Anointments L"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "neovitae"
+      },
+      {
+        "item_path_ends_with": "anointment_l"
+      }
+    ]
+  }
+}

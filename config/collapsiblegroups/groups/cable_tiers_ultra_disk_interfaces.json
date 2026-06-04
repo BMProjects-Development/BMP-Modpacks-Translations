@@ -1,0 +1,19 @@
+{
+  "id": "cable_tiers_ultra_disk_interfaces",
+  "name": {
+    "translate": "collapsible_groups.group.cable_tiers_ultra_disk_interfaces",
+    "fallback": "Cabletiers: Ultra Disk Interfaces"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "cabletiers"
+      },
+      {
+        "item_path_ends_with": "ultra_disk_interface"
+      }
+    ]
+  }
+}

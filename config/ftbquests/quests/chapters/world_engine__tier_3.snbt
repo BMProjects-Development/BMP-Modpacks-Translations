@@ -159,7 +159,13 @@
 					id: "1A6CA9952CEC88EB"
 					ignore_reward_blocking: true
 					stage: "echo_infernal_meet"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "223F0B8AB824E5E8"
+					stage: "echo_infernal_meet"
 					type: "gamestage"
 				}
 				{
@@ -213,7 +219,13 @@
 					id: "71918E3D24CD00FF"
 					ignore_reward_blocking: true
 					stage: "echo_catalyst_meet"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "67B07E14ECE7A6E2"
+					stage: "echo_catalyst_meet"
 					type: "gamestage"
 				}
 				{
@@ -270,7 +282,13 @@
 					id: "5D141E7F10EB5C95"
 					ignore_reward_blocking: true
 					stage: "echo_light_bender_meet"
-					team_reward: false
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "615289BF5CD247EC"
+					stage: "echo_light_bender_meet"
 					type: "gamestage"
 				}
 				{
@@ -317,6 +335,13 @@
 					id: "0A9E0481E61E3991"
 					ignore_reward_blocking: true
 					stage: "echo_light_bender_stage3_task1_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "4B053ADA08C9431E"
+					stage: "echo_light_bender_stage3_task1_completed"
 					type: "gamestage"
 				}
 				{
@@ -359,6 +384,13 @@
 					auto: "invisible"
 					id: "608CC77E6D609C25"
 					ignore_reward_blocking: true
+					stage: "echo_infernal_stage3_task1_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "57BFEADDB855A700"
 					stage: "echo_infernal_stage3_task1_completed"
 					type: "gamestage"
 				}
@@ -407,6 +439,13 @@
 					auto: "invisible"
 					id: "74DE2C23FFD29F55"
 					ignore_reward_blocking: true
+					stage: "echo_catalyst_stage3_task2_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "6270A39084D3FD5E"
 					stage: "echo_catalyst_stage3_task2_completed"
 					type: "gamestage"
 				}
@@ -526,6 +565,13 @@
 					id: "3B36A84AA6FAE41C"
 					ignore_reward_blocking: true
 					stage: "echo_catalyst_stage3_task3_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "075BC070906454EB"
+					stage: "echo_catalyst_stage3_task3_completed"
 					type: "gamestage"
 				}
 			]
@@ -552,10 +598,7 @@
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			icon: {
-				components: {
-					"ftbquests:icon": "ftb:block/engine/resonant_void"
-				}
-				id: "ftbquests:custom_icon"
+				id: "ftb:resonant_void"
 			}
 			id: "3DCD6DC36B31EEF4"
 			min_required_dependencies: 3
@@ -570,6 +613,7 @@
 					id: "15CC6D43D6B5EF58"
 					ignore_reward_blocking: true
 					stage: "ftb:bee_3"
+					team_reward: false
 					type: "gamestage"
 				}
 			]
@@ -585,6 +629,7 @@
 				}
 				id: "7747C8ECA64D179D"
 				stage: "echo_guidance_stage3_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -690,6 +735,13 @@
 					id: "5E2E8AA5094A8CDE"
 					ignore_reward_blocking: true
 					stage: "echo_catalyst_stage3_task1_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "5728449780B74202"
+					stage: "echo_catalyst_stage3_task1_completed"
 					type: "gamestage"
 				}
 				{
@@ -752,6 +804,7 @@
 				}
 				id: "7805089FB14CE3E1"
 				stage: "echo_infernal_stage3_task1_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: -6.0d
@@ -800,6 +853,7 @@
 				}
 				id: "00ABB62332FC4C09"
 				stage: "echo_catalyst_stage3_task3_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 0.0d
@@ -848,6 +902,7 @@
 				}
 				id: "10414FF6D2800922"
 				stage: "echo_light_bender_stage3_task2_check"
+				team_stage: true
 				type: "gamestage"
 			}]
 			x: 6.0d
@@ -1069,6 +1124,13 @@
 					id: "360F3563CFD76206"
 					ignore_reward_blocking: true
 					stage: "echo_light_bender_stage3_task2_completed"
+					team_reward: true
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "4128EEE4A47D6B04"
+					stage: "echo_light_bender_stage3_task2_completed"
 					type: "gamestage"
 				}
 			]
@@ -1122,8 +1184,8 @@
 			id: "64123F6FE4DEB4EF"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Светопреломитель\" -5 2 -68 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"The Light Bender\" -5 2 -68 minecraft:overworld light_purple true"
+				feedback_message: "feedback_message.ftb.waypoint_claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1151,8 +1213,8 @@
 			id: "1680080BED98F027"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Катализатор\" -7 2 -28 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"The Catalyst\" -7 2 -28 minecraft:overworld light_purple true"
+				feedback_message: "feedback_message.ftb.waypoint_claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1180,8 +1242,8 @@
 			id: "7DE26DE10C64D2E7"
 			optional: true
 			rewards: [{
-				command: "/ftbchunks waypoint add \"Инфернальный\" 17 2 -22 minecraft:overworld light_purple true"
-				feedback_message: "Точка поставлена"
+				command: "/ftbchunks waypoint add \"The Infernal\" 17 2 -22 minecraft:overworld light_purple true"
+				feedback_message: "feedback_message.ftb.waypoint_claimed"
 				icon: {
 					id: "minecraft:compass"
 				}
@@ -1464,7 +1526,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/burning_disco"
-				feedback_message: "Infernal's Vault Compass Acquired"
+				feedback_message: "feedback_message.ftb.locator_infernal_vault"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}
@@ -1499,7 +1561,7 @@
 				{
 					auto: "enabled"
 					command: "/compass locate ftb:vault/jockey_north"
-					feedback_message: "Catalyst's Northern Vault Compass Acquired"
+					feedback_message: "feedback_message.ftb.locator_catalyst_north_vault"
 					icon: {
 						id: "explorerscompass:explorerscompass"
 					}
@@ -1511,7 +1573,7 @@
 				{
 					auto: "enabled"
 					command: "/compass locate ftb:vault/jockey_south"
-					feedback_message: "Catalyst's Southern Vault Compass Acquired"
+					feedback_message: "feedback_message.ftb.locator_catalyst_south_vault"
 					icon: {
 						id: "explorerscompass:explorerscompass"
 					}
@@ -1547,7 +1609,7 @@
 			rewards: [{
 				auto: "enabled"
 				command: "/compass locate ftb:vault/mffs"
-				feedback_message: "Light Bender's Vault Compass Acquired"
+				feedback_message: "feedback_message.ftb.locator_light_bender_vault"
 				icon: {
 					id: "explorerscompass:explorerscompass"
 				}

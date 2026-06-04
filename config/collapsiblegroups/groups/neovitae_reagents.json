@@ -1,0 +1,19 @@
+{
+  "id": "neovitae_reagents",
+  "name": {
+    "translate": "collapsible_groups.group.neovitae_reagents",
+    "fallback": "Neovitae: Reagents"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "neovitae"
+      },
+      {
+        "item_path_starts_with": "reagent"
+      }
+    ]
+  }
+}

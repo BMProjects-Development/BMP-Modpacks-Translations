@@ -1,0 +1,249 @@
+{
+  "type": "list",
+  "id": "worlds_creation_checkout",
+  "title": "Worlds Creation - Checkout",
+  "entries": [
+  ],
+  "back": {
+    "action": "open_screen",
+    "id": "worlds_list"
+  },
+  "elements": [
+    {
+      "type": "panel",
+      "id": "checkout_panel",
+      "scroll": true,
+      "render_background": false,
+      "elements": [
+        {
+          "type": "text",
+          "id": "region",
+          "required_display_variable": "selectedRegionName",
+          "text": {
+            "translate": "rgp_client.gui.worlds_creation.region_selection",
+            "with": [
+              "$selectedRegionName"
+            ]
+          },
+          "position": {
+            "x": 5,
+            "y": 5,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "loadout",
+          "required_display_variable": "selectedLoadoutName",
+          "text": {
+            "translate": "rgp_client.gui.worlds_creation.loadout_selection",
+            "with": [
+              "$selectedLoadoutName"
+            ]
+          },
+          "position": {
+            "x": 5,
+            "y": 17,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "tier",
+          "required_display_variable": "selectedPriceTierName",
+          "text": {
+            "translate": "rgp_client.gui.worlds_creation.tier_selection",
+            "with": [
+              "$selectedPriceTierName"
+            ]
+          },
+          "position": {
+            "x": 5,
+            "y": 29,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "text",
+          "id": "total",
+          "required_display_variable": "selectedPriceCost",
+          "text": {
+            "translate": "rgp_client.gui.worlds_creation.total",
+            "with": [
+              "$selectedPriceCost $selectedPriceCurrency"
+            ]
+          },
+          "position": {
+            "x": 5,
+            "y": 41,
+            "pivot": "top_left"
+          }
+        },
+        {
+          "type": "simple_button",
+          "id": "checkout",
+          "text": {
+            "translate": "rgp_client.gui.worlds_creation.checkout"
+          },
+          "options": {
+            "width": 100,
+            "height": 20
+          },
+          "position": {
+            "x": 5,
+            "y": 55,
+            "pivot": "top_left"
+          },
+          "callback": {
+            "action": "checkout"
+          }
+        }
+      ],
+      "position": {
+        "x": 205,
+        "y": 46,
+        "pivot": "top_left"
+      },
+      "options": {
+        "height_padding": 20
+      },
+      "end_position": {
+        "x": 20,
+        "y": 64
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "back",
+      "text": {
+        "translate": "gui.back"
+      },
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_list"
+      }
+    },
+    {
+      "type": "divider",
+      "id": "divider",
+      "position": {
+        "x": 75,
+        "y": 44,
+        "pivot": "top_left"
+      },
+      "end_position": {
+        "x": 0,
+        "y": 64
+      },
+      "options": {
+        "width": 125
+      }
+    },
+    {
+      "type": "icon_button",
+      "id": "region",
+      "text": {
+        "translate": "rgp_client.gui.worlds_creation.region"
+      },
+      "icon": "rgp_client:textures/gui/button/button_dirt.png",
+      "position": {
+        "x": 87,
+        "y": 60,
+        "pivot": "top_left"
+      },
+      "options": {
+        "width": 100,
+        "height": 20
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_creation_region",
+        "pass_storage": true
+      }
+    },
+    {
+      "type": "icon_button",
+      "id": "loadout",
+      "text": {
+        "translate": "rgp_client.gui.worlds_creation.loadout"
+      },
+      "icon": "rgp_client:textures/gui/button/button_dirt.png",
+      "position": {
+        "x": 87,
+        "y": 90,
+        "pivot": "top_left"
+      },
+      "options": {
+        "width": 100,
+        "height": 20
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_creation_loadout",
+        "pass_storage": true
+      }
+    },
+    {
+      "type": "icon_button",
+      "id": "tier",
+      "text": {
+        "translate": "rgp_client.gui.worlds_creation.tier"
+      },
+      "icon": "rgp_client:textures/gui/button/button_dirt.png",
+      "position": {
+        "x": 87,
+        "y": 120,
+        "pivot": "top_left"
+      },
+      "options": {
+        "width": 100,
+        "height": 20
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_creation_tier",
+        "pass_storage": true
+      }
+    },
+    {
+      "type": "icon_button",
+      "id": "checkout",
+      "text": {
+        "translate": "rgp_client.gui.worlds_creation.checkout"
+      },
+      "icon": "rgp_client:textures/gui/button/button_dirt_selected.png",
+      "position": {
+        "x": 87,
+        "y": 150,
+        "pivot": "top_left"
+      },
+      "options": {
+        "width": 100,
+        "height": 20
+      }
+    },
+    {
+      "type": "image",
+      "id": "logo",
+      "icon": "rgp_client:textures/gui/ftb_worlds_logo.png",
+      "options": {
+        "width": 112,
+        "height": 56
+      },
+      "position": {
+        "x": 0,
+        "y": -6,
+        "pivot": "top_center"
+      }
+    }
+  ]
+}

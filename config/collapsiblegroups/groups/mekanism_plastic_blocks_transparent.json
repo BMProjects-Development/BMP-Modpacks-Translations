@@ -1,0 +1,19 @@
+{
+  "id": "mekanism_plastic_blocks_transparent",
+  "name": {
+    "translate": "collapsible_groups.group.mekanism_plastic_blocks_transparent",
+    "fallback": "Mekanism: Plastic Blocks (Transparent)"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "mekanismadditions"
+      },
+      {
+        "item_path_ends_with": "_plastic_transparent"
+      }
+    ]
+  }
+}

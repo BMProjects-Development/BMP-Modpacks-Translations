@@ -1,0 +1,14 @@
+{
+  "id": "bibliocraft_mangrove_display_cases",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_mangrove_display_cases",
+    "fallback": "BiblioCraft: Mangrove Display Cases"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "bibliocraft" },
+      { "item_path_ends_with": "_mangrove_display_case" }
+    ]
+  }
+}

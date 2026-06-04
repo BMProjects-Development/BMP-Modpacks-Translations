@@ -1,0 +1,15 @@
+{
+  "id": "connected_glass_connecting_glass_panes",
+  "name": {
+    "translate": "collapsible_groups.group.connected_glass_connecting_glass_panes",
+    "fallback": "Connected Glass: Connecting Glass Panes"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "connectedglass" },
+      { "item_path_starts_with": "borderless_glass" },
+      { "item_path_ends_with": "_pane" }
+    ]
+  }
+}

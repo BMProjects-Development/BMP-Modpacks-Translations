@@ -1,0 +1,19 @@
+{
+  "id": "mekanism_balloon",
+  "name": {
+    "translate": "collapsible_groups.group.mekanism_balloon",
+    "fallback": "Mekanism: Balloon"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "mekanismadditions"
+      },
+      {
+        "item_path_ends_with": "balloon"
+      }
+    ]
+  }
+}

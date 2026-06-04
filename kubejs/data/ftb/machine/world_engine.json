@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "ftb.machine.world_engine"
+    "text": {
+      "translate": "ftb.machine.world_engine"
+    }
   },
   "appearance": {
     "running": {
@@ -30,7 +32,6 @@
   "components": [
     {
       "type": "custommachinery:contraption",
-      "stress_impact": 0.0,
       "config": {
         "TOP": "DISABLED",
         "BOTTOM": "ENABLED",
@@ -52,7 +53,8 @@
         "LEFT": "INPUT",
         "input": true
       },
-      "capacity": 250000
+      "capacity": 250000,
+      "max_input": 8000000
     },
     {
       "type": "custommachinery:fluid",
@@ -73,20 +75,13 @@
         "LEFT": "BOTH"
       },
       "unique": true,
+      "blacklist": "#mffs:fortron",
       "id": "fluid_input_2",
       "capacity": 10000
     },
     {
       "type": "custommachinery:heat",
       "insulation": 1000.0,
-      "config": {
-        "TOP": "ENABLED",
-        "BOTTOM": "ENABLED",
-        "FRONT": "ENABLED",
-        "RIGHT": "ENABLED",
-        "BACK": "ENABLED",
-        "LEFT": "ENABLED"
-      },
       "capacity": 10000.0
     },
     {
@@ -150,6 +145,21 @@
       "mode": "output"
     },
     {
+      "type": "custommachinery:item_upgrade",
+      "max_output": 0,
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "energy_upgrade",
+      "mode": "none",
+      "capacity": 16
+    },
+    {
       "type": "custommachinery:source",
       "capacity": 100000,
       "max_input": 10000,
@@ -173,10 +183,10 @@
       "texture": {
         "texture": "ftb:textures/gui/base_config.png"
       },
-      "x": 107,
-      "y": 51,
-      "width": 18,
-      "height": 18
+      "x": 54,
+      "y": 74,
+      "width": 16,
+      "height": 16
     },
     {
       "type": "custommachinery:dump",
@@ -264,6 +274,26 @@
       },
       "texture_filled": {
         "texture": "ftb:textures/gui/base_progress_filled.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_upgrade",
+      "priority": 1,
+      "texture": {
+        "texture": "ftb:textures/gui/base_slot.png"
+      },
+      "x": 108,
+      "y": 43,
+      "width": 18,
+      "height": 18,
+      "ghost": {
+        "items": {
+          "item": "draconicevolution:wyvern_core"
+        },
+        "color": {
+          "alpha": 0.4
+        }
       }
     },
     {

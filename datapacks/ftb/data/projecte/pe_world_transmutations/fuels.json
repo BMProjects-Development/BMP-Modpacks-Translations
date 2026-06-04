@@ -1,4 +1,10 @@
 {
+    "neoforge:conditions": [
+      {
+        "type": "neoforge:mod_loaded",
+        "modid": "redacted"
+      }
+    ],
     "comment": "Default world transmutations for ProjectE's Fuels.",
     "transmutations": [
 

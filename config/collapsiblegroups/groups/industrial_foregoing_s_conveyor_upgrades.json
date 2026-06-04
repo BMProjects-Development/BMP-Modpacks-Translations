@@ -1,0 +1,40 @@
+{
+  "id": "industrial_foregoing_s_conveyor_upgrades",
+  "name": {
+    "translate": "collapsible_groups.group.industrial_foregoing_s_conveyor_upgrades",
+    "fallback": "Industrial Foregoing\u0027s Conveyor Upgrades"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"industrialforegoing:conveyor_extraction_upgrade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"industrialforegoing:conveyor_insertion_upgrade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"industrialforegoing:conveyor_detection_upgrade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"industrialforegoing:conveyor_bouncing_upgrade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"industrialforegoing:conveyor_dropping_upgrade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"industrialforegoing:conveyor_blinking_upgrade\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"industrialforegoing:conveyor_splitting_upgrade\"}"
+      }
+    ]
+  }
+}

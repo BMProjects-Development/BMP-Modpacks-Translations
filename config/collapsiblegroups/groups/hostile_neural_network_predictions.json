@@ -1,0 +1,12 @@
+{
+  "id": "hostile_neural_network_predictions",
+  "name": {
+    "translate": "collapsible_groups.group.hostile_neural_network_predictions",
+    "fallback": "Hostile Neural Networks: Predictions"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "hostilenetworks:prediction"
+  }
+}

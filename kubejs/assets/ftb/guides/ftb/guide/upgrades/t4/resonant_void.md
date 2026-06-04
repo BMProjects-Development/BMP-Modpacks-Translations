@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - ftb:resonant_void
 ---
-# Resonant Void Upgrade
+# <Color id="gold">Resonant Void Upgrade</Color>
 
 <ItemImage id="ftb:resonant_void" scale="3" />
 
@@ -15,7 +15,7 @@ The <Color id="light_purple">Resonant Void</Color> is a major upgrade that unloc
 
 This upgrade will also need the <Color id="red">Advanced Machine Block</Color> upgrade for its recipe unlocks.
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="justdirethings:time_crystal" />

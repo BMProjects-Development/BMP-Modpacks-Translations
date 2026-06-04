@@ -1,0 +1,19 @@
+{
+  "id": "create_nuclear_radiation_helmet",
+  "name": {
+    "translate": "collapsible_groups.group.create_nuclear_radiation_helmet",
+    "fallback": "Create Nuclear: Radiation Helmet"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "item_path_ends_with": "radiation_helmet"
+      },
+      {
+        "type": "item",
+        "namespace": "createnuclear"
+      }
+    ]
+  }
+}

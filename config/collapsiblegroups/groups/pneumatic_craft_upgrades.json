@@ -1,0 +1,26 @@
+{
+  "id": "pneumatic_craft_upgrades",
+  "name": {
+    "translate": "collapsible_groups.group.pneumatic_craft_upgrades",
+    "fallback": "Pneumatic Craft: Upgrades"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "pneumaticcraft"
+      },
+      {
+        "any": [
+          {
+            "item_path_ends_with": "upgrade"
+          },
+          {
+            "item_path_starts_with": "jumping"
+          }
+        ]
+      }
+    ]
+  }
+}

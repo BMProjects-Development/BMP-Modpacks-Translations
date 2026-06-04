@@ -7,13 +7,13 @@ navigation:
 item_ids:
   - ftb:spirit_block
 ---
-# Spirit Block Upgrade
+# <Color id="green">Spirit Block Upgrade</Color>
 
 <ItemImage id="ftb:spirit_block" scale="3" />
 
 The <Color id="light_purple">Spirit Block</Color> is a minor upgrade that unlocks a few soul related unlocks in the <Color id="gold">World Engine</Color>, including the <Color id="light_purple">Vitality Blade</Color>.
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="deepdarkdimdungeons:deep_dark_catalyst" />

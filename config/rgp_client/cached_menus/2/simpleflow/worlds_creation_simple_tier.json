@@ -1,0 +1,144 @@
+{
+  "type": "list",
+  "id": "worlds_creation_simple_tier",
+  "title": "Worlds Creation",
+  "back": {
+    "action": "open_screen",
+    "id": "worlds_creation_simple",
+    "pass_storage": true
+  },
+  "entries": [
+  ],
+  "elements": [
+    {
+      "type": "text",
+      "id": "title",
+      "text": {
+        "translate": "rgp_client.gui.worlds_creation.select_billing_cycle"
+      },
+      "alignment": "center",
+      "position": {
+        "x": 0,
+        "y": 15,
+        "pivot": "top_center"
+      }
+    },
+    {
+      "type": "panel_list",
+      "id": "tier_selection_panel",
+      "scroll": true,
+      "render_background": false,
+      "elements": [
+      ],
+      "entry_loader": {
+        "type": "modpack_tier_entry",
+        "widget_height": 80,
+        "entry_template": {
+          "id": "$priceTierName",
+          "elements": [
+            {
+              "type": "image",
+              "id": "tier_icon",
+              "icon": "$priceAssetUrl",
+              "hover_border": true,
+              "position": {
+                "x": 0,
+                "y": -15,
+                "pivot": "center"
+              },
+              "options": {
+                "width": 96,
+                "height": 96
+              },
+              "callback": {
+                "action": "store_variables",
+                "variables": [
+                  {
+                    "key": "selectedPriceTierName",
+                    "value": "$priceTierName"
+                  },
+                  {
+                    "key": "selectedPriceTierPeriod",
+                    "value": "$priceTierPeriod"
+                  },
+                  {
+                    "key": "selectedPriceCost",
+                    "value": "$priceCost"
+                  },
+                  {
+                    "key": "selectedPriceCurrency",
+                    "value": "$priceCurrency"
+                  }
+                ],
+                "on_complete": {
+                  "action": "open_screen",
+                  "id": "worlds_creation_simple_checkout",
+                  "pass_storage": true
+                }
+              }
+            },
+            {
+              "type": "text",
+              "id": "tier_cost",
+              "text": {
+                "text": "$priceCost $priceCurrency",
+                "color": "yellow",
+                "extra": [
+                  {
+                    "text": "/",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "$priceTierPeriod",
+                    "color": "yellow"
+                  }
+                ]
+              },
+              "formatter": "currency",
+              "alignment": "center",
+              "position": {
+                "x": 0,
+                "y": 41,
+                "pivot": "center"
+              },
+              "options": {
+                "width": 125,
+                "height": 80
+              }
+            }
+          ]
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "pivot": "top_left"
+      },
+      "end_position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "simple_button",
+      "id": "back",
+      "text": {
+        "translate": "gui.back"
+      },
+      "options": {
+        "width": 200,
+        "height": 20
+      },
+      "position": {
+        "x": 0,
+        "y": -10,
+        "pivot": "bottom_center"
+      },
+      "callback": {
+        "action": "open_screen",
+        "id": "worlds_creation_simple",
+        "pass_storage": true
+      }
+    }
+  ]
+}

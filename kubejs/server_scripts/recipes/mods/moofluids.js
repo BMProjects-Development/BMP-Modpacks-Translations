@@ -91,6 +91,7 @@ const transmuteCow = function (
 
   // Transform
   event.level.server.scheduleInTicks(wiggleTicks, (_) => {
+    if (cow.isRemoved()) return;
     const ex = cow.x;
     const ey = cow.y + 0.1;
     const ez = cow.z;
@@ -101,16 +102,17 @@ const transmuteCow = function (
     } catch (e) {
       event.server.runCommandSilent(
         "summon tnt " +
-          ex.toFixed(2) +
-          " " +
-          ey.toFixed(2) +
-          " " +
-          ez.toFixed(2) +
-          " {Fuse:0b}"
+        ex.toFixed(2) +
+        " " +
+        ey.toFixed(2) +
+        " " +
+        ez.toFixed(2) +
+        " {Fuse:0b}"
       );
     }
 
     cow.discard();
+
 
     // Spawn baby cow after the boom resolves
     event.level.server.scheduleInTicks(2, (_) => {
@@ -185,51 +187,51 @@ const transmuteCow = function (
 };
 
 // ---- Single universal cow interaction ----
-ItemEvents.entityInteracted(function (event) {
-  // Server side only and main hand only to avoid double fire
-  if (event.level.isClientSide()) return;
-  if (String(event.hand || "") !== "MAIN_HAND") return;
+// ItemEvents.entityInteracted(function (event) {
+//   // Server side only and main hand only to avoid double fire
+//   if (event.level.isClientSide()) return;
+//   if (String(event.hand || "") !== "MAIN_HAND") return;
 
-  if (event.target.type !== "minecraft:cow") return;
-  if (!event.item || event.item.empty) return;
+//   if (event.target.type !== "minecraft:cow") return;
+//   if (!event.item || event.item.empty) return;
 
-  // Prevent multi-feed: lock the cow after first valid feed
-  var cow = event.target;
-  var lockKey = "ftb_transmute_locked";
-  if (cow.persistentData.getBoolean(lockKey)) {
-    event.player.tell(Text.translate("ftb.clapple.transmutation.in_progress"));
-    return;
-  }
+//   // Prevent multi-feed: lock the cow after first valid feed
+//   var cow = event.target;
+//   // var lockKey = "ftb_transmute_locked";
+//   // if (cow.persistentData.getBoolean(lockKey)) {
+//   //   event.player.tell(Text.translate("ftb.clapple.transmutation.in_progress"));
+//   //   return;
+//   // }
 
-  var id = String(event.item.id);
-  var matched = null;
-  for (var i = 0; i < global.COW_TRANSMUTE_RULES.length; i++) {
-    if (global.COW_TRANSMUTE_RULES[i].item === id) {
-      matched = global.COW_TRANSMUTE_RULES[i];
-      break;
-    }
-  }
-  if (!matched) return;
+//   var id = String(event.item.id);
+//   var matched = null;
+//   for (var i = 0; i < global.COW_TRANSMUTE_RULES.length; i++) {
+//     if (global.COW_TRANSMUTE_RULES[i].item === id) {
+//       matched = global.COW_TRANSMUTE_RULES[i];
+//       break;
+//     }
+//   }
+//   if (!matched) return;
 
-  var fluidOut = pickFluidFromRule(matched);
-  if (!fluidOut) return;
+//   var fluidOut = pickFluidFromRule(matched);
+//   if (!fluidOut) return;
 
-  // Lock immediately to avoid any race with fast clicks or multiple players
-  cow.persistentData.putBoolean(lockKey, true);
+//   // Lock immediately to avoid any race with fast clicks or multiple players
+//   // cow.persistentData.putBoolean(lockKey, true);
 
-  // consume the item unless creative
-  if (!event.player.isCreative()) {
-    event.item.count--;
-  }
+//   // consume the item unless creative
+//   if (!event.player.isCreative()) {
+//     event.item.count--;
+//   }
 
-  transmuteCow(
-    event,
-    cow,
-    fluidOut,
-    "ftb.clapple.transmutation.start",
-    "ftb.clapple.transmutation.complete"
-  );
-});
+//   transmuteCow(
+//     event,
+//     cow,
+//     fluidOut,
+//     "ftb.clapple.transmutation.start",
+//     "ftb.clapple.transmutation.complete"
+//   );
+// });
 
 // ---- MooFluids alloy breeding recipe generation (kept) ----
 const cow_recipes = [
@@ -341,12 +343,12 @@ ServerEvents.recipes((event) => {
 
     console.log(
       "Added a Cow Breeding Recipe for " +
-        cow.result.split(":")[1].split("molten_")[1] +
-        " [" +
-        cow.parent_1 +
-        ", " +
-        cow.parent_2 +
-        "]"
+      cow.result.split(":")[1].split("molten_")[1] +
+      " [" +
+      cow.parent_1 +
+      ", " +
+      cow.parent_2 +
+      "]"
     );
   }
 });
@@ -384,6 +386,7 @@ ItemEvents.entityInteracted(function (event) {
   player.level.playSound(null, cow.x, cow.y, cow.z, SoundEvents.COW_AMBIENT, SoundSource.PLAYERS, 0.9, 0.9 + Math.random() * 0.2);
 
   // === Helper: reliable item entity spawn ===
+  const Vec3 = Java.loadClass("net.minecraft.world.phys.Vec3");
   function spawnItemEntity(idOrItem, count, x, y, z) {
     try {
       var it = count != null ? Item.of(idOrItem, count) : Item.of(idOrItem);
@@ -392,7 +395,7 @@ ItemEvents.entityInteracted(function (event) {
       e.y = y;
       e.z = z;
       e.item = it;
-      e.setDeltaMovement((Math.random() - 0.5) * 0.2, 0.2 + Math.random() * 0.15, (Math.random() - 0.5) * 0.2);
+      e.setDeltaMovement(new Vec3((Math.random() - 0.5) * 0.2, 0.2 + Math.random() * 0.15, (Math.random() - 0.5) * 0.2));
       e.spawn();
       return true;
     } catch (err) {
@@ -401,7 +404,7 @@ ItemEvents.entityInteracted(function (event) {
     }
   }
 
-  
+
 // === Helper: place meat blocks in air around a point ===
 function placeMeatInAirAround(cx, cy, cz, placements, radius) {
   var MEAT_BLOCK_ID = "productivemetalworks:meat";
@@ -535,63 +538,289 @@ function placeMeatInAirAround(cx, cy, cz, placements, radius) {
 });
 
 // --- Revert fluid cow back to a normal cow with a milk bucket ---
-ItemEvents.entityInteracted(function (event) {
-  // Server only + main hand to prevent double fires
-  if (event.level.isClientSide()) return;
-  if (String(event.hand || "") !== "MAIN_HAND") return;
+// ItemEvents.entityInteracted(function (event) {
+//   // Server only + main hand to prevent double fires
+//   if (event.level.isClientSide()) return;
+//   if (String(event.hand || "") !== "MAIN_HAND") return;
 
-  // Need a milk bucket in hand and a fluid cow target
-  if (!event.item || event.item.empty) return;
-  if (String(event.item.id) !== "minecraft:milk_bucket") return;
-  if (event.target.type !== "moofluids:fluid_cow") return;
+//   // Need a milk bucket in hand and a fluid cow target
+//   if (!event.item || event.item.empty) return;
+//   if (String(event.item.id) !== "minecraft:milk_bucket") return;
+//   if (event.target.type !== "moofluids:fluid_cow") return;
 
-  const player = event.player;
-  const level = event.level;
-  const cow = event.target;
+//   const player = event.player;
+//   const level = event.level;
+//   const cow = event.target;
 
-  const SoundEvents = Java.loadClass("net.minecraft.sounds.SoundEvents");
-  const SoundSource = Java.loadClass("net.minecraft.sounds.SoundSource");
+//   const SoundEvents = Java.loadClass("net.minecraft.sounds.SoundEvents");
+//   const SoundSource = Java.loadClass("net.minecraft.sounds.SoundSource");
 
-  // Swap milk bucket -> empty bucket (unless creative)
-  if (!player.isCreative()) {
-    // Consume the milk bucket in hand
-    event.item.count--;
-    // Give an empty bucket back
-    player.give("minecraft:bucket");
+//   // Swap milk bucket -> empty bucket (unless creative)
+//   if (!player.isCreative()) {
+//     // Consume the milk bucket in hand
+//     event.item.count--;
+//     // Give an empty bucket back
+//     player.give("minecraft:bucket");
+//   }
+
+//   // Position before removing
+//   const x = cow.x;
+//   const y = cow.y;
+//   const z = cow.z;
+
+//   // Particles: happy + poof to sell the "cure" vibe
+//   level.spawnParticles("minecraft:happy_villager", true, x, y + 1, z, 0.6, 0.6, 0.6, 20, 0.25);
+//   level.spawnParticles("minecraft:poof", true, x, y + 0.6, z, 0.4, 0.4, 0.4, 10, 0.0);
+
+//   // Sound: villager cure chime
+//   player.level.playSound(
+//     null,
+//     x,
+//     y,
+//     z,
+//     SoundEvents.TOTEM_USE,
+//     SoundSource.PLAYERS,
+//     1.0,
+//     1.0
+//   );
+
+//   // Remove the fluid cow and spawn a vanilla cow
+//   cow.discard();
+
+//   let vanillaCow = level.createEntity("minecraft:cow");
+//   vanillaCow.setPos(x, y, z);
+//   // Ensure adult cow
+//   vanillaCow.mergeNbt({ Age: 0 });
+//   vanillaCow.spawn();
+
+//   // Notify player with a lang key
+//   player.tell(Text.translate("ftb.clapple.transmutation.reverted").green());
+
+//   console.log("Reverted a MooFluids Fluid Cow to a vanilla cow at " + x + ", " + y + ", " + z);
+// });
+
+
+// ItemEvents.entityInteracted("ftb:clapple",(event) => {
+//   // Server side only and main hand only to avoid double fire
+//   if (event.level.isClientSide()) return;
+
+//   let item = event.getPlayer().getItemInHand(event.getHand())
+
+//   if (item.isEmpty()) return;
+//   let entity = event.getEntity()
+//   if (entity.getType() != "minecraft:cow") return;
+//   if (entity.hasEffect("ftb:clapple_transmute")) return;
+
+
+
+//   for (var i = 0; i < global.COW_TRANSMUTE_RULES.length; i++) {
+//     if (global.COW_TRANSMUTE_RULES[i].item === id) {
+//       matched = global.COW_TRANSMUTE_RULES[i];
+//       break;
+//     }
+//   }
+//   if (!matched) return;
+
+//   var fluidOut = pickFluidFromRule(matched);
+//   if (!fluidOut) return;
+
+//   // Lock immediately to avoid any race with fast clicks or multiple players
+//   // cow.persistentData.putBoolean(lockKey, true);
+
+//   // consume the item unless creative
+//   if (!event.player.isCreative()) {
+//     event.item.count--;
+//   }
+//   event.success
+//   entity.addEffect(MobEffectUtil.of("ftb:clapple_transmute", 160, 1, false, false, false).getEffect())
+//   // transmuteCow(
+//   //   event,
+//   //   cow,
+//   //   fluidOut,
+//   //   "ftb.clapple.transmutation.start",
+//   //   "ftb.clapple.transmutation.complete"
+//   // );
+// });
+
+
+let CowRandom = Utils.getRandom().fork()
+NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.PlayerInteractEvent$EntityInteract", (event) => {
+  let stack = event.getItemStack();
+  let key = stack.getItem().getKey();
+  let entity = event.getTarget();
+  let player = event.getEntity();
+  let hand = event.getHand();
+  let interaction = event.getCancellationResult()
+
+
+
+  let rule;
+  if (global["$$TransmutationRules"][player.getMainHandItem().getIdLocation()] != null) {
+    
+    if (hand == "OFF_HAND") return;
+    rule = global["$$TransmutationRules"][player.getMainHandItem().getIdLocation()]
+  } else if (global["$$TransmutationRules"][player.getOffHandItem().getIdLocation()] != null) {
+    if (hand == "MAIN_HAND") return;
+    rule = global["$$TransmutationRules"][player.getOffHandItem().getIdLocation()]
   }
 
-  // Position before removing
-  const x = cow.x;
-  const y = cow.y;
-  const z = cow.z;
 
-  // Particles: happy + poof to sell the "cure" vibe
-  level.spawnParticles("minecraft:happy_villager", true, x, y + 1, z, 0.6, 0.6, 0.6, 20, 0.25);
-  level.spawnParticles("minecraft:poof", true, x, y + 0.6, z, 0.4, 0.4, 0.4, 10, 0.0);
 
-  // Sound: villager cure chime
-  player.level.playSound(
-    null,
-    x,
-    y,
-    z,
-    SoundEvents.TOTEM_USE,
-    SoundSource.PLAYERS,
-    1.0,
-    1.0
-  );
+  if (entity.getType() == "minecraft:cow") {
+    if (entity.hasEffect("ftb:cow_transmute")) {
+      if (player.level.isClientSide()) {
+        player.sendSystemMessage(Text.translate("ftb.clapple.transmutation.in_progress"))
+      }
+      return;
+    };
+    if (rule == null) return;
+    let fluidStack = null;
+    if (rule.type == "weighted") {
+      let list = $WeightedEntryJS.fromJsonArray(Object.entries(rule).find((value) => value[0] != "type")[1])
+      fluidStack = $WeightedRandomJS.getRandomItem(CowRandom, list)
+    } else if (rule.type == "static") {
+      fluidStack = rule.fluid
+    }
 
-  // Remove the fluid cow and spawn a vanilla cow
-  cow.discard();
+    if (fluidStack == null) return;
 
-  let vanillaCow = level.createEntity("minecraft:cow");
-  vanillaCow.setPos(x, y, z);
-  // Ensure adult cow
-  vanillaCow.mergeNbt({ Age: 0 });
-  vanillaCow.spawn();
 
-  // Notify player with a lang key
-  player.tell(Text.translate("ftb.clapple.transmutation.reverted").green());
+    entity.persistentData.putString("TransformTo", fluidStack)
+    entity.addEffect(MobEffectUtil.of("ftb:cow_transmute", 160, 1, false, false, true))
+    let old_stack = stack.consumeAndReturn(1, player)
+    if (old_stack.getIdLocation() == "minecraft:water_bucket" && stack.isEmpty()) {
+      player.give("minecraft:bucket");
+    }
+  } else if (entity.getType() == "moofluids:fluid_cow") {
+    if (entity.hasEffect("ftb:cow_transmute")) {
+      if (player.level.isClientSide()) {
+        player.sendSystemMessage(Text.translate("ftb.clapple.transmutation.in_progress"))
+      }
+      return;
+    };
+    if (stack.getIdLocation() == "minecraft:milk_bucket") {
+      entity.addEffect(MobEffectUtil.of("ftb:cow_transmute", 10, 1, false, false, true))
+      stack.consume(1, player)
+      // player.tell(stack)
+      if (stack.isEmpty()) {
+        player.give("minecraft:bucket")
+      }
+      
+    } else {
+      return;
+    }
+  } else {
+    return;
+  }
 
-  console.log("Reverted a MooFluids Fluid Cow to a vanilla cow at " + x + ", " + y + ", " + z);
-});
+  if (!player.level.isClientSide()) {
+    player.level.playSound(null, entity.getX(), entity.getY(), entity.getZ(), SoundEvents.ZOMBIE_VILLAGER_CURE, "PLAYERS", 1.0, 1.0);
+    player.sendSystemMessage(Text.translate("ftb.clapple.transmutation.start"))
+  }
+  event.setCancellationResult(interaction.sidedSuccess(player.level.isClientSide()))
+  event.setCanceled(true)
+})
+
+NativeEvents.onEvent("net.neoforged.neoforge.event.entity.living.MobEffectEvent$Expired", (event) => {
+  if (event.getEffectInstance().getEffect().getRegisteredName() != "ftb:cow_transmute") return;
+
+  let entity = event.getEntity();
+  if (entity == null) return;
+
+  let level = entity.getLevel();
+  if (level == null) return;
+
+  let new_cow;
+
+  if (entity.getType() == "moofluids:fluid_cow") {
+    new_cow = level.createEntity("minecraft:cow")
+    new_cow.mergeNbt({ Age: 0 });
+    new_cow.setPos(entity.getX(), entity.getY(), entity.getZ());
+    level.getBlock(entity.blockPosition()).getPlayersInRadius(8).tell(
+      Text.translate("ftb.clapple.transmutation.reverted").green()
+    )
+  } else if (entity.getType() == "minecraft:cow") {
+    let fluidStack = entity.persistentData.getString("TransformTo");
+    if (fluidStack == null) return;
+    new_cow = level.createEntity("moofluids:fluid_cow");
+    new_cow.mergeNbt({ FluidRegistryName: fluidStack, Age: -6000 });
+    new_cow.setPos(entity.getX(), entity.getY(), entity.getZ());
+    level.getBlock(entity.blockPosition()).getPlayersInRadius(8).tell(
+      Text.translate("ftb.clapple.transmutation.complete", Fluid.of(fluidStack).getHoverName()).gold()
+    )
+  } else {
+    return;
+  }
+
+  entity.discard()
+
+  let entity_x = new_cow.getX()
+  let entity_y = new_cow.getY()
+  let entity_z = new_cow.getZ()
+
+  if (new_cow.getType() == "moofluids:fluid_cow") {
+    level.spawnParticles("minecraft:explosion_emitter", true, entity_x, entity_y + 0.2, entity_z, 0.0, 0.0, 0.0, 1, 0.0);
+    level.spawnParticles("minecraft:smoke", true, entity_x, entity_y + 0.4, entity_z, 1.2, 0.8, 1.2, 40, 0.02);
+
+    level.playSound(null, entity_x, entity_y, entity_z, SoundEvents.GENERIC_EXPLODE, "PLAYERS", 1.6, 1.0);
+    level.playSound(null, entity_x, entity_y, entity_z, SoundEvents.COW_HURT, "PLAYERS", 1.4, 0.5);
+  } else if (new_cow.getType() == "minecraft:cow") {
+    level.spawnParticles("minecraft:happy_villager", true, entity_x, entity_y + 1, entity_z, 0.6, 0.6, 0.6, 20, 0.25);
+    level.spawnParticles("minecraft:poof", true, entity_x, entity_y + 0.6, entity_z, 0.4, 0.4, 0.4, 10, 0.0);
+
+    level.playSound(null, entity_x, entity_y, entity_z, SoundEvents.TOTEM_USE, SoundSource.PLAYERS, 1.0, 1.0);
+  }
+  new_cow.spawn()
+})
+
+ItemEvents.entityInteracted("refinedstorage_mekanism_integration:1024b_chemical_storage_block",(event)=>{
+  event.success()
+})
+
+
+// ---- Single universal cow interaction ----
+// ItemEvents.entityInteracted(function (event) {
+//   // Server side only and main hand only to avoid double fire
+//   if (event.level.isClientSide()) return;
+//   if (String(event.hand || "") !== "MAIN_HAND") return;
+
+//   if (event.target.type !== "minecraft:cow") return;
+//   if (!event.item || event.item.empty) return;
+
+//   // Prevent multi-feed: lock the cow after first valid feed
+//   var cow = event.target;
+//   // var lockKey = "ftb_transmute_locked";
+//   // if (cow.persistentData.getBoolean(lockKey)) {
+//   //   event.player.tell(Text.translate("ftb.clapple.transmutation.in_progress"));
+//   //   return;
+//   // }
+
+//   var id = String(event.item.id);
+//   var matched = null;
+//   for (var i = 0; i < global.COW_TRANSMUTE_RULES.length; i++) {
+//     if (global.COW_TRANSMUTE_RULES[i].item === id) {
+//       matched = global.COW_TRANSMUTE_RULES[i];
+//       break;
+//     }
+//   }
+//   if (!matched) return;
+
+//   var fluidOut = pickFluidFromRule(matched);
+//   if (!fluidOut) return;
+
+//   // Lock immediately to avoid any race with fast clicks or multiple players
+//   // cow.persistentData.putBoolean(lockKey, true);
+
+//   // consume the item unless creative
+//   if (!event.player.isCreative()) {
+//     event.item.count--;
+//   }
+
+//   transmuteCow(
+//     event,
+//     cow,
+//     fluidOut,
+//     "ftb.clapple.transmutation.start",
+//     "ftb.clapple.transmutation.complete"
+//   );
+// });

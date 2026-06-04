@@ -1,0 +1,19 @@
+{
+  "id": "minecraft_vanilla_bundles",
+  "name": {
+    "translate": "collapsible_groups.group.minecraft_vanilla_bundles",
+    "fallback": "Minecraft: Vanilla Bundles"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "minecraft"
+      },
+      {
+        "item_path_ends_with": "bundle"
+      }
+    ]
+  }
+}

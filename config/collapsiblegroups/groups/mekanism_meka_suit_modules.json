@@ -1,0 +1,19 @@
+{
+  "id": "mekanism_meka_suit_modules",
+  "name": {
+    "translate": "collapsible_groups.group.mekanism_meka_suit_modules",
+    "fallback": "Mekanism: Meka-Suit Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "mekanism"
+      },
+      {
+        "item_path_starts_with": "module"
+      }
+    ]
+  }
+}

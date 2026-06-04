@@ -168,6 +168,7 @@ const addItemTags = [
       "ars_nouveau:enchanters_gauntlet",
       "ftbunearthed:unbreakable_brush",
       "mekanism:meka_tool",
+      "omnitools:omni_vajra",
       "actuallyadditions:drill_light_blue",
       "actuallyadditions:drill_black",
       "actuallyadditions:drill_blue",
@@ -200,6 +201,7 @@ const addItemTags = [
       "twilightforest:knight_phantom_trophy",
       "fdbosses:chesed_trophy",
       "ars_nouveau:wilden_tribute",
+      "minecraft:iron_sword",
     ],
   },
   {
@@ -234,8 +236,62 @@ const addItemTags = [
   },
   {
     tagName: "ftb:mushroom_soils",
-    itemIDs: ["minecraft:mycelium", "minecraft:podzol", "farmersdelight:organic_compost", "twilightforest:uberous_soil"]
+    itemIDs: [
+      "minecraft:mycelium",
+      "minecraft:podzol",
+      "farmersdelight:organic_compost",
+      "twilightforest:uberous_soil",
+    ],
   },
+  { tagName: "chisel:carving/charcoal", itemIDs: ["ftbmaterials:charcoal_block"] },
+  { tagName: "forge:leather", itemIDs: ["minecraft:leather"] },
+  { tagName: "c:leather", itemIDs: ["minecraft:leather"] },
+  {
+    tagName: "ftb:deepslate_blocks",
+    itemIDs: [
+      "minecraft:cobbled_deepslate",
+      "create:small_deepslate_bricks",
+      "create:layered_deepslate",
+      "create:deepslate_pillar",
+      "rechiseled:cobbled_deepslate_beams",
+      "rechiseled:cobbled_deepslate_beams_connecting",
+      "rechiseled:cobbled_deepslate_brick_pattern",
+      "rechiseled:cobbled_deepslate_brick_pattern_connecting",
+      "rechiseled:cobbled_deepslate_brick_paving",
+      "rechiseled:cobbled_deepslate_pillar_connecting",
+      "rechiseled:cobbled_deepslate_pillar",
+      "rechiseled:cobbled_deepslate_paving_connecting",
+      "rechiseled:cobbled_deepslate_paving",
+      "rechiseled:cobbled_deepslate_large_tiles_connecting",
+      "rechiseled:cobbled_deepslate_large_tiles",
+      "rechiseled:cobbled_deepslate_bricks_connecting",
+      "rechiseled:cobbled_deepslate_bricks",
+      "rechiseled:cobbled_deepslate_brick_paving_connecting",
+      "rechiseled:cobbled_deepslate_small_tiles",
+      "rechiseled:cobbled_deepslate_small_tiles_connecting",
+      "rechiseled:cobbled_deepslate_pulverized",
+      "rechiseled:cobbled_deepslate_pulverized_connecting",
+      "rechiseled:cobbled_deepslate_rotated_bricks",
+      "rechiseled:cobbled_deepslate_rotated_bricks_connecting",
+      "rechiseled:cobbled_deepslate_squares",
+      "rechiseled:cobbled_deepslate_squares_connecting",
+      "rechiseled:cobbled_deepslate_stripes",
+      "create:cut_deepslate_bricks",
+      "create:polished_cut_deepslate",
+      "create:cut_deepslate",
+      "minecraft:cracked_deepslate_tiles",
+      "minecraft:deepslate_tiles",
+      "minecraft:cracked_deepslate_bricks",
+      "minecraft:deepslate_bricks",
+      "minecraft:polished_deepslate",
+      "rechiseled:cobbled_deepslate_worn_stripes_connecting",
+      "rechiseled:cobbled_deepslate_worn_stripes",
+      "rechiseled:cobbled_deepslate_tiles_connecting",
+      "rechiseled:cobbled_deepslate_tiles",
+      "rechiseled:cobbled_deepslate_stripes_connecting",
+    ],
+  },
+  { tagName: "minecraft:bookshelf_books", itemIDs: ["powah:book", "solcarrot:food_book"] },
 ];
 
 const removeItemTags = [
@@ -277,9 +333,13 @@ ServerEvents.tags("item", (event) => {
 
   event.add("c:buckets/lava", "chicken_roost:lava_egg");
   event.add("c:buckets/water", "chicken_roost:water_egg");
+
+  event.add("ftb:deepslate_blocks", "#chipped:deepslate");
+
   removeItemTags.forEach((tag) => {
     event.remove(tag.tagName, tag.itemIDs);
   });
+
   event.add("ftb:soulcage_enchantable", ["ftb:soulcage"]);
   event.remove("c:chests", ["projecte:alchemical_chest"]);
   event.add("c:tools/mining_tool", [

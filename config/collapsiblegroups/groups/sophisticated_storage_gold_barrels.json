@@ -1,0 +1,12 @@
+{
+  "id": "sophisticated_storage_gold_barrels",
+  "name": {
+    "translate": "collapsible_groups.group.sophisticated_storage_gold_barrels",
+    "fallback": "Sophisticated Storage: Gold Barrels"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "sophisticatedstorage:gold_barrel"
+  }
+}

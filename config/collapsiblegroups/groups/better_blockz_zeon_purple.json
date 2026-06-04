@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_zeon_purple",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_zeon_purple",
+    "fallback": "Better Blockz: Zeon Purple"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "zeon_purple_"
+      }
+    ]
+  }
+}

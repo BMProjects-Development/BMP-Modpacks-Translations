@@ -1,0 +1,19 @@
+{
+  "id": "excessive_utilities_lapis_caelestis",
+  "name": {
+    "translate": "collapsible_groups.group.excessive_utilities_lapis_caelestis",
+    "fallback": "Excessive Utilities: Lapis Caelestis"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "excessive_utilities"
+      },
+      {
+        "item_path_starts_with": "lapis"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "cookingforblockheads_blue_kitchen",
+  "name": {
+    "translate": "collapsible_groups.group.cookingforblockheads_blue_kitchen",
+    "fallback": "Cooking For Blockheads: Blue Kitchen Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "cookingforblockheads"
+      },
+      {
+        "item_path_starts_with": "blue"
+      }
+    ]
+  }
+}

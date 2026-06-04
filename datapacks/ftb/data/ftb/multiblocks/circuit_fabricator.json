@@ -1,0 +1,35 @@
+{
+  "keys": {
+    "A": {
+      "block": "immersiveengineering:sheetmetal_colored_blue"
+    },
+    "B": {
+      "block": "ae2:quartz_vibrant_glass"
+    },
+    "C": {
+      "block": "ae2:mysterious_cube"
+    }
+  },
+  "origin": {
+    "x": 1,
+    "y": 0,
+    "z": 2
+  },
+  "structure": [
+    [
+      "AAA",
+      "A A",
+      "A A"
+    ],
+    [
+      "ABA",
+      "BCB",
+      "A A"
+    ],
+    [
+      "AAA",
+      "AAA",
+      "A A"
+    ]
+  ]
+}

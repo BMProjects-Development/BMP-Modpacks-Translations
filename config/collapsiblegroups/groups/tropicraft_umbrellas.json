@@ -1,0 +1,19 @@
+{
+  "id": "tropicraft_umbrellas",
+  "name": {
+    "translate": "collapsible_groups.group.tropicraft_umbrellas",
+    "fallback": "Tropicraft: Umbrellas"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "tropicraft"
+      },
+      {
+        "item_path_ends_with": "umbrella"
+      }
+    ]
+  }
+}

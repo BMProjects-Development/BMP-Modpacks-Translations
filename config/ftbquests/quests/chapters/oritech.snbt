@@ -9,27 +9,6 @@
 		id: "oritech:machine_core_7"
 	}
 	id: "1FD2F304ADC237D0"
-	images: [
-		{
-			height: 1.5d
-			image: "xycraft_world:block/connected/glass_viewer_silicon_single"
-			order: -1
-			rotation: 45.0d
-			width: 1.5d
-			x: 9.5d
-			y: 2.0d
-		}
-		{
-			click: "https://moddedmc.org/en/project/oritech/docs/interaction/particle_accelerator"
-			height: 1.0d
-			hover: ["Particle Accelerator Wiki"]
-			image: "jei:textures/jei/atlas/gui/icons/info.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 9.5d
-			y: 2.0d
-		}
-	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -465,6 +444,9 @@
 		}
 		{
 			dependencies: ["091B8E814908DEDF"]
+			icon: {
+				id: "oritech:accelerator_controller"
+			}
 			id: "2C0C63951FDED180"
 			rewards: [
 				{

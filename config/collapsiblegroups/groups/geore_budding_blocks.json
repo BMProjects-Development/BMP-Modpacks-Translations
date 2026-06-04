@@ -1,0 +1,19 @@
+{
+  "id": "geore_budding_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.geore_budding_blocks",
+    "fallback": "GeOre: Budding Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "geore"
+      },
+      {
+        "item_path_starts_with": "budding_"
+      }
+    ]
+  }
+}

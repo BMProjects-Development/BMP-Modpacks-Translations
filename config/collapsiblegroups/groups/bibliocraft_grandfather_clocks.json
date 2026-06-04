@@ -1,0 +1,19 @@
+{
+  "id": "bibliocraft_grandfather_clocks",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_grandfather_clocks",
+    "fallback": "BiblioCraft: Grandfather Clocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "bibliocraft"
+      },
+      {
+        "item_path_ends_with": "_grandfather_clock"
+      }
+    ]
+  }
+}

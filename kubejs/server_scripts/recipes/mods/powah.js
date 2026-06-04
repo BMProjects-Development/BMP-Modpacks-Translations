@@ -34,6 +34,22 @@ ServerEvents.recipes((event) => {
   event
     .custom({
       type: "powah:energizing",
+      energy: 10000,
+      ingredients: [
+        {
+          item: "appflux:redstone_crystal",
+        },
+      ],
+      result: {
+        count: 1,
+        id: "appflux:charged_redstone",
+      },
+    })
+    .id("ftb:powah/orb/charged_redstone_crystal");
+
+  event
+    .custom({
+      type: "powah:energizing",
       energy: 300000,
       ingredients: [
         {

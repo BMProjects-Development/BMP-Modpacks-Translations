@@ -129,6 +129,12 @@ const chickenRecipes = [
         parent_1: "c_gravel",
         parent_2: "c_gray",
         item: "minecraft:flint"
+      },
+      {
+        output: "c_tuff",
+        parent_1: "c_flint",
+        parent_2: "c_stone",
+        item: "minecraft:tuff"
       }
     ]
   },
@@ -190,12 +196,6 @@ const chickenRecipes = [
         parent_1: "c_coal",
         parent_2: "c_quartz",
         item: "minecraft:basalt"
-      },
-      {
-        output: "c_amethystshard",
-        parent_1: "c_ghasttear",
-        parent_2: "c_magenta",
-        item: "minecraft:amethyst_shard"
       },
       {
         output: "c_nickel",
@@ -414,6 +414,18 @@ const chickenRecipes = [
         parent_1: "c_diamond",
         parent_2: "c_netherwart",
         item: "minecraft:ender_pearl"
+      },
+      {
+        output: "c_quartz_enriched_iron",
+        parent_1: "c_certusquartz",
+        parent_2: "c_iron",
+        item: "refinedstorage:quartz_enriched_iron"
+      },
+      {
+        output: "c_quartz_enriched_copper",
+        parent_1: "c_certusquartz",
+        parent_2: "c_copper",
+        item: "refinedstorage:quartz_enriched_copper"
       }
     ]
   },
@@ -453,11 +465,17 @@ const chickenRecipes = [
         item: "minecraft:prismarine_crystals"
       },
       {
-        output: "c_otherstone",
+        output: "c_otherrock",
         parent_1: "c_skystone",
         parent_2: "c_stone",
-        item: "occultism:otherstone"
-      }
+        item: "occultism:otherrock"
+      },
+      {
+        output: "c_amethystshard",
+        parent_1: "c_ghasttear",
+        parent_2: "c_magenta",
+        item: "minecraft:amethyst_shard"
+      },
     ]
   },
   {

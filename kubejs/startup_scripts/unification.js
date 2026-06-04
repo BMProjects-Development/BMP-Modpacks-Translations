@@ -1,23 +1,23 @@
 // priority: 999999
 
 // Tag Prefix
-global.tagPrefix = "c"
+global.tagPrefix = "c";
 
 // Registry Prefix =
-global.registryPrefix = "ftb"
+global.registryPrefix = "ftb";
 
 // Settings
-global.enableClusters = true
-global.enableChunks = true
-global.enableNetherOres = false
-global.enableEndOres = false
+global.enableClusters = true;
+global.enableChunks = true;
+global.enableNetherOres = false;
+global.enableEndOres = false;
 // Disabling Tiny Dusts replaces output with Nuggets
-global.enableTinyDust = false
-global.enableSmallDust = false
+global.enableTinyDust = false;
+global.enableSmallDust = false;
 
 // === FLUIDS ===
-global.fluids = global.fluids || []
-global.fluidMod = "tinkers"
+global.fluids = global.fluids || [];
+global.fluidMod = "tinkers";
 global.fluidAmounts = [
   // Tag, Output Amount, Secondary Output, Secondary Output Fluid Amount
   ["gears", 180, false],
@@ -27,8 +27,8 @@ global.fluidAmounts = [
   ["plates", 90, false],
   ["raw_materials", 120, true, 10],
   ["storage_blocks", 810, false],
-  ["raw_blocks", 1080, true, 90]
-]
+  ["raw_blocks", 1080, true, 90],
+];
 
 // == Multi Ore Output ===
 /**
@@ -53,8 +53,8 @@ global.secondaryOutputs = [
   ["silver", ["nickel", 0.12, 1], ["minecraft:glowstone_dust", 0.25, 1]],
   ["tin", ["lead", 0.1, 1], ["minecraft:clay_ball", 0.25, 1]],
   ["uranium", ["lead", 0.2, 1], ["minecraft:gunpowder", 0.25, 1]],
-  ["zinc", ["iron", 0.12, 1], ["minecraft:gunpowder", 0.25, 1]]
-]
+  ["zinc", ["iron", 0.12, 1], ["minecraft:gunpowder", 0.25, 1]],
+];
 
 // List of cluster types
 global.clusterTypes = [
@@ -74,8 +74,8 @@ global.clusterTypes = [
   "silver",
   "tin",
   "copper",
-  "aluminum"
-]
+  "aluminum",
+];
 /**
  * Add ores to generate for mods like Actually Additions, Occultism, and Botania.
  *
@@ -105,7 +105,7 @@ global.clusterTypes = [
  *   }
  * }>}
  */
-global.oreGenOres = {}
+global.oreGenOres = {};
 /**
  * A list of resource ore/ingot mappings used for processing or recipe generation.
  *
@@ -120,7 +120,7 @@ global.oreGenOres = {}
  *   materials: string[]
  * }>}
  */
-global.resourceOresIngots = []
+global.resourceOresIngots = [];
 /**
  * List of gem resources used for processing or recipes.
  *
@@ -142,7 +142,7 @@ global.resourceOresIngots = []
  *   >
  * }>}
  */
-global.resourcesOresGem = []
+global.resourcesOresGem = [];
 /**
  * TODO: Add Better Support For This
  */
@@ -155,24 +155,24 @@ global.resourcesOresGemDust = [
   ["c:gems/ruby", "ftbmaterials:ruby_dust", 1],
   ["c:gems/sapphire", "ftbmaterials:sapphire_dust", 1],
   ["c:gems/coal_coke", "ftbmaterials:coal_coke_dust", 1],
-  ["c:gems/sulfur", "ftbmaterials:sulfur_dust", 1]
-]
+  ["c:gems/sulfur", "ftbmaterials:sulfur_dust", 1],
+];
 global.enabledAlloys = [
   {
     first: {
       id: "iron",
-      amount: 2
+      amount: 2,
     },
     second: {
       id: "nickel",
-      amount: 1
+      amount: 1,
     },
     output: {
       id: "invar",
-      amount: 3
-    }
-  }
-]
+      amount: 3,
+    },
+  },
+];
 /**
  * List of enabled gear materials.
  *
@@ -184,7 +184,7 @@ global.enabledAlloys = [
  *
  * @type {Array<[string, (string|undefined)]>}
  */
-global.enabledGears = []
+global.enabledGears = [];
 
 /**
  * List of enabled rod materials.
@@ -197,7 +197,7 @@ global.enabledGears = []
  *
  * @type {Array<[string, (string|undefined)]>}
  */
-global.enabledRods = []
+global.enabledRods = [];
 
 /**
  * List of enabled plate materials.
@@ -210,7 +210,7 @@ global.enabledRods = []
  *
  * @type {Array<[string, (string|undefined)]>}
  */
-global.enabledPlates = []
+global.enabledPlates = [];
 
 /**
  * List of enabled wire materials.
@@ -223,7 +223,7 @@ global.enabledPlates = []
  *
  * @type {Array<[string, (string|undefined)]>}
  */
-global.enabledWires = []
+global.enabledWires = [];
 /**
  * List of slurry materials to register with Mekanism chemical registry.
  *
@@ -240,7 +240,7 @@ global.enabledWires = []
  *
  * @type {Array<[string, number, number]>}
  */
-global.addSlurry = []
+global.addSlurry = [];
 
 /**
  * List of ores that are actively used.
@@ -249,7 +249,7 @@ global.addSlurry = []
  *
  * @type {string[]}
  */
-global.usedOres = []
+global.usedOres = [];
 
 /**
  * List of materials that are actively used.
@@ -258,9 +258,9 @@ global.usedOres = []
  *
  * @type {string[]}
  */
-global.usedMaterials = []
+global.usedMaterials = [];
 
-global.geoOres = []
+global.geoOres = [];
 
 /**
  * List of tag prefixes used to identify if a given input string is a tag.
@@ -269,20 +269,20 @@ global.geoOres = []
  *
  * @type {string[]}
  */
-global.tags = [global.tagPrefix]
+global.tags = [global.tagPrefix];
 
 // Mods
 
 //Manual Additions
-global.enabledPlates.push(["invar"])
+global.enabledPlates.push(["invar"]);
 
 // Minecraft
 if (Platform.isLoaded("minecraft")) {
   global.resourceOresIngots.push({
     modID: "minecraft",
     modPrefixOverride: "minecraft",
-    materials: ["iron", "gold", "copper"]
-  })
+    materials: ["iron", "gold", "copper"],
+  });
   global.resourcesOresGem.push({
     modID: "minecraft",
     materials: [
@@ -291,15 +291,15 @@ if (Platform.isLoaded("minecraft")) {
       ["lapis_lazuli", 8, "minecraft:lapis_lazuli"],
       ["diamond", 2],
       ["emerald", 2],
-      ["quartz", 2]
-    ]
-  })
+      ["quartz", 2],
+    ],
+  });
 
   // Special Ore Type. Need getting added here
   global.usedOres.push({
     modID: "minecraft",
-    material: "ancient_debris"
-  })
+    material: "ancient_debris",
+  });
 
   // Add Ores To Ore Gens
   Object.assign(global.oreGenOres, {
@@ -309,40 +309,40 @@ if (Platform.isLoaded("minecraft")) {
       dimensions_override: ["nether"],
       blockVariants: {
         nether: "minecraft:ancient_debris",
-        storage: "minecraft:ancient_debris"
-      }
+        storage: "minecraft:ancient_debris",
+      },
     },
     coal: {
       weight: 5000,
       blockVariants: {
         stone: "minecraft:coal_ore",
         deepslate: "minecraft:deepslate_coal_ore",
-        storage: "minecraft:coal_block"
-      }
+        storage: "minecraft:coal_block",
+      },
     },
     copper: {
       weight: 2000,
       blockVariants: {
         stone: "minecraft:copper_ore",
         deepslate: "minecraft:deepslate_copper_ore",
-        storage: "minecraft:raw_copper_block"
-      }
+        storage: "minecraft:raw_copper_block",
+      },
     },
     diamond: {
       weight: 150,
       blockVariants: {
         stone: "minecraft:diamond_ore",
         deepslate: "minecraft:deepslate_diamond_ore",
-        storage: "minecraft:diamond_block"
-      }
+        storage: "minecraft:diamond_block",
+      },
     },
     emerald: {
       weight: 130,
       blockVariants: {
         stone: "minecraft:emerald_ore",
         deepslate: "minecraft:deepslate_emerald_ore",
-        storage: "minecraft:emerald_block"
-      }
+        storage: "minecraft:emerald_block",
+      },
     },
     gold: {
       weight: 500,
@@ -350,24 +350,24 @@ if (Platform.isLoaded("minecraft")) {
         stone: "minecraft:gold_ore",
         deepslate: "minecraft:deepslate_gold_ore",
         nether: "minecraft:nether_gold_ore",
-        storage: "minecraft:raw_gold_block"
-      }
+        storage: "minecraft:raw_gold_block",
+      },
     },
     iron: {
       weight: 3000,
       blockVariants: {
         stone: "minecraft:iron_ore",
         deepslate: "minecraft:deepslate_iron_ore",
-        storage: "minecraft:raw_iron_block"
-      }
+        storage: "minecraft:raw_iron_block",
+      },
     },
     lapis: {
       weight: 250,
       blockVariants: {
         stone: "minecraft:lapis_ore",
         deepslate: "minecraft:deepslate_lapis_ore",
-        storage: "minecraft:lapis_block"
-      }
+        storage: "minecraft:lapis_block",
+      },
     },
     quartz: {
       weight: 3000,
@@ -375,26 +375,26 @@ if (Platform.isLoaded("minecraft")) {
       dimensions_override: ["nether"],
       blockVariants: {
         nether: "minecraft:nether_quartz_ore",
-        storage: "minecraft:quartz_block"
-      }
+        storage: "minecraft:quartz_block",
+      },
     },
     redstone: {
       weight: 700,
       blockVariants: {
         stone: "minecraft:redstone_ore",
         deepslate: "minecraft:deepslate_redstone_ore",
-        storage: "minecraft:redstone_block"
-      }
-    }
-  })
+        storage: "minecraft:redstone_block",
+      },
+    },
+  });
 }
 
 // Thermal
 if (Platform.isLoaded("thermal")) {
   global.resourceOresIngots.push({
     modID: "thermal",
-    materials: ["silver", "nickel", "tin", "lead"]
-  })
+    materials: ["silver", "nickel", "tin", "lead"],
+  });
 
   global.resourcesOresGem.push({
     modID: "thermal",
@@ -404,9 +404,9 @@ if (Platform.isLoaded("thermal")) {
       ["apatite", 2],
       ["niter", 2],
       ["sulfur", 2],
-      ["cinnabar", 2]
-    ]
-  })
+      ["cinnabar", 2],
+    ],
+  });
   // Fix This LAter
   //global.enabledAlloys.push("invar", "constantan", "electrum", "bronze", "lumium")
 
@@ -424,38 +424,38 @@ if (Platform.isLoaded("thermal")) {
     ["lumium"],
     ["nickel"],
     ["silver"]
-  )
-  global.enabledPlates.push(["lumium"], ["silver"], ["lead"], ["invar"], ["electrum"], ["constantan"], ["bronze"])
+  );
+  global.enabledPlates.push(["lumium"], ["silver"], ["lead"], ["invar"], ["electrum"], ["constantan"], ["bronze"]);
 }
 
 // Immersive Engineering
 if (Platform.isLoaded("immersiveengineering")) {
   global.resourceOresIngots.push({
     modID: "immersiveengineering",
-    materials: ["aluminum", "nickel"]
-  })
+    materials: ["aluminum", "nickel"],
+  });
 
-  global.enabledWires.push(["lead"])
+  global.enabledWires.push(["lead"]);
 
-  global.addSlurry.push(["aluminum", 0xc3ccd4, 0xd7e3ec], ["nickel", 0xb6b8a4, 0xc4c6b3])
+  global.addSlurry.push(["aluminum", 0xc3ccd4, 0xd7e3ec], ["nickel", 0xb6b8a4, 0xc4c6b3]);
 
-  global.usedMaterials.push("bauxite", "niter", "coal_coke")
+  global.usedMaterials.push("bauxite", "niter", "coal_coke");
 
-  global.usedMaterials.push("steel")
+  global.usedMaterials.push("steel");
   global.enabledAlloys.push({
     first: {
       id: "copper",
-      amount: 1
+      amount: 1,
     },
     second: {
       id: "nickel",
-      amount: 1
+      amount: 1,
     },
     output: {
       id: "constantan",
-      amount: 2
-    }
-  })
+      amount: 2,
+    },
+  });
   global.enabledPlates.push(
     ["silver"],
     ["aluminum"],
@@ -465,43 +465,43 @@ if (Platform.isLoaded("immersiveengineering")) {
     ["bronze"],
     ["constantan"],
     ["lead"]
-  )
-  global.enabledWires.push(["aluminum"], ["copper"], ["electrum"], ["steel"])
-  global.enabledRods.push(["iron"], ["steel"], ["aluminum"], ["netherite"])
+  );
+  global.enabledWires.push(["aluminum"], ["copper"], ["electrum"], ["steel"]);
+  global.enabledRods.push(["iron"], ["steel"], ["aluminum"], ["netherite"], ["copper"]);
 
   Object.assign(global.oreGenOres, {
     nickel: { weight: 2000 },
     silver: { weight: 1000 },
     sulfur: {
       weight: 1000,
-      blockVariants: { storage: "ftbmaterials:sulfur_block" }
+      blockVariants: { storage: "ftbmaterials:sulfur_block" },
     },
-    aluminum: { weight: 1400 }
-  })
+    aluminum: { weight: 1400 },
+  });
 }
 
 // Create
 if (Platform.isLoaded("create")) {
   global.resourceOresIngots.push({
     modID: "create",
-    materials: ["zinc"]
-  })
+    materials: ["zinc"],
+  });
 
-  global.addSlurry.push(["zinc", 0xd8d8c8, 0xcfd1c0])
+  global.addSlurry.push(["zinc", 0xd8d8c8, 0xcfd1c0]);
   global.enabledAlloys.push({
     first: {
       id: "copper",
-      amount: 1
+      amount: 1,
     },
     second: {
       id: "zinc",
-      amount: 1
+      amount: 1,
     },
     output: {
       id: "brass",
-      amount: 2
-    }
-  })
+      amount: 2,
+    },
+  });
   global.enabledPlates.push(
     ["copper"],
     ["gold"],
@@ -509,9 +509,9 @@ if (Platform.isLoaded("create")) {
     ["obsidian", "c:obsidians/normal", false],
     ["brass"],
     ["zinc"]
-  )
+  );
 
-  Object.assign(global.oreGenOres, { zinc: { weight: 1000 } })
+  Object.assign(global.oreGenOres, { zinc: { weight: 1000 } });
 }
 
 // Create Addition
@@ -519,19 +519,19 @@ if (Platform.isLoaded("createaddition")) {
   global.enabledAlloys.push({
     first: {
       id: "gold",
-      amount: 1
+      amount: 1,
     },
     second: {
       id: "silver",
-      amount: 1
+      amount: 1,
     },
     output: {
       id: "electrum",
-      amount: 2
-    }
-  })
-  global.enabledWires.push(["iron"], ["gold"] /*["copper"], ["electrum"]*/)
-  global.enabledRods.push(["gold"], /*["electrum"], ["copper"],*/ ["lumium"])
+      amount: 2,
+    },
+  });
+  global.enabledWires.push(["iron"], ["gold"] /*["copper"], ["electrum"]*/);
+  global.enabledRods.push(["gold"], /*["electrum"], ["copper"],*/ ["lumium"]);
 }
 
 // Embers
@@ -555,7 +555,7 @@ if (Platform.isLoaded("embers")) {
       "embers:molten_uranium_bucket",
       "embers:molten_zinc_bucket",
       "embers:steam_bucket"
-    )
+    );
   }
 }
 
@@ -574,7 +574,7 @@ if (Platform.isLoaded("thermal_extra")) {
       "thermal_extra:raw_tin_bucket",
       "thermal_extra:raw_uranium_bucket",
       "thermal_extra:raw_zinc_bucket"
-    )
+    );
   }
 }
 
@@ -582,33 +582,33 @@ if (Platform.isLoaded("thermal_extra")) {
 if (Platform.isLoaded("mekanism")) {
   global.resourceOresIngots.push({
     modID: "mekanism",
-    materials: ["osmium", "tin", "lead", "uranium"]
-  })
+    materials: ["osmium", "tin", "lead", "uranium"],
+  });
 
   global.resourcesOresGem.push({
     modID: "mekanism",
     materials: [
       ["sulfur", 2, "ftbmaterials:sulfur_dust", false],
       ["fluorite", 2, "ftbmaterials:fluorite_gem", false],
-      ["salt", 2, "ftbmaterials:salt_dust", false]
-    ]
-  })
+      ["salt", 2, "ftbmaterials:salt_dust", false],
+    ],
+  });
 
-  global.usedMaterials.push("refined_glowstone", "refined_obsidian")
+  global.usedMaterials.push("refined_glowstone", "refined_obsidian");
   global.enabledAlloys.push({
     first: {
       id: "copper",
-      amount: 3
+      amount: 3,
     },
     second: {
       id: "tin",
-      amount: 1
+      amount: 1,
     },
     output: {
       id: "bronze",
-      amount: 4
-    }
-  })
+      amount: 4,
+    },
+  });
 
   Object.assign(global.oreGenOres, {
     uranium: { weight: 100 },
@@ -618,39 +618,39 @@ if (Platform.isLoaded("mekanism")) {
     salt: {
       weight: 1000,
       blockVariants: {
-        storage: "ftbmaterials:salt_block"
-      }
+        storage: "ftbmaterials:salt_block",
+      },
     },
     fluorite: {
       weight: 500,
-      blockVariants: { storage: "ftbmaterials:fluorite_block" }
-    }
-  })
+      blockVariants: { storage: "ftbmaterials:fluorite_block" },
+    },
+  });
 }
 
 // Oritech
 if (Platform.isLoaded("oritech")) {
   global.resourceOresIngots.push({
     modID: "oritech",
-    materials: ["platinum"]
-  })
+    materials: ["platinum"],
+  });
 
-  global.addSlurry.push(["platinum", 0xa9adb5, 0xb8beca])
+  global.addSlurry.push(["platinum", 0xa9adb5, 0xb8beca]);
 }
 
 // Occultism
 if (Platform.isLoaded("occultism")) {
   global.resourceOresIngots.push({
     modID: "occultism",
-    materials: ["silver"]
-  })
+    materials: ["silver"],
+  });
 
-  global.addSlurry.push(["silver", 0xbfc4c9, 0xccdae4])
+  global.addSlurry.push(["silver", 0xbfc4c9, 0xccdae4]);
 }
 
 // Modern Industrialization
 if (Platform.isLoaded("modern_industrialization")) {
-  global.enabledRods.push(["copper"], ["iron"], ["bronze"], ["gold"], ["invar"], ["tin"], ["titanium"], ["uranium"])
+  global.enabledRods.push(["copper"], ["iron"], ["bronze"], ["gold"], ["invar"], ["tin"], ["titanium"], ["uranium"]);
 
   global.enabledPlates.push(
     ["bronze"],
@@ -667,14 +667,14 @@ if (Platform.isLoaded("modern_industrialization")) {
     ["stainless_steel"],
     ["emerald", "c:gems/emerald"],
     ["silicon", "c:ingots/silicon"]
-  )
+  );
 
-  global.addSlurry.push(["antimony", 0x9ea1a7, 0x7e838a], ["iridium", 0xb5c6cf, 0x8ea2ab])
+  global.addSlurry.push(["antimony", 0x9ea1a7, 0x7e838a], ["iridium", 0xb5c6cf, 0x8ea2ab]);
 
   global.resourceOresIngots.push({
     modID: "modern_industrialization",
-    materials: ["antimony", "iridium"]
-  })
+    materials: ["antimony", "iridium"],
+  });
 
   global.resourcesOresGem.push({
     modID: "modern_industrialization",
@@ -682,13 +682,13 @@ if (Platform.isLoaded("modern_industrialization")) {
       ["monazite", 2, "ftbmaterials:monazite_dust", false],
       ["tungsten", 2, "ftbmaterials:tungsten_ingot"],
       ["titanium", 2, "ftbmaterials:titanium_raw_ore", false],
-      ["bauxite", 2, "ftbmaterials:bauxite_dust", false]
-    ]
-  })
+      ["bauxite", 2, "ftbmaterials:bauxite_dust", false],
+    ],
+  });
 
-  global.enabledWires.push(["tin"], ["silver"], ["platinum"])
+  global.enabledWires.push(["tin"], ["silver"], ["platinum"]);
 
-  global.usedMaterials.push("titanium", "stainless_steel", "chromium", "plutonium", "iridium")
+  global.usedMaterials.push("titanium", "stainless_steel", "chromium", "plutonium", "iridium");
   // Fix Later
   // global.enabledAlloys.push("invar", "electrum", "bronze")
   global.enabledGears.push(
@@ -701,34 +701,34 @@ if (Platform.isLoaded("modern_industrialization")) {
     ["bronze"],
     ["gold"],
     ["iron"]
-  )
+  );
 
   Object.assign(global.oreGenOres, {
     antimony: { weight: 1700 },
     monazite: {
       weight: 1700,
       blockVariants: {
-        storage: "ftbmaterials:monazite_stone_ore"
-      }
+        storage: "ftbmaterials:monazite_stone_ore",
+      },
     },
     platinum: { weight: 75 },
-    titanium: { weight: 150 }
-  })
+    titanium: { weight: 150 },
+  });
 }
 
 // Industrial Foregoing
 if (Platform.isLoaded("industrialforegoing")) {
-  global.fluids.push("industrialforegoing:raw_ore_meat_bucket")
+  global.fluids.push("industrialforegoing:raw_ore_meat_bucket");
 
-  global.enabledGears.push(["gold"], ["diamond", "c:gems/diamond"], ["iron"])
+  global.enabledGears.push(["gold"], ["diamond", "c:gems/diamond"], ["iron"]);
 }
 
 // Actually Additions
 if (Platform.isLoaded("actuallyadditions")) {
   global.resourcesOresGem.push({
     modID: "actuallyadditions",
-    materials: [["black_quartz", 2, "actuallyadditions:black_quartz", false]]
-  })
+    materials: [["black_quartz", 2, "actuallyadditions:black_quartz", false]],
+  });
 }
 
 // Irons Jewelry
@@ -737,20 +737,20 @@ if (Platform.isLoaded("irons_jewelry")) {
     modID: "irons_jewelry",
     materials: [
       ["sapphire", 2, "ftbmaterials:sapphire_gem"],
-      ["ruby", 2, "ftbmaterials:ruby_gem"]
-    ]
-  })
+      ["ruby", 2, "ftbmaterials:ruby_gem"],
+    ],
+  });
 
   Object.assign(global.oreGenOres, {
     ruby: {
       weight: 250,
-      blockVariants: { storage: "ftbmaterials:ruby_block" }
+      blockVariants: { storage: "ftbmaterials:ruby_block" },
     },
     sapphire: {
       weight: 250,
-      blockVariants: { storage: "ftbmaterials:sapphire_block" }
-    }
-  })
+      blockVariants: { storage: "ftbmaterials:sapphire_block" },
+    },
+  });
 }
 
 if (Platform.isLoaded("xycraft_world")) {
@@ -761,9 +761,9 @@ if (Platform.isLoaded("xycraft_world")) {
       ["xychorium_green", 2, "xycraft_world:xychorium_gem_green", false],
       ["xychorium_red", 2, "xycraft_world:xychorium_gem_red", false],
       ["xychorium_dark", 2, "xycraft_world:xychorium_gem_dark", false],
-      ["xychorium_light", 2, "xycraft_world:xychorium_gem_light", false]
-    ]
-  })
+      ["xychorium_light", 2, "xycraft_world:xychorium_gem_light", false],
+    ],
+  });
 
   Object.assign(global.oreGenOres, {
     xychorium_blue: {
@@ -772,8 +772,8 @@ if (Platform.isLoaded("xycraft_world")) {
       blockVariants: {
         stone: "xycraft_world:xychorium_ore_stone_blue",
         deepslate: "xycraft_world:xychorium_ore_deepslate_blue",
-        storage: "xycraft_world:xychorium_storage_blue"
-      }
+        storage: "xycraft_world:xychorium_storage_blue",
+      },
     },
     xychorium_dark: {
       weight: 250,
@@ -781,8 +781,8 @@ if (Platform.isLoaded("xycraft_world")) {
       blockVariants: {
         stone: "xycraft_world:xychorium_ore_stone_red",
         deepslate: "xycraft_world:xychorium_ore_deepslate_red",
-        storage: "xycraft_world:xychorium_storage_dark"
-      }
+        storage: "xycraft_world:xychorium_storage_dark",
+      },
     },
     xychorium_green: {
       weight: 250,
@@ -790,8 +790,8 @@ if (Platform.isLoaded("xycraft_world")) {
       blockVariants: {
         stone: "xycraft_world:xychorium_ore_stone_red",
         deepslate: "xycraft_world:xychorium_ore_deepslate_red",
-        storage: "xycraft_world:xychorium_storage_green"
-      }
+        storage: "xycraft_world:xychorium_storage_green",
+      },
     },
     xychorium_red: {
       weight: 250,
@@ -799,8 +799,8 @@ if (Platform.isLoaded("xycraft_world")) {
       blockVariants: {
         stone: "xycraft_world:xychorium_ore_stone_red",
         deepslate: "xycraft_world:xychorium_ore_deepslate_red",
-        storage: "xycraft_world:xychorium_storage_red"
-      }
+        storage: "xycraft_world:xychorium_storage_red",
+      },
     },
     xychorium_light: {
       weight: 250,
@@ -808,22 +808,22 @@ if (Platform.isLoaded("xycraft_world")) {
       blockVariants: {
         stone: "xycraft_world:xychorium_ore_stone_light",
         deepslate: "xycraft_world:xychorium_ore_deepslate_light",
-        storage: "xycraft_world:xychorium_storage_light"
-      }
-    }
-  })
+        storage: "xycraft_world:xychorium_storage_light",
+      },
+    },
+  });
 }
 
 // Refined Storage
 if (Platform.isLoaded("refinedstorage")) {
-  global.usedMaterials.push("silicon")
+  global.usedMaterials.push("silicon");
 }
 
 if (Platform.isLoaded("rftoolsbase")) {
   global.resourcesOresGem.push({
     modID: "rftoolsbase",
-    materials: [["dimensional_shard", 5, "ftbmaterials:dimensional_shard_gem"]]
-  })
+    materials: [["dimensional_shard", 5, "ftbmaterials:dimensional_shard_gem"]],
+  });
 }
 
 if (Platform.isLoaded("malum")) {
@@ -834,10 +834,10 @@ if (Platform.isLoaded("malum")) {
       blockVariants: {
         stone: "malum:soulstone_ore",
         deepslate: "malum:deepslate_soulstone_ore",
-        storage: "malum:block_of_raw_soulstone"
-      }
-    }
-  })
+        storage: "malum:block_of_raw_soulstone",
+      },
+    },
+  });
 }
 
 if (Platform.isLoaded("geore")) {
@@ -849,7 +849,7 @@ if (Platform.isLoaded("geore")) {
     ["tungsten", "ftbmaterials:tungsten_ingot", 1],
     ["sapphire", "ftbmaterials:sapphire_gem", 1],
     ["ruby", "ftbmaterials:ruby_gem", 1]
-  )
+  );
 }
 
 if (Platform.isLoaded("mysticalagriculture")) {
@@ -862,8 +862,8 @@ if (Platform.isLoaded("mysticalagriculture")) {
         deepslate: "mysticalagriculture:deepslate_inferium_ore",
         nether: "mysticalagradditions:nether_inferium_ore",
         end: "mysticalagradditions:end_inferium_ore",
-        storage: "mysticalagriculture:inferium_block"
-      }
+        storage: "mysticalagriculture:inferium_block",
+      },
     },
     prosperity_ore: {
       weight: 250,
@@ -873,35 +873,35 @@ if (Platform.isLoaded("mysticalagriculture")) {
         deepslate: "mysticalagriculture:deepslate_prosperity_ore",
         nether: "mysticalagradditions:nether_prosperity_ore",
         end: "mysticalagradditions:end_prosperity_ore",
-        storage: "mysticalagriculture:prosperity_block"
-      }
-    }
-  })
+        storage: "mysticalagriculture:prosperity_block",
+      },
+    },
+  });
 }
 
 // Setup Data For Usage
 
 // Ingot materials (already flat)
 global.resourceOresIngots.forEach(function (resource) {
-  global.usedMaterials.push.apply(global.usedMaterials, resource.materials)
-})
+  global.usedMaterials.push.apply(global.usedMaterials, resource.materials);
+});
 
 // Gem materials (use only the first element of each entry)
 global.resourcesOresGem.forEach(function (resource) {
   resource.materials.forEach(function (mat) {
-    global.usedMaterials.push(mat[0])
-  })
-})
+    global.usedMaterials.push(mat[0]);
+  });
+});
 
 if (global.resourceOresIngots) {
   global.resourceOresIngots.forEach((resource) => {
     resource.materials.forEach((material) => {
       global.usedOres.push({
         modID: resource.modID,
-        material: material
-      })
-    })
-  })
+        material: material,
+      });
+    });
+  });
 }
 
 if (global.resourcesOresGem) {
@@ -909,10 +909,10 @@ if (global.resourcesOresGem) {
     resource.materials.forEach((material) => {
       global.usedOres.push({
         modID: resource.modID,
-        material: material[0]
-      })
-    })
-  })
+        material: material[0],
+      });
+    });
+  });
 }
 
 // All Material Types
@@ -959,39 +959,39 @@ const types = [
   "titanium",
   "tungsten",
   "uranium",
-  "zinc"
-]
+  "zinc",
+];
 
 global.enabledAlloys.forEach((alloy) => {
-  global.usedMaterials.push(alloy.output.id)
-})
+  global.usedMaterials.push(alloy.output.id);
+});
 
-global.hide = types.filter((ore) => !global.usedMaterials.includes(ore))
+global.hide = types.filter((ore) => !global.usedMaterials.includes(ore));
 
 if (!Platform.isLoaded("mekanism")) {
-  global.hide.push("dirty_dust", "clump", "crystal", "shard")
+  global.hide.push("dirty_dust", "clump", "crystal", "shard");
 }
 
 if (!global.enableClusters) {
-  global.hide.push("cluster")
+  global.hide.push("cluster");
 }
 
 if (!global.enableChunks) {
-  global.hide.push("chunk")
+  global.hide.push("chunk");
 }
 
 if (!global.enableNetherOres) {
-  global.hide.push("nether_ore")
+  global.hide.push("nether_ore");
 }
 
 if (!global.enableEndOres) {
-  global.hide.push("end_ore")
+  global.hide.push("end_ore");
 }
 
 if (!global.enableTinyDust) {
-  global.hide.push("tiny_dust")
+  global.hide.push("tiny_dust");
 }
 
 if (!global.enableTinyDust) {
-  global.hide.push("small_dust")
+  global.hide.push("small_dust");
 }

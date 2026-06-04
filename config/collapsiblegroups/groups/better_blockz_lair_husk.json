@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_lair_husk",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_lair_husk",
+    "fallback": "Better Blockz: Lair Husk"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "lairhusk_"
+      }
+    ]
+  }
+}

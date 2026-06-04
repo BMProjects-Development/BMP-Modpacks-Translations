@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_zeon_cyan_2",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_zeon_cyan_2",
+    "fallback": "Better Blockz: Zeon Cyan"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "zeon_cyan_"
+      }
+    ]
+  }
+}

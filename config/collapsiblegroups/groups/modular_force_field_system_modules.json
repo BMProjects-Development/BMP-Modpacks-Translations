@@ -1,0 +1,14 @@
+{
+  "id": "modular_force_field_system_modules",
+  "name": {
+    "translate": "collapsible_groups.group.modular_force_field_system_modules",
+    "fallback": "Modular Force Field System: Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "mffs" },
+      { "item_path_ends_with": "_module" }
+    ]
+  }
+}

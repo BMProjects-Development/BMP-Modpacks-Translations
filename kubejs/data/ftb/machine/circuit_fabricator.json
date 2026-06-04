@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "ftb.machine.circuit_fabricator"
+    "text": {
+      "translate": "ftb.machine.circuit_fabricator"
+    }
   },
   "appearance": {
     "running": {
@@ -86,7 +88,7 @@
       },
       "id": "input_upgrade",
       "mode": "none",
-      "capacity": 10
+      "capacity": 3
     }
   ],
   "gui": [

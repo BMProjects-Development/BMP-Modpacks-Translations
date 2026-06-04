@@ -1,0 +1,25 @@
+{
+  "id": "framed_blocks_frames",
+  "name": {
+    "translate": "collapsible_groups.group.framed_blocks_frames",
+    "fallback": "Framed Blocks: Frames"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "item_path_starts_with": "framed_"
+      },
+      {
+        "type": "item",
+        "namespace": "framedblocks"
+      },
+      {
+        "not": {
+          "type": "item",
+          "tag": "framed_blocks:not_a_frame"
+        }
+      }
+    ]
+  }
+}

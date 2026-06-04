@@ -7,13 +7,13 @@ navigation:
 item_ids:
   - ftb:chroniton_glass
 ---
-# Chroniton Glass Upgrade
+# <Color id="green">Chroniton Glass Upgrade</Color>
 
 <ItemImage id="ftb:chroniton_glass" scale="3" />
 
 The <Color id="green">Chroniton Glass</Color> is a minor upgrade that unlocks a bunch of useful  <Color id="gold">World Engine</Color> crafts, including the start of generating EMC.
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="enderstorage:ender_chest" />

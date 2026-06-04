@@ -291,12 +291,12 @@
             "type": "gateways:stack_list",
 			"stacks": [
 				{
-					"id": "mysticalagriculture:slime_essence",
-					"count": 32
+					"id": "minecraft:slime_block",
+					"count": 16
 				},
 				{
-					"id": "reliquary:slime_pearl",
-					"count": 8
+					"id": "minecraft:slime_ball",
+					"count": 32
 				}
 		  ]
         }

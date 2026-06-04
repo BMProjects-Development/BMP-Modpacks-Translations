@@ -31,6 +31,7 @@ While the <Color id="aqua">Particle Accelerator</Color> can be used for several 
 
 <Column alignItems="center" fullWidth={true}>
 ## [Learn The Basics](oritech:items/the_basics.md)
+## [Automating Recipes](oritech:items/automating_recipes.md)
 </Column>
 
 

@@ -234,7 +234,7 @@
 					consume_items: true
 					count: 100L
 					id: "2401C8A4DB1FCE2D"
-					item: { count: 1, id: "ars_elemental:anima_essence" }
+					item: { count: 1, id: "sauce:anima_essence" }
 					task_screen_only: true
 					type: "item"
 				}
@@ -269,11 +269,21 @@
 				id: "trophymanager:trophy"
 			}
 			id: "25CCA572C4D5CEA0"
-			rewards: [{
-				amount: 100
-				id: "14DA10C8742CAA9A"
-				type: "currency"
-			}]
+			rewards: [
+				{
+					amount: 100
+					id: "14DA10C8742CAA9A"
+					type: "currency"
+				}
+				{
+					auto: "invisible"
+					id: "38059CA15A969EF6"
+					ignore_reward_blocking: true
+					stage: "creative_unlock"
+					team_reward: true
+					type: "gamestage"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			tasks: [
@@ -520,13 +530,6 @@
 					id: "2FE6B3DDF4FA4641"
 					type: "currency"
 				}
-				{
-					auto: "invisible"
-					id: "42C4C224766D7A9E"
-					ignore_reward_blocking: true
-					stage: "creative_motor_unlock"
-					type: "gamestage"
-				}
 			]
 			shape: "diamond"
 			tasks: [
@@ -626,7 +629,7 @@
 			id: "308135F2F191443E"
 			rewards: [
 				{
-					id: "7C5E0E41A706E1C5"
+					id: "17A237E609AFB3A6"
 					item: {
 						count: 1
 						id: "mekanism_lasers:creative_toggleable_laser"
@@ -994,7 +997,7 @@
 					consume_items: true
 					count: 16L
 					id: "34036373B717A7CE"
-					item: { components: { "avaritia:singularity_id": "fortron_infused_singularity" }, count: 1, id: "avaritia:json_singularity" }
+					item: { components: { "avaritia:singularity_id": "energite_singularity" }, count: 1, id: "avaritia:json_singularity" }
 					task_screen_only: true
 					type: "item"
 				}
@@ -1378,7 +1381,8 @@
 					consume_items: true
 					count: 16L
 					id: "4627130DB81CB216"
-					item: { components: { "draconicevolution:config_properties": [ [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_held_item", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_armor", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_hot_bar", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_main", show_on_hud: 1b, value: 0b } ], [ { "": "BOOLEAN" }, { default_value: 0b, formatter: "true_false", name: "charge_curios", show_on_hud: 1b, value: 0b } ] ], "draconicevolution:module_entities": [ ], "draconicevolution:provider_identity": [I; 803266230, 905528751, -1204635490, -96207276 ] }, count: 1, id: "draconicevolution:chaotic_capacitor" }
+					item: { count: 1, id: "draconicevolution:chaotic_capacitor" }
+					match_components: "fuzzy"
 					task_screen_only: true
 					type: "item"
 				}
@@ -1440,45 +1444,53 @@
 				{
 					id: "4479AA390569F520"
 					item: { count: 1, id: "ars_nouveau:creative_source_jar" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "10A8A0586024145E"
 					item: { components: { "hostilenetworks:data": 6, "hostilenetworks:data_model": "hostilenetworks:ender_dragon" }, count: 1, id: "hostilenetworks:data_model" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "0A53706C4182658C"
 					item: { count: 1, id: "create:creative_motor" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "23D64D597CD3979A"
 					item: { count: 1, id: "mffs:infinite_power_card" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "07C3D0C838A6485B"
 					item: { count: 1, id: "tempad:creative_chronometer" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "6BE96AC115E95591"
 					item: { count: 1, id: "justdynathings:creative_goo" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "2EA509EA29681CD3"
 					item: { count: 1, id: "chancecubes:creative_pendant" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
 					id: "3D3135FDC098C7ED"
 					item: { count: 1, id: "replication:creative_memory_chip" }
+					match_components: "fuzzy"
 					type: "item"
 				}
 				{
-					id: "63EC45D8C4F995A9"
+					id: "4E9D3C9234867C2E"
 					item: { count: 1, id: "mekanism_lasers:creative_toggleable_laser" }
 					type: "item"
 				}

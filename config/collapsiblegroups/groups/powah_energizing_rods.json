@@ -1,0 +1,14 @@
+{
+  "id": "powah_energizing_rods",
+  "name": {
+    "translate": "collapsible_groups.group.powah_energizing_rods",
+    "fallback": "Powah: Energizing Rods"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "powah" },
+      { "item_path_starts_with": "energizing_rod_" }
+    ]
+  }
+}

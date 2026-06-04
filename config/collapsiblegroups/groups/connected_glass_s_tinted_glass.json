@@ -1,0 +1,80 @@
+{
+  "id": "connected_glass_s_tinted_glass",
+  "name": {
+    "translate": "collapsible_groups.group.connected_glass_s_tinted_glass",
+    "fallback": "Connected Glass\u0027s Tinted Glass"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_gray\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_blue\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_cyan\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_green\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_light_blue\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_red\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_purple\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_orange\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_magenta\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_pink\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_brown\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_yellow\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_light_gray\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_black\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_white\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"connectedglass:tinted_borderless_glass_lime\"}"
+      }
+    ]
+  }
+}

@@ -6,17 +6,21 @@ ServerEvents.recipes((event) => {
       .requireTempCelsius("(420,)")
       .requireChemicalPerTick(`${chemical_input}`)
       .produceChemicalPerTick(`${chemical_output}`)
-      .requireStructure([["aaa","a a","aaa"," m "],["aba","bcb","aba","   "],["aba","bdb","aba","   "],["aaa","aea","aaa","   "]], {"a":"oritech:carbon_plating_block","b":"cognition:whisperglass","c":"oritech:reactor_reflector","d":"oritech:reactor_vent","e":"actuallyadditions:empowered_void_crystal_block"})
-    console.log(`Adding Neutron Activation Recipe for: ${chemical_output.split(":")[1]} from ${chemical_input.split(":")[1]}`);
+      .requireStructure(
+        FTBStructures$NeutronActivator.main.pattern,
+        FTBStructures$NeutronActivator.main.keys,
+      );
+    console.log(
+      `Adding Neutron Activation Recipe for: ${chemical_output.split(":")[1]} from ${chemical_input.split(":")[1]}`
+    );
   }
 
   const neutron_activator_recipes = [
     { chemical_input: "10x mekanism:nuclear_waste", chemical_output: "2x mekanism:polonium", ticks: 900 },
-    { chemical_input: "1x mekanism:lithium", chemical_output: "1x mekanismgenerators:tritium", ticks: 900 }
-  ]
+    { chemical_input: "32x mekanism:lithium", chemical_output: "32x mekanismgenerators:tritium", ticks: 900 },
+  ];
 
   neutron_activator_recipes.forEach((recipe) => {
-    addNeutronActivatorRecipe(recipe.chemical_input, recipe.chemical_output, recipe.ticks)
+    addNeutronActivatorRecipe(recipe.chemical_input, recipe.chemical_output, recipe.ticks);
   });
-
-})
+});

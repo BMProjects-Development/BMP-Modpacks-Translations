@@ -62,7 +62,7 @@ const uneartherRecipes = {
               resources: [
                 { item: "minecraft:bone_meal", count: 1, chance: 0.5 },
                 { item: "minecraft:redstone", count: 1, chance: 0.3 },
-                { item: "ftbmaterials:gold_chunk", count: 1, chance: 0.7 },
+                { item: "ftbmaterials:gold_chunk", count: 1, chance: 0.85 },
                 { item: "ftbmaterials:tin_chunk", count: 1, chance: 0.25 }
               ]
             },
@@ -70,30 +70,30 @@ const uneartherRecipes = {
               tier: 3,
               speed: 360,
               resources: [
-                { item: "minecraft:redstone", count: 1, chance: 0.5 },
-                { item: "ftbmaterials:gold_chunk", count: 1, chance: 0.6 },
+                { item: "minecraft:redstone", count: 1, chance: 0.65 },
+                { item: "ftbmaterials:gold_chunk", count: 1, chance: 1.0 },
                 { item: "ftbmaterials:tin_chunk", count: 1, chance: 0.4 },
-                { item: "minecraft:bone_meal", count: 1, chance: 0.5 }
+                { item: "minecraft:bone_meal", count: 1, chance: 0.65 }
               ]
             },
             {
               tier: 4,
               speed: 240,
               resources: [
-                { item: "minecraft:redstone", count: 1, chance: 0.5 },
-                { item: "ftbmaterials:gold_chunk", count: 1, chance: 0.5 },
+                { item: "minecraft:redstone", count: 1, chance: 0.80 },
+                { item: "ftbmaterials:gold_chunk", count: 1, chance: 1.15 },
                 { item: "ftbmaterials:tin_chunk", count: 1, chance: 0.5 },
-                { item: "minecraft:bone_meal", count: 1, chance: 0.5 }
+                { item: "minecraft:bone_meal", count: 1, chance: 0.80 }
               ]
             },
             {
               tier: 5,
               speed: 300,
               resources: [
-                { item: "minecraft:redstone", count: 1, chance: 0.5 },
-                { item: "ftbmaterials:gold_chunk", count: 1, chance: 0.5 },
-                { item: "ftbmaterials:tin_chunk", count: 1, chance: 0.5 },
-                { item: "minecraft:bone_meal", count: 1, chance: 0.5 }
+                { item: "minecraft:redstone", count: 1, chance: 0.95 },
+                { item: "ftbmaterials:gold_chunk", count: 1, chance: 1.30 },
+                { item: "ftbmaterials:tin_chunk", count: 1, chance: 0.6 },
+                { item: "minecraft:bone_meal", count: 1, chance: 0.95 }
               ]
             }
           ]

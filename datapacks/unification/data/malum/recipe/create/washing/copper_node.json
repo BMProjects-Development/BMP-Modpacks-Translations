@@ -13,11 +13,11 @@
   ],
   "results": [
     {
-      "item": "ftbmaterials:copper_nugget",
-      "count": 6
+      "id": "ftbmaterials:copper_nugget",
+      "amount": 6
     },
     {
-      "item": "minecraft:clay_ball",
+      "id": "minecraft:clay_ball",
       "chance": 0.5
     }
   ]

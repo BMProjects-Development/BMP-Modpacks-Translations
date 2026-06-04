@@ -1,0 +1,19 @@
+{
+  "id": "supplementaries_spikes",
+  "name": {
+    "translate": "collapsible_groups.group.supplementaries_spikes",
+    "fallback": "Supplementaries: Spikes"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "supplementaries"
+      },
+      {
+        "item_path_ends_with": "_spikes"
+      }
+    ]
+  }
+}

@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - mekanism:resistive_heater
 ---
-# Heater Upgrade
+# <Color id="gold">Heater Upgrade</Color>
 
 <ItemImage id="mekanism:resistive_heater" scale="3" />
 
@@ -17,7 +17,7 @@ It is suggested to use a <Color id="green">Resistive Heater</Color> so that you 
 
 This upgrade unlocks the <Color id="gold">Energizing Orb</Color> to continue progressing in <Color id="gold">Powah</Color>.
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="powah:energizing_orb" />

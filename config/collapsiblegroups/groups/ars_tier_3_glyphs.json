@@ -1,0 +1,128 @@
+{
+  "id": "ars_tier_3_glyphs",
+  "name": {
+    "translate": "collapsible_groups.group.ars_tier_3_glyphs",
+    "fallback": "Ars: Tier 3 Glyphs"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_additions:glyph_recall\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_additions:glyph_retaliate\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_additions:glyph_mark\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_homing_projectile\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_cauterize\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_cavitate\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_conflagrate\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_propagator_homing\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_water_jet\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_rage\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_oxidize\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_elemental:glyph_life_link\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_blink\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_burst\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_intangible\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_hex\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_glide\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_fangs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_lightning\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_linger\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_orbit\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:rewind\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_summon_decoy\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_summon_undead\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_summon_vex\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_wall\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_split\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_nouveau:glyph_wither\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"not_enough_glyphs:glyph_trail\"}"
+      }
+    ]
+  }
+}

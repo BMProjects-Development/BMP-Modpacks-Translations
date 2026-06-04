@@ -1,0 +1,24 @@
+{
+  "id": "excessive_utilities_colored_redstone",
+  "name": {
+    "translate": "collapsible_groups.group.excessive_utilities_colored_redstone",
+    "fallback": "Excessive Utilities: Colored Redstone"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "excessive_utilities"
+      },
+      {
+        "not": {
+          "item_path_starts_with": "colored_redstone_lamp"
+        }
+      },
+      {
+        "item_path_starts_with": "colored_redstone"
+      }
+    ]
+  }
+}

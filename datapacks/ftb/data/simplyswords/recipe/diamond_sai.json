@@ -9,9 +9,9 @@
     }
   },
   "pattern": [
-    "  ",
-    "X ",
-    " #"
+    "X  ",
+    " X ",
+    " # "
   ],
   "result": {
     "id": "simplyswords:diamond_sai",

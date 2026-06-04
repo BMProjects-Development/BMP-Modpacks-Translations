@@ -1,0 +1,19 @@
+{
+  "id": "advanced_ae_quantum_armor_cards",
+  "name": {
+    "translate": "collapsible_groups.group.advanced_ae_quantum_armor_cards",
+    "fallback": "Advanced AE: Quantum Armor Cards"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "advanced_ae"
+      },
+      {
+        "item_path_ends_with": "_card"
+      }
+    ]
+  }
+}

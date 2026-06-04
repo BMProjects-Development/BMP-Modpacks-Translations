@@ -1,0 +1,19 @@
+{
+  "id": "mekanism_plastic_barriers",
+  "name": {
+    "translate": "collapsible_groups.group.mekanism_plastic_barriers",
+    "fallback": "Mekanism: Plastic Barriers"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "mekanismadditions"
+      },
+      {
+        "item_path_ends_with": "_plastic_fence"
+      }
+    ]
+  }
+}

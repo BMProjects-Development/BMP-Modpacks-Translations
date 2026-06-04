@@ -7,17 +7,19 @@ navigation:
 item_ids:
   - ftb:resonant_void
 ---
-# Улучшение "Резонансная пустота"
+# <Color id="gold">Улучшение "Резонансная пустота"</Color>
 
 <ItemImage id="ftb:resonant_void" scale="3" />
 
-<Color id="light_purple">"Резонансная пустота"</Color> необходимое улучшение, которое разблокирует несколько мощных предметов для создания на <Color id="gold">Мировом двигателе</Color>.
+<Color id="light_purple">"Резонансная пустота"</Color> - необходимое улучшение, которое разблокирует несколько мощных предметов для создания на <Color id="gold">мировом двигателе</Color>.
 
 Для этого улучшения необходимо улучшение <Color id="red">"Усовершенствованный корпус механизма"</Color>, чтобы его рецепт разблокировался.
 
-## Разблокируемые рецепты
+## <Color id="gold">Разблокируемые рецепты:</Color>
 
 <ItemGrid>
   <ItemIcon id="justdirethings:time_crystal" />
   <ItemIcon id="ars_nouveau:glyph_animate_block" />
+  <ItemIcon id="minecraft:dragon_head" />
+  <ItemIcon id="create:extendo_grip" />
 </ItemGrid>

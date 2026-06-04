@@ -1,0 +1,27 @@
+{
+  "id": "create_dark_limestone_blocks",
+  "name": {
+    "translate": "collapsible_groups.group.create_dark_limestone_blocks",
+    "fallback": "Create: Dark Limestone Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "any": [
+          {
+            "type": "item",
+            "namespace": "create"
+          },
+          {
+            "type": "item",
+            "namespace": "create_chipped"
+          }
+        ]
+      },
+      {
+        "item_path_contains": "dark_limestone"
+      }
+    ]
+  }
+}

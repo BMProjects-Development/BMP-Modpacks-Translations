@@ -1,0 +1,26 @@
+{
+  "id": "neovitae_resource_gravels",
+  "name": {
+    "translate": "collapsible_groups.group.neovitae_resource_gravels",
+    "fallback": "Neovitae: Resource Gravels"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "neovitae"
+      },
+      {
+        "any": [
+          {
+            "item_path_ends_with": "gravel"
+          },
+          {
+            "item_path_starts_with": "gravel"
+          }
+        ]
+      }
+    ]
+  }
+}

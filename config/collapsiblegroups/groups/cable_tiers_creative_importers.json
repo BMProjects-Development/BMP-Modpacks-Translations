@@ -1,0 +1,19 @@
+{
+  "id": "cable_tiers_creative_importers",
+  "name": {
+    "translate": "collapsible_groups.group.cable_tiers_creative_importers",
+    "fallback": "Cabletiers: Creative Importers"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "cabletiers"
+      },
+      {
+        "item_path_ends_with": "creative_importer"
+      }
+    ]
+  }
+}

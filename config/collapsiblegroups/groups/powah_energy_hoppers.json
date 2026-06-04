@@ -1,0 +1,14 @@
+{
+  "id": "powah_energy_hoppers",
+  "name": {
+    "translate": "collapsible_groups.group.powah_energy_hoppers",
+    "fallback": "Powah: Energy Hoppers"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "powah" },
+      { "item_path_starts_with": "energy_hopper_" }
+    ]
+  }
+}

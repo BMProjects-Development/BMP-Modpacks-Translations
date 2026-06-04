@@ -1,0 +1,19 @@
+{
+  "id": "minecraft_harnesses",
+  "name": {
+    "translate": "collapsible_groups.group.minecraft_harnesses",
+    "fallback": "Minecraft: Harnesses"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "minecraft"
+      },
+      {
+        "item_path_ends_with": "harness"
+      }
+    ]
+  }
+}

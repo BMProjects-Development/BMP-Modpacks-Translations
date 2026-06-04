@@ -1,0 +1,19 @@
+{
+  "id": "geore_nouveau_dowsing_rods",
+  "name": {
+    "translate": "collapsible_groups.group.geore_nouveau_dowsing_rods",
+    "fallback": "GeOre Nouveau: Dowsing Rods"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "georenouveau"
+      },
+      {
+        "item_path_ends_with": "_dowsing_rod"
+      }
+    ]
+  }
+}

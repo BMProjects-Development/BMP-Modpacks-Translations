@@ -1,0 +1,24 @@
+{
+  "id": "productive_bees_bees",
+  "name": {
+    "translate": "collapsible_groups.group.productive_bees_bees",
+    "fallback": "Productive Bees: Bee Entities"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "productivebees:bee",
+        "namespace": "productivebees"
+      },
+      {
+        "type": "productivebees:bee",
+        "id": "minecraft:bee"
+      },
+      {
+        "type": "productivebees:bee",
+        "id": "tropicraft:tropibee"
+      }
+    ]
+  }
+}

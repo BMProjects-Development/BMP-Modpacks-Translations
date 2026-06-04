@@ -7,13 +7,13 @@ navigation:
 item_ids:
   - powah:ender_cell_nitro
 ---
-# Nitro Ender Cell Upgrade
+# <Color id="gold">Nitro Ender Cell Upgrade</Color>
 
 <ItemImage id="powah:ender_cell_nitro" scale="3" />
 
 The <Color id="red">Nitro Ender Cell</Color> is a major upgrade that unlocks a lot of great wireless power crafts in the <Color id="gold">World Engine</Color>, including <Color id="light_purple">Flux Networks</Color>!
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="fluxnetworks:flux_dust" />

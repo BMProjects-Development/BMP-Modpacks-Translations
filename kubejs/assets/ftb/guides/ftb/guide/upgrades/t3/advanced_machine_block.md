@@ -7,7 +7,7 @@ navigation:
 item_ids:
   - ftb:world_engine_advanced_machine_block
 ---
-# Advanced Machine Block Upgrade
+# <Color id="gold">Advanced Machine Block Upgrade</Color>
 
 <ItemImage id="ftb:world_engine_advanced_machine_block" scale="3" />
 
@@ -17,9 +17,8 @@ There are several other upgrades that also require this major upgrade, and is a 
 
 By itself, this upgrade only unlocks one recipe.
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="entangled:block" />
-
 </ItemGrid>

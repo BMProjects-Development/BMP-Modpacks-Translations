@@ -1,0 +1,50 @@
+{
+  "keys": {
+    "A": {
+      "block": "oritech:carbon_plating_block"
+    },
+    "B": {
+      "block": "cognition:whisperglass"
+    },
+    "C": {
+      "block": "oritech:reactor_reflector"
+    },
+    "D": {
+      "block": "oritech:reactor_vent"
+    },
+    "E": {
+      "block": "actuallyadditions:empowered_void_crystal_block"
+    }
+  },
+  "origin": {
+    "x": 1,
+    "y": 0,
+    "z": 3
+  },
+  "structure": [
+    [
+      "AAA", 
+      "A A", 
+      "AAA", 
+      "   "
+    ],
+    [
+      "ABA", 
+      "BCB", 
+      "ABA", 
+      "   "
+    ],
+    [
+      "ABA", 
+      "BDB", 
+      "ABA", 
+      "   "
+    ],
+    [
+      "AAA", 
+      "AEA", 
+      "AAA", 
+      "   "
+    ]
+  ]
+}

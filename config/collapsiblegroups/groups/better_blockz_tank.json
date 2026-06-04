@@ -1,0 +1,19 @@
+{
+  "id": "better_blockz_tank",
+  "name": {
+    "translate": "collapsible_groups.group.better_blockz_tank",
+    "fallback": "Better Blockz: Tank"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "betterblockz"
+      },
+      {
+        "item_path_starts_with": "tank_"
+      }
+    ]
+  }
+}

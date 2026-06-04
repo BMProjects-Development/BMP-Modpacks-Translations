@@ -1,0 +1,14 @@
+{
+  "id": "enchanted_chalks",
+  "name": {
+    "translate": "collapsible_groups.group.enchanted_chalks",
+    "fallback": "Enchanted: Chalks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "enchanted" },
+      { "item_path_ends_with": "_chalk" }
+    ]
+  }
+}

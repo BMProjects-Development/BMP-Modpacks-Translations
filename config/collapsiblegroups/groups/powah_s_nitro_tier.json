@@ -1,0 +1,60 @@
+{
+  "id": "powah_s_nitro_tier",
+  "name": {
+    "translate": "collapsible_groups.group.powah_s_nitro_tier",
+    "fallback": "Powah\u0027s Nitro Tier"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:battery_nitro\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energy_cell_nitro\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:ender_cell_nitro\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energy_cable_nitro\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:ender_gate_nitro\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energizing_rod_nitro\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:magmator_nitro\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:thermo_generator_nitro\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:reactor_nitro\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:player_transmitter_nitro\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energy_hopper_nitro\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"powah:energy_discharger_nitro\"}"
+      }
+    ]
+  }
+}

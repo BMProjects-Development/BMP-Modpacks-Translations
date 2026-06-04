@@ -8,7 +8,7 @@ item_ids:
   - ars_nouveau:relay
   - ars_nouveau:sourcestone
 ---
-# Ars Source Upgrade
+# <Color id="green">Ars Source Upgrade</Color>
 
 <ItemImage id="ars_nouveau:sourcestone" scale="3" />
 
@@ -16,7 +16,7 @@ One of the first world engine upgrades that you can unlock is the <Color id="lig
 
 To start with, you will need to bring a <Color id="green">Filled Source Jar</Color> and a <Color id="light_purple">Dominion Wand</Color> to bind the flow of <Color id="light_purple">Source</Color> into the controller from the jar. You will eventually want to use a <Color id="light_purple">Source Relay: Warper</Color> to teleport the source directly from your base.
 
-## Recipe Unlocks
+## <Color id="gold">Recipe Unlocks</Color>
 
 <ItemGrid>
   <ItemIcon id="ars_nouveau:enchanting_apparatus" />

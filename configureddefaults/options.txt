@@ -1,0 +1,2 @@
+autoJump:false
+menuBackgroundBlurriness:0

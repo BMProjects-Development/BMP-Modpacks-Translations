@@ -1,0 +1,72 @@
+{
+  "id": "waystones_s_sharestones",
+  "name": {
+    "translate": "collapsible_groups.group.waystones_s_sharestones",
+    "fallback": "Waystones\u0027s Sharestones"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:orange_sharestone\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:magenta_sharestone\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:light_blue_sharestone\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:yellow_sharestone\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:lime_sharestone\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:pink_sharestone\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:gray_sharestone\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:light_gray_sharestone\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:cyan_sharestone\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:purple_sharestone\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:blue_sharestone\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:brown_sharestone\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:green_sharestone\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:black_sharestone\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"waystones:red_sharestone\"}"
+      }
+    ]
+  }
+}

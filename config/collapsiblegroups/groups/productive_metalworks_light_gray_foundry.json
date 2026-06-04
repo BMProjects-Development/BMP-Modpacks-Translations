@@ -1,0 +1,19 @@
+{
+  "id": "productive_metalworks_light_gray_foundry",
+  "name": {
+    "translate": "collapsible_groups.group.productive_metalworks_light_gray_foundry",
+    "fallback": "Productive Metalworks: Light Gray Foundry"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "productivemetalworks"
+      },
+      {
+        "item_path_starts_with": "light_gray_"
+      }
+    ]
+  }
+}

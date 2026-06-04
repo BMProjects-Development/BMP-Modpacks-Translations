@@ -1,0 +1,19 @@
+{
+  "id": "supplementaries_awnings",
+  "name": {
+    "translate": "collapsible_groups.group.supplementaries_awnings",
+    "fallback": "Supplementaries: Awnings"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "supplementaries"
+      },
+      {
+        "item_path_starts_with": "awning"
+      }
+    ]
+  }
+}

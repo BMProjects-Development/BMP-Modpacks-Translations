@@ -1,0 +1,17 @@
+---
+navigation:
+  title: Латунный слиток
+  position: 4
+  icon: "ftbmaterials:brass_ingot"
+  parent: irons_jewelry:metals.md
+---
+# Латунный слиток
+
+<ItemImage id="ftbmaterials:brass_ingot" scale="3" />
+
+Этот предмет может использоваться как <Color id="green">Материал для оправы</Color> для украшений Iron's.
+
+- <Color id="gray">Множитель качества:</Color> 0.75
+
+### Атрибут
+- Добавляет сопротивление отбрасыванию (фиксированное)

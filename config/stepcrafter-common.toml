@@ -1,0 +1,40 @@
+[stepCrafter]
+	# Default: 6
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 6
+	# Default: 14
+	# Range: > 0
+	speedMultiplier = 14
+
+[stepRequester]
+	# Default: 6
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 6
+
+[stepCrafterManager]
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 16
+	#Allowed Values: ALL, PATTERN_INPUTS, PATTERN_OUTPUTS, STEP_NAMES
+	searchMode = "ALL"
+	#Allowed Values: VISIBLE, NOT_FULL, ALL
+	viewType = "VISIBLE"
+
+[stepCraftingMonitor]
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 16
+
+[stepRequesterManager]
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 16
+	#Allowed Values: ALL, PATTERN_INPUTS, PATTERN_OUTPUTS, STEP_NAMES
+	searchMode = "ALL"
+	#Allowed Values: VISIBLE, NOT_FULL, ALL
+	viewType = "VISIBLE"
+
+[slotUpgrade]
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 4

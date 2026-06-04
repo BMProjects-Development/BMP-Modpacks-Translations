@@ -1,0 +1,15 @@
+{
+  "id": "conneted_glass_clear_glass",
+  "name": {
+    "translate": "collapsible_groups.group.conneted_glass_clear_glass",
+    "fallback": "Connected Glass: Clear Glass"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "connectedglass" },
+      { "item_path_starts_with": "clear_glass" },
+      { "not": { "item_path_ends_with": "_pane" } }
+    ]
+  }
+}

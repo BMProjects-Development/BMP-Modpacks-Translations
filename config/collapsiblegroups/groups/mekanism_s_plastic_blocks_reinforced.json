@@ -1,0 +1,84 @@
+{
+  "id": "mekanism_s_plastic_blocks_reinforced",
+  "name": {
+    "translate": "collapsible_groups.group.mekanism_s_plastic_blocks_reinforced",
+    "fallback": "Mekanism\u0027s Plastic Blocks (Reinforced)"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:black_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:blue_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:green_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:cyan_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:dark_red_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:purple_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:orange_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:light_gray_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:gray_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:light_blue_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:lime_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:aqua_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:red_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:magenta_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:pink_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:brown_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:white_reinforced_plastic\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:yellow_reinforced_plastic\"}"
+      }
+    ]
+  }
+}

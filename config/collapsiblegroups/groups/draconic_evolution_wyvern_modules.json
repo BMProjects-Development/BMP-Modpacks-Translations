@@ -1,0 +1,34 @@
+{
+  "id": "draconic_evolution_wyvern_modules",
+  "name": {
+    "translate": "collapsible_groups.group.draconic_evolution_wyvern_modules",
+    "fallback": "Draconic Evolution: Wyvern Modules"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "all": [
+          {
+            "type": "item",
+            "namespace": "draconicevolution"
+          },
+          {
+            "item_path_starts_with": "item_wyvern"
+          }
+        ]
+      },
+      {
+        "all": [
+          {
+            "item_path_starts_with": "item_draconic"
+          },
+          {
+            "type": "item",
+            "namespace": "draconic_spellbooks"
+          }
+        ]
+      }
+    ]
+  }
+}

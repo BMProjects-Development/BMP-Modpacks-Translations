@@ -1,0 +1,19 @@
+{
+  "id": "oritech_efficiency_addons",
+  "name": {
+    "translate": "collapsible_groups.group.oritech_efficiency_addons",
+    "fallback": "Oritech: Efficiency Addons"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "any": [
+          { "type": "item", "namespace": "oritech" },
+          { "type": "item", "namespace": "oritechthings" }
+        ]
+      },
+      { "item_path_contains": "efficiency" }
+    ]
+  }
+}

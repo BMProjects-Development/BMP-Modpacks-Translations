@@ -1,0 +1,19 @@
+{
+  "id": "fargo_talismans_talismans",
+  "name": {
+    "translate": "collapsible_groups.group.fargo_talismans_talismans",
+    "fallback": "Fargo\u0027s Talismans: Talismans"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "fargostalismans"
+      },
+      {
+        "item_path_ends_with": "talisman"
+      }
+    ]
+  }
+}

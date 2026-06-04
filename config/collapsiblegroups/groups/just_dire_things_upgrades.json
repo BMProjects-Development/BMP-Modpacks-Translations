@@ -1,0 +1,19 @@
+{
+  "id": "just_dire_things_upgrades",
+  "name": {
+    "translate": "collapsible_groups.group.just_dire_things_upgrades",
+    "fallback": "Just Dire Things: Upgrades"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "justdirethings"
+      },
+      {
+        "item_path_starts_with": "upgrade"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "sophisticated_storage_gold_chests",
+  "name": {
+    "translate": "collapsible_groups.group.sophisticated_storage_gold_chests",
+    "fallback": "Sophisticated Storage: Gold Chests"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "sophisticatedstorage:gold_chest"
+  }
+}

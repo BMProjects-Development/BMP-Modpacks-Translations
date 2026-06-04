@@ -1,0 +1,19 @@
+{
+  "id": "productive_metalworks_lime_foundry",
+  "name": {
+    "translate": "collapsible_groups.group.productive_metalworks_lime_foundry",
+    "fallback": "Productive Metalworks: Lime Foundry"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "productivemetalworks"
+      },
+      {
+        "item_path_starts_with": "lime_"
+      }
+    ]
+  }
+}

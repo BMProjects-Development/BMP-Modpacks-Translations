@@ -55,6 +55,14 @@ const addBlockTags = [
       "chicken_roost:seed_crop_9",
     ],
   },
+  {
+    tagName: "ftb:printable_multiblock",
+    blockIDs: [
+      "custommachinery:custom_machine_block",
+    ],
+  },
+  { tagName: "cataclysm:needs_black_steel_tool", blockIDs: [] },
+  { tagName: "cataclysm:needs_monstrosity_tool", blockIDs: [] }
 ];
 
 const relocationDenyBlocks = [
@@ -163,7 +171,6 @@ const removeBlockTags = [
     tagName: "minecraft:mineable/axe",
     blockIDs: ["minecraft:crafting_table"],
   },
-  { tagName: "sfm:anvil_disenchanting", blockIDs: ["minecraft:obsidian"] },
   {
     tagName: "twilightforest:mazestone",
     blockIDs: ["twilightforest:mazestone"],
@@ -178,18 +185,32 @@ const tickSpeedDenyBlocks = [
   "projecte:dm_pedestal",
   "industrialforegoingsouls:soul_surge",
   "twilightforest:time_log_core",
+  "@custommachinery"
 ];
 
+const CataclysmBossImmune = [
+  "minecraft:trial_spawner"
+]
+
 ServerEvents.tags("block", (event) => {
-  tickSpeedDenyBlocks.forEach((block) => {
-    event.add("tickaccelerator:deny", block);
-    event.add("justdirethings:tick_speed_deny", block);
-  });
+
+  CataclysmBossImmune.forEach((block) => {
+    event.add("cataclysm:ignis_immune", block)
+    event.add("cataclysm:harbinger_immune", block)
+    event.add("cataclysm:leviathan_immune", block)
+    event.add("cataclysm:remnant_immune", block)
+    event.add("cataclysm:maledictus_immune", block)
+    event.add("cataclysm:scylla_immune", block)
+    event.add("cataclysm:clawdian_immune", block)
+  })
 
   tickSpeedDenyBlocks.forEach((block) => {
     event.add("tickaccelerator:deny", block);
+    event.add("c:tick_acceleration_disallowed", block);
     event.add("gag:do_not_accelerate", block);
     event.add("justdirethings:tick_speed_deny", block);
+    event.add("industrialforegoingsouls:cant_accelerate", block);
+    event.add("projecte:blacklist/time_watch", block);
   });
 
   relocationDenyBlocks.forEach((block) => {
@@ -207,6 +228,10 @@ ServerEvents.tags("block", (event) => {
     event.add("irregularimplements:block_mover_blacklist", block);
     event.add("irregular_implements:block_replacer_blacklist", block);
     event.add("industrialforegoingsouls:cant_accelerate", block);
+    event.add("justdynathings:picker_deny", block);
+    event.add("justdynathings:swapper_deny", block);
+    event.add("justdynathings:ticker_deny", block);
+    event.add("justdynathings:advanced_time_deny", block);
   });
 
   addBlockTags.forEach((tag) => {
@@ -235,5 +260,11 @@ ServerEvents.tags("block", (event) => {
 });
 
 ServerEvents.tags("block_entity_type", (event) => {
+
   event.add("craftingstation:blacklisted", "@mekanism");
+
+  tickSpeedDenyBlocks.forEach((block) => {
+    event.add("projecte:blacklist/time_watch", block);
+  });
+
 });

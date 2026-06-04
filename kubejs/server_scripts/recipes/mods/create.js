@@ -133,5 +133,4 @@ ServerEvents.recipes((event) => {
       }]
     })
     .id("ftb:emptying/water_egg_to_water")
-
 });

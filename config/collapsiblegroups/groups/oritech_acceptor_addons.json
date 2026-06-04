@@ -1,0 +1,19 @@
+{
+  "id": "oritech_acceptor_addons",
+  "name": {
+    "translate": "collapsible_groups.group.oritech_acceptor_addons",
+    "fallback": "Oritech: Acceptor Addons"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "any": [
+          { "type": "item", "namespace": "oritech" },
+          { "type": "item", "namespace": "oritechthings" }
+        ]
+      },
+      { "item_path_contains": "acceptor" }
+    ]
+  }
+}

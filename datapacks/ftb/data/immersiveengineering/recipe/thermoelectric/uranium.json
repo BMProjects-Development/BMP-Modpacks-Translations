@@ -1,0 +1,5 @@
+{
+  "type": "immersiveengineering:thermoelectric_source",
+  "blockTag": "c:storage_blocks/uranium",
+  "tempKelvin": 2000
+}

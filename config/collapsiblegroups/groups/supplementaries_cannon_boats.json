@@ -1,0 +1,19 @@
+{
+  "id": "supplementaries_cannon_boats",
+  "name": {
+    "translate": "collapsible_groups.group.supplementaries_cannon_boats",
+    "fallback": "Supplementaries: Cannon Boats"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "supplementaries"
+      },
+      {
+        "item_path_starts_with": "cannon_boat_"
+      }
+    ]
+  }
+}

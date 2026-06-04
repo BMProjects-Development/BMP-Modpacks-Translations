@@ -85,7 +85,7 @@
 		}
 		{
 			command: "/ftbquests change_progress @s complete 79699F714DC8599E"
-			feedback_message: "Claimed Fusion Reactor"
+			feedback_message: "feedback_message.ftb.reward_fusion"
 			icon: {
 				id: "mekanismgenerators:fusion_reactor_controller"
 			}

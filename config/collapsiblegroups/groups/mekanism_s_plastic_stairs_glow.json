@@ -1,0 +1,84 @@
+{
+  "id": "mekanism_s_plastic_stairs_glow",
+  "name": {
+    "translate": "collapsible_groups.group.mekanism_s_plastic_stairs_glow",
+    "fallback": "Mekanism\u0027s Plastic Stairs (Glow)"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:black_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:blue_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:green_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:cyan_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:dark_red_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:purple_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:orange_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:light_gray_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:gray_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:light_blue_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:lime_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:aqua_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:red_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:magenta_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:pink_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:brown_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:white_plastic_glow_stairs\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"mekanismadditions:yellow_plastic_glow_stairs\"}"
+      }
+    ]
+  }
+}

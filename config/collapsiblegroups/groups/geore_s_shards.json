@@ -1,0 +1,116 @@
+{
+  "id": "geore_s_shards",
+  "name": {
+    "translate": "collapsible_groups.group.geore_s_shards",
+    "fallback": "GeOre\u0027s Shards"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:gold_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:ruby_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:monazite_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:tin_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:aluminum_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:sapphire_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:iron_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:tungsten_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:lead_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:topaz_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:lapis_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:coal_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:uranium_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:nickel_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:zinc_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:quartz_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:copper_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:osmium_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:uraninite_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:redstone_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:diamond_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:platinum_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:black_quartz_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:ancient_debris_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:emerald_shard\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"geore:silver_shard\"}"
+      }
+    ]
+  }
+}

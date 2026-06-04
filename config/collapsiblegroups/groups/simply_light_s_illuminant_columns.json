@@ -1,0 +1,76 @@
+{
+  "id": "simply_light_s_illuminant_columns",
+  "name": {
+    "translate": "collapsible_groups.group.simply_light_s_illuminant_columns",
+    "fallback": "Simply Light\u0027s Illuminant Columns"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_light_gray\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_gray\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_black\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_brown\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_red\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_orange\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_yellow\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_lime\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_green\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_cyan\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_light_blue\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_blue\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_purple\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_magenta\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"simplylight:lamp_post_pink\"}"
+      }
+    ]
+  }
+}

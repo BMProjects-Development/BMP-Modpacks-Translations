@@ -1,0 +1,19 @@
+{
+  "id": "productive_metalwork_casts",
+  "name": {
+    "translate": "collapsible_groups.group.productive_metalwork_casts",
+    "fallback": "Productive Metalworks: Casts"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "any": [
+          { "type": "item", "namespace": "productivemetalworks" },
+          { "type": "item", "namespace": "sgearmetalworks" }
+        ]
+      },
+      { "item_path_ends_with": "_cast" }
+    ]
+  }
+}

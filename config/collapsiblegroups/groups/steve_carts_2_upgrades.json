@@ -1,0 +1,14 @@
+{
+  "id": "steve_carts_2_upgrades",
+  "name": {
+    "translate": "collapsible_groups.group.steve_carts_2_upgrades",
+    "fallback": "Steve's Carts 2: Upgrades"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "stevescarts" },
+      { "item_path_starts_with": "upgrade_" }
+    ]
+  }
+}

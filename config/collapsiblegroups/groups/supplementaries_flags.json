@@ -1,0 +1,19 @@
+{
+  "id": "supplementaries_flags",
+  "name": {
+    "translate": "collapsible_groups.group.supplementaries_flags",
+    "fallback": "Supplementaries: Flags"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "supplementaries"
+      },
+      {
+        "item_path_starts_with": "flag_"
+      }
+    ]
+  }
+}

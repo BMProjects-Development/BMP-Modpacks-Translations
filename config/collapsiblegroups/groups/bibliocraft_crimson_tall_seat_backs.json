@@ -1,0 +1,14 @@
+{
+  "id": "bibliocraft_crimson_tall_seat_backs",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_crimson_tall_seat_backs",
+    "fallback": "BiblioCraft: Crimson Tall Seat Backs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "bibliocraft" },
+      { "item_path_ends_with": "_crimson_tall_seat_back" }
+    ]
+  }
+}

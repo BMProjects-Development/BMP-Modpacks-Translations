@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			auto: "no_toast"
-			command: "/endershard @s 8 131 -3593 Void Chasm North"
+			command: "/endershard @s 8 131 -3593 Пустотные расселины: Север"
 			id: "27EBCAD2651AD138"
 			permission_level: 3
 			silent: true
@@ -13,7 +13,7 @@
 		}
 		{
 			auto: "no_toast"
-			command: "/endershard @s 8 131 3607 Void Chasm South"
+			command: "/endershard @s 8 131 3607 Пустотные расселины: Юг"
 			id: "00EC1162EB842D86"
 			permission_level: 3
 			silent: true
@@ -21,7 +21,7 @@
 		}
 		{
 			auto: "no_toast"
-			command: "/endershard @s 3608 131 7 Void Chasm East"
+			command: "/endershard @s 3608 131 7 Пустотные расселины: Восток"
 			id: "0D23EB824CB0A0C2"
 			permission_level: 3
 			silent: true
@@ -29,7 +29,7 @@
 		}
 		{
 			auto: "no_toast"
-			command: "/endershard @s -3592 131 7 Void Chasm West"
+			command: "/endershard @s -3592 131 7 Пустотные расселины: Запад"
 			id: "59AD0E3C98FC5EA2"
 			permission_level: 3
 			silent: true

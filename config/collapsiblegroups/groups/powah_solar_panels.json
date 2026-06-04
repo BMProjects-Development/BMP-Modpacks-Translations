@@ -1,0 +1,14 @@
+{
+  "id": "powah_solar_panels",
+  "name": {
+    "translate": "collapsible_groups.group.powah_solar_panels",
+    "fallback": "Powah: Solar Panels"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "powah" },
+      { "item_path_starts_with": "solar_panel_" }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ftbechoes:test_echo4",
+  "title": { "text": "Test Echo 4 (no lore)", "color": "yellow" },
+  "stages": [
+    {
+      "title": "Stage I",
+      "lore": [
+      ],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "echo4_stage1",
+      "shop_unlock": [
+      ]
+    },
+    {
+      "title": "Stage II",
+      "lore": [
+      ],
+      "not_ready": "",
+      "ready": "",
+      "required_stage": "echo4_stage2",
+      "shop_unlock": [
+      ]
+    }
+  ]
+}

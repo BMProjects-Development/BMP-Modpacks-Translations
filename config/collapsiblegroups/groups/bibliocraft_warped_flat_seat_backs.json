@@ -1,0 +1,14 @@
+{
+  "id": "bibliocraft_warped_flat_seat_backs",
+  "name": {
+    "translate": "collapsible_groups.group.bibliocraft_warped_flat_seat_backs",
+    "fallback": "BiblioCraft: Warped Flat Seat Backs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "bibliocraft" },
+      { "item_path_ends_with": "_warped_flat_seat_back" }
+    ]
+  }
+}

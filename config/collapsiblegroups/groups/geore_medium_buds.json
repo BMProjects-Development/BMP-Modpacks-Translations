@@ -1,0 +1,22 @@
+{
+  "id": "geore_medium_buds",
+  "name": {
+    "translate": "collapsible_groups.group.geore_medium_buds",
+    "fallback": "GeOre: Medium Buds"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "geore"
+      },
+      {
+        "item_path_starts_with": "medium_"
+      },
+      {
+        "item_path_ends_with": "_bud"
+      }
+    ]
+  }
+}

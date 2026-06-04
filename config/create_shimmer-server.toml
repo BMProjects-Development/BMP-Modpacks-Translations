@@ -131,6 +131,12 @@
 		# Default: 0.07500000298023224
 		# Range: 0.0 ~ 0.5
 		experienceLanternPullForceMultiplier = 0.07500000298023224
+		#.
+		#The amount of liquid a Blaze Uncrafter can hold (mB).
+		#[@cui:RequiresReload:server]
+		# Default: 4000
+		# Range: > 1000
+		blazeUncrafterFluidCapacity = 4000
 
 	#.
 	#Parameters and abilities of enchantment operating components
@@ -216,3 +222,43 @@
 		# Default: 50
 		# Range: 1 ~ 1000
 		fortificationScepterRepairCost = 50
+
+	#.
+	#Parameters for Blaze Uncrafter mechanics
+	[kinetics.uncrafter]
+		#.
+		#.
+		#The maximum uncrafting level for the Blaze Uncrafter.
+		# Default: 30
+		# Range: 1 ~ 60
+		maxUncraftingLevel = 30
+		#.
+		#Base percentage of ingredients retained at level 0.
+		# Default: 30
+		# Range: 0 ~ 100
+		baseRetentionPercent = 30
+		#.
+		#Maximum percentage of ingredients retained at max level.
+		# Default: 100
+		# Range: 0 ~ 100
+		maxRetentionPercent = 100
+		#.
+		#Whether Twilight Forest uncrafting cost should be used as minimum uncrafting level requirement.
+		tfCostAsMinLevel = true
+		#.
+		#Multiplier for ingredient loss due to item durability damage. 0 disables durability loss.
+		# Default: 1.0
+		# Range: 0.0 ~ 2.0
+		durabilityLossMultiplier = 1.0
+		#.
+		#The amount of liquid a Blaze Uncrafter can hold (mB).
+		#[@cui:RequiresReload:server]
+		# Default: 4000
+		# Range: > 1000
+		blazeUncrafterFluidCapacity = 4000
+		#.
+		#The processing time of Blaze Uncrafter in ticks.
+		#[@cui:RequiresReload:server]
+		# Default: 200
+		# Range: > 20
+		uncraftingTime = 200
