@@ -3,9 +3,9 @@
 <img width="3840" height="2160" alt="stoneblock_4_banner (1)" src="https://github.com/user-attachments/assets/de8a5eca-fc26-446b-bce4-466a1659b0dc" />
 
 <p>
-  <a href="https://github.com/BMProjects-Development/Divine-Journey-2-Translate/commits/"><img src="https://img.shields.io/github/commit-activity/t/BMProjects-Development/Divine-Journey-2-Translate?style=for-the-badge&labelColor=FFD700&color=8A2BE2" alt="Stars"></a>
-  <a href="https://github.com/BMProjects-Development/Divine-Journey-2-Translate/stargazers"><img src="https://img.shields.io/github/stars/BMProjects-Development/Divine-Journey-2-Translate.svg?style=for-the-badge&labelColor=FFD700&color=8A2BE2" alt="Stars"></a>
-  <a href="https://github.com/BMProjects-Development/Divine-Journey-2-Translate/graphs/contributors"><img src="https://img.shields.io/github/contributors/BMProjects-Development/Divine-Journey-2-Translate.svg?style=for-the-badge&labelColor=FFD700&color=8A2BE2" alt="Contributors"></a>
+  <a href="https://github.com/BMProjects-Development/StoneBlock-4-Translate/commits/"><img src="https://img.shields.io/github/commit-activity/t/BMProjects-Development/StoneBlock-4-Translate?style=for-the-badge&labelColor=FFD700&color=8A2BE2" alt="Stars"></a>
+  <a href="https://github.com/BMProjects-Development/StoneBlock-4-Translate/stargazers"><img src="https://img.shields.io/github/stars/BMProjects-Development/StoneBlock-4-Translate.svg?style=for-the-badge&labelColor=FFD700&color=8A2BE2" alt="Stars"></a>
+  <a href="https://github.com/BMProjects-Development/StoneBlock-4-Translate/graphs/contributors"><img src="https://img.shields.io/github/contributors/BMProjects-Development/StoneBlock-4-Translate.svg?style=for-the-badge&labelColor=FFD700&color=8A2BE2" alt="Contributors"></a>
   <a href="https://discord.gg/9GWKBVw3Ty"><img src="https://img.shields.io/discord/1087416155934834748?style=for-the-badge&label=Discord&logo=discord&logoColor=d9e0ee&labelColor=FFD700&color=8A2BE2" alt="Discord"></a>
 </p>
 
