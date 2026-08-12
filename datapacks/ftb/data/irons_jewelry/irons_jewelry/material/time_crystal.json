@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "justdirethings:time_crystal"
   },
-  "materialType": [
-    "gem"
-  ],
   "paletteLocation": "irons_jewelry:palettes/peridot",
   "quality": 2,
   "bonusParameters": {

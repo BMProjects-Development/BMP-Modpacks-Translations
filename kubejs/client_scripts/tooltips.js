@@ -84,6 +84,10 @@ const tooltipPairs = [
     lines: [{ key: "ftb.tooltip.mekanism.factory" }]
   },
   {
+    items: ["mekanism:creative_energy_cube"],
+    lines: [{ key: "ftb.tooltip.mekanism.creative_energy_cube_refill" }]
+  },
+  {
     items: [
       "relics:infinity_ham",
       "artifacts:eternal_steak",
@@ -241,6 +245,14 @@ const tooltipPairs = [
     "mob_grinding_utils:delightful_dirt"
     ],
     lines: [{ key: "ftb.tooltip.silktouch"}]
+  },
+  {
+    items: ["pipez:wrench"],
+    lines: [{ key: "ftb.powah.energy_cell_wrench"}]
+  },
+  {
+    items: ["industrialforegoing:infinity_backpack"],
+    lines: [{ key: "ftb.industrialforegoing.infinity_backpack_autofeed"}, { key: "ftb.industrialforegoing.infinity_backpack_autofeed_1"}]
   },
   {
     items: [

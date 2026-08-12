@@ -12,6 +12,7 @@
 	chapter.391B65CD04A90459.title: "전력"
 	chapter.39E1055DAEF9F36E.title: "3단계: 솔라리스"
 	chapter.3B99F85218D37371.title: "유용한 아이템 및 팁"
+	chapter.3BF272F9FDD1D8F9.title: "드라코닉 에볼루션"
 	chapter.41A8FE9D26EFA401.title: "시작하기"
 	chapter.446E3CE6936F2CAE.title: "일반 기술"
 	chapter.4F0F16931654DF58.title: "현상금 게시판"
@@ -107,6 +108,9 @@
 	quest.012DF07A81C69AAA.title: "&d공명하는 공허&r"
 	quest.0138DA9E72BF9CE0.quest_desc: ["이 나침반은 가장 가까운 &a치유의 샘&r으로 당신을 안내할 것입니다."]
 	quest.0138DA9E72BF9CE0.title: "&f치유의 샘&a 찾기"
+	quest.0171649B0F984DBB.quest_desc: ["이 퀘스트는 &d와름라이트의 &6기록 보관소&r로 가는 웨이포인트를 설정합니다."]
+	quest.0171649B0F984DBB.title: "&f와름라이트 찾기&d"
+	quest.0173ED2BED248CF6.quest_desc: ["&a물질&r &e송신기&r와 &a수신기&r를 사용하여 세계 내에서 왕복 순간이동을 설정할 수 있습니다. "]
 	quest.018B19721F4404FF.quest_desc: ["엔더 진주 또는 엔더의 눈을 소비하여 전력을 생성합니다."]
 	quest.0191028C1E2EAA31.quest_desc: [
 		"&e말룸의 &a낫&r을 사용하면 적에게서 &b영혼&r을 거둘 수 있습니다."
@@ -124,6 +128,7 @@
 		"- 세 번째 슬롯: 틀이 있는 서랍"
 		"- 네 번째 슬롯: 구분선 텍스처"
 	]
+	quest.01C338263242935F.title: "TF 동쪽"
 	quest.01D2CEAF59872C33.quest_desc: [
 		"&a보석 절단대&r는 &b보석&r을 업그레이드하는 데 사용됩니다."
 		""
@@ -220,6 +225,11 @@
 	]
 	quest.036C11AC70835846.title: "&f엔드의 힘&d"
 	quest.03AC1C56F20BB662.quest_desc: ["&d신비한 정수&r를 얻었다면, 업그레이드를 위해 제작할 수 있는 몇 가지 마법서가 있습니다!"]
+	quest.03BEFC2150D09E7A.quest_desc: [
+		"&d무선 그리드&r는 &3무선 송신기&r 범위 내에 있을 때 저장 네트워크에 원격으로 접근할 수 있게 합니다."
+		""
+		"각 &d무선 그리드&r는 해당 &a그리드&r와 동일한 기능을 제공합니다."
+	]
 	quest.03E48CD6E5DB806F.quest_desc: [
 		"더 많은 &6아카이브&r를 잠금 해제했으니, 로비를 탐험하고 &d와름라이트의 메아리&r를 찾을 시간입니다."
 		""
@@ -270,6 +280,8 @@
 		"&7&o로비 어디에서든 &e/echo machinist&7을(를) 사용하여 그들을 만난 후 이 메아리로 직접 순간이동할 수 있습니다."
 	]
 	quest.0484D6030DF690BD.title: "&f만나기 &d기계공"
+	quest.0484DE13B27E77D0.title: "작업 화면 설명"
+	quest.04886BA191FF452F.title: "바다 서쪽"
 	quest.049DE43A1B31C38F.quest_desc: ["이 장에서는 아이템을 저장하는 기본적인 방법들을 다룹니다!"]
 	quest.049DE43A1B31C38F.title: "&a일반 저장 옵션"
 	quest.04ABB8DD43099429.quest_desc: [
@@ -277,6 +289,7 @@
 		""
 		"용암을 생성하는 좋은 방법이 있다면 초반에 유용한 발전기이지만, &e더 발전된 연료&r를 자동화할 수 있게 되면 훨씬 더 좋아집니다!"
 	]
+	quest.04BF47162CC46237.quest_subtitle: "언어더, 고고학자"
 	quest.04E68DA90DC83B45.quest_desc: [
 		"필요한 블록을 &3업그레이드&f에 제출하고 보상을 받으면 팀의 &6월드 엔진&r이 자동으로 조립됩니다."
 		""
@@ -285,6 +298,8 @@
 		"&e참고&f: 업그레이드가 있어야 할 곳에 배치된 블록은 사라집니다."
 	]
 	quest.04E68DA90DC83B45.title: "&f자동으로 &3그림자 케이싱 업그레이드&3 구축"
+	quest.051AA9C595DC9B02.quest_desc: ["이 퀘스트는 &d촉매의 &6아카이브&r로 순간이동하는 웨이포인트를 설정합니다."]
+	quest.051AA9C595DC9B02.title: "&f찾기 &d촉매"
 	quest.0533C0C07AE600FD.quest_desc: [
 		"&e메커니즘 &d핵분열 반응로&r는 핵분열 연료와 냉각수를 받아 &6핵 폐기물&r과 &b뜨거운 냉각수&r로 변환합니다."
 		""
@@ -355,6 +370,7 @@
 		"&6RFTools&r에는 비슷한 것이 있지만, 두 개의 별도 블록으로 되어 있습니다."
 	]
 	quest.05A6946A5AF26684.title: "무선 레드스톤"
+	quest.05BB2A6101B519A0.quest_desc: ["&6차원 카드&r는 상당한 에너지 비용으로 차원 간 네트워크에 접근할 수 있게 해줍니다."]
 	quest.05C3502C9F7BB7A3.quest_desc: [
 		"&6메카 슈트&r는 일부 폴로늄과 기타 고급 &eMekanism&r 재료로 제작할 수 있습니다. 이 동력 장비는 그 자체로도 매우 강력하지만, 행운부터 비행까지 다양한 &b모듈&r로 크게 강화될 수 있습니다!"
 		""
@@ -391,6 +407,7 @@
 	quest.066B47D2AB72355C.quest_desc: ["이 던전은 대략 x:512, z:512 근처에서 생성됩니다."]
 	quest.066B47D2AB72355C.title: "&d비전 숲 찾기"
 	quest.068C117DD3DD10C2.title: "안내 확인 3"
+	quest.06A86C3EC5CBF204.quest_subtitle: "발굴자, 고고학자"
 	quest.06C9E9DBE25887D9.quest_desc: ["&a용암 발전기&r는 용암을 소비하여 RF를 생성합니다. &6Oritech&r의 RF 생성은 &b애드온&r으로 증가할 수 있습니다."]
 	quest.06D54A3D73AB7DE8.title: "기체 저장"
 	quest.06EC32E6140E68C1.quest_desc: [
@@ -406,6 +423,7 @@
 		""
 		"&7&o주변의 경험치 구슬을 수동으로 수집할 수도 있습니다."
 	]
+	quest.077F5C3829CA7300.title: "음식"
 	quest.08000D28B577EF94.quest_desc: ["이 퀘스트 보상을 받으면 &d메아리의 &6아카이브&r 입구에 웨이포인트가 설정됩니다."]
 	quest.08000D28B577EF94.title: "&f마법사 찾기&d"
 	quest.08145422E66D2B7D.quest_desc: [
@@ -426,6 +444,7 @@
 	]
 	quest.081EA35CCBDF793F.title: "둥지 궁극"
 	quest.08204AA5ACCC914E.quest_desc: ["&a배낭&r도 염색할 수 있습니다! 이는 배낭의 색상 코드를 지정하거나 검은색 배낭으로 멋지게 보이게 하는 데 유용합니다."]
+	quest.082551D21363A1D9.title: "&d아르스 무기"
 	quest.0826EF3E7B15B219.quest_desc: ["분홍색 아이템을 소비하여 전력을 생성합니다."]
 	quest.08766B8721B4E541.quest_desc: [
 		"네더 반지 안에서 &c고대 전투장&r을 발견할 수도 있습니다."
@@ -557,11 +576,7 @@
 	quest.0AD2F3DB33241628.title: "&eArs &f도구"
 	quest.0ADBBF7BA99D2811.quest_desc: ["&eActually Additions의 &a올인원 도구&r는 모든 도구를 한 번에 사용할 수 있어 핫바 공간을 절약하는 데 유용한 추가 기능입니다!"]
 	quest.0ADBBF7BA99D2811.title: "&f올인원 도구"
-	quest.0AFF8E28FC51B123.quest_desc: [
-		"최소한의 번거로움으로 두 개의 간단한 블록을 교체해야 합니까? &c교체 지팡이&r를 사용해 보세요!"
-		""
-		"최소한의 번거로움으로 블록을 집어 다른 곳에 배치해야 합니까? 집기 지팡이를 사용해 보세요!"
-	]
+	quest.0AFA74FA77E9056B.title: "바다 남쪽"
 	quest.0B02B72259362345.quest_desc: ["이 퀘스트 보상을 받으면 &d메아리의 &6기록 보관소&r 입구에 웨이포인트가 설정됩니다."]
 	quest.0B02B72259362345.title: "&f제작기&d 찾기"
 	quest.0B1E459D12D11A0D.quest_desc: [
@@ -726,6 +741,7 @@
 		"이것들은 인터페이스 내에서 쉽게 구성할 수 있습니다. 멀티블록 전력 뱅크를 만들기 위해 이것들을 함께 쌓을 수도 있습니다."
 	]
 	quest.0D57D3662EB40CE3.title: "&a커패시터 뱅크&r"
+	quest.0D864FD6A668D8C6.quest_desc: ["&3인터페이스&r는 네트워크에 동시에 입력하고 출력할 수 있으며, 동일한 블록 공간 내에서 &a임포터&r 및 &2익스포터&r 역할을 합니다."]
 	quest.0DB5CBE2E76D2FD9.quest_desc: [
 		"&6Pipez&r 모드는 &b아이템&r, &9유체&r, &c전력&r 또는 &2기체&r를 전송하는 여러 유용한 파이프를 추가합니다. &d범용 파이프&r를 사용하여 모든 것을 하나의 파이프로 압축할 수도 있습니다."
 		""
@@ -746,6 +762,7 @@
 		"&e참고&r: &a컨트롤러&r를 제작하려면 &a포트론 주입 블록&r과 &c엔더 셀&r &3월드 엔진 업그레이드&r가 필요합니다."
 	]
 	quest.0DF5D2B35FDEE536.title: "XNet"
+	quest.0DF9EE9016483463.title: "WE 설계도를 보상에 추가"
 	quest.0E06BDC6265EB7F7.quest_desc: [
 		"&3컨트롤러&r는 네트워크의 채널 수를 늘리는 데 사용됩니다. 초기 게임에서는 필요하지 않으며, 기본적으로 32개의 채널을 사용할 수 있습니다. &3컨트롤러&r가 없는 네트워크는 &bAd-Hoc&r로 간주됩니다."
 		""
@@ -861,6 +878,12 @@
 		"참고: 큰 사각형이 있는 앞면에서만 전력을 추출할 수 있습니다."
 	]
 	quest.0EFA11536D00E653.title: "바이오 발전기"
+	quest.0F1B7185D8F4CDE6.quest_desc: [
+		"&7암흑 물질 도구&r는 빠르고 부서지지 않으며, 암흑 물질 &a곡괭이&r는 일반 모드와 3블록 너비 채굴 모드 간에 전환할 수 있습니다."
+		""
+		"&eProjectE&r 도구는 EMC로 충전(기본값: \"V\")하여 각 도구를 우클릭할 때 강력한 광역 효과 능력을 부여할 수 있습니다."
+	]
+	quest.0F1B7185D8F4CDE6.title: "&7암흑 물질 &f도구"
 	quest.0F3EDB9AE592016B.quest_subtitle: "에너지 용량 및 에너지 전송 속도 향상"
 	quest.0F3EDB9AE592016B.title: "&f기계 축전기 애드온"
 	quest.0F48353EDD296510.quest_desc: ["&d와름라이트&r와 대화하여 &d공명하는 공허&r를 제작하면 &3월드 엔진 업그레이드&r 설치 방법을 알려줄 것입니다."]
@@ -875,6 +898,7 @@
 	quest.0FD446B7912E00CB.quest_desc: ["모든 부품을 결합하여 &c고급 기계 블록&r을 만들 시간입니다."]
 	quest.0FD446B7912E00CB.quest_subtitle: "주요 월드 엔진 업그레이드"
 	quest.0FD446B7912E00CB.title: "&f고급 기계 업그레이드"
+	quest.0FED418633235211.title: "&f중반 바닐라 검"
 	quest.0FF5D73B3256F400.quest_desc: [
 		"&3업그레이드&f에 필요한 블록을 제출하고 보상을 받으면 팀의 &6월드 엔진&r이 자동으로 조립됩니다."
 		""
@@ -969,9 +993,18 @@
 	]
 	quest.11F69E1E4FE4D5CD.title: "&f플럭스의 힘"
 	quest.1237537100194BED.title: "&e처치&f: &7위더"
+	quest.1278BB2F13A74537.quest_subtitle: "언더서, 지질학자"
 	quest.12CB62610FEAADA0.quest_desc: ["드래곤의 숨결을 소모하여 발전합니다."]
 	quest.131199313AE3F5E9.quest_desc: ["&a전동 제련기&r는 본질적으로 업그레이드할 수 있는 동력 화로입니다!"]
 	quest.131199313AE3F5E9.title: "&f우리의 첫 &a동력 화로"
+	quest.133ECE7BDDC8C13D.quest_desc: [
+		"이제 <blank>을(를) 획득했으니, &6인도의 메아리&r는 더 많은 &d기록 보관소&r를 발견할 수 있다고 언급했습니다."
+		""
+		"로비로 돌아가서 무엇을 찾을 수 있는지 확인하세요!"
+	]
+	quest.133ECE7BDDC8C13D.quest_subtitle: "2단계 퀘스트라인 잠금 해제"
+	quest.133ECE7BDDC8C13D.title: "&f잃어버린 메아리 찾기"
+	quest.136E32BEF40CCB1B.quest_subtitle: "언더서, 지질학자"
 	quest.137039009E8EBA03.quest_desc: [
 		"&6ProjectE&r는 충분한 EMC와 &c네더라이트 스미싱 템플릿&r을 확보하면 만들 수 있는 몇 가지 매우 강력한 도구를 가지고 있습니다."
 		""
@@ -1004,6 +1037,12 @@
 		"의식은 특정 아이템을 사용하여 &a강화&r할 수도 있습니다. 이는 먼저 &3의식 서판&r을 사용하는 것으로 시작하여, 강화 요구 사항을 충족하기 위해 아이템을 화톳불에 하나씩 사용하는 방식으로 이루어집니다. 완료되면 빈 손으로 우클릭하여 의식을 활성화할 수 있습니다."
 	]
 	quest.13C8B2286F5184C7.quest_desc: ["충전되면 &3순간이동 지팡이&r를 사용하면 바라보는 방향으로 최대 100블록까지 순간이동합니다."]
+	quest.13D1BC0C49543326.quest_desc: [
+		"이 퀘스트는 &d고대의 &6기록보관소&r로 가는 웨이포인트를 설정합니다."
+		""
+		"&e참고&f: &d황혼&r과 &d고대인&r은 동일한 &6기록보관소&r를 공유합니다."
+	]
+	quest.13D1BC0C49543326.title: "&f고대인&d 찾기"
 	quest.13E0F74B9A1DAB58.quest_desc: [
 		"이 나침반은 &3금고&3의 위치를 가리킵니다."
 		""
@@ -1032,6 +1071,7 @@
 		"&eCreate&r 기계는 가능한 경우 &a벨트&r의 아이템과 자동으로 상호 작용합니다."
 	]
 	quest.13FE28AF74A357CD.title: "Create 아이템 옵션"
+	quest.1402FA427FF1B8B3.quest_subtitle: "언더서, 차원 이동 전문가"
 	quest.141CE17C25D2A53A.quest_desc: [
 		"배낭의 업그레이드를 만들려면 먼저 &a업그레이드 베이스&r를 제작해야 합니다."
 		""
@@ -1122,6 +1162,7 @@
 		"&b잠금 해제됨&f:"
 	]
 	quest.1617D99EA1AE47E4.title: "안내 1.2 확인"
+	quest.1628081CB8A2E5CA.quest_subtitle: "언어더, 지질학자"
 	quest.165A1B6F56051FA6.quest_desc: [
 		"&e템패드&r는 특수 임시 포털인 타임도어를 사용하여 장소를 이동하는 순간이동 모드입니다."
 		""
@@ -1361,6 +1402,7 @@
 		""
 		"다른 유형의 촉매도 제작할 수 있어, 정령을 더 다양한 자원으로 전환할 수 있습니다."
 	]
+	quest.1C3DFCB335276952.title: "메카니즘 반응로"
 	quest.1C6508B8B2C94CAF.quest_desc: [
 		"이 전력 소모 도구는 &a개조 테이블&r에서 업그레이드할 수 있습니다."
 		""
@@ -1416,6 +1458,7 @@
 	quest.1D87C5E9D52341C4.title: "융합 제작"
 	quest.1D8B2D2B03DF3256.quest_desc: ["&d와름라이트&r는 &2크로논 공명기&r를 제작하면 형제의 마지막 알려진 위치를 찾을 수 있다고 말합니다."]
 	quest.1D8B2D2B03DF3256.title: "&f승천한 메아리 찾기&6"
+	quest.1DA11C69EFDA19EC.quest_subtitle: "언어더, 지질학자"
 	quest.1DA78BAB2A6E2C82.quest_desc: [
 		"모드 베테랑들에게 &e엔더IO&r는 놀라운 파이프인 &d컨duit&r 때문에 좋은 추억을 가지고 있었습니다."
 		""
@@ -1424,6 +1467,16 @@
 		"&a예타 렌치&r를 사용하여 쉽게 구성할 수 있습니다. 파이프가 &2외관&r 아래에 숨겨져 있다면, 렌치를 손에 들고 있으면 쉽게 구성할 수 있도록 파이프가 드러납니다."
 	]
 	quest.1DA78BAB2A6E2C82.title: "엔더IO 컨duit"
+	quest.1DC5DE6E9F0D0B2C.quest_desc: [
+		"주문은 &a주문 책&r을 장신구 슬롯에 장착하여 시전할 수 있습니다."
+		""
+		"장착 후, 기본적으로 &bR&r 키를 눌러 두루마리 바퀴를 열 수 있습니다. 선택한 주문은 &bV&r를 눌러 시전할 수 있습니다."
+		""
+		"이 모든 것은 키 바인딩에서 변경할 수 있습니다. &acategory:\"Iron's Spells 'n Spellbooks - General\"&r을(를) 검색해 보세요."
+		""
+		"빠른 시전 옵션도 있습니다!"
+	]
+	quest.1DC5DE6E9F0D0B2C.title: "&b주문 시전"
 	quest.1DE16238ECFB074D.title: "카오스 만남"
 	quest.1E061D2E5C560867.quest_desc: [
 		"&c체세드 경기장&r은 &e엔드&r 고리에서 발견되는 거대한 구조물입니다."
@@ -1478,6 +1531,7 @@
 		"8단계에서는 &2안정기&r를 링 형태로 업그레이드해야 하며, 총 36개의 블록(링당 9개)이 필요합니다."
 	]
 	quest.1E6E38DC6183463A.title: "&eDE &f에너지 코어"
+	quest.1EC4F12DACE04299.quest_desc: ["크리에이트 금고에서 획득"]
 	quest.1EEC74B18B1BFBB5.quest_desc: [
 		"&a배터리&r는 에너지를 이동하며 저장하는 좋은 방법입니다. 유선 또는 무선 충전 방식으로 충전할 수 있습니다."
 		""
@@ -1671,6 +1725,7 @@
 	quest.22103051C3EE2BA0.title: "&fSAG 밀"
 	quest.226E5BD0BEB1BA75.quest_desc: ["이것들은 &c콴타&r 100% 추가 또는 &c콴타&r 및 &5아르카나&r 제거와 같은 특정 보너스를 제공하는 고유한 선반입니다."]
 	quest.226E5BD0BEB1BA75.title: "&a기타 선반"
+	quest.228D69F6ACAE761B.quest_subtitle: "발굴자, 지질학자"
 	quest.22B83D03C6C3E61E.quest_subtitle: "작동 속도를 향상시키지만 에너지 효율은 감소시킵니다"
 	quest.22B94BDDC08B3FA9.quest_desc: [
 		"&a황동 케이싱&r을 &d흑요석 판&r으로 강화하면 기차의 무게를 견딜 수 있을 만큼 튼튼한 케이싱을 만들 수 있습니다."
@@ -1699,6 +1754,7 @@
 		"같은 보스에게 죽을 때마다 피해 저항력과 살해자에게 가하는 피해량이 증가합니다."
 	]
 	quest.23562C59CEDE9879.title: "&6데우스 엑스 마키나"
+	quest.238137090A4F8FD6.title: "마이너 WE 업그레이드 확인"
 	quest.23DC842244086CB9.title: "길잡이 만나기"
 	quest.24401E59D87AC23A.quest_desc: [
 		"&6융합로&r는 &eMekanism&r의 최종 에너지 발전기입니다. &a중수소&r와 &2삼중수소&r 또는 둘의 혼합물&r로 연료를 공급받으며, 상대적으로 적은 유지보수로 막대한 양의 전력 및/또는 열을 생산할 수 있습니다. 두 연료 구성 요소 모두 물과 에너지만으로 생산됩니다!"
@@ -1716,12 +1772,15 @@
 		"여기서 출력 모드로 설정된 &a융합로 포트&r에서 에너지, 증기 또는 열을 추출할 수 있습니다."
 	]
 	quest.24401E59D87AC23A.title: "융합로"
+	quest.244134B3BF63A680.quest_subtitle: "언어더를 통해 사용 가능"
 	quest.24CE908ED60FD514.quest_desc: [
 		"&a분쇄기&r는 가루와 바이오매스를 만드는 데 사용할 수 있는 간단한 기계입니다."
 		""
 		"게임 초반에는 이것이 &6엔더 화합물&r을 얻는 가장 좋은 방법이기도 합니다."
 	]
 	quest.24CE908ED60FD514.title: "&f이제 부술 시간이야"
+	quest.24D045E9CE30A016.quest_subtitle: "언어더, 지질학자"
+	quest.24F370B893D01143.quest_subtitle: "언어더, 지질학자"
 	quest.25023C87AA259688.quest_desc: [
 		"갑옷 형태의 보호 기능은 많지 않지만, 이 갑옷을 모두 착용한 상태에서 \"Shift\"를 누르고 있으면 몹에게 탐지되지 않을 정도로 작은 골판지 상자로 변신합니다."
 		""
@@ -1755,6 +1814,7 @@
 		"&e참고&r: 이 장의 모든 퀘스트는 &n&6작업 화면&r을 사용하여 완료해야 합니다."
 	]
 	quest.25CCA572C4D5CEA0.title: "승천 티어 1 - 에테르"
+	quest.25E0E97D705F3514.quest_subtitle: "IronJs를 위해 제거해야 함"
 	quest.2646D51DBAD8AD42.quest_desc: [
 		"&b확인&f: 그림자 케이싱 얻기"
 		""
@@ -1873,6 +1933,8 @@
 		"이 가죽으로 &2배낭&r을 만드는 것을 고려하는 것이 좋을 것입니다!"
 	]
 	quest.277181E358575312.title: "&f썩은 살점을 가죽으로"
+	quest.27D28CC22BB5C665.quest_subtitle: "다른 업그레이드 제작에 사용됩니다"
+	quest.27D28CC22BB5C665.title: "기본 업그레이드"
 	quest.283EA4E7BA93DA11.quest_desc: [
 		"&a강화기&r는 주변의 네 개의 아이템을 소모하여 보석을 강화합니다."
 		""
@@ -1972,6 +2034,14 @@
 		"작동하려면 두 개의 도구가 필요합니다: &a도끼&r와 &a가위&r. 각 작업은 각 도구에서 내구도를 하나씩 소모합니다. &a도끼&r는 최소한 철 등급이어야 하며, 다른 모드의 &a가위&r도 작동할 수 있습니다."
 	]
 	quest.2BC86AF57781BE63.title: "&f슬라이스앤스플라이스"
+	quest.2BFD68083AD1B894.quest_desc: [
+		"&a구축기&r는 네트워크의 자원을 블록 또는 아이템 개체로 세계에 배치할 수 있습니다."
+		""
+		"각 &e케이블 등급&r 업그레이드는 이전 등급보다 더 빠르게 작동하며 더 많은 필터 슬롯을 가지고 있습니다."
+		""
+		"&7&o각 아이템의 툴팁에서 정확한 속도를 확인하세요."
+	]
+	quest.2BFD68083AD1B894.title: "구축기"
 	quest.2C0C63951FDED180.quest_desc: [
 		"&d입자 가속기&r는 상당히 복잡합니다! 이 때문에 각 부분은 어떻게 작동하는지 분해하기 위해 별도의 퀘스트로 나뉩니다."
 		""
@@ -1982,6 +2052,12 @@
 		"가속기에 연결하려면 &6고급 대상 지정기&r가 필요합니다."
 	]
 	quest.2C0C63951FDED180.title: "&d입자 가속기"
+	quest.2C141655079AC173.quest_desc: [
+		"&d와이번&r 무기는 내구도 대신 전력을 소비하며 모듈을 인벤토리에 넣어 사용자 정의할 수 있습니다."
+		""
+		"모듈 인벤토리는 기본적으로 바인딩되지 않은 &e도구 모듈&r 키 바인딩을 통해 액세스할 수 있습니다."
+	]
+	quest.2C141655079AC173.title: "&d와이번&f 무기"
 	quest.2C1649AE3DADD71D.quest_desc: [
 		"&e건축 막대기&r는 건축 과정을 훨씬 빠르게 만드는 모든 것입니다."
 		""
@@ -2097,6 +2173,7 @@
 		"&7Ficsit 기술의 현재 또는 이전과의 모든 유사성은 우연의 일치입니다.&o"
 	]
 	quest.2D20EDB447787183.title: "&6Create: 하이퍼튜브"
+	quest.2D35AD2FDC93FA46.title: "TF 남쪽"
 	quest.2D8FCC93C758D070.title: "영혼 저장 부품"
 	quest.2D95FEECCF48B088.quest_desc: [
 		"&a드라코닉 축전기&r는 휴대용 배터리로, 인벤토리의 다른 아이템에 전력을 저장하고 공급할 수 있습니다."
@@ -2107,6 +2184,8 @@
 	]
 	quest.2D95FEECCF48B088.title: "&d드라코닉 &f축전기"
 	quest.2D99F429A18BEED1.title: "촉매 확인 2"
+	quest.2DB9D91CFB15C210.quest_desc: ["회로를 만들기 위해 주입기를 사용하여 &2기계 프레임&r에 필요한 것을 만드세요."]
+	quest.2DB9D91CFB15C210.title: "&f기본 회로"
 	quest.2DF77DA2ED65FBAC.quest_desc: [
 		"&d와이번 흉갑&r은 수많은 사용자 지정 옵션을 제공하는 동력 갑옷입니다."
 		""
@@ -2179,6 +2258,7 @@
 	]
 	quest.2F9F60F308C42FB0.quest_subtitle: "프시 에너지로 주입된 다이아몬드!"
 	quest.2F9F60F308C42FB0.title: "프시 보석"
+	quest.2FF6307E57E005C8.quest_subtitle: "IE 분쇄기 필요, IE에서만 사용 가능"
 	quest.2FFA4CF8C062AD5E.quest_desc: [
 		"&a가져오기&r 및 &a내보내기 버스&r를 사용하면 시스템과 다른 연결된 인벤토리로 아이템을 파이프로 옮길 수 있습니다."
 		""
@@ -2218,6 +2298,7 @@
 	quest.30902357747A64F1.title: "&f눈의 여왕 궁전"
 	quest.309D995CCCDB3AEE.quest_desc: ["&d와이번 장인&r이 드라코닉 힘으로 주입된 &a크로논 배터리&r를 제공하여 이 도구가 ⟦z골절된 공허⟧&r에 접근할 수 있게 했습니다. 이 위치는 이제 &2액션 패드&r에도 연결되었습니다."]
 	quest.309D995CCCDB3AEE.title: "&f와이번 장인에게 말하기&d&f"
+	quest.30DC15C5BF42A9DE.title: "바다 동쪽"
 	quest.30EE07811728D901.quest_desc: [
 		"&6월드 엔진&r이 거의 완전한 기능을 갖추었습니다. 마지막 단계는 궁극의 금속을 만드는 것입니다."
 		""
@@ -2233,6 +2314,12 @@
 	]
 	quest.30F922372D95D407.title: "&f분재 나무"
 	quest.31042D7EBA3B39AD.title: "무한 확인 1"
+	quest.310F815C02B2CAF8.quest_desc: [
+		"이 퀘스트는 &d황혼의 &6기록 보관소&r로 가는 웨이포인트를 설정합니다."
+		""
+		"&e참고&f: &d황혼&r과 &d고대인&r은 같은 &6기록 보관소&r를 공유합니다."
+	]
+	quest.310F815C02B2CAF8.title: "&f황혼&d 찾기"
 	quest.31705AD5BE50E2CB.quest_desc: [
 		"&a가압 반응기&r는 1개의 액체, 1개의 기체, 1개의 아이템을 결합하여 새로운 아이템과 때로는 기체 부산물을 생산하는 고급 기계입니다."
 		""
@@ -2423,6 +2510,7 @@
 	quest.33E4C81B762892B2.title: "&f오리테크&e에 오신 것을 환영합니다&f!"
 	quest.33EDFB2DC1BEA7F0.quest_desc: ["&3자동 공예 모니터&r를 통해 모든 활성 공예 요청의 상태를 볼 수 있습니다."]
 	quest.33EDFB2DC1BEA7F0.title: "자동 공예 모니터"
+	quest.33FEE29B3EF5A420.quest_subtitle: "언어더, 다른 세계 돌"
 	quest.340D7F25B5EB0D33.quest_desc: [
 		"다음 등급의 구슬은 &d보이드쉬머 구슬&r이며, &b다이아몬드 블록&r을 &b셀레스티젬&r으로 변환할 수 있습니다."
 		""
@@ -2522,7 +2610,11 @@
 	]
 	quest.35E8F57E93106BFE.title: "패턴"
 	quest.364AA0C55F3312DE.title: "심층암 조각"
+	quest.364B2143B874582D.quest_desc: [""]
+	quest.364B2143B874582D.title: "&f월드 엔진 발견"
 	quest.36BA7AADD98E9868.quest_subtitle: "다이아몬드 + 금"
+	quest.36CB035F6484A70F.quest_desc: [""]
+	quest.36CB035F6484A70F.title: "&f가죽"
 	quest.36DD75256D280C4A.quest_desc: [
 		"기계는 &a애드온&r을 설치하여 업그레이드할 수 있습니다."
 		""
@@ -2636,6 +2728,7 @@
 		"이것을 만들려면 &a용광로 벽돌&r로 2x2x2 큐브를 만들고, &a엔지니어의 망치&r로 한 면을 마우스 오른쪽 버튼으로 클릭하세요."
 	]
 	quest.38E2176886386133.title: "&f합금 용광로"
+	quest.38EDDC529FD4C665.quest_subtitle: "발굴자, 지질학자"
 	quest.3900E67C8B833980.quest_desc: [
 		"&a장인 두루마리&r는 전리품으로 얻거나 상점&r에서 구매할 수 있습니다."
 		""
@@ -2689,6 +2782,7 @@
 		"또한 작동하려면 손에 도구가 있어야 합니다."
 	]
 	quest.39F6026AB205841A.title: "울티마인 참고 사항"
+	quest.3A106E4D6EE35D7A.quest_subtitle: "발굴자, 조약돌"
 	quest.3A1424B69AD511BD.quest_desc: [
 		"&eActually Additions &a드릴&r은 작동을 위해 전력을 소비하며 여러 가지 다른 보강재로 업그레이드할 수 있습니다."
 		""
@@ -2705,6 +2799,7 @@
 		"&d플레이어 순간이동 업그레이드&r를 사용하면 &6템패드&r가 활성 &a위치 방송기&r 또는 &d감시 장치&r를 장착한 플레이어를 감지할 수 있습니다."
 	]
 	quest.3A43CCB33A024711.title: "&6작업대"
+	quest.3A47929FBAEEBD8B.quest_subtitle: "발굴자, 조약돌"
 	quest.3A53BB7A6B708966.quest_desc: [
 		"&a45&r &6에테르나&r에 도달하면 선반을 주입할 수 있습니다!"
 		""
@@ -2765,6 +2860,7 @@
 	]
 	quest.3ACF3359B3B59A05.title: "&e정교한 저장소"
 	quest.3B06321F0E2F0EC9.title: "1단계 WE '또는' 확인"
+	quest.3B0DA478464D29CC.title: "&f초반 바닐라 검"
 	quest.3B2B26B1AD947CC5.quest_desc: [
 		"&a대형 에너지 저장소&r는 기본값 20M RF를 저장하며 &b애드온&r으로 업그레이드할 수 있습니다."
 		""
@@ -2810,6 +2906,7 @@
 	]
 	quest.3BFF8EFB5E7186A4.title: "&d양자 저장소"
 	quest.3C0A24054C75BF91.title: "병참 장교 확인 1"
+	quest.3C25B0FAC773D70A.title: "&d아르스의 도구"
 	quest.3CADD463CFC2FE32.quest_desc: [
 		"&a열전 발전기&r는 양쪽에 있는 블록 간의 온도 차이를 사용하여 &aLV&r 전력을 생성합니다."
 		""
@@ -2979,6 +3076,7 @@
 		"&7&o이 과정은 레드스톤으로 자동화될 수 있습니다."
 	]
 	quest.3EB56937CCDFCB2A.title: "주조"
+	quest.3EF3DBD1F6ADEAEC.quest_subtitle: "언어더, 차원 이동 전문가"
 	quest.3F5480E01ABA887B.quest_desc: [
 		"&aAutocrafter&r는 최대 9개의 구성된 레시피 &aPatterns&r와 4개의 &aSpeed Upgrades&r를 수용합니다."
 		""
@@ -3175,6 +3273,7 @@
 		""
 		"&e안정화&r는 부정적인 효과를 상쇄하여 이점만 얻고 단점은 얻지 못하게 합니다."
 	]
+	quest.428E671C1444C97B.quest_subtitle: "발굴자, 고고학자"
 	quest.42CE9840EED6B540.quest_desc: [
 		"우리의 새로운 친구는 &e부서진 엔드스톤&r을 쉽게 만들 수 있도록 도와줄 것입니다. 하지만 계속하기 전에 &b의식&r과 &b펜타클&r에 대해 더 이해하는 것이 중요합니다!"
 		""
@@ -3243,6 +3342,7 @@
 	]
 	quest.43949500F6A0B46A.title: "&f자동 크래프팅 멀티블록&d"
 	quest.43A632369D0E2CE0.title: "가이드 완료 4.1"
+	quest.43B92A87F280211F.title: "황혼 서쪽"
 	quest.4402F6855A75B7F6.quest_desc: ["이 던전은 &2황혼 숲&r 고리 아래쪽에서 생성됩니다."]
 	quest.4402F6855A75B7F6.title: "&2트롤 동굴 찾기"
 	quest.4426687CCCDD759A.title: "마법사 확인 2"
@@ -3266,6 +3366,7 @@
 		"이 팩에서는 &a무한의 조각&r을 얻기 위해 &a자갈&r을 불에 던질 수 있습니다."
 	]
 	quest.4468BC270F100F27.title: "&aEnderIO"
+	quest.44842AC8247EFDF4.quest_subtitle: "발굴가, 지질학자"
 	quest.4498E3F4B2DC24FC.quest_desc: [
 		"궁극의 &eApotheosis&r 장비를 얻기 위해 몬스터를 사냥하고 &b보석&r을 찾아 세계를 탐험해야 합니다!"
 		""
@@ -3294,6 +3395,7 @@
 		"&7&o실제 마법 부여된 책은 일반 팩 제한에 따라 여전히 제한된다는 점에 유의하세요.&r"
 	]
 	quest.44C341DE3BCD64CC.title: "\\&z알렉산드리아 도서관"
+	quest.44D9A7C563B087C0.quest_subtitle: "발굴"
 	quest.450A1BAD728F594B.quest_desc: [
 		"기지에 &d양자 다리&r 멀티블록을 만든 후, 무선 터미널에 설치할 &6양자 다리 카드&r를 제작하고 연결할 수 있습니다! 이 카드를 사용하면 어떤 차원에서든 무선으로 네트워크에 액세스할 수 있습니다."
 		""
@@ -3440,6 +3542,7 @@
 		"&6영혼의 사전&r은 모드의 가이드북이지만, 특정 제작법에도 필요하며 &b홀로그램&r을 만들어 &d의식&r 구축을 도울 수 있습니다!"
 	]
 	quest.4784FDEE62A479D0.title: "&e오컬티즘"
+	quest.47920CCF1C3CAE5B.title: "엔드 북쪽"
 	quest.47C1E9F93CEF25D3.quest_desc: ["&3채굴 레벨&r을 높이면 블록을 솔질할 때 얻는 드롭 종류도 늘어납니다."]
 	quest.47C1E9F93CEF25D3.title: "&f채굴 레벨"
 	quest.47C45A0552FBC1BD.title: "&f50시간 플레이하기&d"
@@ -3583,6 +3686,11 @@
 		"또한 JEI에서 특정 녹은 금속을 검색하여 번식에 필요한 것을 확인할 수 있습니다."
 	]
 	quest.4A8581D52BD1922B.title: "유체 소 번식"
+	quest.4A871B8D8648F305.quest_desc: [
+		"가루 형태에서 제련되거나 합금됨"
+		""
+		"니켈과 다이아몬드를 야금술 주입으로 가루화"
+	]
 	quest.4A87B0D25DE57F3F.quest_desc: [
 		"&d마법 부여가의&r 첫 번째 임무를 완료하기 전에, 더 단단한 돌을 찾아야 합니다."
 		""
@@ -3618,6 +3726,8 @@
 	quest.4B7A9469150AF3A1.quest_desc: ["&6프시메탈 도구&r는 &b다이아몬드 등급의 품질&r에 필적하는 도구 세트로, 각 도구는 의도된 작업을 수행할 때마다 &b주문&r을 시전할 수 있습니다."]
 	quest.4B7A9469150AF3A1.quest_subtitle: "블라키스 승인!"
 	quest.4B7A9469150AF3A1.title: "사이오닉 도구!"
+	quest.4B8E75ACE0AA6FA0.quest_desc: ["언어더의 부순 키비에서 지질학자를 통해 얻을 수 있습니다."]
+	quest.4B8E75ACE0AA6FA0.quest_subtitle: "광석 생성기 필요"
 	quest.4B92EBBA1F2BBFEA.quest_desc: ["이 퀘스트 보상을 받으면 &dEcho's &6Archive&r 입구에 웨이포인트가 설정됩니다."]
 	quest.4B92EBBA1F2BBFEA.title: "&f고대인 찾기&d"
 	quest.4BA8E435EDA995AC.quest_desc: [
@@ -3637,6 +3747,7 @@
 	quest.4BB5ADD98F958712.title: "&7돌 던전 찾기"
 	quest.4BB6832FE4685131.quest_desc: ["&3영혼&r을 사용하려면, &a영혼 폭풍&r을 가속하려는 블록에 겨누고 &d영혼 레이저 베이스&r에 &a영혼 파이프&r를 사용하여 연결하세요."]
 	quest.4BB6832FE4685131.title: "&3영혼 운반"
+	quest.4BBDC7BF4B9EAD72.quest_subtitle: "언어더, 고고학자"
 	quest.4BCA8A5C3F80D375.quest_desc: [
 		"&a이름 제거의 부적&r은 아이템의 접사 이름을 제거하여 일반 아이템 이름으로 되돌립니다."
 		""
@@ -3891,6 +4002,7 @@
 		"&7&o이 에코를 만나면 로비 어디에서든 &e/echo catalyst&7를 사용하여 직접 순간이동할 수 있습니다."
 	]
 	quest.500074C1D4EC9591.title: "&f만나기 &d촉매제"
+	quest.50416F411ED15BA5.quest_subtitle: "광물 생성기가 필요합니다"
 	quest.50AC369D1F5B7DD8.quest_desc: [
 		"&b확인&f: 마법 나무와 묘목 얻기"
 		""
@@ -3932,6 +4044,7 @@
 	]
 	quest.50E133C3E351255E.quest_subtitle: "궁극의 둥지"
 	quest.50E133C3E351255E.title: "&f닭!!"
+	quest.50EFBD8BDE0C88AF.quest_desc: ["&a범위 업그레이드&r는 &3무선 송신기&r의 범위를 16블록에서 최대 48블록까지 증가시킵니다."]
 	quest.5119EFBB9FB39CDE.quest_desc: ["&d비전의 숲&r 구조물에서 이것을 찾거나, &d너무 많이 알았던 사제의 이야기!&r 관문에서 찾을 수 있습니다."]
 	quest.5119EFBB9FB39CDE.title: "&d대사제 처치"
 	quest.511B01F40006FC4B.quest_desc: [
@@ -3967,6 +4080,8 @@
 		"인벤토리 상단 왼쪽에 있는 &a쓰레기통&r 아이콘을 사용할 수도 있습니다. &a/trashcan&r 명령어로도 접근할 수 있습니다."
 	]
 	quest.51804232265672A9.title: "&f인벤토리 쓰레기통!"
+	quest.519C754DF20BF31E.quest_desc: ["구 점액으로 플랫 블록"]
+	quest.519C754DF20BF31E.quest_subtitle: "(메아리 판매)"
 	quest.51B3EF0BCEB804A4.quest_desc: [
 		"&3업그레이드&f에 필요한 블록을 제출하고 보상을 받으면 팀의 &6월드 엔진&r이 자동으로 조립됩니다."
 		""
@@ -4054,6 +4169,7 @@
 		"또한, 다른 팩에 비해 &a핵 폐기물&r의 양이 절반만 필요합니다."
 	]
 	quest.543C6917A16F266C.title: "\\&z반물질&r"
+	quest.54404B81EAC760E8.quest_subtitle: "(메아리 판매)"
 	quest.5455CF5D3C37ECA9.quest_desc: [
 		"&c네더라이트 괴물&r은 &3영혼 대장간&r에서 찾을 수 있습니다."
 		""
@@ -4093,6 +4209,7 @@
 		"&e참고&f: 업그레이드가 있어야 할 곳에 배치된 블록은 사라집니다."
 	]
 	quest.55D17BDE3E9C81CC.title: "&f자동 건설 &3포트론 업그레이드"
+	quest.55DB51D88B9C5724.quest_subtitle: "주석과 구리의 합금"
 	quest.55DF810785A9B938.title: "촉매 확인 1"
 	quest.562156281B8D0843.quest_desc: [
 		"이 기계는 &b물&r과 같은 특정 액체를 2개의 별도 &a기체&r로 분해하는 데 사용됩니다."
@@ -4302,6 +4419,14 @@
 		"► &a오버플로우&r: 100"
 	]
 	quest.592A206B63BF556E.title: "&a1단계&f CAD 배터리"
+	quest.594911C1304689E9.quest_desc: [
+		"&a내보내기 장치&r는 네트워크에서 리소스를 이동하는 데 사용됩니다."
+		""
+		"각 &e케이블 등급&r 업그레이드는 이전 등급보다 더 빠르게 작동하며 더 많은 필터 슬롯을 가지고 있습니다."
+		""
+		"&7&o각 아이템의 툴팁에서 정확한 속도를 확인하세요."
+	]
+	quest.594911C1304689E9.title: "내보내기 장치"
 	quest.59497745146C1EFD.quest_desc: [
 		"&a영혼이 깃든 도구&r와 무기는 &b영혼석 낫&r과 같은 방식으로 &e영혼석&r을 수집하는 데 사용할 수 있으며, 일반적인 도구와 동일한 특성을 가지지만, 조잡한 버전에서 업그레이드된 검과 &d티르빙&r이 제공됩니다."
 		""
@@ -4319,6 +4444,7 @@
 	quest.59C71582F19E8554.title: "좀비 처치"
 	quest.59CBFA5583139A3B.quest_desc: ["&d재련 테이블&r은 &a간단 재련 테이블&r의 개선된 버전으로, \\&z신화&r 아이템을 포함한 모든 희귀도의 아이템을 재련할 수 있습니다."]
 	quest.59CBFA5583139A3B.title: "&d재련 테이블&r"
+	quest.59D007531CD064D9.quest_subtitle: "아이언제이를 위해 제거해야 함"
 	quest.59E8FEC3758635DF.quest_desc: [
 		"&d메아리&r에 따르면, 최근 치료된 주민들은 숙련도가 낮습니다. 그들의 발굴 레벨을 높이기 위해 훈련시켜야 합니다!"
 		""
@@ -4365,6 +4491,11 @@
 		"이것들은 &d고대 도시&r로 가서 &d보이드쉬머 구슬&r을 만든 후에 만들 수 있습니다."
 	]
 	quest.5AC7EEC3D69AF032.title: "&b셀레스티젬 도구"
+	quest.5B23C2EB38DCEE6E.quest_desc: [
+		"백금 + 네더라이트 합금"
+		""
+		"원자 단조 백금 + 강화 탄소 판 2개"
+	]
 	quest.5B512AED08EC1899.quest_desc: [
 		"&a열 발전기&r는 그 아래에 놓인 블록의 &c열&r과 어떤 면에서든 펌핑되는 &b냉각수&r를 사용하여 전력을 생성합니다."
 		""
@@ -4525,12 +4656,14 @@
 	quest.5E5BDCBF185E48E3.title: "&f엔지니어 작업대"
 	quest.5E74E0339A6F5314.quest_desc: ["&d체세드&r를 &d체세드 경기장&r의 &e끝&r에서 처치하고 트로피를 &c제출&r하여 현상금을 획득하세요."]
 	quest.5E74E0339A6F5314.title: "&d체세드 처치"
+	quest.5E79F24C893AFF65.quest_subtitle: "탐험가, 지질학자"
 	quest.5E90192C6F3011B7.quest_desc: [
 		"&6월드 엔진&r의 힘과 &a에코 인코더&r를 사용하여, &2작업자 토큰&r을 최소 1개 보유하면 음식으로 더 많은 주민을 생산할 수 있습니다."
 		""
 		"&7&o이제 수동으로 주민을 더 많이 만드는 시대는 끝났습니다."
 	]
 	quest.5E90192C6F3011B7.title: "&f주민 번식"
+	quest.5ED062BF97780287.title: "엔드 서쪽"
 	quest.5ED10C54AE06DB40.quest_desc: [
 		"§z무한의 갑옷&r은 플레이어에게 가해지는 모든 피해를 무효화하고 점프 강화 및 이동 속도 증가를 제공합니다."
 		""
@@ -4746,6 +4879,7 @@
 		"► &b메모리&r: 7개"
 	]
 	quest.62802965CA91E8C9.title: "&b2단계&f CAD 소켓"
+	quest.62BB5925FB6C05C6.title: "&d마법사의 메아리 &f이정표"
 	quest.62C92C8960875611.quest_desc: ["금속 가공은 평범한 세계에서만큼이나 마법 세계에서도 중요합니다. 비록 방법은 매우 다르지만요. 영적인 속성으로 주입된 주괴는 이 공예를 더 깊이 진행하는 데 필수적일 것입니다."]
 	quest.62C92C8960875611.title: "&f영적 야금술"
 	quest.62CEFEB50E7D4489.title: "병참 장교 확인 2"
@@ -4770,6 +4904,7 @@
 		"&a처리된 목재&r는 &6I.E&r 작업대와 같은 다양한 작업대를 제작하는 데 사용됩니다. 예를 들어 &a엔지니어 작업대&r가 있습니다."
 	]
 	quest.63B7AC676FC1EE7F.title: "&f처리된 목재 판자"
+	quest.63BA03EC05C8105F.title: "TF 북쪽"
 	quest.63BED4D08224B3EF.quest_desc: [
 		"병과 블록 사이에 &d마나&r를 전달하는 더 많은 종류의 중계기가 있습니다!"
 		""
@@ -4850,6 +4985,12 @@
 	quest.66545AFE0DEA820F.quest_desc: ["어두운 제작을 위한 어두운 아이템 세트입니다."]
 	quest.66545AFE0DEA820F.title: "&f우물의 보답"
 	quest.665C261B98E4D20B.quest_desc: ["모험에서 승리를 거두고 돌아온 후 &dTwilight&r와(과) 대화하여 &3Twilight World Engine Upgrade&r를 설치하는 방법을 보여주도록 하세요."]
+	quest.6681C945EBF3E114.quest_desc: ["입력 모드"]
+	quest.6697F832067F1A9C.quest_desc: [
+		"&eOritech의 &3Enderic Railgun&r은 모드에 따라 집중된 레이저 빔과 폭발적인 피해 빔을 모두 발사할 수 있습니다. Shift + 오른쪽 클릭으로 &b채굴 모드&r를 켜거나 끌 수 있습니다."
+		""
+		"&b채굴 모드&r에서 이 올인원 도구는 무한한 블록 상호 작용 범위로 블록을 직접 인벤토리로 채굴합니다."
+	]
 	quest.66BC4434409F959B.quest_desc: [
 		"&3플루토늄&r은 약간의 염수 또는 소금 처리를 통해 &7핵분열 연료&r로 회수할 수 있습니다."
 		""
@@ -4892,6 +5033,7 @@
 		"&2Lapis&r 또는 &2Nether Quartz&r를 안에 넣으면 소비될 때 &aCoercion Deriver's&r 변환율이 세 배가 됩니다."
 	]
 	quest.6739E7A96309D0A8.title: "&f포트론 생성"
+	quest.674AFF1CFDE5886F.title: "갑옷 제조인"
 	quest.6755CACD4957A4CB.quest_desc: [
 		"&6코어&r는 &aCAD의 필수적인 부분&r이며, 항상 최고의 것을 만들려고 노력하세요. &a기본적으로 CAD의 CPU와 같습니다&r."
 		""
@@ -4907,6 +5049,7 @@
 		"► &3투영&r: 1"
 	]
 	quest.6755CACD4957A4CB.title: "&a1단계&f CAD 코어"
+	quest.67747675548AAC80.quest_subtitle: "발굴자, 고고학자"
 	quest.6781D1A7A53A5F1D.quest_desc: [
 		"이 나침반은 &3금고의 위치를 가리킵니다."
 		""
@@ -4937,6 +5080,7 @@
 		""
 		"또한 여러 &eCreate&r 구성 요소를 덮어 장식을 더 예쁘게 만드는 데 사용할 수도 있습니다."
 	]
+	quest.67F596597F0B2825.title: "&f가이드 만나기"
 	quest.68258EA281734B4A.quest_desc: [
 		"&b포트론 축전기&r는 모든 &eMFFS&r 시스템에서 &3포트론&r 버퍼 역할을 하고 등록된 &b주파수&r를 통해 전송하는 데 필요합니다. UI 중앙의 큰 버튼은 &b축전기&r가 시스템 전체에 &3포트론&r을 분배하는 방식을 조정합니다."
 		""
@@ -4978,6 +5122,12 @@
 		"&7&o로 만난 후 로비 어디에서든 이 메아리로 직접 순간이동할 수 있습니다. &e/echo infernal&7"
 	]
 	quest.695B2CCD18E5DDFE.title: "&f만나기 &d지옥의 존재"
+	quest.69997DAB93184551.quest_desc: [
+		"&d와이번 흉갑&r은 전력이 공급될 때 플레이어가 장신구 슬롯에 착용했을 때 받는 피해를 무효화하는 에너지 보호막을 제공합니다. 이것은 &a업그레이드 모듈&r을 통해 업그레이드될 수 있습니다."
+		""
+		"모듈 인벤토리는 기본적으로 바인딩되지 않은 &e도구 모듈&r 키 바인딩을 통해 접근할 수 있습니다."
+	]
+	quest.69997DAB93184551.title: "&d와이번 &f흉갑"
 	quest.69E90341CD1AD494.quest_desc: [
 		"► &6주문 프로그래머&r를 &d우클릭&r하면 GUI에 접근할 수 있습니다. 이것은 9x9 &8&o(Direwolf 승인)&r 그리드로, &b\"코드 블록\"&r을 함께 배치하고 연결할 수 있습니다."
 		""
@@ -5073,6 +5223,7 @@
 		"&7싸울수록 그들의 끝은 다가옵니다."
 	]
 	quest.6BCA2ED05C7D9D4E.title: "&6사악한 갑옷"
+	quest.6BF5A24142C8FC67.quest_subtitle: "발굴자, 지질학자"
 	quest.6C25708068B5197C.quest_desc: [
 		"&a정밀 제거기&r는 아이템에서 원치 않는 마법 부여를 선택적으로 제거할 수 있으며, 30 레벨을 소모하여 저주를 제거할 수 있습니다."
 		""
@@ -5171,8 +5322,16 @@
 		"&e참고&f: 이 퀘스트를 완료하고 &d마법 부여가의 메아리&r를 업데이트하려면 &a크로노 생성기&r를 제출해야 합니다."
 	]
 	quest.6D5A9E9E8B0D8AC2.title: "&f크로노 생성기"
+	quest.6D9862948E97E696.title: "엔드 동쪽"
+	quest.6DB6B40C3E07E389.quest_desc: [
+		"이 금고의 퍼즐을 통과하면 &2크로노톤 별&r을 얻을 수 있습니다."
+		""
+		"케이크는 거짓말이라는 것을 기억하세요."
+	]
 	quest.6DC738A434C5B02F.title: "엔더맨 처치"
 	quest.6DD9A75EE8C97710.title: "&7강령술사&7 처치"
+	quest.6DEB5453D8E3BD76.quest_subtitle: "발굴가, 지질학자"
+	quest.6DEB5453D8E3BD76.title: "고대 잔해 또는 네더라이트"
 	quest.6E149F8E8B3F150B.quest_desc: ["&2메아리치는 깊은 선반&r을 제작한 후 &d마법 부여자의 메아리&r로 돌아가 &6월드 엔진&r에 업그레이드로 설치하는 방법을 배우세요."]
 	quest.6E24701C49A6114D.quest_desc: [
 		"&6월드 엔진&r이 \\&z공허&r의 힘으로 업그레이드되면, &d중성자 압축기&r를 만들어 아이템을 \\&z특이점&r으로 압축할 수 있습니다."
@@ -5203,6 +5362,7 @@
 		"레벨 4 &2고고학자&r는 &d아치우드 묘목&r을 얻는 데 아주 좋습니다!"
 	]
 	quest.6F53C65C3131B68A.title: "&f고고학자&r"
+	quest.6F68D2CC4B83671E.quest_subtitle: "발굴가, 지질학자"
 	quest.6F91297C4FAA43FE.quest_desc: [
 		"&d차원술사&r는 다른 세계의 재료 전문가이며, &c네더랙&r, &e엔드 돌&r, &7다른 돌&r을 처리할 수 있습니다. 작업장으로 &a공명 공학 블록&r이 필요합니다."
 		""
@@ -5270,6 +5430,7 @@
 	]
 	quest.70C02FCA0C7B8777.quest_subtitle: "닭을 교배하기 위해 닭을 사용하세요"
 	quest.70C02FCA0C7B8777.title: "영혼 추출과 씨앗"
+	quest.70D3D4701167B4D5.title: "&f언제나 남의 떡이 더 커 보인다"
 	quest.70D5BEA5CC437AB6.quest_desc: [
 		"무작위로 마법 부여된 장비가 많으신가요? &d스크랩의 서책&r을 사용하면 분해하여 마법 부여의 일부를 추출할 수 있습니다."
 		""
@@ -5440,6 +5601,7 @@
 	quest.727070B13B966DE1.title: "&f자동 제작 &3테서랙트 업그레이드"
 	quest.72766EEF59130E19.title: "&fPlay For &c25 Hours"
 	quest.7279FFED00B223D7.quest_desc: ["&a드라코늄 코어&r는 &eDE&r의 주요 제작 부품 중 하나이며, 드라코닉 갑옷 및 도구에 사용되는 아이템과 &b모듈&r의 일부 기본 제작법에 사용될 수 있습니다."]
+	quest.727FAF20A8E1303B.quest_subtitle: "치유의 샘에서 발견"
 	quest.72934B141A741423.quest_subtitle: "노란색 + 철"
 	quest.7312FFEDAD1A6F75.quest_desc: [
 		"&d공허 업그레이드&r - 현재 스택 제한을 초과하는 아이템을 자동으로 삭제합니다."
@@ -5463,6 +5625,8 @@
 	quest.73268E8255CBB44A.quest_subtitle: "엔더IO"
 	quest.73268E8255CBB44A.title: "&f맞춤형 스포너"
 	quest.735CB0E29FB372C1.title: "&d반물질 펠릿 &f거래"
+	quest.7379486ABDDE4430.quest_desc: ["이 퀘스트는 &d빛 굴절자의 &6기록 보관소&r로 가는 길잡이를 설정합니다."]
+	quest.7379486ABDDE4430.title: "&f찾기 &d빛 굴절자"
 	quest.73871351B8E5775B.quest_desc: [
 		"주문 시전자인 당신이 주문을 강화하고 싶다면, &6아이언의 주문&r에는 장비를 갖추기 위한 많은 옵션이 있습니다."
 		""
@@ -5481,6 +5645,7 @@
 	quest.73FD015A3696ABFB.title: "&6각성된 드라코늄"
 	quest.73FEE6C6149817E7.title: "지옥의 확인 1"
 	quest.7408FB23D476F791.title: "안내 완료 1"
+	quest.740B9F63604944F3.title: "바다 북쪽"
 	quest.7435EC96F4A4B39F.title: "크리에이티브 마나 단지"
 	quest.744120E37CD03AE0.quest_desc: [
 		"&a원자 분해기&r는 &6메카니즘&r의 도구로, 전력을 소모하여 블록을 부수는 파괴 불가능한 도구입니다."
@@ -5546,6 +5711,7 @@
 		"&7&o이것으로 7x7x7 구조물을 만들 것입니다."
 	]
 	quest.75A7DDE0D617B5E6.title: "&f최대 크기 &6양자 컴퓨터"
+	quest.75CAB7B10BA85935.title: "융합 제작"
 	quest.75D124AF83D637A8.quest_desc: [
 		"&e산업 자동화&r (&eI.F&r)는 기계를 사용하여 작업을 대신 처리하는 것입니다."
 		""
@@ -5585,6 +5751,7 @@
 		"&e참고&r: &c용암&r은 &d기계공의 메아리&r를 만났을 때 받는 선물로 쉽게 얻을 수 있습니다. &c네더&r 고리에서도 얻을 수 있습니다."
 	]
 	quest.75F6827C1FB52C91.title: "&f조약돌 생성기&r"
+	quest.7614FCF3E2012C48.title: "&d프시메탈 외골격"
 	quest.76482BDD2CD6CB8E.quest_desc: [
 		"&6오컬티즘&r에는 나무를 베어주는 &a벌목꾼 폴리오트&r를 소환할 수 있습니다."
 		""
@@ -5675,6 +5842,9 @@
 		"이는 더 높은 속도에서 &a가이드 링&r 사이의 거리가 더 멀어질 수 있음을 의미합니다."
 	]
 	quest.7791DA964DA2A80D.title: "&f가속기 설정"
+	quest.779460FD700CB351.quest_subtitle: "발굴자, 지질학자"
+	quest.77ABD20EB652F302.quest_desc: [""]
+	quest.77ABD20EB652F302.title: "&f농장 동물 스폰"
 	quest.77DE3D57E5B58948.quest_desc: [
 		"이번에는 &e나침반&r이 없습니다!"
 		""
@@ -5795,6 +5965,7 @@
 		"&bQIO 레드스톤 어댑터&r는 설정된 주파수의 아이템 수에 따라 레드스톤 신호를 방출하도록 구성할 수 있으며, 스토리지 시스템에 아이템을 넘치게 하지 않고 시스템을 자동화하는 데 유용합니다."
 	]
 	quest.79873815DEB7A086.title: "&dQIO &a수입 및 수출"
+	quest.79CB07BC6B2333AE.title: "프리즈머린"
 	quest.79E5C4E3958DA8DD.quest_desc: [
 		"&2엔트로 결정&r은 서투스 결정처럼 발아 블록에서 수확됩니다!"
 		""
@@ -5825,6 +5996,7 @@
 		"분리하려면 &b모루&r를 아이템 더미에 떨어뜨리세요!"
 	]
 	quest.7A06D08AC7C65D20.title: "&f쉬운 마법 부여 제거"
+	quest.7A1BCD0876713992.quest_desc: ["결함 있는 발아 블록은 기본 &a기계 블록&r 업그레이드가 있는 &b월드 엔진&r에서 제작할 수 있습니다."]
 	quest.7A26B0FFC0BCA275.quest_subtitle: "엔더릭 레이저가 살아있는 개체를 대상으로 할 수 있습니다."
 	quest.7A26B0FFC0BCA275.title: "&f기계 사냥꾼 애드온"
 	quest.7A62B07AD0BCCCEA.quest_desc: [
@@ -5838,6 +6010,10 @@
 	quest.7A6F14DB74189B67.quest_desc: ["&6상점&r에서 &b미리 코딩된 주문 구매&r를 할 수 있습니다. 어떤 것은 다른 것보다 더 복잡하며, 기본 용도로 사용하거나 새로운 기술을 배우는 데 사용할 수 있습니다 :p"]
 	quest.7A6F14DB74189B67.quest_subtitle: "주문 예시가 필요하신가요?"
 	quest.7A6F14DB74189B67.title: "상점은 당신에게 좋은 거래를 제공할 수 있습니다!"
+	quest.7A6F1E301DB2EDC3.quest_desc: [
+		"Cx: -1"
+		"Cz: 185"
+	]
 	quest.7A8669713BE28E8F.quest_desc: ["&d워든&r은 &3심층암&r 고리의 가장 아래층에서 찾을 수 있는 &d고대 도시&r에 서식합니다."]
 	quest.7A8669713BE28E8F.title: "&e처치하기&f: &3워든"
 	quest.7A8D31482AB1FCAA.quest_desc: [
@@ -5929,6 +6105,8 @@
 		"&b점보 화로&r는 여러 제작법을 동시에 처리할 수 있으며, 오른쪽 하단 슬롯에 더 많은 &b점보 화로&r를 업그레이드할 수 있습니다. (최대 64개) 각 화로는 한 번에 제련할 수 있는 아이템 수를 나타냅니다."
 	]
 	quest.7C0FD2B2589BC66D.title: "&b더 크고 더 좋은 것"
+	quest.7C6BB27CCDA5E878.quest_desc: ["이 퀘스트는 &d지옥의 &6기록 보관소&r로 가는 웨이포인트를 설정합니다."]
+	quest.7C6BB27CCDA5E878.title: "&f찾기 &d지옥"
 	quest.7C72E7E48CCA7BB1.quest_desc: [
 		"&d고급 분리 장치&r를 사용하면 여러 워프 지점을 한 번에 저장할 수 있습니다. 무한히 사용할 수 있지만, 작동하려면 &d엔더 진주&r로 연료를 공급해야 합니다."
 		""
@@ -6018,6 +6196,18 @@
 		"&e참고&f: &6템패드&r는 &c아닙니다&f. &a액션 패드&r를 통한 순간이동을 위한 크로논 저장소 역할을 합니다."
 	]
 	quest.7DE9A4C7979AC1FA.title: "&6템패드"
+	quest.7E062B48AD37EAF1.quest_desc: [
+		"프로세서는 &eRS2&r 네트워크의 대부분의 핵심 구성 요소를 제작하는 데 사용됩니다."
+		""
+		"[\"These can only be assembled inside a \", { \"text\": \"Circuit Fabricator\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"663460DE8AF7E464\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Go to Circuit Fabricator Quest\"} }, \".\"]"
+	]
+	quest.7E062B48AD37EAF1.title: "프로세서"
+	quest.7E0E4E6260C1D61E.quest_desc: [
+		"저장 시스템에 무한한 전력을 공급하고 &6Ars&r의 \\&z크리에이티브 주문&r에 접근할 수 있게 되면, 주변 세계를 형성하기 전에 처리해야 할 마지막 한 가지 일만 남았습니다."
+		""
+		"모든 것을 위한 \\&z크리에이티브 파워&r."
+	]
+	quest.7E0E4E6260C1D61E.title: "승천 티어 3 - 전지전능"
 	quest.7E1A18D82B74B6CC.title: "마법 부여사 확인 2"
 	quest.7E4FF5A454039E47.quest_desc: [
 		"디지털 저장의 주요 용도 중 하나는 &3아이템 자동 제작&r 기능입니다."
@@ -6077,6 +6267,7 @@
 		"또한 &6에텐&r을 만드는 데 사용되며, 이는 에너지 밀도가 높은 가스로 전력 및 &eHDPE 펠릿&r 제작에 사용됩니다."
 	]
 	quest.7EF7546FF007EF36.title: "&2바이오 연료"
+	quest.7F022A9289CCBF5D.title: "엔드 남쪽"
 	quest.7F27B48C280FA27F.title: "아이템 저장"
 	quest.7F42E2C4AAC3D131.quest_desc: ["&7&o무한 회전력"]
 	quest.7F42E2C4AAC3D131.title: "크리에이티브 모터"
@@ -6107,6 +6298,7 @@
 	]
 	quest.7F7C0B1523AA28C4.quest_subtitle: "아르스 잠금 해제"
 	quest.7F7C0B1523AA28C4.title: "&f마법 나무"
+	quest.7F7D54E743F4E1DE.title: "WE 설계도를 보상으로 추가"
 	quest.7FBA170218539BE8.quest_desc: [
 		"인지력은 &a도서관충&r을 통해 독특한 XP 생성 방식을 가지고 있습니다. 이들은 책장을 꾸준히 분해하여 XP 구슬로 만들고, &7잊혀진 가루&r만 남깁니다."
 		""
@@ -6131,153 +6323,456 @@
 	]
 	quest.7FCCB25011D69673.title: "&f농축기&a"
 	quest.7FEDD82D9B47EFCD.quest_desc: ["&a바이오 발전기&r는 바이오매스를 소비하여 에너지를 생성하며, &b애드온&r으로 에너지를 증가시킬 수 있습니다."]
+	reward.00D18DF325869C86.title: "&3어둠의 공허 업그레이드 조립"
+	reward.00EC1162EB842D86.title: "공허 남쪽"
+	reward.042C6860A26F6057.title: "엔드 서쪽"
+	reward.0443CD112299BF32.title: "&3연성가의 금고 나침반"
+	reward.0491A1C974F9FE0A.title: "&3촉매의 남쪽 금고 나침반"
+	reward.053BB94B773511FC.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.07015FDD343B3E88.title: "와이번 활"
+	reward.07FDE2A45E2F6200.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.08099C03B0628B39.title: "네더 남쪽"
+	reward.08D775729B3EAF3E.title: "&d보급관 &f웨이포인트"
+	reward.09DF4A8DBF01CD61.title: "&e+1 &3발굴기 레벨"
+	reward.0BED496C8D68C629.title: "카오스 삽"
+	reward.0C0AB23B4929400B.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.0D23EB824CB0A0C2.title: "공허 동쪽"
+	reward.0E91DBA45C7125BF.title: "&e잠금 해제&f: &6월드 엔진"
+	reward.0F2B93D49D8DA760.title: "와름라이트 기록 보관소 웨이포인트"
+	reward.0FF3057EB81C70D6.title: "&3촉매의 북쪽 금고 나침반"
+	reward.11F46FD8EC5EE6C8.title: "&3유포늄 업그레이드 조립"
+	reward.1214107708FB3198.title: "&3Quantum Tunnel Upgrade 조립"
+	reward.12870B6226B417AF.title: "&3Spirit Upgrade 조립"
+	reward.12C21B2BC1C5906A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.12E34C33B113C643.title: "&3Draconic Upgrade 조립"
+	reward.1317DCA026D9DFBC.title: "&3Infinity Upgrade 조립"
+	reward.13B35A67AAF5C0DF.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.15B421B3ACE269E3.title: "엔드 북쪽"
+	reward.16061432FA49EE66.title: "카오스 검"
+	reward.174EEA65827DF6EA.title: "&3Chroniton Upgrade 조립"
+	reward.1A219FE0647ED732.title: "와이번 도끼"
+	reward.1A2533930620554A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.1ADD62DBE8217E40.title: "드라코닉 삽"
+	reward.1B215A9431DBAF6F.title: "와이번 삽"
+	reward.1E8870E07D7F4A99.title: "벌 이벤트"
+	reward.1EA85DCE2A9227C3.title: "엔드 남쪽"
+	reward.1F113E78DDABE6A6.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.1FC0E512CB219EE5.title: "카오스 도끼"
+	reward.1FC841321A5BA9AB.title: "&3Enchanting Upgrade 조립"
+	reward.1FEFB160C37A91D4.title: "병참 장교 기록 보관소 웨이포인트"
+	reward.2055D6F4DA444002.title: "&dTwilight &fWaypoint"
+	reward.20DD8D5AAA044A24.title: "와이번 검"
+	reward.235AF7EB3F88D642.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.238A2E2AEE1B8D6A.title: "빛 탐지기 기록 보관소 웨이포인트"
+	reward.2392A43EE7851C85.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.24582F4B1C3E7E1F.title: "황혼 기록 보관소 웨이포인트"
+	reward.266BE24BD00654A1.title: "카오스 활"
+	reward.2730B9B9300AA75C.title: "&e+1 &3Unearther 레벨"
+	reward.27EBCAD2651AD138.title: "공허 북쪽"
+	reward.29048AE32290DDAB.title: "&3Wayfinder의 Vault Compass"
+	reward.2A85D0C9269D0EE5.title: "불타는 기록 보관소 웨이포인트"
+	reward.2AA4A91EF3A6EE48.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.2B0BC74A9E61D881.title: "드라코닉 축전기"
+	reward.2C24A3F46426B257.title: "&3Machine Block Upgrade 조립"
+	reward.2CA4C34FFD72EA33.title: "황혼 동쪽"
+	reward.2D7E2A69C45D8ABD.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.2E85DC3CE143BC3A.title: "기계공 금고 나침반"
+	reward.2F7B82DA30E186CA.title: "&e+1 &3Unearther 레벨"
+	reward.307426CA8BF12CAC.title: "&dWayfinder &fWaypoint"
+	reward.30A58719DB130EE9.title: "&dFabricator &fWaypoint"
+	reward.30CB65204A6F6DFE.title: "&3Yeti Vault Compass"
+	reward.31A55C1C7979AC74.title: "엔드 동쪽"
+	reward.31B152CBB7E9CDAD.title: "네더 서쪽"
+	reward.31B318A2B60F4CC5.title: "&3Shadow Casing Upgrade 조립"
+	reward.32A31D445DC7FF87.title: "&3Ocean Shards"
+	reward.3322D2E72CD06BE1.title: "메카니즘 순간이동기"
+	reward.338E0593C527D311.title: "균사체 반응기 세트"
+	reward.35FBC3A2C111904A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.37851CF3F949515A.title: "황혼 남쪽"
+	reward.37F1C940A746F48C.title: "돌 블록 4 공식 NFT"
+	reward.397185875416F4D2.title: "바다 서쪽"
+	reward.3982DCDCE0A66B83.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.39A9BA8313470A5D.title: "촉매 기록 보관소 웨이포인트"
+	reward.39BDE32B4BEF479B.title: "월드 엔진 초기화"
+	reward.3C0E24CCC82A480D.title: "&3Fortron Upgrade 조립"
+	reward.3C14C643B8F3E2E6.title: "&3Knight Vault Compass"
+	reward.3CC21684802E95E5.title: "와이번 곡괭이"
+	reward.3E2DC10E8591B9CC.title: "와이번 축전기"
+	reward.3E8E67868DA564D2.title: "&dLight Bender &fWaypoint"
+	reward.3F7CFC203230D314.title: "&3Hydra Vault Compass"
+	reward.3FBE85B391697AA3.title: "바다 동쪽"
+	reward.419A1C4D9279BF50.title: "네더 동쪽"
+	reward.4348C140262F1176.title: "&3Twilight Upgrade 조립"
+	reward.437C0250BD2823D8.title: "&3Resonant Void Upgrade 조립"
+	reward.444D56BB0340167E.title: "&3Ender Power Upgrade 조립"
+	reward.4765C42AB1F8D1A6.title: "&3Machinist's Vault Compass"
+	reward.476F60C6DEB324A9.title: "드라코닉 활"
+	reward.495DF49EBBF0B77D.title: "대지의 혜택 5"
+	reward.4A3B5AA97272B2D2.title: "드라코닉 도끼"
+	reward.4AE89E9586399F31.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.4BA4CA2B38D5C1F3.title: "&3Awakened Core Upgrade 조립"
+	reward.4C092C94E484A165.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.4CF243911064BB93.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.4EDE4462114C77EE.title: "심층암 북쪽"
+	reward.4F0943ED6ECF70E6.title: "심층암 동쪽"
+	reward.5014EDA364D8789D.title: "&dInfernal &fWaypoint"
+	reward.52BCACF7F3F4A767.title: "&dAncient &fWaypoint"
+	reward.53ECA21ACDF436DD.title: "기계공 기록 보관소 웨이포인트"
+	reward.54DC27E90D2295BC.title: "약탈 8"
+	reward.55FBD183C62F244F.title: "네더 북쪽"
+	reward.58419DD95D235FD7.title: "카오스 흉갑"
+	reward.59039114F2E02EBE.title: "신비한 숲 위치 탐지기"
+	reward.594E158A9C86929B.title: "&aTier 1 Glyph"
+	reward.59AD0E3C98FC5EA2.title: "공허 서쪽"
+	reward.59E384F5A05211FC.title: "심층암 남쪽"
+	reward.5A34161D4FD3FD66.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.5A9E657EB27180C7.title: "&3Advanced Machine Upgrade 조립"
+	reward.5AE23D826352677E.title: "치유의 샘 위치 탐지기"
+	reward.5BAED70596AA3D1B.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.5BE998C2C023AB29.title: "&dWyrmwright &fWaypoint"
+	reward.5CD5D5D173FA5C89.title: "&dMachinist &fWaypoint"
+	reward.5EE4C3B77DCAD15A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.5FEC6723B0F40A00.title: "마법 부여가 기록 보관소 웨이포인트"
+	reward.5FEF5E7E69F4437F.title: "&dMagician &fWaypoint"
+	reward.60A493A83705E5C6.title: "고대 기록 보관소 웨이포인트"
+	reward.61E89C638FD700C4.title: "&eMax &3Unearther 레벨"
+	reward.62E61D9249A89F89.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.632965F5B615FA8D.title: "융합 원자로"
+	reward.64CB075D188C05CC.title: "바다 남쪽"
+	reward.676EC71A125D6E04.title: "&3Source Upgrade 조립"
+	reward.689FE9894FCB03FA.title: "&3Enderium Upgrade 조립"
+	reward.68F8EBD48743037D.title: "단순 순간이동기 꾸러미"
+	reward.693E7161A63AA8E7.title: "카오스 곡괭이"
+	reward.694311419C81AF7D.title: "반응로 (니트로)"
+	reward.696B39000701CF3E.title: "&dEnchanter &fWaypoint"
+	reward.69E35BEC6CB9A014.title: "&3Tesseract Upgrade 조립"
+	reward.6A0011BF8C25D4FA.title: "드라코닉 검"
+	reward.6A7A635D5039E00E.title: "심층암 서쪽"
+	reward.6A9CBD374B41A598.title: "&dCatalyst &fWaypoint"
+	reward.6AA784677A036A36.title: "드라코닉 곡괭이"
+	reward.6AE5675C3DAAB1D9.title: "바다 북쪽"
+	reward.6B56D274F5BC5918.title: "&3Light Bender's Vault Compass"
+	reward.6B6E3D9E6F38918E.title: "&dTier 3 Glyph"
+	reward.6E2831AAACB7E9AD.title: "드라코닉 흉갑"
+	reward.6E69E924D695FE30.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.70BC62F1A67B859F.title: "보호의 아뮬렛 두루마리"
+	reward.729901F3863D27E4.title: "제작자 기록 보관소 웨이포인트"
+	reward.72FFFB11B65A0DF3.title: "카오스 축전기"
+	reward.742CB3E07E4CCEB1.title: "&bTier 2 Glyph"
+	reward.7459FD34B6687F30.title: "템패드의 가이드북"
+	reward.747CED69FCED45E8.title: "마법사 기록 보관소 웨이포인트"
+	reward.75028F17C07E02D0.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.7834CF7F86C29EE0.title: "황혼 북쪽"
+	reward.798A5012C244EC87.title: "해결사 기록 보관소 웨이포인트"
+	reward.7AA9A619B211B53A.title: "와이번 흉갑"
+	reward.7B2611299CAA750F.title: "&3Light Bender's Vault Compass"
+	reward.7DA1DB3A1F6C52A0.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.7DB306ACACBC5FA3.title: "황혼 서쪽"
+	reward.7FE6F3BEF5E57A43.title: "&3Lich Vault Compass"
+	reward.7FF100558F845196.title: "&3눈의 여왕 금고 나침반"
+	reward_table.01A8F0EB2209A24F.title: "기본 드라코닉 장비"
+	reward_table.0C5DDA99EE8027D3.title: "돌의 선물"
+	reward_table.1320ECC4666318A7.title: "문양"
+	reward_table.135B4037C1A40D88.title: "배낭 애드온"
+	reward_table.16E7488E801B3DAA.title: "와이번 드라코닉 장비"
+	reward_table.1892AD44EB5DD99D.title: "카오스 드라코닉 장비"
+	reward_table.1D31E6EC121FF83B.title: "각성한 드라코닉 장비"
+	reward_table.1DA364008CA08643.title: "아이언의 장비"
+	reward_table.20D1BF16232BD665.title: "RF 공급원"
+	reward_table.21A38B78E82935CD.title: "데이터 모델"
+	reward_table.28714053C75776A5.title: "최고급 탐험 유물"
+	reward_table.2CB2563E52E0EEFC.title: "상위 전투 유물"
+	reward_table.2F1621E7D65D48A1.title: "기본 바닐라 자원"
+	reward_table.30F4E308726EB2AD.title: "차원문"
+	reward_table.3621231FD4F80730.title: "상자 업그레이드"
+	reward_table.37F7F856288632A7.title: "최고급 전투 유물"
+	reward_table.3FFF5862073B3D97.title: "조각 - 바다"
+	reward_table.54091F8A76F9E488.title: "드라코닉 장비"
+	reward_table.5529BA88A208797B.title: "조각 - 엔드"
+	reward_table.56235F58490C3C41.title: "하위 전투 유물"
+	reward_table.5C5A40864844587A.title: "정교한 상자 애드온"
+	reward_table.5E58BEB7F462AA87.title: "조각 - 황혼"
+	reward_table.6105D334632923AE.title: "조각 - 황혼"
+	reward_table.61FD9A6CC07465C1.title: "무작위 화로"
+	reward_table.657A949F0952B7D4.title: "조각 - 네더"
+	reward_table.6835AC5E14D58A8C.title: "상위 탐험 유물"
+	reward_table.6B1481D18D7F1F24.title: "조각 - 심층암"
+	reward_table.6B9058CED94B574F.title: "조약돌의 선물"
+	reward_table.70ADF260F7A38A21.title: "균사 RF"
+	reward_table.73C257EFB0D405CE.title: "ProjectE 장비"
+	reward_table.790A03E65CE8EBE4.title: "할머니의 간식"
+	reward_table.7CDA9FD69979A8C9.title: "어포시오시스 마도서"
+	reward_table.7D0A27C985829037.title: "하위 탐험 유물"
+	task.003F316E9DCBE7FE.title: "타오르는 모든 #minecraft:통나무"
 	task.00ABB62332FC4C09.title: "&f촉매의 &d메아리와 대화하기"
 	task.00F90C52CBAECEBB.title: "&d주문 &a잉크"
+	task.0119636863DFB474.title: "안내와 대화하기"
 	task.011CC09BC8B8423B.title: "저장소 부품"
+	task.011E0B1769C2E749.title: "나침반 얻기"
+	task.012649B3BEFFCA3E.title: "지질학자 블록 솔질"
+	task.018BA3043844C4CB.title: "블록 상호작용 기계"
 	task.01A493D72943A94B.title: "유체 부품"
 	task.01AB71CC57E2057D.title: "모든 #minecraft:양초"
+	task.0269945CD49FAC4A.title: "모든 #c:씨앗/등급별"
 	task.0284D9E486F445FC.title: "&f히드라 금고 찾기"
+	task.0287C11F3728514E.title: "월드 엔진 조합 잠금 해제"
 	task.02CC4D7DB653D0B6.title: "확인"
+	task.02E900C9DF62699B.title: "모든 #irons_spellbooks:강좌대 및 책장에 추가"
+	task.045D6D51D5A394B8.title: "초기 전력"
+	task.04B00E264007135A.title: "추가 심층암 선반"
 	task.04FA10D12C67E713.title: "네더라이트 바닐라 도구"
 	task.05118382686E3B7F.title: "말룸 무기"
+	task.053465F0FFC2E3BB.title: "기사 금고"
 	task.05BA59C2F9E1F43B.title: "&e블레이즈 처치&f: 10개"
+	task.05C31228DE4297E0.title: "공명하는 월드 엔진 조합"
+	task.05EA231F68B35FBA.title: "3세대"
 	task.05FFCCEAC7E565FB.title: "무선 전력 옵션"
 	task.061CA75E28BD6BF6.title: "&d와름라이트의 &d메아리와 대화하기"
 	task.06483FBA8021FDEF.title: "움직이는 몹"
+	task.0675F9CC003D7723.title: "케세드 아레나"
+	task.06AA7AE5C6C5D694.title: "나침반 얻기"
+	task.06F0C110F6DF4933.title: "색상 가이드"
 	task.0707B05028ADBA69.title: "&e전조 처치&f: &6전조"
 	task.075F7BA7175B340A.title: "언어더 레벨"
+	task.07BBC0302934453B.title: "돌 생성 옵션"
 	task.084914CB047A78F0.title: "에너지 저장 부품"
 	task.0879C32890B7363C.title: "&d룬 무기"
 	task.08D1694DFD199F2E.title: "수정 아이템"
 	task.08F70556D06E7B86.title: "책장 확장된 마법 부여 범위"
 	task.09842F1F80A0B5A9.title: "추출 서적"
+	task.09D272BA64115EA4.title: "축하합니다, 팩을 완료했습니다"
 	task.09DE0D0E04573900.title: "주방 카운터"
 	task.0A04058F3A5934FC.title: "메카니즘 파이프"
 	task.0A30227533B57599.title: "카드"
 	task.0AAA6FAB20E74E5F.title: "강화된 지옥 선반"
+	task.0AE9E3C1553154B6.title: "기계 코어"
 	task.0AFBB94C24406DAD.title: "하트 용기"
 	task.0C13FA83021AE4C5.title: "&e네더라이트 괴물 처치&f: &c네더라이트 괴물"
+	task.0C703E47B7643F97.title: "1단계"
+	task.0CAD1A4AF9391EB7.title: "등급별 생성기"
+	task.0CDA50C894140131.title: "모든 연금술 촉매"
 	task.0D2B50FDF033C966.title: "아이언 갑옷"
+	task.0D549424518A10E0.title: "닭?"
 	task.0D88BFCD6CDC0266.title: "무기"
 	task.0D9BCEFBD92A6E7F.title: "차원 이동 전문가 블록 솔질"
+	task.0DD6F5AD5EE05878.title: "집 단계"
 	task.0E023EF28D4D86F3.title: "&b범위 업그레이드"
+	task.0E0DB651D35A550F.title: "3세대"
 	task.0E1BCAE9F0367A8B.title: "지질학자 블록 솔질"
+	task.0E558F6F41339C8A.title: "4단계"
 	task.0E7B34D38F84AC11.title: "브로치"
+	task.0E861275FB1F9A6E.title: "&d메아리 잠금 해제 황혼 고대 유적"
 	task.0F2D2B75BBD3B74B.title: "&c에너지 큐브&r"
+	task.0F7A749B164D259A.title: "모든 #minecraft:석탄"
+	task.0FAC970FD967F5DF.title: "심층암 서쪽"
 	task.0FE18EA47455263E.title: "메아리 위치"
 	task.101BA566216C32AD.title: "ME 케이블"
+	task.1040794FCC53E1C2.title: "확인"
 	task.10414FF6D2800922.title: "&f빛의 조종자 &d메아리와 대화하기"
 	task.108D536F5C6428BB.title: "메아리 위치"
+	task.10F4611888E8BE79.title: "메아리 1"
 	task.11193E0681204B33.title: "스펙터 코일"
+	task.111E92A0F608B427.title: "기초 장의 시작"
+	task.1159F04F98B724A1.title: "불타는 디스코 금고"
+	task.11B86810F19A15B9.title: "룬"
 	task.11F49F841465DAAD.title: "페리코어 무기"
 	task.1211B7B1BC40225B.title: "컨트롤러"
+	task.121998ADA1263511.title: "4단계 메아리"
+	task.1221574B280EBA24.title: "보아라: 잔디!"
+	task.129AAFBA73EBA070.title: "&d메아리 해금 고대"
+	task.12C03EE6A8238B47.title: "바다 서쪽"
 	task.12E5C6B08FAC5523.title: "&e찾기&f: &3미로 금고"
+	task.13749D631F4473F2.title: "가이드가 말해야 할 것들"
+	task.1427925FA59931D3.title: "무선 전송기"
+	task.143FD5E58F888422.title: "도끼"
+	task.145E372410535D17.title: "주문 시전"
 	task.1464DA1D0A45EF99.title: "마법사 갑옷"
 	task.149EDD07DA46D40F.title: "&e관찰하기&r: &2주민&r"
 	task.14E50AE68E2967C5.title: "소 촉매"
+	task.154C17C5C905CDB8.title: "드라코닉 WE 업그레이드 제작"
+	task.157A4FF7FF3C6F6A.title: "심층암 북쪽"
 	task.159400992FB94254.title: "&e관찰하기&f: 심층암"
+	task.159CA0D800D44755.title: "AE2 + 고급 WE 제작 해제"
+	task.15E01B224B9897FE.title: "아포 연금술 시스템 설정"
 	task.15F2F7C36099DE85.title: "수출기"
 	task.16109CEC63108983.title: "닭 조키 금고 찾기"
 	task.16D5556D98667242.title: "페리코어 갑옷"
 	task.16F92FFAF9B19572.title: "소스링크"
+	task.171FAFE09103AB82.title: "닭 조키 북쪽"
 	task.1726EF3A700E7F17.title: "제작 가능한 닭"
 	task.17FA3A67B903103F.title: "수입기"
+	task.180232CD32A5D6B0.title: "크리에이트 제작"
 	task.180699485CD072B7.title: "쉬운 주민"
 	task.187D3A2680948DF2.title: "&6World Engine&f 유체"
+	task.189C216C50078C70.title: "Gates Powah"
 	task.18CB8C05E3A9150F.title: "주민 정보"
+	task.18D6F8FAB2FA69F7.title: "공허 남쪽"
 	task.1918A324D7CB282A.title: "회로 제작기 조립"
 	task.192926FA19E0AFB0.title: "포탈 총"
+	task.197E8D7DE2765B21.title: "촉매"
 	task.1986452842DD2E46.title: "확인"
 	task.19893A74AF61880F.title: "아치나무 묘목"
 	task.1A33A7B304C14570.title: "무선 송신기"
 	task.1A4A5A59FFF815E2.title: "히터"
 	task.1A946F253A4AB3D2.title: "블레이즈골드 도구"
+	task.1AF85D1D3B0426BC.title: "3단계 메아리"
+	task.1B25E200BE38BF9E.title: "중간 퀘스트"
+	task.1B354BFDDC6B862B.title: "기계공"
 	task.1B441EA3D74396D8.title: "드라코닉 도구"
 	task.1B724AA2EDADE92A.title: "&e처치하기&f: &7강령술사"
 	task.1BB73680D1CA700A.title: "메아리 위치"
 	task.1C350F6D6B6C0656.title: "&b강화된 애드온"
 	task.1C3B92648D279809.title: "&e찾기&f: &d불타는"
+	task.1CFBFD68628474D1.title: "메아리 위치"
 	task.1D40F0B8F9A522A0.title: "&e찾기&f: &d제작기"
+	task.1DF6D23F11B7296E.title: "나침반 얻기"
 	task.1E31F492D8779AB6.title: "조약돌 생성기"
+	task.1E4CCF6176F19AA2.title: "치유의 샘을 위한 나침반 얻기"
+	task.1E5E244A9DF5B9B8.title: "1단계"
+	task.1EBEAF4114DC3BFD.title: "황혼 WE 업그레이드 제작"
 	task.1F45D65E053E1701.title: "채굴 장치"
+	task.1F9A7927EEE12740.title: "모든 #c:씨앗/등급별"
+	task.20FE0359B927FE66.title: "광석 생성 옵션"
 	task.21F1C6036A37CED9.title: "&e찾기&f: &d황혼"
 	task.220AEB0F13353108.title: "&f제작 가능한 주문서 업그레이드"
 	task.223A14462F14AFF6.title: "&6월드 엔진&f 에너지 버퍼 업그레이드"
 	task.224C16DC19629B4B.title: "시작 생성기"
 	task.22DC2FE65941A0AB.title: "가전제품 애드온"
+	task.22F4D12640FE8DE4.title: "성장하는 자원"
+	task.23288392FC94FD36.title: "라이트벤더"
 	task.236F4615115C9D2E.title: "&f기사 금고 찾기"
 	task.238BCDF15FC7E9CB.title: "인도의 메아리와 대화하기 &d"
+	task.243CF5EB168426DC.title: "확인"
+	task.2448423EA50BA0ED.title: "나침반 얻기"
 	task.24B4FAC2831477B4.title: "&e찾기&f: &3고대 도시"
+	task.24F1AD47BF873ABE.title: "마술사"
+	task.24F9A4F56ECE9A55.title: "tf 북쪽"
 	task.251CDFF26C59DD32.title: "다크 매터 갑옷"
+	task.254216164263D3E2.title: "녀석과 대화하기"
+	task.258EC76B1D603C46.title: "등급별 파괴기"
+	task.2595A4B8A1522BBC.title: "고고학자 붓 블록"
+	task.25A2E220B9181819.title: "&d메아리 해금 와름라이트"
 	task.25B4028ACF0AA25B.title: "고고학자 붓 블록"
+	task.25E59EFA886226D4.title: "자원 확인"
 	task.25EB772A7B06594D.title: "메아리 위치"
 	task.266AF5D6914A2BA5.title: "닭 영혼"
 	task.2672BC5E75CFBDEC.title: "강화된 바다 선반"
 	task.268850BC9199AE77.title: "유체 소 관찰하기 &b&r"
+	task.2689CFF1F62FA5FF.title: "메아리 위치"
 	task.268F689AFA620C03.title: "&e처치하기&f: 닭 조키 20마리"
 	task.2695E2029A6BC6A0.title: "&f마법사의 메아리와 대화하기&d"
+	task.27B14942E7BE87E2.title: "바다 남쪽"
 	task.27D0428BD5B59E54.title: "이클립스 합금 도구"
 	task.27F04FD03BB1682C.title: "강화된 결정"
 	task.27F8AF789DE14145.title: "완성된 프로세서"
+	task.284A47FAF4885800.title: "거래 가능"
 	task.287D976A94ACDE7C.title: "블레이즈골드 무기"
+	task.2897D7BC60592E58.title: "모든 #c:양털"
+	task.28C14943E06CE907.title: "월드 제작으로 해금된 아이템"
+	task.293421D07539E14B.title: "마법사 갑옷"
 	task.2988CAF299690CDB.title: "유용한 명령어"
+	task.29B29381709E8E09.title: "수동형 몹 농장"
+	task.29F0C3330016EDCF.title: "&f자동화의 시작 - RS2"
 	task.2A0C5609613F2557.title: "주방 찬장"
 	task.2AF40F8B8B4E480D.title: "&a보석&r"
+	task.2B3540F8DE693645.title: "병참 장교 잠금 해제"
 	task.2B4824CA0A798240.title: "메아리 위치"
 	task.2B4A71FE904A1A6D.title: "&d인도 메아리와 대화하기"
+	task.2B85248A0FF8317A.title: "등급별 수출기"
 	task.2BAEE4414B32E48E.title: "&e관찰하기&f: &7포리엇&f 파쇄기 악마"
 	task.2BE7F102A41BB55E.title: "초반 발전기"
 	task.2C1D58B8E7565119.title: "초반 전력 제안"
+	task.2C70B41BE01902A0.title: "메아리 위치"
+	task.2C7178256D98DFC4.title: "로비로 가서 메아리 찾기"
 	task.2CB20E4080C1B6CC.title: "텔레포터"
 	task.2CBD12BA944BB6A7.title: "무선 레드스톤"
 	task.2CD07B6CF24F7460.title: "&b업그레이드된 애드온"
+	task.2CDC924219F0604D.title: "자이코리움 보석"
+	task.2CDCBCC6501AC541.title: "&e찾기&f: &e지하묘지&r 던전"
 	task.2D2F59A031BC2E63.title: "장비 퀘스트"
 	task.2D6AEF337BEAFA58.title: "도가니 증강"
 	task.2D717F3B3573B504.title: "&b업그레이드된 애드온"
+	task.2DCE94139CB2078D.title: "서랍 아이템 관리"
 	task.2DD1C42797FC03F0.title: "&fSpeak With The &dEcho of The Enchanter"
 	task.2DF0651CE18A8870.title: "나침반 획득"
 	task.2E08C0DD181858C1.title: "&e찾기&f: &d해결사"
+	task.2E0D7FA5FBCAFA4D.title: "확인"
 	task.2E2CF42092AA43D8.title: "등급별 &a디스크 인터페이스"
+	task.2E42256C51193994.title: "와이번"
 	task.2E6B8DF43B7A85E7.title: "기본 CAD 조립"
+	task.2EFD3D6830A8480A.title: "&e찾기&f: &3메아리치는 공포의 금고"
+	task.2F3D8C75AD838DC1.title: "&6메아리 잠금 해제 포르트로니스트"
 	task.2F84191A75EBFBB0.title: "나침반 획득"
+	task.2F94FA9842248FA3.title: "눈의 여왕 금고"
 	task.2FB8AB5ADB1F8D26.title: "&e처치하기&f: &c타이로스, 첫 번째 불꽃 운반자 메아리"
 	task.2FF95590BE56EE26.title: "&fSpeak With The &dEcho of Twilight"
+	task.30B05842C5C7D548.title: "파와 배터리"
 	task.30F1965A2A29E58A.title: "클릭하세요!"
+	task.317038ACC0AB2217.title: "공허 북쪽"
+	task.318D58F3EAE30A2B.title: "월드 엔진"
 	task.31D5BD1ADD14C2BB.title: "&f황혼 리치 금고 찾기"
 	task.31DBB76BB460AE1B.title: "기계 코어"
 	task.322FFDB250990323.title: "전력 저장"
+	task.323197B515C2DAB6.title: "&3메아리 잠금 해제 촉매"
+	task.32463C2AE2B4F13B.title: "&6Malkuth&r 처치"
 	task.327D6E2AE8863BC1.title: "&e처치하기&f: &c화염술사"
 	task.32877EA200F47B95.title: "&fSpeak With &6Radiance"
 	task.329BA2B5EB3185FC.title: "회수된 재료"
+	task.32FB115D88E24CD5.title: "tf 서쪽"
 	task.3384D1EE66D61464.title: "지옥 선반 시야"
 	task.33877DBF6AC0BF78.title: "업그레이드된 심층 슬레이트 선반"
 	task.339585B853B7012C.title: "기본 무기"
 	task.33CC6E4518860815.title: "2티어 CAD 소켓"
 	task.3448255A410B8F99.title: "와이번 도구"
+	task.346BBC841E2A3F2D.title: "2단계 메아리"
 	task.34E4918707295C02.title: "나침반 청구"
 	task.34F064BD38FE398C.title: "모든 물질"
+	task.34F41FF2B63589A6.title: "소스 흡입구"
 	task.35458B29D8F8E353.title: "&fSpeak With The &dEcho of The Ancient"
 	task.35F9337A21031B7C.title: "기본 CAD 코어"
 	task.3602BC5A7FA7DDB8.title: "기본 에너지 전송"
+	task.36114BC736C0EB31.title: "기계공 잠금 해제"
+	task.367FD95D506DE27B.title: "나침반 획득"
+	task.36851BEF447522C1.title: "제작기"
 	task.368FF30FEFA57F73.title: "반지 생성"
 	task.36D65F0F76F3F5E9.title: "울티마인 메모"
 	task.36E4280D3F1F4D95.title: "&b셀레스티젬 갑옷"
+	task.376297FFB45E51A2.title: "엔드 서쪽"
 	task.379AF15FE59B449C.title: "크로논에 대하여"
+	task.37AD604DC3429E57.title: "엔더리움 세계 엔진 조합"
+	task.37C9E3F65AE092C6.title: "엔드 북쪽"
 	task.37F6704E46F8E7BC.title: "노획물"
 	task.383794D054B8E0E1.title: "나침반 획득"
+	task.387AEDAFD8378A6D.title: "남쪽 닭 조키"
+	task.388714C70D55C2C0.title: "나침반 획득"
+	task.38B484C5F2CD48C9.title: "메아리 위치"
 	task.398CB19DF3238318.title: "비유형 저장 디스크"
+	task.39A587FEA3FFAB6B.title: "&a메아리 잠금 해제 해결사"
 	task.39A8645834696943.title: "인지력 도구"
 	task.3A0AA4ECFE92B8F8.title: "장신구 아이템"
 	task.3A831AEACF765BB4.title: "&c콴타&r 아이템"
+	task.3B085693A5797F89.title: "다크 매터 도구"
 	task.3B13BCC752215E0A.title: "영혼 저장 부품"
 	task.3B60BAD2A4BEA950.title: "확인"
 	task.3B68713C93B4FAA8.title: "&a업그레이드 획득"
+	task.3B69744AB1794F4A.title: "&3메아리 잠금 해제 빛 조절기"
+	task.3B79C7596F19EFC3.title: "확인"
+	task.3BB23794DB9DEDD4.title: "진흙 제품"
+	task.3C26A988187EEF02.title: "네더 서쪽"
 	task.3C30835D105E888F.title: "유체 서랍"
 	task.3C532F10AE78D105.title: "&e찾기&f: &d기계공"
+	task.3C99AA1534641A3F.title: "바다 동쪽"
 	task.3CB07FD3F54AFA92.title: "§z유물&r"
+	task.3CEB40B064A202AA.title: "월드 엔진 잠금 해제"
+	task.3CF9E82FE7A7CA32.title: "심층암 남쪽"
 	task.3D00D0A8A61617EA.title: "SNAD 유형 블록"
+	task.3D5F6DE10646EBE3.title: "와이번 장비"
+	task.3D6254435D99C13C.title: "말쿠트 아레나"
 	task.3D736F8E008552DB.title: "파워셀"
 	task.3E9AA0CF9EFC6DE6.title: "화학 부품"
+	task.3E9C440E3E2EE022.title: "퀘스트 보상 획득"
+	task.3EA41562AB11F9B1.title: "tf 동쪽"
+	task.3EB209408B5FD9FA.title: "메아리 위치"
 	task.3EBAF104991E89BF.title: "&e처치&f: &d강력한 닭 조키"
 	task.3EF3D33D52CB41A5.title: "&a공허 강화"
 	task.3F1ABCF8325A90C9.title: "§6무한 도구"
@@ -6286,46 +6781,93 @@
 	task.402164B895BEDB8E.title: "병참 장교의 &d메아리에게 &f말 걸기"
 	task.403C59A4B303FE3A.title: "&e찾기&f: &6카오스"
 	task.4087591E474FC477.title: "&e처치&f: 엔더맨 10마리"
+	task.40921D92713F1FB4.title: "게임 단계 부여"
 	task.411B145BAD8AA622.title: "도구"
 	task.41B203F8648421C8.title: "&e찾기&f: &6무한"
+	task.41FB0785445FC826.title: "유체 상호작용 기계"
+	task.42AEAD2BF6113D89.title: "예티 금고"
+	task.42D645B26E4EE8A4.title: "4세대"
+	task.43010F9F652B5B4B.title: "모든 #마인크래프트:곡괭이"
+	task.430918A5AD62C27F.title: "중반 옵션"
 	task.4309B43CD4447705.title: "건설 지팡이"
+	task.4321D68C7B5CA800.title: "4단계"
 	task.435C5B6B77C3D7B4.title: "재구성된 재료"
 	task.4404D4CA07F1B536.title: "나침반 획득"
+	task.4436C5870B83BA75.title: "네더 동쪽"
 	task.4461612C1C9D3F92.title: "&e처치&f: &a떠돌이 상인"
+	task.4483C09E6123BC4C.title: "월드 제작으로 잠금 해제된 아이템"
+	task.4497434CDD9642C0.title: "주민 거래"
+	task.44BC8362B01E30DC.title: "바다 북쪽"
 	task.44F14FF1208B0B03.title: "AIOT"
 	task.459AEFEC8F060222.title: "나침반 획득"
+	task.45B09FA666AC50A6.title: "2단계 메아리"
+	task.45B385C4A1E03540.title: "던전 금고"
 	task.45C3B788492E3C09.title: "&e관찰&f: &2잔디 블록"
 	task.45E18E3EE8C1D683.title: "기계공의 &d메아리에게 &f말 걸기"
+	task.45E2610784D6C62D.title: "공허 서쪽"
 	task.46201BC3BAE0D15A.title: "메카니즘 레이저"
+	task.46EC7CBCB208552B.title: "&a메아리 잠금 해제 마법 부여가"
+	task.478D81CA3E31709A.title: "메아리 위치"
 	task.47B3519E9BAE88EB.title: "룬나무 묘목"
+	task.47CDD3AB69EDD87A.title: "리치 금고"
+	task.48521259017869AC.title: "4세대"
+	task.48DEF5D938C94BF6.title: "&f산업용 전선 옵션"
 	task.491E250D69066BBC.title: "&e처치&f: &7위더"
+	task.496455D7AB00E7B8.title: "생성기"
+	task.4973EE979B7CEBB2.title: "게임 단계 제거"
+	task.49D95439F3D1CFCD.title: "주방 칼"
 	task.49DF96867DE0BB9D.title: "정령"
+	task.49E3AB30A12DF498.title: "&6메아리 잠금 해제 카오스"
+	task.4A252C67885BD891.title: "2단계 흙 제품"
 	task.4A3E583E141A73F5.title: "나침반 획득"
 	task.4A5574B73D5286B1.title: "룬"
 	task.4A84D885C313D512.title: "스택 업그레이드"
 	task.4AEB443222A345F9.title: "메아리 위치"
 	task.4B2BAB2FC31AEA4D.title: "&e찾기&f: &d빛 조절기"
+	task.4B4B8BC2E5273E05.title: "힘"
+	task.4B64161A3F4645D8.title: "5단계 메아리"
 	task.4B65088186551D3C.title: "&f공허 강화&r"
 	task.4B7C315189CC7D79.title: "클래식 파이프"
+	task.4BD6BD132C5F5FD3.title: "메아리 위치"
 	task.4C0AA56C3F1425DC.title: "주입된 책장"
 	task.4C294F85B9714CBA.title: "틀이 있는 서랍"
 	task.4C2F88B9AE8BD7DA.title: "영혼으로 물든 도구"
+	task.4C54ABE5A9160A74.title: "메아리에게 말 걸기"
+	task.4C972CA6C2864541.title: "2단계"
+	task.4CC67507BD359450.title: "3단계"
 	task.4D553F0284E3E3B7.title: "소스 저장소 부품"
+	task.4D5A20E3AAF6D613.title: "메아리와 대화함"
+	task.4D83F46E810A7395.title: "제작기 필요"
 	task.4DBC16ACBFEF4D40.title: "&a스택 업그레이드"
+	task.4E167989D804F280.title: "계층형 수입기"
 	task.4E9D1C67F4EAD926.title: "단자"
+	task.4EF4B4FB9E896FDA.title: "4단계"
 	task.4F171D8BC8C1C8F7.title: "&bHammer&r 중 &eJust Hammers에서 나온 것"
 	task.4F37295B08FFCA81.title: "집 만들기"
 	task.4F48BE06A8542822.title: "몹 이동 아이템"
 	task.4FC80BE367960541.title: "&e찾기&f: &d고대"
+	task.501D5E25BC5D86BC.title: "어둠 속 제작 해금"
 	task.5034DC565C8B0377.title: "모든 잎 블록"
+	task.50FC826E34DC4B21.title: "마법사 잠금 해제"
+	task.5117CEC9D541E6AD.title: "엔더리움 세계 엔진 제작"
 	task.5123D0CFBA53F360.title: "추가된 금속"
+	task.515FA27128F1F9F4.title: "주입된 비행 부적"
+	task.517166DF490B8DF9.title: "2단계"
+	task.517D541820F94242.title: "재사용 대기시간 타이머"
 	task.519E1F80092719D1.title: "버그 신고"
+	task.51A10188D6628ECE.title: "엔더 셀 세계 엔진 제작"
 	task.51E0FB26781697CB.title: "배낭 티어 업그레이드"
+	task.523276D741403500.title: "몹 농장"
 	task.5290130556504104.title: "&a철 상자&r"
 	task.52E6F8489C66A549.title: "영혼으로 물든 갑옷"
 	task.53399AACBE5CBD31.title: "영혼으로 물든 장비"
 	task.53A4AB98C92B3D57.title: "2단계 CAD 소켓"
+	task.53B81DDD6321D728.title: "나침반 획득"
+	task.53DA98367BF86C09.title: "전력 확인"
+	task.53DCB3C11B6D07C7.title: "월드 제작으로 잠금 해제된 아이템"
+	task.54161E44D6EC0403.title: "고대"
 	task.5434F149E894EFA6.title: "환영"
+	task.545431F57E485EE7.title: "삽"
 	task.54630C413BFC35E2.title: "드라코닉 에너지 전송"
 	task.546F475B57F686A3.title: "레드 매터 갑옷"
 	task.54900CC98541771C.title: "아무 Psi CAD 채색기"
@@ -6334,32 +6876,59 @@
 	task.55C6BE7CD74598FA.title: "시전 횟수"
 	task.55E36C96A2424F59.title: "&eKill&f: &6Ancient Remnant"
 	task.56A35A967954A4C2.title: "서랍"
+	task.56BA1011DDE093D0.title: "가공되지 않은 오스뮴"
 	task.56C9F06D62E42184.title: "아무 프시메탈 도구"
 	task.5707D25BF97D42CD.title: "&fAlpha Yeti Vault 찾기"
 	task.57168CEC7F6AA1CC.title: "서랍 업그레이드"
 	task.574A44FBE14704F6.title: "레드 매터 도구"
 	task.576C3A4D28B4D076.title: "모듈"
 	task.576F9DD2957EB18A.title: "경험치 보유기"
+	task.57A2EA2AAF0401BE.title: "메아리 위치 파악"
 	task.57A5CC881C60B69D.title: "시간 완드"
+	task.57BE5B16087C947C.title: "&6Echo Unlock Infinity"
 	task.57EE94BA6579685A.title: "실제 추가 기능의 배터리"
+	task.581CF680220285B0.title: "하트"
 	task.585E2902BC477B5D.title: "&eLocate&f: &6Radiance"
+	task.58670C125A30CD28.title: "해결사"
 	task.58687506041183E7.title: "&eKill&f: 20x Slimes"
+	task.58BD6F9BD3D252EE.title: "월드 엔진 조합 해금"
 	task.58DC7CD2A4F595DD.title: "&eKill&f: &dArchevoker"
 	task.5926E51F4409C90C.title: "추가 기능"
+	task.593AA0179354204B.title: "나침반 얻기"
+	task.593B01E9D4776913.title: "프로세서"
 	task.59454DA41C1C27D5.title: "아무 룬"
 	task.59521977C507A466.title: "&dEcho of Guidance와 대화"
+	task.598209AB20C523FC.title: "지옥불 금고"
+	task.598955C607984551.title: "초반 발전기"
+	task.5996778F5388841D.title: "상아 또는 흑단 CAD 조합"
+	task.59A9F44F40AF2E55.title: "메아리 위치 파악"
 	task.5A0B7C6C05EEBEE2.title: "서랍 업그레이드"
+	task.5A43BF69F5EE7A51.title: "엔드 게임 옵션"
 	task.5A652535811A2B66.title: "퀀텀 갑옷"
 	task.5A912A97A8A7DB47.title: "&3Create Vault 찾기"
+	task.5A9C48DEA2F607F9.title: "아무 #justdynathings:compat/ae2/buddings"
+	task.5AB9DD72EFFA8BB2.title: "숨겨짐"
+	task.5AE65BF06E12FC55.title: "&eObserve&r: World Engine Block"
+	task.5AEBA3792645C057.title: "연결"
 	task.5AFEC71F18BD2D1B.title: "드릴 업그레이드"
+	task.5B1EDE30C0E98068.title: "중성자 활성기 조립"
 	task.5B2F539FB8DF8B64.title: "&fAuto Hammers"
 	task.5B3A2DEB3DFBA285.title: "&dEcho of Guidance와 대화"
 	task.5B51C00265B54937.title: "기술 챕터"
 	task.5B82C7AEA857BED3.title: "&eKill&f: &dEnder Guardian"
 	task.5B97CEFB80FF361B.title: "&eKill&f: 10x Shulkers"
+	task.5C1653E469BF0527.title: "주민 번식"
+	task.5C3B57777EB7E7CD.title: "초반 발전기"
+	task.5C41B9EBAA3BFB91.title: "무한"
+	task.5C68D9D46C6D6566.title: "&3Echo Unlock Infernal"
 	task.5C6B2370E7B8E980.title: "오컬티즘 채굴기"
 	task.5CCC981194E6AD26.title: "&eLocate&f: &dWyrmwright"
+	task.5CF31579D0098AE7.title: "재사용 대기시간 타이머"
+	task.5CF322069EBE856C.title: "심층암 동쪽"
+	task.5D0C511745B5006A.title: "생성 8"
+	task.5D14CB44244C2750.title: "카오스"
 	task.5D219927A5B4C985.title: "메아리 위치 파악"
+	task.5D301EDAEC889F86.title: "&7Echo Unlock Quartermaster"
 	task.5D44C1D4945AB04C.title: "&eLocate&f: Underground Springs"
 	task.5DB582096285438A.title: "&eLocate&f: &dQuartermaster"
 	task.5DEDD864CB2276F1.title: "&bEfficiency Upgrades"
@@ -6367,66 +6936,114 @@
 	task.5E3DB978C813B92A.title: "컨트롤러 액세스 포인트"
 	task.5E4795D98A4F96E5.title: "셀레스티젬 도구"
 	task.5EA5666395E5AAEC.title: "&eLocate&f: &dMagician"
+	task.5F9845BFD2B34AC6.title: "당신의 선택"
+	task.5F99BA061A1605D9.title: "월드 돌 층 레이아웃"
 	task.5FD1AC346811740C.title: "&eKill&f: &cThe Dead King"
 	task.5FFDD210AFD0055D.title: "특수화된 고서"
 	task.6017B56A0165C534.title: "페리코어 도구"
 	task.6064031AABA0D8D1.title: "&eKill&f: &2Apothecarist"
+	task.60A5E4D097F85580.title: "강철 획득"
+	task.6143E9BDB0C9D417.title: "차원문 금고"
+	task.614C3268B71D6CE3.title: "마법 부여가"
 	task.615166F23D87249A.title: "메아리 위치 파악"
 	task.6166C057F795A2CB.title: "물질의 양"
+	task.61990CCF4D2011E7.title: "각성된 코어 + 어두운 공허 조합 해금"
+	task.619E259715D3DAFC.title: "&eApplied Flux &fStorage Cell"
 	task.61C0F35123FBB85E.title: "&eKill&f: &3Warden"
 	task.61D894B195259EFE.title: "네더라이트 갑옷"
 	task.62017C4AEF15B756.title: "차원문 금고 찾기"
+	task.620B0BA6A6337A57.title: "tf 남쪽"
 	task.623C40B073B6326E.title: "이클립스 합금 갑옷"
+	task.62978C611C641A3D.title: "&fME Interface"
 	task.62B8DF25CDC4F6E7.title: "나침반 얻기"
+	task.62D52342AFC4B5B5.title: "생성 5"
 	task.62DE6121CE506116.title: "파이프 업그레이드"
 	task.63405599D33D4D0A.title: "중반 발전기"
 	task.6347BBAD2ED20F25.title: "&eKill&f: 20x Zombies"
+	task.639A8E9CF51A8596.title: "식물 농사"
+	task.63A8F38180C3FD30.title: "나무 농사"
 	task.63C4D2F3F7059C8E.title: "배낭 집기 업그레이드"
 	task.63FA6779F7687346.title: "나침반 얻기"
-	task.64439911825F80B2.title: "블록 완드"
+	task.6405640824417BB2.title: "메아리 위치 파악"
+	task.64AB5234ED7B0BDC.title: "차원문 금고"
 	task.64B290466E13BE30.title: "&dEcho of The Wyrmwright와 대화"
+	task.651313A5A837BB13.title: "&7Echo Unlock Magician"
 	task.655EA10D763BC971.title: "&e마법 부여사를 찾으세요&f: &d마법 부여사"
+	task.65AD3185427B9AF3.title: "금고 생성"
+	task.65B4BE28B27BE67B.title: "지옥의"
+	task.6662DD03B1F24FB1.title: "메아리 위치"
+	task.6681C95BA23C70AA.title: "아무 금속 촉매"
 	task.6686A02C1B8BCACB.title: "상아 또는 흑단 CAD"
+	task.66B4466B7858F8C2.title: "아무 묘목"
+	task.66BE14D0E22A9924.title: "Create 메아리 잠금 해제"
+	task.66E96E8D93525948.title: "포트론 세계 엔진 조합"
+	task.66F6B411E884E391.title: "엔드 동쪽"
 	task.671339615BA68B10.title: "&e얼음 마법사를 처치하세요&f: &b얼음 마법사"
+	task.6751D267B2D7A52D.title: "잃어버린 메아리 발견하기"
+	task.678E1BECB4BB8A9A.title: "2세대"
+	task.684A45E0379D0386.title: "금고"
 	task.6865F20C1E218901.title: "세계 엔진 초기화"
 	task.68A1DE705F7F836C.title: "이벤트 활성화를 위해 클릭"
+	task.68B5F556D4439356.title: "7세대"
+	task.68E6367E2F80DCBE.title: "채굴 장치"
+	task.68FBE3E15C3F9B33.title: "아무 룬 브로치"
+	task.69019AD3FEB39B7B.title: "단계 주기"
 	task.696DC87210410650.title: "오리테크 파이프"
+	task.69965C54E13B57DD.title: "무선 레드스톤 섹션"
 	task.699DED933E4DC61C.title: "주문 책"
 	task.69AAE2EC36ADE0C3.title: "악성 갑옷"
 	task.69C17D93099B4E1D.title: "방랑 마법사 갑옷"
+	task.6A00069F522D80AB.title: "모든 퀘스트 보기"
 	task.6A0F7469DEB4D145.title: "아무 2단계 CAD 코어"
 	task.6A32E04F83997A6D.title: "&e촉매를 찾으세요&f: &d촉매"
 	task.6A3AABB86967A8C4.title: "메아리 위치"
 	task.6A6EB35F2D0397D5.title: "&f길잡이 메아리와 대화하세요&d"
+	task.6AD228A3A433DD1F.title: "MFFS 금고"
+	task.6B27B17119E4FED3.title: "정령 + 고급 세계 엔진 업그레이드 잠금 해제"
+	task.6B45D5D3054C838C.title: "인도의 메아리"
 	task.6B46A4D5E6915E1B.title: "&f조작자와 대화하세요&d"
 	task.6B9EDB6F4966725F.title: "건축 장치"
 	task.6BF1B3F7E85C5E17.title: "&b업그레이드된 애드온"
 	task.6C730129357A78D0.title: "&e크리퍼 20마리를 처치하세요&f"
 	task.6CE5E7F652E0E5B8.title: "눈의 여왕 금고 찾기&f"
+	task.6D0AA9BE40A0E859.title: "메아리 위치"
 	task.6D4D1E6D0136F080.title: "파괴기"
 	task.6DF527923993A57F.title: "월드 내 갑옷 업그레이드"
 	task.6EEDBE793BDCC2D7.title: "물류"
 	task.6F0EB6804E6BC2C8.title: "저장"
 	task.6F63CD417D16DE7F.title: "&eObserve&r: &6World Engine Block"
 	task.6FA17DE3B63BDA1A.title: "압축 서랍"
+	task.6FCBB412F4BBBAEB.title: "&aEcho Unlock Fabricator"
+	task.70D4BC76C32CE0A3.title: "병참 장교"
 	task.70DC330B1BB5FE90.title: "&f와름라이트 메아리와 대화하세요&d"
 	task.716711D72FE69FF5.title: "타입별 저장 셀"
+	task.719285FE3BB19A6E.title: "퀘스트 1"
+	task.71B63908FDE6CC61.title: "&b모든 도구"
 	task.71EF7138E44BDF05.title: "메아리 위치"
 	task.72121E28134ACE07.title: "인도의 메아리를 만나세요&d"
+	task.7230891A77CE1977.title: "엔드 남쪽"
 	task.72426E00128EBE6D.title: "영혼 사냥꾼 갑옷"
 	task.72566E6107743A29.title: "갑옷"
+	task.736019FA0D0976A4.title: "5단계"
 	task.739AFA2E85FD2354.title: "컴팩트 머신"
+	task.73AD501FEDF94669.title: "네더 북쪽"
 	task.742022DB9012FEDC.title: "아무 묘목"
+	task.748C2ADA8E320CA0.title: "기계 제작"
 	task.757B783AC8A9410F.title: "프시메탈 갑옷"
+	task.7586948F032C6048.title: "히드라 금고"
 	task.75A4019E3778367A.title: "&6고급 무기"
+	task.7618036DBF5EE196.title: "금고 생성"
+	task.765414790D7CA99B.title: "원석 니켈"
 	task.766D48135EA53798.title: "탄약"
 	task.7695C5FDA30F4196.title: "블레이즈골드 갑옷"
 	task.769744CFA9DB671F.title: "메아리 위치"
 	task.76987C0F742A8A14.title: "&f무한 메아리와 대화하세요&6"
 	task.76D42E59F98B63FA.title: "보상 확인"
 	task.7747C8ECA64D179D.title: "&f인도의 메아리와 대화하세요&d"
+	task.77D5AFC1BC5F67C9.title: "세계 엔진 조합 잠금 해제"
 	task.77F88B2E5E3A0AE2.title: "&f카오스와 대화하세요&6"
 	task.7805089FB14CE3E1.title: "&f지옥의 메아리와 대화하세요&d"
+	task.782E4A45A331FB27.title: "메아리 웨이포인트"
 	task.78869974512F8AD0.title: "엘리베이터"
 	task.78AD19380F54B22A.title: "JDT 석탄"
 	task.78F8128005EE1240.title: "추가된 보석"
@@ -6435,23 +7052,35 @@
 	task.79684EDD87FFB47C.title: "&e크리퍼 20마리를 처치하세요&f"
 	task.79B0BA2223437C7E.title: "카오스 도구"
 	task.79B58E484D4196CD.title: "&eKill&f: &dThe Leviathan"
+	task.79CCC49178D03422.title: "세계 엔진 업그레이드 자동 제작"
+	task.7A0B3916B2B15F4C.title: "황혼"
+	task.7A9E3DADF485CCB4.title: "아무 조합"
+	task.7A9F1E65CFB92BDF.title: "공허 동쪽"
 	task.7AC3BD79A70049CA.title: "&e사제를 처치하세요&f"
 	task.7B3908878D77CBC9.title: "메아리 위치"
 	task.7B71A001741520D3.title: "&e시듦 해골 10마리를 처치하세요&f"
 	task.7BDED38E6532CB94.title: "가공 업그레이드"
 	task.7C552DAEA902AA13.title: "속도 업그레이드"
 	task.7C55FE23768493AF.title: "생성기"
+	task.7C5681A418A2297F.title: "&7Echo Unlock Machinist"
 	task.7C972E1F071C029A.title: "Belt Control Items"
+	task.7C9A60156BE5D21A.title: "벨트 제어 아이템"
 	task.7C9DEAA63AE26D5D.title: "1세대"
+	task.7CA66CFB9AAC98BB.title: "네더 남쪽"
 	task.7CCE37FAC12528D7.title: "영혼 사냥꾼 장비"
 	task.7CD51F8C7BC7FF66.title: "와이번 에너지 전송"
 	task.7CECE0F1C53701B6.title: "마법 도구"
 	task.7D75B40EC4AF799A.title: "Just Dire Things 기계"
 	task.7D8611641B6611FB.title: "&f인도 메아리와 대화하기 &d"
+	task.7D91A1EAA7FEC6BD.title: "안내자가 해야 할 말"
 	task.7DD8D0EDE1FAF2DE.title: "나침반 얻기"
 	task.7E02151602B34E2A.title: "차원 저장소 안정기"
+	task.7E4EF12285852B6E.title: "식물 수확 옵션"
 	task.7ECEEC776BBA8B53.title: "&dEcho of Guidance와 대화"
 	task.7F31E6F7A6728CF1.title: "행운 강화 장치"
+	task.7F49EBC813E06257.title: "월드 엔진"
 	task.7F73108709C402C8.title: "후반 게임 발전기"
+	task.7F7FC9A4E8AADA7F.title: "주민 거래"
 	task.7FAA87B19ACACCBC.title: "모든 염료"
+	task.7FF2F415F5685DBA.title: "제거 생성 메아리 잠금 해제"
 }

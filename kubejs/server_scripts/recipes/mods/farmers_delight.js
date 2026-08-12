@@ -27,5 +27,4 @@ ServerEvents.recipes((event) => {
     .replaceIngredient("minecraft:water_bucket", "minecraft:bucket")
     .id("ftb:farmers_delight/shapeless/wheat_dough_from_water");
 
-
 });

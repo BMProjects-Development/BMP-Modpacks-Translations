@@ -1,0 +1,34 @@
+#Turn a group off to keep its mobs out of the vanilla tags.
+#irons_spellbooks
+irons_spellbooks_normal = true
+#citadel keepers, cursed armor stands, dead king corpses
+irons_spellbooks_borderline = true
+#cataclysm_spellbooks
+cataclysm_spellbooks_normal = true
+#traveloptics
+traveloptics_normal = true
+#gametechbcs_spellbooks
+gametechbcs_spellbooks_normal = true
+#ars_nouveau
+ars_nouveau_normal = true
+#alexsmobs
+alexsmobs_normal = true
+#spectres
+alexsmobs_borderline = true
+#alexscaves
+#licowitches
+alexscaves_borderline = true
+#born_in_chaos_v1
+born_in_chaos_v1_normal = true
+#spirits, pumpkinheads, headless knights, and hounds
+born_in_chaos_v1_borderline = true
+#mutantmonsters
+#skull spirits
+mutantmonsters_borderline = true
+#cataclysm
+cataclysm_normal = true
+#the Harbinger
+cataclysm_borderline = true
+#takesapillage
+#archers, legioners, skirmishers
+takesapillage_borderline = true

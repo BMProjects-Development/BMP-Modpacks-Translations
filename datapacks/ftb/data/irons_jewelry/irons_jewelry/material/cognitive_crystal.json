@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "cognition:cognitive_crystal"
   },
-  "materialType": [
-    "gem"
-  ],
   "paletteLocation": "ftb:palettes/cognitive_crystal",
   "quality": 1,
   "bonusParameters": {

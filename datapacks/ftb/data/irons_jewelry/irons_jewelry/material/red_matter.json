@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "projecte:red_matter"
   },
-  "materialType": [
-    "gem"
-  ],
   "paletteLocation": "ftb:palettes/ignitium",
   "quality": 2,
   "bonusParameters": {

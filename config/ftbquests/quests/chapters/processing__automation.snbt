@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "6C8610E5051CDE59"
 			image: "ftb:textures/quests/other_titles_and_logos/logistics_title.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 6.0d
+			id: "66E2CAB84FA14524"
 			image: "immersiveengineering:textures/models/blueprint_frame.png"
 			order: -2
 			rotation: 0.0d

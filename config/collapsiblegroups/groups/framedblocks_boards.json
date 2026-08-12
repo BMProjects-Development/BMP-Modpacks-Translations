@@ -1,0 +1,24 @@
+{
+  "id": "framedblocks_boards",
+  "name": {
+    "translate": "collapsible_groups.group.framedblocks_boards",
+    "fallback": "Framed Blocks: Boards & Strips"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "all": [
+          { "type": "item", "namespace": "framedblocks" },
+          {
+            "any": [
+              { "item_path_contains": "board" },
+              { "item_path_contains": "strip" }
+            ]
+          }
+        ]
+      },
+      { "type": "item", "id": "framedblocks:framed_path" }
+    ]
+  }
+}

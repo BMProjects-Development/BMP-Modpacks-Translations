@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ],
+  "type": "oritech:pulverizer",
+  "ingredients": [
+    {
+      "tag": "c:obsidians"
+    }
+  ],
+  "results": [
+    {
+      "count": 4,
+      "id": "ftbmaterials:obsidian_dust"
+    }
+  ],
+  "time": 140
+}

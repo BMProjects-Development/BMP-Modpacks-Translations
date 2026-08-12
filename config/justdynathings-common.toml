@@ -9,6 +9,8 @@
 	disable_doc_warning = false
 	#Include any fuel item to Generator JEI category
 	include_any_jei_fuels = true
+	#Disable Fuel JEI categories when Just Tiered Generators is installed
+	disable_jei_fuels = true
 
 #Blocks
 [2-blocks]
@@ -388,10 +390,10 @@
 	# Default: 1
 	# Range: > 1
 	ticker_fluid_every_tick = 1
-	#Tick speed applied
-	# Default: 16
+	#Max Tick speed applied
+	# Default: 2048
 	# Range: > 1
-	ticker_tick_rate = 16
+	ticker_max_tick_rate = 2048
 
 #Compats
 [10-compats]

@@ -3,9 +3,6 @@
     "ingredient": {
       "tag": "c:dusts/prismarine"
     },
-    "materialType": [
-      "gem"
-    ],
     "paletteLocation": "irons_jewelry:palettes/peridot",
     "quality": 2,
     "bonusParameters": {

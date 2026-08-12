@@ -15,6 +15,7 @@
 			alpha: 155
 			color: 0
 			height: 10.0d
+			id: "0F315887E63822BB"
 			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -25,6 +26,7 @@
 			alpha: 155
 			color: 0
 			height: 10.0d
+			id: "1E151D546266A20B"
 			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -35,6 +37,7 @@
 			alpha: 155
 			color: 0
 			height: 10.0d
+			id: "15835F93FE38E8D0"
 			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -44,6 +47,7 @@
 		{
 			dependency: "7408FB23D476F791"
 			height: 4.0d
+			id: "65C0F0B53F1813BA"
 			image: "malum:textures/gui/book/widgets/runewood_frame_gilded.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -53,6 +57,7 @@
 		{
 			dependency: "7408FB23D476F791"
 			height: 4.0d
+			id: "18CB28C4756FBF3D"
 			image: "ftbquests:tasks/input_only"
 			order: -1
 			rotation: 0.0d
@@ -63,6 +68,7 @@
 		{
 			dependency: "7D1FB9A40B5CAE97"
 			height: 2.0d
+			id: "29C49A549B5F202C"
 			image: "malum:textures/gui/book/widgets/runewood_frame_grand.png"
 			order: -1
 			rotation: 0.0d
@@ -73,6 +79,7 @@
 		{
 			dependency: "48005B47655AD525"
 			height: 2.0d
+			id: "68821019EF3C7EDF"
 			image: "ftbechoes:block/echo_projector_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -82,6 +89,7 @@
 		{
 			dependency: "48005B47655AD525"
 			height: 1.5d
+			id: "1E7B6741C1B2820C"
 			image: "relics:textures/gui/description/ability/reroll_button_active_quick.png"
 			order: 1
 			rotation: 0.0d
@@ -92,6 +100,7 @@
 		{
 			dependency: "79EB0239FE299185"
 			height: 1.5d
+			id: "613FA2FA0A10F266"
 			image: "relics:textures/gui/description/ability/page_counter.png"
 			order: 1
 			rotation: 0.0d
@@ -102,6 +111,7 @@
 		{
 			dependency: "79EB0239FE299185"
 			height: 2.0d
+			id: "30F20C7CE468C50C"
 			image: "ftbechoes:block/echo_projector_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -111,6 +121,7 @@
 		{
 			dependency: "62531896A7E58F55"
 			height: 2.0d
+			id: "18FB62146B34FE9B"
 			image: "ftbechoes:block/echo_projector_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -120,6 +131,7 @@
 		{
 			dependency: "62531896A7E58F55"
 			height: 1.5d
+			id: "35ACB7EF4B108273"
 			image: "relics:textures/gui/description/ability/reroll_button_active_warning.png"
 			order: 1
 			rotation: 0.0d

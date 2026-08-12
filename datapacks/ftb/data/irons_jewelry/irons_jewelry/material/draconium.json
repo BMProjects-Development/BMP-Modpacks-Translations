@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "draconicevolution:draconium_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "ftb:palettes/draconium_new",
   "quality": 3,
   "bonusParameters": {

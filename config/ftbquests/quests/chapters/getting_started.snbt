@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 15.0d
+			id: "475C8CAEA643E868"
 			image: "ftb:textures/quests/backgrounds/portal3d_cutout.png"
 			rotation: 0.0d
 			width: 15.0d
@@ -22,6 +23,7 @@
 			alpha: 150
 			color: 0
 			height: 40.0d
+			id: "1E6C80F453C41CCA"
 			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
 			order: -3
 			rotation: 90.0d
@@ -32,6 +34,7 @@
 		{
 			dependency: "7D1FB9A40B5CAE97"
 			height: 2.5d
+			id: "63B1BD34D7F8F236"
 			image: "malum:textures/gui/book/widgets/soulwood_frame_gilded.png"
 			rotation: 0.0d
 			width: 2.5d
@@ -41,6 +44,7 @@
 		{
 			dependency: "7D1FB9A40B5CAE97"
 			height: 2.5d
+			id: "1615C15C289C77D4"
 			image: "ftbquests:tasks/input_only"
 			order: -1
 			rotation: 0.0d
@@ -433,6 +437,7 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "149EDD07DA46D40F"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "minecraft:villager"
@@ -550,6 +555,7 @@
 						id: "custommachinery:custom_machine_item"
 					}
 					id: "6F63CD417D16DE7F"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "custommachinery:custom_machine_block"
@@ -599,6 +605,7 @@
 						id: "minecraft:grass_block"
 					}
 					id: "45C3B788492E3C09"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "minecraft:grass_block"

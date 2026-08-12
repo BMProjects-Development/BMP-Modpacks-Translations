@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 2.5d
+			id: "03E2A4192800A0C4"
 			image: "ftb:textures/quests/other_titles_and_logos/malum_logo.png"
 			rotation: 0.0d
 			width: 4.5d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 2.0d
+			id: "512D7E6EC5EC6D19"
 			image: "malum:textures/mob_effect/rejected.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 3.0d
+			id: "7FE9C44AFD75D566"
 			image: "malum:textures/gui/book/widgets/runewood_frame_gilded.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -35,6 +38,7 @@
 		}
 		{
 			height: 3.0d
+			id: "4DA4E611E8839B04"
 			image: "malum:textures/gui/book/widgets/paper_filling_gilded.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -43,6 +47,7 @@
 		}
 		{
 			height: 3.0d
+			id: "2B1827553E5B64CC"
 			image: "malum:textures/gui/book/widgets/paper_filling_default.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -51,6 +56,7 @@
 		}
 		{
 			height: 3.0d
+			id: "659865842796A83C"
 			image: "malum:textures/gui/book/widgets/withered_frame_default.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -59,6 +65,7 @@
 		}
 		{
 			height: 3.0d
+			id: "4D7E7142AAE4A023"
 			image: "malum:textures/gui/book/widgets/withered_frame_default.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -67,6 +74,7 @@
 		}
 		{
 			height: 1.5d
+			id: "4DA4CE6CD90025B1"
 			image: "ftb:textures/quests/irons/irons_spellbook_logo.png"
 			rotation: 0.0d
 			width: 4.5d
@@ -76,6 +84,7 @@
 		{
 			dependency: "7F7C0B1523AA28C4"
 			height: 1.5d
+			id: "34B8E644328E5AF4"
 			image: "ftb:textures/quests/ars/ars_nouveau_title.png"
 			rotation: 0.0d
 			width: 7.5d
@@ -84,6 +93,7 @@
 		}
 		{
 			height: 2.0d
+			id: "2C7F911D7613C66E"
 			image: "ftb:textures/quests/other_titles_and_logos/occultism_title2.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -92,6 +102,7 @@
 		}
 		{
 			height: 3.0d
+			id: "4E2738D95DC59631"
 			image: "malum:textures/gui/book/widgets/paper_filling_default.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -100,6 +111,7 @@
 		}
 		{
 			height: 3.0d
+			id: "74236D7A10543FCE"
 			image: "occultism:textures/gui/book/familiar_headless_ratman.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -108,6 +120,7 @@
 		}
 		{
 			height: 3.0d
+			id: "2F859460040E9933"
 			image: "occultism:textures/gui/book/familiar_beholder.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -117,6 +130,7 @@
 		{
 			dependency: "48005B47655AD525"
 			height: 2.5d
+			id: "4218795C9B810FB9"
 			image: "ftb:textures/quests/ars/drygmyperch.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -126,6 +140,7 @@
 		{
 			dependency: "7F7C0B1523AA28C4"
 			height: 1.0d
+			id: "32D6294DEB5006A8"
 			image: "ars_nouveau:block/fire_2"
 			rotation: 0.0d
 			width: 1.0d
@@ -135,6 +150,7 @@
 		{
 			dependency: "7F7C0B1523AA28C4"
 			height: 1.0d
+			id: "7E8F606F7D65CA8A"
 			image: "ars_nouveau:block/gilded_sourcestone_basketweave"
 			order: -1
 			rotation: 0.0d
@@ -145,6 +161,7 @@
 		{
 			dependency: "7F7C0B1523AA28C4"
 			height: 1.0d
+			id: "6D8E342608C20F9F"
 			image: "ars_nouveau:block/gilded_sourcestone_basketweave"
 			order: -1
 			rotation: 0.0d
@@ -155,6 +172,7 @@
 		{
 			dependency: "7F7C0B1523AA28C4"
 			height: 1.0d
+			id: "65C8F8215AD3EC78"
 			image: "ars_nouveau:block/fire_2"
 			rotation: 0.0d
 			width: 1.0d
@@ -164,6 +182,7 @@
 		{
 			dependency: "48005B47655AD525"
 			height: 2.0d
+			id: "7E69B4CFC848BF88"
 			image: "ftb:textures/quests/ars/scribetable.png"
 			rotation: 0.0d
 			width: 2.5d
@@ -172,6 +191,7 @@
 		}
 		{
 			height: 1.5d
+			id: "5D929BADFA6D0158"
 			image: "irons_spellbooks:item/cinderous_soulcaller"
 			rotation: 0.0d
 			width: 1.5d
@@ -180,6 +200,7 @@
 		}
 		{
 			height: 2.0d
+			id: "63FB94E9CF773D1B"
 			image: "irons_spellbooks:item/upgrade_orb_holy"
 			rotation: 0.0d
 			width: 2.0d
@@ -188,6 +209,7 @@
 		}
 		{
 			height: 2.0d
+			id: "7CAC5DC839D2E1BC"
 			image: "irons_spellbooks:item/upgrade_orb_base"
 			order: -1
 			rotation: 0.0d
@@ -197,6 +219,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6BC9EBB25F2802E5"
 			image: "occultism:block/chalk_glyph/1"
 			rotation: 0.0d
 			width: 1.0d
@@ -206,6 +229,7 @@
 		{
 			color: 16755200
 			height: 1.0d
+			id: "1812EFF8F4BE41E4"
 			image: "occultism:block/chalk_glyph/2"
 			rotation: 90.0d
 			width: 1.0d
@@ -215,6 +239,7 @@
 		{
 			color: 11141290
 			height: 1.0d
+			id: "53E6494A0C0C1934"
 			image: "occultism:block/chalk_glyph/3"
 			rotation: 0.0d
 			width: 1.0d
@@ -223,6 +248,7 @@
 		}
 		{
 			height: 2.0d
+			id: "5EED92092C0AE9BD"
 			image: "occultism:textures/gui/book/pentagram_rose.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -231,6 +257,7 @@
 		}
 		{
 			height: 2.5d
+			id: "7F39532FC6CEA61A"
 			image: "irons_spellbooks:item/upgrade_orb_lightning"
 			rotation: 0.0d
 			width: 2.5d
@@ -240,6 +267,7 @@
 		{
 			dependency: "48005B47655AD525"
 			height: 2.5d
+			id: "20751245D4F22687"
 			image: "ars_elemental:item/_glyph_template_form"
 			rotation: 45.0d
 			width: 2.5d
@@ -250,6 +278,7 @@
 			alpha: 80
 			color: 0
 			height: 2.0d
+			id: "683DEB310AED4347"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -1
 			rotation: 0.0d
@@ -261,6 +290,7 @@
 			alpha: 55
 			color: 0
 			height: 11.0d
+			id: "55ADD4D39E21A32F"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -1
 			rotation: 0.0d
@@ -272,6 +302,7 @@
 			alpha: 55
 			color: 0
 			height: 11.0d
+			id: "5E32F565B7FF3579"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -3
 			rotation: 0.0d
@@ -283,6 +314,7 @@
 			alpha: 80
 			color: 0
 			height: 2.0d
+			id: "0186614623CEE2BE"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -1
 			rotation: 0.0d
@@ -295,6 +327,7 @@
 			color: 0
 			dependency: "7F7C0B1523AA28C4"
 			height: 2.0d
+			id: "44FD38D1B9E5EC40"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -1
 			rotation: 0.0d
@@ -307,6 +340,7 @@
 			color: 0
 			dependency: "7F7C0B1523AA28C4"
 			height: 11.0d
+			id: "729195C6FC4A87EC"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -3
 			rotation: 0.0d
@@ -318,6 +352,7 @@
 			alpha: 55
 			color: 0
 			height: 11.0d
+			id: "1CF4C2F0A6303B7E"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -1
 			rotation: 0.0d
@@ -329,6 +364,7 @@
 			alpha: 80
 			color: 0
 			height: 2.0d
+			id: "0DB8A4EF983256B3"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -1
 			rotation: 0.0d
@@ -338,6 +374,7 @@
 		}
 		{
 			height: 2.0d
+			id: "1FED5025081CCB2D"
 			image: "occultism:block/spirit_fire_2"
 			rotation: 0.0d
 			width: 2.0d
@@ -346,6 +383,7 @@
 		}
 		{
 			height: 2.0d
+			id: "4CFDB3B0DAD3E88F"
 			image: "occultism:block/spirit_fire_2"
 			rotation: 180.0d
 			width: 2.0d
@@ -354,6 +392,7 @@
 		}
 		{
 			height: 3.0d
+			id: "636357B528157149"
 			image: "irons_spellbooks:item/upgrade_orb_fire"
 			rotation: 0.0d
 			width: 3.0d
@@ -363,6 +402,7 @@
 		{
 			dependency: "7F7C0B1523AA28C4"
 			height: 1.5d
+			id: "5FDAA7DF86B6AB1A"
 			image: "ars_nouveau:block/warp_portal"
 			order: -1
 			rotation: 45.0d
@@ -373,6 +413,7 @@
 		{
 			dependency: "7F7C0B1523AA28C4"
 			height: 1.5d
+			id: "2B4D7F06D66224FF"
 			image: "ars_affinity:textures/gui/perk_tree_frame.png"
 			order: -1
 			rotation: 45.0d
@@ -382,6 +423,7 @@
 		}
 		{
 			height: 2.0d
+			id: "53C1ABEF1D4D0F0F"
 			image: "malum:item/edge_of_deliverance_huge"
 			order: 1
 			rotation: 0.0d
@@ -391,6 +433,7 @@
 		}
 		{
 			height: 2.0d
+			id: "19798F39930B3624"
 			image: "malum:textures/mob_effect/pyromaniacs_fervor.png"
 			order: 1
 			rotation: -90.0d
@@ -402,6 +445,7 @@
 			alpha: 55
 			color: 0
 			height: 6.0d
+			id: "6E1C669F151E2CD0"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -3
 			rotation: 0.0d
@@ -731,6 +775,7 @@
 						id: "occultism:spirit_fire"
 					}
 					id: "430EE5142BF4D3CF"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "occultism:spirit_fire"
@@ -1916,6 +1961,7 @@
 						id: "malum:void_depot"
 					}
 					id: "58BEE5F1435F017A"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
@@ -2067,6 +2113,7 @@
 						id: "ftbquests:custom_icon"
 					}
 					id: "2BAEE4414B32E48E"
+					observation_type: "entity_type"
 					observe_type: 5
 					timer: 0L
 					to_observe: "occultism:foliot"

@@ -107,4 +107,20 @@ ServerEvents.recipes((event) => {
     ],
     `ftb:actually_additions/crushing/gems/salt`
   )
+
+  //Silicon Crushing
+  addRecipeActuallyAdditionsCrushing(
+    event,
+    "c:silicon",
+    [["ftbmaterials:silicon_dust", 1]],
+    `ftb:actually_additions/crushing/gems/silicon`
+  )
+
+  //Silicon Ingot Crushing
+  addRecipeActuallyAdditionsCrushing(
+    event,
+    "c:ingots/silicon",
+    [["ftbmaterials:silicon_dust", 1]],
+    `ftb:actually_additions/crushing/ingots/silicon`
+  )
 })

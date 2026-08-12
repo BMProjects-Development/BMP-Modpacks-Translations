@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "chicken_roost:ingot_enderium"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "ftb:palettes/enderium",
   "quality": 2.8,
   "bonusParameters": {

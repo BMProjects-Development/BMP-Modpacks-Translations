@@ -1,0 +1,19 @@
+{
+  "id": "refined_storage_stepcraft_crafting_monitors",
+  "name": {
+    "translate": "collapsible_groups.group.refined_storage_stepcraft_crafting_monitors",
+    "fallback": "Refined Storage: Stepcraft Crafting Monitors"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "stepcrafter"
+      },
+      {
+        "item_path_contains": "crafting_monitor"
+      }
+    ]
+  }
+}

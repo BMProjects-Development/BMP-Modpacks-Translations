@@ -3,9 +3,6 @@
   "ingredient": {
     "tag": "c:gems/lapis"
   },
-  "materialType": [
-    "gem"
-  ],
   "paletteLocation": "irons_jewelry:palettes/lapis",
   "quality": 1,
   "bonusParameters": {

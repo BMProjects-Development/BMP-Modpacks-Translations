@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "cataclysm:ignitium_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "ftb:palettes/ignitium",
   "quality": 3.5,
   "bonusParameters": {

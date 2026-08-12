@@ -470,7 +470,8 @@ function applyFluids(builder, inputs, outputs) {
       var amt = f.amount != null ? f.amount : f.mb != null ? f.mb : 1000;
 
       if (f.tag) {
-        var tag = String(f.tag); // should start with '#'
+        var tag = String(f.tag);
+        if (tag.charAt(0) !== "#") tag = "#" + tag;
         // LOG
         weLog(
           "[WorldEngine] Fluid INPUT tag: " +
@@ -479,18 +480,12 @@ function applyFluids(builder, inputs, outputs) {
             amt +
             (tank ? ", tank=" + tank : "")
         );
-        if (typeof builder.requireFluidTag === "function") {
-          if (tank) builder.requireFluidTag(tag, amt, tank);
-          else builder.requireFluidTag(tag, amt);
-        } else if (typeof builder.requireFluid === "function") {
-          // Some builds use requireFluid for both; try passing Ingredient-like tag
-          var fs = Fluid.of(tag.replace(/^#/, ""), amt);
-          if (tank) builder.requireFluid(fs, tank);
-          else builder.requireFluid(fs);
+        if (typeof builder.requireFluid === "function") {
+          var bracket = amt + "x " + tag;
+          if (tank) builder.requireFluid(bracket, tank);
+          else builder.requireFluid(bracket);
         } else {
-          weLog(
-            "[WorldEngine] No requireFluidTag/requireFluid available on this builder."
-          );
+          weLog("[WorldEngine] No requireFluid available on this builder.");
         }
         continue;
       }
@@ -2855,7 +2850,7 @@ ServerEvents.recipes(function (event) {
       itemInputs: [
         { item: "apotheosis:sigil_of_rebirth", count: 1 },
         { item: "draconicevolution:awakened_draconium_ingot", count: 2 },
-        { item: "apotheosis:mythic_material", count: 1 },
+        { item: "apotheosis:god_fused_pearl", count: 1 },
       ],
       itemOutputs: [{ item: "apotheosis:sigil_of_supremacy", count: 1 }],
     },
@@ -3362,7 +3357,7 @@ ServerEvents.recipes(function (event) {
       ],
       fluidInputs: [
         {
-          fluid: "productivemetalworks:meat",
+          tag: "#c:meat",
           amount: 180,
           tank: "fluid_input_1",
         },
@@ -3390,7 +3385,7 @@ ServerEvents.recipes(function (event) {
       ],
       fluidInputs: [
         {
-          fluid: "productivemetalworks:meat",
+          tag: "#c:meat",
           amount: 180,
           tank: "fluid_input_1",
         },
@@ -3433,7 +3428,7 @@ ServerEvents.recipes(function (event) {
       ],
       fluidInputs: [
         {
-          fluid: "productivemetalworks:meat",
+          tag: "#c:meat",
           amount: 180,
           tank: "fluid_input_1",
         },
@@ -3460,7 +3455,7 @@ ServerEvents.recipes(function (event) {
       ],
       fluidInputs: [
         {
-          fluid: "productivemetalworks:meat",
+          tag: "#c:meat",
           amount: 180,
           tank: "fluid_input_1",
         },
@@ -4865,7 +4860,9 @@ const WorldEngineStateMachine = {
   },
   getState: function (level) {
     var data = level.persistentData;
-    switch (data["world_engine"]["state"].getAsInt()) {
+    var we = data["world_engine"];
+    if (!we || !we["state"]) return WORLDENGINE_STATES.IDLE;
+    switch (we["state"].getAsInt()) {
       case 1:
         return WORLDENGINE_STATES.ACTIVE;
       case 2:
@@ -4886,7 +4883,9 @@ const WorldEngineStateMachine = {
   },
   getStructure: function (level) {
     var data = level.persistentData;
-    return data["world_engine"]["structure"].getAsString() || null;
+    var we = data["world_engine"];
+    if (!we || !we["structure"]) return null;
+    return we["structure"].getAsString() || null;
   },
   setStructure: function (level, struct) {
     var data = level.persistentData;

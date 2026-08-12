@@ -12,6 +12,7 @@
 	chapter.391B65CD04A90459.title: "Güç"
 	chapter.39E1055DAEF9F36E.title: "3. Aşama: Solaris"
 	chapter.3B99F85218D37371.title: "Faydalı Eşyalar \\&\\ İpuçları"
+	chapter.3BF272F9FDD1D8F9.title: "Draconic Evolution"
 	chapter.41A8FE9D26EFA401.title: "Başlangıç"
 	chapter.446E3CE6936F2CAE.title: "Genel Teknoloji"
 	chapter.4F0F16931654DF58.title: "Ödül Panosu"
@@ -107,6 +108,9 @@
 	quest.012DF07A81C69AAA.title: "&dRezonanslı Hiçlik&r"
 	quest.0138DA9E72BF9CE0.quest_desc: ["Bu pusula seni en yakın &aŞifa Pınarı&na götürecektir."]
 	quest.0138DA9E72BF9CE0.title: "&f&aŞifa Pınarını &fBulma"
+	quest.0171649B0F984DBB.quest_desc: ["Bu görev, &dWyrm Ustası'nın &6Arşivine&r bir yol işareti koyacaktır."]
+	quest.0171649B0F984DBB.title: "&f&dWyrm Ustası'nı &fBulma"
+	quest.0173ED2BED248CF6.quest_desc: ["&aMadde&r &eİleticileri&r ve &aAlıcıları&r, dünya içinde ileri geri ışınlanma kurmak için kullanılabilir."]
 	quest.018B19721F4404FF.quest_desc: ["Ender İncileri veya Ender Gözleri tüketerek güç üretir."]
 	quest.0191028C1E2EAA31.quest_desc: [
 		"&eMalum'un &aTırpanları&r düşmanlarından &bRuh&r biçmeni sağlar."
@@ -124,6 +128,7 @@
 		"- 3. Yuva: Çerçeveli Çekmece"
 		"- 4. Yuva: Bölücü Doku"
 	]
+	quest.01C338263242935F.title: "TF Doğu"
 	quest.01D2CEAF59872C33.quest_desc: [
 		"&aMücevher Kesim Masası&r, &bMücevherleri&r yükseltmek için kullanılır."
 		""
@@ -220,6 +225,11 @@
 	]
 	quest.036C11AC70835846.title: "&dEnd'in &fGücü"
 	quest.03AC1C56F20BB662.quest_desc: ["Biraz &dGizemli Öz&r elde ettiğinde, bir yükseltme için üretebileceğin birkaç büyü kitabı var!"]
+	quest.03BEFC2150D09E7A.quest_desc: [
+		"&dKablosuz Izgaralar&r, &3Kablosuz Vericinin&r menzili içindeyken depolama ağına uzaktan erişim sağlar."
+		""
+		"Her &dKablosuz Izgara&r, karşılık gelen &aIzgaraları&r ile aynı işlevselliği sağlar."
+	]
 	quest.03E48CD6E5DB806F.quest_desc: [
 		"Daha fazla &6Arşiv&r açıldığında, lobiyi keşfetmenin ve &dWyrm Ustası'nın Yankısını&r bulmanın zamanı geldi."
 		""
@@ -270,6 +280,8 @@
 		"&7&oOnlarla tanıştıktan sonra &e/echo machinist&7 kullanarak lobinin herhangi bir yerinden doğrudan bu Yankıya ışınlanabilirsin."
 	]
 	quest.0484D6030DF690BD.title: "&dMakinist &fİle Tanış"
+	quest.0484DE13B27E77D0.title: "Görev Ekranını Açıkla"
+	quest.04886BA191FF452F.title: "Okyanus Batı"
 	quest.049DE43A1B31C38F.quest_desc: ["Bu bölüm, eşyalarını depolamanın temel yollarının çoğunu kapsar!"]
 	quest.049DE43A1B31C38F.title: "&aGenel Depolama Seçenekleri"
 	quest.04ABB8DD43099429.quest_desc: [
@@ -277,6 +289,7 @@
 		""
 		"İyi bir lav üretme yolun varsa bu harika bir erken dönem jeneratörüdür, ancak &edaha gelişmiş yakıtları&r otomatikleştirebildiğinde daha da iyi olur!"
 	]
+	quest.04BF47162CC46237.quest_subtitle: "Kazıcı, Arkeolog"
 	quest.04E68DA90DC83B45.quest_desc: [
 		"&3Yükseltme&f için gereken blokları teslim etmek ve ödüllerini almak, takımının &6Dünya Motorunu&r otomatik olarak monte edecektir."
 		""
@@ -285,6 +298,8 @@
 		"&eNot&f: Bir yükseltmenin gitmesi gereken yere yerleştirilen herhangi bir blok silinecektir."
 	]
 	quest.04E68DA90DC83B45.title: "&3Gölge Kaplama Yükseltmesini &fOtomatik İnşa Et"
+	quest.051AA9C595DC9B02.quest_desc: ["Bu görev, &dKatalizörün &6Arşivine&r bir yol işareti koyacaktır."]
+	quest.051AA9C595DC9B02.title: "&dKatalizörü &fBulma"
 	quest.0533C0C07AE600FD.quest_desc: [
 		"&eMekanism &dFisyon Reaktörleri&r bölünebilir yakıt ve soğutucu alır ve bunları &6nükleer atığa&r ve &bsıcak soğutucuya&r dönüştürür."
 		""
@@ -355,6 +370,7 @@
 		"&6RFTools&r'un da benzer bir şeyi vardır, ancak iki ayrı blok halindedir."
 	]
 	quest.05A6946A5AF26684.title: "Kablosuz Kızıltaş"
+	quest.05BB2A6101B519A0.quest_desc: ["&6Boyut Kartı&r, ağır bir enerji maliyeti karşılığında boyutlar arası ağına erişim sağlar."]
 	quest.05C3502C9F7BB7A3.quest_desc: [
 		"&6MekaSuit&r (Meka-Giysi), biraz polonyum ve diğer üst düzey &eMekanism&r malzemeleriyle üretilebilir. Bu güçlendirilmiş ekipman parçaları kendi başlarına çok güçlüdür, ancak servetten uçuşa kadar çeşitli &bModüllerle&r büyük ölçüde artırılabilirler!"
 		""
@@ -391,6 +407,7 @@
 	quest.066B47D2AB72355C.quest_desc: ["Bu zindan yaklaşık x:512, z:512 koordinatlarında doğar."]
 	quest.066B47D2AB72355C.title: "Bir &dGizemli Koru &fBulma"
 	quest.068C117DD3DD10C2.title: "Rehberlik Kontrol 3"
+	quest.06A86C3EC5CBF204.quest_subtitle: "Kazıcı, Arkeolog"
 	quest.06C9E9DBE25887D9.quest_desc: ["&6Oritech&r'ten &aLav Jeneratörü&r lav tüketerek RF üretir. RF üretimi &bEklentiler&r ile artırılabilir."]
 	quest.06D54A3D73AB7DE8.title: "Gazları Depolama"
 	quest.06EC32E6140E68C1.quest_desc: [
@@ -406,6 +423,7 @@
 		""
 		"&7&oAyrıca etrafındaki XP kürelerini pasif olarak toplayabilir."
 	]
+	quest.077F5C3829CA7300.title: "Yiyecekler"
 	quest.08000D28B577EF94.quest_desc: ["Bu görev ödülünü almak, &dEfsuncunun &6Arşiv&r girişine bir yol işareti koyacaktır."]
 	quest.08000D28B577EF94.title: "&dEfsuncuyu &fBulma"
 	quest.08145422E66D2B7D.quest_desc: [
@@ -426,6 +444,7 @@
 	]
 	quest.081EA35CCBDF793F.title: "Kümes Nihai"
 	quest.08204AA5ACCC914E.quest_desc: ["&aSırt Çantaları&r boyanabilir de! Bu, sırt çantalarını renk kodlarına göre ayırmak için veya sadece siyah bir sırt çantasıyla gerçekten havalı görünmek istiyorsan yararlıdır."]
+	quest.082551D21363A1D9.title: "&dArs Silahları"
 	quest.0826EF3E7B15B219.quest_desc: ["Pembe Eşyaları tüketerek güç üretir."]
 	quest.08766B8721B4E541.quest_desc: [
 		"Nether halkası içinde, bir &cKadim Savaş Alanına&r denk gelebilirsin."
@@ -557,11 +576,7 @@
 	quest.0AD2F3DB33241628.title: "&eArs &fAletleri"
 	quest.0ADBBF7BA99D2811.quest_desc: ["&eActually Additions'ın &aHepsi Bir Arada Aletleri&r (All-In-One-Tools), aynı anda her alet gibi davrandıkları için hızlı erişim çubuğunda yer kazanmanı sağlayan kullanışlı eklentilerdir!"]
 	quest.0ADBBF7BA99D2811.title: "&fHepsi Bir Arada Aletler"
-	quest.0AFF8E28FC51B123.quest_desc: [
-		"İki basit bloğu mümkün olduğunca az zahmetle değiştirmen mi gerekiyor? &cDeğiştirici Asayı&r (Swapper Wand) dene!"
-		""
-		"Bir bloğu kapıp mümkün olduğunca az zahmetle başka bir yere mi yerleştirmen gerekiyor? Toplayıcı Asayı (Picker Wand) dene!"
-	]
+	quest.0AFA74FA77E9056B.title: "Okyanus Güney"
 	quest.0B02B72259362345.quest_desc: ["Bu görev ödülünü almak, &dİmalatçının &6Arşiv&r girişine bir yol işareti koyacaktır."]
 	quest.0B02B72259362345.title: "&dİmalatçıyı &fBulma"
 	quest.0B1E459D12D11A0D.quest_desc: [
@@ -726,6 +741,7 @@
 		"Bunlar arayüz içinde kolayca yapılandırılabilir. Ayrıca çoklu blok güç bankaları yapmak için bunları üst üste dizebilirsin."
 	]
 	quest.0D57D3662EB40CE3.title: "&aKapasitör Bankaları&r"
+	quest.0D864FD6A668D8C6.quest_desc: ["&3Arayüzler&r (Interfaces) aynı blok alanında bir &aİthalatçı&r ve &2İhracatçı&r olarak işlev görerek aynı anda ağına girdi sağlayabilir ve ağından çıktı alabilir."]
 	quest.0DB5CBE2E76D2FD9.quest_desc: [
 		"&6Pipez&r modu, &beşyaları&r, &9sıvıları&r, &cgücü&r veya &2gazları&r aktarmak için birkaç kullanışlı boru ekler. Hatta her şeyi tek bir boruda yoğunlaştırmak için &dEvrensel Boruları&r bile kullanabilirsin."
 		""
@@ -746,6 +762,7 @@
 		"&eNot&r: &aKontrolcü&r, üretilmek için &aMakine Bloğu&r ve &cEnder Hücresi&r &3Dünya Motoru Yükseltmelerini&r gerektirir."
 	]
 	quest.0DF5D2B35FDEE536.title: "XNet"
+	quest.0DF9EE9016483463.title: "Ödüllere DM şemalarını ekle"
 	quest.0E06BDC6265EB7F7.quest_desc: [
 		"&3Kontrolcüler&r bir ağın sahip olduğu kanal sayısını artırmak için kullanılır. Bunları oyunun başlarında kullanmak gerekli değildir, özellikle de varsayılan olarak çalışacak 32 kanalın varken. &3Kontrolcüsü&r olmayan ağlar &bAd-Hoc&r olarak kabul edilir."
 		""
@@ -861,6 +878,12 @@
 		"Not: Gücü ondan sadece üzerinde büyük kare olan ön yüzünden çekebilirsin."
 	]
 	quest.0EFA11536D00E653.title: "Biyo-Jeneratör"
+	quest.0F1B7185D8F4CDE6.quest_desc: [
+		"&7Karanlık Madde Aletleri&r hızlı ve kırılmazdır ve karanlık madde &aKazması&r normalden 3 blok genişliğinde madenciliğe mod değiştirebilir."
+		""
+		"&eProjectE&r aletleri, her alete Sağ Tıklandığında güçlü Etki Alanı yeteneklerini güçlendirmek için EMC ile şarj edilebilir (varsayılan: \"V\")."
+	]
+	quest.0F1B7185D8F4CDE6.title: "&7Karanlık Madde &fAletleri"
 	quest.0F3EDB9AE592016B.quest_subtitle: "Enerji kapasitesini ve enerji aktarım hızını artırır"
 	quest.0F3EDB9AE592016B.title: "&fMakine Kapasitör Eklentisi"
 	quest.0F48353EDD296510.quest_desc: ["&dRezonanslı Hiçlik&r (Resonant Void) ürettikten sonra &dWyrm Ustası&r ile konuş, bu &3Dünya Motoru Yükseltmesini&r nasıl kuracağını sana gösterecek."]
@@ -875,6 +898,7 @@
 	quest.0FD446B7912E00CB.quest_desc: ["&cGelişmiş Makine Bloklarını&r oluşturmak için parçaların her birini birleştirme zamanı."]
 	quest.0FD446B7912E00CB.quest_subtitle: "Büyük Dünya Motoru Yükseltmesi"
 	quest.0FD446B7912E00CB.title: "&fGelişmiş Makine Yükseltmesi"
+	quest.0FED418633235211.title: "&fOrta Oyun Vanilla Kılıçları"
 	quest.0FF5D73B3256F400.quest_desc: [
 		"&3Yükseltme&f için gereken blokları teslim etmek ve ödüllerini almak, takımının &6Dünya Motorunu&r otomatik olarak monte edecektir."
 		""
@@ -969,9 +993,18 @@
 	]
 	quest.11F69E1E4FE4D5CD.title: "&fAkının Gücü (Flux)"
 	quest.1237537100194BED.title: "&eÖldür&f: &7Wither"
+	quest.1278BB2F13A74537.quest_subtitle: "Kazıcı, Jeolog"
 	quest.12CB62610FEAADA0.quest_desc: ["Ejderha Nefesi tüketerek güç üretir."]
 	quest.131199313AE3F5E9.quest_desc: ["&aEnerjili Eritici&r esasen yükseltilebilen, elektrikli bir fırındır!"]
 	quest.131199313AE3F5E9.title: "&fİlk &aGüçlü Fırınımız"
+	quest.133ECE7BDDC8C13D.quest_desc: [
+		"Artık <blank> edindiğine göre, &6Rehberlik Yankısı&r açığa çıkarılabilecek daha fazla &dArşivden&r bahsetti."
+		""
+		"Neler bulabileceğini görmek için lobiye geri dön!"
+	]
+	quest.133ECE7BDDC8C13D.quest_subtitle: "2. Aşama Görev Serisinin Kilidini Açar"
+	quest.133ECE7BDDC8C13D.title: "&fKayıp Yankıları Ortaya Çıkarmak"
+	quest.136E32BEF40CCB1B.quest_subtitle: "Kazıcı, Jeolog"
 	quest.137039009E8EBA03.quest_desc: [
 		"&6ProjectE&r, elinde yeterli EMC ve bir &cNetherite Demirci Şablonu&r olduğunda yapılabilecek birkaç çok güçlü alete sahiptir."
 		""
@@ -1004,6 +1037,12 @@
 		"Ritüeller ayrıca onları güçlendirmek için belirli eşyalar kullanılarak &ageliştirilebilir&r. Bu, önce üzerinde &3Ritüel Tabletini&r kullanarak, ardından eklenti ihtiyaçlarını karşılamak için eşyaları birer birer Mangalda kullanarak yapılır. Bittiğinde, ritüeli etkinleştirmek için boş bir elle sağ tıklayabilirsin."
 	]
 	quest.13C8B2286F5184C7.quest_desc: ["Şarj edildiğinde, &3Işınlanma Asasını&r kullanmak seni baktığın yöne, 100 bloğa kadar uzağa ışınlayacaktır."]
+	quest.13D1BC0C49543326.quest_desc: [
+		"Bu görev, &dKadim Olanın &6Arşivine&r bir yol işareti koyacaktır."
+		""
+		"&eNot&f: &dAlacakaranlık&r ve &dKadim Olan&r aynı &6Arşivi&r paylaşır."
+	]
+	quest.13D1BC0C49543326.title: "&dKadim Olanı &fBulma"
 	quest.13E0F74B9A1DAB58.quest_desc: [
 		"Bu pusula bir &3Mahzenin konumunu gösterir."
 		""
@@ -1032,6 +1071,7 @@
 		"&eCreate&r makineleri, yapabiliyorlarsa &aKayışlar&r üzerindeki eşyalarla otomatik olarak etkileşime girecektir."
 	]
 	quest.13FE28AF74A357CD.title: "Create Eşya Seçenekleri"
+	quest.1402FA427FF1B8B3.quest_subtitle: "Kazıcı, Boyutbilimci"
 	quest.141CE17C25D2A53A.quest_desc: [
 		"Sırt çantan için herhangi bir yükseltme yapmak adına, önce bir &aYükseltme Tabanı&r (Upgrade Base) üretmen gerekecek."
 		""
@@ -1115,6 +1155,7 @@
 		"&bKilidini Açar&f:"
 	]
 	quest.1617D99EA1AE47E4.title: "Rehberlik 1.2 kontrolü"
+	quest.1628081CB8A2E5CA.quest_subtitle: "Kazıcı, Jeolog"
 	quest.165A1B6F56051FA6.quest_desc: [
 		"&eTempad&r, konumlar arasında seyahat etmek için zaman kapıları adı verilen özel geçici portalları kullanan bir ışınlanma modudur."
 		""
@@ -1354,6 +1395,7 @@
 		""
 		"Diğer İmpetus türleri de üretilebilir, bu da ruhların daha geniş bir kaynak çeşitliliğine dönüştürülmesini sağlar."
 	]
+	quest.1C3DFCB335276952.title: "Mekanism Reaktörleri"
 	quest.1C6508B8B2C94CAF.quest_desc: [
 		"Bu güç tüketen aletler bir &aModifikasyon Masası&r içinde yükseltilebilir."
 		""
@@ -1409,6 +1451,7 @@
 	quest.1D87C5E9D52341C4.title: "Füzyon Üretimi"
 	quest.1D8B2D2B03DF3256.quest_desc: ["&dWyrm Ustası&r, &2Kronon Rezonatörünü&r üretmenin, kardeşinin nerede olursa olsun bilinen son yerini bulmalarını sağlayacağını söylüyor."]
 	quest.1D8B2D2B03DF3256.title: "&6Yükselmiş Yankıları &fBulma"
+	quest.1DA11C69EFDA19EC.quest_subtitle: "Kazıcı, Jeolog"
 	quest.1DA78BAB2A6E2C82.quest_desc: [
 		"Modlu veteranlar için &eEnderIO&r, &dİletkenler&r (Conduits) adı verilen harika boruları nedeniyle harika anılara sahipti."
 		""
@@ -1417,6 +1460,16 @@
 		"Bunları yapılandırmak &aYeta Anahtarı&r kullanılarak kolaylaştırılmıştır. Herhangi bir boru bir &2Cephenin&r altına gizlenmişse, anahtarı elinde tutmak kolay yapılandırma için onları ortaya çıkaracaktır."
 	]
 	quest.1DA78BAB2A6E2C82.title: "EnderIO İletkenleri"
+	quest.1DC5DE6E9F0D0B2C.quest_desc: [
+		"Büyüler, &aBüyü Kitabını&r curio yuvasına takarak yapılabilir."
+		""
+		"Takıldığında, varsayılan olarak &bR&r tuşunu kullanarak kaydırma tekerleğini açabilirsin. Seçilen büyüyü yapmak &bV&r tuşuna basarak yapılabilir."
+		""
+		"Bunların hepsi tuş atamalarından değiştirilebilir. &acategory:\"Iron's Spells 'n Spellbooks - General\"&r aramayı dene."
+		""
+		"Hızlı büyü seçenekleri de var!"
+	]
+	quest.1DC5DE6E9F0D0B2C.title: "&bBüyü Yapma"
 	quest.1DE16238ECFB074D.title: "Kaos ile Buluşma"
 	quest.1E061D2E5C560867.quest_desc: [
 		"&cChesed Arenası&r, &eEnd&r halkasında bulunan devasa bir yapıdır."
@@ -1471,6 +1524,7 @@
 		"8. seviyede, ayrıca toplam 36 blok (halka başına 9) gerektiren &2Sabitleyicilerini&r bir halkaya yükseltmen gerekecektir."
 	]
 	quest.1E6E38DC6183463A.title: "&eDE &fEnerji Çekirdeği"
+	quest.1EC4F12DACE04299.quest_desc: ["Create mahzeninden alındı"]
 	quest.1EEC74B18B1BFBB5.quest_desc: [
 		"&aPiller&r, taşımak üzere enerji depolamak için iyi bir yoldur. Herhangi bir kablolu veya kablosuz şarj yöntemi ile şarj edilebilirler."
 		""
@@ -1664,6 +1718,7 @@
 	quest.22103051C3EE2BA0.title: "&fSAG Değirmeni"
 	quest.226E5BD0BEB1BA75.quest_desc: ["Bunlar, %100 &cQuanta&r eklemek veya &cQuanta&r ve &5Arcana&r kaldırmak gibi belirli bonuslar sağlayan benzersiz raflardır."]
 	quest.226E5BD0BEB1BA75.title: "&aÇeşitli Raflar"
+	quest.228D69F6ACAE761B.quest_subtitle: "Kazıcı, Jeolog"
 	quest.22B83D03C6C3E61E.quest_subtitle: "Çalışma hızını artırır ancak enerji verimliliğini düşürür"
 	quest.22B94BDDC08B3FA9.quest_desc: [
 		"Bir &aPirinç Kaplamayı&r bir &dObsidiyen Plaka&r ile güçlendirerek, bir trenin ağırlığına dayanacak kadar güçlü bir kaplama oluşturabilirsin."
@@ -1686,6 +1741,7 @@
 		""
 		"&eNot&r: &6Oritech&r'ten reaktörler büyük ölçüde güçlendirildi."
 	]
+	quest.238137090A4F8FD6.title: "Küçük Dünya Motoru Yükseltme Kontrolü"
 	quest.23DC842244086CB9.title: "Kaşif ile Buluşma"
 	quest.24401E59D87AC23A.quest_desc: [
 		"&6Füzyon Reaktörü&r, &eMekanism'in&r son enerji jeneratörüdür. &aDöteryum&r ve &2Trityum&r veya &her ikisinin karışımıyla&r beslenerek, nispeten az bakımla büyük miktarda güç ve/veya ısı üretme kapasitesine sahiptir. Her iki yakıt bileşeni de sadece su ve enerji kullanılarak üretilir!"
@@ -1703,12 +1759,15 @@
 		"Buradan enerji, buhar veya ısı, çıkış moduna ayarlanmış bir &aFüzyon Reaktör Portundan&r çıkarılabilir."
 	]
 	quest.24401E59D87AC23A.title: "Füzyon Reaktörü"
+	quest.244134B3BF63A680.quest_subtitle: "artık kazıcı (unearther) aracılığıyla edinilebilir"
 	quest.24CE908ED60FD514.quest_desc: [
 		"&aPulverizatör&r (Pulverizer), Tozlar ve Biyokütle yapmak için kullanılabilen basit bir makinedir."
 		""
 		"Oyunun başlarında, bu aynı zamanda &6Enderik Bileşikler&r elde etmenin en iyi yoludur."
 	]
 	quest.24CE908ED60FD514.title: "&fParçalama Zamanı"
+	quest.24D045E9CE30A016.quest_subtitle: "Kazıcı, Jeolog"
+	quest.24F370B893D01143.quest_subtitle: "Kazıcı, Jeolog"
 	quest.25023C87AA259688.quest_desc: [
 		"Zırh şeklinde pek bir koruma sağlamasa da, bu zırhın tam bir setini giyerken \"Shift\" tuşuna basılı tutmak seni yaratıklar tarafından fark edilmekten kaçınacak kadar küçük bir karton kutuya dönüştürecektir."
 		""
@@ -1742,6 +1801,7 @@
 		"&eNot&r: Bu bölümdeki tüm görevler bir &n&6Görev Ekranı&r kullanılarak tamamlanmalıdır."
 	]
 	quest.25CCA572C4D5CEA0.title: "Yükseliş Aşaması 1 - Ruhani"
+	quest.25E0E97D705F3514.quest_subtitle: "IronJs için kaldırılması gerekiyor"
 	quest.2646D51DBAD8AD42.quest_desc: [
 		"&bKontrol&f: Gölge Kaplamayı Almak"
 		""
@@ -1853,6 +1913,8 @@
 		"Bu derinin bir kısmıyla bir &2Sırt Çantası&r yapmayı düşünmek muhtemelen iyi bir fikirdir!"
 	]
 	quest.277181E358575312.title: "&fÇürük Eti Deriye Çevirme"
+	quest.27D28CC22BB5C665.quest_subtitle: "Diğer yükseltmeleri üretmek için kullanılır"
+	quest.27D28CC22BB5C665.title: "Yükseltme Tabanı"
 	quest.283EA4E7BA93DA11.quest_desc: [
 		"&aGüçlendirici&r (Empowerer), kristallerini güçlendirmek için çevreleyen dört öğeyi tüketecektir."
 		""
@@ -1952,6 +2014,14 @@
 		"Çalışması için iki alet gerekir: bir &aBalta&r ve &aMakas&r. Her işlem, her aletten bir dayanıklılık götürecektir. &aBalta&r en azından demir olmalıdır ve diğer modlardan bazı &aMakaslar&r da çalışabilir."
 	]
 	quest.2BC86AF57781BE63.title: "&fDilimle ve Birleştir"
+	quest.2BFD68083AD1B894.quest_desc: [
+		"&aİnşaatçılar&r (Constructors), ağındaki kaynakları dünyaya blok veya eşya varlıkları olarak yerleştirebilir."
+		""
+		"Her &eKablo Seviyesi&r yükseltmesi, önceki seviyesinden daha hızlı çalışır ve daha fazla filtre yuvasına sahiptir."
+		""
+		"&7&oTam hızlar için her öğenin ipucuna bak."
+	]
+	quest.2BFD68083AD1B894.title: "İnşaatçılar"
 	quest.2C0C63951FDED180.quest_desc: [
 		"&dParçacık Hızlandırıcılar&r oldukça karmaşıktır! Bu nedenle, hepsinin nasıl çalıştığını açıklamak için her parça farklı görevlere bölünmüştür."
 		""
@@ -1962,6 +2032,12 @@
 		"Hızlandırıcına bağlanmak için bir &6Gelişmiş Hedef Belirleyiciye&r ihtiyacın olacak."
 	]
 	quest.2C0C63951FDED180.title: "&dParçacık Hızlandırıcı"
+	quest.2C141655079AC173.quest_desc: [
+		"&dWyvern&r silahları dayanıklılık yerine güç tüketir ve envanterlerine yerleştirilen modüller aracılığıyla özelleştirilebilir."
+		""
+		"Modül envanterlerine, varsayılan olarak atanmamış olan &eAlet Modülleri&r tuşuyla erişilebilir."
+	]
+	quest.2C141655079AC173.title: "&dWyvern &fSilahları"
 	quest.2C1649AE3DADD71D.quest_desc: [
 		"&eİnşaat Çubukları&r, inşa sürecini çok daha hızlı hale getirmekle ilgili bir moddur."
 		""
@@ -2077,6 +2153,7 @@
 		"&7&oMevcut veya önceki Ficsit teknolojilerine olan herhangi bir benzerlik tesadüfidir."
 	]
 	quest.2D20EDB447787183.title: "&6Create: Hipertüpler"
+	quest.2D35AD2FDC93FA46.title: "TF Güney"
 	quest.2D8FCC93C758D070.title: "Ruh Depolama Parçaları"
 	quest.2D95FEECCF48B088.quest_desc: [
 		"&aDraconic Kapasitörler&r, envanterindeki diğer öğelere güç depolayabilen ve sağlayabilen taşınabilir pillerdir."
@@ -2087,6 +2164,8 @@
 	]
 	quest.2D95FEECCF48B088.title: "&dDraconic &fKapasitörler"
 	quest.2D99F429A18BEED1.title: "Katalizör Kontrol 2"
+	quest.2DB9D91CFB15C210.quest_desc: ["&2Makine Çerçeveleri&r için gereken devreyi yapmak üzere İnfüzörü kullan."]
+	quest.2DB9D91CFB15C210.title: "&fTemel Devreler"
 	quest.2DF77DA2ED65FBAC.quest_desc: [
 		"&dWyvern Göğüslüğü&r, tonlarca özelleştirme seçeneğine izin veren güçlendirilmiş bir zırh parçasıdır."
 		""
@@ -2159,6 +2238,7 @@
 	]
 	quest.2F9F60F308C42FB0.quest_subtitle: "Psi Enerjisiyle Aşılanmış Elmaslar!"
 	quest.2F9F60F308C42FB0.title: "Psi Mücevherleri"
+	quest.2FF6307E57E005C8.quest_subtitle: "IE kırıcı gerektirir, sadece IE'de kullanılır"
 	quest.2FFA4CF8C062AD5E.quest_desc: [
 		"&aİthalat&r ve &aİhracat Yolları&r (Buses), öğeleri sistemine ve diğer herhangi bir bağlı envantere borulamanı ve çıkarmanı sağlayacaktır."
 		""
@@ -2198,6 +2278,7 @@
 	quest.30902357747A64F1.title: "&fKar Kraliçesi'nin Sarayı"
 	quest.309D995CCCDB3AEE.quest_desc: ["&dWyrm Ustası&r sana drakonik güçlerle aşılanmış bir &aKronon Pili&r sağladı, bu da bu aletin &zParçalanmış Hiçlik&r (Fractured Void) bölgesine erişmesini sağlıyor. Bu konum artık &2Eylem Pedine&r (Action Pad) de bağlı."]
 	quest.309D995CCCDB3AEE.title: "&dWyrm Ustası &fİle Konuş"
+	quest.30DC15C5BF42A9DE.title: "Okyanus Doğu"
 	quest.30EE07811728D901.quest_desc: [
 		"&6Dünya Motoru&r neredeyse tam işlevselliğe ulaştı. Son adım nihai metali yaratmak olacak."
 		""
@@ -2213,6 +2294,12 @@
 	]
 	quest.30F922372D95D407.title: "&fBonsai Ağaçları"
 	quest.31042D7EBA3B39AD.title: "Sonsuzluk Kontrol 1"
+	quest.310F815C02B2CAF8.quest_desc: [
+		"Bu görev, &dAlacakaranlığın &6Arşivine&r bir yol işareti koyacaktır."
+		""
+		"&eNot&f: &dAlacakaranlık&r ve &dKadim Olan&r aynı &6Arşivi&r paylaşır."
+	]
+	quest.310F815C02B2CAF8.title: "&dAlacakaranlığı &fBulma"
 	quest.31705AD5BE50E2CB.quest_desc: [
 		"&aBasınçlı Reaksiyon Odası&r (Pressurized Reaction Chamber), yeni bir öğe ve bazen bir gaz yan ürünü üretmek için 1 sıvı, 1 gaz ve 1 öğeyi birleştiren gelişmiş bir makinedir."
 		""
@@ -2403,6 +2490,7 @@
 	quest.33E4C81B762892B2.title: "&eOritech'e &fHoş Geldin!"
 	quest.33EDFB2DC1BEA7F0.quest_desc: ["&3Otomatik Üretim Monitörü&r, tüm aktif üretim taleplerinin durumunu görmeni sağlar."]
 	quest.33EDFB2DC1BEA7F0.title: "Otomatik Üretim Monitörü"
+	quest.33FEE29B3EF5A420.quest_subtitle: "Kazıcı, Diğertaş (Otherstone)"
 	quest.340D7F25B5EB0D33.quest_desc: [
 		"Goo'nun (Balçık) bir sonraki seviyesine &dHiçlik Parıltısı Balçığı&r (Voidshimmer Goo) denir ve &bElmas Blokları&r &bCelestigemlere&r dönüştürmeni sağlar."
 		""
@@ -2502,7 +2590,11 @@
 	]
 	quest.35E8F57E93106BFE.title: "Desenler"
 	quest.364AA0C55F3312DE.title: "Derintaş Parçaları"
+	quest.364B2143B874582D.quest_desc: [""]
+	quest.364B2143B874582D.title: "&fDünya Motorunu Ortaya Çıkarma"
 	quest.36BA7AADD98E9868.quest_subtitle: "Elmas + Altın"
+	quest.36CB035F6484A70F.quest_desc: [""]
+	quest.36CB035F6484A70F.title: "&fDeri"
 	quest.36DD75256D280C4A.quest_desc: [
 		"Makineler, &aEklentiler&r kurularak yükseltilebilir."
 		""
@@ -2616,6 +2708,7 @@
 		"Bunu inşa etmek için, &aFırın Tuğlalarından&r 2x2x2'lik bir küp inşa et, ardından bir yüze &aMühendis Çekici&r ile sağ tıkla."
 	]
 	quest.38E2176886386133.title: "&fAlaşım Fırını"
+	quest.38EDDC529FD4C665.quest_subtitle: "Kazıcı, Jeolog"
 	quest.3900E67C8B833980.quest_desc: [
 		"&aZanaatkar Parşömenleri&r (Artisan Scrolls) ganimet olarak veya &zDükkanlardan&r satın alınarak bulunabilir."
 		""
@@ -2669,6 +2762,7 @@
 		"Ayrıca çalışması için elinde bir alet olması gerekir."
 	]
 	quest.39F6026AB205841A.title: "Ultimine Notları"
+	quest.3A106E4D6EE35D7A.quest_subtitle: "Kazıcı, Jeolog"
 	quest.3A1424B69AD511BD.quest_desc: [
 		"&eActually Additions &aMatkabı&r çalışmak için güç tüketir ve birkaç farklı eklentiyle yükseltilebilir."
 		""
@@ -2685,6 +2779,7 @@
 		"&dOyuncu Işınlama Yükseltmesi&r, &6Tempad'inin&r aktif bir &aKonum Yayıncısı&r veya &dTarama Cihazı&r ile donatılmış oyuncuları keşfetmesini sağlar."
 	]
 	quest.3A43CCB33A024711.title: "&6İş İstasyonu"
+	quest.3A47929FBAEEBD8B.quest_subtitle: "Kazıcı, Kırıktaş"
 	quest.3A53BB7A6B708966.quest_desc: [
 		"&a45&r &6Eterna&r seviyesine ulaştığında, rafları işleyebileceksin!"
 		""
@@ -2745,6 +2840,7 @@
 	]
 	quest.3ACF3359B3B59A05.title: "&eGelişmiş Depolama"
 	quest.3B06321F0E2F0EC9.title: "1. Aşama WE 'veya' Kontrolü"
+	quest.3B0DA478464D29CC.title: "&fErken Oyun Vanilla Kılıçları"
 	quest.3B2B26B1AD947CC5.quest_desc: [
 		"&aBüyük Enerji Deposu&r, &bEklentilerle&r yükseltilebilen 20M RF temel değerini tutar."
 		""
@@ -2790,6 +2886,7 @@
 	]
 	quest.3BFF8EFB5E7186A4.title: "&dKuantum Depolama"
 	quest.3C0A24054C75BF91.title: "Levazım Subayı Kontrol 1"
+	quest.3C25B0FAC773D70A.title: "&dArs'ın Aletleri"
 	quest.3CADD463CFC2FE32.quest_desc: [
 		"&aTermoelektrik Jeneratör&r, &aLV&r güç üretmek için her iki tarafındaki bloklar arasındaki sıcaklık farkını kullanır."
 		""
@@ -2959,6 +3056,7 @@
 		"&7&oBu süreç kızıltaş ile otomatikleştirilebilir."
 	]
 	quest.3EB56937CCDFCB2A.title: "Döküm"
+	quest.3EF3DBD1F6ADEAEC.quest_subtitle: "Kazıcı, Boyutbilimci"
 	quest.3F5480E01ABA887B.quest_desc: [
 		"&aOtomatik Üretici&r (Autocrafter), 9 adede kadar yapılandırılmış tarif &aDeseni&r ve 4 &aHız Yükseltmesi&r kabul eder."
 		""
@@ -3155,6 +3253,7 @@
 		""
 		"&eStabilizasyon&r olumsuz etkileri iptal eder, yani tüm iyi yönleri alırsın ve hiç kötü yönü almazsın."
 	]
+	quest.428E671C1444C97B.quest_subtitle: "Kazıcı, Arkeolog"
 	quest.42CE9840EED6B540.quest_desc: [
 		"Yeni arkadaşımız &eEzilmiş End Taşı&r yapmamızı kolaylaştırmalı, ancak devam etmeden önce &bRitüeller&r ve &bBeş Köşeli Yıldızlar&r (Pentacles) hakkında daha fazla şey anlamak önemli!"
 		""
@@ -3223,6 +3322,7 @@
 	]
 	quest.43949500F6A0B46A.title: "&f&dOtomatik Üretim Çoklu Bloğu"
 	quest.43A632369D0E2CE0.title: "Rehberlik 4.1 Tamamlandı"
+	quest.43B92A87F280211F.title: "TF Batı"
 	quest.4402F6855A75B7F6.quest_desc: ["Bu zindan &2Alacakaranlık Ormanı&r halkasının alt kısımlarında doğar."]
 	quest.4402F6855A75B7F6.title: "Bir &2Trol Mağarası &fBulma"
 	quest.4426687CCCDD759A.title: "Sihirbaz Kontrol 2"
@@ -3246,6 +3346,7 @@
 		"Bu pakette, ateşe &aÇakıl&r atarak biraz &aSonsuzluk Taneleri&r elde edebilirsin."
 	]
 	quest.4468BC270F100F27.title: "&aEnderIO"
+	quest.44842AC8247EFDF4.quest_subtitle: "Kazıcı, Jeolog"
 	quest.4498E3F4B2DC24FC.quest_desc: [
 		"Nihai &eApotheosis&r teçhizatını elde etmeye başlamak için, canavarlarla savaşman ve &bMücevherler&r için dünyayı keşfetmen gerekecek!"
 		""
@@ -3273,6 +3374,7 @@
 		"&7&oLütfen gerçek büyülü kitapların hala normal paket sınırlarıyla sınırlı olduğunu unutma.&r"
 	]
 	quest.44C341DE3BCD64CC.title: "&zİskenderiye Kütüphanesi"
+	quest.44D9A7C563B087C0.quest_subtitle: "kazıcılık"
 	quest.450A1BAD728F594B.quest_desc: [
 		"Üssün için &dKuantum Köprüsü&r çoklu bloğunu oluşturduktan sonra, Kablosuz Terminaline kurmak için &6Kuantum Köprü Kartını&r üretebilir ve bağlayabilirsin! Bu kart, herhangi bir boyuttan ağına kablosuz olarak erişmeni sağlar."
 		""
@@ -3419,6 +3521,7 @@
 		"&6Ruhlar Sözlüğü&r modun rehber kitabıdır, ancak belirli tarifler için de gereklidir ve &bRitüelleri&r oluşturmana yardımcı olacak &bhologramlar&r yaratmak için kullanılabilir!"
 	]
 	quest.4784FDEE62A479D0.title: "&eOccultism"
+	quest.47920CCF1C3CAE5B.title: "End Kuzey"
 	quest.47C1E9F93CEF25D3.quest_desc: ["&3Kazıcı Seviyeni&r artırmak, blokları fırçalarken aldığın ganimet türlerini de artıracaktır."]
 	quest.47C1E9F93CEF25D3.title: "&fKazıcı Seviyeleri"
 	quest.47C45A0552FBC1BD.title: "&d50 Saat &fOyna"
@@ -3562,6 +3665,11 @@
 		"Neye ihtiyacın olduğunu görmek için JEI'da belirli erimiş metalleri de arayabilirsin."
 	]
 	quest.4A8581D52BD1922B.title: "Sıvı İnek Çiftleştirme"
+	quest.4A871B8D8648F305.quest_desc: [
+		"Toz formundan eritilmiş veya alaşımlanmış"
+		""
+		"Nikel'i Elmas ile Metalurjik İnfüzyonla işleyerek elde edilen toz"
+	]
 	quest.4A87B0D25DE57F3F.quest_desc: [
 		"&dEfsuncunun&r ilk görevini tamamlamadan önce, taşın daha sert bir versiyonunu bulman gerekecek."
 		""
@@ -3597,6 +3705,8 @@
 	quest.4B7A9469150AF3A1.quest_desc: ["&6Psimetal Aletler&r, &bElmas seviyesinde kaliteye&r sahip, her biri amaçlanan eylemini gerçekleştirdiğinde bir &bBüyü&r yapabilen bir alet setidir."]
 	quest.4B7A9469150AF3A1.quest_subtitle: "Vlaakith Onaylı!"
 	quest.4B7A9469150AF3A1.title: "Psionik Aletler!"
+	quest.4B8E75ACE0AA6FA0.quest_desc: ["Ezilmiş Kivi'den bir Kazıcıdaki Jeologdan elde edilebilir."]
+	quest.4B8E75ACE0AA6FA0.quest_subtitle: "cevher jeneratörü gerektirir"
 	quest.4B92EBBA1F2BBFEA.quest_desc: ["Bu görev ödülünü almak, &dKadim Olanın &6Arşiv&r girişine bir yol işareti koyacaktır."]
 	quest.4B92EBBA1F2BBFEA.title: "&dKadim Olanı &fBulma"
 	quest.4BA8E435EDA995AC.quest_desc: [
@@ -3616,6 +3726,7 @@
 	quest.4BB5ADD98F958712.title: "Bir &7Taş Zindanı &fBulma"
 	quest.4BB6832FE4685131.quest_desc: ["&3Ruhlarını&r kullanmak için, &aRuh Dalgasını&r (Soul Surge) hızlandırmak istediğin bloğa doğrult ve onu &aSuh Boruları&r kullanarak &dRuh Lazer Üssüne&r bağla."]
 	quest.4BB6832FE4685131.title: "&3Ruhları Taşıma"
+	quest.4BBDC7BF4B9EAD72.quest_subtitle: "Kazıcı, Arkeolog"
 	quest.4BCA8A5C3F80D375.quest_desc: [
 		"&aİsimsizleştirme Mührü&r (Sigil of Unnaming), bir öğenin Affix adını kaldırarak onu normal öğe adına geri döndürür."
 		""
@@ -3870,6 +3981,7 @@
 		"&7&oOnlarla tanıştıktan sonra &e/echo catalyst&7 kullanarak lobinin herhangi bir yerinden doğrudan bu Yankıya ışınlanabilirsin."
 	]
 	quest.500074C1D4EC9591.title: "&dKatalizör &fİle Tanış"
+	quest.50416F411ED15BA5.quest_subtitle: "cevher jeneratörü gerektirir"
 	quest.50AC369D1F5B7DD8.quest_desc: [
 		"&bKontrol&f: Büyülü Ağaçlar ve Fidanlar Edinme"
 		""
@@ -3911,6 +4023,7 @@
 	]
 	quest.50E133C3E351255E.quest_subtitle: "Roost Ultimate"
 	quest.50E133C3E351255E.title: "&fTavuklar!!"
+	quest.50EFBD8BDE0C88AF.quest_desc: ["&aMenzil Yükseltmesi&r, &3Kablosuz Vericinin&r menzilini 16'dan 48 bloğa kadar artırır."]
 	quest.5119EFBB9FB39CDE.quest_desc: ["Bunlardan birini &dGizemli Koru&r yapısında veya &dÇok Fazla Şey Bilen Bir Rahibin Masalı!&r Geçidinde bulabilirsin."]
 	quest.5119EFBB9FB39CDE.title: "&dArchevoker'ı &fÖldür"
 	quest.511B01F40006FC4B.quest_desc: [
@@ -3946,6 +4059,8 @@
 		"Ayrıca envanterinin sol üst köşesinde kullanabileceğin &aÇöp Kutusu&r simgesi de vardır. Buna &a/trashcan&r komutunu kullanarak da erişilebilir."
 	]
 	quest.51804232265672A9.title: "&fEnvanter Çöp Kutusu!"
+	quest.519C754DF20BF31E.quest_desc: ["Goo kullanarak plat blok"]
+	quest.519C754DF20BF31E.quest_subtitle: "(Yankı Tarafından Satılır)"
 	quest.51B3EF0BCEB804A4.quest_desc: [
 		"&3Yükseltme&f için gereken blokları teslim etmek ve ödüllerini almak, takımının &6Dünya Motorunu&r otomatik olarak monte edecektir."
 		""
@@ -4033,6 +4148,7 @@
 		"Ayrıca, diğer paketlere kıyasla normal &aNükleer Atık&r miktarının sadece yarısına ihtiyacın olacak."
 	]
 	quest.543C6917A16F266C.title: "&zAntimadde&r"
+	quest.54404B81EAC760E8.quest_subtitle: "(Yankı Tarafından Satılır)"
 	quest.5455CF5D3C37ECA9.quest_desc: [
 		"&cNetherite Canavarlığı&r (Netherite Monstrosity), &3Ruh Demircisi&r içinde bulunabilir."
 		""
@@ -4072,6 +4188,7 @@
 		"&eNot&f: Bir yükseltmenin gitmesi gereken yere yerleştirilen herhangi bir blok silinecektir."
 	]
 	quest.55D17BDE3E9C81CC.title: "&3Fortron Yükseltmesini &fOtomatik İnşa Et"
+	quest.55DB51D88B9C5724.quest_subtitle: "kalay ve bakır alaşımı"
 	quest.55DF810785A9B938.title: "Katalizör Kontrol 1"
 	quest.562156281B8D0843.quest_desc: [
 		"Bu makine, &bSu&r gibi belirli sıvıları 2 ayrı &agaza&r ayırmak için kullanılır."
@@ -4281,6 +4398,14 @@
 		"► &aTaşma&r: 100"
 	]
 	quest.592A206B63BF556E.title: "&a1. Seviye&f CAD Pili"
+	quest.594911C1304689E9.quest_desc: [
+		"&aİhracatçılar&r (Exporters), kaynakları ağının dışına taşımak için kullanılır."
+		""
+		"Her &eKablo Seviyesi&r yükseltmesi, önceki seviyesinden daha hızlı çalışır ve daha fazla filtre yuvasına sahiptir."
+		""
+		"&7&oTam hızlar için her öğenin ipucuna bak."
+	]
+	quest.594911C1304689E9.title: "İhracatçılar"
 	quest.59497745146C1EFD.quest_desc: [
 		"&aRuh Lekeli Aletler&r ve silahlar, sıradan muadilleriyle aynı özelliklere sahipken bir &eTırpan&r ile aynı şekilde &bRuh&r toplamak için kullanılabilir, ancak İlkel versiyondan bir yükseltme mevcuttur ve &dTyrving&r ile geliştirilmiş bir kılıç da vardır."
 		""
@@ -4298,6 +4423,7 @@
 	quest.59C71582F19E8554.title: "Zombileri Öldür"
 	quest.59CBFA5583139A3B.quest_desc: ["&dYeniden Dövme Masası&r, &aBasit Yeniden Dövme Masasının&r geliştirilmiş bir versiyonudur ve &zMitik&r öğeler de dahil olmak üzere tüm nadirliklerdeki öğeleri yeniden dövmene olanak tanır."]
 	quest.59CBFA5583139A3B.title: "&dYeniden Dövme Masası&r"
+	quest.59D007531CD064D9.quest_subtitle: "IronJs için kaldırılması gerekiyor"
 	quest.59E8FEC3758635DF.quest_desc: [
 		"&dYankılara&r göre, yakın zamanda iyileştirilen Köylüler vasıfsızdır. Kazıcılık Seviyelerini artırmak için onları eğitmelisin!"
 		""
@@ -4344,6 +4470,11 @@
 		"Bunlar, &dKadim Şehre&r bir gezi yapıp &dVoidshimmer Goo&r yaptıktan sonra üretilebilir."
 	]
 	quest.5AC7EEC3D69AF032.title: "&bCelestigem Aletleri"
+	quest.5B23C2EB38DCEE6E.quest_desc: [
+		"Platin + Netherite Alaşımlama"
+		""
+		"Platin + 2 Güçlendirilmiş Karbon Levha Atomik Dövme"
+	]
 	quest.5B512AED08EC1899.quest_desc: [
 		"&aTermo Jeneratörler&r, altına yerleştirilen bloktan gelen &cası&r ve herhangi bir taraftan pompalanan bir &bsoğutucu&r kullanarak güç üretir."
 		""
@@ -4504,12 +4635,14 @@
 	quest.5E5BDCBF185E48E3.title: "&fMühendis Tezgahı"
 	quest.5E74E0339A6F5314.quest_desc: ["&eEnd&r halkasındaki &dChesed Arenasında&r bulunan &dChesed'i&r öldür ve ödülünü talep etmek için &ckupasını teslim et&r."]
 	quest.5E74E0339A6F5314.title: "&dChesed'i &fÖldür"
+	quest.5E79F24C893AFF65.quest_subtitle: "Kazıcı, Jeolog"
 	quest.5E90192C6F3011B7.quest_desc: [
 		"&6Dünya Motorunun&r gücü ve bir &aYankı Kodlayıcı&r ile, en az 1 &2İşçi Jetonuna&r sahip olduğunda yiyecek kullanarak daha fazla köylü üretebilirsin."
 		""
 		"&7&oManuel olarak daha fazla köylü yapma günleri geride kaldı."
 	]
 	quest.5E90192C6F3011B7.title: "&fKöylü Çiftleştirme"
+	quest.5ED062BF97780287.title: "End Batı"
 	quest.5ED10C54AE06DB40.quest_desc: [
 		"&zSonsuzluk Zırhı&r oyuncuya gelen tüm hasarı engeller ve zıplama desteği ile hareket hızı sağlar."
 		""
@@ -4725,6 +4858,7 @@
 		"► &bHafıza&r: 7"
 	]
 	quest.62802965CA91E8C9.title: "&b2. Seviye&f CAD Yuvaları"
+	quest.62BB5925FB6C05C6.title: "&dSihirbazın Yankısı &fYol İşareti"
 	quest.62C92C8960875611.quest_desc: ["Metal işleme, yöntemler çok farklı olsa bile sıradan olanda olduğu kadar büyüdü de önemlidir. Manevi özelliklerle aşılanmış külçeler, bu zanaatta daha derine inmekte etkili olacaktır."]
 	quest.62C92C8960875611.title: "&fManevi Metalurji"
 	quest.62CEFEB50E7D4489.title: "Levazım Subayı Kontrol 2"
@@ -4749,6 +4883,7 @@
 		"&aİşlenmiş Odun&r, &aMühendis Tezgahı&r gibi çeşitli &6I.E&r iş istasyonlarını üretmek için kullanılır."
 	]
 	quest.63B7AC676FC1EE7F.title: "&fİşlenmiş Odun Kalaslar"
+	quest.63BA03EC05C8105F.title: "TF Kuzey"
 	quest.63BED4D08224B3EF.quest_desc: [
 		"&dKaynağı&r kavanozlar ve bloklar arasında aktarmak için daha fazla Röle türü var!"
 		""
@@ -4829,6 +4964,12 @@
 	quest.66545AFE0DEA820F.quest_desc: ["Daha karanlık bir zanaat türü için daha karanlık bir eşya seti."]
 	quest.66545AFE0DEA820F.title: "&fKuyunun Getirileri"
 	quest.665C261B98E4D20B.quest_desc: ["Macerandan zaferle döndükten sonra &3Alacakaranlık Dünya Motoru Yükseltmesini&r nasıl kuracağını göstermeleri için &dAlacakaranlık&r ile konuş."]
+	quest.6681C945EBF3E114.quest_desc: ["Giriş modu"]
+	quest.6697F832067F1A9C.quest_desc: [
+		"&eOritech'in &3Enderik Raylı Silahı&r, moduna bağlı olarak hem yoğunlaştırılmış bir lazer ışını hem de patlayıcı hasar veren bir ışın atabilir. &bKazma Modunu&r açıp kapatmak için Shift + Sağ tıklayabilirsin."
+		""
+		"&bKazma Modunda&r bu Hepsi Bir Arada alet, sonsuz blok etkileşim aralığıyla blokları doğrudan envanterine kazar."
+	]
 	quest.66BC4434409F959B.quest_desc: [
 		"&3Plütonyum&r, biraz tuzlu su veya tuz işleme ile &7Bölünebilir Yakıta&r geri dönüştürülebilir."
 		""
@@ -4871,6 +5012,7 @@
 		"İçine &2Lapis&r veya &2Nether Kuvarsı&r yerleştirmek, tüketildiğinde &aZorlama Türevinin&r dönüşüm oranını üç katına çıkaracaktır."
 	]
 	quest.6739E7A96309D0A8.title: "&fFortron Yaratma"
+	quest.674AFF1CFDE5886F.title: "Zırhçı"
 	quest.6755CACD4957A4CB.quest_desc: [
 		"&6Çekirdekler&r &aCAD'inin temel bir parçasıdır&r, her zaman yapabileceğinin en iyisini yapmaya çalış, &atemelde CAD'inin CPU'sudur&r."
 		""
@@ -4886,6 +5028,7 @@
 		"► &3Projeksiyon&r: 1"
 	]
 	quest.6755CACD4957A4CB.title: "&a1. Seviye&f CAD Çekirdeği"
+	quest.67747675548AAC80.quest_subtitle: "Kazıcı, Arkeolog"
 	quest.6781D1A7A53A5F1D.quest_desc: [
 		"Bu pusula bir &3Mahzenin konumunu gösterir."
 		""
@@ -4916,6 +5059,7 @@
 		""
 		"Ayrıca dekorasyonunu daha güzel hale getirmek için çeşitli &eCreate&r bileşenlerini kaplamak için de kullanılabilirler."
 	]
+	quest.67F596597F0B2825.title: "Rehber İle Tanış"
 	quest.68258EA281734B4A.quest_desc: [
 		"&bFortron Kapasitör&r, bir &3Fortron&r tamponu olarak hareket etmesi için her &eMFFS&r sisteminde gereklidir ve onu kayıtlı &bFrekans&r boyunca aktarır. Arayüzün ortasındaki büyük düğme, &bKapasitörün&r &3Fortron'u&r bir sistem boyunca nasıl dağıttığını ayarlar."
 		""
@@ -4957,6 +5101,12 @@
 		"&7&oOnlarla tanıştıktan sonra &e/echo infernal&7 kullanarak lobinin herhangi bir yerinden doğrudan bu Yankıya ışınlanabilirsin."
 	]
 	quest.695B2CCD18E5DDFE.title: "&dCehennemi &fİle Tanış"
+	quest.69997DAB93184551.quest_desc: [
+		"&dWyvern Göğüslüğü&r, bir Curios Yuvasına takıldığında oyuncu tarafından alınan hasarı geçersiz kılan, güç verildiğinde bir enerji kalkanı sağlar. Bu, &aYükseltme Modülleri&r ile yükseltilebilir."
+		""
+		"Modül envanterine, varsayılan olarak atanmamış olan &eAlet Modülleri&r tuşuyla erişilebilir."
+	]
+	quest.69997DAB93184551.title: "&dWyvern &fGöğüslüğü"
 	quest.69E90341CD1AD494.quest_desc: [
 		"► Bir &6Büyü Programlayıcısına&r &dSağ Tıklayarak&r GUI'sine erişebileceksin, bu &b\"kod bloklarını\"&r yerleştirmene ve birbirine bağlamana izin veren 9x9'luk &8&o(Direwolf Onaylı)&r bir Izgaradır."
 		""
@@ -5052,6 +5202,7 @@
 		"&7Ne kadar savaşırlarsa, sonları o kadar yaklaşır."
 	]
 	quest.6BCA2ED05C7D9D4E.title: "&6Kötücül (Malignant) Zırh"
+	quest.6BF5A24142C8FC67.quest_subtitle: "Kazıcı, Jeolog"
 	quest.6C25708068B5197C.quest_desc: [
 		"&aHassas Büyü Bozucu&r (Precision Dispeller), istenmeyen büyülerin eşyalardan seçici olarak çıkarılmasını sağlar ve 30 seviye karşılığında lanetleri kaldırabilir."
 		""
@@ -5150,8 +5301,16 @@
 		"&eNot&f: Bu görevi tamamlamak ve &dRehberlik Yankısını&r güncellemek için &aKronon Jeneratörünü&r teslim etmelisin."
 	]
 	quest.6D5A9E9E8B0D8AC2.title: "&fKronon Jeneratörü"
+	quest.6D9862948E97E696.title: "End Doğu"
+	quest.6DB6B40C3E07E389.quest_desc: [
+		"Bu mahzenin bulmacaları arasında yolunu bulmayı başarırsan, &2Kronon Yıldızı&r senin olacaktır."
+		""
+		"Sadece hatırla, pasta bir yalan (the cake is a lie)."
+	]
 	quest.6DC738A434C5B02F.title: "Enderman'leri Öldür"
 	quest.6DD9A75EE8C97710.title: "&7Ölüm Büyücüsünü &fÖldür"
+	quest.6DEB5453D8E3BD76.quest_subtitle: "Kazıcı, Boyutbilimci"
+	quest.6DEB5453D8E3BD76.title: "Antik Kalıntı veya Netherite"
 	quest.6E149F8E8B3F150B.quest_desc: ["&2Yankılanan Derin Rafları&r ürettikten sonra, &6Dünya Motoruna&r bir yükseltme olarak nasıl kurulacağını öğrenmek için &dEfsuncunun Yankısına&r geri dön."]
 	quest.6E24701C49A6114D.quest_desc: [
 		"&6Dünya Motoru&r &zHiçliğin&r gücüyle yükseltildiğinde, öğeleri &zTekilliklere&r (Singularities) sıkıştırmak için &dNötronyum Kompresörü&r yaratabilirsin."
@@ -5180,6 +5339,7 @@
 		"4. seviye bir &2Arkeolog&r, &dKemer Ağacı Fidanları&r (Archwood Saplings) elde etmenin harika bir yoludur!"
 	]
 	quest.6F53C65C3131B68A.title: "&f&2Arkeolog&r"
+	quest.6F68D2CC4B83671E.quest_subtitle: "Kazıcı, Jeolog"
 	quest.6F91297C4FAA43FE.quest_desc: [
 		"&dBoyutbilimci&r (Dimensionalist), öteki dünya malzemelerinin ustasıdır ve &cNetherrack&r, &eEnd Taşı&r ve &7Diğertaşı&r fırçalayabilir. Çalışma istasyonu olarak bir &aRezonans Mühendislik Bloğu&r gerektirirler."
 		""
@@ -5247,6 +5407,7 @@
 	]
 	quest.70C02FCA0C7B8777.quest_subtitle: "Tavukları Çiftleştirmek İçin Tavukları Kullan"
 	quest.70C02FCA0C7B8777.title: "Ruh Çıkarma ve Tohumlar"
+	quest.70D3D4701167B4D5.title: "&fKomşunun tavuğu komşuya kaz görünür"
 	quest.70D5BEA5CC437AB6.quest_desc: [
 		"Çok fazla rastgele büyülü teçhizatın mı var? Bir &dHurda Kitabı&r (Tome of Scrapping) kullanarak, onu parçalayabilir ve ondan bazı büyüleri çıkarabilirsin."
 		""
@@ -5417,6 +5578,7 @@
 	quest.727070B13B966DE1.title: "&3Tesserakt Yükseltmesini &fOtomatik İnşa Et"
 	quest.72766EEF59130E19.title: "&c25 Saat &fOyna"
 	quest.7279FFED00B223D7.quest_desc: ["&aDrakonik Çekirdek&r (Draconium Core), &eDE&r'deki ana üretim bileşenlerinden biridir ve Draconic Zırh ve Aletlerinde kullanılan öğeler ve &bModüller&r için bazı temel tariflerde kullanılabilir."]
+	quest.727FAF20A8E1303B.quest_subtitle: "Şifa Pınarlarında bulunur"
 	quest.72934B141A741423.quest_subtitle: "Sarı + Demir"
 	quest.7312FFEDAD1A6F75.quest_desc: [
 		"&dHiçlik Yükseltmesi&r - Mevcut yığın sınırının üzerindeki öğeleri otomatik olarak yok eder."
@@ -5440,6 +5602,8 @@
 	quest.73268E8255CBB44A.quest_subtitle: "EnderIO"
 	quest.73268E8255CBB44A.title: "&fÖzel Oluşturucular"
 	quest.735CB0E29FB372C1.title: "&dAntimadde Peleti &fTakası"
+	quest.7379486ABDDE4430.quest_desc: ["Bu görev, &dIşık Bükücünün &6Arşivine&r bir yol işareti koyacaktır."]
+	quest.7379486ABDDE4430.title: "&dIşık Bükücüyü &fBulma"
 	quest.73871351B8E5775B.quest_desc: [
 		"Daha çok büyü yapan biriysen ve büyülerini güçlendirmek istiyorsan, &6Iron's Spells&r'de kuşanmak için pek çok seçenek var."
 		""
@@ -5458,6 +5622,7 @@
 	quest.73FD015A3696ABFB.title: "&6Uyanmış Draconium"
 	quest.73FEE6C6149817E7.title: "Cehennemi Kontrol 1"
 	quest.7408FB23D476F791.title: "Rehberlik 1 Tamamlandı"
+	quest.740B9F63604944F3.title: "Okyanus Kuzey"
 	quest.7435EC96F4A4B39F.title: "Yaratıcı Kaynak Kavanozu"
 	quest.744120E37CD03AE0.quest_desc: [
 		"&6Mekanism&r'den &aAtomik Sökücü&r (Atomic Disassembler), blokları kırmak için güç tüketen kırılmaz bir alettir."
@@ -5523,6 +5688,7 @@
 		"&7&oBu, 7x7x7'lik bir yapı inşa edecektir."
 	]
 	quest.75A7DDE0D617B5E6.title: "&fMaksimum Boyut &6Kuantum Bilgisayar"
+	quest.75CAB7B10BA85935.title: "Füzyon Üretimi"
 	quest.75D124AF83D637A8.quest_desc: [
 		"&eIndustrial Foregoing&r (&eI.F&r), işini senin yerine yapması için makineler kullanmakla ilgilidir."
 		""
@@ -5562,6 +5728,7 @@
 		"&eNot&r: &cLav&r, &dMakinistin Yankısı&r ile tanışmaktan aldığın hediye kullanılarak kolayca elde edilebilir. Ayrıca &cNether&r halkasından da alabilirsin."
 	]
 	quest.75F6827C1FB52C91.title: "&fKırıktaş Jeneratörleri&r"
+	quest.7614FCF3E2012C48.title: "&dPsimetal Dış İskelet"
 	quest.76482BDD2CD6CB8E.quest_desc: [
 		"&6Occultism&r, senin için ağaçları kesmesi üzere çağırabileceğin bir &aOduncu Foliot&r'a sahiptir."
 		""
@@ -5652,6 +5819,9 @@
 		"Bu, daha yüksek hızlarda &aKılavuz Halkaları&r arasındaki mesafenin daha büyük olabileceği anlamına gelir."
 	]
 	quest.7791DA964DA2A80D.title: "&fHızlandırıcı Kurulumu"
+	quest.779460FD700CB351.quest_subtitle: "Kazıcı, Jeolog"
+	quest.77ABD20EB652F302.quest_desc: [""]
+	quest.77ABD20EB652F302.title: "&fÇiftlik Hayvanlarını Doğurma"
 	quest.77DE3D57E5B58948.quest_desc: [
 		"Bu sefer &ePusula &ryok!"
 		""
@@ -5772,6 +5942,7 @@
 		"&bQIO Kızıltaş Adaptörleri&r, ayarlanan bir frekanstaki öğe sayısına bağlı olarak bir kızıltaş sinyali yayacak şekilde yapılandırılabilir, depolama sistemini öğelerle doldurmadan sistemleri otomatikleştirmek için yararlıdır."
 	]
 	quest.79873815DEB7A086.title: "&dQIO &aİthalat \\&\\ İhracat"
+	quest.79CB07BC6B2333AE.title: "Prizmarin"
 	quest.79E5C4E3958DA8DD.quest_desc: [
 		"&2Entro Kristalleri&r, tıpkı Certus hasat eder gibi filizlenen bloklardan hasat edilir!"
 		""
@@ -5802,6 +5973,7 @@
 		"Onları ayırmak için, eşya yığınının üzerine bir &bÖrs&r bırak!"
 	]
 	quest.7A06D08AC7C65D20.title: "&fKolay Büyü Bozma"
+	quest.7A1BCD0876713992.quest_desc: ["Kusurlu Filizlenen Blok, temel &aMakine Bloğu&r yükseltmesine sahip &6Dünya Motorunda&r üretilebilir."]
 	quest.7A26B0FFC0BCA275.quest_subtitle: "Enderik Lazerlerin canlı varlıkları hedeflemesini sağlar"
 	quest.7A26B0FFC0BCA275.title: "&fMakine Avcısı Eklentisi"
 	quest.7A62B07AD0BCCCEA.quest_desc: [
@@ -5815,6 +5987,10 @@
 	quest.7A6F14DB74189B67.quest_desc: ["&6Mağazamızın&r içinde &bÖnceden Kodlanmış Büyüler Satın Alabilmelisin&r. Bazıları diğerlerinden daha karmaşıktır, bunları temel amaçları için kullanabilir veya yeni numaralar öğrenmek için kullanabilirsin :p"]
 	quest.7A6F14DB74189B67.quest_subtitle: "Büyü Örnekleri İster misin?"
 	quest.7A6F14DB74189B67.title: "Mağaza Sana Harika Fırsatlar Sunabilir!"
+	quest.7A6F1E301DB2EDC3.quest_desc: [
+		"Cx: -1"
+		"Cz: 185"
+	]
 	quest.7A8669713BE28E8F.quest_desc: ["&dMuhafız&r (Warden), &3Derintaş&r halkasının alt katmanında bulabileceğin &dKadim Şehirde&r yaşar."]
 	quest.7A8669713BE28E8F.title: "&eÖldür&f: &3Muhafız"
 	quest.7A8D31482AB1FCAA.quest_desc: [
@@ -5906,6 +6082,8 @@
 		"&bJumbo Fırın&r, birden fazla tarifin aynı anda işlenmesini sağlar ve sağ alt yuvaya daha fazla &bJumbo Fırın&r (64'e kadar) ile yükseltilebilir, her biri aynı anda eritebileceği öğe sayısını temsil eder."
 	]
 	quest.7C0FD2B2589BC66D.title: "&bDaha Büyük \\&\\ Daha İyi"
+	quest.7C6BB27CCDA5E878.quest_desc: ["Bu görev, &dCehennemin &6Arşivine&r bir yol işareti koyacaktır."]
+	quest.7C6BB27CCDA5E878.title: "&dCehennemi'yi &fBulma"
 	quest.7C72E7E48CCA7BB1.quest_desc: [
 		"&dGelişmiş Yer Değiştirici&r (Advanced Dislocator), aynı anda birden fazla ışınlanma noktasını saklamanı sağlar. Sonsuz kullanımı vardır, ancak çalışması için &dEnder İncileri&r ile yakıt ikmali yapılması gerekir."
 		""
@@ -5995,6 +6173,18 @@
 		"&eNot&f: &6Tempad&r, &aEylem Pedi&r aracılığıyla ışınlanmak için bir kronon deposu olarak &cÇALIŞMAZ&f."
 	]
 	quest.7DE9A4C7979AC1FA.title: "&6Tempad"
+	quest.7E062B48AD37EAF1.quest_desc: [
+		"İşlemciler, &eRS2&r ağının temel bileşenlerinin çoğunu üretmek için kullanılır."
+		""
+		"[\"Bunlar yalnızca bir \", { \"text\": \"Devre İmalatçısı\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"663460DE8AF7E464\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Devre İmalatçısı Görevine Git\"} }, \" içinde monte edilebilir.\"]"
+	]
+	quest.7E062B48AD37EAF1.title: "İşlemciler"
+	quest.7E0E4E6260C1D61E.quest_desc: [
+		"Depolama sistemin için sonsuz güç ve &6Ars&r'tan &zyaratıcı büyülere&r erişim ile, etrafındaki dünyayı şekillendirmeden önce halledilmesi gereken tek bir şey kalıyor."
+		""
+		"Her şey için &zYaratıcı Güç&r."
+	]
+	quest.7E0E4E6260C1D61E.title: "Yükseliş Aşaması 3 - Her Şeyi Bilen (Omniscient)"
 	quest.7E1A18D82B74B6CC.title: "Efsuncu Kontrol 2"
 	quest.7E4FF5A454039E47.quest_desc: [
 		"Dijital depolamanın temel kullanımlarından biri &3Öğeleri Otomatik Üretme&r yeteneğidir."
@@ -6054,6 +6244,7 @@
 		"Ayrıca hem güç hem de &eHDPE Peletleri&r üretmek için kullanılan enerji yoğun bir gaz olan &6Eten&r oluşturmak için de kullanılır."
 	]
 	quest.7EF7546FF007EF36.title: "&2Biyoyakıt"
+	quest.7F022A9289CCBF5D.title: "End Güney"
 	quest.7F27B48C280FA27F.title: "Eşyaları Depolama"
 	quest.7F42E2C4AAC3D131.quest_desc: ["&7&oSınırsız Dönme Kuvveti"]
 	quest.7F42E2C4AAC3D131.title: "Yaratıcı Motor"
@@ -6084,6 +6275,7 @@
 	]
 	quest.7F7C0B1523AA28C4.quest_subtitle: "Ars'ın Kilidini Açma"
 	quest.7F7C0B1523AA28C4.title: "&fBüyülü Ağaçlar"
+	quest.7F7D54E743F4E1DE.title: "WE şemalarını ödüllere ekle"
 	quest.7FBA170218539BE8.quest_desc: [
 		"Cognition, &aBibliyofajlar&r (Bibliophages) aracılığıyla benzersiz bir XP üretme yöntemine sahiptir: kitaplıkları geride sadece &7Unutulmuş Toz&r kalana kadar XP kürelerine istikrarlı bir şekilde parçalayan küçük yapılar."
 		""
@@ -6108,152 +6300,455 @@
 	]
 	quest.7FCCB25011D69673.title: "&f&aZenginleştirme Odası"
 	quest.7FEDD82D9B47EFCD.quest_desc: ["&aBiyo Jeneratör&r, &bEklentilerle&r artırılabilen enerji üretmek için biyokütle tüketir."]
+	reward.00D18DF325869C86.title: "&3Karanlık Hiçlik Yükseltmesini &fMonte Et"
+	reward.00EC1162EB842D86.title: "Hiçlik Güney"
+	reward.042C6860A26F6057.title: "End Batı"
+	reward.0443CD112299BF32.title: "&3Cehennemin Mahzen Pusulası"
+	reward.0491A1C974F9FE0A.title: "&3Katalizörün Güney Mahzen Pusulası"
+	reward.053BB94B773511FC.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.07015FDD343B3E88.title: "Wyvern Yayı"
+	reward.07FDE2A45E2F6200.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.08099C03B0628B39.title: "Nether Güney"
+	reward.08D775729B3EAF3E.title: "&dLevazım Subayı &fYol İşareti"
+	reward.09DF4A8DBF01CD61.title: "&e+1 &3Kazıcı Seviyesi"
+	reward.0BED496C8D68C629.title: "Kaotik Kürek"
+	reward.0C0AB23B4929400B.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.0D23EB824CB0A0C2.title: "Hiçlik Doğu"
+	reward.0E91DBA45C7125BF.title: "&eKilidi Aç&f: &6Dünya Motoru"
+	reward.0F2B93D49D8DA760.title: "Wyrm Ustası Arşiv Yol İşareti"
+	reward.0FF3057EB81C70D6.title: "&3Katalizörün Kuzey Mahzen Pusulası"
+	reward.11F46FD8EC5EE6C8.title: "&3Eufonyum Yükseltmesini &fMonte Et"
+	reward.1214107708FB3198.title: "&3Kuantum Tünel Yükseltmesini &fMonte Et"
+	reward.12870B6226B417AF.title: "&3Ruh Yükseltmesini &fMonte Et"
+	reward.12C21B2BC1C5906A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.12E34C33B113C643.title: "&3Drakonik Yükseltmesini &fMonte Et"
+	reward.1317DCA026D9DFBC.title: "&3Sonsuzluk Yükseltmesini &fMonte Et"
+	reward.13B35A67AAF5C0DF.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.15B421B3ACE269E3.title: "End Kuzey"
+	reward.16061432FA49EE66.title: "Kaotik Kılıç"
+	reward.174EEA65827DF6EA.title: "&3Kroniton Yükseltmesini &fMonte Et"
+	reward.1A219FE0647ED732.title: "Wyvern Baltası"
+	reward.1A2533930620554A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.1ADD62DBE8217E40.title: "Drakonik Kürek"
+	reward.1B215A9431DBAF6F.title: "Wyvern Küreği"
+	reward.1E8870E07D7F4A99.title: "Arı Etkinliği"
+	reward.1EA85DCE2A9227C3.title: "End Güney"
+	reward.1F113E78DDABE6A6.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.1FC0E512CB219EE5.title: "Kaotik Balta"
+	reward.1FC841321A5BA9AB.title: "&3Efsunlama Yükseltmesini &fMonte Et"
+	reward.1FEFB160C37A91D4.title: "Levazım Subayı Arşiv Yol İşareti"
+	reward.2055D6F4DA444002.title: "&dAlacakaranlık &fYol İşareti"
+	reward.20DD8D5AAA044A24.title: "Wyvern Kılıcı"
+	reward.235AF7EB3F88D642.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.238A2E2AEE1B8D6A.title: "Işık Bükücü Arşiv Yol İşareti"
+	reward.2392A43EE7851C85.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.24582F4B1C3E7E1F.title: "Alacakaranlık Arşiv Yol İşareti"
+	reward.266BE24BD00654A1.title: "Kaotik Yay"
+	reward.2730B9B9300AA75C.title: "&e+1 &3Kazıcı Seviyesi"
+	reward.27EBCAD2651AD138.title: "Hiçlik Kuzey"
+	reward.29048AE32290DDAB.title: "&3Kaşifin Mahzen Pusulası"
+	reward.2A85D0C9269D0EE5.title: "Cehennemi Arşiv Yol İşareti"
+	reward.2AA4A91EF3A6EE48.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.2B0BC74A9E61D881.title: "Drakonik Kapasitör"
+	reward.2C24A3F46426B257.title: "&3Makine Bloğu Yükseltmesini &fMonte Et"
+	reward.2CA4C34FFD72EA33.title: "Alacakaranlık Doğu"
+	reward.2D7E2A69C45D8ABD.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.2E85DC3CE143BC3A.title: "Makinist Mahzen Pusulası"
+	reward.2F7B82DA30E186CA.title: "&e+1 &3Kazıcı Seviyesi"
+	reward.307426CA8BF12CAC.title: "&dKaşif &fYol İşareti"
+	reward.30A58719DB130EE9.title: "&dİmalatçı &fYol İşareti"
+	reward.30CB65204A6F6DFE.title: "&3Yeti Mahzen Pusulası"
+	reward.31A55C1C7979AC74.title: "End Doğu"
+	reward.31B152CBB7E9CDAD.title: "Nether Batı"
+	reward.31B318A2B60F4CC5.title: "&3Gölge Kaplama Yükseltmesini &fMonte Et"
+	reward.32A31D445DC7FF87.title: "&3Okyanus Parçaları"
+	reward.3322D2E72CD06BE1.title: "Mekanism Işınlayıcı"
+	reward.338E0593C527D311.title: "Misk Reaktör Seti"
+	reward.35FBC3A2C111904A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.37851CF3F949515A.title: "Alacakaranlık Güney"
+	reward.37F1C940A746F48C.title: "StoneBlock4 Resmi NFT"
+	reward.397185875416F4D2.title: "Okyanus Batı"
+	reward.3982DCDCE0A66B83.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.39A9BA8313470A5D.title: "Katalizör Arşiv Yol İşareti"
+	reward.39BDE32B4BEF479B.title: "Dünya Motorunu Sıfırla"
+	reward.3C0E24CCC82A480D.title: "&3Fortron Yükseltmesini &fMonte Et"
+	reward.3C14C643B8F3E2E6.title: "&3Şövalye Mahzen Pusulası"
+	reward.3CC21684802E95E5.title: "Wyvern Kazması"
+	reward.3E2DC10E8591B9CC.title: "Wyvern Kapasitör"
+	reward.3E8E67868DA564D2.title: "&dIşık Bükücü &fYol İşareti"
+	reward.3F7CFC203230D314.title: "&3Hydra Mahzen Pusulası"
+	reward.3FBE85B391697AA3.title: "Okyanus Doğu"
+	reward.419A1C4D9279BF50.title: "Nether Doğu"
+	reward.4348C140262F1176.title: "&3Alacakaranlık Yükseltmesini &fMonte Et"
+	reward.437C0250BD2823D8.title: "&3Rezonanslı Hiçlik Yükseltmesini &fMonte Et"
+	reward.444D56BB0340167E.title: "&3Ender Güç Yükseltmesini &fMonte Et"
+	reward.4765C42AB1F8D1A6.title: "&3Makinistin Mahzen Pusulası"
+	reward.476F60C6DEB324A9.title: "Draconic Yay"
+	reward.495DF49EBBF0B77D.title: "Dünyanın Lütfu 5"
+	reward.4A3B5AA97272B2D2.title: "Draconic Balta"
+	reward.4AE89E9586399F31.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.4BA4CA2B38D5C1F3.title: "&3Uyanmış Çekirdek Yükseltmesini &fMonte Et"
+	reward.4C092C94E484A165.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.4CF243911064BB93.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.4EDE4462114C77EE.title: "Derintaş Kuzey"
+	reward.4F0943ED6ECF70E6.title: "Derintaş Doğu"
+	reward.5014EDA364D8789D.title: "&dCehennemi &fYol İşareti"
+	reward.52BCACF7F3F4A767.title: "&dKadim &fYol İşareti"
+	reward.53ECA21ACDF436DD.title: "Makinist Arşiv Yol İşareti"
+	reward.54DC27E90D2295BC.title: "Ganimet 8"
+	reward.55FBD183C62F244F.title: "Nether Kuzey"
+	reward.58419DD95D235FD7.title: "Kaotik Göğüslük"
+	reward.59039114F2E02EBE.title: "Gizemli Koru Bulucu"
+	reward.594E158A9C86929B.title: "&a1. Seviye Glif"
+	reward.59AD0E3C98FC5EA2.title: "Hiçlik Batı"
+	reward.59E384F5A05211FC.title: "Derintaş Güney"
+	reward.5A34161D4FD3FD66.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.5A9E657EB27180C7.title: "&3Gelişmiş Makine Yükseltmesini &fMonte Et"
+	reward.5AE23D826352677E.title: "Şifa Pınarı Bulucu"
+	reward.5BAED70596AA3D1B.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.5BE998C2C023AB29.title: "&dWyrm Ustası &fYol İşareti"
+	reward.5CD5D5D173FA5C89.title: "&dMakinist &fYol İşareti"
+	reward.5EE4C3B77DCAD15A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.5FEC6723B0F40A00.title: "Efsuncu Arşiv Yol İşareti"
+	reward.5FEF5E7E69F4437F.title: "&dSihirbaz &fYol İşareti"
+	reward.60A493A83705E5C6.title: "Kadim Arşiv Yol İşareti"
+	reward.61E89C638FD700C4.title: "&eMaks &3Kazıcı Seviyesi"
+	reward.62E61D9249A89F89.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.632965F5B615FA8D.title: "Füzyon Reaktörü"
+	reward.64CB075D188C05CC.title: "Okyanus Güney"
+	reward.676EC71A125D6E04.title: "&3Kaynak Yükseltmesini &fMonte Et"
+	reward.689FE9894FCB03FA.title: "&3Enderium Yükseltmesini &fMonte Et"
+	reward.68F8EBD48743037D.title: "Basit Işınlayıcı Paketi"
+	reward.693E7161A63AA8E7.title: "Kaotik Kazma"
+	reward.694311419C81AF7D.title: "Reaktör (Nitro)"
+	reward.696B39000701CF3E.title: "&dEfsuncu &fYol İşareti"
+	reward.69E35BEC6CB9A014.title: "&3Tesserakt Yükseltmesini &fMonte Et"
+	reward.6A0011BF8C25D4FA.title: "Draconic Kılıç"
+	reward.6A7A635D5039E00E.title: "Derintaş Batı"
+	reward.6A9CBD374B41A598.title: "&dKatalizör &fYol İşareti"
+	reward.6AA784677A036A36.title: "Draconic Kazma"
+	reward.6AE5675C3DAAB1D9.title: "Okyanus Kuzey"
+	reward.6B56D274F5BC5918.title: "&3Işık Bükücünün Mahzen Pusulası"
+	reward.6B6E3D9E6F38918E.title: "&d3. Seviye Glif"
+	reward.6E2831AAACB7E9AD.title: "Draconic Göğüslük"
+	reward.6E69E924D695FE30.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.70BC62F1A67B859F.title: "Koruma Muskarı Parşömeni"
+	reward.729901F3863D27E4.title: "İmalatçı Arşiv Yol İşareti"
+	reward.72FFFB11B65A0DF3.title: "Kaotik Kapasitör"
+	reward.742CB3E07E4CCEB1.title: "&b2. Seviye Glif"
+	reward.7459FD34B6687F30.title: "Tempad'in Rehber Kitabı"
+	reward.747CED69FCED45E8.title: "Sihirbaz Arşiv Yol İşareti"
+	reward.75028F17C07E02D0.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.7834CF7F86C29EE0.title: "Alacakaranlık Kuzey"
+	reward.798A5012C244EC87.title: "Kaşif Arşiv Yol İşareti"
+	reward.7AA9A619B211B53A.title: "Wyvern Göğüslük"
+	reward.7B2611299CAA750F.title: "&3Işık Bükücünün Mahzen Pusulası"
+	reward.7DA1DB3A1F6C52A0.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.7DB306ACACBC5FA3.title: "Alacakaranlık Batı"
+	reward.7FE6F3BEF5E57A43.title: "&3Lich Mahzen Pusulası"
+	reward.7FF100558F845196.title: "&3Kar Kraliçesi Mahzen Pusulası"
+	reward_table.01A8F0EB2209A24F.title: "Temel Draconic Teçhizatı"
+	reward_table.0C5DDA99EE8027D3.title: "Taşın Hediyeleri"
+	reward_table.1320ECC4666318A7.title: "Glifler"
+	reward_table.135B4037C1A40D88.title: "Sırt Çantası Eklentileri"
+	reward_table.16E7488E801B3DAA.title: "Wyvern Draconic Teçhizatı"
+	reward_table.1892AD44EB5DD99D.title: "Kaotik Draconic Teçhizatı"
+	reward_table.1D31E6EC121FF83B.title: "Uyanmış Draconic Teçhizatı"
+	reward_table.1DA364008CA08643.title: "Iron's Teçhizatı"
+	reward_table.20D1BF16232BD665.title: "RF Kaynakları"
+	reward_table.21A38B78E82935CD.title: "Veri Modelleri"
+	reward_table.28714053C75776A5.title: "Yüce Keşif Yadigar"
+	reward_table.2CB2563E52E0EEFC.title: "Büyük Savaş Yadigar"
+	reward_table.2F1621E7D65D48A1.title: "Temel Vanilla Kaynağı"
+	reward_table.30F4E308726EB2AD.title: "Işınlayıcılar"
+	reward_table.3621231FD4F80730.title: "Sandık Yükseltmesi"
+	reward_table.37F7F856288632A7.title: "Yüce Savaş Yadigarları"
+	reward_table.3FFF5862073B3D97.title: "Parçalar - Okyanus"
+	reward_table.54091F8A76F9E488.title: "Draconic Teçhizatı"
+	reward_table.5529BA88A208797B.title: "Parçalar - End"
+	reward_table.56235F58490C3C41.title: "Düşük Savaş Yadigar"
+	reward_table.5C5A40864844587A.title: "Parçalar - Hiçlik"
+	reward_table.5E58BEB7F462AA87.title: "Gelişmiş Sandık Eklentileri"
+	reward_table.6105D334632923AE.title: "Parçalar - Alacakaranlık"
+	reward_table.61FD9A6CC07465C1.title: "Rastgele Fırın"
+	reward_table.657A949F0952B7D4.title: "Parçalar - Nether"
+	reward_table.6835AC5E14D58A8C.title: "Büyük Keşif Yadigar"
+	reward_table.6B1481D18D7F1F24.title: "Parçalar - Derintaş"
+	reward_table.6B9058CED94B574F.title: "Çakıl Taşlarının Hediyesi"
+	reward_table.70ADF260F7A38A21.title: "Misk RF"
+	reward_table.73C257EFB0D405CE.title: "ProjectE Teçhizatı"
+	reward_table.790A03E65CE8EBE4.title: "Büyükannenin İkramı"
+	reward_table.7CDA9FD69979A8C9.title: "Apotheosis Kitapları"
+	reward_table.7D0A27C985829037.title: "Düşük Keşif Yadigar"
+	task.003F316E9DCBE7FE.title: "Herhangi #minecraft:logs_that_burn"
 	task.00ABB62332FC4C09.title: "&f&dKatalizörün Yankısı &fİle Konuş"
 	task.00F90C52CBAECEBB.title: "&dBüyü &aMürekkepleri"
+	task.0119636863DFB474.title: "Rehberlik ile Konuş"
 	task.011CC09BC8B8423B.title: "Depolama Parçaları"
+	task.011E0B1769C2E749.title: "Pusula Al"
+	task.012649B3BEFFCA3E.title: "Jeolog Fırçalama Blokları"
+	task.018BA3043844C4CB.title: "Blok Etkileşim Makineleri"
 	task.01A493D72943A94B.title: "Sıvı Parçaları"
 	task.01AB71CC57E2057D.title: "Herhangi #minecraft:candles"
+	task.0269945CD49FAC4A.title: "Herhangi #c:seeds/tiered"
 	task.0284D9E486F445FC.title: "&fHydra Mahzenini Bul"
+	task.0287C11F3728514E.title: "Dünya Motoru Üretim Kilitleri"
 	task.02CC4D7DB653D0B6.title: "Kontrol"
+	task.02E900C9DF62699B.title: "Herhangi #irons_spellbooks:add_to_lectern_and_bookshelf"
+	task.045D6D51D5A394B8.title: "Erken Güç"
+	task.04B00E264007135A.title: "Ekstra Derin Raflar"
 	task.04FA10D12C67E713.title: "Netherite Vanilla Aletleri"
 	task.05118382686E3B7F.title: "Malum Silahları"
+	task.053465F0FFC2E3BB.title: "Şövalye Mahzeni"
 	task.05BA59C2F9E1F43B.title: "&eÖldür&f: 10x Blaze"
+	task.05C31228DE4297E0.title: "Rezonanslı WE Üretimleri"
+	task.05EA231F68B35FBA.title: "Üretim 9"
 	task.05FFCCEAC7E565FB.title: "Kablosuz Güç Seçenekleri"
 	task.061CA75E28BD6BF6.title: "&dWyrm Ustasının Yankısı &fİle Konuş"
 	task.06483FBA8021FDEF.title: "Yaratıkları Taşıma"
+	task.0675F9CC003D7723.title: "Chesed Arenası"
+	task.06AA7AE5C6C5D694.title: "Pusula Al"
+	task.06F0C110F6DF4933.title: "Renk Rehberi"
 	task.0707B05028ADBA69.title: "&eÖldür&f: &6Haberci"
 	task.075F7BA7175B340A.title: "Kazıcı Seviyeleri"
+	task.07BBC0302934453B.title: "Taş Üretim Seçenekleri"
 	task.084914CB047A78F0.title: "Enerji Depolama Parçaları"
 	task.0879C32890B7363C.title: "&dRünik Silahlar"
 	task.08D1694DFD199F2E.title: "Değiştirici Öğeler"
 	task.08F70556D06E7B86.title: "Kitaplık Genişletilmiş Büyüleme Menzili"
 	task.09842F1F80A0B5A9.title: "Çıkarma Kitapları"
+	task.09D272BA64115EA4.title: "Tebrikler, Paketi Bitirdin"
 	task.09DE0D0E04573900.title: "Mutfak Tezgahları"
 	task.0A04058F3A5934FC.title: "Mekanism Boruları"
 	task.0A30227533B57599.title: "Kartlar"
 	task.0AAA6FAB20E74E5F.title: "Yükseltilmiş Cehennem Rafları"
+	task.0AE9E3C1553154B6.title: "Makine Çekirdekleri"
 	task.0AFBB94C24406DAD.title: "Kalp Kutuları"
 	task.0C13FA83021AE4C5.title: "&eÖldür&f: &cNetherite Canavarlığı"
+	task.0C703E47B7643F97.title: "Seviye 1"
+	task.0CAD1A4AF9391EB7.title: "Kademeli İnşaatçılar"
+	task.0CDA50C894140131.title: "Herhangi bir ruh simyası ürünü"
 	task.0D2B50FDF033C966.title: "Iron's Zırhı"
+	task.0D549424518A10E0.title: "tavuklar?"
 	task.0D88BFCD6CDC0266.title: "silahlar"
 	task.0D9BCEFBD92A6E7F.title: "Boyutbilimci Fırçalama Blokları"
+	task.0DD6F5AD5EE05878.title: "ev aşaması"
 	task.0E023EF28D4D86F3.title: "&bMenzil Yükseltmeleri"
+	task.0E0DB651D35A550F.title: "Üretim 3"
 	task.0E1BCAE9F0367A8B.title: "Jeolog Fırçalama Blokları"
+	task.0E558F6F41339C8A.title: "Kademe 4"
 	task.0E7B34D38F84AC11.title: "Broş"
+	task.0E861275FB1F9A6E.title: "&dYankı Alacakaranlık Kadim Kilidini Aç"
 	task.0F2D2B75BBD3B74B.title: "&cEnerji Küpleri&r"
+	task.0F7A749B164D259A.title: "Herhangi #minecraft:coals"
+	task.0FAC970FD967F5DF.title: "derintaş batı"
 	task.0FE18EA47455263E.title: "Yankı Konumu"
 	task.101BA566216C32AD.title: "ME Kablosu"
+	task.1040794FCC53E1C2.title: "kontrol"
 	task.10414FF6D2800922.title: "&f&dIşık Bükücünün Yankısı &fİle Konuş"
 	task.108D536F5C6428BB.title: "Yankı Konumu"
+	task.10F4611888E8BE79.title: "Yankı 1"
 	task.11193E0681204B33.title: "Hayalet Bobinleri"
+	task.111E92A0F608B427.title: "Temel Bölümünün Başlangıcı"
+	task.1159F04F98B724A1.title: "Yanan Disko Mahzeni"
+	task.11B86810F19A15B9.title: "Rünler"
 	task.11F49F841465DAAD.title: "Ferricore Silahları"
 	task.1211B7B1BC40225B.title: "Kontrolcüler"
+	task.121998ADA1263511.title: "kademe 4 yankılar"
+	task.1221574B280EBA24.title: "Karşınızda: Çimen!"
+	task.129AAFBA73EBA070.title: "&dYankı Kadim Kilidini Aç"
+	task.12C03EE6A8238B47.title: "okyanus batı"
 	task.12E5C6B08FAC5523.title: "&eBul&f: &3Labirent Mahzeni"
+	task.13749D631F4473F2.title: "rehberin söylemesi gereken şeyler"
+	task.1427925FA59931D3.title: "Kablosuz Taşıyıcılar"
+	task.143FD5E58F888422.title: "Baltalar"
+	task.145E372410535D17.title: "Büyü Yapma"
 	task.1464DA1D0A45EF99.title: "Büyücü Zırhı"
 	task.149EDD07DA46D40F.title: "&eGözlemle&r: &2Köylü&r"
 	task.14E50AE68E2967C5.title: "İnek Katalizörü"
+	task.154C17C5C905CDB8.title: "Drakonik WE Yükseltme Üretimleri"
+	task.157A4FF7FF3C6F6A.title: "derintaş kuzey"
 	task.159400992FB94254.title: "&eGözlemle&f: Derintaş"
+	task.159CA0D800D44755.title: "AE2 + Gelişmiş WE Üretim Kilitleri"
+	task.15E01B224B9897FE.title: "Apoth Büyüleme Sistemini Kur"
 	task.15F2F7C36099DE85.title: "İhracatçılar"
 	task.16109CEC63108983.title: "Tavuk Jokeyi Mahzenini Bul"
 	task.16D5556D98667242.title: "Ferricore Zırhı"
 	task.16F92FFAF9B19572.title: "Kaynak Bağlantıları"
+	task.171FAFE09103AB82.title: "Tavuk Jokeyi Kuzey"
 	task.1726EF3A700E7F17.title: "Üretilebilir Tavuklar"
 	task.17FA3A67B903103F.title: "İthalatçılar"
+	task.180232CD32A5D6B0.title: "create üretimi"
 	task.180699485CD072B7.title: "Kolay Köylüler"
 	task.187D3A2680948DF2.title: "&6Dünya Motoru&f Sıvıları"
+	task.189C216C50078C70.title: "Gates Powah"
 	task.18CB8C05E3A9150F.title: "Köylü Bilgisi"
+	task.18D6F8FAB2FA69F7.title: "hiçlik güney"
 	task.1918A324D7CB282A.title: "Devre İmalatçısını Monte Etme"
 	task.192926FA19E0AFB0.title: "Portal Silahları"
+	task.197E8D7DE2765B21.title: "katalizör"
 	task.1986452842DD2E46.title: "Kontrol"
 	task.19893A74AF61880F.title: "Kemer Ağacı Fidanları"
 	task.1A33A7B304C14570.title: "Kablosuz Vericiler"
 	task.1A4A5A59FFF815E2.title: "Isıtıcılar"
 	task.1A946F253A4AB3D2.title: "Blazegold Aletleri"
+	task.1AF85D1D3B0426BC.title: "kademe 3 yankılar"
+	task.1B25E200BE38BF9E.title: "orta görevler"
+	task.1B354BFDDC6B862B.title: "makinist"
 	task.1B441EA3D74396D8.title: "Draconic Aletleri"
 	task.1B724AA2EDADE92A.title: "&eÖldür&f: &7Ölüm Büyücüsü"
 	task.1BB73680D1CA700A.title: "Yankı Konumu"
 	task.1C350F6D6B6C0656.title: "&bYükseltilmiş Eklentiler"
 	task.1C3B92648D279809.title: "&eBul&f: &dCehennemi"
+	task.1CFBFD68628474D1.title: "Yankı Konumu"
 	task.1D40F0B8F9A522A0.title: "&eBul&f: &dİmalatçı"
+	task.1DF6D23F11B7296E.title: "Pusula Al"
 	task.1E31F492D8779AB6.title: "Kırıktaş Jeneratörleri"
+	task.1E4CCF6176F19AA2.title: "Şifa Pınarı için bir pusula al"
+	task.1E5E244A9DF5B9B8.title: "Seviye 1"
+	task.1EBEAF4114DC3BFD.title: "Alacakaranlık WE Yükseltme Üretimleri"
 	task.1F45D65E053E1701.title: "Madencilik Aletleri"
+	task.1F9A7927EEE12740.title: "Herhangi #c:seeds/tiered"
+	task.20FE0359B927FE66.title: "Cevher Üretim Seçenekleri"
 	task.21F1C6036A37CED9.title: "&eBul&f: &dAlacakaranlık"
 	task.220AEB0F13353108.title: "&fÜretilebilir Büyü Kitabı Yükseltmeleri"
 	task.224C16DC19629B4B.title: "Başlangıç Jeneratörleri"
 	task.22DC2FE65941A0AB.title: "Cihaz Eklentileri"
+	task.22F4D12640FE8DE4.title: "Kaynakları Büyütme"
+	task.23288392FC94FD36.title: "ışıkbükücü"
 	task.236F4615115C9D2E.title: "&fŞövalye Mahzenini Bul"
 	task.238BCDF15FC7E9CB.title: "&dRehberlik Yankısı &fİle Konuş"
+	task.243CF5EB168426DC.title: "Kontrol"
+	task.2448423EA50BA0ED.title: "Pusula Al"
 	task.24B4FAC2831477B4.title: "&eBul&f: &3Kadim Şehir"
+	task.24F1AD47BF873ABE.title: "sihirbaz"
+	task.24F9A4F56ECE9A55.title: "tf kuzey"
 	task.251CDFF26C59DD32.title: "Karanlık Madde Zırhı"
+	task.254216164263D3E2.title: "Adamla Konuş"
+	task.258EC76B1D603C46.title: "Kademeli Yıkıcılar"
+	task.2595A4B8A1522BBC.title: "Arkeolog Fırçalama Blokları"
+	task.25A2E220B9181819.title: "&dYankı Wyrm Ustası Kilidini Aç"
 	task.25B4028ACF0AA25B.title: "Arkeolog Fırçalama Blokları"
+	task.25E59EFA886226D4.title: "Kaynak Kontrolü"
 	task.25EB772A7B06594D.title: "Yankı Konumu"
 	task.266AF5D6914A2BA5.title: "Tavuk Ruhu"
 	task.2672BC5E75CFBDEC.title: "Yükseltilmiş Deniz Rafları"
 	task.268850BC9199AE77.title: "Bir &bSıvı İneği&r Gözlemle"
+	task.2689CFF1F62FA5FF.title: "Yankı Konumu"
 	task.268F689AFA620C03.title: "&eÖldür&f: 20 İskelet"
 	task.2695E2029A6BC6A0.title: "&f&dSihirbazın Yankısı &fİle Konuş"
+	task.27B14942E7BE87E2.title: "okyanus güney"
 	task.27D0428BD5B59E54.title: "Tutulma Alaşımı Aletleri"
 	task.27F04FD03BB1682C.title: "Güçlendirilmiş Kristaller"
 	task.27F8AF789DE14145.title: "Tamamlanmış İşlemci"
+	task.284A47FAF4885800.title: "Takas Edilebilir"
 	task.287D976A94ACDE7C.title: "Blazegold Silahları"
+	task.2897D7BC60592E58.title: "Herhangi #c:wools"
+	task.28C14943E06CE907.title: "Dünya Üretimi ile Açılan Öğeler"
+	task.293421D07539E14B.title: "Herhangi bir büyücü zırhı"
 	task.2988CAF299690CDB.title: "Faydalı Komutlar"
+	task.29B29381709E8E09.title: "Pasif Yaratık Çiftlikleri"
+	task.29F0C3330016EDCF.title: "&fOtomasyonun Başlangıcı - RS2"
 	task.2A0C5609613F2557.title: "Mutfak Dolapları"
 	task.2AF40F8B8B4E480D.title: "&aMücevherler&r"
+	task.2B3540F8DE693645.title: "Levazım Subayının Kilidini Açar"
 	task.2B4824CA0A798240.title: "Yankı Konumu"
 	task.2B4A71FE904A1A6D.title: "&dRehberlik Yankısı &fİle Konuş"
+	task.2B85248A0FF8317A.title: "Kademeli İhracatçılar"
 	task.2BAEE4414B32E48E.title: "&eGözlemle&f: &7Foliot &fKırıcı İblis"
 	task.2BE7F102A41BB55E.title: "Erken Oyun Jeneratörleri"
 	task.2C1D58B8E7565119.title: "Erken Güç Önerileri"
+	task.2C70B41BE01902A0.title: "Yankı Konumu"
+	task.2C7178256D98DFC4.title: "yankı için lobiyi ziyaret et"
 	task.2CB20E4080C1B6CC.title: "Işınlayıcı"
 	task.2CBD12BA944BB6A7.title: "Kablosuz Kızıltaş"
 	task.2CD07B6CF24F7460.title: "&bYükseltilmiş Eklentiler"
+	task.2CDC924219F0604D.title: "Xychorium Mücevherleri"
+	task.2CDCBCC6501AC541.title: "&eBul&f: &eYeraltı Mezarları&r Zindanı"
 	task.2D2F59A031BC2E63.title: "Teçhizat Görevleri"
 	task.2D6AEF337BEAFA58.title: "Pota Güçlendirmeleri"
 	task.2D717F3B3573B504.title: "&bYükseltilmiş Eklentiler"
+	task.2DCE94139CB2078D.title: "Çekmece Öğe Yönetimi"
 	task.2DD1C42797FC03F0.title: "&f&dEfsuncunun Yankısı &fİle Konuş"
 	task.2DF0651CE18A8870.title: "Pusulaları Al"
 	task.2E08C0DD181858C1.title: "&eBul&f: &dKaşif"
+	task.2E0D7FA5FBCAFA4D.title: "kontrol"
 	task.2E2CF42092AA43D8.title: "Kademeli &aDisk Arayüzleri"
+	task.2E42256C51193994.title: "wyrmustası"
 	task.2E6B8DF43B7A85E7.title: "Herhangi Bir Temel CAD Montajı"
+	task.2EFD3D6830A8480A.title: "&eBul&f: &3Yankılanan Korku Mahzeni"
+	task.2F3D8C75AD838DC1.title: "&6Yankı Fortronist Kilidini Aç"
 	task.2F84191A75EBFBB0.title: "Pusula Al"
+	task.2F94FA9842248FA3.title: "Kar Kraliçesi Mahzeni"
 	task.2FB8AB5ADB1F8D26.title: "&eÖldür&f: &cTyros'un Yankısı, İlk Ateş Taşıyıcı"
 	task.2FF95590BE56EE26.title: "&f&dAlacakaranlığın Yankısı &fİle Konuş"
+	task.30B05842C5C7D548.title: "Powah Pilleri"
 	task.30F1965A2A29E58A.title: "Bana Tıkla!"
+	task.317038ACC0AB2217.title: "hiçlik kuzey"
+	task.318D58F3EAE30A2B.title: "Dünya Motoru"
 	task.31D5BD1ADD14C2BB.title: "&fAlacakaranlık Lich Mahzenini Bul"
 	task.31DBB76BB460AE1B.title: "Makine Çekirdekleri"
 	task.322FFDB250990323.title: "Güç Depolama"
+	task.323197B515C2DAB6.title: "&3Yankı Katalizör Kilidini Aç"
+	task.32463C2AE2B4F13B.title: "&6Malkuth'u&r Öldür"
 	task.327D6E2AE8863BC1.title: "&eÖldür&f: &cPirobüyücü"
 	task.32877EA200F47B95.title: "&f&6Işıltı &fİle Konuş"
 	task.329BA2B5EB3185FC.title: "Kurtarılmış Malzemeler"
+	task.32FB115D88E24CD5.title: "tf batı"
 	task.3384D1EE66D61464.title: "Görüş Cehennem Rafı"
 	task.33877DBF6AC0BF78.title: "Yükseltilmiş Derin Raflar"
 	task.339585B853B7012C.title: "Temel Silahlar"
 	task.33CC6E4518860815.title: "Herhangi Bir 3. Seviye CAD Yuvası"
 	task.3448255A410B8F99.title: "Wyvern Aletleri"
+	task.346BBC841E2A3F2D.title: "2. Kademe Yankılar"
 	task.34E4918707295C02.title: "Pusulayı Talep Et"
 	task.34F064BD38FE398C.title: "Herhangi Bir Madde"
+	task.34F41FF2B63589A6.title: "kaynak girişi"
 	task.35458B29D8F8E353.title: "&f&dKadim Olanın Yankısı &fİle Konuş"
 	task.35F9337A21031B7C.title: "Herhangi Bir 3. Seviye CAD Çekirdeği"
 	task.3602BC5A7FA7DDB8.title: "Temel Enerji Transferi"
+	task.36114BC736C0EB31.title: "Makinistin Kilidini Açar"
+	task.367FD95D506DE27B.title: "Pusula Al"
+	task.36851BEF447522C1.title: "imalatçı"
 	task.368FF30FEFA57F73.title: "Halka Oluşumu"
 	task.36D65F0F76F3F5E9.title: "Ultimine Notları"
 	task.36E4280D3F1F4D95.title: "&bCelestigem Zırhı"
+	task.376297FFB45E51A2.title: "end batı"
 	task.379AF15FE59B449C.title: "Her Şey Kronon Hakkında"
+	task.37AD604DC3429E57.title: "Enderium WE Üretimleri"
+	task.37C9E3F65AE092C6.title: "end kuzey"
 	task.37F6704E46F8E7BC.title: "Ganimet"
 	task.383794D054B8E0E1.title: "Pusula Al"
+	task.387AEDAFD8378A6D.title: "Tavuk Jokeyi Güney"
+	task.388714C70D55C2C0.title: "Pusula Al"
+	task.38B484C5F2CD48C9.title: "Yankı Konumu"
 	task.398CB19DF3238318.title: "Türsüz Depolama Diskleri"
+	task.39A587FEA3FFAB6B.title: "&aYankı Kaşif Kilidini Aç"
 	task.39A8645834696943.title: "Cognition Aletleri"
 	task.3A0AA4ECFE92B8F8.title: "Curio Öğeleri"
 	task.3A831AEACF765BB4.title: "&cQuanta&r Öğeleri"
+	task.3B085693A5797F89.title: "Karanlık Madde Aletleri"
 	task.3B13BCC752215E0A.title: "Ruh Depolama Parçaları"
 	task.3B60BAD2A4BEA950.title: "Kontrol"
 	task.3B68713C93B4FAA8.title: "&aToplama Yükseltmeleri"
+	task.3B69744AB1794F4A.title: "&3Yankı Işık Bükücü Kilidini Aç"
+	task.3B79C7596F19EFC3.title: "Kontrol"
+	task.3BB23794DB9DEDD4.title: "Çamur Ürünleri"
+	task.3C26A988187EEF02.title: "nether batı"
 	task.3C30835D105E888F.title: "Sıvı Çekmeceleri"
 	task.3C532F10AE78D105.title: "&eBul&f: &dMakinist"
+	task.3C99AA1534641A3F.title: "okyanus doğu"
 	task.3CB07FD3F54AFA92.title: "&zYadigarlar&r"
+	task.3CEB40B064A202AA.title: "Dünya Motorunun Kilidini Aç"
+	task.3CF9E82FE7A7CA32.title: "derintaş güney"
 	task.3D00D0A8A61617EA.title: "SNAD Tipi Bloklar"
+	task.3D5F6DE10646EBE3.title: "Wyvern Teçhizatı"
+	task.3D6254435D99C13C.title: "Malkuth Arenası"
 	task.3D736F8E008552DB.title: "Güç Hücreleri"
 	task.3E9AA0CF9EFC6DE6.title: "Kimyasal Parçalar"
+	task.3E9C440E3E2EE022.title: "Bunu ödül veren bir göreve sahip ol"
+	task.3EA41562AB11F9B1.title: "tf doğu"
+	task.3EB209408B5FD9FA.title: "Yankı Konumu"
 	task.3EBAF104991E89BF.title: "&eÖldür&f: &dKudretli Tavuk Jokeyi"
 	task.3EF3D33D52CB41A5.title: "&aHiçlik Yükseltmeleri"
 	task.3F1ABCF8325A90C9.title: "&zSonsuzluk Aletleri"
@@ -6262,46 +6757,93 @@
 	task.402164B895BEDB8E.title: "&f&dLevazım Subayının Yankısı &fİle Konuş"
 	task.403C59A4B303FE3A.title: "&eBul&f: &6Kaos"
 	task.4087591E474FC477.title: "&eÖldür&f: 10x Enderman"
+	task.40921D92713F1FB4.title: "Oyun Aşaması Ver"
 	task.411B145BAD8AA622.title: "Aletler"
 	task.41B203F8648421C8.title: "&eBul&f: &6Sonsuzluk"
+	task.41FB0785445FC826.title: "Sıvı Etkileşim Makineleri"
+	task.42AEAD2BF6113D89.title: "Yeti Mahzeni"
+	task.42D645B26E4EE8A4.title: "Üretim 6"
+	task.43010F9F652B5B4B.title: "Herhangi #minecraft:pickaxes"
+	task.430918A5AD62C27F.title: "Orta Oyun Seçenekleri"
 	task.4309B43CD4447705.title: "İnşaat Çubukları"
+	task.4321D68C7B5CA800.title: "Seviye 4"
 	task.435C5B6B77C3D7B4.title: "Yeniden Yapılandırılmış Malzemeler"
 	task.4404D4CA07F1B536.title: "Pusula Al"
+	task.4436C5870B83BA75.title: "nether doğu"
 	task.4461612C1C9D3F92.title: "&eÖldür&f: &aGezgin Tüccar"
+	task.4483C09E6123BC4C.title: "Dünya Üretimi ile Açılan Öğeler"
+	task.4497434CDD9642C0.title: "Köylü Takası"
+	task.44BC8362B01E30DC.title: "okyanus kuzey"
 	task.44F14FF1208B0B03.title: "AIOT'lar (Hepsi Bir Arada Aletler)"
 	task.459AEFEC8F060222.title: "Pusula Al"
+	task.45B09FA666AC50A6.title: "kademe 2 yankılar"
+	task.45B385C4A1E03540.title: "Zindan Mahzeni"
 	task.45C3B788492E3C09.title: "&eGözlemle&f: &2Çimen Bloğu"
 	task.45E18E3EE8C1D683.title: "&f&dMakinistin Yankısı &fİle Konuş"
+	task.45E2610784D6C62D.title: "hiçlik batı"
 	task.46201BC3BAE0D15A.title: "Mekanism Lazerleri"
+	task.46EC7CBCB208552B.title: "&aYankı Efsuncu Kilidini Aç"
+	task.478D81CA3E31709A.title: "Yankı Konumu"
 	task.47B3519E9BAE88EB.title: "Rün Ağacı Fidanları"
+	task.47CDD3AB69EDD87A.title: "Lich Mahzeni"
+	task.48521259017869AC.title: "Üretim 4"
+	task.48DEF5D938C94BF6.title: "&fIndustrial Foregoing Seçenekleri"
 	task.491E250D69066BBC.title: "&eÖldür&f: &7Wither"
+	task.496455D7AB00E7B8.title: "İnşaatçılar"
+	task.4973EE979B7CEBB2.title: "Oyun Aşamasını Kaldır"
+	task.49D95439F3D1CFCD.title: "Mutfak Bıçakları"
 	task.49DF96867DE0BB9D.title: "Ruhlar"
+	task.49E3AB30A12DF498.title: "&6Yankı Kaos Kilidini Aç"
+	task.4A252C67885BD891.title: "2. Seviye Toprak Ürünleri"
 	task.4A3E583E141A73F5.title: "Pusula Al"
 	task.4A5574B73D5286B1.title: "Rünler"
 	task.4A84D885C313D512.title: "Yığın Yükseltmeleri"
 	task.4AEB443222A345F9.title: "Yankı Konumu"
 	task.4B2BAB2FC31AEA4D.title: "&eBul&f: &dIşık Bükücü"
+	task.4B4B8BC2E5273E05.title: "zorla"
+	task.4B64161A3F4645D8.title: "kademe 5 yankılar"
 	task.4B65088186551D3C.title: "&fHiçlik Yükseltmeleri&r"
 	task.4B7C315189CC7D79.title: "Klasik Borular"
+	task.4BD6BD132C5F5FD3.title: "Yankı Konumu"
 	task.4C0AA56C3F1425DC.title: "İşlenmiş Kitaplıklar"
 	task.4C294F85B9714CBA.title: "Çerçeveli Çekmeceler"
 	task.4C2F88B9AE8BD7DA.title: "Ruh Lekeli Aletler"
+	task.4C54ABE5A9160A74.title: "yankı ile konuş"
+	task.4C972CA6C2864541.title: "T2"
+	task.4CC67507BD359450.title: "Kademe 3"
 	task.4D553F0284E3E3B7.title: "Kaynak Depolama Parçaları"
+	task.4D5A20E3AAF6D613.title: "Yankı ile Konuşuldu"
+	task.4D83F46E810A7395.title: "İmalatçı Gerektirir"
 	task.4DBC16ACBFEF4D40.title: "&aYığın Yükseltmeleri"
+	task.4E167989D804F280.title: "Kademeli İthalatçılar"
 	task.4E9D1C67F4EAD926.title: "Konektörler"
+	task.4EF4B4FB9E896FDA.title: "Seviye 4"
 	task.4F171D8BC8C1C8F7.title: "&eJust Hammers'tan &Herhangi &bBalyoz&r"
 	task.4F37295B08FFCA81.title: "Evini Yarat"
 	task.4F48BE06A8542822.title: "Yaratık Taşımak İçin Öğeler"
 	task.4FC80BE367960541.title: "&eBul&f: &dKadim"
+	task.501D5E25BC5D86BC.title: "Karanlık Hiçlik Üretim Kilitleri"
 	task.5034DC565C8B0377.title: "Herhangi Yaprak Bloğu"
+	task.50FC826E34DC4B21.title: "Sihirbazı açar"
+	task.5117CEC9D541E6AD.title: "Enderium WE Üretimleri"
 	task.5123D0CFBA53F360.title: "Eklenen Metaller"
+	task.515FA27128F1F9F4.title: "İşlenmiş Uçuş Tılsımı"
+	task.517166DF490B8DF9.title: "Seviye 2"
+	task.517D541820F94242.title: "Bekleme Süresi Zamanlayıcısı"
 	task.519E1F80092719D1.title: "Hata Bildirimi"
+	task.51A10188D6628ECE.title: "Ender Hücresi Dünya Motoru Üretimleri"
 	task.51E0FB26781697CB.title: "Sırt Çantası Kademe Yükseltmeleri"
+	task.523276D741403500.title: "Yaratık Çiftlikleri"
 	task.5290130556504104.title: "&aDemir Sandıklar&r"
 	task.52E6F8489C66A549.title: "Ruh Lekeli Zırh"
 	task.53399AACBE5CBD31.title: "Ruh Lekeli Teçhizat"
 	task.53A4AB98C92B3D57.title: "Herhangi 2. Seviye CAD Yuvası"
+	task.53B81DDD6321D728.title: "Pusula Al"
+	task.53DA98367BF86C09.title: "güç kontrolü"
+	task.53DCB3C11B6D07C7.title: "Dünya Üretimi ile Açılan Öğeler"
+	task.54161E44D6EC0403.title: "kadim"
 	task.5434F149E894EFA6.title: "Hoş Geldin"
+	task.545431F57E485EE7.title: "Kürekler"
 	task.54630C413BFC35E2.title: "Draconic Enerji Transferi"
 	task.546F475B57F686A3.title: "Kızıl Madde Zırhı"
 	task.54900CC98541771C.title: "Herhangi Psi CAD Renklendiricisi"
@@ -6310,32 +6852,59 @@
 	task.55C6BE7CD74598FA.title: "Kalıplar"
 	task.55E36C96A2424F59.title: "&eÖldür&f: &6Kadim Kalıntı"
 	task.56A35A967954A4C2.title: "Çekmeceler"
+	task.56BA1011DDE093D0.title: "Ham Osmiyum"
 	task.56C9F06D62E42184.title: "Herhangi Psimetal Alet"
 	task.5707D25BF97D42CD.title: "&fAlfa Yeti Mahzenini Bul"
 	task.57168CEC7F6AA1CC.title: "Çekmece Fayda Yükseltmeleri"
 	task.574A44FBE14704F6.title: "Kızıl Madde Aletleri"
 	task.576C3A4D28B4D076.title: "Modüller"
 	task.576F9DD2957EB18A.title: "Deneyim Tutucular"
+	task.57A2EA2AAF0401BE.title: "Yankı Konumu"
 	task.57A5CC881C60B69D.title: "Zaman Asaları"
+	task.57BE5B16087C947C.title: "&6Yankı Sonsuzluk Kilidini Aç"
 	task.57EE94BA6579685A.title: "Actually Additions Pilleri"
+	task.581CF680220285B0.title: "Kalpler"
 	task.585E2902BC477B5D.title: "&eBul&f: &6Işıltı"
+	task.58670C125A30CD28.title: "kaşif"
 	task.58687506041183E7.title: "&eÖldür&f: 20x Balçık"
+	task.58BD6F9BD3D252EE.title: "Dünya Motoru Üretim Kilitleri"
 	task.58DC7CD2A4F595DD.title: "&eÖldür&f: &dArchevoker"
 	task.5926E51F4409C90C.title: "ekstralar"
+	task.593AA0179354204B.title: "Pusula Al"
+	task.593B01E9D4776913.title: "İşlemciler"
 	task.59454DA41C1C27D5.title: "Herhangi Rün"
 	task.59521977C507A466.title: "&dRehberlik Yankısı ile Konuş"
+	task.598209AB20C523FC.title: "Cehennem Mahzeni"
+	task.598955C607984551.title: "Başlangıç Jeneratörleri"
+	task.5996778F5388841D.title: "Fildişi veya Abanoz CAD Montajı"
+	task.59A9F44F40AF2E55.title: "Yankı Konumu"
 	task.5A0B7C6C05EEBEE2.title: "Çekmece Yükseltmeleri"
+	task.5A43BF69F5EE7A51.title: "Oyun Sonu Seçenekleri"
 	task.5A652535811A2B66.title: "Kuantum Zırhı"
 	task.5A912A97A8A7DB47.title: "&3Create Mahzenini Bulma"
+	task.5A9C48DEA2F607F9.title: "Herhangi #justdynathings:compat/ae2/buddings"
+	task.5AB9DD72EFFA8BB2.title: "Gizli"
+	task.5AE65BF06E12FC55.title: "&eGözlemle&r: Dünya Motoru Bloğu"
+	task.5AEBA3792645C057.title: "bağlantı"
 	task.5AFEC71F18BD2D1B.title: "Matkap Yükseltmeleri"
+	task.5B1EDE30C0E98068.title: "Nötron Aktivatörünü Monte Etme"
 	task.5B2F539FB8DF8B64.title: "&fOtomatik Balyozlar"
 	task.5B3A2DEB3DFBA285.title: "&dRehberlik Yankısı &fİle Konuş"
 	task.5B51C00265B54937.title: "Teknoloji Bölümü"
 	task.5B82C7AEA857BED3.title: "&eÖldür&f: &dEnder Muhafızı"
 	task.5B97CEFB80FF361B.title: "&eÖldür&f: 10x Shulker"
+	task.5C1653E469BF0527.title: "Köylü Çiftleştirme"
+	task.5C3B57777EB7E7CD.title: "Erken Oyun Jeneratörleri"
+	task.5C41B9EBAA3BFB91.title: "sonsuzluk"
+	task.5C68D9D46C6D6566.title: "&3Yankı Cehennemi Kilidini Aç"
 	task.5C6B2370E7B8E980.title: "Occultism Madencileri"
 	task.5CCC981194E6AD26.title: "&eBul&f: &dWyrm Ustası"
+	task.5CF31579D0098AE7.title: "Bekleme Süresi Zamanlayıcısı"
+	task.5CF322069EBE856C.title: "derintaş doğu"
+	task.5D0C511745B5006A.title: "Üretim 8"
+	task.5D14CB44244C2750.title: "kaos"
 	task.5D219927A5B4C985.title: "Yankı Konumu"
+	task.5D301EDAEC889F86.title: "&7Yankı Levazım Subayı Kilidini Aç"
 	task.5D44C1D4945AB04C.title: "&eBul&f: Yeraltı Pınarları"
 	task.5DB582096285438A.title: "&eBul&f: &dLevazım Subayı"
 	task.5DEDD864CB2276F1.title: "&bVerimlilik Yükseltmeleri"
@@ -6343,66 +6912,114 @@
 	task.5E3DB978C813B92A.title: "Kontrolcü Erişim Noktaları"
 	task.5E4795D98A4F96E5.title: "Celestigem Aletleri"
 	task.5EA5666395E5AAEC.title: "&eBul&f: &dMagician"
+	task.5F9845BFD2B34AC6.title: "Senin Seçimin"
+	task.5F99BA061A1605D9.title: "Dünya Taş Katmanları Düzeni"
 	task.5FD1AC346811740C.title: "&eÖldür&f: &cÖlü Kral"
 	task.5FFDD210AFD0055D.title: "Özel Kitaplar"
 	task.6017B56A0165C534.title: "Ferricore Aletleri"
 	task.6064031AABA0D8D1.title: "&eÖldür&f: &2Eczacı"
+	task.60A5E4D097F85580.title: "Çelik Edinimi"
+	task.6143E9BDB0C9D417.title: "Portal Mahzeni"
+	task.614C3268B71D6CE3.title: "efsuncu"
 	task.615166F23D87249A.title: "Yankı Konumu"
 	task.6166C057F795A2CB.title: "Bolca Madde"
+	task.61990CCF4D2011E7.title: "Uyanmış Çekirdek + Karanlık Hiçlik Üretim Kilitleri"
+	task.619E259715D3DAFC.title: "Herhangi &eApplied Flux &fDepolama Hücresi"
 	task.61C0F35123FBB85E.title: "&eÖldür&f: &3Muhafız"
 	task.61D894B195259EFE.title: "Netherite Zırhı"
 	task.62017C4AEF15B756.title: "Portal Mahzenini Bulma"
+	task.620B0BA6A6337A57.title: "tf güney"
 	task.623C40B073B6326E.title: "Tutulma Alaşımı Zırhı"
+	task.62978C611C641A3D.title: "&fME Arayüzü"
 	task.62B8DF25CDC4F6E7.title: "Pusula Al"
+	task.62D52342AFC4B5B5.title: "Üretim 5"
 	task.62DE6121CE506116.title: "Boru Yükseltmeleri"
 	task.63405599D33D4D0A.title: "Orta Oyun Jeneratörleri"
 	task.6347BBAD2ED20F25.title: "&eÖldür&f: 20x Zombi"
+	task.639A8E9CF51A8596.title: "Bitki Tarımı"
+	task.63A8F38180C3FD30.title: "Ağaç Tarımı"
 	task.63C4D2F3F7059C8E.title: "Sırt Çantası Toplama Yükseltmeleri"
 	task.63FA6779F7687346.title: "Pusula Al"
-	task.64439911825F80B2.title: "Blok Asaları"
+	task.6405640824417BB2.title: "Yankı Konumu"
+	task.64AB5234ED7B0BDC.title: "Portal Mahzeni"
 	task.64B290466E13BE30.title: "&dWyrm Ustasının Yankısı ile Konuş"
+	task.651313A5A837BB13.title: "&7Yankı Sihirbaz Kilidini Aç"
 	task.655EA10D763BC971.title: "&eBul&f: &dEfsuncu"
+	task.65AD3185427B9AF3.title: "Create Mahzeni"
+	task.65B4BE28B27BE67B.title: "cehennemi"
+	task.6662DD03B1F24FB1.title: "Yankı Konumu"
+	task.6681C95BA23C70AA.title: "Herhangi metal impetus"
 	task.6686A02C1B8BCACB.title: "Bir Fildişi veya Abanoz CAD"
+	task.66B4466B7858F8C2.title: "Herhangi #minecraft:saplings"
+	task.66BE14D0E22A9924.title: "Create Yankı Kilidini Aç Ver"
+	task.66E96E8D93525948.title: "Fortron WE Üretimleri"
+	task.66F6B411E884E391.title: "end doğu"
 	task.671339615BA68B10.title: "&eÖldür&f: &bCryomancer"
+	task.6751D267B2D7A52D.title: "Kayıp Yankıları Ortaya Çıkarma"
+	task.678E1BECB4BB8A9A.title: "Üretim 2"
+	task.684A45E0379D0386.title: "mahzen"
 	task.6865F20C1E218901.title: "Dünya Motorunu Sıfırla"
 	task.68A1DE705F7F836C.title: "Olayları Etkinleştirmek İçin Tıkla"
+	task.68B5F556D4439356.title: "Üretim 7"
+	task.68E6367E2F80DCBE.title: "Madencilik Aletleri"
+	task.68FBE3E15C3F9B33.title: "Herhangi rün broş"
+	task.69019AD3FEB39B7B.title: "aşama ver"
 	task.696DC87210410650.title: "Oritech Boruları"
+	task.69965C54E13B57DD.title: "kablosuz kızıltaş bölümü"
 	task.699DED933E4DC61C.title: "Büyü Kitapları"
 	task.69AAE2EC36ADE0C3.title: "Kötücül Zırh"
 	task.69C17D93099B4E1D.title: "Gezgin Büyücü Zırhı"
+	task.6A00069F522D80AB.title: "Tüm Görevleri Gör"
 	task.6A0F7469DEB4D145.title: "Herhangi 2. Seviye CAD Çekirdeği"
 	task.6A32E04F83997A6D.title: "&eBul&f: &dKatalizör"
 	task.6A3AABB86967A8C4.title: "Yankı Konumu"
 	task.6A6EB35F2D0397D5.title: "&f&dKaşifin Yankısı &fİle Konuş"
+	task.6AD228A3A433DD1F.title: "MFFS Mahzeni"
+	task.6B27B17119E4FED3.title: "Ruh + Gelişmiş WE Üretim Kilitleri"
+	task.6B45D5D3054C838C.title: "Rehberlik Yankısı"
 	task.6B46A4D5E6915E1B.title: "&f&dİmalatçının Yankısı &fİle Konuş"
 	task.6B9EDB6F4966725F.title: "İnşaat Aletleri"
 	task.6BF1B3F7E85C5E17.title: "&bYükseltilmiş Eklentiler"
 	task.6C730129357A78D0.title: "&eÖldür&f: Zombileşmiş Piglinler"
 	task.6CE5E7F652E0E5B8.title: "&fKar Kraliçesi Mahzenini Bul"
+	task.6D0AA9BE40A0E859.title: "Yankı Konumu"
 	task.6D4D1E6D0136F080.title: "Yıkıcılar"
 	task.6DF527923993A57F.title: "Dünya İçi Sandık Yükseltmeleri"
 	task.6EEDBE793BDCC2D7.title: "Lojistik"
 	task.6F0EB6804E6BC2C8.title: "Depolama"
 	task.6F63CD417D16DE7F.title: "&eGözlemle&r: &6Dünya Motoru Bloğu"
 	task.6FA17DE3B63BDA1A.title: "Sıkıştırma Çekmeceleri"
+	task.6FCBB412F4BBBAEB.title: "&aYankı İmalatçı Kilidini Aç"
+	task.70D4BC76C32CE0A3.title: "levazım subayı"
 	task.70DC330B1BB5FE90.title: "&f&dWyrm Ustasının Yankısı &fİle Konuş"
 	task.716711D72FE69FF5.title: "Türlü Depolama Hücreleri"
+	task.719285FE3BB19A6E.title: "görev 1"
+	task.71B63908FDE6CC61.title: "&bHepsi Bir Arada Aletler"
 	task.71EF7138E44BDF05.title: "Yankı Konumu"
 	task.72121E28134ACE07.title: "&dRehberlik Yankısı &file Tanış"
+	task.7230891A77CE1977.title: "end güney"
 	task.72426E00128EBE6D.title: "Ruh Avcısı Zırhı"
 	task.72566E6107743A29.title: "zırh"
+	task.736019FA0D0976A4.title: "Kademe 5"
 	task.739AFA2E85FD2354.title: "Kompakt Makineler"
+	task.73AD501FEDF94669.title: "nether kuzey"
 	task.742022DB9012FEDC.title: "Herhangi Fidan"
+	task.748C2ADA8E320CA0.title: "Makine İmalatı"
 	task.757B783AC8A9410F.title: "Psimetal Zırh"
+	task.7586948F032C6048.title: "Hydra Mahzeni"
 	task.75A4019E3778367A.title: "&6Eşsiz Silahlar"
+	task.7618036DBF5EE196.title: "Create Mahzeni"
+	task.765414790D7CA99B.title: "Ham Nikel"
 	task.766D48135EA53798.title: "Mühimmat"
 	task.7695C5FDA30F4196.title: "Blazegold Zırhı"
 	task.769744CFA9DB671F.title: "Yankı Konumu"
 	task.76987C0F742A8A14.title: "&f&6Sonsuzluğun Yankısı &fİle Konuş"
 	task.76D42E59F98B63FA.title: "Ödül Kontrolü"
 	task.7747C8ECA64D179D.title: "&f&dRehberlik Yankısı &fİle Konuş"
+	task.77D5AFC1BC5F67C9.title: "Dünya Motoru Üretim Kilitleri"
 	task.77F88B2E5E3A0AE2.title: "&f&6Kaos &fİle Konuş"
 	task.7805089FB14CE3E1.title: "&f&dCehennemin Yankısı &fİle Konuş"
+	task.782E4A45A331FB27.title: "Yankı Yol İşareti"
 	task.78869974512F8AD0.title: "Asansörler"
 	task.78AD19380F54B22A.title: "JDT Kömürleri"
 	task.78F8128005EE1240.title: "Eklenen Mücevherler"
@@ -6411,23 +7028,35 @@
 	task.79684EDD87FFB47C.title: "&eÖldür&f: 20x Creeper"
 	task.79B0BA2223437C7E.title: "Kaotik Aletler"
 	task.79B58E484D4196CD.title: "&eÖldür&f: &dLeviathan"
+	task.79CCC49178D03422.title: "Dünya Motoru Yükseltmesini Otomatik İnşa Et"
+	task.7A0B3916B2B15F4C.title: "alacakaranlık"
+	task.7A9E3DADF485CCB4.title: "biraz üretim"
+	task.7A9F1E65CFB92BDF.title: "hiçlik doğu"
 	task.7AC3BD79A70049CA.title: "&eÖldür&f: &#FCD205Rahip"
 	task.7B3908878D77CBC9.title: "Yankı Konumu"
 	task.7B71A001741520D3.title: "&eÖldür&f: 10x Wither İskeleti"
 	task.7BDED38E6532CB94.title: "İşleme Yükseltmeleri"
 	task.7C552DAEA902AA13.title: "Hız Yükseltmeleri"
 	task.7C55FE23768493AF.title: "İnşaatçılar"
+	task.7C5681A418A2297F.title: "&7Yankı Makinist Kilidini Aç"
 	task.7C972E1F071C029A.title: "Bant Kontrol Öğeleri"
+	task.7C9A60156BE5D21A.title: "Üretim 1"
 	task.7C9DEAA63AE26D5D.title: "Kablosuz Izgaralar"
+	task.7CA66CFB9AAC98BB.title: "nether güney"
 	task.7CCE37FAC12528D7.title: "Ruh Avcısı Teçhizatı"
 	task.7CD51F8C7BC7FF66.title: "Wyvern Enerji Transferi"
 	task.7CECE0F1C53701B6.title: "Büyülü Aletler"
 	task.7D75B40EC4AF799A.title: "Just Dire Things Makineleri"
 	task.7D8611641B6611FB.title: "&f&dRehberlik Yankısı &fİle Konuş"
+	task.7D91A1EAA7FEC6BD.title: "Rehberlerin Söylemesi Gereken Şeyler"
 	task.7DD8D0EDE1FAF2DE.title: "Pusula Al"
 	task.7E02151602B34E2A.title: "Boyutsal Depolama Sabitleyici"
+	task.7E4EF12285852B6E.title: "Bitki Hasadı Seçenekleri"
 	task.7ECEEC776BBA8B53.title: "&dRehberlik Yankısı &fİle Konuş"
 	task.7F31E6F7A6728CF1.title: "Servet Yükseltmeleri"
+	task.7F49EBC813E06257.title: "dünya motoru"
 	task.7F73108709C402C8.title: "Geç Oyun Jeneratörleri"
+	task.7F7FC9A4E8AADA7F.title: "Köylü Takası"
 	task.7FAA87B19ACACCBC.title: "Herhangi Boya"
+	task.7FF2F415F5685DBA.title: "Create Yankı Kilidini Aç Kaldır"
 }

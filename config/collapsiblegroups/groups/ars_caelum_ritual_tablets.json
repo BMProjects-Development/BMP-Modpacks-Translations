@@ -1,0 +1,14 @@
+{
+  "id": "ars_caelum_ritual_tablets",
+  "name": {
+    "translate": "collapsible_groups.group.ars_caelum_ritual_tablets",
+    "fallback": "Ars Caelum: Ritual Tablets"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "ars_caelum" },
+      { "item_path_starts_with": "ritual" }
+    ]
+  }
+}

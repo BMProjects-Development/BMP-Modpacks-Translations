@@ -1,0 +1,24 @@
+[meCookingPot]
+	#Battery capacity of the ME Cooking Pot, in AE units. Charge it in an AE2 Charger (or any FE
+	#charger). The battery pays for network access, not for the heat that cooks the food.
+	# Default: 200000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	batteryCapacity = 200000.0
+	#AE drained from the pot's battery for each ingredient pulled from the ME network.
+	#Set to 0 to make pulling free (heat is then the only cost of cooking).
+	# Default: 20.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	drainPerIngredient = 20.0
+	#AE drained from the pot's battery every tick while it holds a live link to the network,
+	#even when idle — keeping the connection open is not free. When the battery can't pay, the
+	#pot drops offline until it is recharged. Set to 0 to make an open link free.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	idleDrainPerTick = 1.0
+	#If true, the recipe list shows every Farmer's Delight cooking recipe. If false, only
+	#recipes the player has unlocked are shown.
+	showAllRecipes = true
+	#What to do with the empty container a cooked ingredient leaves behind (a milk bucket's
+	#empty bucket, for example). If true they go back into the network; if false they drop on
+	#the floor, which is what the vanilla Farmer's Delight pot does.
+	returnRemaindersToNetwork = true

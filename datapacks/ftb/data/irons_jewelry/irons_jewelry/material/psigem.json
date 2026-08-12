@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "psi:psigem"
   },
-  "materialType": [
-    "gem"
-  ],
   "paletteLocation": "ftb:palettes/arcane",
   "quality": 1.5,
   "bonusParameters": {

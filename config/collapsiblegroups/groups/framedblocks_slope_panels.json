@@ -1,0 +1,14 @@
+{
+  "id": "framedblocks_slope_panels",
+  "name": {
+    "translate": "collapsible_groups.group.framedblocks_slope_panels",
+    "fallback": "Framed Blocks: Slope Panels"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "framedblocks" },
+      { "item_path_contains": "slope_panel" }
+    ]
+  }
+}

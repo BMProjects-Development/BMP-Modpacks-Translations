@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [{ "item": "mekanism:creative_energy_cube" }],
+  "result": {
+    "count": 1,
+    "id": "mekanism:creative_energy_cube",
+    "components": {
+      "mekanism:energy": {
+        "energy_containers": [9223372036854775807]
+      },
+      "mekanism:side_config": {
+        "config": {
+          "energy": {
+            "eject": true,
+            "side": {
+              "back": "output",
+              "bottom": "output",
+              "front": "output",
+              "left": "output",
+              "right": "output",
+              "top": "output"
+            }
+          },
+          "items": {
+            "side": {
+              "back": "input",
+              "bottom": "input",
+              "front": "output",
+              "left": "input",
+              "right": "input",
+              "top": "input"
+            }
+          }
+        }
+      }
+    }
+  }
+}

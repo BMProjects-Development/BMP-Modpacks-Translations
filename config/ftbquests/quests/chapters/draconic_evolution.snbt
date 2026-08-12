@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "16D3149CAD93EB9C"
 			image: "draconicevolution:block/awakened_draconium_block"
 			rotation: 45.0d
 			width: 1.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0BA02342C85CF500"
 			image: "draconicevolution:block/creative_op_capacitor"
 			rotation: 45.0d
 			width: 1.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.0d
+			id: "03A0C05968D1E5F4"
 			image: "draconicevolution:block/draconium_block"
 			order: 45
 			rotation: 45.0d
@@ -37,6 +40,7 @@
 		}
 		{
 			height: 1.25d
+			id: "0A5610F1397C5AA4"
 			image: "draconicevolution:textures/gui/reactor/core.png"
 			rotation: 0.0d
 			width: 1.25d

@@ -3,9 +3,6 @@
   "ingredient": {
     "tag": "c:gems/ruby"
   },
-  "materialType": [
-    "gem"
-  ],
   "paletteLocation": "irons_jewelry:palettes/ruby",
   "quality": 2,
   "bonusParameters": {

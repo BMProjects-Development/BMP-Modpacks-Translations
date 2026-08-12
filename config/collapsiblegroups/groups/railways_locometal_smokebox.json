@@ -1,0 +1,14 @@
+{
+  "id": "railways_locometal_smokebox",
+  "name": {
+    "translate": "collapsible_groups.group.railways_locometal_smokebox",
+    "fallback": "Railways: Locometal Smokebox"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "railways" },
+      { "item_path_contains": "locometal_smokebox" }
+    ]
+  }
+}

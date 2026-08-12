@@ -56,6 +56,14 @@
 			maxTemp = 0.9900000095367432
 			#Whether fireflies can spawn in rain
 			canSpawnInRain = false
+			#Biomes where fireflies always spawn (bypasses temperature check). Example: "minecraft:swamp"
+			biomes = []
+			#Extra blocks that spawn fireflies. Example: "tfc:plant/cattail"
+			spawnBlocks = []
+			#Per-biome firefly RGB hex tints. Format: "biomeId|RRGGBB". Example: "minecraft:swamp|FFD27F". Takes priority over fireflyColorPool.
+			biomeColors = []
+			#Random RGB hex colors picked per firefly when no biomeColors entry matches. Empty = use built-in yellow/blue/red mix. Format: "RRGGBB".
+			colorPool = []
 
 			[general.advancedSettings.fireflySettings.frequencyModifiers]
 				#Daily random factors for firefly spawning
@@ -76,6 +84,10 @@
 				# Default: 0.5
 				# Range: 0.0 ~ 1.0
 				tallFlowers = 0.5
+				#Frequency modifier for blocks listed in fireflySpawnBlocks
+				# Default: 0.16666666666666666
+				# Range: 0.0 ~ 1.0
+				customBlocks = 0.16666666666666666
 
 		[general.advancedSettings.fallingLeavesSettings]
 			#Chance of spawning falling leaves (higher = less frequent)
@@ -144,3 +156,9 @@
 			# Default: 16738335
 			# Range: 0 ~ 16777215
 			lavaCuboidColor = 16738335
+
+		[general.advancedSettings.customFluidsSettings]
+			#Fluid IDs treated like vanilla water for splash, rain ripples, and waterfall spray. Example: "tfc:river_water"
+			waterLikeFluids = ["tfc:river_water", "tfc:flowing_salt_water", "tfc:salt_water", "tfc:flowing_spring_water", "tfc:spring_water"]
+			#Flowing,source fluid pairs that produce cascade waterfalls. Example: "mymod:flowing_water,mymod:water". TFC fluids do not produce cascades because they have no flowing variant.
+			cascadeFluidPairs = []

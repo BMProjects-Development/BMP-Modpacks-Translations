@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "2529CF11E4A7314B"
 			image: "mekanism:block/painting_machine/back"
 			rotation: 0.0d
 			width: 2.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 1.0d
+			id: "74CAA19B7DEDCF08"
 			image: "ae2:block/controller_powered"
 			rotation: 45.0d
 			width: 1.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.0d
+			id: "297CD31D705E48CD"
 			image: "ae2:block/controller_powered"
 			rotation: 45.0d
 			width: 1.0d
@@ -36,6 +39,7 @@
 		}
 		{
 			height: 1.0d
+			id: "65469CEC4E6955B4"
 			image: "ae2:block/controller_powered"
 			rotation: 45.0d
 			width: 1.0d
@@ -44,6 +48,7 @@
 		}
 		{
 			height: 1.0d
+			id: "07CD84FC6AACE2BE"
 			image: "ae2:block/controller_powered"
 			rotation: 45.0d
 			width: 1.0d

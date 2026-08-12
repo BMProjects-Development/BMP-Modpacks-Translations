@@ -1,0 +1,25 @@
+{
+  "id": "framedblocks_lattices",
+  "name": {
+    "translate": "collapsible_groups.group.framedblocks_lattices",
+    "fallback": "Framed Blocks: Lattices, Tubes & Bars"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "all": [
+          { "type": "item", "namespace": "framedblocks" },
+          {
+            "any": [
+              { "item_path_contains": "lattice" },
+              { "item_path_contains": "tube" }
+            ]
+          }
+        ]
+      },
+      { "type": "item", "id": "framedblocks:framed_chain" },
+      { "type": "item", "id": "framedblocks:framed_bars" }
+    ]
+  }
+}

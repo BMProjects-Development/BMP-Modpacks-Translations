@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "justdirethings:eclipsealloy_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "ftb:palettes/eclipse_alloy",
   "quality": 3,
   "bonusParameters": {

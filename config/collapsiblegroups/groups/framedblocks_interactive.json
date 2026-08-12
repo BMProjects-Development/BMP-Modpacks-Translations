@@ -1,0 +1,30 @@
+{
+  "id": "framedblocks_interactive",
+  "name": {
+    "translate": "collapsible_groups.group.framedblocks_interactive",
+    "fallback": "Framed Blocks: Interactive Blocks"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      { "type": "item", "id": "framedblocks:framed_wall" },
+      { "type": "item", "id": "framedblocks:framed_lever" },
+      {
+        "all": [
+          { "type": "item", "namespace": "framedblocks" },
+          {
+            "any": [
+              { "item_path_contains": "fence" },
+              { "item_path_contains": "gate" },
+              { "item_path_contains": "door" },
+              { "item_path_contains": "pressure_plate" },
+              { "item_path_contains": "button" },
+              { "item_path_contains": "torch" },
+              { "item_path_contains": "lantern" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

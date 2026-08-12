@@ -1,0 +1,79 @@
+[mana]
+	#Bonus added to the player's MANA_REGEN attribute on every login. Stacks as a flat addition. Set to -1 to disable. Iron's vanilla default is around 1.0, so a value of 4.0 here gives an effective regen rate of 5.0.
+	# Default: -1.0
+	# Range: -1.0 ~ 100.0
+	baseManaRegenPercent = -1.0
+	#Bonus added to the player's MAX_MANA attribute on every login. Stacks with the value as a flat addition. Set to -1 to disable. Iron's vanilla default is 100, so a value of 400 here gives players 500 max mana total.
+	# Default: -1
+	# Range: -1 ~ 100000
+	startingMaxMana = -1
+	#Fully disable passive mana regen. Implemented as a tick drainback because Iron's regen path does not fire a cancellable event.
+	disableManaRegen = false
+
+[cooldown]
+	#Additive bonus applied to the COOLDOWN_REDUCTION attribute for every player. Around 0.5 cuts cooldowns roughly in half. Negative values lengthen them. Stacks with gear and effects.
+	# Default: 0.0
+	# Range: -10.0 ~ 10.0
+	cooldownReductionBonus = 0.0
+	#Additive bonus applied to the CAST_TIME_REDUCTION attribute for every player. Around 0.5 makes spells cast roughly twice as fast. Negative values lengthen cast times. Stacks with gear and effects.
+	# Default: 0.0
+	# Range: -10.0 ~ 10.0
+	castTimeReductionBonus = 0.0
+
+[spells]
+	#Multiplier applied to every player's SPELL_POWER attribute. 1.0 leaves spell power unchanged. Stacks multiplicatively with gear and other modifiers.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	spellPowerMultiplier = 1.0
+	#Multiplier applied to the duration of buff and debuff effects from Iron's Spellbooks spells. Does not affect vanilla potions, food effects, beacon effects, or effects from other mods. 1.0 leaves durations unchanged.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	buffDurationMultiplier = 1.0
+	#Namespaces of mod effects scaled by buffDurationMultiplier. Defaults to Iron's Spellbooks and the known Iron's addons that register their own effects. Add other addon namespaces to scale their effects too, or remove entries to stop scaling them. Vanilla 'minecraft' is intentionally not supported and will be ignored if present.
+	buffDurationNamespaces = ["irons_spellbooks", "cataclysm_spellbooks", "dacxirons", "gametechbcs_spellbooks", "gtbcs_geomancy_plus", "hazennstuff", "ias_spellbooks", "traveloptics"]
+
+[restrictions]
+	#Dimensions where spell casting is fully blocked. List of dimension IDs like "minecraft:nether" or "twilightforest:twilight_forest". Empty list disables this feature. Affects players only, not mob casters.
+	spellCastingDisabledDimensions = []
+	#Highest spell rarity players are allowed to cast. Spells with a higher minimum rarity are blocked. Valid values: common, uncommon, rare, epic, legendary, or empty to disable. For example, 'uncommon' allows common and uncommon spells but blocks rare, epic, and legendary. 'legendary' allows everything. Mob casters are not affected.
+	maxSpellRarity = ""
+	#Spell IDs that cannot be inscribed at the inscription table. List of spell IDs like "irons_spellbooks:fireball". Empty list disables this feature. Players will see their inscription cancelled silently.
+	inscriptionBlacklist = []
+
+[blackhole]
+	#Per-entity-type resistance to black hole pull. Format: "entity_id:strength" where strength is 0.0 (no effect) to 1.0 (fully immune). Iron's hardcodes a 0.3 minimum pull regardless of KNOCKBACK_RESISTANCE attribute, so this exists to push past that floor for specific bosses. Affects black hole only, not other movement spells or vanilla knockback.
+	blackholeImmunity = []
+
+[summons]
+	#Multiplier applied to a summoned vex's base HP. 1.0 leaves HP unchanged. Stacks multiplicatively with any HP scaling another mod applies (Apotheosis-style scalers, difficulty mods, etc).
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	summonVexHpMultiplier = 1.0
+	#Multiplier applied to a summoned vex's melee damage per hit. 1.0 leaves damage unchanged. 0.0 reduces every hit to zero.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	summonVexDamageMultiplier = 1.0
+	#Multiplier applied to the base HP of Raise Dead summons. 1.0 leaves HP unchanged. Applies to both summoned skeletons and zombies.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	raiseDeadHpMultiplier = 1.0
+	#Multiplier applied to a Raise Dead summon's melee damage per hit. 1.0 leaves damage unchanged. 0.0 reduces every hit to zero. Applies to both summoned skeletons and zombies.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	raiseDeadDamageMultiplier = 1.0
+	#Multiplier applied to a summoned polar bear's base HP. 1.0 leaves HP unchanged. Iron's already scales polar bear base HP with spell level and spell power before this multiplier is applied.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	summonPolarBearHpMultiplier = 1.0
+	#Multiplier applied to a summoned polar bear's melee damage per hit. 1.0 leaves damage unchanged. 0.0 reduces every hit to zero.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	summonPolarBearDamageMultiplier = 1.0
+	#Multiplier applied to a summoned horse's base HP. 1.0 leaves HP unchanged. Iron's already scales horse base HP with spell power before this multiplier is applied.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	summonHorseHpMultiplier = 1.0
+	#Multiplier applied to Summon Swords damage per hit. 1.0 leaves damage unchanged. 0.0 reduces every hit to zero.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	summonSwordsDamageMultiplier = 1.0

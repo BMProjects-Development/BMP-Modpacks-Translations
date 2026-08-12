@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 5.0d
+			id: "25A311DA4A50B9E4"
 			image: "ftb:textures/quests/backgrounds/tempad_bg.png"
 			rotation: 90.0d
 			width: 9.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 3.0d
+			id: "7C180BCFE13F2FFF"
 			image: "ftbquests:textures/shapes/circle/outline.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 2.0d
+			id: "5231E596025DF9EF"
 			image: "ftbquests:textures/shapes/circle/outline.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -36,6 +39,7 @@
 		}
 		{
 			height: 20.0d
+			id: "3BB2D635B034FB3E"
 			image: "occultism:item/entity_wormhole_portal"
 			order: -3
 			rotation: 0.0d

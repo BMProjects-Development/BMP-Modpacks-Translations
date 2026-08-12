@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "irregular_implements:spectre_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "ftb:palettes/arcane",
   "quality": 2,
   "bonusParameters": {

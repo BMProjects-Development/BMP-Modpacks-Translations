@@ -1,0 +1,16 @@
+{
+  "id": "framedblocks_slabs",
+  "name": {
+    "translate": "collapsible_groups.group.framedblocks_slabs",
+    "fallback": "Framed Blocks: Slabs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "framedblocks" },
+      { "item_path_contains": "slab" },
+      { "not": { "item_path_contains": "slope_slab" } },
+      { "not": { "item_path_contains": "stairs" } }
+    ]
+  }
+}

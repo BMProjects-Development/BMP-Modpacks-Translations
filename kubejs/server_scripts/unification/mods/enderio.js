@@ -159,4 +159,12 @@ ServerEvents.recipes((event) => {
     ],
     `ftb:enderio/sagmill/gems/salt`
   )
+
+  //Silicon Ingot Crushing
+  addRecipeEnderIOSagMilling(
+    event,
+    "c:ingots/silicon",
+    [["ftbmaterials:silicon_dust", 1]],
+    `ftb:enderio/sagmill/ingots/silicon`
+  )
 })

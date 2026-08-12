@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "projecte:dark_matter"
   },
-  "materialType": [
-    "gem"
-  ],
   "paletteLocation": "ftb:palettes/dark_matter",
   "quality": 2,
   "bonusParameters": {

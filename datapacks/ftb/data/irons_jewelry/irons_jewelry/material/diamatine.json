@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "actuallyadditions:diamatine_crystal"
   },
-  "materialType": [
-    "gem"
-  ],
   "paletteLocation": "irons_jewelry:palettes/diamond",
   "quality": 2,
   "bonusParameters": {

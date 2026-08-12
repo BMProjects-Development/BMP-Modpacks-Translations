@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "occultism:iesnium_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "irons_jewelry:palettes/platinum",
   "quality": 2.3,
   "bonusParameters": {

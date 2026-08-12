@@ -18,4 +18,14 @@
 		-17
 		37
 	]
+	
+	# Subdirectories to be copied from the 'ftbteambases/pregen_initial' directory
+	# Default: ["region", "entities", "poi", "DIM1", "DIM-1"]
+	pregen_initial_subdirs: [
+		"region"
+		"entities"
+		"poi"
+		"DIM1"
+		"DIM-1"
+	]
 }

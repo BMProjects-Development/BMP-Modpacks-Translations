@@ -1,0 +1,16 @@
+# Apothic Compat affix blacklist.
+#
+# Stops the listed affixes from rolling on newly generated gear (loot drops, reforging, trades,
+# gem application). Existing items keep any affixes they already have; this only blocks future
+# rolls. Apotheosis's own datapack affix overrides still win.
+#
+#   value = array of affix ids, each "namespace:path"
+#
+# Find affix ids from JEI tooltips on affixed gear, or from the files under
+# data/<namespace>/affixes/ inside a mod's jar. Edit this list then run /ac reload (op 2) to
+# reapply without a restart.
+#
+# Example:
+#   affix_blacklist = ["apotheosis:attribute/sword/vampiric"]
+
+affix_blacklist = []

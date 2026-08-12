@@ -1,0 +1,32 @@
+{
+  "id": "railways_narrow_tracks",
+  "name": {
+    "translate": "collapsible_groups.group.railways_narrow_tracks",
+    "fallback": "Railways: Narrow Tracks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "railways"
+      },
+      {
+        "not": {
+          "item_path_contains": "wide"
+        }
+      },
+      {
+        "item_path_contains": "narrow"
+      },
+      {
+        "item_path_contains": "track"
+      },
+      {
+        "not": {
+          "item_path_contains": "monorail"
+        }
+      }
+    ]
+  }
+}

@@ -262,6 +262,10 @@
       {
         "type": "item",
         "stack": "{\"id\":\"toomanyglyphs:glyph_filter_is_mature\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"not_enough_glyphs:glyph_feed\"}"
       }
     ]
   }

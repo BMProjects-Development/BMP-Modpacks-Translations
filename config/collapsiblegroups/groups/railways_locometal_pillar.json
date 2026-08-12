@@ -1,0 +1,14 @@
+{
+  "id": "railways_locometal_pillar",
+  "name": {
+    "translate": "collapsible_groups.group.railways_locometal_pillar",
+    "fallback": "Railways: Locometal Pillar"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "railways" },
+      { "item_path_contains": "locometal_pillar" }
+    ]
+  }
+}

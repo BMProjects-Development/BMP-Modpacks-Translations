@@ -162,7 +162,9 @@ ServerEvents.recipes((event) => {
       event.shaped(large, ["CCC", "CCC", "CCC"], { C: small }).id(`ftb:compress/${base}`);
     } else {
       // 8 small -> 1 large (shapeless)
-      event.shapeless(large, Array(count).fill(small)).id(`ftb:compress/${base}`);
+      const inputs = [];
+      for (let i = 0; i < count; i++) inputs.push(small);
+      event.shapeless(large, inputs).id(`ftb:compress/${base}`);
     }
 
     // Decompress: 1 large -> X small (shapeless)

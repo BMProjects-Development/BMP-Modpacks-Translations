@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "psi:psimetal"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "ftb:palettes/arcane",
   "quality": 2.25,
   "bonusParameters": {

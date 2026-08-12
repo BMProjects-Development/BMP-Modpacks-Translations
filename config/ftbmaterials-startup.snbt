@@ -1,0 +1,38 @@
+{
+	blacklists: {
+		# List of block IDs which should never be automatically added to the unification DB
+		# These can be wildcarded, e.g. 'somemod:*' blacklists all id's in the 'somemod' namespace
+		# Default: []
+		unification_blacklist_blocks: [ ]
+		
+		# List of item tag IDs which should never be automatically added to the unification DB
+		# These can be wildcarded, e.g. 'somemod:*' blacklists all id's in the 'somemod' namespace
+		# Default: []
+		unification_blacklist_item_tags: [ ]
+		
+		# List of item IDs which should never be automatically added to the unification DB
+		# These can be wildcarded, e.g. 'somemod:*' blacklists all id's in the 'somemod' namespace
+		# Default: []
+		unification_blacklist_items: [ ]
+	}
+	overrides: {
+		# Overrides applied to recipe types of the given mod when doing item lookup in the unification DB
+		item_overrides: { }
+		
+		# Overrides applied to recipe types of the given mod when doing item tag lookup in the unification DB
+		tag_overrides: { }
+	}
+	tweaks: {
+		# If true, tweaks loot tables so that loot generated in chests as well as modded materials dropped from broken blocks are replaced by their FTB Materials counterparts. Vanilla loot is not affected.
+		# Default: true
+		tweak_loot_tables: true
+		
+		# If true, tweaks recipes during the recipe manager load phase so that all relevant modded inputs & outputs use their FTB Materials counterparts instead. Vanilla materials are not affected.
+		# Default: true
+		tweak_recipes: true
+		
+		# If true, tweaks worldgen so that any modded generated ores are replaced by their FTB Materials counterparts. Vanilla ores are not affected.
+		# Default: true
+		tweak_worldgen: true
+	}
+}

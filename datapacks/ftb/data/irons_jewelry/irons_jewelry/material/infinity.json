@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "avaritia:infinity_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "ftb:palettes/infinity",
   "quality": 100,
   "bonusParameters": {

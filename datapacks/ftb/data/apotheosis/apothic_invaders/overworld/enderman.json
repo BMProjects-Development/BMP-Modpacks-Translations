@@ -9,7 +9,9 @@
             "biomes": [
                 "ftb:stone",
                 "ftb:upper/stone",
+                "ftb:lower/stone",
                 "ftb:upper/deepslate",
+                "ftb:lower/deepslate",
                 "ftb:deepslate"
             ]
         },

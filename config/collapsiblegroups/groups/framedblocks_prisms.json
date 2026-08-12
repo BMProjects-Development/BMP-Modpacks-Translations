@@ -1,0 +1,19 @@
+{
+  "id": "framedblocks_prisms",
+  "name": {
+    "translate": "collapsible_groups.group.framedblocks_prisms",
+    "fallback": "Framed Blocks: Prisms & Pyramids"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "framedblocks" },
+      {
+        "any": [
+          { "item_path_contains": "prism" },
+          { "item_path_contains": "pyramid" }
+        ]
+      }
+    ]
+  }
+}

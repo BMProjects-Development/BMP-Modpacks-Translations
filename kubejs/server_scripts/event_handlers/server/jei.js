@@ -1,8 +1,10 @@
 // priority: 992
 
-// Remove categories (yours unchanged)
 RecipeViewerEvents.removeCategories((event) => {
-  const removeCategories = [];
+  const removeCategories = [
+    // Just Dyna Things's Fluid Generator category duplicates Just Dire Fuels' own
+    "justdynathings:generatorfluidt1",
+  ];
   removeCategories.forEach((catid) => event.remove(catid));
 });
 

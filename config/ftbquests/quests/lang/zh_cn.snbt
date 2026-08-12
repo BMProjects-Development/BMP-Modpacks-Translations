@@ -25,6 +25,9 @@
 	chapter_group.337473E1389D8A71.title: "&6失落知识"
 	chapter_group.4B65568899D62A0C.title: "&6往日余音"
 	file.0000000000000001.title: "&6石头世界4"
+	image.1921E6064403BF31.title: "ftb.hover.reactor_wiki"
+	image.1B8538AADE27E44F.title: "ftb.hover.bug"
+	image.58FB752DEB6896EA.title: "ftb.hover.discord"
 	quest.0065DA4214B7B303.quest_desc: [
 		"&e远古遗魂&r可在&d异界地牢&r中找到。"
 		""
@@ -58,7 +61,7 @@
 	quest.00A7C1FE54F86429.quest_desc: [
 		"&e神化&r模组大幅修改了原版的附魔系统，增加了三种新属性，玩家可以在升级过的附魔设施中进行更高阶的附魔。升级附魔设施时，你需要合理安排这三个属性的数值："
 		""
-		"&a位阶&r：这是附魔台的力量源泉，其最大值取决于你的书架等级。这个属性决定了附魔的最高等级。"
+		"[\"\", {\"text\": \"位阶\", \"color\": \"green\"}, \"：这是附魔台的力量源泉，其最大值取决于你的书架等级和\", { \"text\": \"世界层级\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"011DBD2652E49B97\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往世界层级任务\"} }, \"，决定了附魔的最高等级。\" ]"
 		""
 		"&c量子化&r：这是进行高阶附魔时必然产生的混沌。这个属性决定了附魔的随机性。"
 		""
@@ -76,29 +79,11 @@
 		"安装该组件后，你就可以燃烧各种物品发电了，比如煤炭或者木头，具体能烧什么取决于该熔炉的种类。比如说，你可以给这个发电机安装&a强化组件：高炉&r，这样它就可以烧铁或者钻石之类的矿物，发更多的电了。"
 	]
 	quest.011DBD2652E49B97.quest_desc: [
-		"&6神化&r模组添加了一个全新的&b世界层级&r系统，默认可以通过“CTRL+T”查看。"
+		"[\"\", {\"text\": \"神化\", \"color\": \"yellow\"}, \"模组添加了一个\", {\"text\": \"世界层级\", \"color\": \"aqua\"}, \"系统，可以按\", {\"keybind\": \"key.apotheosis.open_world_tier_select\", \"color\": \"yellow\", \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"默认：CTRL + T\"}}, \"查看。\" ]"
 		""
 		"[\"获得第一个\", {\"text\": \"词缀物品\", \"color\": \"#55FF55\"}, \"后·，你就会进入\", {\"text\": \"居所\", \"color\": \"#7E7E7E\"}, \"层级。随着模组进程的推进，你会解锁更多的层级。\"]"
 		""
-		"随着层级升高，所有维度的难度和奖励都会增加，具体可在层级菜单（“CTRL+T”）中查看。"
-		""
-		"要提升你的&b世界层级&r，你可以按“L”（默认按键），然后点进带有头颅的选项卡，即可查看&6神化&r模组的进度，它会指导你推进。"
-		""
-		"你也可以在此任务的下一页中查看提升层级所需的条件。"
-		"{@pagebreak}"
-		"&b世界层级&r"
-		""
-		"[\"\", {\"text\": \"居所\", \"color\": \"#7E7E7E\"}, \" - 获得第一个\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"装备。\"]"
-		""
-		"[\"\", {\"text\": \"边境\", \"color\": \"#55FF55\"}, \" - 穿上一整套\", {\"text\": \"普通\", \"color\": \"#7E7E7E\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备。\"]"
-		""
-		"[\"\", {\"text\": \"攀升\", \"color\": \"#5454FC\"}, \" - 穿上一整套\", {\"text\": \"罕见\", \"color\": \"#55FF55\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀一个\", {\"text\": \"神化\", \"color\": \"#FFAA00\"}, \"Boss。\"]"
-		""
-		"[\"\", {\"text\": \"高峰\", \"color\": \"#B900B9\"}, \" - 穿上一整套\", {\"text\": \"稀有\", \"color\": \"#5454FC\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀凋灵。\"]"
-		""
-		"[\"\", {\"text\": \"顶点\", \"color\": \"#EA6F14\"}, \" - 穿上一整套\", {\"text\": \"史诗\", \"color\": \"#B900B9\"}, \"或更高级\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的装备，并击杀末影鸡骑士。\"]"
-		""
-		"你可以在&b世界层级&r菜单（默认为“CTRL+T”）中查看每个层级的变化。"
+		"随着层级升高，所有维度的怪物属性和奖励都会增加，最高&a位阶&f上限降低。具体可在层级菜单中查看。"
 	]
 	quest.011DBD2652E49B97.title: "&f神化世界层级"
 	quest.012AEBFDB1F1512E.quest_desc: ["&eJust Dire Things&r模组的盔甲可以使用&a模板&r来升阶，且盔甲的等阶越高，可以加装的&2升级&r就越多，最终可以打造出比下界合金更强大的盔甲。"]
@@ -124,12 +109,13 @@
 		"- 3号槽位：镶框抽屉"
 		"- 4号槽位：分割线纹理"
 	]
+	quest.01C338263242935F.title: "TF East"
 	quest.01D2CEAF59872C33.quest_desc: [
-		"&a宝石切割台&r可以升级&b宝石&r。"
+		"&d宝石柜&f用于存储和升级&b宝石&r。"
 		""
-		"升级&b宝石&r需要消耗&a宝石粉&r、对应稀有度的材料以及另一枚同稀有度的&b宝石&r。&b宝石&r的稀有度越高，升级消耗的材料就越多。"
+		"它算是&a宝石切割台&f的升级版，毕竟后者只能升级宝石。"
 		""
-		"具体的升级花费会在切割台的UI中显示。"
+		"升级&b宝石&r需要消耗&a宝石粉&r、珍宝材料以及另一枚同稀有度的&b宝石&r。&b宝石&r的稀有度越高，升级消耗的材料就越多。升级要消耗的详细材料会在界面中显示。"
 	]
 	quest.01D2CEAF59872C33.title: "&a宝石切割台"
 	quest.01DB719967817220.quest_desc: [
@@ -270,6 +256,7 @@
 		"&7&o与他见面后，你可以使用&e/echo machinist&7命令从大厅的任何地方直接传送到这个回响处。"
 	]
 	quest.0484D6030DF690BD.title: "&f见到&d机械师"
+	quest.04886BA191FF452F.title: "Ocean West"
 	quest.049DE43A1B31C38F.quest_desc: ["这个章节会着重介绍大多数存储物品的办法！"]
 	quest.049DE43A1B31C38F.title: "&a通用存储选项"
 	quest.04ABB8DD43099429.quest_desc: [
@@ -557,11 +544,7 @@
 	quest.0AD2F3DB33241628.title: "&e新生魔艺&f工具"
 	quest.0ADBBF7BA99D2811.quest_desc: ["&e实用拓展&r模组的&a全能工具&r拥有所有种类工具的功能，可以大大节省你快捷栏的空间！"]
 	quest.0ADBBF7BA99D2811.title: "&f全能工具"
-	quest.0AFF8E28FC51B123.quest_desc: [
-		"想要轻松省事地交换两个普通方块吗？快来试试&c替换手杖&r吧！"
-		""
-		"想要轻松省事地将一个方块从一处搬到另一处吗？快来试试&c拾取手杖&r吧！"
-	]
+	quest.0AFA74FA77E9056B.title: "Ocean South"
 	quest.0B02B72259362345.quest_desc: ["领取此任务奖励将在&d回响&6档案室&r入口处设置一个路径点。"]
 	quest.0B02B72259362345.title: "&f定位&d构件师"
 	quest.0B1E459D12D11A0D.quest_desc: [
@@ -617,7 +600,7 @@
 	quest.0B69B9E1209A9234.quest_subtitle: "主要世界引擎升级"
 	quest.0B69B9E1209A9234.title: "&f末影科技"
 	quest.0B92679772DB0C68.quest_desc: [
-		"&a传动轴&r和&a齿轮&r是将旋转力传递到你的机器与结构的主要方式。"
+		"&a传动杆&r和&a齿轮&r是将旋转力传递到你的机器与结构的主要方式。"
 		""
 		"对着&a齿轮&r进行&b思索&r，了解它们如何应用于增加或减少动力网络中的&b每分钟转速&r（&bRPM&r）。"
 	]
@@ -747,7 +730,7 @@
 	]
 	quest.0DF5D2B35FDEE536.title: "XNet"
 	quest.0E06BDC6265EB7F7.quest_desc: [
-		"&3ME控制器&r可以用来增加一个网络中的频道数量，这个东西在游戏初期并不是特别重要的东西，因为你初始网络自带36个频道。但是一个没有&3控制器&r的网络只能&b暂时拿来用用&r。"
+		"&3ME控制器&r可以用来增加一个网络中的频道数量，这个东西在游戏初期并不是特别重要的东西，因为你初始网络自带32个频道。但是一个没有&3控制器&r的网络只能&b暂时拿来用用&r。"
 		""
 		"&e注意&r：要合成&3控制器&r，需要先用&b力场子灌注块&r进行&6世界引擎升级&r。"
 		"{@pagebreak}"
@@ -1407,6 +1390,12 @@
 		"专业提示：和猪灵交易可以很轻松地获得&d哭泣黑曜石&r，但也有其他方法！"
 	]
 	quest.1CFD4CE2704F2ADE.title: "&a制作&r&d法术&r"
+	quest.1D464EAED6D9BE28.quest_desc: [
+		"达到最高&a位阶&f后，就该制作&z渡鸦附魔台&f了。"
+		""
+		"这张附魔台可以让你手动配置&a位阶&f、&c量子化&f和&d阿卡那&f，无需依赖附近书架。"
+	]
+	quest.1D464EAED6D9BE28.title: "&z渡鸦附魔台"
 	quest.1D52FC5D0EAD911B.title: "Guidance Check 2"
 	quest.1D87C5E9D52341C4.quest_desc: [
 		"要制作&e龙之进化&r更高级的物品，你需要一种被称作&d聚合注入&r的特殊合成装置。"
@@ -1771,6 +1760,14 @@
 		"&e注意&r：本章节的所有任务必须使用&n&6目标显示器&r完成。"
 	]
 	quest.25CCA572C4D5CEA0.title: "飞升阶段1 - 玄穹"
+	quest.261B2184A4839741.quest_desc: [
+		"如果与好友联机游玩并希望共享同一个初始基地，FTB Teams可以轻松实现。"
+		""
+		"首次进入世界时，系统会自动为你创建一支队伍。因此需要先在聊天栏输入&a/ftbteams party leave&f，然后再输入一次以确认退出。"
+		""
+		"完成后，队长可通过输入&a/ftbteams party invite <玩家名>&f邀请新玩家，聊天栏中将弹出提示，供新成员选择接受或拒绝邀请。"
+	]
+	quest.261B2184A4839741.title: "建立并加入一个队伍"
 	quest.2646D51DBAD8AD42.quest_desc: [
 		"&bCheck&f: Getting Shadow Casing"
 		""
@@ -1779,9 +1776,9 @@
 	quest.2646D51DBAD8AD42.title: "Machinist Check 1"
 	quest.26727A01D814C5A9.title: "虚空碎片"
 	quest.2682A911828C2D88.quest_desc: [
-		"&e框架方块&r就是用来干这个的！有了它，你就可以搞出形状纹理五花八门的方块了！"
+		"&e框架方块&r可用于制作自定义方块与形状，且几乎能套用整合包中任何其他方块的纹理！"
 		""
-		"先把框架方块放下来，然后手持某方块右击，这样它就会变成手中方块的纹理了。"
+		"操作时，先放置一个框架方块，随后手持所需纹理的方块右击它，即可将纹理套用上去。"
 		""
 		"这玩意还有些好玩的特性，比如说对它使用&6荧石粉&r，它就会发光！"
 	]
@@ -2020,7 +2017,7 @@
 	quest.2C1649AE3DADD71D.title: "&b更快地建造"
 	quest.2C40123DF5EBA846.title: "盔甲"
 	quest.2C8099E185CA2B60.quest_desc: [
-		"&a咖啡机&r可以制作像药水一样的饮料，喝下后可以获得很多Buff。"
+		"&a咖啡制造机&r可以制作像药水一样的饮料，喝下后可以获得很多Buff。"
 		""
 		"这台机器需要能量才能正常工作，它可以将&a咖啡豆&r和水混合，最后倒入&a空杯子&r中做成&a一杯咖啡&r。"
 		""
@@ -2125,6 +2122,7 @@
 		"&7&o任何与幸福工厂当前或过往技术的相似之处均纯属巧合。"
 	]
 	quest.2D20EDB447787183.title: "&6机械动力：超级管道"
+	quest.2D35AD2FDC93FA46.title: "TF South"
 	quest.2D8FCC93C758D070.title: "灵魂存储部件"
 	quest.2D95FEECCF48B088.quest_desc: [
 		"&a通量容器&r是一种便携式能量电池，可以存储能量，并为你物品栏中的物品充能。"
@@ -2246,6 +2244,7 @@
 	quest.30902357747A64F1.title: "&f冰雪女王的宫殿"
 	quest.309D995CCCDB3AEE.quest_desc: ["&d飞龙匠人&r已经把注入神龙之力的&a时元电池&r给你了，你可以借助它进入&z破碎虚空&r。传送点位同样已经绑定到你的&2操作板&r中。"]
 	quest.309D995CCCDB3AEE.title: "&f与&d飞龙匠人&f对话"
+	quest.30DC15C5BF42A9DE.title: "Ocean East"
 	quest.30EE07811728D901.quest_desc: [
 		"&6世界引擎&r的功能即将完全复原。最后一步是制造终极金属。"
 		""
@@ -2320,13 +2319,9 @@
 		"{@pagebreak}"
 		"重铸台有三个输入槽："
 		""
-		"—中间的槽位放你想要重铸的物品；"
+		"中间的槽位存放你想要重铸的物品，左上角的槽位放对应稀有度的珍宝材料，右下角的槽位放&a新生符石&r，后两者是重铸过程中的耗材。"
 		""
-		"—左上角的槽位放对应稀有度的材料；"
-		""
-		"—右下角的槽位存放&a新生符石&r，它是重铸过程中的耗材。"
-		""
-		"重铸会消耗一定的经验、新生符石和重铸等级对应的材料，如果选择较高级的两个重铸选项，则消耗的数量会增长至两倍甚至三倍。"
+		"重铸会消耗一定的经验、新生符石和对应稀有度的珍宝材料，如果选择较高级的两个重铸选项，则消耗的数量会增长至两倍甚至三倍。"
 	]
 	quest.3208AF90091D1B6B.title: "&a简易重铸台"
 	quest.322B81D896CBDF16.quest_desc: [
@@ -2515,7 +2510,7 @@
 	]
 	quest.3506242698EDF435.title: "&f堆叠升级"
 	quest.353F6C94B5D5FF0B.quest_desc: [
-		"为了进一步提高&6位阶&r，你需要制作并灌注&3深暗书架&r。"
+		"为了进一步提高&6位阶&r，你需要制作并灌注&3深暗书架&r，以及到达&b世界层级&6高峰&f。"
 		""
 		"它们可以将你的&6位阶&r增加到至多&a75&r。"
 		""
@@ -2616,6 +2611,17 @@
 	quest.376227602F2E3DA4.title: "&z时间水晶&r"
 	quest.37A6FBA47B056D57.title: "暗影机壳交易"
 	quest.37CC00D0136EFDAE.title: "Guidance Check 4.1"
+	quest.37F6FA6FD524AB9F.quest_desc: [
+		"&6数据中心&f多方块结构尺寸为7x7x7，最多可同时运行25个&z自我意识&r级数据模型。"
+		""
+		"结构底部由7x7的&d黑曜石&r平台构成，墙体使用&a黑色染色玻璃&r搭建，内部需保持中空。随后，必须在底部最外层放置&6数据中心&r方块和3个&bIO端口&r，且分别配置为不同的模式：能量、输入、输出。"
+		""
+		"你还可以自行选择添加第4个配置为模型模式的端口，以便自动输入数据模型，但这并非必需。"
+		""
+		"如果搭建正确，多方块结构周围会显示出蓝色轮廓；否则，你可以点击&6数据模型&f主方块来查看详细信息。"
+		""
+		"[\"你也可以查看\", {\"text\": \"数据中心GuideMe指南\", \"underlined\": true, \"color\": \"aqua\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/guidemec hostilenetworks:guide open\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"打开数据中心GuideMe指南\"}}, \"来参考搭建示例。\"]"
+	]
 	quest.37F99696A47264FD.quest_desc: ["本章节旨在教你一些打造、强化、附魔装备的方式，以备探险使用！"]
 	quest.37F99696A47264FD.title: "&f穿戴整齐，出门探险！"
 	quest.38124EBC1E14AB38.quest_desc: [
@@ -2693,7 +2699,7 @@
 	]
 	quest.3917A0EC517F70E6.title: "&f自动建造&3魔源升级"
 	quest.39751E377C0F22EE.quest_desc: [
-		"&a复制终端&r允许你请求被复制的物品。"
+		"&a复制终端&r让你能请求被复制的物品。"
 		""
 		"终端将会显示你在网络中&d存储芯片&r储存的物品，同时也会在右侧显示&a物质储罐&r中储存的物质总量。"
 	]
@@ -2740,9 +2746,9 @@
 	]
 	quest.3A1424B69AD511BD.title: "&e实用拓展&f的手钻"
 	quest.3A43CCB33A024711.quest_desc: [
-		"&6工作站&r可以看作是可以放置在世界中使用的&e时域仪&r。"
+		"&6时门主机&r可以看作是可以放置在世界中使用的&e时域仪&r。"
 		""
-		"要使用它，你需要把&6时域仪&r放在它上面。如果安装了&d时间扭曲器&r功能，那在工作站中也一样可用。"
+		"要使用它，你需要把&6时域仪&r放在它上面。如果安装了&d时间扭曲器&r功能，那在时门主机中也一样可用。"
 		""
 		"它提供更多的选项和配置，例如可以延长时门的持续时间，还可以在时门上安装可选的升级。"
 		"{@pagebreak}"
@@ -2773,7 +2779,7 @@
 	quest.3A59D1773EBD3B8A.quest_subtitle: "次要世界引擎升级"
 	quest.3A59D1773EBD3B8A.title: "&6量子桥"
 	quest.3A7774F5F0FD174E.quest_desc: [
-		"在进行下一次升级之前，你需要先把&6位阶&r提升到&a45&r。用这些升级版书架就行。"
+		"在进行下一次升级之前，你需要先到达&6世界层级&a边境&f，把&6位阶&r提升到&a45&r。用这些升级版书架就行。"
 		""
 		"&c下界书架&r造起来比较简单，主要用于提升&c量子化&r。"
 		""
@@ -2910,7 +2916,7 @@
 		""
 		"&a九头蛇巢穴宝库&r可在&b暮色森林&r环的下层找到。"
 		""
-		"&e注意&r：&c九头蛇&r未按时交租，所以地方让给别的租户了。"
+		"&e注意&r：&c九头蛇&r因为交不起地租，已经被请出这个世界了，现在只能以数据模型的形式存在。"
 	]
 	quest.3D0CE267A8FD95CD.title: "&f九头蛇巢穴"
 	quest.3D0DC34C36A173F5.quest_desc: ["&eOritech&r模组的&2外骨骼装甲&r可提供许多增益效果，在探索世界时十分有用。但当你在外遇到危险时，它提供不了任何保护。"]
@@ -3271,7 +3277,7 @@
 	quest.43949500F6A0B46A.quest_desc: [
 		"&d多方块合成CPU&r是&eAE2&r的自动合成核心。"
 		""
-		"这个多方块必须按照立方体搭建，不允许有任何空缺方块，其中至少要有一个&a合成存储器&r。&a并行处理单元&r也推荐放几个进去。"
+		"这个多方块必须按照长方体搭建，不允许有任何空缺方块，其中至少要有一个&a合成存储器&r。&a并行处理单元&r也推荐放几个进去。"
 		"{@pagebreak}"
 		"&a合成存储器&r是用来存储合成原材料的，其存储容量决定了一次请求可以合成的物品量。 "
 		""
@@ -3287,6 +3293,7 @@
 	]
 	quest.43949500F6A0B46A.title: "&d多方块自动合成"
 	quest.43A632369D0E2CE0.title: "Guidance Completed 4.1"
+	quest.43B92A87F280211F.title: "TF West"
 	quest.4402F6855A75B7F6.quest_desc: ["此地牢会生成在&2暮色森林&r环的下层。"]
 	quest.4402F6855A75B7F6.title: "找到&2巨魔洞穴"
 	quest.4426687CCCDD759A.title: "Magician Check 2"
@@ -3311,12 +3318,12 @@
 	]
 	quest.4468BC270F100F27.title: "&a末影接口"
 	quest.4498E3F4B2DC24FC.quest_desc: [
-		"如果你想制作出终极的&e神化&r装备，那就准备好周游世界大战怪物寻找&b宝石&r吧！"
+		"如果你想制作出终极的&e神化&r装备，那就准备好周游世界，大战怪物寻找&b宝石&r吧！"
 		""
 		"&b宝石&r是一种水晶，将宝石镶嵌在带有&b词缀&r的物品上，就能为其带来强大加成。"
-		"{@pagebreak}"
-		"你需要用&a锻造台&r将&b宝石&r装到物品上。物品必须要有&a镶孔&r才能安装宝石。"
 		""
+		"你需要用&2锻造台&r将&b宝石&r装到物品上，但物品必须要有&a镶孔&r才能安装宝石。"
+		"{@pagebreak}"
 		"安装宝石的物品种类不同，宝石带来的加成也不同。&a宝石切割台&r可以升级宝石。"
 		""
 		"一件物品只能镶嵌一颗&c唯一宝石&r，其他的宝石则可以安装多个来叠加效果。"
@@ -3484,6 +3491,7 @@
 		"&6魔灵全典&r提供此模组的全部入门指导。同时它也作为某些物品的合成材料之一，还能用于展示&b全息图&r来辅助你搭建&d仪式&r！"
 	]
 	quest.4784FDEE62A479D0.title: "&e神秘学"
+	quest.47920CCF1C3CAE5B.title: "End North"
 	quest.47C1E9F93CEF25D3.quest_desc: ["提升&3发掘等级&r也可以丰富你刷方块得到的物品的种类。"]
 	quest.47C1E9F93CEF25D3.title: "&f发掘等级"
 	quest.47C45A0552FBC1BD.title: "&f游玩&d50小时"
@@ -3660,7 +3668,7 @@
 		""
 		"&d奇点&r要用来制作大规模存储设备，以及跨维度链接装置。"
 	]
-	quest.4B463FDAEAC42511.title: "&3物质聚合器&6"
+	quest.4B463FDAEAC42511.title: "&3物质聚合器&f"
 	quest.4B576E9FFA5D79CF.quest_desc: [
 		"还记得任务里说，你将需要大量&6觉醒龙锭&r吗？时候到了，你需要&a378&r个&6觉醒龙锭块&r。"
 		""
@@ -4052,11 +4060,13 @@
 	quest.527A754FEFC95F4C.quest_desc: ["现在你应该挤出了一些&z混沌&r，是时候返回&d混沌&r&6至高者&r身边了。"]
 	quest.527A754FEFC95F4C.title: "&f与&6混沌&f对话"
 	quest.52ADC3D46CCB2659.quest_desc: [
-		"&a神化&r模组可以转移并升级&d刷怪笼&r，以搭建属于你的刷怪场。要移动刷怪笼，用附魔&b精准采集&r的镐子挖掉即可。"
+		"&a神话刷怪笼&r使玩家能移动和升级&d刷怪笼&r，用于建造专属刷怪场。要移动刷怪笼，使用带有&b精准采集&r附魔的镐挖掘拆除即可。"
 		""
-		"对刷怪笼使用&a刷怪蛋&r可以改变刷怪类型，你可以以此创建自己的自定义刷怪笼。对其使用某些特定物品可以让刷怪速度更快、无视刷怪限制等等！"
+		"对刷怪笼使用目标怪物的&a刷怪蛋&r即可改变其刷新的怪物种类，从而打造自定义的非原版刷怪笼。"
 		""
-		"在JEI中查看刷怪笼的配方来查看可使用的物品。"
+		"[ \"引爆刷怪笼会掉落 \", {\"text\": \"刷怪笼锁链\", \"color\": \"dark_green\"}, \"，可用于合成刷怪笼升级道具，以提升其各项性能。若要制作更高级的刷怪笼升级，需要\", { \"text\": \"更高级的附魔配置\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"00A7C1FE54F86429\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"前往神化附魔任务\"} }, \"。\" ]"
+		""
+		"若想了解具体可使用哪些物品，可在&eJEI&f中查看刷怪笼的合成配方。"
 	]
 	quest.52ADC3D46CCB2659.title: "神化刷怪笼"
 	quest.52B46D49B5C4A7F2.quest_desc: ["&d燃气发电机&r可以燃烧&d乙烯&r，发电速率极高！每台满功率运行的燃气发电机产能速率约为8000RF/t。"]
@@ -4372,7 +4382,7 @@
 	]
 	quest.59A6D7B544F1AE06.title: "&f电梯"
 	quest.59C71582F19E8554.title: "击杀僵尸"
-	quest.59CBFA5583139A3B.quest_desc: ["&d重铸台&r是&a简易重铸台&r的升级版，可以重铸所有稀有度的物品，包括&z神话&r物品。"]
+	quest.59CBFA5583139A3B.quest_desc: ["[\"这个\", {\"text\": \"重铸台\", \"color\": \"#B900B9\"}, \"是\", {\"text\": \"简易重铸台\", \"color\":\"#55FF55\"}, \"的升级版，可以重铸所有稀有度的物品，包括\", {\"text\": \"神话\", \"color\":\"#EA6F14\"}, \"等级的物品。\"]"]
 	quest.59CBFA5583139A3B.title: "&d重铸台&r"
 	quest.59E8FEC3758635DF.quest_desc: [
 		"听&d回响&r说，新治愈的这些村民技术太烂了，所以你需要先训练训练他们，提升他们的发掘等级！"
@@ -4584,6 +4594,7 @@
 		"&7&o跟手动繁殖村民的日子说再见吧。"
 	]
 	quest.5E90192C6F3011B7.title: "&f村民繁殖"
+	quest.5ED062BF97780287.title: "End West"
 	quest.5ED10C54AE06DB40.quest_desc: [
 		"&z无尽套装&r可减免一切伤害，还可提升跳跃高度和移动速度。"
 		""
@@ -4663,7 +4674,13 @@
 		""
 		"如果模拟失败，你就会获得&b通用预测产物&r；而模拟成功时，就能获得对应生物的&6预测产物&r。"
 		""
-		"&6预测产物&r可以在&d战利品制造器&r内运行以获取掉落物。"
+		"{@pagebreak}"
+		""
+		"&a模拟室&f有两种工作模式：&2训练模式&f通过运行模拟来升级数据模型，而&d推理模式&r仅产出预测产物，在此模式下无法升级模型。"
+		""
+		"这种&6预测产物&r可送入&d战利品制造器&r中，用以制造出各种战利品！"
+		""
+		"你还可以将&d战利品制造器&f切换至&2队列模式&r，这样就能轮流循环生产一系列不同的产物，而不再局限于只产出单一的固定掉落物。"
 	]
 	quest.60BBE214131DF6EB.title: "模拟掉落"
 	quest.60C650264AA5525D.quest_desc: [
@@ -4677,7 +4694,7 @@
 		""
 		"无论是你在世界中探索获得的物品，还是偶然遭遇的怪物，都有可能带有一个特殊的&b词缀&r。词缀会让物品/生物大大增强，有时甚至还能带来特殊的能力，为你的探索旅程增添乐趣！"
 		""
-		"如果你感到不知所措的话，可以去看看本模组的教程书——&a阴影编年史&r。"
+		"如果你有疑问的话，可以去看看本模组的教程书——&a阴影编年史&r。"
 	]
 	quest.60FDF616DEDE5E73.title: "&e神化宝石&f！"
 	quest.6120A9478D66C2F9.quest_desc: [
@@ -4823,6 +4840,7 @@
 		"&a防腐木板&r能用来制作各种&6沉浸工程&r的工作站，例如&a工程师装配台&r。"
 	]
 	quest.63B7AC676FC1EE7F.title: "&f防腐木板"
+	quest.63BA03EC05C8105F.title: "TF North"
 	quest.63BED4D08224B3EF.quest_desc: [
 		"有更多种类的中转器可以用来在罐子和方块之间传输&d魔源&r！"
 		""
@@ -4892,7 +4910,7 @@
 		""
 		"搭建这种多方块结构，你需要一些&d蓝色板金属&r和&d聚能石英玻璃&r，还有能从&6机械师&r处购买的&d神秘方块&r，也可以通过与&d流浪商人&r或&a福鲁伊克斯水晶研究员&r交易获得。"
 		"{@pagebreak}"
-		"&a电路加工机&r采用与&6世界引擎&r相同的维度视差技术，并能同时处理16个配方！你可以在它的升级栏中放置至多10个&d加速卡&r来为其超频。完整升级此机器将会使其消耗巨量能量！"
+		"&a电路加工机&r采用与&6世界引擎&r相同的维度视差技术，并能同时处理16个配方！你可以在它的升级栏中放置至多3个&d加速卡&r来为其超频。完整升级此机器将会使其消耗巨量能量！"
 	]
 	quest.663460DE8AF7E464.title: "&a超多处理器"
 	quest.664F7957756D84FF.quest_desc: [
@@ -5001,15 +5019,15 @@
 	]
 	quest.68258EA281734B4A.title: "&f储存&3力场子"
 	quest.68583162106594A8.quest_desc: [
-		"&7&o移动箱子一般都是个劳苦活儿，但现在不会了！"
+		"&7&o搬箱子一直是个麻烦事。但现在不用愁了！"
 		""
 		"&a包装带&r可以打包&e精妙存储箱子&r，这样你就能轻松移动它们了。"
 		""
-		"首先把包装胶带用在箱子上，然后弄断胶带后你能把它当成一个普通物品拿着它，你一把它放地上，胶带就会消失！"
+		"先用打包带打包箱子，然后破坏它就能得到完整的箱子，你把它放下来后，胶带就会自动消失！"
 		""
-		"&e注意&r：装有&a堆叠升级&r的箱子最好先打包再移动。"
+		"&e注意&r：装有&a堆叠升级&r的箱子最好先打包再搬运。"
 	]
-	quest.68583162106594A8.title: "&f移动箱子"
+	quest.68583162106594A8.title: "&f搬运箱子"
 	quest.68668718B414B6E4.quest_desc: [
 		"装有&a熔铸炉浇注口&r的&a熔铸炉排液孔&r（或是其他模组的&2储罐&f）可以将熔融金属排出到&2铸件台&r上。"
 		""
@@ -5224,6 +5242,7 @@
 		"&e注意&f：你必须提交&a时元发生器&r，才能完成这个任务并更新&d指引者的回响&r。"
 	]
 	quest.6D5A9E9E8B0D8AC2.title: "&f时元发生器"
+	quest.6D9862948E97E696.title: "End East"
 	quest.6DC738A434C5B02F.title: "击杀末影人"
 	quest.6DD9A75EE8C97710.title: "击杀&7亡灵术士"
 	quest.6E149F8E8B3F150B.quest_desc: ["制作出&2回响深暗书架&r后，请回到&d附魔师的回响&r处，学习如何为&6世界引擎&r安装该升级。"]
@@ -5430,7 +5449,7 @@
 	quest.71F25B7D688EE182.quest_subtitle: "次要世界引擎升级"
 	quest.71F25B7D688EE182.title: "&f力场子之力"
 	quest.722901B4259D8AEC.quest_desc: [
-		"下一个目标是达到&a60&r&6位阶&r、 &a40&r&c量子化&r以及&a40&r&d阿卡那&r。"
+		"下一个目标是到达&b世界层级&5攀升&f，达到&a60&r&6位阶&r、 &a40&r&c量子化&r以及&a40&r&d阿卡那&r。"
 		""
 		"你得继续升级&d灌注书架&r才能达到这个目标。"
 	]
@@ -5534,6 +5553,7 @@
 	quest.73FD015A3696ABFB.title: "&6觉醒龙锭"
 	quest.73FEE6C6149817E7.title: "Infernal Check 1"
 	quest.7408FB23D476F791.title: "Guidance Completed 1"
+	quest.740B9F63604944F3.title: "Ocean North"
 	quest.7435EC96F4A4B39F.title: "创造魔源罐"
 	quest.744120E37CD03AE0.quest_desc: [
 		"&6通用机械&r模组的&a原子分解机&r破坏方块时不会消耗耐久，而是消耗能量。"
@@ -5891,6 +5911,10 @@
 	quest.7A6F14DB74189B67.quest_desc: ["在我们的&6商店&r里，你可以&b购买预编程术式&r。其中有些术式更为复杂，你可以用它们实现基本功能，或者学习如何做新花样:p"]
 	quest.7A6F14DB74189B67.quest_subtitle: "想要术式样例吗？"
 	quest.7A6F14DB74189B67.title: "商店里有超值优惠！"
+	quest.7A6F1E301DB2EDC3.quest_desc: [
+		"Cx：-1"
+		"Cz：185"
+	]
 	quest.7A8669713BE28E8F.quest_desc: ["&d监守者&r生活在&3深板岩&r环底层的&d远古城市&r中。"]
 	quest.7A8669713BE28E8F.title: "&e击杀&f：&3监守者"
 	quest.7A8D31482AB1FCAA.quest_desc: [
@@ -5954,7 +5978,7 @@
 	quest.7B77544B48E690CB.quest_desc: [
 		"如果你想把你的所有存储方块都并入一个存储网络，做一个&a存储控制器&r就可以轻松解决。"
 		""
-		"任何放在&a控制器&r边上的存储方块都会自动链接上，搭建完后右击潜行右击或就可以把东西都存进去，轻松管理所有物品！"
+		"任何放在&a控制器&r旁边的存储容器都会自动与其连接，这样一来，你就可以通过右击或潜行右击控制器快速存入物品，轻松管理库存！"
 		""
 		"&e注意&r：要合成&a存储控制器&r，需要先用&a机器方块&r进行&6世界引擎升级&r。"
 		"{@pagebreak}"
@@ -6089,10 +6113,11 @@
 		"{\"text\": \"罕见 - 陈旧布匹\", \"color\": \"#55FF55\"}"
 		"{\"text\": \"稀有 - 发光水晶碎片\", \"color\": \"#5454FC\"}"
 		"{\"text\": \"史诗 - 玄奥沙\", \"color\": \"#B900B9\"}"
+		"{\"text\": \"神化 - 神铸珍珠\", \"color\":\"#EA6F14\"}"
 		""
-		"&a回收台&r可以从顶部和侧面自动输入物品并拆解，从底部输出。任何材料都不会被遗漏！"
+		"&a回收台&r可以自动化，从其顶部或侧面输入物品，从底部输出产物。不会遗漏任何物品！"
 		""
-		"&e注意&f：&#EA6F14神铸珍珠&r在这个整合包中&c无法&r被拆解。你需要在解锁&3神龙升级&r后，使用&6世界引擎&r制作。"
+		"&e注意&f：在本整合包中，&#EA6F14神铸珍珠&c无法&r通过拆解获得。解锁&3神龙升级&r后，必须通过&6世界引擎&r来进行合成。"
 	]
 	quest.7E685EAD7FB60B45.title: "&a回收台"
 	quest.7E7745D3E460831F.quest_desc: [
@@ -6101,9 +6126,15 @@
 		"与&d折光师&r交谈，他会教你如何安装&3世界引擎升级&r。"
 	]
 	quest.7E88C7654F281E43.quest_desc: [
-		"&#EA6F14强化台&r是游戏后期的设备，可以强化物品的词缀。"
+		"[{\"text\": \"强化台\", \"color\": \"#EA6F14\"}, \"是游戏末期才能制作的工作站，用于增强装备的\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"。\"]"
 		""
-		"消耗两个&#EA6F14强化符石&r可增强一个已有的词缀，消耗一个&#EA6F14强化符石&r可刷新词缀。"
+		"它有两个用途："
+		""
+		"[\"一是可以升级现有的\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"，花费两个\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"使选定的\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"增强25%，实际提升程度因\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"而异；\"]"
+		"{@pagebreak}"
+		"[\"二是可以刷新\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"，花费一个\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"将选定的\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"替换为另一个同类型的，左侧可预览刷新后的结果。\"]"
+		""
+		"[{\"text\": \"强化台\", \"color\": \"#EA6F14\"}, \"有两个输入槽，上方放你想\", {\"text\": \"强化\", \"color\": \"#FF55FF\"}, \"的物品——必须是有\", {\"text\": \"词缀\", \"color\": \"#55FFFF\"}, \"的物品，下方放\", {\"text\": \"强化符石\", \"color\": \"#EA6F14\"}, \"，用作\", {\"text\": \"强化材料\", \"color\": \"#FF55FF\"}, \"。\"]"
 	]
 	quest.7E88C7654F281E43.title: "&#EA6F14强化台"
 	quest.7E8C48A1F0A2F37A.title: "&z无尽之块&f交易"
@@ -6130,6 +6161,7 @@
 		"还可以用来制造&6乙烯&r，这是一种能量密度极高的气体，既可用于发电，也可以制作&e高密度聚乙烯丸&r。"
 	]
 	quest.7EF7546FF007EF36.title: "&2生物燃料&r"
+	quest.7F022A9289CCBF5D.title: "End South"
 	quest.7F27B48C280FA27F.title: "存储物品"
 	quest.7F42E2C4AAC3D131.quest_desc: ["&7&o无限旋转力"]
 	quest.7F42E2C4AAC3D131.title: "创造马达"
@@ -6184,6 +6216,114 @@
 	]
 	quest.7FCCB25011D69673.title: "&a富集仓&r"
 	quest.7FEDD82D9B47EFCD.quest_desc: ["&a生物质能发电机&r可消耗生物质产生能量，加装&b插件&r可提升发电效率。"]
+	reward.00D18DF325869C86.title: "安装&3黑暗虚空升级"
+	reward.0443CD112299BF32.title: "&3炼狱宝库指南针"
+	reward.0491A1C974F9FE0A.title: "&3精械师南部宝库指南针"
+	reward.07FDE2A45E2F6200.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.08D775729B3EAF3E.title: "&d军需官&f路径点"
+	reward.09DF4A8DBF01CD61.title: "&e+1 &3发掘等级"
+	reward.0C0AB23B4929400B.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.0E91DBA45C7125BF.title: "&e解锁&f：&6世界引擎"
+	reward.0FF3057EB81C70D6.title: "&3精械师北部宝库指南针"
+	reward.11F46FD8EC5EE6C8.title: "安装&3低吟金属升级"
+	reward.1214107708FB3198.title: "安装&3量子隧道升级"
+	reward.12870B6226B417AF.title: "安装&3精魂升级"
+	reward.12C21B2BC1C5906A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.12E34C33B113C643.title: "安装&3神龙升级"
+	reward.1317DCA026D9DFBC.title: "安装&3无尽升级"
+	reward.13B35A67AAF5C0DF.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.174EEA65827DF6EA.title: "安装&3时空粒子升级"
+	reward.1A2533930620554A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.1E8870E07D7F4A99.title: "蜜蜂事件"
+	reward.1F113E78DDABE6A6.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.1FC841321A5BA9AB.title: "安装&3附魔升级"
+	reward.2055D6F4DA444002.title: "&d暮光族裔&f路径点"
+	reward.235AF7EB3F88D642.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.2392A43EE7851C85.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.2730B9B9300AA75C.title: "&e+1 &3发掘等级"
+	reward.29048AE32290DDAB.title: "&3寻路者宝库指南针"
+	reward.2AA4A91EF3A6EE48.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.2C24A3F46426B257.title: "安装&3机器方块升级"
+	reward.2D7E2A69C45D8ABD.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.2F7B82DA30E186CA.title: "&e+1 &3发掘等级"
+	reward.307426CA8BF12CAC.title: "&d寻路者&f路径点"
+	reward.30A58719DB130EE9.title: "&d构件师&f路径点"
+	reward.30CB65204A6F6DFE.title: "&3雪怪宝库指南针"
+	reward.31B318A2B60F4CC5.title: "安装&3暗影机壳升级"
+	reward.32A31D445DC7FF87.title: "&3海洋碎片"
+	reward.35FBC3A2C111904A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.37F1C940A746F48C.title: "石头世界4官方NFT"
+	reward.3982DCDCE0A66B83.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.39BDE32B4BEF479B.title: "重置世界引擎"
+	reward.3C0E24CCC82A480D.title: "安装&3力场子升级"
+	reward.3C14C643B8F3E2E6.title: "&3骑士宝库指南针"
+	reward.3E8E67868DA564D2.title: "&d折光师&f路径点"
+	reward.3F7CFC203230D314.title: "&3九头蛇宝库指南针"
+	reward.4348C140262F1176.title: "安裝&3暮色升级"
+	reward.437C0250BD2823D8.title: "安裝&3共振虚空升级"
+	reward.444D56BB0340167E.title: "安装&3末影能量升级"
+	reward.4765C42AB1F8D1A6.title: "&3机械师宝库指南针"
+	reward.4AE89E9586399F31.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.4BA4CA2B38D5C1F3.title: "安装&3觉醒核心升级"
+	reward.4C092C94E484A165.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.4CF243911064BB93.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.5014EDA364D8789D.title: "&d炼狱使者&f路径点"
+	reward.52BCACF7F3F4A767.title: "&d远古族裔&f路径点"
+	reward.59039114F2E02EBE.title: "奥术林地定位器"
+	reward.5A34161D4FD3FD66.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.5A9E657EB27180C7.title: "安装&3高级机器升级"
+	reward.5AE23D826352677E.title: "治愈之泉定位器"
+	reward.5BE998C2C023AB29.title: "&d飞龙匠人&f路径点"
+	reward.5CD5D5D173FA5C89.title: "&d机械师&f路径点"
+	reward.5EE4C3B77DCAD15A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.5FEF5E7E69F4437F.title: "&d魔法师&f路径点"
+	reward.61E89C638FD700C4.title: "&e升满&3发掘等级"
+	reward.62E61D9249A89F89.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.676EC71A125D6E04.title: "安装&3魔源升级"
+	reward.689FE9894FCB03FA.title: "安裝&3末影升级"
+	reward.696B39000701CF3E.title: "&d附魔师&f路径点"
+	reward.69E35BEC6CB9A014.title: "安装&3超立方体升级"
+	reward.6A9CBD374B41A598.title: "&d精械师&f路径点"
+	reward.6E69E924D695FE30.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.7459FD34B6687F30.title: "时域仪指南"
+	reward.75028F17C07E02D0.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.7B2611299CAA750F.title: "&3折光者宝库指南针"
+	reward.7DA1DB3A1F6C52A0.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.7FE6F3BEF5E57A43.title: "&3暮光巫妖宝库指南针"
+	reward.7FF100558F845196.title: "&3冰雪女王宝库指南针"
+	reward_table.01A8F0EB2209A24F.title: "龙之进化基础装备"
+	reward_table.0C5DDA99EE8027D3.title: "石头的礼物"
+	reward_table.1320ECC4666318A7.title: "魔符"
+	reward_table.135B4037C1A40D88.title: "背包升级"
+	reward_table.16E7488E801B3DAA.title: "龙之进化飞龙装备"
+	reward_table.1892AD44EB5DD99D.title: "龙之进化混沌装备"
+	reward_table.1D31E6EC121FF83B.title: "龙之进化神龙装备"
+	reward_table.1DA364008CA08643.title: "Iron的装备"
+	reward_table.20D1BF16232BD665.title: "RF能量源"
+	reward_table.21A38B78E82935CD.title: "数据模型"
+	reward_table.28714053C75776A5.title: "顶级探索遗物"
+	reward_table.2CB2563E52E0EEFC.title: "高级战斗遗物"
+	reward_table.2F1621E7D65D48A1.title: "基础原版资源"
+	reward_table.30F4E308726EB2AD.title: "传送装置"
+	reward_table.3621231FD4F80730.title: "箱子升级"
+	reward_table.37F7F856288632A7.title: "顶级战斗遗物"
+	reward_table.3FFF5862073B3D97.title: "碎片 - 海洋"
+	reward_table.54091F8A76F9E488.title: "龙之进化装备"
+	reward_table.5529BA88A208797B.title: "碎片 - 末地"
+	reward_table.56235F58490C3C41.title: "次级战斗遗物"
+	reward_table.5C5A40864844587A.title: "碎片 - 虚空"
+	reward_table.5E58BEB7F462AA87.title: "精妙存储箱子升级"
+	reward_table.6105D334632923AE.title: "碎片 - 暮色"
+	reward_table.61FD9A6CC07465C1.title: "随机熔炉"
+	reward_table.657A949F0952B7D4.title: "碎片 - 下界"
+	reward_table.6835AC5E14D58A8C.title: "高级探索遗物"
+	reward_table.6B1481D18D7F1F24.title: "碎片 - 深板岩"
+	reward_table.6B9058CED94B574F.title: "石子的礼物"
+	reward_table.70ADF260F7A38A21.title: "菌丝网络RF"
+	reward_table.73C257EFB0D405CE.title: "等价交换装备"
+	reward_table.790A03E65CE8EBE4.title: "奶奶的味道"
+	reward_table.7CDA9FD69979A8C9.title: "神化宝典"
+	reward_table.7D0A27C985829037.title: "次级探索遗物"
 	task.00ABB62332FC4C09.title: "&f与&d精械师的回响&f对话"
 	task.00F90C52CBAECEBB.title: "&d法术&a墨水"
 	task.011CC09BC8B8423B.title: "存储部件"
@@ -6193,10 +6333,12 @@
 	task.02CC4D7DB653D0B6.title: "Check"
 	task.04FA10D12C67E713.title: "原版下界合金工具"
 	task.05118382686E3B7F.title: "灵灾武器"
+	task.053465F0FFC2E3BB.title: "幻影骑士宝库"
 	task.05BA59C2F9E1F43B.title: "&e击杀&f：烈焰人x10"
 	task.05FFCCEAC7E565FB.title: "无线供能方案"
 	task.061CA75E28BD6BF6.title: "与&d飞龙匠人的回响&r对话"
 	task.06483FBA8021FDEF.title: "转移生物"
+	task.0675F9CC003D7723.title: "慈悲竞技场"
 	task.0707B05028ADBA69.title: "&e击杀&f：&6先驱者"
 	task.075F7BA7175B340A.title: "发掘等级"
 	task.084914CB047A78F0.title: "能量存储部件"
@@ -6217,27 +6359,33 @@
 	task.0E1BCAE9F0367A8B.title: "地质学家可获取的方块"
 	task.0E7B34D38F84AC11.title: "胸针"
 	task.0F2D2B75BBD3B74B.title: "&c能量立方&r"
+	task.0FAC970FD967F5DF.title: "深板岩层西"
 	task.0FE18EA47455263E.title: "定位回响"
 	task.101BA566216C32AD.title: "ME线缆"
 	task.10414FF6D2800922.title: "&f与&d折光师的回响&f对话"
 	task.108D536F5C6428BB.title: "定位回响"
 	task.11193E0681204B33.title: "幽灵线圈"
+	task.1159F04F98B724A1.title: "Burning Disco Vault"
 	task.11F49F841465DAAD.title: "核源铁武器"
 	task.1211B7B1BC40225B.title: "控制器"
+	task.12C03EE6A8238B47.title: "ocean west"
 	task.12E5C6B08FAC5523.title: "&e发现&f：&3迷宫宝库"
 	task.1464DA1D0A45EF99.title: "巫师套装"
 	task.149EDD07DA46D40F.title: "&e观察&r：&2村民&r"
 	task.14E50AE68E2967C5.title: "牛的催化"
+	task.157A4FF7FF3C6F6A.title: "深板岩层北"
 	task.159400992FB94254.title: "&e观察&f：深板岩"
 	task.15F2F7C36099DE85.title: "输出器"
 	task.16109CEC63108983.title: "找到鸡骑士宝库"
 	task.16D5556D98667242.title: "核源铁盔甲"
 	task.16F92FFAF9B19572.title: "魔源通道"
+	task.171FAFE09103AB82.title: "鸡骑士北"
 	task.1726EF3A700E7F17.title: "可合成的鸡"
 	task.17FA3A67B903103F.title: "输入器"
 	task.180699485CD072B7.title: "简单村民"
 	task.187D3A2680948DF2.title: "&6世界引擎&f流体"
 	task.18CB8C05E3A9150F.title: "村民信息"
+	task.18D6F8FAB2FA69F7.title: "虚空南"
 	task.1918A324D7CB282A.title: "组装电路加工机"
 	task.192926FA19E0AFB0.title: "传送枪"
 	task.1986452842DD2E46.title: "Check"
@@ -6261,6 +6409,7 @@
 	task.236F4615115C9D2E.title: "&f找到骑士宝库"
 	task.238BCDF15FC7E9CB.title: "与&d指引者的回响&r对话"
 	task.24B4FAC2831477B4.title: "&e发现&f：&3远古城市"
+	task.24F9A4F56ECE9A55.title: "tf north"
 	task.251CDFF26C59DD32.title: "暗物质盔甲"
 	task.25B4028ACF0AA25B.title: "考古学家可获取的方块"
 	task.25EB772A7B06594D.title: "定位回响"
@@ -6269,6 +6418,7 @@
 	task.268850BC9199AE77.title: "观察一只&b流体牛&r"
 	task.268F689AFA620C03.title: "&e击杀&f：骷髅x20"
 	task.2695E2029A6BC6A0.title: "&f与&d魔法师的回响&f对话"
+	task.27B14942E7BE87E2.title: "ocean south"
 	task.27D0428BD5B59E54.title: "蚀空合金工具"
 	task.27F04FD03BB1682C.title: "充能水晶"
 	task.27F8AF789DE14145.title: "成品处理器"
@@ -6293,15 +6443,18 @@
 	task.2E2CF42092AA43D8.title: "各等级&a磁盘接口"
 	task.2E6B8DF43B7A85E7.title: "任意基础CAD机体"
 	task.2F84191A75EBFBB0.title: "获得指南针"
+	task.2F94FA9842248FA3.title: "冰雪女王宝库"
 	task.2FB8AB5ADB1F8D26.title: "&e击杀&f：&c提洛斯回响·原初受火者"
 	task.2FF95590BE56EE26.title: "&f与&d暮光族裔的回响&f对话"
 	task.30F1965A2A29E58A.title: "点击我！"
+	task.317038ACC0AB2217.title: "虚空北"
 	task.31D5BD1ADD14C2BB.title: "&f找到暮光巫妖的宝库"
 	task.31DBB76BB460AE1B.title: "机器核心"
 	task.322FFDB250990323.title: "能量存储"
 	task.327D6E2AE8863BC1.title: "&e击杀&f：&c炽焰术士"
 	task.32877EA200F47B95.title: "&f与&6辐光&f对话"
 	task.329BA2B5EB3185FC.title: "拆解获得的材料"
+	task.32FB115D88E24CD5.title: "tf west"
 	task.3384D1EE66D61464.title: "视界下界书架"
 	task.33877DBF6AC0BF78.title: "升级深暗书架"
 	task.339585B853B7012C.title: "基础武器"
@@ -6315,9 +6468,12 @@
 	task.368FF30FEFA57F73.title: "环的生成"
 	task.36D65F0F76F3F5E9.title: "连锁破坏须知"
 	task.36E4280D3F1F4D95.title: "&b苍穹晶盔甲"
+	task.376297FFB45E51A2.title: "end west"
 	task.379AF15FE59B449C.title: "有关时元的一切"
+	task.37C9E3F65AE092C6.title: "end north"
 	task.37F6704E46F8E7BC.title: "战利品"
 	task.383794D054B8E0E1.title: "获得指南针"
+	task.387AEDAFD8378A6D.title: "鸡骑士南"
 	task.398CB19DF3238318.title: "无种类上限的磁盘驱动器"
 	task.39A8645834696943.title: "认知工具"
 	task.3A0AA4ECFE92B8F8.title: "饰品"
@@ -6325,12 +6481,17 @@
 	task.3B13BCC752215E0A.title: "灵魂存储部件"
 	task.3B60BAD2A4BEA950.title: "Check"
 	task.3B68713C93B4FAA8.title: "&a拾取升级"
+	task.3C26A988187EEF02.title: "下界西"
 	task.3C30835D105E888F.title: "流体抽屉"
 	task.3C532F10AE78D105.title: "&e发现&f：&d机械师"
+	task.3C99AA1534641A3F.title: "ocean east"
 	task.3CB07FD3F54AFA92.title: "&z遗物&r"
+	task.3CF9E82FE7A7CA32.title: "深板岩层南"
 	task.3D00D0A8A61617EA.title: "子沙类方块"
+	task.3D6254435D99C13C.title: "王国竞技场"
 	task.3D736F8E008552DB.title: "能量单元"
 	task.3E9AA0CF9EFC6DE6.title: "化学部件"
+	task.3EA41562AB11F9B1.title: "tf east"
 	task.3EBAF104991E89BF.title: "&e击杀&f：&d威猛鸡骑士"
 	task.3EF3D33D52CB41A5.title: "&a虚空升级"
 	task.3F1ABCF8325A90C9.title: "&z无尽工具"
@@ -6341,16 +6502,21 @@
 	task.4087591E474FC477.title: "&e击杀&f：末影人x10"
 	task.411B145BAD8AA622.title: "工具"
 	task.41B203F8648421C8.title: "&e发现&f：&6无尽"
+	task.42AEAD2BF6113D89.title: "雪怪宝库"
 	task.4309B43CD4447705.title: "建筑棒"
 	task.435C5B6B77C3D7B4.title: "重构材料"
 	task.4404D4CA07F1B536.title: "获得指南针"
+	task.4436C5870B83BA75.title: "下界东"
 	task.4461612C1C9D3F92.title: "&e击杀&f：&a流浪商人"
+	task.44BC8362B01E30DC.title: "ocean north"
 	task.44F14FF1208B0B03.title: "全能工具"
 	task.459AEFEC8F060222.title: "获得指南针"
 	task.45C3B788492E3C09.title: "&e观察&f：&2草方块"
 	task.45E18E3EE8C1D683.title: "&f与&d机械师的回响&f对话"
+	task.45E2610784D6C62D.title: "虚空西"
 	task.46201BC3BAE0D15A.title: "通用机械激光"
 	task.47B3519E9BAE88EB.title: "符文木树苗"
+	task.47CDD3AB69EDD87A.title: "暮光巫妖宝库"
 	task.491E250D69066BBC.title: "&e击杀&f：&7凋灵"
 	task.49DF96867DE0BB9D.title: "精魂"
 	task.4A3E583E141A73F5.title: "获得指南针"
@@ -6412,6 +6578,7 @@
 	task.5B97CEFB80FF361B.title: "&e击杀&f：潜影贝x10"
 	task.5C6B2370E7B8E980.title: "神秘学矿工"
 	task.5CCC981194E6AD26.title: "&e发现&f：&d飞龙匠人"
+	task.5CF322069EBE856C.title: "深板岩层东"
 	task.5D219927A5B4C985.title: "定位回响"
 	task.5D44C1D4945AB04C.title: "&e发现&f：地下泉水"
 	task.5DB582096285438A.title: "&e发现&f：&d军需官"
@@ -6420,15 +6587,18 @@
 	task.5E3DB978C813B92A.title: "控制器扩展器"
 	task.5E4795D98A4F96E5.title: "苍穹晶工具"
 	task.5EA5666395E5AAEC.title: "&e发现&f：&d魔法师"
+	task.5F99BA061A1605D9.title: "世界岩石层布局"
 	task.5FD1AC346811740C.title: "&e击杀&f：&c死者之王"
 	task.5FFDD210AFD0055D.title: "附魔宝典"
 	task.6017B56A0165C534.title: "核源铁工具"
 	task.6064031AABA0D8D1.title: "&e击杀&f：&2药剂师"
+	task.6143E9BDB0C9D417.title: "传送门宝库"
 	task.615166F23D87249A.title: "定位回响"
 	task.6166C057F795A2CB.title: "超多物质"
 	task.61C0F35123FBB85E.title: "&e击杀&f：&3监守者"
 	task.61D894B195259EFE.title: "下界合金盔甲"
 	task.62017C4AEF15B756.title: "寻找传送门宝库"
+	task.620B0BA6A6337A57.title: "tf south"
 	task.623C40B073B6326E.title: "蚀空合金盔甲"
 	task.62B8DF25CDC4F6E7.title: "获得指南针"
 	task.62DE6121CE506116.title: "管道升级"
@@ -6436,10 +6606,10 @@
 	task.6347BBAD2ED20F25.title: "&e击杀&f：僵尸x20"
 	task.63C4D2F3F7059C8E.title: "背包拾取升级"
 	task.63FA6779F7687346.title: "获得指南针"
-	task.64439911825F80B2.title: "方块手杖"
 	task.64B290466E13BE30.title: "与&d飞龙匠人的回响&r对话"
 	task.655EA10D763BC971.title: "&e发现&f：&d附魔师"
 	task.6686A02C1B8BCACB.title: "一个象牙白或乌金CAD"
+	task.66F6B411E884E391.title: "end east"
 	task.671339615BA68B10.title: "&e击杀&f：&b冰霜术士"
 	task.6865F20C1E218901.title: "重置世界引擎"
 	task.68A1DE705F7F836C.title: "点击启用事件"
@@ -6451,6 +6621,7 @@
 	task.6A32E04F83997A6D.title: "&e发现&f：&d精械师"
 	task.6A3AABB86967A8C4.title: "定位回响"
 	task.6A6EB35F2D0397D5.title: "&f与&d寻路者的回响&f对话"
+	task.6AD228A3A433DD1F.title: "MFFS宝库"
 	task.6B46A4D5E6915E1B.title: "&f与&d构件师的回响&f对话"
 	task.6B9EDB6F4966725F.title: "建筑小帮手"
 	task.6BF1B3F7E85C5E17.title: "&b升级插件"
@@ -6466,12 +6637,16 @@
 	task.716711D72FE69FF5.title: "各类型存储元件"
 	task.71EF7138E44BDF05.title: "定位回响"
 	task.72121E28134ACE07.title: "见到&d指引者的回响"
+	task.7230891A77CE1977.title: "end south"
 	task.72426E00128EBE6D.title: "灵魂猎手套装"
 	task.72566E6107743A29.title: "盔甲"
 	task.739AFA2E85FD2354.title: "压缩空间"
+	task.73AD501FEDF94669.title: "下界北"
 	task.742022DB9012FEDC.title: "任意树苗"
 	task.757B783AC8A9410F.title: "Psi金属盔甲"
+	task.7586948F032C6048.title: "九头蛇宝库"
 	task.75A4019E3778367A.title: "&6独特武器"
+	task.7618036DBF5EE196.title: "机械动力宝库"
 	task.766D48135EA53798.title: "弹药"
 	task.7695C5FDA30F4196.title: "烈焰金盔甲"
 	task.769744CFA9DB671F.title: "定位回响"
@@ -6488,6 +6663,7 @@
 	task.79684EDD87FFB47C.title: "&e击杀&f：苦力怕x20"
 	task.79B0BA2223437C7E.title: "混沌工具"
 	task.79B58E484D4196CD.title: "&e击杀&f：&d利维坦"
+	task.7A9F1E65CFB92BDF.title: "虚空东"
 	task.7AC3BD79A70049CA.title: "&e击杀&f：&#FCD205牧师"
 	task.7B3908878D77CBC9.title: "定位回响"
 	task.7B71A001741520D3.title: "&e击杀&f：凋灵骷髅x10"
@@ -6496,6 +6672,7 @@
 	task.7C55FE23768493AF.title: "成型器"
 	task.7C972E1F071C029A.title: "传送带控制用品"
 	task.7C9DEAA63AE26D5D.title: "无线终端"
+	task.7CA66CFB9AAC98BB.title: "下界南"
 	task.7CCE37FAC12528D7.title: "灵魂猎手装备"
 	task.7CD51F8C7BC7FF66.title: "双足飞龙能量传输"
 	task.7CECE0F1C53701B6.title: "魔法工具"

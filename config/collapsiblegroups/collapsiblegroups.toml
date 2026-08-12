@@ -51,6 +51,20 @@
 	#ARGB background color for expanded group headers and children.
 	#Accepted formats: #AARRGGBB, 0xAARRGGBB, AARRGGBB, or RGB variants that keep the default alpha.
 	expandedGroupBackgroundColor = "#24FFFFFF"
+	#Whether small matching groups should be shown as regular entries while filtering JEI search results.
+	#This avoids showing a group header when only a few children match the search.
+	searchUngroupSmallGroups = true
+	#Filtered group child count must be lower than this value before search leaves it ungrouped.
+	#For example, 5 leaves groups with 2-4 matching entries ungrouped; 0 disables this behavior.
+	# Default: 5
+	# Range: > 0
+	searchUngroupThreshold = 5
+	#RGB color for group display names. Alpha is ignored if an ARGB value is provided.
+	#Accepted formats: #RRGGBB, 0xRRGGBB, RRGGBB, or ARGB variants with ignored alpha.
+	groupNameColor = "#FFAA00"
+	#ARGB color for the connected border around expanded groups.
+	#Accepted formats: #AARRGGBB, 0xAARRGGBB, AARRGGBB, or RGB variants that keep the default alpha.
+	expandedGroupBorderColor = "#66FFFFFF"
 
 [debug]
 	#Show Collapsible Groups timing logs in the game log.

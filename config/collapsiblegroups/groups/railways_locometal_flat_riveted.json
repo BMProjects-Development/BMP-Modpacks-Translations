@@ -1,0 +1,14 @@
+{
+  "id": "railways_locometal_flat_riveted",
+  "name": {
+    "translate": "collapsible_groups.group.railways_locometal_flat_riveted",
+    "fallback": "Railways: Flat Riveted Locometal"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "railways" },
+      { "item_path_contains": "flat_riveted_locometal" }
+    ]
+  }
+}

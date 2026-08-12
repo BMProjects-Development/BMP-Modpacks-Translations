@@ -3,7 +3,6 @@
   "ingredient": {
     "item": "enderio:pulsating_crystal"
   },
-  "materialType": ["gem"],
   "paletteLocation": "ftb:palettes/fused",
   "quality": 2,
   "bonusParameters": {

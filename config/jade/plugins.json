@@ -63,6 +63,12 @@
   "apothic_spawners": {
     "spawner": true
   },
+  "refineddelight": {
+    "wireless_cooking_pot": true
+  },
+  "hostilenetworks": {
+    "io_port_mode": true
+  },
   "entangled": {
     "entangled_block_component": true
   },
@@ -76,6 +82,9 @@
   "immersiveengineering": {
     "multiblock_icon": true
   },
+  "applieddelight": {
+    "me_cooking_pot": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
@@ -86,6 +95,10 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "ftbechoes": {
+    "block": true,
+    "entity": true
   },
   "underlay": {
     "overlay": true
@@ -128,6 +141,9 @@
   },
   "pipez": {
     "pipe": true
+  },
+  "appliedcooking": {
+    "kitchen_station": true
   },
   "productivemetalworks": {
     "casting": true

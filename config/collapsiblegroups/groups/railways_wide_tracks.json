@@ -1,0 +1,32 @@
+{
+  "id": "railways_wide_tracks",
+  "name": {
+    "translate": "collapsible_groups.group.railways_wide_tracks",
+    "fallback": "Railways: Wide Tracks"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "railways"
+      },
+      {
+        "not": {
+          "item_path_contains": "narrow"
+        }
+      },
+      {
+        "item_path_contains": "wide"
+      },
+      {
+        "item_path_contains": "track"
+      },
+      {
+        "not": {
+          "item_path_contains": "monorail"
+        }
+      }
+    ]
+  }
+}

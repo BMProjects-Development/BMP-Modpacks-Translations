@@ -12,6 +12,7 @@
 	chapter.391B65CD04A90459.title: "Energia"
 	chapter.39E1055DAEF9F36E.title: "Nível 3: Solaris"
 	chapter.3B99F85218D37371.title: "Itens Úteis e Dicas"
+	chapter.3BF272F9FDD1D8F9.title: "Draconic Evolution"
 	chapter.41A8FE9D26EFA401.title: "Começando"
 	chapter.446E3CE6936F2CAE.title: "Tecnologia Geral"
 	chapter.4F0F16931654DF58.title: "Quadro de Recompensas"
@@ -107,6 +108,9 @@
 	quest.012DF07A81C69AAA.title: "&dVazio Ressonante&r"
 	quest.0138DA9E72BF9CE0.quest_desc: ["Esta bússola o levará à &aFonte Curativa&r mais próxima."]
 	quest.0138DA9E72BF9CE0.title: "&fLocalizando a &aFonte Curativa"
+	quest.0171649B0F984DBB.quest_desc: ["Esta missão definirá um ponto de referência para o &6Arquivo&r do &dArtífice do Dragão&r."]
+	quest.0171649B0F984DBB.title: "&fLocalizando &dO Artífice do Dragão"
+	quest.0173ED2BED248CF6.quest_desc: ["&eTransmissores&r e &aReceptores&r de &aMatéria&r podem ser usados para configurar teletransporte de ida e volta dentro do mundo. "]
 	quest.018B19721F4404FF.quest_desc: ["Gera energia consumindo Pérolas do Ender ou Olhos do Ender."]
 	quest.0191028C1E2EAA31.quest_desc: [
 		"As &aFoices&r do &eMalum&r permitem que você ceife &bEspíritos&r de seus inimigos."
@@ -124,6 +128,7 @@
 		"- 3º Espaço: Gaveta Emoldurada"
 		"- 4º Espaço: Textura do Divisor"
 	]
+	quest.01C338263242935F.title: "TF Leste"
 	quest.01D2CEAF59872C33.quest_desc: [
 		"A &aBancada de Lapidação de Gemas&r é usada para melhorar &bGemas&r."
 		""
@@ -220,6 +225,11 @@
 	]
 	quest.036C11AC70835846.title: "&fO Poder Do &dEnd"
 	quest.03AC1C56F20BB662.quest_desc: ["Assim que tiver um pouco de &dEssência Arcana&r, existem alguns livros de feitiços que você pode criar para uma melhoria!"]
+	quest.03BEFC2150D09E7A.quest_desc: [
+		"As &dGrades Sem Fio&r permitem acesso remoto à sua rede de armazenamento quando dentro do alcance do &3Transmissor Sem Fio&r."
+		""
+		"Cada &dRede Sem Fio&r oferece a mesma funcionalidade que suas respectivas &aGrades&r."
+	]
 	quest.03E48CD6E5DB806F.quest_desc: [
 		"Com mais &6Arquivos&r desbloqueados, é hora de explorar o lobby e encontrar o &dEco do Artífice do Dragão&r."
 		""
@@ -270,6 +280,8 @@
 		"&7&oVocê pode se teleportar diretamente para este Eco de qualquer lugar no lobby após encontrá-los usando &e/echo machinist&7."
 	]
 	quest.0484D6030DF690BD.title: "&fEncontre &dO Maquinista"
+	quest.0484DE13B27E77D0.title: "Explicar Tela de Tarefas"
+	quest.04886BA191FF452F.title: "Oceano Oeste"
 	quest.049DE43A1B31C38F.quest_desc: ["Este capítulo cobre a maioria das formas básicas de armazenar seus itens!"]
 	quest.049DE43A1B31C38F.title: "&aOpções Gerais de Armazenamento"
 	quest.04ABB8DD43099429.quest_desc: [
@@ -277,6 +289,7 @@
 		""
 		"Este é um ótimo gerador inicial se você tiver uma boa maneira de gerar lava, mas fica ainda melhor quando você pode automatizar &ecombustíveis mais avançados&r!"
 	]
+	quest.04BF47162CC46237.quest_subtitle: "Descobridor, Arqueólogo"
 	quest.04E68DA90DC83B45.quest_desc: [
 		"Enviar os blocos necessários para a &3Melhoria&f e reivindicar suas recompensas montará automaticamente o &6Motor do Mundo&r da sua equipe."
 		""
@@ -285,6 +298,8 @@
 		"&eNota&f: Quaisquer blocos colocados onde uma melhoria deveria ir serão anulados."
 	]
 	quest.04E68DA90DC83B45.title: "&fAuto-Construir a &3Melhoria de Revestimento Sombrio"
+	quest.051AA9C595DC9B02.quest_desc: ["Esta missão definirá um ponto de referência para o &6Arquivo&r do &dCatalisador&r."]
+	quest.051AA9C595DC9B02.title: "&fLocalizando &dO Catalisador"
 	quest.0533C0C07AE600FD.quest_desc: [
 		"Os &dReatores de Fissão&r do &eMekanism&r pegam combustível físsil e refrigerante, e os convertem em &6lixo nuclear&r e &brefrigerante quente&r. "
 		""
@@ -355,6 +370,7 @@
 		"&6RFTools&r tem algo similar, mas em dois blocos separados. "
 	]
 	quest.05A6946A5AF26684.title: "Redstone Sem Fio"
+	quest.05BB2A6101B519A0.quest_desc: ["O &6Cartão Dimensional&r concede acesso à sua rede através de dimensões a um custo de energia pesado."]
 	quest.05C3502C9F7BB7A3.quest_desc: [
 		"O &6Meka-Traje&r pode ser criado com um pouco de polônio e outros materiais de ponta do &eMekanism&r. Estas peças de equipamento energizadas são muito fortes por si sós, mas podem ser vastamente aumentadas com vários &bMódulos&r, de fortuna a voo!"
 		""
@@ -391,6 +407,7 @@
 	quest.066B47D2AB72355C.quest_desc: ["Esta masmorra aparece por volta de x:512, z:512."]
 	quest.066B47D2AB72355C.title: "Encontrando um &dBosque Arcano"
 	quest.068C117DD3DD10C2.title: "Guidance Check 3"
+	quest.06A86C3EC5CBF204.quest_subtitle: "Descobridor, Arqueólogo"
 	quest.06C9E9DBE25887D9.quest_desc: ["O &aGerador de Lava&r do &6Oritech&r gera RF consumindo lava. A geração de RF pode ser aumentada com &bAddons&r."]
 	quest.06D54A3D73AB7DE8.title: "Armazenando Gases"
 	quest.06EC32E6140E68C1.quest_desc: [
@@ -406,6 +423,7 @@
 		""
 		"&7&oEle também é capaz de coletar passivamente orbes de XP ao seu redor."
 	]
+	quest.077F5C3829CA7300.title: "Comidas"
 	quest.08000D28B577EF94.quest_desc: ["Reivindicar a recompensa desta missão definirá um ponto de referência na entrada do &6Arquivo&r do &dEco&r."]
 	quest.08000D28B577EF94.title: "&fLocalizando &dO Encantador"
 	quest.08145422E66D2B7D.quest_desc: [
@@ -426,6 +444,7 @@
 	]
 	quest.081EA35CCBDF793F.title: "Poleiro Supremo"
 	quest.08204AA5ACCC914E.quest_desc: ["As &aMochilas&r também podem ser tingidas! Isso é útil para codificar suas mochilas por cores, ou se você apenas quer parecer muito legal com uma mochila preta."]
+	quest.082551D21363A1D9.title: "&dArmamento Ars"
 	quest.0826EF3E7B15B219.quest_desc: ["Gera energia consumindo Itens Rosa."]
 	quest.08766B8721B4E541.quest_desc: [
 		"Dentro do anel do Nether, você pode encontrar um &cCampo de Batalha Ancestral&r."
@@ -557,11 +576,7 @@
 	quest.0AD2F3DB33241628.title: "&eArs &fFerramentas"
 	quest.0ADBBF7BA99D2811.quest_desc: ["As &aFerramentas Tudo-em-Um&r do &eActually Additions&r são adições úteis para economizar espaço na sua barra de atalhos, pois agem como todas as ferramentas de uma vez!"]
 	quest.0ADBBF7BA99D2811.title: "&fFerramentas Tudo-em-Um"
-	quest.0AFF8E28FC51B123.quest_desc: [
-		"Precisa trocar dois blocos simples com o mínimo de incômodo possível? Experimente a &cVareta Trocadora&r!"
-		""
-		"Precisa pegar um bloco e colocá-lo em outro lugar com o mínimo de incômodo possível? Experimente a Vareta Coletora!"
-	]
+	quest.0AFA74FA77E9056B.title: "Oceano Sul"
 	quest.0B02B72259362345.quest_desc: ["Reivindicar a recompensa desta missão definirá um ponto de referência na entrada do &6Arquivo&r do &dEco&r."]
 	quest.0B02B72259362345.title: "&fLocalizando &dO Fabricador"
 	quest.0B1E459D12D11A0D.quest_desc: [
@@ -726,6 +741,7 @@
 		"Eles são facilmente configuráveis dentro da interface. Você também pode empilhá-los para fazer bancos de energia multibloco."
 	]
 	quest.0D57D3662EB40CE3.title: "&aBancos de Capacitores&r"
+	quest.0D864FD6A668D8C6.quest_desc: ["&3Interfaces&r podem inserir e extrair de sua rede ao mesmo tempo, funcionando como um &aImportador&r e &2Exportador&r no mesmo espaço de bloco."]
 	quest.0DB5CBE2E76D2FD9.quest_desc: [
 		"O mod &6Pipez&r adiciona vários canos úteis para transferir &bitems&r, &9fluids&r, &cpower&r, ou &2gases&r. Você pode até usar os &dCanos Universais&r para condensar tudo em um único cano."
 		""
@@ -746,6 +762,7 @@
 		"&eNota&r: O &aControlador&r requer as &3Melhorias do Motor do Mundo&r &aBloco de Máquina&r e &cCélula de Ender&r para criar."
 	]
 	quest.0DF5D2B35FDEE536.title: "XNet"
+	quest.0DF9EE9016483463.title: "adicionar esquemáticos WE às recompensas"
 	quest.0E06BDC6265EB7F7.quest_desc: [
 		"&3Controladores&r são usados para aumentar o número de canais que uma rede possui. Eles não são necessários para usar no início do jogo, especialmente porque você tem 32 canais para trabalhar por padrão. Redes sem um &3Controlador&r são consideradas &bAd-Hocs&r."
 		""
@@ -861,6 +878,12 @@
 		"Nota: Você só pode extrair energia dele pela face frontal com o quadrado grande."
 	]
 	quest.0EFA11536D00E653.title: "Biogerador"
+	quest.0F1B7185D8F4CDE6.quest_desc: [
+		"As &7Ferramentas de Matéria Escura&r são rápidas e inquebráveis, e a &aPicareta&r de matéria escura pode alternar os modos de mineração normal para mineração de 3 blocos de largura."
+		""
+		"As ferramentas do &eProjectE&r podem ser carregadas (padrão: \"V\") com EMC para capacitar habilidades poderosas de Área de Efeito ao Clicar com o Botão Direito em cada ferramenta."
+	]
+	quest.0F1B7185D8F4CDE6.title: "&7Matéria Escura &fFerramentas"
 	quest.0F3EDB9AE592016B.quest_subtitle: "Melhora a capacidade de energia e a taxa de transferência de energia"
 	quest.0F3EDB9AE592016B.title: "&fAddon de Capacitor de Máquina"
 	quest.0F48353EDD296510.quest_desc: ["Fale com &dO Artífice do Dragão&r assim que tiver criado o &dVazio Ressonante&r e eles lhe mostrarão como instalar esta &3Melhoria do Motor do Mundo&r."]
@@ -875,6 +898,7 @@
 	quest.0FD446B7912E00CB.quest_desc: ["É hora de combinar cada uma das peças para criar os &cBlocos de Máquina Avançados&r."]
 	quest.0FD446B7912E00CB.quest_subtitle: "Melhoria Principal do Motor do Mundo"
 	quest.0FD446B7912E00CB.title: "&fA Melhoria de Maquinário Avançado"
+	quest.0FED418633235211.title: "&fEspadas Vanilla de Meio de Jogo"
 	quest.0FF5D73B3256F400.quest_desc: [
 		"Enviar os blocos necessários para a &3Melhoria&f e reivindicar suas recompensas montará automaticamente o &6Motor do Mundo&r da sua equipe."
 		""
@@ -969,9 +993,18 @@
 	]
 	quest.11F69E1E4FE4D5CD.title: "&fO Poder do Flux"
 	quest.1237537100194BED.title: "&eMate&f: &7Wither"
+	quest.1278BB2F13A74537.quest_subtitle: "Descobridor, Geólogo"
 	quest.12CB62610FEAADA0.quest_desc: ["Gera energia consumindo Bafo de Dragão."]
 	quest.131199313AE3F5E9.quest_desc: ["O &aFundidor Energizado&r é essencialmente uma fornalha energizada que pode ser melhorada!"]
 	quest.131199313AE3F5E9.title: "&fNossa Primeira &aFornalha Energizada"
+	quest.133ECE7BDDC8C13D.quest_desc: [
+		"Agora que você adquiriu <blank>, o &6Eco da Orientação&r mencionou mais &dArquivos&r que podem ser descobertos."
+		""
+		"Volte para o lobby para ver o que você pode encontrar!"
+	]
+	quest.133ECE7BDDC8C13D.quest_subtitle: "Desbloqueia a Linha de Missões Nível 2"
+	quest.133ECE7BDDC8C13D.title: "&fDescobrindo Os Ecos Perdidos"
+	quest.136E32BEF40CCB1B.quest_subtitle: "Descobridor, Geólogo"
 	quest.137039009E8EBA03.quest_desc: [
 		"O &6ProjectE&r tem várias ferramentas muito fortes que podem ser feitas assim que você tiver EMC suficiente e um &cModelo de Ferraria de Netherita&r."
 		""
@@ -1004,6 +1037,12 @@
 		"Rituais também podem ser &aumentados&r usando certos itens para fortalecê-los. Isso é feito primeiro usando a &3Tábua Ritual&r nele, e depois usando os itens no Braseiro, um de cada vez, para suprir as necessidades de aumento. Quando terminar, você pode clicar com o botão direito com a mão vazia para ativar o ritual."
 	]
 	quest.13C8B2286F5184C7.quest_desc: ["Quando carregado, usar o &3Cajado de Teletransporte&r o teleportará na direção que você está olhando, até 100 blocos de distância."]
+	quest.13D1BC0C49543326.quest_desc: [
+		"Esta missão definirá um ponto de referência para o &6Arquivo&r do &dAncestral&r."
+		""
+		"&eNota&f: O &dTwilight&r e o &dAncestral&r compartilham o mesmo &6Arquivo&r."
+	]
+	quest.13D1BC0C49543326.title: "&fLocalizando &dO Ancestral"
 	quest.13E0F74B9A1DAB58.quest_desc: [
 		"Esta bússola aponta para a localização de um &3Cofre."
 		""
@@ -1032,6 +1071,7 @@
 		"As máquinas do &eCreate&r interagirão automaticamente com itens nas &aCorreias&r se forem capazes."
 	]
 	quest.13FE28AF74A357CD.title: "Opções de Itens Create"
+	quest.1402FA427FF1B8B3.quest_subtitle: "Descobridor, Dimensionalista"
 	quest.141CE17C25D2A53A.quest_desc: [
 		"Para fazer qualquer uma das melhorias para sua mochila, você primeiro precisará criar uma &aBase de Melhoria&r."
 		""
@@ -1122,6 +1162,7 @@
 		"&bDesbloqueia&f:"
 	]
 	quest.1617D99EA1AE47E4.title: "Verificação Orientação 1.2"
+	quest.1628081CB8A2E5CA.quest_subtitle: "Descobridor, Geólogo"
 	quest.165A1B6F56051FA6.quest_desc: [
 		"&eTempad&r é um mod de teletransporte que usa portais temporários especiais chamados portas temporais para viajar entre locais."
 		""
@@ -1363,6 +1404,7 @@
 		""
 		"Outros tipos de Ímpeto também podem ser criados, permitindo a conversão de espíritos em uma variedade maior de recursos."
 	]
+	quest.1C3DFCB335276952.title: "Reatores Mekanism"
 	quest.1C6508B8B2C94CAF.quest_desc: [
 		"Essas ferramentas que consomem energia podem ser melhoradas dentro de uma &aBancada de Modificação&r."
 		""
@@ -1418,6 +1460,7 @@
 	quest.1D87C5E9D52341C4.title: "Criação por Fusão"
 	quest.1D8B2D2B03DF3256.quest_desc: ["&dO Artífice do Dragão&r diz que criar o &2Ressonador de Chronon&r permitirá que eles encontrem a última localização conhecida de seu irmão, onde quer que seja."]
 	quest.1D8B2D2B03DF3256.title: "&fEncontrando Os &6Ecos Ascendidos"
+	quest.1DA11C69EFDA19EC.quest_subtitle: "Descobridor, Geólogo"
 	quest.1DA78BAB2A6E2C82.quest_desc: [
 		"Para os veteranos de mods, o &eEnderIO&r traz ótimas lembranças devido aos seus incríveis canos, chamados &dCondutos&r."
 		""
@@ -1426,6 +1469,16 @@
 		"Configurá-los é fácil usando a &aChave Yeta&r. Se algum cano estiver escondido sob uma &2Fachada&r, segurar a chave na mão os descobrirá para fácil configuração."
 	]
 	quest.1DA78BAB2A6E2C82.title: "Condutos EnderIO"
+	quest.1DC5DE6E9F0D0B2C.quest_desc: [
+		"Feitiços podem ser lançados equipando seu &aLivro de Feitiços&r em seu espaço de curio."
+		""
+		"Uma vez equipado, você pode abrir a roda de seleção usando a tecla de atalho &bR&r por padrão. Lançar o feitiço selecionado pode ser feito pressionando &bV&r."
+		""
+		"Tudo isso pode ser alterado em suas teclas de atalho. Tente procurar por &acategory:\"Iron's Spells 'n Spellbooks - General\"&r."
+		""
+		"Também existem opções de lançamento rápido!"
+	]
+	quest.1DC5DE6E9F0D0B2C.title: "&bLançando Feitiços"
 	quest.1DE16238ECFB074D.title: "Encontro com Caos"
 	quest.1E061D2E5C560867.quest_desc: [
 		"A &cArena Chesed&r é uma estrutura massiva encontrada no anel do &eEnd&r."
@@ -1480,6 +1533,7 @@
 		"No nível 8, você também precisará atualizar seus &2Estabilizadores&r para um anel, exigindo um total de 36 blocos (9 por anel)."
 	]
 	quest.1E6E38DC6183463A.title: "&eDE &fNúcleo de Energia"
+	quest.1EC4F12DACE04299.quest_desc: ["Obtido do cofre do create"]
 	quest.1EEC74B18B1BFBB5.quest_desc: [
 		"&aBaterias&r são uma boa maneira de armazenar energia para transportar. Elas podem ser carregadas com qualquer método de carregamento com ou sem fio."
 		""
@@ -1687,6 +1741,7 @@
 	quest.22103051C3EE2BA0.title: "&fMoinho SAG"
 	quest.226E5BD0BEB1BA75.quest_desc: ["Estas são Estante de Livro únicas que fornecem bônus específicos, como adicionar 100% de &cQuanta&r, ou remover &cQuanta&r e &5Arcana&r."]
 	quest.226E5BD0BEB1BA75.title: "&aEstante de Livro Diversas"
+	quest.228D69F6ACAE761B.quest_subtitle: "Descobridor, Geólogo"
 	quest.22B83D03C6C3E61E.quest_subtitle: "Melhora a velocidade de operação, mas reduz a eficiência energética"
 	quest.22B94BDDC08B3FA9.quest_desc: [
 		"Ao reforçar um &aRevestimento de Latão&r com uma &dChapa de Obsidiana&r, você pode criar uma revestimento forte o suficiente para suportar o peso de um trem."
@@ -1715,6 +1770,7 @@
 		"Cada morte contra o mesmo chefe concede a você resistência a danos e aumento de dano causado contra quem o matou."
 	]
 	quest.23562C59CEDE9879.title: "&6Deus Ex Machina"
+	quest.238137090A4F8FD6.title: "Verificação Melhoria Menor WE"
 	quest.23DC842244086CB9.title: "Encontro com Navegador"
 	quest.24401E59D87AC23A.quest_desc: [
 		"O &6Reator de Fusão&r é o gerador de energia final do &eMekanism&r. Abastecido por &aDeutério&r e &2Trítio&r, ou uma mistura de ambos&r, é capaz de produzir vastas quantidades de energia e/ou calor por relativamente pouca manutenção. Ambos os componentes de combustível são produzidos usando apenas água e energia!"
@@ -1732,12 +1788,15 @@
 		"A partir daqui, energia, vapor ou calor podem ser extraídos de uma &aPorta do Reator de Fusão&r configurada para o modo de saída."
 	]
 	quest.24401E59D87AC23A.title: "Reator de Fusão"
+	quest.244134B3BF63A680.quest_subtitle: "agora disponível via descobridor"
 	quest.24CE908ED60FD514.quest_desc: [
 		"O &aPulverizador&r é uma máquina simples que pode ser usada para fazer Pós e Biomassa."
 		""
 		"No início do jogo, esta é também a melhor maneira de obter &6Compostos Endéricos&r."
 	]
 	quest.24CE908ED60FD514.title: "&fHora de Esmagar"
+	quest.24D045E9CE30A016.quest_subtitle: "Descobridor, Geólogo"
+	quest.24F370B893D01143.quest_subtitle: "Descobridor, Geólogo"
 	quest.25023C87AA259688.quest_desc: [
 		"Embora não ofereça muita proteção na forma de armadura, segurar \"Shift\" enquanto usa um conjunto completo desta armadura o transformará em uma caixa de papelão pequena o suficiente para evitar ser detectado por criaturas."
 		""
@@ -1771,6 +1830,7 @@
 		"&eNota&r: Todas as missões neste capítulo devem ser completadas usando uma &n&6Tela de Tarefas&r."
 	]
 	quest.25CCA572C4D5CEA0.title: "Ascensão Nível 1 - Etéreo"
+	quest.25E0E97D705F3514.quest_subtitle: "precisa ser removido para IronJs"
 	quest.2646D51DBAD8AD42.quest_desc: [
 		"&bVerificação&f: Obtendo Revestimento Sombrio"
 		""
@@ -1889,6 +1949,8 @@
 		"Provavelmente é sempre uma boa ideia considerar fazer uma &2Mochila&r no inicio com esse pouco de couro!"
 	]
 	quest.277181E358575312.title: "&fCarne Podre em Couro"
+	quest.27D28CC22BB5C665.quest_subtitle: "Usado para criar outras melhorias"
+	quest.27D28CC22BB5C665.title: "Base de Melhoria"
 	quest.283EA4E7BA93DA11.quest_desc: [
 		"O &aCapacitador&r consumirá quatro itens ao redor para capacitar seus cristais."
 		""
@@ -2000,6 +2062,14 @@
 		"Ele requer duas ferramentas para funcionar: um &aMachado&r e &aTesouras&r. Cada operação tirará um de durabilidade de cada ferramenta. O &aMachado&r deve ser pelo menos de ferro, e algumas &aTesouras&r de outros mods podem funcionar."
 	]
 	quest.2BC86AF57781BE63.title: "&fFatiar e Juntar"
+	quest.2BFD68083AD1B894.quest_desc: [
+		"&aConstrutores&r podem colocar recursos da sua rede no mundo como blocos ou entidades de itens."
+		""
+		"Cada &eNível de Cabo&r de melhoria funciona mais rápido que o nível anterior e tem mais espaços de filtro."
+		""
+		"&7&oVerifique a dica de ferramenta de cada item para velocidades exatas."
+	]
+	quest.2BFD68083AD1B894.title: "Construtores"
 	quest.2C0C63951FDED180.quest_desc: [
 		"&dAceleradores de Partículas&r são bem complexos! Por causa disso, cada parte é dividida em missões diferentes para detalhar como todas elas funcionam."
 		""
@@ -2010,6 +2080,12 @@
 		"Você precisará de um &6Designador de Alvo Avançado&r para vincular ao seu Acelerador."
 	]
 	quest.2C0C63951FDED180.title: "&dAcelerador de Partículas"
+	quest.2C141655079AC173.quest_desc: [
+		"As armas &dWyvern&r consomem energia em vez de durabilidade e podem ser personalizadas através de módulos colocados em seus inventários."
+		""
+		"O inventário de módulos delas pode ser acessado através da tecla de atalho &eMódulos de Ferramenta&r, que não é vinculada por padrão."
+	]
+	quest.2C141655079AC173.title: "&fArmas &dWyvern"
 	quest.2C1649AE3DADD71D.quest_desc: [
 		"&eVaras de Construção&r é um mod sobre tornar o processo de construção muito mais rápido."
 		""
@@ -2127,6 +2203,7 @@
 		"&7&oQualquer semelhança com tecnologias Ficsit atuais ou anteriores é coincidência."
 	]
 	quest.2D20EDB447787183.title: "&6Create: Hipertubos"
+	quest.2D35AD2FDC93FA46.title: "TF Sul"
 	quest.2D8FCC93C758D070.title: "Peças de Armazenamento de Almas"
 	quest.2D95FEECCF48B088.quest_desc: [
 		"&aCapacitores Dracônicos&r são baterias portáteis que podem armazenar e fornecer energia para outros itens em seu inventário."
@@ -2137,6 +2214,8 @@
 	]
 	quest.2D95FEECCF48B088.title: "&fCapacitores &dDracônico"
 	quest.2D99F429A18BEED1.title: "Verificação Catalisador 2"
+	quest.2DB9D91CFB15C210.quest_desc: ["Use o Infusor para fazer os circuitos necessários para as &2Estruturas de Máquina&r."]
+	quest.2DB9D91CFB15C210.title: "&fCircuitaria Básica"
 	quest.2DF77DA2ED65FBAC.quest_desc: [
 		"O &dPeitoral Wyvern&r é uma peça de armadura energizada que permite toneladas de opções de personalização."
 		""
@@ -2209,6 +2288,7 @@
 	]
 	quest.2F9F60F308C42FB0.quest_subtitle: "Diamantes Infundidos com Energia Psi!"
 	quest.2F9F60F308C42FB0.title: "Gemas Psi"
+	quest.2FF6307E57E005C8.quest_subtitle: "requer triturador IE, usado apenas em IE"
 	quest.2FFA4CF8C062AD5E.quest_desc: [
 		"&aPonta de Importação&r e &aExportação&r permitirão que você insira e retire itens do seu sistema e de quaisquer outros inventários conectados."
 		""
@@ -2248,6 +2328,7 @@
 	quest.30902357747A64F1.title: "&fO Palácio da Rainha da Neve"
 	quest.309D995CCCDB3AEE.quest_desc: ["O &dArtífice do Dragão&r forneceu a você uma &aBateria de Chronon&r infundida com poderes dracônicos, permitindo que esta ferramenta acesse &zO Vazio Fraturado&r. Este local agora também está vinculado ao seu &2Painel de Ação&r."]
 	quest.309D995CCCDB3AEE.title: "&fFale com &dO Artífice do Dragão&f"
+	quest.30DC15C5BF42A9DE.title: "Oceano Leste"
 	quest.30EE07811728D901.quest_desc: [
 		"O &6Motor do Mundo&r está quase em funcionalidade total. O passo final seria criar o metal supremo."
 		""
@@ -2263,6 +2344,12 @@
 	]
 	quest.30F922372D95D407.title: "&fÁrvores de Bonsai"
 	quest.31042D7EBA3B39AD.title: "Verificação Infinito 1"
+	quest.310F815C02B2CAF8.quest_desc: [
+		"Esta missão definirá um ponto de referência para o &6Arquivo&r do &dTwilight&r."
+		""
+		"&eNota&f: O &dTwilight&r e o &dAncestral&r compartilham o mesmo &6Arquivo&r."
+	]
+	quest.310F815C02B2CAF8.title: "&fLocalizando &dTwilight"
 	quest.31705AD5BE50E2CB.quest_desc: [
 		"A &aCâmara de Reação Pressurizada&r é uma máquina avançada que combina 1 líquido, 1 gás e 1 item para produzir um novo item, e às vezes um subproduto gasoso."
 		""
@@ -2453,6 +2540,7 @@
 	quest.33E4C81B762892B2.title: "&fBem-vindo Ao &eOritech&f!"
 	quest.33EDFB2DC1BEA7F0.quest_desc: ["O &3Monitor de Autocriação&r permite que você veja o status de todas as solicitações de criação ativas."]
 	quest.33EDFB2DC1BEA7F0.title: "Monitor de Autocriação"
+	quest.33FEE29B3EF5A420.quest_subtitle: "Descobridor, Pedra do Outro Mundo"
 	quest.340D7F25B5EB0D33.quest_desc: [
 		"O próximo nível de Gosma é chamado de &dGosma de Vazio Brilhante&r, e permite converter &bBlocos de Diamante&r em &bCelestigems&r."
 		""
@@ -2558,7 +2646,11 @@
 	]
 	quest.35E8F57E93106BFE.title: "Padrões"
 	quest.364AA0C55F3312DE.title: "Fragmentos de Ardosiabissal"
+	quest.364B2143B874582D.quest_desc: [""]
+	quest.364B2143B874582D.title: "&fDescobrindo o Motor do Mundo"
 	quest.36BA7AADD98E9868.quest_subtitle: "Diamante + Ouro"
+	quest.36CB035F6484A70F.quest_desc: [""]
+	quest.36CB035F6484A70F.title: "&fCouro"
 	quest.36DD75256D280C4A.quest_desc: [
 		"Máquinas podem ser melhoradas instalando &aAddons&r."
 		""
@@ -2682,6 +2774,7 @@
 		"Para construir isso, faça um cubo de 2x2x2 usando &aTijolos de Fornalha&r, então clique com o botão direito em uma face com o &aMartelo de Engenheiro&r."
 	]
 	quest.38E2176886386133.title: "&fFornalha de Liga"
+	quest.38EDDC529FD4C665.quest_subtitle: "Descobridor, Geólogo"
 	quest.3900E67C8B833980.quest_desc: [
 		"&aPergaminhos de Artesão&r podem ser encontrados como saque ou comprando-os em &zLojas&r."
 		""
@@ -2735,6 +2828,7 @@
 		"Ele também requer uma ferramenta em sua mão para torna-lo funcional."
 	]
 	quest.39F6026AB205841A.title: "Notas do Ultimine"
+	quest.3A106E4D6EE35D7A.quest_subtitle: "Descobridor, Geólogo"
 	quest.3A1424B69AD511BD.quest_desc: [
 		"A &eActually Additions &aBroca&r consome energia para funcionar e pode ser melhorada com vários augmentos diferentes."
 		""
@@ -2751,6 +2845,7 @@
 		"A &dMelhoria de Teletransporte de Jogador&r permite que seu &6Tempad&r descubra jogadores equipados com um &aTransmissor de Localização&r ou &aDispositivo de Triagem&r ativo."
 	]
 	quest.3A43CCB33A024711.title: "&6Estação de Trabalho"
+	quest.3A47929FBAEEBD8B.quest_subtitle: "Descobridor, Pedregulho"
 	quest.3A53BB7A6B708966.quest_desc: [
 		"Assim que você atingir &a45&r &6Eterna&r, você será capaz de infundir Estante de Livro!"
 		""
@@ -2811,6 +2906,7 @@
 	]
 	quest.3ACF3359B3B59A05.title: "&eArmazenamento Sofisticado"
 	quest.3B06321F0E2F0EC9.title: "Verificação Nível 1 WE 'ou'"
+	quest.3B0DA478464D29CC.title: "&fEspadas Vanilla Iniciais"
 	quest.3B2B26B1AD947CC5.quest_desc: [
 		"O &aArmazenamento de Energia Grande&r contém um valor base de 20M RF, que pode ser melhorado com &bAddons&r."
 		""
@@ -2856,6 +2952,7 @@
 	]
 	quest.3BFF8EFB5E7186A4.title: "&dArmazenamento Quântico"
 	quest.3C0A24054C75BF91.title: "Verificação Quarteleiro 1"
+	quest.3C25B0FAC773D70A.title: "&Ferramentas do Ars"
 	quest.3CADD463CFC2FE32.quest_desc: [
 		"O &aGerador Termoelétrico&r usa a diferença de temperatura entre os blocos de cada lado dele para gerar energia &aLV&r."
 		""
@@ -3025,6 +3122,7 @@
 		"&7&oEste processo pode ser automatizado com redstone."
 	]
 	quest.3EB56937CCDFCB2A.title: "Fundição"
+	quest.3EF3DBD1F6ADEAEC.quest_subtitle: "Desenterrador, Dimensionalista"
 	quest.3F5480E01ABA887B.quest_desc: [
 		"O &aAutofabricador&r aceita até 9 &aModelos&r de receita configurados e 4 &aAprimoramentos de Velocidade&r."
 		""
@@ -3221,6 +3319,7 @@
 		""
 		"&eEstabilização&r cancela os efeitos negativos, o que significa que você obtém toda a vantagem, e nenhuma desvantagem."
 	]
+	quest.428E671C1444C97B.quest_subtitle: "Desenterrador, Arqueólogo"
 	quest.42CE9840EED6B540.quest_desc: [
 		"Nosso novo amigo deve facilitar para nós fazermos &ePedra do End Triturada&r, mas antes de continuarmos, é importante entender mais sobre &bRituais&r e &bPentáculos&r! "
 		""
@@ -3289,6 +3388,7 @@
 	]
 	quest.43949500F6A0B46A.title: "&fO &dMultibloco de Fabricação Automática"
 	quest.43A632369D0E2CE0.title: "Orientação Concluída 4.1"
+	quest.43B92A87F280211F.title: "TF Oeste"
 	quest.4402F6855A75B7F6.quest_desc: ["Esta dungeon aparece nas partes inferiores do anel da &2Twilight Forest&r."]
 	quest.4402F6855A75B7F6.title: "Encontrando uma &2Caverna de Troll"
 	quest.4426687CCCDD759A.title: "Verificação de Mago 2"
@@ -3312,6 +3412,7 @@
 		"Neste pacote, você pode obter alguns &aGrãos do Infinito&r jogando &aCascalho&r no fogo."
 	]
 	quest.4468BC270F100F27.title: "&aEnderIO"
+	quest.44842AC8247EFDF4.quest_subtitle: "Desenterrador, Geólogo"
 	quest.4498E3F4B2DC24FC.quest_desc: [
 		"Para começar a obter seu equipamento supremo do &eApotheosis&r, você precisará lutar contra monstros e explorar o mundo em busca de &bGemas&r!"
 		""
@@ -3340,6 +3441,7 @@
 		"&7&oPor favor, note que os livros encantados reais ainda estão limitados aos limites normais do pacote.&r"
 	]
 	quest.44C341DE3BCD64CC.title: "&zBiblioteca de Alexandria"
+	quest.44D9A7C563B087C0.quest_subtitle: "desenterramento"
 	quest.450A1BAD728F594B.quest_desc: [
 		"Depois de formar o multibloco da &dPonte Quântica&r para sua base, você pode fabricar e vincular o &6Cartão da Ponte Quântica&r para instalar em seu Terminal Sem Fio! Este cartão permite que você acesse sua rede de qualquer dimensão sem fio."
 		""
@@ -3496,6 +3598,7 @@
 		"O &6Dicionário de Espíritos&r é o guia do mod, mas também é necessário para certas receitas, e pode ser usado para criar &bhologramas&r para ajudá-lo a construir &dRituais&r!"
 	]
 	quest.4784FDEE62A479D0.title: "&eOccultism"
+	quest.47920CCF1C3CAE5B.title: "End Norte"
 	quest.47C1E9F93CEF25D3.quest_desc: ["Aumentar seu &3Nível do Desenterrador&r também aumentará os tipos de drops que você obtém ao escovar blocos."]
 	quest.47C1E9F93CEF25D3.title: "&fNíveis do Desenterrador"
 	quest.47C45A0552FBC1BD.title: "&fJogue por &d50 Horas"
@@ -3658,6 +3761,11 @@
 		"Você também pode pesquisar metais derretidos específicos no JEI para ver o que precisa cruzar."
 	]
 	quest.4A8581D52BD1922B.title: "Cruzamento de Vacas de Fluido"
+	quest.4A871B8D8648F305.quest_desc: [
+		"Fundido a partir de sua forma de pó ou ligado"
+		""
+		"Pó de Infusão Metalúrgica de Níquel com Diamante"
+	]
 	quest.4A87B0D25DE57F3F.quest_desc: [
 		"Antes que você possa completar a primeira tarefa do &dEncantador&r, você precisará encontrar uma versão mais resistente de pedra."
 		""
@@ -3693,6 +3801,8 @@
 	quest.4B7A9469150AF3A1.quest_desc: ["&6As Ferramentas de Psimetal&r são um conjunto de ferramentas, comparáveis à &bqualidade de nível Diamante&r, cada uma das quais pode lançar um &bFeitiço&r cada vez que realiza sua ação pretendida."]
 	quest.4B7A9469150AF3A1.quest_subtitle: "Aprovado por Vlaakithy!"
 	quest.4B7A9469150AF3A1.title: "Ferramentas Psiônicas!"
+	quest.4B8E75ACE0AA6FA0.quest_desc: ["Pode ser adquirido do Geólogo em um Desenterrador a partir de Kivi Triturado."]
+	quest.4B8E75ACE0AA6FA0.quest_subtitle: "requer gerador de minério"
 	quest.4B92EBBA1F2BBFEA.quest_desc: ["Resgatar a recompensa desta missão definirá um ponto de referência na entrada do &6Arquivo&r do &dEco&r."]
 	quest.4B92EBBA1F2BBFEA.title: "&fLocalizando &do Ancião"
 	quest.4BA8E435EDA995AC.quest_desc: [
@@ -3712,6 +3822,7 @@
 	quest.4BB5ADD98F958712.title: "Encontrando uma &7Masmorra de Pedra"
 	quest.4BB6832FE4685131.quest_desc: ["Para usar suas &3Almas&r, aponte a &aSobrecorrente de Almas&r para o bloco que você quer acelerar e conecte-o à &dBase do Laser de Almas&r usando &aCanos de Alma&r."]
 	quest.4BB6832FE4685131.title: "&3Transportando Almas"
+	quest.4BBDC7BF4B9EAD72.quest_subtitle: "Desenterrador, Arqueólogo"
 	quest.4BCA8A5C3F80D375.quest_desc: [
 		"O &aSelo do Desnomear&r remove o nome de Afixo de um item, revertendo-o ao seu nome de item normal."
 		""
@@ -3966,6 +4077,7 @@
 		"&7&oVocê pode se teleportar diretamente para este Eco de qualquer lugar no lobby após encontrá-los usando &e/echo catalyst&7."
 	]
 	quest.500074C1D4EC9591.title: "&fConheça &do Catalisador"
+	quest.50416F411ED15BA5.quest_subtitle: "requer gerador de minério"
 	quest.50AC369D1F5B7DD8.quest_desc: [
 		"&bVerificação&f: Obtendo Árvores Mágicas e Mudas"
 		""
@@ -4007,6 +4119,7 @@
 	]
 	quest.50E133C3E351255E.quest_subtitle: "Roost Ultimate"
 	quest.50E133C3E351255E.title: "&fGalinhas!!"
+	quest.50EFBD8BDE0C88AF.quest_desc: ["A &aMelhoria de Alcance&r aumenta o alcance do &3Transmissor Sem Fio&r, de 16 para até 48 blocos."]
 	quest.5119EFBB9FB39CDE.quest_desc: ["Você pode encontrar um desses na estrutura do &dBosque Arcano&r, ou no Portal &dConto de um Padre que Sabia Demais!&r."]
 	quest.5119EFBB9FB39CDE.title: "Mate o &dArchevoker"
 	quest.511B01F40006FC4B.quest_desc: [
@@ -4042,6 +4155,8 @@
 		"Há também o ícone da &aLixeira&r no canto superior esquerdo do seu inventário que você pode usar. Isso também pode ser acessado usando o comando &a/trashcan&r."
 	]
 	quest.51804232265672A9.title: "&fLixeira no Inventário!"
+	quest.519C754DF20BF31E.quest_desc: ["Bloco de Platina usando Geleca"]
+	quest.519C754DF20BF31E.quest_subtitle: "(Vendido pelo Eco)"
 	quest.51B3EF0BCEB804A4.quest_desc: [
 		"Enviar os blocos necessários para o &3Aprimoramento&f e resgatar suas recompensas montará automaticamente o &6Motor do Mundo&r da sua equipe."
 		""
@@ -4121,6 +4236,7 @@
 	quest.5417C0BED57AE8DA.quest_desc: ["Gera energia consumindo Fauna do Nether."]
 	quest.543C6917A16F266C.quest_desc: ["Independentemente de qual caminho você tomou, agora você deve ter a habilidade de criar a &dAntimatéria&f necessária para fabricar o &zBuraco Negro&f."]
 	quest.543C6917A16F266C.title: "&zAntimatéria&r"
+	quest.54404B81EAC760E8.quest_subtitle: "(Vendido pelo Eco)"
 	quest.5455CF5D3C37ECA9.quest_desc: [
 		"A &cMonstruosidade de Netherita&r pode ser encontrada na &3Forja das Almas&r."
 		""
@@ -4160,6 +4276,7 @@
 		"&eNota&f: Quaisquer blocos colocados onde um aprimoramento deveria ir serão anulados."
 	]
 	quest.55D17BDE3E9C81CC.title: "&fAuto-Construir o &3Aprimoramento de Fortron"
+	quest.55DB51D88B9C5724.quest_subtitle: "liga de estanho e cobre"
 	quest.55DF810785A9B938.title: "Verificação de Catalisador 1"
 	quest.562156281B8D0843.quest_desc: [
 		"Esta máquina é usada para decompor líquidos específicos, como &bÁgua&r, em 2 &agases&r separados."
@@ -4369,6 +4486,14 @@
 		"► &aExcesso&r: 100"
 	]
 	quest.592A206B63BF556E.title: "&aNível 1&f de Bateria CAD"
+	quest.594911C1304689E9.quest_desc: [
+		"&aExportadores&r são usados para mover recursos para fora da sua rede."
+		""
+		"Cada &eNíveis de Cabo&r aprimoramento funciona mais rápido que o nível anterior e tem mais slots de filtro."
+		""
+		"&7&oVerifique a dica de ferramenta de cada item para velocidades exatas."
+	]
+	quest.594911C1304689E9.title: "Exportadores"
 	quest.59497745146C1EFD.quest_desc: [
 		"&aFerramentas e armas Soulstained&r podem ser usadas para coletar &bEspírito&r da mesma maneira que uma &eFoice&r, enquanto têm todas as mesmas características de suas contrapartes mundanas, embora uma melhoria da versão Primitiva esteja disponível, assim como uma espada melhorada com &dTyrving&r."
 		""
@@ -4386,6 +4511,7 @@
 	quest.59C71582F19E8554.title: "Mate Zumbis"
 	quest.59CBFA5583139A3B.quest_desc: ["A &dBancada de Reforja&r é uma versão melhorada da &aBancada de Reforja Simples&r, permitindo que você reforge itens de todas as raridades, incluindo itens &zMíticos&r."]
 	quest.59CBFA5583139A3B.title: "&dBancada de Reforja&r"
+	quest.59D007531CD064D9.quest_subtitle: "precisa remover para IronJs"
 	quest.59E8FEC3758635DF.quest_desc: [
 		"De acordo com os &dEcos&r, Aldeões recentemente curados não têm habilidades. Você deve treiná-los para aumentar seus Níveis de Desenterramento!"
 		""
@@ -4432,6 +4558,11 @@
 		"Elas podem ser feitas assim que você fizer uma viagem para a &dCidade Ancestral&r e fizer &dGeleca de Vazio Cintilante&r. "
 	]
 	quest.5AC7EEC3D69AF032.title: "&bFerramentas de Celestigem"
+	quest.5B23C2EB38DCEE6E.quest_desc: [
+		"Ligando Platina + Netherita"
+		""
+		"Forjando Atomicamente Platina + 2 Folhas de Carbono Reforçado"
+	]
 	quest.5B512AED08EC1899.quest_desc: [
 		"&aGeradores Térmicos&r geram energia usando &ccalor&r do bloco colocado embaixo dele, e um &brefrigerante&r sendo bombeado de qualquer lado."
 		""
@@ -4590,12 +4721,14 @@
 	quest.5E5BDCBF185E48E3.title: "&fBancada de Trabalho do Engenheiro"
 	quest.5E74E0339A6F5314.quest_desc: ["Mate o &dChesed&r localizado na &dArena Chesed&r no anel do &eEnd&r e &cEnvie seu troféu&r para reivindicar sua recompensa."]
 	quest.5E74E0339A6F5314.title: "Mate &do Chesed"
+	quest.5E79F24C893AFF65.quest_subtitle: "Desenterrador, Geólogo"
 	quest.5E90192C6F3011B7.quest_desc: [
 		"Com o poder do &6Motor do Mundo&r e um &aCodificador de Eco&r, você pode criar mais aldeões usando alimentos assim que tiver pelo menos 1 &2Token de Trabalhador&r."
 		""
 		"&7&oJá se foram os dias de fazer manualmente mais aldeões."
 	]
 	quest.5E90192C6F3011B7.title: "&fCriação de Aldeões"
+	quest.5ED062BF97780287.title: "End Oeste"
 	quest.5ED10C54AE06DB40.quest_desc: [
 		"A &zArmadura do Infinito&r nega todo o dano ao jogador e fornece impulso de pulo e velocidade de movimento."
 		""
@@ -4811,6 +4944,7 @@
 		"► &bMemória&r: 7"
 	]
 	quest.62802965CA91E8C9.title: "&bNível 2&f de Soquetes CAD"
+	quest.62BB5925FB6C05C6.title: "Ponto de Referência &fdo &dEco do Mago"
 	quest.62C92C8960875611.quest_desc: ["A metalurgia é tão importante na magia quanto no mundano, mesmo que os métodos sejam muito diferentes. Barras que foram infundidas com propriedades espirituais serão instrumentais para progredir mais fundo nesta arte."]
 	quest.62C92C8960875611.title: "&fMetalurgia Espiritual"
 	quest.62CEFEB50E7D4489.title: "Verificação do Intendente 2"
@@ -4835,6 +4969,7 @@
 		"&aMadeira Tratada&r é usada para criar várias estações de trabalho do &6I.E&r, como a &aBancada de Trabalho do Engenheiro&r."
 	]
 	quest.63B7AC676FC1EE7F.title: "&fTábuas de Madeira Tratada"
+	quest.63BA03EC05C8105F.title: "TF Norte"
 	quest.63BED4D08224B3EF.quest_desc: [
 		"Existem mais tipos de Relés para transferir &dFonte&r entre jarros e blocos!"
 		""
@@ -4890,6 +5025,12 @@
 		"&eNota&f: Quaisquer blocos colocados onde uma melhoria deveria ir serão anulados."
 	]
 	quest.65B10C46C1AE5026.title: "&fAuto-construir a melhoria de &3Vazio Sombrio"
+	quest.65B10C46C1AE50B6.quest_desc: [
+		"Enviar os blocos necessários para o &3Aprimoramento&f e resgatar suas recompensas montará automaticamente o &6Motor do Mundo&r da sua equipe."
+		""
+		"&eNota&f: Quaisquer blocos colocados onde um aprimoramento deveria ir serão anulados."
+	]
+	quest.65B10C46C1AE50B6.title: "&fAuto-Construir o &3Aprimoramento do Vazio Sombrio"
 	quest.65C1A809B6A22758.title: "Verificação do Artífice do Dragão 2"
 	quest.6600E26635FD3D0E.quest_desc: [
 		"&2Módulos de Velocidade&r podem ser usados para aprimorar muitas máquinas &eMFFS&r, geralmente acelerando seu desempenho."
@@ -4915,6 +5056,12 @@
 	quest.66545AFE0DEA820F.quest_desc: ["Um conjunto de itens mais sombrio para um tipo de artesanato mais sombrio."]
 	quest.66545AFE0DEA820F.title: "&fOs Retornos do Poço"
 	quest.665C261B98E4D20B.quest_desc: ["Fale com o &dTwilight&r assim que retornar triunfante de sua aventura para que eles possam mostrar como instalar o &3Aprimoramento do Motor do Mundo do Twilight&r."]
+	quest.6681C945EBF3E114.title: "Modo de entrada"
+	quest.6697F832067F1A9C.quest_desc: [
+		"O &3Canhão Elétrico Endérico&r da &eOritech&r pode disparar tanto um feixe de laser concentrado quanto um feixe explosivo dependendo de seu modo. Você pode Shift + Clique com Botão Direito para alternar o &bModo de Mineração&r on/off."
+		""
+		"No &bModo de Mineração&r, esta ferramenta Tudo-Em-Um minera blocos diretamente para o seu inventário com alcance de interação de bloco infinito."
+	]
 	quest.66BC4434409F959B.quest_desc: [
 		"&3Plutônio&r pode ser recuperado em &7Combustível Fóssil&r com um pouco de processamento de salmoura ou sal."
 		""
@@ -4957,6 +5104,7 @@
 		"Colocar &2Lápis&r ou &2Quartzo do Nether&r dentro triplicará a taxa de conversão do &aDerivador de Coerção&r quando consumidos."
 	]
 	quest.6739E7A96309D0A8.title: "&fCriando Fortron"
+	quest.674AFF1CFDE5886F.title: "Armoreiro"
 	quest.6755CACD4957A4CB.quest_desc: [
 		"&6Núcleos&r são uma &aparte essencial do seu CAD&r, sempre tente fazer o melhor que puder, &aeles são basicamente a CPU do seu CAD&r."
 		""
@@ -4972,6 +5120,7 @@
 		"► &3Projeção&r: 1"
 	]
 	quest.6755CACD4957A4CB.title: "&aNível 1&f Núcleo CAD"
+	quest.67747675548AAC80.quest_subtitle: "Escavador, Arqueólogo"
 	quest.6781D1A7A53A5F1D.quest_desc: [
 		"Esta bússola aponta para a localização de um &3Cofre."
 		""
@@ -5002,6 +5151,7 @@
 		""
 		"Eles também podem ser usados para cobrir vários componentes do &eCreate&r para deixar sua decoração mais bonita."
 	]
+	quest.67F596597F0B2825.title: "&fConheça o Guia"
 	quest.68258EA281734B4A.quest_desc: [
 		"O &bCapacitor de Fortron&r é necessário em todo sistema &eMFFS&r para atuar como um buffer de &3Fortron&r e transferi-lo por toda a &bFrequência&r registrada. O botão grande no meio da UI ajusta como o &bCapacitor&r distribui &3Fortron&r por um sistema."
 		""
@@ -5043,6 +5193,12 @@
 		"&7&oVocê pode se teleportar diretamente para este Eco de qualquer lugar no lobby depois de encontrá-los usando &e/echo infernal&7."
 	]
 	quest.695B2CCD18E5DDFE.title: "&fConheça &dO Infernal"
+	quest.69997DAB93184551.quest_desc: [
+		"O &dPeitoral de Wyvern&r fornece um escudo de energia quando energizado que anula o dano recebido pelo jogador quando usado em um Slot de Curios. Isso pode ser aprimorado através de &aMódulos de Melhoria&r."
+		""
+		"Seu inventário de módulos pode ser acessado através do atalho &eMódulos de Ferramenta&r, que não é definido por padrão."
+	]
+	quest.69997DAB93184551.title: "&dPeitoral de &fWyvern"
 	quest.69E90341CD1AD494.quest_desc: [
 		"► Ao &dClicar com o Botão Direito&r em um &6Programador de Feitiços&r você poderá acessar sua GUI, é uma Grade 9x9 &8&o(Aprovada pelo Direwolf)&r que permite colocar e conectar &b\"blocos de código\"&r."
 		""
@@ -5138,6 +5294,7 @@
 		"&7Quanto mais lutam, mais próximo o fim deles se aproxima."
 	]
 	quest.6BCA2ED05C7D9D4E.title: "&6Armadura Maligna"
+	quest.6BF5A24142C8FC67.quest_subtitle: "Escavador, Geólogo"
 	quest.6C25708068B5197C.quest_desc: [
 		"O &aDissipador de Precisão&r permite a remoção seletiva de encantamentos indesejados de itens e pode remover maldições ao custo de 30 níveis."
 		""
@@ -5236,8 +5393,16 @@
 		"&eNota&f: Você deve entregar o &aGerador de Chronon&r para completar esta missão e atualizar o &dEco da Orientação&r. "
 	]
 	quest.6D5A9E9E8B0D8AC2.title: "&fGerador de Chronon"
+	quest.6D9862948E97E696.title: "End Leste"
+	quest.6DB6B40C3E07E389.quest_desc: [
+		"Se você conseguir encontrar o caminho através dos quebra-cabeças deste cofre, a &2Estrela de Chroniton&r deve ser sua."
+		""
+		"Apenas lembre-se, o bolo é uma mentira."
+	]
 	quest.6DC738A434C5B02F.title: "Mate o Endermen"
 	quest.6DD9A75EE8C97710.title: "Mate o &7Necromante"
+	quest.6DEB5453D8E3BD76.quest_subtitle: "Escavador, Dimensionalista"
+	quest.6DEB5453D8E3BD76.title: "Detritos Ancestrais ou Netherita"
 	quest.6E149F8E8B3F150B.quest_desc: ["Depois de criar as &2Estantes de Livro Ecoantes&r, volte ao &dEco do Encantador&r para aprender como instalá-las no &6Motor do Mundo&r como uma melhoria."]
 	quest.6E24701C49A6114D.quest_desc: [
 		"Com o &6Motor do Mundo&r aprimorado com o poder do &zVazio&r, você pode criar o &dCompressor de Neutrônio&r para compactar itens em &zSingularidades&r."
@@ -5268,6 +5433,7 @@
 		"Um &2Arqueólogo&r de nível 4 é uma ótima maneira de obter &dMudas de Arcomadeira&r!"
 	]
 	quest.6F53C65C3131B68A.title: "&fO Arqueólogo&r"
+	quest.6F68D2CC4B83671E.quest_subtitle: "Escavador, Geólogo"
 	quest.6F91297C4FAA43FE.quest_desc: [
 		"O &dDimensionalista&r é um mestre em materiais de outros mundos, e pode escavar em &cNetherrack&r, &ePedra do End&r, e &7Outra Pedra&r. Eles exigem um &aBloco de Engenharia Resonanz&r como estação de trabalho."
 		""
@@ -5335,6 +5501,7 @@
 	]
 	quest.70C02FCA0C7B8777.quest_subtitle: "Use as Galinhas para Reproduzir as Galinhas"
 	quest.70C02FCA0C7B8777.title: "Extração de Almas e Sementes"
+	quest.70D3D4701167B4D5.title: "&fA grama é sempre mais verde do outro lado"
 	quest.70D5BEA5CC437AB6.quest_desc: [
 		"Tem muito equipamento encantado aleatório? Usando um &dTomo de Desmanche&r, você pode quebrá-lo e extrair alguns dos encantamentos dele."
 		""
@@ -5505,6 +5672,7 @@
 	quest.727070B13B966DE1.title: "&fAuto-Construir o &3Aprimoramento Tesseract"
 	quest.72766EEF59130E19.title: "&fJogue por &c25 Horas"
 	quest.7279FFED00B223D7.quest_desc: ["O &aNúcleo de Dracônio&r é um dos principais componentes de criação em &eDE&r e pode ser usado em algumas receitas básicas para itens e &bMódulos&r usados em Armaduras e Ferramentas Dracônicas."]
+	quest.727FAF20A8E1303B.quest_subtitle: "Encontrado em Fontes Curativas"
 	quest.72934B141A741423.quest_subtitle: "Amarelo + Ferro"
 	quest.7312FFEDAD1A6F75.quest_desc: [
 		"&dAprimoramento de Vazio&r - Anula automaticamente itens acima do limite de pilha atual."
@@ -5528,6 +5696,8 @@
 	quest.73268E8255CBB44A.quest_subtitle: "EnderIO"
 	quest.73268E8255CBB44A.title: "&fGeradores Personalizados"
 	quest.735CB0E29FB372C1.title: "&dTroca de &fPastilha de Antimatéria"
+	quest.7379486ABDDE4430.quest_desc: ["Esta missão irá configurar um ponto de passagem para o &6Arquivo&r do &dDobrador de Luz&r."]
+	quest.7379486ABDDE4430.title: "&fLocalizando &do Dobrador de Luz"
 	quest.73871351B8E5775B.quest_desc: [
 		"Se você é mais um conjurador e quer fortalecer seus feitiços, &6Iron's Spells&r tem muitas opções para se equipar."
 		""
@@ -5546,6 +5716,7 @@
 	quest.73FD015A3696ABFB.title: "&6Dracônio Desperto"
 	quest.73FEE6C6149817E7.title: "Verificação Infernal 1"
 	quest.7408FB23D476F791.title: "Orientação Concluída 1"
+	quest.740B9F63604944F3.title: "Oceano Norte"
 	quest.7435EC96F4A4B39F.title: "Jarra de Fonte Criativa"
 	quest.744120E37CD03AE0.quest_desc: [
 		"O &aDesmontador Atômico&r do &6Mekanism&r é uma ferramenta inquebrável que consome energia para quebrar blocos."
@@ -5611,6 +5782,7 @@
 		"&7&oIsto construirá uma estrutura de 7x7x7."
 	]
 	quest.75A7DDE0D617B5E6.title: "&fTamanho Máximo do &6Computador Quântico"
+	quest.75CAB7B10BA85935.title: "Criação por Fusão"
 	quest.75D124AF83D637A8.quest_desc: [
 		"O &eIndustrial Foregoing&r (&eI.F&r) é totalmente sobre usar máquinas para fazer o seu trabalho por você."
 		""
@@ -5650,6 +5822,7 @@
 		"&eNota&r: &cLava&r pode ser facilmente adquirida usando o presente que você recebe ao encontrar o &dEco do Maquinista&r. Você também pode obtê-la no anel do &cNether&r."
 	]
 	quest.75F6827C1FB52C91.title: "&fGeradores de Pedregulho&r"
+	quest.7614FCF3E2012C48.title: "&dExotraje de Psimetal"
 	quest.76482BDD2CD6CB8E.quest_desc: [
 		"O &6Occultism&r tem um &aFoliot Lenhador&r que você pode invocar para cortar árvores para você."
 		""
@@ -5740,6 +5913,9 @@
 		"Isso significa que, em velocidades mais altas, a distância entre os &aAnéis Guia&r pode ser maior."
 	]
 	quest.7791DA964DA2A80D.title: "&fConfiguração do Acelerador"
+	quest.779460FD700CB351.quest_subtitle: "Escavador, Geólogo"
+	quest.77ABD20EB652F302.quest_desc: [""]
+	quest.77ABD20EB652F302.title: "&fGerando Animais de Fazenda"
 	quest.77DE3D57E5B58948.quest_desc: [
 		"Sem &eBússola&r desta vez!"
 		""
@@ -5860,6 +6036,7 @@
 		"&bAdaptadores de Redstone OQI&r podem ser configurados para emitir um sinal de redstone dependendo do número de itens em uma frequência definida, útil para automatizar sistemas sem inundar seu sistema de armazenamento com itens."
 	]
 	quest.79873815DEB7A086.title: "&dOQI &aImportando e Exportando"
+	quest.79CB07BC6B2333AE.title: "Prismarinho"
 	quest.79E5C4E3958DA8DD.quest_desc: [
 		"&2Cristais Entro&r são colhidos de blocos de drusa, assim como a colheita de Certus!"
 		""
@@ -5890,6 +6067,7 @@
 		"Para separá-los, derrube uma &bBigorna&r sobre a pilha de itens!"
 	]
 	quest.7A06D08AC7C65D20.title: "&fDesencantamento Fácil"
+	quest.7A1BCD0876713992.quest_desc: ["O Bloco de Drusa Falhado está disponível para criação no &bMotor do Mundo&r que tem o &aAprimoramento Bloco de Máquina&r básico."]
 	quest.7A26B0FFC0BCA275.quest_subtitle: "Permite que Lasers Endéricos mirem em entidades vivas"
 	quest.7A26B0FFC0BCA275.title: "&fAddon Caçador de Máquinas"
 	quest.7A62B07AD0BCCCEA.quest_desc: [
@@ -5903,6 +6081,10 @@
 	quest.7A6F14DB74189B67.quest_desc: ["Dentro da nossa &6Loja&r, você deve conseguir &bComprar Feitiços Pré-Codificados&r. Alguns são mais complexos que outros, você pode usá-los para seu propósito básico ou para aprender novos truques :p"]
 	quest.7A6F14DB74189B67.quest_subtitle: "Quer Exemplos de Feitiços?"
 	quest.7A6F14DB74189B67.title: "A Loja pode lhe oferecer Ótimas Ofertas!"
+	quest.7A6F1E301DB2EDC3.quest_desc: [
+		"Cx: -1"
+		"Cz: 185"
+	]
 	quest.7A8669713BE28E8F.quest_desc: ["O &dWarden&r vive na &dCidade Ancestral&r, que você pode encontrar na camada inferior da &3Ardosiabissal&r o anel. "]
 	quest.7A8669713BE28E8F.title: "&eMatar&f: &3Warden"
 	quest.7A8D31482AB1FCAA.quest_desc: [
@@ -5994,6 +6176,8 @@
 		"A &bFornalha Jumbo&r permite que várias receitas sejam processadas ao mesmo tempo, e pode ser melhorada com mais &bFornalhas Jumbo&r no slot inferior direito (até 64), cada uma representando o número de itens que pode fundir de uma vez."
 	]
 	quest.7C0FD2B2589BC66D.title: "&bMaior e Melhor"
+	quest.7C6BB27CCDA5E878.quest_desc: ["Esta missão definirá um ponto de referência para o &6Arquivo&r do &dInfernal&r."]
+	quest.7C6BB27CCDA5E878.title: "&fLocalizando &dO Infernal"
 	quest.7C72E7E48CCA7BB1.quest_desc: [
 		"O &dDeslocador Avançado&r (Advanced Dislocator) permite que você armazene múltiplos pontos de teletransporte de uma vez. Ele tem usos infinitos, mas precisa ser abastecido com &dPérolas do Ender&r para funcionar."
 		""
@@ -6083,6 +6267,18 @@
 		"&eNota&f: O &6Tempad&r não funciona como um armazenamento de Chronon para teletransporte via &aPainel de ação&r."
 	]
 	quest.7DE9A4C7979AC1FA.title: "&6Tempad"
+	quest.7E062B48AD37EAF1.quest_desc: [
+		"Processadores são usados para fabricar a maioria dos componentes centrais da sua rede &eRS2&r."
+		""
+		"[\"Estes só podem ser montados dentro de um \", { \"text\": \"Fabricador de Circuitos\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"663460DE8AF7E464\" }, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"Ir para a Missão do Fabricador de Circuitos\"} }, \".\"]"
+	]
+	quest.7E062B48AD37EAF1.title: "Processadores"
+	quest.7E0E4E6260C1D61E.quest_desc: [
+		"Com energia infinita para seu sistema de armazenamento e acesso a &zfeitiços criativos&r do &6Ars&r, resta apenas mais uma coisa para cuidar antes que você possa moldar o mundo ao seu redor."
+		""
+		"&zPoder Criativo&r para tudo."
+	]
+	quest.7E0E4E6260C1D61E.title: "Ascensão Nível 3 - Onisciente"
 	quest.7E1A18D82B74B6CC.title: "Verificação do Encantador 2"
 	quest.7E4FF5A454039E47.quest_desc: [
 		"Um dos principais usos do armazenamento digital é a capacidade de &3Fabricar Itens Automaticamente&r."
@@ -6142,6 +6338,7 @@
 		"Também é usado para criar &6Eteno&r, que é um gás denso em energia usado tanto para energia quanto para fabricar &ePastilhas de HDPE&r."
 	]
 	quest.7EF7546FF007EF36.title: "&2Biocombustível"
+	quest.7F022A9289CCBF5D.title: "End Sul"
 	quest.7F27B48C280FA27F.title: "Armazenando Itens"
 	quest.7F42E2C4AAC3D131.quest_desc: ["&7&oForça Rotacional Ilimitada"]
 	quest.7F42E2C4AAC3D131.title: "Motor Criativo"
@@ -6172,6 +6369,7 @@
 	]
 	quest.7F7C0B1523AA28C4.quest_subtitle: "Desbloqueando Ars"
 	quest.7F7C0B1523AA28C4.title: "&fÁrvores Mágicas"
+	quest.7F7D54E743F4E1DE.title: "adicionar esquemáticos WE às recompensas"
 	quest.7FBA170218539BE8.quest_desc: [
 		"Cognition tem um método único de geração de XP através de &aBibliophages&r: pequenos construtos que decompõem estantes de livros em orbes de XP até que apenas &7Poeira Esquecida&r (Forgotten Dust) reste."
 		""
@@ -6196,153 +6394,456 @@
 	]
 	quest.7FCCB25011D69673.title: "&fA &aCâmara de Enriquecimento"
 	quest.7FEDD82D9B47EFCD.quest_desc: ["O &aBiogerador&r consome biomassa para gerar energia, que pode ser aumentada com &bAddons&r."]
+	reward.00D18DF325869C86.title: "Montar o &3Aprimoramento Dark Void"
+	reward.00EC1162EB842D86.title: "Vazio Sul"
+	reward.042C6860A26F6057.title: "End Oeste"
+	reward.0443CD112299BF32.title: "&3Bússola do Cofre do Infernal"
+	reward.0491A1C974F9FE0A.title: "&3Bússola do Cofre Sul do Catalisador"
+	reward.053BB94B773511FC.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.07015FDD343B3E88.title: "Arco Wyvern"
+	reward.07FDE2A45E2F6200.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.08099C03B0628B39.title: "Nether Sul"
+	reward.08D775729B3EAF3E.title: "&dMarco &fIntendente"
+	reward.09DF4A8DBF01CD61.title: "&e+1 &3Nível do Desenterrador"
+	reward.0BED496C8D68C629.title: "Pá Caótica"
+	reward.0C0AB23B4929400B.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.0D23EB824CB0A0C2.title: "Vazio Leste"
+	reward.0E91DBA45C7125BF.title: "&eDesbloquear&f: &6Motor do Mundo"
+	reward.0F2B93D49D8DA760.title: "Ponto de Referência do Arquivo do Artífice do Dragão"
+	reward.0FF3057EB81C70D6.title: "&3Bússola do Cofre Norte do Catalisador"
+	reward.11F46FD8EC5EE6C8.title: "Montar o &3Aprimoramento Euphonium"
+	reward.1214107708FB3198.title: "Montar o &3Aprimoramento Túnel Quântico"
+	reward.12870B6226B417AF.title: "Montar o &3Aprimoramento Espiritual"
+	reward.12C21B2BC1C5906A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.12E34C33B113C643.title: "Montar o &3Aprimoramento Dracônico"
+	reward.1317DCA026D9DFBC.title: "Montar o &3Aprimoramento Infinito"
+	reward.13B35A67AAF5C0DF.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.15B421B3ACE269E3.title: "End Norte"
+	reward.16061432FA49EE66.title: "Espada Caótica"
+	reward.174EEA65827DF6EA.title: "Montar o &3Aprimoramento Chroniton"
+	reward.1A219FE0647ED732.title: "Machado Wyvern"
+	reward.1A2533930620554A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.1ADD62DBE8217E40.title: "Pá Dracônica"
+	reward.1B215A9431DBAF6F.title: "Pá Wyvern"
+	reward.1E8870E07D7F4A99.title: "Evento das Abelhas"
+	reward.1EA85DCE2A9227C3.title: "End Sul"
+	reward.1F113E78DDABE6A6.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.1FC0E512CB219EE5.title: "Machado Caótico"
+	reward.1FC841321A5BA9AB.title: "Montar o &3Aprimoramento de Encantamento"
+	reward.1FEFB160C37A91D4.title: "Ponto de Referência do Arquivo do Intendente"
+	reward.2055D6F4DA444002.title: "&dMarco &fTwilight"
+	reward.20DD8D5AAA044A24.title: "Espada Wyvern"
+	reward.235AF7EB3F88D642.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.238A2E2AEE1B8D6A.title: "Ponto de Referência do Arquivo do Light Bender"
+	reward.2392A43EE7851C85.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.24582F4B1C3E7E1F.title: "Ponto de Referência do Arquivo do Twilight"
+	reward.266BE24BD00654A1.title: "Arco Caótico"
+	reward.2730B9B9300AA75C.title: "&e+1 &3Nível do Desenterrador"
+	reward.27EBCAD2651AD138.title: "Vazio Norte"
+	reward.29048AE32290DDAB.title: "&3Bússola do Cofre do Navegador"
+	reward.2A85D0C9269D0EE5.title: "Ponto de Referência do Arquivo do Infernal"
+	reward.2AA4A91EF3A6EE48.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.2B0BC74A9E61D881.title: "Capacitor Dracônico"
+	reward.2C24A3F46426B257.title: "Montar o &3Aprimoramento Bloco de Máquina"
+	reward.2CA4C34FFD72EA33.title: "Twilight Leste"
+	reward.2D7E2A69C45D8ABD.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.2E85DC3CE143BC3A.title: "Bússola do Cofre do Maquinista"
+	reward.2F7B82DA30E186CA.title: "&e+1 &3Nível do Desenterrador"
+	reward.307426CA8BF12CAC.title: "&dMarco &fNavegador"
+	reward.30A58719DB130EE9.title: "&dMarco &fFabricador"
+	reward.30CB65204A6F6DFE.title: "&3Bússola do Cofre do Yeti"
+	reward.31A55C1C7979AC74.title: "End Leste"
+	reward.31B152CBB7E9CDAD.title: "Nether Oeste"
+	reward.31B318A2B60F4CC5.title: "Montar o &3Aprimoramento de Revestimento Sombrio"
+	reward.32A31D445DC7FF87.title: "&3Fragmentos do Oceano"
+	reward.3322D2E72CD06BE1.title: "Teletransportador Mekanism"
+	reward.338E0593C527D311.title: "Conjunto do Reator Micelial"
+	reward.35FBC3A2C111904A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.37851CF3F949515A.title: "Twilight Sul"
+	reward.37F1C940A746F48C.title: "NFT Oficial StoneBlock4"
+	reward.397185875416F4D2.title: "Oceano Oeste"
+	reward.3982DCDCE0A66B83.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.39A9BA8313470A5D.title: "Ponto de Referência do Arquivo do Catalisador"
+	reward.39BDE32B4BEF479B.title: "Resetar Motor do Mundo"
+	reward.3C0E24CCC82A480D.title: "Montar o &3Aprimoramento Fortron"
+	reward.3C14C643B8F3E2E6.title: "&3Bússola do Cofre do Cavaleiro"
+	reward.3CC21684802E95E5.title: "Picareta Wyvern"
+	reward.3E2DC10E8591B9CC.title: "Capacitor Wyvern"
+	reward.3E8E67868DA564D2.title: "&dMarco &fLight Bender"
+	reward.3F7CFC203230D314.title: "&3Bússola do Cofre da Hydra"
+	reward.3FBE85B391697AA3.title: "Oceano Leste"
+	reward.419A1C4D9279BF50.title: "Nether Leste"
+	reward.4348C140262F1176.title: "Montar o &3Aprimoramento do Twilight"
+	reward.437C0250BD2823D8.title: "Montar o &3Aprimoramento Vazio Ressonante"
+	reward.444D56BB0340167E.title: "Montar o &3Aprimoramento de Energia do Ender"
+	reward.4765C42AB1F8D1A6.title: "&3Bússola do Cofre do Maquinista"
+	reward.476F60C6DEB324A9.title: "Arco Dracônico"
+	reward.495DF49EBBF0B77D.title: "Bênção da Terra 5"
+	reward.4A3B5AA97272B2D2.title: "Machado Dracônico"
+	reward.4AE89E9586399F31.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.4BA4CA2B38D5C1F3.title: "Montar o &3Aprimoramento Núcleo Despertado"
+	reward.4C092C94E484A165.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.4CF243911064BB93.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.4EDE4462114C77EE.title: "Ardosiabissal Norte"
+	reward.4F0943ED6ECF70E6.title: "Ardosiabissal Leste"
+	reward.5014EDA364D8789D.title: "&dMarco &fInfernal"
+	reward.52BCACF7F3F4A767.title: "&dMarco &fAncestral"
+	reward.53ECA21ACDF436DD.title: "Ponto de Referência do Arquivo do Maquinista"
+	reward.54DC27E90D2295BC.title: "Pilhagem 8"
+	reward.55FBD183C62F244F.title: "Nether Norte"
+	reward.58419DD95D235FD7.title: "Peitoral Caótico"
+	reward.59039114F2E02EBE.title: "Localizador do Bosque Arcano"
+	reward.594E158A9C86929B.title: "&aGlifo Nível 1"
+	reward.59AD0E3C98FC5EA2.title: "Vazio Oeste"
+	reward.59E384F5A05211FC.title: "Ardosiabissal Sul"
+	reward.5A34161D4FD3FD66.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.5A9E657EB27180C7.title: "Montar o &3Aprimoramento Máquina Avançada"
+	reward.5AE23D826352677E.title: "Localizador da Fonte Curativa"
+	reward.5BAED70596AA3D1B.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.5BE998C2C023AB29.title: "&dMarco do &fArtífice do Dragão"
+	reward.5CD5D5D173FA5C89.title: "&dMarco &fMaquinista"
+	reward.5EE4C3B77DCAD15A.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.5FEC6723B0F40A00.title: "Ponto de Referência do Arquivo do Encantador"
+	reward.5FEF5E7E69F4437F.title: "&dMarco &fMago"
+	reward.60A493A83705E5C6.title: "Ponto de Referência do Arquivo Antigo"
+	reward.61E89C638FD700C4.title: "&eNível Máximo&f do &3Desenterrador"
+	reward.62E61D9249A89F89.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.632965F5B615FA8D.title: "Reator de Fusão"
+	reward.64CB075D188C05CC.title: "Oceano Sul"
+	reward.676EC71A125D6E04.title: "Montar o &3Aprimoramento de Fonte"
+	reward.689FE9894FCB03FA.title: "Montar o &3Aprimoramento de Enderium"
+	reward.68F8EBD4874303D7.title: "Pacote de Teletransportador Simples"
+	reward.693E7161A63AA8E7.title: "Picareta Caótica"
+	reward.694311419C81AF7D.title: "Reator (Nitro)"
+	reward.696B39000701CF3E.title: "&dMarco &fEncantador"
+	reward.69E35BEC6CB9A014.title: "Montar o &3Aprimoramento Tesseract"
+	reward.6A0011BF8C25D4FA.title: "Espada Dracônica"
+	reward.6A7A635D5039E00E.title: "Ardosiabissal Oeste"
+	reward.6A9CBD374B41A598.title: "&dMarco &fCatalisador"
+	reward.6AA784677A036A36.title: "Picareta Dracônica"
+	reward.6AE5675C3DAAB1D9.title: "Oceano Norte"
+	reward.6B56D274F5BC5918.title: "&3Bússola do Cofre do Light Bender"
+	reward.6B6E3D9E6F38918E.title: "&dGlifo Nível 3"
+	reward.6E2831AAACB7E9AD.title: "Peitoral Dracônico"
+	reward.6E69E924D695FE30.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.70BC62F1A67B859F.title: "Pergaminho do Amuleto de Proteção"
+	reward.729901F3863D27E4.title: "Ponto de Referência do Arquivo do Fabricador"
+	reward.72FFFB11B65A0DF3.title: "Capacitor Caótico"
+	reward.742CB3E07E4CCEB1.title: "&bGlifo Nível 2"
+	reward.7459FD34B6687F30.title: "Guia do Tempad"
+	reward.747CED69FCED45E8.title: "Ponto de Referência do Arquivo do Mago"
+	reward.75028F17C07E02D0.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.7834CF7F86C29EE0.title: "Twilight Norte"
+	reward.798A5012C244EC87.title: "Ponto de Referência do Arquivo do Navegador"
+	reward.7AA9A619B211B53A.title: "Peitoral Wyvern"
+	reward.7B2611299CAA750F.title: "&3Bússola do Cofre do Light Bender"
+	reward.7DA1DB3A1F6C52A0.title: "{\"translate\": \"ftb.shop.notification\"}"
+	reward.7DB306ACACBC5FA3.title: "Twilight Oeste"
+	reward.7FE6F3BEF5E57A43.title: "&3Bússola do Cofre do Lich"
+	reward.7FF100558F845196.title: "&3Bússola do Cofre da Rainha da Neve"
+	reward_table.01A8F0EB2209A24F.title: "Equipamento Dracônico Básico"
+	reward_table.0C5DDA99EE8027D3.title: "Presentes de Pedra"
+	reward_table.1320ECC4666318A7.title: "Glifos"
+	reward_table.135B4037C1A40D88.title: "Addons de Mochila"
+	reward_table.16E7488E801B3DAA.title: "Equipamento Dracônico Wyvern"
+	reward_table.1892AD44EB5DD99D.title: "Equipamento Dracônico Caótico"
+	reward_table.1D31E6EC121FF83B.title: "Equipamento Dracônico Despertado"
+	reward_table.1DA364008CA08643.title: "Equipamento de Ferro"
+	reward_table.20D1BF16232BD665.title: "Fontes de RF"
+	reward_table.21A38B78E82935CD.title: "Modelos de Dados"
+	reward_table.28714053C75776A5.title: "Relíquia de Exploração Suprema"
+	reward_table.2CB2563E52E0EEFC.title: "Relíquia de Combate Maior"
+	reward_table.2F1621E7D65D48A1.title: "Recurso Vanilla Básico"
+	reward_table.30F4E308726EB2AD.title: "Teletransportadores"
+	reward_table.3621231FD4F80730.title: "Melhoria de Baú"
+	reward_table.37F7F856288632A7.title: "Relíquias de Combate Supremas"
+	reward_table.3FFF5862073B3D97.title: "Fragmentos - Oceano"
+	reward_table.54091F8A76F9E488.title: "Equipamento Dracônico"
+	reward_table.5529BA88A208797B.title: "Fragmentos - End"
+	reward_table.56235F58490C3C41.title: "Relíquia de Combate Menor"
+	reward_table.5C5A40864844587A.title: "Fragmentos - Vazio"
+	reward_table.5E58BEB7F462AA87.title: "Addons de Baú Sofisticado"
+	reward_table.6105D334632923AE.title: "Fragmentos - Twilight"
+	reward_table.61FD9A6CC07465C1.title: "Fornalha Aleatória"
+	reward_table.657A949F0952B7D4.title: "Fragmentos - Nether"
+	reward_table.6835AC5E14D58A8C.title: "Relíquia de Exploração Maior"
+	reward_table.6B1481D18D7F1F24.title: "Fragmentos - Ardosiabissal"
+	reward_table.6B9058CED94B574F.title: "Presente de Pedregulhos"
+	reward_table.70ADF260F7A38A21.title: "RF Micelial"
+	reward_table.73C257EFB0D405CE.title: "Equipamento ProjectE"
+	reward_table.790A03E65CE8EBE4.title: "Guloseima da Vovó"
+	reward_table.7CDA9FD69979A8C9.title: "Tomos do Apotheosis"
+	reward_table.7D0A27C985829037.title: "Relíquia de Exploração Menor"
+	task.003F316E9DCBE7FE.title: "Qualquer #minecraft:logs_that_burn"
 	task.00ABB62332FC4C09.title: "&fFale com o &dEco do Catalisador"
 	task.00F90C52CBAECEBB.title: "&aTintas&r de &dFeitiço"
+	task.0119636863DFB474.title: "Fale com o Guia"
 	task.011CC09BC8B8423B.title: "Peças de Armazenamento"
+	task.011E0B1769C2E749.title: "Obter Bússola"
+	task.012649B3BEFFCA3E.title: "Blocos de Escavação do Geólogo"
+	task.018BA3043844C4CB.title: "Máquinas de Interação de Bloco"
 	task.01A493D72943A94B.title: "Peças de Fluido"
 	task.01AB71CC57E2057D.title: "Qualquer #minecraft:candles"
+	task.0269945CD49FAC4A.title: "Qualquer #c:seeds/tiered"
 	task.0284D9E486F445FC.title: "&fLocalize o Cofre da Hydra"
+	task.0287C11F3728514E.title: "Desbloqueios de Fabricação do Motor do Mundo"
 	task.02CC4D7DB653D0B6.title: "Verificar"
+	task.02E900C9DF62699B.title: "Qualquer #irons_spellbooks:add_to_lectern_and_bookshelf"
+	task.045D6D51D5A394B8.title: "Energia Inicial"
+	task.04B00E264007135A.title: "Estante de Livros Profunda Extras"
 	task.04FA10D12C67E713.title: "Ferramentas Vanilla de Netherita"
 	task.05118382686E3B7F.title: "Armas Malum"
+	task.053465F0FFC2E3BB.title: "Cofre do Cavaleiro"
 	task.05BA59C2F9E1F43B.title: "&eMatar&f: 10x Blaze"
+	task.05C31228DE4297E0.title: "Fabricações WE Ressonantes"
+	task.05EA231F68B35FBA.title: "Geração 9"
 	task.05FFCCEAC7E565FB.title: "Opções de Energia Sem Fio"
 	task.061CA75E28BD6BF6.title: "Fale com o &dEco do Artífice do Dragão"
 	task.06483FBA8021FDEF.title: "Movendo Mobs"
+	task.0675F9CC003D7723.title: "Arena Chesed"
+	task.06AA7AE5C6C5D694.title: "Obter Bússola"
+	task.06F0C110F6DF4933.title: "Guia de Cores"
 	task.0707B05028ADBA69.title: "&eMatar&f: &6O Harbinger"
 	task.075F7BA7175B340A.title: "Níveis do Desenterrador"
+	task.07BBC0302934453B.title: "Opções de Geração de Pedra"
 	task.084914CB047A78F0.title: "Peças de Armazenamento de Energia"
 	task.0879C32890B7363C.title: "&dArmas Rúnicas"
 	task.08D1694DFD199F2E.title: "Itens Modificadores"
 	task.08F70556D06E7B86.title: "Alcance de Encantamento Estendido da Estante de Livros"
 	task.09842F1F80A0B5A9.title: "Tomos de Extração"
+	task.09D272BA64115EA4.title: "Parabéns, Você terminou o pack"
 	task.09DE0D0E04573900.title: "Bancadas de Cozinha"
 	task.0A04058F3A5934FC.title: "Canos Mekanism"
 	task.0A30227533B57599.title: "Cartões"
 	task.0AAA6FAB20E74E5F.title: "Estante de Livros Infernais Melhoradas"
+	task.0AE9E3C1553154B6.title: "Núcleos de Máquina"
 	task.0AFBB94C24406DAD.title: "Receptáculos de Coração"
 	task.0C13FA83021AE4C5.title: "&eMatar&f: &cMonstruosidade de Netherita"
+	task.0C703E47B7643F97.title: "Nível 1"
+	task.0CAD1A4AF9391EB7.title: "Construtores em Níveis"
+	task.0CDA50C894140131.title: "Qualquer produto de alquimia espiritual"
 	task.0D2B50FDF033C966.title: "Armadura de Ferro"
+	task.0D549424518A10E0.title: "galinhas?"
 	task.0D88BFCD6CDC0266.title: "armas"
 	task.0D9BCEFBD92A6E7F.title: "Blocos de Pincel Dimensionalistas"
+	task.0DD6F5AD5EE05878.title: "Estágio Casa"
 	task.0E023EF28D4D86F3.title: "&bMelhorias de Alcance"
+	task.0E0DB651D35A550F.title: "Geração 3"
 	task.0E1BCAE9F0367A8B.title: "Blocos de Pincel do Geólogo"
+	task.0E558F6F41339C8A.title: "Nível 4"
 	task.0E7B34D38F84AC11.title: "Broche"
+	task.0E861275FB1F9A6E.title: "&dDesbloqueio de Eco Antigo do Twilight"
 	task.0F2D2B75BBD3B74B.title: "&cCubos de Energia&r"
+	task.0F7A749B164D259A.title: "Qualquer #minecraft:coals"
+	task.0FAC970FD967F5DF.title: "ardosiabissal oeste"
 	task.0FE18EA47455263E.title: "Ecolocalização"
 	task.101BA566216C32AD.title: "Cabo ME"
+	task.1040794FCC53E1C2.title: "verificar"
 	task.10414FF6D2800922.title: "&fFale Com o &dEco do Dobrador de Luz"
 	task.108D536F5C6428BB.title: "Ecolocalização"
+	task.10F4611888E8BE79.title: "Eco 1"
 	task.11193E0681204B33.title: "Bobinas Espectrais"
+	task.111E92A0F608B427.title: "Início do Capítulo da Fundação"
+	task.1159F04F98B724A1.title: "Cofre da Discoteca Ardente"
+	task.11B86810F19A15B9.title: "Runas"
 	task.11F49F841465DAAD.title: "Armas de Ferricore"
 	task.1211B7B1BC40225B.title: "Controladores"
+	task.121998ADA1263511.title: "ecos de nível 4"
+	task.1221574B280EBA24.title: "Contemple: Grama!"
+	task.129AAFBA73EBA070.title: "&dDesbloqueio de Eco Antigo"
+	task.12C03EE6A8238B47.title: "oceano oeste"
 	task.12E5C6B08FAC5523.title: "&eLocalize&f: &3Cofre Labirinto"
+	task.13749D631F4473F2.title: "coisas que o guia deve dizer"
+	task.1427925FA59931D3.title: "Transportadores Sem Fio"
+	task.143FD5E58F888422.title: "Machados"
+	task.145E372410535D17.title: "Lançamento de Feitiços"
 	task.1464DA1D0A45EF99.title: "Armadura de Mago"
 	task.149EDD07DA46D40F.title: "&eObserve&r: &2Aldeão&r"
 	task.14E50AE68E2967C5.title: "Catalisador de Vaca"
+	task.154C17C5C905CDB8.title: "Criações de Aprimoramento WE Dracônico"
+	task.157A4FF7FF3C6F6A.title: "ardosiabissal norte"
 	task.159400992FB94254.title: "&eObserve&f: Ardosiabissal"
+	task.159CA0D800D44755.title: "AE2 + Desbloqueios de Criação Avançada WE"
+	task.15E01B224B9897FE.title: "Configurar Sistema de Encantamento Apoth"
 	task.15F2F7C36099DE85.title: "Exportadores"
 	task.16109CEC63108983.title: "Localize o Cofre do Cavaleiro Galináceo"
 	task.16D5556D98667242.title: "Armadura de Ferricore"
 	task.16F92FFAF9B19572.title: "Vínculos de Fonte"
+	task.171FAFE09103AB82.title: "Cavaleiro Galináceo Norte"
 	task.1726EF3A700E7F17.title: "Galinhas Fabricáveis"
 	task.17FA3A67B903103F.title: "Importadores"
+	task.180232CD32A5D6B0.title: "criação do create"
 	task.180699485CD072B7.title: "Easy Villagers"
 	task.187D3A2680948DF2.title: "&fFluidos do &6Motor do Mundo"
+	task.189C216C50078C70.title: "Portões Powah"
 	task.18CB8C05E3A9150F.title: "Informações do Aldeão"
+	task.18D6F8FAB2FA69F7.title: "vazio sul"
 	task.1918A324D7CB282A.title: "Montando o Fabricador de Circuitos"
 	task.192926FA19E0AFB0.title: "Armas de Portal"
+	task.197E8D7DE2765B21.title: "catalisador"
 	task.1986452842DD2E46.title: "Verificar"
 	task.19893A74AF61880F.title: "Mudas de Archwood"
 	task.1A33A7B304C14570.title: "Transmissores Sem Fio"
 	task.1A4A5A59FFF815E2.title: "Aquecedores"
 	task.1A946F253A4AB3D2.title: "Ferramentas de Blazegold"
+	task.1AF85D1D3B0426BC.title: "ecos de nível 3"
+	task.1B25E200BE38BF9E.title: "missões do meio"
+	task.1B354BFDDC6B862B.title: "maquinista"
 	task.1B441EA3D74396D8.title: "Ferramentas Dracônicas"
 	task.1B724AA2EDADE92A.title: "&eMate&f: &7Necromante"
 	task.1BB73680D1CA700A.title: "Ecolocalização"
 	task.1C350F6D6B6C0656.title: "&bAddons Aprimorados"
 	task.1C3B92648D279809.title: "&eLocalize&f: &dInfernal"
+	task.1CFBFD68628474D1.title: "Ecolocalização"
 	task.1D40F0B8F9A522A0.title: "&eLocalize&f: &dFabricator"
+	task.1DF6D23F11B7296E.title: "Obter Bússola"
 	task.1E31F492D8779AB6.title: "Geradores de Pedregulho"
+	task.1E4CCF6176F19AA2.title: "Obter uma bússola para a Fonte de Cura"
+	task.1E5E244A9DF5B9B8.title: "Nível 1"
+	task.1EBEAF4114DC3BFD.title: "Criações de Aprimoramento WE do Twilight"
 	task.1F45D65E053E1701.title: "Mining Gadgets"
+	task.1F9A7927EEE12740.title: "Qualquer #c:seeds/tiered"
+	task.20FE0359B927FE66.title: "Opções de Geração de Minério"
 	task.21F1C6036A37CED9.title: "&eLocalize&f: &dTwilight"
 	task.220AEB0F13353108.title: "&fMelhorias de Livro de Feitiços Fabricáveis"
 	task.223A14462F14AFF6.title: "&6Motor do Mundo&f - Melhorias de Buffer de Energia"
 	task.224C16DC19629B4B.title: "Geradores Iniciais"
 	task.22DC2FE65941A0AB.title: "Addons de Aparelhos"
+	task.22F4D12640FE8DE4.title: "Cultivando Recursos"
+	task.23288392FC94FD36.title: "dobrador de luz"
 	task.236F4615115C9D2E.title: "&fLocalize o Cofre do Cavaleiro"
 	task.238BCDF15FC7E9CB.title: "Fale Com o &dEco da Orientação"
+	task.243CF5EB168426DC.title: "Verificar"
+	task.2448423EA50BA0ED.title: "Obter Bússola"
 	task.24B4FAC2831477B4.title: "&eLocalize&f: &3Cidade Ancestral"
+	task.24F1AD47BF873ABE.title: "mago"
+	task.24F9A4F56ECE9A55.title: "tf norte"
 	task.251CDFF26C59DD32.title: "Armadura de Matéria Escura"
+	task.254216164263D3E2.title: "Fale com o Cara"
+	task.258EC76B1D603C46.title: "Destruidores em Nível"
+	task.2595A4B8A1522BBC.title: "Blocos de Pincel do Arqueólogo"
+	task.25A2E220B9181819.title: "&dDesbloqueio do Eco Artífice do Dragão"
 	task.25B4028ACF0AA25B.title: "Blocos de Pincel do Arqueólogo"
+	task.25E59EFA886226D4.title: "Verificação de Recursos"
 	task.25EB772A7B06594D.title: "Ecolocalização"
 	task.266AF5D6914A2BA5.title: "Alma de Galinha"
 	task.2672BC5E75CFBDEC.title: "Estante de Livros Marinhas Melhorada"
 	task.268850BC9199AE77.title: "Observe uma &bVaca de Fluido&r"
+	task.2689CFF1F62FA5FF.title: "Ecolocalização"
 	task.268F689AFA620C03.title: "&eMate&f: 20 Esqueletos"
 	task.2695E2029A6BC6A0.title: "&fFale Com o &dEco do Mago"
+	task.27B14942E7BE87E2.title: "oceano sul"
 	task.27D0428BD5B59E54.title: "Ferramentas de Liga Eclipse"
 	task.27F04FD03BB1682C.title: "Cristais Fortalecidos"
 	task.27F8AF789DE14145.title: "Processador Concluído"
+	task.284A47FAF4885800.title: "Trocável"
 	task.287D976A94ACDE7C.title: "Armas de Blazegold"
+	task.2897D7BC60592E58.title: "Qualquer #c:wools"
+	task.28C14943E06CE907.title: "Itens Desbloqueados via Criação do Mundo"
+	task.293421D07539E14B.title: "Qualquer armadura de mago"
 	task.2988CAF299690CDB.title: "Comandos Úteis"
+	task.29B29381709E8E09.title: "Fazendas de Mobs Passivos"
+	task.29F0C3330016EDCF.title: "&fO Início da Automação - RS2"
 	task.2A0C5609613F2557.title: "Armários de Cozinha"
 	task.2AF40F8B8B4E480D.title: "&aGemas&r"
+	task.2B3540F8DE693645.title: "Desbloqueie o Intendente"
 	task.2B4824CA0A798240.title: "Ecolocalização"
 	task.2B4A71FE904A1A6D.title: "Fale Com o &dEco da Orientação"
+	task.2B85248A0FF8317A.title: "Exportadores em Nível"
 	task.2BAEE4414B32E48E.title: "&eObserve&f: &7Demônio Triturador &fFoliot"
 	task.2BE7F102A41BB55E.title: "Geradores de Início de Jogo"
 	task.2C1D58B8E7565119.title: "Sugestões de Energia Inicial"
+	task.2C70B41BE01902A0.title: "Ecolocalização"
+	task.2C7178256D98DFC4.title: "vá visitar o lobby pelo eco"
 	task.2CB20E4080C1B6CC.title: "Teletransportador"
 	task.2CBD12BA944BB6A7.title: "Redstone Sem Fio"
 	task.2CD07B6CF24F7460.title: "&bAddons Aprimorados"
+	task.2CDC924219F0604D.title: "As Gemas de Xychorium"
+	task.2CDCBCC6501AC541.title: "&eLocalize&f: &eMasmorra&r das Catacumbas"
 	task.2D2F59A031BC2E63.title: "Missões de Equipamentos"
 	task.2D6AEF337BEAFA58.title: "Augmentos do Crisol"
 	task.2D717F3B3573B504.title: "&bAddons Aprimorados"
+	task.2DCE94139CB2078D.title: "Gerenciamento de Itens das Gavetas"
 	task.2DD1C42797FC03F0.title: "&fFale Com o &dEco do Encantador"
 	task.2DF0651CE18A8870.title: "Obter Bússolas"
 	task.2E08C0DD181858C1.title: "&eLocalize&f: &dNavegador"
+	task.2E0D7FA5FBCAFA4D.title: "verificar"
 	task.2E2CF42092AA43D8.title: "Interfaces de Disco &aem Nível"
+	task.2E42256C51193994.title: "wyrmright"
 	task.2E6B8DF43B7A85E7.title: "Qualquer Montagem CAD Básica"
+	task.2EFD3D6830A8480A.title: "&eLocalize&f: &3Cofre do Pavor Ecoante"
+	task.2F3D8C75AD838DC1.title: "&6Desbloqueio de Eco Fortronist"
 	task.2F84191A75EBFBB0.title: "Obter Bússola"
+	task.2F94FA9842248FA3.title: "Cofre da Rainha da Neve"
 	task.2FB8AB5ADB1F8D26.title: "&eMate&f: &cEco de Tyros, Primeiro Portador da Chama"
 	task.2FF95590BE56EE26.title: "&fFale Com o &dEco do Twilight"
+	task.30B05842C5C7D548.title: "Baterias Powah"
 	task.30F1965A2A29E58A.title: "Clique em Mim!"
+	task.317038ACC0AB2217.title: "vazio norte"
+	task.318D58F3EAE30A2B.title: "O Motor do Mundo"
 	task.31D5BD1ADD14C2BB.title: "&fLocalize o Cofre do Lich do Twilight"
 	task.31DBB76BB460AE1B.title: "Núcleos de Máquina"
 	task.322FFDB250990323.title: "Armazenamento de Energia"
+	task.323197B515C2DAB6.title: "&3Desbloqueio de Eco Catalisador"
+	task.32463C2AE2B4F13B.title: "Mate &6Malkuth&r"
 	task.327D6E2AE8863BC1.title: "&eMate&f: &cPiromante"
 	task.32877EA200F47B95.title: "&fFale Com &6Radiance"
 	task.329BA2B5EB3185FC.title: "Materiais Recuperados"
+	task.32FB115D88E24CD5.title: "tf oeste"
 	task.3384D1EE66D61464.title: "Estante de Livro Infernal da Visão"
 	task.33877DBF6AC0BF78.title: "Estante de Livro de Ardosiabissal Melhorada"
 	task.339585B853B7012C.title: "Armas Básicas"
 	task.33CC6E4518860815.title: "Qualquer Soquete CAD Nível 3"
 	task.3448255A410B8F99.title: "Ferramentas de Wyvern"
+	task.346BBC841E2A3F2D.title: "Ecos Nível 2"
 	task.34E4918707295C02.title: "Resgatar Bússola"
 	task.34F064BD38FE398C.title: "Qualquer Substância"
+	task.34F41FF2B63589A6.title: "entrada de fonte"
 	task.35458B29D8F8E353.title: "&fFale Com o &dEco do Antigo"
 	task.35F9337A21031B7C.title: "Qualquer Núcleo CAD Nível 3"
 	task.3602BC5A7FA7DDB8.title: "Transferência de Energia Básica"
+	task.36114BC736C0EB31.title: "Desbloqueia Maquinista"
+	task.367FD95D506DE27B.title: "Obter Bússola"
+	task.36851BEF447522C1.title: "fabricador"
 	task.368FF30FEFA57F73.title: "Geração de Anel"
 	task.36D65F0F76F3F5E9.title: "Notas do Ultimine"
 	task.36E4280D3F1F4D95.title: "&bArmadura de Celestigem"
+	task.376297FFB45E51A2.title: "end oeste"
 	task.379AF15FE59B449C.title: "Tudo Sobre Chronon"
+	task.37AD604DC3429E57.title: "Criações WE de Enderium"
+	task.37C9E3F65AE092C6.title: "end norte"
 	task.37F6704E46F8E7BC.title: "Loots"
 	task.383794D054B8E0E1.title: "Obter Bússola"
+	task.387AEDAFD8378A6D.title: "Cavaleiro Galináceo Sul"
+	task.388714C70D55C2C0.title: "Obter Bússola"
+	task.38B484C5F2CD48C9.title: "Ecolocalização"
 	task.398CB19DF3238318.title: "Discos de Armazenamento Não-Tipados"
+	task.39A587FEA3FFAB6B.title: "&aDesbloqueio de Eco Navegador"
 	task.39A8645834696943.title: "Ferramentas de Cognição"
 	task.3A0AA4ECFE92B8F8.title: "Itens Curio"
 	task.3A831AEACF765BB4.title: "Itens de &cQuanta&r"
+	task.3B085693A5797F89.title: "Ferramentas de Matéria Escura"
 	task.3B13BCC752215E0A.title: "Peças de Armazenamento de Almas"
 	task.3B60BAD2A4BEA950.title: "Verificar"
 	task.3B68713C93B4FAA8.title: "&aMelhorias de Coleta"
+	task.3B69744AB1794F4A.title: "&3Desbloqueio de Eco Dobrador de Luz"
+	task.3B79C7596F19EFC3.title: "Verificar"
+	task.3BB23794DB9DEDD4.title: "Produtos de Lama"
+	task.3C26A988187EEF02.title: "nether oeste"
 	task.3C30835D105E888F.title: "Gavetas de Fluido"
 	task.3C532F10AE78D105.title: "&eLocalize&f: &dMaquinista"
+	task.3C99AA1534641A3F.title: "oceano leste"
 	task.3CB07FD3F54AFA92.title: "&zRelíquias&r"
+	task.3CEB40B064A202AA.title: "Desbloquear Motor do Mundo"
+	task.3CF9E82FE7A7CA32.title: "ardosiabissal sul"
 	task.3D00D0A8A61617EA.title: "Blocos Tipo SNAD"
+	task.3D5F6DE10646EBE3.title: "Equipamento de Wyvern"
+	task.3D6254435D99C13C.title: "Arena Malkuth"
 	task.3D736F8E008552DB.title: "Células de Energia"
 	task.3E9AA0CF9EFC6DE6.title: "Peças Químicas"
+	task.3E9C440E3E2EE022.title: "Ter uma missão que recompense estas coisas"
+	task.3EA41562AB11F9B1.title: "tf leste"
+	task.3EB209408B5FD9FA.title: "Ecolocalização"
 	task.3EBAF104991E89BF.title: "&eMate&f: &dPoderoso Cavaleiro Galináceo"
 	task.3EF3D33D52CB41A5.title: "&aMelhorias do Vazio"
 	task.3F1ABCF8325A90C9.title: "&zFerramentas do Infinito"
@@ -6351,46 +6852,93 @@
 	task.402164B895BEDB8E.title: "&fFale Com o &dEco do Intendente"
 	task.403C59A4B303FE3A.title: "&eLocalize&f: &6Caos"
 	task.4087591E474FC477.title: "&eMate&f: 10x Endermen"
+	task.40921D92713F1FB4.title: "Dar Estágio de Jogo"
 	task.411B145BAD8AA622.title: "Ferramentas"
 	task.41B203F8648421C8.title: "&eLocalize&f: &6Infinito"
+	task.41FB0785445FC826.title: "Máquinas de Interação de Fluidos"
+	task.42AEAD2BF6113D89.title: "Cofre do Yeti"
+	task.42D645B26E4EE8A4.title: "Geração 6"
+	task.43010F9F652B5B4B.title: "Qualquer #minecraft:pickaxes"
+	task.430918A5AD62C27F.title: "Opções de Meio de Jogo"
 	task.4309B43CD4447705.title: "Varas de Construção"
+	task.4321D68C7B5CA800.title: "Nível 4"
 	task.435C5B6B77C3D7B4.title: "Materiais Reconstruídos"
 	task.4404D4CA07F1B536.title: "Obter Bússola"
+	task.4436C5870B83BA75.title: "nether leste"
 	task.4461612C1C9D3F92.title: "&eMate&f: &aVendedor Ambulante"
+	task.4483C09E6123BC4C.title: "Itens Desbloqueados via Criação do Mundo"
+	task.4497434CDD9642C0.title: "Troca com Aldeões"
+	task.44BC8362B01E30DC.title: "oceano norte"
 	task.44F14FF1208B0B03.title: "AIOTs"
 	task.459AEFEC8F060222.title: "Obter Bússola"
+	task.45B09FA666AC50A6.title: "ecos de nível 2"
+	task.45B385C4A1E03540.title: "Cofre da Masmorra"
 	task.45C3B788492E3C09.title: "&eObserve&f: &2Bloco de Grama"
 	task.45E18E3EE8C1D683.title: "&fFale Com o &dEco do Maquinista"
+	task.45E2610784D6C62D.title: "vazio oeste"
 	task.46201BC3BAE0D15A.title: "Lasers do Mekanism"
+	task.46EC7CBCB208552B.title: "&aDesbloqueio de Eco Encantador"
+	task.478D81CA3E31709A.title: "Ecolocalização"
 	task.47B3519E9BAE88EB.title: "Mudas de Runewood"
+	task.47CDD3AB69EDD87A.title: "Cofre do Lich"
+	task.48521259017869AC.title: "Geração 4"
+	task.48DEF5D938C94BF6.title: "&fOpções do Industrial Foregoing"
 	task.491E250D69066BBC.title: "&eMate&f: &7Wither"
+	task.496455D7AB00E7B8.title: "Construtores"
+	task.4973EE979B7CEBB2.title: "Remover Estágio de Jogo"
+	task.49D95439F3D1CFCD.title: "Facas de Cozinha"
 	task.49DF96867DE0BB9D.title: "Espíritos"
+	task.49E3AB30A12DF498.title: "&6Desbloqueio de Eco Caos"
+	task.4A252C67885BD891.title: "Produtos de Terra Nível 2"
 	task.4A3E583E141A73F5.title: "Obter Bússola"
 	task.4A5574B73D5286B1.title: "Runas"
 	task.4A84D885C313D512.title: "Melhorias de Pilha"
 	task.4AEB443222A345F9.title: "Ecolocalização"
 	task.4B2BAB2FC31AEA4D.title: "&eLocalize&f: &dDobrador de Luz"
+	task.4B4B8BC2E5273E05.title: "força"
+	task.4B64161A3F4645D8.title: "ecos de nível 5"
 	task.4B65088186551D3C.title: "&fMelhorias do Vazio&r"
 	task.4B7C315189CC7D79.title: "Canos Clássicos"
+	task.4BD6BD132C5F5FD3.title: "Ecolocalização"
 	task.4C0AA56C3F1425DC.title: "Estantes de Livros Infundidas"
 	task.4C294F85B9714CBA.title: "Gavetas Emolduradas"
 	task.4C2F88B9AE8BD7DA.title: "Ferramentas Manchas-de-Alma"
+	task.4C54ABE5A9160A74.title: "Fale com o eco"
+	task.4C972CA6C2864541.title: "T2"
+	task.4CC67507BD359450.title: "Nível 3"
 	task.4D553F0284E3E3B7.title: "Peças de Armazenamento de Fonte"
+	task.4D5A20E3AAF6D613.title: "Falou com o Eco"
+	task.4D83F46E810A7395.title: "Requer Fabricator"
 	task.4DBC16ACBFEF4D40.title: "&aMelhorias de Pilha"
+	task.4E167989D804F280.title: "Importadores em Nível"
 	task.4E9D1C67F4EAD926.title: "Conectores"
+	task.4EF4B4FB9E896FDA.title: "Nível 4"
 	task.4F171D8BC8C1C8F7.title: "Qualquer &bMartelo&r do &eJust Hammers"
 	task.4F37295B08FFCA81.title: "Crie Sua Casa"
 	task.4F48BE06A8542822.title: "Itens Para Mover Mobs"
 	task.4FC80BE367960541.title: "&eLocalize&f: &dAntigo"
+	task.501D5E25BC5D86BC.title: "Desbloqueios de Criação do Vazio Escuro"
 	task.5034DC565C8B0377.title: "Qualquer Bloco de Folha"
+	task.50FC826E34DC4B21.title: "desbloqueia Mago"
+	task.5117CEC9D541E6AD.title: "Criações WE de Enderium"
 	task.5123D0CFBA53F360.title: "Metais Adicionados"
+	task.515FA27128F1F9F4.title: "Amuleto de Voo Infuso"
+	task.517166DF490B8DF9.title: "Nível 2"
+	task.517D541820F94242.title: "Temporizador de Recarga"
 	task.519E1F80092719D1.title: "Reporte de Bugs"
+	task.51A10188D6628ECE.title: "Criações do Motor do Mundo da Célula Ender"
 	task.51E0FB26781697CB.title: "Melhorias de Nível da Mochila"
+	task.523276D741403500.title: "Fazendas de Mobs"
 	task.5290130556504104.title: "&aBaús de Ferro&r"
 	task.52E6F8489C66A549.title: "Armadura Mancha-de-Alma"
 	task.53399AACBE5CBD31.title: "Equipamento Mancha-de-Alma"
 	task.53A4AB98C92B3D57.title: "Qualquer Soquete CAD Nível 2"
+	task.53B81DDD6321D728.title: "Obter Bússola"
+	task.53DA98367BF86C09.title: "verificação de energia"
+	task.53DCB3C11B6D07C7.title: "Itens Desbloqueados via Criação do Mundo"
+	task.54161E44D6EC0403.title: "antigo"
 	task.5434F149E894EFA6.title: "Bem-vindo"
+	task.545431F57E485EE7.title: "Pás"
 	task.54630C413BFC35E2.title: "Transferência de Energia Dracônica"
 	task.546F475B57F686A3.title: "Armadura de Matéria Vermelha"
 	task.54900CC98541771C.title: "Qualquer Colorizador CAD Psi"
@@ -6399,32 +6947,59 @@
 	task.55C6BE7CD74598FA.title: "Moldes"
 	task.55E36C96A2424F59.title: "&eMate&f: &6Remanescente Antigo"
 	task.56A35A967954A4C2.title: "Gavetas"
+	task.56BA1011DDE093D0.title: "Ósmio Bruto"
 	task.56C9F06D62E42184.title: "Qualquer Ferramenta de Psimetal"
 	task.5707D25BF97D42CD.title: "&fLocalize o Cofre do Yeti Alfa"
 	task.57168CEC7F6AA1CC.title: "Melhorias de Utilidade das Gavetas"
 	task.574A44FBE14704F6.title: "Ferramentas de Matéria Vermelha"
 	task.576C3A4D28B4D076.title: "Módulos"
 	task.576F9DD2957EB18A.title: "Detentores de Experiência"
+	task.57A2EA2AAF0401BE.title: "Ecolocalização"
 	task.57A5CC881C60B69D.title: "Varinhas do Tempo"
+	task.57BE5B16087C947C.title: "&6Desbloqueio de Eco Infinito"
 	task.57EE94BA6579685A.title: "Baterias do Actually Additions"
+	task.581CF680220285B0.title: "Corações"
 	task.585E2902BC477B5D.title: "&eLocalize&f: &6Radiance"
+	task.58670C125A30CD28.title: "Navegador"
 	task.58687506041183E7.title: "&eMate&f: 20x Slimes"
+	task.58BD6F9BD3D252EE.title: "Desbloqueios de Criação do Motor do Mundo"
 	task.58DC7CD2A4F595DD.title: "&eMate&f: &dArchevoker"
 	task.5926E51F4409C90C.title: "extras"
+	task.593AA0179354204B.title: "Obter Bússola"
+	task.593B01E9D4776913.title: "Processadores"
 	task.59454DA41C1C27D5.title: "Qualquer Runa"
 	task.59521977C507A466.title: "Fale com o &dEco da Orientação"
+	task.598209AB20C523FC.title: "Cofre do Inferno"
+	task.598955C607984551.title: "Geradores Iniciais"
+	task.5996778F5388841D.title: "Uma Montagem CAD de Marfim ou Ébano"
+	task.59A9F44F40AF2E55.title: "Ecolocalização"
 	task.5A0B7C6C05EEBEE2.title: "Melhorias de Gaveta"
+	task.5A43BF69F5EE7A51.title: "Opções de Fim de Jogo"
 	task.5A652535811A2B66.title: "Armadura Quântica"
 	task.5A912A97A8A7DB47.title: "Encontrando o &3Cofre do Create"
+	task.5A9C48DEA2F607F9.title: "Qualquer #justdynathings:compat/ae2/buddings"
+	task.5AB9DD72EFFA8BB2.title: "Oculto"
+	task.5AE65BF06E12FC55.title: "&eObserve&r: Bloco do Motor do Mundo"
+	task.5AEBA3792645C057.title: "link"
 	task.5AFEC71F18BD2D1B.title: "Melhorias da Broca"
+	task.5B1EDE30C0E98068.title: "Montando o Ativador de Nêutrons"
 	task.5B2F539FB8DF8B64.title: "&fMartelos Automáticos"
 	task.5B3A2DEB3DFBA285.title: "Fale Com o &dEco da Orientação"
 	task.5B51C00265B54937.title: "Capítulo de Tecnologia"
 	task.5B82C7AEA857BED3.title: "&eMate&f: &dGuardião do Ender"
 	task.5B97CEFB80FF361B.title: "&eMate&f: 10x Shulkers"
+	task.5C1653E469BF0527.title: "Reprodução de Aldeões"
+	task.5C3B57777EB7E7CD.title: "Geradores de Início de Jogo"
+	task.5C41B9EBAA3BFB91.title: "infinito"
+	task.5C68D9D46C6D6566.title: "&3Desbloqueio de Eco Infernal"
 	task.5C6B2370E7B8E980.title: "Mineradores do Occultism"
 	task.5CCC981194E6AD26.title: "&eLocalize&f: &dArtífice do Dragão"
+	task.5CF31579D0098AE7.title: "Temporizador de Recarga"
+	task.5CF322069EBE856C.title: "ardosiabissal leste"
+	task.5D0C511745B5006A.title: "Geração 8"
+	task.5D14CB44244C2750.title: "caos"
 	task.5D219927A5B4C985.title: "Ecolocalização"
+	task.5D301EDAEC889F86.title: "&7Desbloqueio do Eco Intendente"
 	task.5D44C1D4945AB04C.title: "&eLocalize&f: Fontes Subterrâneas"
 	task.5DB582096285438A.title: "&eLocalize&f: &dO Intendente"
 	task.5DEDD864CB2276F1.title: "&bMelhorias de Eficiência"
@@ -6432,66 +7007,114 @@
 	task.5E3DB978C813B92A.title: "Pontos de Acesso do Controlador"
 	task.5E4795D98A4F96E5.title: "Ferramentas de Celestigem"
 	task.5EA5666395E5AAEC.title: "&eLocalize&f: &dMago"
+	task.5F9845BFD2B34AC6.title: "Sua Escolha"
+	task.5F99BA061A1605D9.title: "Layout das Camadas de Pedra do Mundo"
 	task.5FD1AC346811740C.title: "&eMate&f: &cO Rei Morto"
 	task.5FFDD210AFD0055D.title: "Tomos Especializados"
 	task.6017B56A0165C534.title: "Ferramentas de Ferricore"
 	task.6064031AABA0D8D1.title: "&eMate&f: &2Apotecário"
+	task.60A5E4D097F85580.title: "Aquisição de Aço"
+	task.6143E9BDB0C9D417.title: "Cofre do Portal"
+	task.614C3268B71D6CE3.title: "encantador"
 	task.615166F23D87249A.title: "Ecolocalização"
 	task.6166C057F795A2CB.title: "Cargas de Matéria"
+	task.61990CCF4D2011E7.title: "Núcleo Desperto + Desbloqueios de Criação do Vazio Escuro"
+	task.619E259715D3DAFC.title: "Qualquer &eCélula de Armazenamento&r de &fFluxo Aplicado"
 	task.61C0F35123FBB85E.title: "&eMate&f: &3Warden"
 	task.61D894B195259EFE.title: "Armadura de Netherita"
 	task.62017C4AEF15B756.title: "Encontrando o Cofre do Portal"
+	task.620B0BA6A6337A57.title: "tf sul"
 	task.623C40B073B6326E.title: "Armadura de Liga Eclipse"
+	task.62978C611C641A3D.title: "&fInterface ME"
 	task.62B8DF25CDC4F6E7.title: "Obter Bússola"
+	task.62D52342AFC4B5B5.title: "Geração 5"
 	task.62DE6121CE506116.title: "Melhorias de Cano"
 	task.63405599D33D4D0A.title: "Geradores de Meio de Jogo"
 	task.6347BBAD2ED20F25.title: "&eMate&f: 20x Zumbis"
+	task.639A8E9CF51A8596.title: "Cultivo de Plantas"
+	task.63A8F38180C3FD30.title: "Cultivo de Árvores"
 	task.63C4D2F3F7059C8E.title: "Melhorias de Coleta da Mochila"
 	task.63FA6779F7687346.title: "Obter Bússola"
-	task.64439911825F80B2.title: "Varinhas de Bloco"
+	task.6405640824417BB2.title: "Ecolocalização"
+	task.64AB5234ED7B0BDC.title: "Cofre do Portal"
 	task.64B290466E13BE30.title: "Fale com o &dEco do Artífice do Dragão"
+	task.651313A5A837BB13.title: "&7Desbloqueio de Eco Mago"
 	task.655EA10D763BC971.title: "&eLocalize&f: &dEncantador"
+	task.65AD3185427B9AF3.title: "Cofre do Create"
+	task.65B4BE28B27BE67B.title: "infernal"
+	task.6662DD03B1F24FB1.title: "Ecolocalização"
+	task.6681C95BA23C70AA.title: "Qualquer ímpeto de metal"
 	task.6686A02C1B8BCACB.title: "Um CAD de Marfim ou Ébano"
+	task.66B4466B7858F8C2.title: "Qualquer #minecraft:saplings"
+	task.66BE14D0E22A9924.title: "Dar Desbloqueio de Eco do Create"
+	task.66E96E8D93525948.title: "Criações WE de Fortron"
+	task.66F6B411E884E391.title: "end leste"
 	task.671339615BA68B10.title: "&eMate&f: &bCriomante"
+	task.6751D267B2D7A52D.title: "Descobrindo os Ecos Perdidos"
+	task.678E1BECB4BB8A9A.title: "Geração 2"
+	task.684A45E0379D0386.title: "cofre"
 	task.6865F20C1E218901.title: "Resetar Motor do Mundo"
 	task.68A1DE705F7F836C.title: "Clique para Ativar Eventos"
+	task.68B5F556D4439356.title: "Geração 7"
+	task.68E6367E2F80DCBE.title: "Mining Gadgets"
+	task.68FBE3E15C3F9B33.title: "Qualquer broche rúnico"
+	task.69019AD3FEB39B7B.title: "dar estágio"
 	task.696DC87210410650.title: "Canos Oritech"
+	task.69965C54E13B57DD.title: "seção sobre redstone sem fio"
 	task.699DED933E4DC61C.title: "Livros de Feitiços"
 	task.69AAE2EC36ADE0C3.title: "Armadura Maligna"
 	task.69C17D93099B4E1D.title: "Armadura do Mago Errante"
+	task.6A00069F522D80AB.title: "Ver Todas as Missões"
 	task.6A0F7469DEB4D145.title: "Qualquer Núcleo CAD Nível 2"
 	task.6A32E04F83997A6D.title: "&eLocalize&f: &dCatalisador"
 	task.6A3AABB86967A8C4.title: "Ecolocalização"
 	task.6A6EB35F2D0397D5.title: "&fFale Com o &dEco do Navegador"
+	task.6AD228A3A433DD1F.title: "Cofre MFFS"
+	task.6B27B17119E4FED3.title: "Espírito + Desbloqueios de Criação Avançada WE"
+	task.6B45D5D3054C838C.title: "Eco da Orientação"
 	task.6B46A4D5E6915E1B.title: "&fFale Com o &dEco do Fabricador"
 	task.6B9EDB6F4966725F.title: "Building Gadgets"
 	task.6BF1B3F7E85C5E17.title: "&bAddons Aprimorados"
 	task.6C730129357A78D0.title: "&eMate&f: Piglins Zumbificados"
 	task.6CE5E7F652E0E5B8.title: "&fLocalize o Cofre da Rainha da Neve"
+	task.6D0AA9BE40A0E859.title: "Ecolocalização"
 	task.6D4D1E6D0136F080.title: "Destrutores"
 	task.6DF527923993A57F.title: "Melhorias de Baú no Mundo"
 	task.6EEDBE793BDCC2D7.title: "Logística"
 	task.6F0EB6804E6BC2C8.title: "Armazenamento"
 	task.6F63CD417D16DE7F.title: "&eObserve&r: &6Bloco do Motor do Mundo"
 	task.6FA17DE3B63BDA1A.title: "Gavetas Compactadoras"
+	task.6FCBB412F4BBBAEB.title: "&aDesbloqueio de Eco Fabricator"
+	task.70D4BC76C32CE0A3.title: "Intendente"
 	task.70DC330B1BB5FE90.title: "&fFale Com o &dEco do Artífice do Dragão"
 	task.716711D72FE69FF5.title: "Células de Armazenamento Tipadas"
+	task.719285FE3BB19A6E.title: "Missão 1"
+	task.71B63908FDE6CC61.title: "&bFerramentas Tudo-em-Um"
 	task.71EF7138E44BDF05.title: "Ecolocalização"
 	task.72121E28134ACE07.title: "Conheça o &dEco da Orientação"
+	task.7230891A77CE1977.title: "end sul"
 	task.72426E00128EBE6D.title: "Armadura Caça-Almas"
 	task.72566E6107743A29.title: "armadura"
+	task.736019FA0D0976A4.title: "Nível 5"
 	task.739AFA2E85FD2354.title: "Compact Machines"
+	task.73AD501FEDF94669.title: "nether norte"
 	task.742022DB9012FEDC.title: "Qualquer Muda"
+	task.748C2ADA8E320CA0.title: "Fabricação de Máquinas"
 	task.757B783AC8A9410F.title: "Armadura de Psimetal"
+	task.7586948F032C6048.title: "Cofre da Hidra"
 	task.75A4019E3778367A.title: "&6Armas Únicas"
+	task.7618036DBF5EE196.title: "Cofre do Create"
+	task.765414790D7CA99B.title: "Níquel Bruto"
 	task.766D48135EA53798.title: "Munição"
 	task.7695C5FDA30F4196.title: "Armadura de Blazegold"
 	task.769744CFA9DB671F.title: "Ecolocalização"
 	task.76987C0F742A8A14.title: "&fFale Com o &6Eco do Infinito"
 	task.76D42E59F98B63FA.title: "Verificação de Recompensa"
 	task.7747C8ECA64D179D.title: "&fFale Com O &dEco da Orientação"
+	task.77D5AFC1BC5F67C9.title: "Desbloqueio de Fabricação do Motor do Mundo"
 	task.77F88B2E5E3A0AE2.title: "&fFale Com &6Caos"
 	task.7805089FB14CE3E1.title: "&fFale Com O &dEco do Infernal"
+	task.782E4A45A331FB27.title: "Waypoint do Eco"
 	task.78869974512F8AD0.title: "Elevadores"
 	task.78AD19380F54B22A.title: "Carvões JDT"
 	task.78F8128005EE1240.title: "Gemas Adicionadas"
@@ -6500,23 +7123,35 @@
 	task.79684EDD87FFB47C.title: "&eMate&f: 20x Creepers"
 	task.79B0BA2223437C7E.title: "Ferramentas Caóticas"
 	task.79B58E484D4196CD.title: "&eMate&f: &dO Leviatã"
+	task.79CCC49178D03422.title: "Auto-Construção do Aprimoramento do Motor do Mundo"
+	task.7A0B3916B2B15F4C.title: "twilight"
+	task.7A9E3DADF485CCB4.title: "alguma fabricação"
+	task.7A9F1E65CFB92BDF.title: "vazio leste"
 	task.7AC3BD79A70049CA.title: "&eMate&f: &#FCD205Sacerdote"
 	task.7B3908878D77CBC9.title: "Localização por Eco"
 	task.7B71A001741520D3.title: "&eMate&f: 10x Esqueletos Wither"
 	task.7BDED38E6532CB94.title: "Melhorias de Processamento"
 	task.7C552DAEA902AA13.title: "Melhorias de Velocidade"
 	task.7C55FE23768493AF.title: "Construtores"
+	task.7C5681A418A2297F.title: "&7Desbloqueio de Eco Maquinista"
 	task.7C972E1F071C029A.title: "Itens de Controle de Correia"
+	task.7C9A60156BE5D21A.title: "Geração 1"
 	task.7C9DEAA63AE26D5D.title: "Grades Sem Fio"
+	task.7CA66CFB9AAC98BB.title: "nether sul"
 	task.7CCE37FAC12528D7.title: "Equipamento de Caçador de Almas"
 	task.7CD51F8C7BC7FF66.title: "Transferência de Energia Wyvern"
 	task.7CECE0F1C53701B6.title: "Ferramentas Mágicas"
 	task.7D75B40EC4AF799A.title: "Máquinas Just Dire Things"
 	task.7D8611641B6611FB.title: "&fFale Com O &dEco da Orientação"
+	task.7D91A1EAA7FEC6BD.title: "Coisas Que os Guias Deveriam Dizer"
 	task.7DD8D0EDE1FAF2DE.title: "Pegar Bússola"
 	task.7E02151602B34E2A.title: "Estabilizador de Armazenamento Dimensional"
+	task.7E4EF12285852B6E.title: "Opções de Colheita de Plantas"
 	task.7ECEEC776BBA8B53.title: "Fale Com O &dEco da Orientação"
 	task.7F31E6F7A6728CF1.title: "Melhorias de Fortuna"
+	task.7F49EBC813E06257.title: "motor do mundo"
 	task.7F73108709C402C8.title: "Geradores de Fim de Jogo"
+	task.7F7FC9A4E8AADA7F.title: "Trocas com Aldeões"
 	task.7FAA87B19ACACCBC.title: "Qualquer Corante"
+	task.7FF2F415F5685DBA.title: "Remova o desbloqueio do Eco do Create"
 }

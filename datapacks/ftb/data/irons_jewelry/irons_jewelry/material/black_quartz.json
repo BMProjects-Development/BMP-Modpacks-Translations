@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "actuallyadditions:black_quartz"
   },
-  "materialType": [
-    "gem"
-  ],
   "paletteLocation": "ftb:palettes/black_quartz",
   "quality": 1,
   "bonusParameters": {

@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "oritech:prometheum_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "ftb:palettes/prometheum",
   "quality": 3.5,
   "bonusParameters": {

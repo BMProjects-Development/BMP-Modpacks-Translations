@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "justdirethings:blazegold_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "ftb:palettes/awakened",
   "quality": 1.5,
   "bonusParameters": {

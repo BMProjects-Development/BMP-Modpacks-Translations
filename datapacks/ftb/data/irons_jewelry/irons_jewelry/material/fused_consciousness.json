@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "malum:fused_consciousness"
   },
-  "materialType": [
-    "gem"
-  ],
   "paletteLocation": "ftb:palettes/fused",
   "quality": 3,
   "bonusParameters": {

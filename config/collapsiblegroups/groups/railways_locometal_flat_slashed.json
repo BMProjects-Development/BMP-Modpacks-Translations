@@ -1,0 +1,14 @@
+{
+  "id": "railways_locometal_flat_slashed",
+  "name": {
+    "translate": "collapsible_groups.group.railways_locometal_flat_slashed",
+    "fallback": "Railways: Flat Slashed Locometal"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "railways" },
+      { "item_path_contains": "flat_slashed_locometal" }
+    ]
+  }
+}

@@ -15,6 +15,7 @@
 			alpha: 155
 			color: 0
 			height: 9.5d
+			id: "767057E614FD6A18"
 			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -25,6 +26,7 @@
 			alpha: 155
 			color: 0
 			height: 9.5d
+			id: "2E81414CDBCB9616"
 			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -35,6 +37,7 @@
 			alpha: 155
 			color: 0
 			height: 9.5d
+			id: "4097CFB1A4E63C67"
 			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -44,6 +47,7 @@
 		{
 			dependency: "53D550D3FD459ED2"
 			height: 4.0d
+			id: "0858BA2F17683AC3"
 			image: "malum:textures/gui/book/widgets/soulwood_frame_gilded.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -53,6 +57,7 @@
 		{
 			dependency: "53D550D3FD459ED2"
 			height: 4.0d
+			id: "660620FCC1113558"
 			image: "ftbquests:tasks/input_only"
 			order: -1
 			rotation: 0.0d
@@ -63,6 +68,7 @@
 		{
 			dependency: "4D754E91D203A89A"
 			height: 2.0d
+			id: "392C010241256674"
 			image: "malum:textures/gui/book/widgets/runewood_frame_grand.png"
 			order: -1
 			rotation: 0.0d
@@ -73,6 +79,7 @@
 		{
 			dependency: "370B05FC62884456"
 			height: 2.0d
+			id: "5108A1E2CA445D97"
 			image: "ftbechoes:block/echo_projector_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -82,6 +89,7 @@
 		{
 			dependency: "370B05FC62884456"
 			height: 1.5d
+			id: "0C0F60EDFA7F0D22"
 			image: "relics:textures/gui/description/ability/reroll_button_active_quick.png"
 			order: 1
 			rotation: 0.0d
@@ -92,6 +100,7 @@
 		{
 			dependency: "18AF36E1C2375101"
 			height: 2.0d
+			id: "7A212D69B562633B"
 			image: "ftbechoes:block/echo_projector_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -101,6 +110,7 @@
 		{
 			dependency: "1F66695405A4863D"
 			height: 2.0d
+			id: "78A802AE2C9967AA"
 			image: "ftbechoes:block/echo_projector_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -110,6 +120,7 @@
 		{
 			dependency: "18AF36E1C2375101"
 			height: 1.5d
+			id: "68CB5EF33E4B967B"
 			image: "relics:textures/gui/description/ability/page_counter.png"
 			order: 1
 			rotation: 0.0d
@@ -120,6 +131,7 @@
 		{
 			dependency: "1F66695405A4863D"
 			height: 1.5d
+			id: "67A80E390E411120"
 			image: "relics:textures/gui/description/ability/reroll_button_active_warning.png"
 			order: 1
 			rotation: 0.0d
@@ -465,6 +477,7 @@
 					id: "minecraft:deepslate"
 				}
 				id: "159400992FB94254"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "minecraft:deepslate"

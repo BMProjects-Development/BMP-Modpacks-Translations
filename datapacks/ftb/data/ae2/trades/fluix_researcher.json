@@ -270,6 +270,26 @@
                 "name": "minecraft:emerald"
               },
               "trader_experience": 12
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 24,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "minecraft:emerald"
+              },
+              "max_uses": 5,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "name": "ae2:mysterious_cube"
+              },
+              "trader_experience": 20
             }
           ]
         }

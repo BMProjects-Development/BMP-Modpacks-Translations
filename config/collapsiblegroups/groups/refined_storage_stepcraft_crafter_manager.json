@@ -1,0 +1,19 @@
+{
+  "id": "refined_storage_stepcraft_crafter_manager",
+  "name": {
+    "translate": "collapsible_groups.group.refined_storage_stepcraft_crafter_manager",
+    "fallback": "Refined Storage: Stepcraft Crafter Manager"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "stepcrafter"
+      },
+      {
+        "item_path_contains": "crafter_manager"
+      }
+    ]
+  }
+}

@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "0947326971FFE87D"
 			image: "powah:block/niotic_crystal_block"
 			order: -1
 			rotation: 0.0d
@@ -21,6 +22,7 @@
 		}
 		{
 			height: 2.0d
+			id: "43952B26A492A218"
 			image: "xycraft_world:block/connected/lamp_rgb_glowing_single"
 			rotation: 0.0d
 			width: 2.0d
@@ -29,6 +31,7 @@
 		}
 		{
 			height: 1.0d
+			id: "41FE40F3BB845B4D"
 			image: "minecraft:block/sculk"
 			order: 1
 			rotation: 0.0d
@@ -38,6 +41,7 @@
 		}
 		{
 			height: 1.0d
+			id: "77A1FE6AA033F392"
 			image: "oritech:block/fluid/fluid_molten_colorshifting"
 			rotation: 45.0d
 			width: 1.0d
@@ -47,6 +51,7 @@
 		{
 			color: 5592575
 			height: 1.0d
+			id: "1417BF435BE35354"
 			image: "ftbstuff:block/blank_barrel/bottom"
 			rotation: 45.0d
 			width: 1.0d
@@ -55,6 +60,7 @@
 		}
 		{
 			height: 4.0d
+			id: "7947306F88FE3A4F"
 			image: "cognition:block/cognitive_alloy_block"
 			rotation: 45.0d
 			width: 4.0d
@@ -466,6 +472,7 @@
 						id: "immersiveengineering:coke_oven"
 					}
 					id: "616ED86B19DC0FFB"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "immersiveengineering:coke_oven"
@@ -1429,6 +1436,7 @@
 						id: "immersiveengineering:alloy_smelter"
 					}
 					id: "01C396395A09E9AD"
+					observation_type: "block"
 					observe_type: 0
 					optional_task: true
 					timer: 0L
@@ -1458,6 +1466,7 @@
 						id: "immersiveengineering:crusher"
 					}
 					id: "4750B6095A6DC2F2"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "immersiveengineering:crusher"
@@ -1527,6 +1536,7 @@
 						id: "immersiveengineering:arc_furnace"
 					}
 					id: "4A0037264C36EBE1"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "immersiveengineering:arc_furnace"
@@ -2030,6 +2040,7 @@
 						id: "cognition:infected_bookshelf"
 					}
 					id: "1359EB00772FEB8A"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "cognition:infected_bookshelf"

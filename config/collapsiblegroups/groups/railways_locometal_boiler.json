@@ -1,0 +1,15 @@
+{
+  "id": "railways_locometal_boiler",
+  "name": {
+    "translate": "collapsible_groups.group.railways_locometal_boiler",
+    "fallback": "Railways: Locometal Boiler"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "railways" },
+      { "item_path_contains": "locometal_boiler" },
+      { "not": { "item_path_contains": "wrapped" } }
+    ]
+  }
+}

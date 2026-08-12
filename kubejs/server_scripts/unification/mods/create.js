@@ -282,6 +282,12 @@ ServerEvents.recipes((event) => {
 
     addRecipeCreatePressing(event, tag, [[`ftbmaterials:${material}_plate`]], `ftb:create/pressing/plate/${material}`);
   });
+
+  //Silicon Crushing
+  addRecipeCreateCrushing(event, "c:silicon", [["ftbmaterials:silicon_dust", 1]], `ftb:create/crushing/gems/silicon`);
+
+  //Silicon Ingot Crushing
+  addRecipeCreateCrushing(event, "c:ingots/silicon", [["ftbmaterials:silicon_dust", 1]], `ftb:create/crushing/ingots/silicon`);
 });
 
 ServerEvents.tags("item", (event) => {

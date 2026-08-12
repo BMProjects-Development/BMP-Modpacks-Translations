@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "irons_spellbooks:arcane",
+    "irons_spellbooks:mithril",
+    "irons_spellbooks:pyrium",
+    "irons_jewelry:awakened_draconium",
+    "irons_jewelry:blazegold",
+    "irons_jewelry:dark_steel",
+    "irons_jewelry:draconium",
+    "irons_jewelry:duratium",
+    "irons_jewelry:eclipse_alloy",
+    "irons_jewelry:enderium",
+    "irons_jewelry:fortron",
+    "irons_jewelry:hallowed_gold",
+    "irons_jewelry:iesnium",
+    "irons_jewelry:ignitium",
+    "irons_jewelry:infinity",
+    "irons_jewelry:lead",
+    "irons_jewelry:neutronium",
+    "irons_jewelry:prometheum",
+    "irons_jewelry:psimetal",
+    "irons_jewelry:refined_glowstone",
+    "irons_jewelry:refined_obsidian",
+    "irons_jewelry:replica",
+    "irons_jewelry:soulstained",
+    "irons_jewelry:spectre",
+    "irons_jewelry:witherite"
+  ]
+}

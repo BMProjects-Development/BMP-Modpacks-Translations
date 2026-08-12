@@ -1,0 +1,78 @@
+#.
+#Parameters and abilities of fluids and fluid operating components
+[ex-fluid]
+	#.
+	#.
+	#This setting affects the calculation of operating costs of Gem Cutter.
+	#In Apotheosis, Gem cutting/upgrading requires consuming one Gem of the same type & purity,
+	#a certain quantity of Gem Dust, and Rarity Materials.
+	#Specifically, it typically requires 1 + (purity level) x 2 Gem Dust, alongside Rarity Materials equivalent to 3^(purity level) units of common Rarity Material.
+	#Therefore, when calculating processing cost of Gem Cutter, both Gem Dust consumption and Gem consumption are converted into Crystal Essence,
+	#while Rarity Material consumption is converted into Apotheotic Essence, which is then converted into Crystal Essence.
+	#This config determines the conversion ratio of Gem Dust to Crystal Essence (mB) IN GEM CUTTING ONLY.
+	#[@cui:RequiresReload:server]
+	# Default: 10
+	# Range: > 1
+	gemCutterCostGemDustToCrystalEssenceRatio = 10
+	#.
+	#The config above has explained the calculation mechanism for the operating costs of Gem Cutter.
+	#This config determines the conversion ratio of Gem of "Cracked" purity to Crystal Essence (mB) IN GEM CUTTING ONLY.
+	#[@cui:RequiresReload:server]
+	# Default: 20
+	# Range: > 1
+	gemCutterCostCrackedGemToCrystalEssenceRatio = 20
+	#.
+	#The config above has explained the calculation mechanism for the operating costs of Gem Cutter.
+	#This config determines the conversion ratio of Apotheotic Essence (mB) to Crystal Essence (mB) IN GEM CUTTER ONLY.
+	#[@cui:RequiresReload:server]
+	# Default: 10
+	# Range: > 1
+	gemCutterCostApotheoticEssenceCostToCrystalEssenceRatio = 10
+	#.
+	#This setting affects the calculation of operating costs of Affix Augmentor.
+	#In Apotheosis, Affix augmenting requires consuming 225 levels of Player Experience and 2 Sigil of Enhancement.
+	#Therefore, when calculating processing cost of Affix Augmentor, to ease customization, Experience consumption is replaced by Apotheotic Essence,
+	#while Sigil of Enhancement consumption is converted into Apotheotic Essence too.
+	#This config determines the total Apotheotic Essence (mB) that replaces Experience Cost of Augmenting Table IN AFFIX AUGMENTOR ONLY.
+	#[@cui:RequiresReload:server]
+	# Default: 19347
+	# Range: > 1
+	affixAugmentorCostExperienceToApotheoticEssenceTotal = 19347
+	#.
+	#The config above has explained the calculation mechanism for the operating costs of Affix Augmentor.
+	#This config determines the conversion ratio of Sigil of Enhancement to Apotheotic Essence (mB) IN AFFIX AUGMENTOR ONLY.
+	#[@cui:RequiresReload:server]
+	# Default: 81
+	# Range: > 1
+	affixAugmentorCostSigilToApotheoticEssenceRatio = 81
+
+#.
+#Parameters and abilities of various utility components
+[ex-utility]
+	#.
+	#.
+	#The probability of Bulk Salvaging air current destroying equipped items.
+	# Default: 0.019999999552965164
+	# Range: 0.0 ~ 1.0
+	bulkSalvagingSalvageEquippedItemProbability = 0.019999999552965164
+	#.
+	#Whether Fragile Fluid Tanks filled with Infused Dragon's Breath salvage dropped items on impact.
+	fragileFluidTankInfusedDragonBreathSalvageDroppedItems = true
+	#.
+	#The probability of each dropped item being salvaged by a Fragile Fluid Tank impact with Infused Dragon's Breath.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	fragileFluidTankInfusedDragonBreathDroppedItemSalvageChance = 1.0
+	#.
+	#Whether Fragile Fluid Tanks filled with Infused Dragon's Breath can salvage equipped items on impact.
+	fragileFluidTankInfusedDragonBreathSalvageEquippedItems = true
+	#.
+	#The max probability of each living entity having equipped items salvaged by a full Fragile Fluid Tank of Infused Dragon's Breath. Actual probability scales with tank fullness.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	fragileFluidTankInfusedDragonBreathEquippedItemSalvageChance = 0.25
+	#.
+	#The maximum equipped items a Fragile Fluid Tank impact with Infused Dragon's Breath can salvage from each living entity.
+	# Default: 1
+	# Range: > 0
+	fragileFluidTankInfusedDragonBreathMaxEquippedItemsPerEntity = 1

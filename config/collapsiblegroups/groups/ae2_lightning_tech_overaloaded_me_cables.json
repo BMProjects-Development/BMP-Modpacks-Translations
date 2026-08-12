@@ -1,0 +1,19 @@
+{
+  "id": "ae2_lightning_tech_overaloaded_me_cables",
+  "name": {
+    "translate": "collapsible_groups.group.ae2_lightning_tech_overaloaded_me_cables",
+    "fallback": "AE2 Lightning Tech: Overaloaded ME Cables"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "ae2lt"
+      },
+      {
+        "item_path_contains": "overloaded_cable"
+      }
+    ]
+  }
+}

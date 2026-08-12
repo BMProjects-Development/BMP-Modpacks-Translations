@@ -304,6 +304,25 @@ ItemEvents.entityInteracted((event) => {
   cancelOverWorldInteractions(event);
 });
 
+// Prevents throwing Endest Pearls (which destroy terrain on impact) in protected areas
+ItemEvents.rightClicked("avaritia:endest_pearl", (event) => {
+  const { player, level } = event;
+  if (isPlayerInCreativeSpectator(player)) return;
+
+  const inOverworld = level.dimension == "minecraft:overworld";
+  const inWorldEngine =
+    isEntityInPlayerDimension(player, player) &&
+    isEntityInBiome(player, "minecraft:the_void") &&
+    isBlockInAABB(player.blockPosition(), AABB.of(61, 27, -62, -57, -61, 56));
+  const inVault = isEntityInVault(player);
+
+  if (!inOverworld && !inWorldEngine && !inVault) return;
+
+  level.playSound(null, player.x, player.y, player.z, SoundEvents.GENERIC_EXTINGUISH_FIRE, SoundSource.PLAYERS, 1.0, 1.0);
+  player.tell(Text.translate("ftb.protection.endest_pearl_denied").red());
+  event.cancel();
+});
+
 BlockEvents.rightClicked((event) => {
   cancelOverWorldInteractions(event);
 

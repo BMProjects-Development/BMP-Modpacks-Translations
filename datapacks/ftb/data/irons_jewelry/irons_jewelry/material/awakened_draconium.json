@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "draconicevolution:awakened_draconium_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "ftb:palettes/awakened",
   "quality": 4,
   "bonusParameters": {

@@ -1,0 +1,22 @@
+{
+  "id": "framedblocks_panels",
+  "name": {
+    "translate": "collapsible_groups.group.framedblocks_panels",
+    "fallback": "Framed Blocks: Panels & Panes"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "framedblocks" },
+      {
+        "any": [
+          { "item_path_contains": "panel" },
+          { "item_path_contains": "pane" },
+          { "type": "item", "id": "framedblocks:framed_one_way_window" }
+        ]
+      },
+      { "not": { "item_path_contains": "slope_panel" } },
+      { "not": { "item_path_contains": "stairs" } }
+    ]
+  }
+}

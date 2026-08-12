@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "cataclysm:witherite_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "ftb:palettes/awakened",
   "quality": 4,
   "bonusParameters": {

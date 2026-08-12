@@ -3,9 +3,6 @@
   "ingredient": {
     "tag": "c:ingots/iron"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "irons_jewelry:palettes/iron",
   "quality": 0.75,
   "bonusParameters": {

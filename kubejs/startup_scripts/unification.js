@@ -156,6 +156,7 @@ global.resourcesOresGemDust = [
   ["c:gems/sapphire", "ftbmaterials:sapphire_dust", 1],
   ["c:gems/coal_coke", "ftbmaterials:coal_coke_dust", 1],
   ["c:gems/sulfur", "ftbmaterials:sulfur_dust", 1],
+  ["c:silicon", "ftbmaterials:silicon_dust", 1],
 ];
 global.enabledAlloys = [
   {

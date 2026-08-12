@@ -368,6 +368,15 @@ ServerEvents.recipes((event) => {
   //Salt Crushing
   addRecipeMekanismCrushing(event, "c:gems/salt", ["ftbmaterials:salt_dust", 2], `ftb:mekanism/crusher/gem/salt`)
 
+  //Sulfur Crushing
+  addRecipeMekanismCrushing(event, "c:gems/sulfur", ["ftbmaterials:sulfur_dust", 1], `ftb:mekanism/crusher/gem/sulfur`)
+
+  //Silicon Crushing
+  addRecipeMekanismCrushing(event, "c:silicon", ["ftbmaterials:silicon_dust", 1], `ftb:mekanism/crusher/gem/silicon`)
+
+  //Silicon Ingot Crushing
+  addRecipeMekanismCrushing(event, "c:ingots/silicon", ["ftbmaterials:silicon_dust", 1], `ftb:mekanism/crusher/ingot/silicon`)
+
   addRecipeMekanismCrushing(
     event,
     "c:ingots/electrum",

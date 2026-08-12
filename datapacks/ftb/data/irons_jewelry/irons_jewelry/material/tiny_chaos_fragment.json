@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "draconicevolution:small_chaos_frag"
   },
-  "materialType": [
-    "gem"
-  ],
   "paletteLocation": "ftb:palettes/tiny_chaos",
   "quality": 5,
   "bonusParameters": {

@@ -6,6 +6,15 @@
 	# Default: 0.0
 	# Range: 0.0 ~ 1000.0
 	modify_mob_base_health: 0.0d
+	command_feedback_filtering: {
+		# A list of operator who's command usage feedback will be hidden from other operators. This is a list of UUIDs. If this list is empty, the feature is disabled.
+		# Default: []
+		blacklisted_ops: [ ]
+		
+		# A list of command feedback keys that will be hidden from operators. This is a list of translation keys which are checked based on their prefix. This means that an entry like commands.give.success would match commands.give.success.single
+		# Default: []
+		hidden_command_feedback_keys: [ ]
+	}
 	performance: {
 		# Improve reloading performance by disabling block cache rebuild on client tag data reload
 		# Default: true

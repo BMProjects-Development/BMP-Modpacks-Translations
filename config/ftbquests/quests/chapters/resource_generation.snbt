@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "411671961096F7AD"
 			image: "sophisticatedstorage:block/diamond_barrel_bottom"
 			order: 1
 			rotation: 45.0d
@@ -24,6 +25,7 @@
 		}
 		{
 			height: 1.0d
+			id: "72389A055F94D3B7"
 			image: "ftb:textures/quests/other_titles_and_logos/replication_logo.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -33,6 +35,7 @@
 		{
 			alpha: 100
 			height: 7.0d
+			id: "20D249986C5856B0"
 			image: "replication:item/memory_chip"
 			order: -10
 			rotation: 45.0d
@@ -42,6 +45,7 @@
 		}
 		{
 			height: 3.0d
+			id: "3A812C9BD505D26A"
 			image: "chicken_roost:block/hay_floor"
 			rotation: 0.0d
 			width: 3.0d
@@ -51,6 +55,7 @@
 		{
 			dependency: "5CD7299E8709E7F6"
 			height: 1.5d
+			id: "4B788F3E10F8F523"
 			image: "minecraft:entity/decorated_pot/decorated_pot_side"
 			rotation: 0.0d
 			width: 1.5d
@@ -60,6 +65,7 @@
 		{
 			dependency: "5CD7299E8709E7F6"
 			height: 1.5d
+			id: "7BA04138F5109B3A"
 			image: "apotheosis:blocks/salvaging_table_side"
 			rotation: 0.0d
 			width: 1.5d
@@ -69,6 +75,7 @@
 		{
 			dependency: "5CD7299E8709E7F6"
 			height: 1.5d
+			id: "6842ED51A1BA4B8A"
 			image: "immersiveengineering:block/metal_decoration/resonanz_engineering"
 			rotation: 0.0d
 			width: 1.5d
@@ -79,6 +86,7 @@
 			alpha: 55
 			color: 0
 			height: 4.0d
+			id: "72E531F563E536C9"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -87,6 +95,7 @@
 		}
 		{
 			height: 3.0d
+			id: "7D71BBF153B04D39"
 			image: "chicken_roost:block/hay_floor"
 			order: 7
 			rotation: 0.0d
@@ -96,6 +105,7 @@
 		}
 		{
 			height: 4.0d
+			id: "388DEBB9739E33FE"
 			image: "chicken_roost:textures/bh_ru_logo.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -104,6 +114,7 @@
 		}
 		{
 			height: 3.0d
+			id: "7C36828EE4E917F1"
 			image: "chicken_roost:block/hay_floor"
 			order: 3
 			rotation: 0.0d
@@ -113,6 +124,7 @@
 		}
 		{
 			height: 3.0d
+			id: "7A718ABCCC7D51B8"
 			image: "chicken_roost:block/hay_floor"
 			order: 1
 			rotation: 0.0d
@@ -123,6 +135,7 @@
 		{
 			alpha: 155
 			height: 3.0d
+			id: "063EBB74BA0C0F2F"
 			image: "twilightforest:textures/magic_paintings/the_hostile_paradise/13_frame.png"
 			order: 8
 			rotation: 0.0d
@@ -133,6 +146,7 @@
 		{
 			alpha: 155
 			height: 3.0d
+			id: "619EEA73093CEC74"
 			image: "twilightforest:textures/magic_paintings/the_hostile_paradise/13_frame.png"
 			order: 4
 			rotation: 0.0d
@@ -143,6 +157,7 @@
 		{
 			alpha: 155
 			height: 3.0d
+			id: "517D1EE0B22CA123"
 			image: "twilightforest:textures/magic_paintings/the_hostile_paradise/13_frame.png"
 			order: 2
 			rotation: 0.0d
@@ -153,6 +168,7 @@
 		{
 			alpha: 155
 			height: 3.0d
+			id: "1A7643AF7D2222FF"
 			image: "twilightforest:textures/magic_paintings/the_hostile_paradise/13_frame.png"
 			order: 8
 			rotation: 0.0d
@@ -162,6 +178,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2A7BC60D9F6CEB25"
 			image: "farmersdelight:item/straw"
 			order: 10
 			rotation: 0.0d
@@ -171,6 +188,7 @@
 		}
 		{
 			height: 1.0d
+			id: "34A969F970CBB44D"
 			image: "farmersdelight:item/straw"
 			order: 10
 			rotation: -75.0d
@@ -180,6 +198,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2DC5FF16D9193936"
 			image: "farmersdelight:item/straw"
 			order: 10
 			rotation: -75.0d
@@ -189,6 +208,7 @@
 		}
 		{
 			height: 1.0d
+			id: "659CF93593880385"
 			image: "farmersdelight:item/straw"
 			order: 10
 			rotation: 0.0d
@@ -198,6 +218,7 @@
 		}
 		{
 			height: 6.0d
+			id: "1BEA0B8C1FCCBEDA"
 			image: "tooltipoverhaul:textures/overlay/diamond_frame.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -206,6 +227,7 @@
 		}
 		{
 			height: 6.0d
+			id: "455213CABDBCB7AC"
 			image: "tooltipoverhaul:textures/overlay/zombie_brain_frame.png"
 			order: 1
 			rotation: 0.0d
@@ -215,6 +237,7 @@
 		}
 		{
 			height: 3.0d
+			id: "7E779063A7546C66"
 			image: "immersiveengineering:textures/models/blueprint_frame.png"
 			order: -3
 			rotation: 0.0d
@@ -226,6 +249,7 @@
 			alpha: 100
 			color: 0
 			height: 3.5d
+			id: "0F62807C54E4F38B"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -4
 			rotation: 0.0d
@@ -237,6 +261,7 @@
 			alpha: 55
 			color: 0
 			height: 4.0d
+			id: "5DB58E966A55F171"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -245,6 +270,7 @@
 		}
 		{
 			height: 6.0d
+			id: "1A47DE81E0BA0A98"
 			image: "tooltipoverhaul:textures/overlay/gear_frame.png"
 			order: 1
 			rotation: 0.0d
@@ -256,6 +282,7 @@
 			alpha: 55
 			color: 0
 			height: 4.0d
+			id: "17C9C97750DCF9FB"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -264,6 +291,7 @@
 		}
 		{
 			height: 6.0d
+			id: "41D3217821BE0A9F"
 			image: "tooltipoverhaul:textures/overlay/king_frame.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -533,6 +561,7 @@
 						id: "ftbquests:custom_icon"
 					}
 					id: "268850BC9199AE77"
+					observation_type: "entity_type"
 					observe_type: 5
 					timer: 0L
 					to_observe: "moofluids:fluid_cow"
@@ -1323,11 +1352,12 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
+			x: -5.5d
 			y: -3.5d
 		}
 		{
 			id: "52ADC3D46CCB2659"
+			min_width: 300
 			optional: true
 			rewards: [{
 				amount: 5
@@ -1335,11 +1365,18 @@
 				type: "currency"
 			}]
 			shape: "square"
-			tasks: [{
-				id: "65CFB3F37186832F"
-				item: { count: 1, id: "minecraft:spawner" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2512E1046DDBE28F"
+					item: { count: 1, id: "apotheosis:spawner_chain" }
+					type: "item"
+				}
+				{
+					id: "65CFB3F37186832F"
+					item: { count: 1, id: "minecraft:spawner" }
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -5.5d
 		}
@@ -1472,6 +1509,48 @@
 			}]
 			x: 7.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["60BBE214131DF6EB"]
+			icon: {
+				id: "hostilenetworks:data_center_io_port"
+			}
+			id: "37F6FA6FD524AB9F"
+			min_width: 350
+			rewards: [{
+				amount: 50
+				id: "7CFF9F35DC1CF6BF"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "060DC4E1800FCD4B"
+					item: { count: 1, id: "hostilenetworks:data_center" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "734B721E2353C71F"
+					item: { count: 1, id: "hostilenetworks:data_center_io_port" }
+					type: "item"
+				}
+				{
+					count: 49L
+					id: "121C175C0254F82B"
+					item: { count: 1, id: "minecraft:obsidian" }
+					type: "item"
+				}
+				{
+					count: 165L
+					id: "50CEE67B4607C3E7"
+					item: { count: 1, id: "minecraft:black_stained_glass" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -3.5d
 		}
 	]
 }

@@ -1,0 +1,14 @@
+{
+  "id": "railways_locometal_iron_wrapped",
+  "name": {
+    "translate": "collapsible_groups.group.railways_locometal_iron_wrapped",
+    "fallback": "Railways: Iron Wrapped Locometal"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "railways" },
+      { "item_path_contains": "iron_wrapped_locometal" }
+    ]
+  }
+}

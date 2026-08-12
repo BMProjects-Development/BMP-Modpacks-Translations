@@ -17,6 +17,23 @@
 // restores them when it detects the player has already progressed past
 // the crude brush quest (echo_guidance_stage1_task1_completed) — which
 // is only possible if the foundational stages should have been set.
+function echoHealHasProgressed(player, stage) {
+  return player.stages.has(stage) || Teams.hasStage(player, stage);
+}
+
+function echoHealRestore(player, stages) {
+  const missing = stages.filter((stage) => !Teams.hasStage(player, stage));
+  if (missing.length === 0) return;
+
+  Teams.addTeamStage(player, missing);
+  missing.forEach((stage) => {
+    if (!player.stages.has(stage)) player.stages.add(stage);
+    console.warn(
+      `[echo_progression_heal] Restored missing team stage '${stage}' for ${player.username}`
+    );
+  });
+}
+
 PlayerEvents.loggedIn((event) => {
   const { player, server } = event;
 
@@ -25,29 +42,13 @@ PlayerEvents.loggedIn((event) => {
     try {
       if (!Teams.getTeam(player)) return;
 
-      const hasProgressed = (stage) =>
-        player.stages.has(stage) || Teams.hasStage(player, stage);
-
-      const restore = (stages) => {
-        const missing = stages.filter((stage) => !Teams.hasStage(player, stage));
-        if (missing.length === 0) return;
-
-        Teams.addTeamStage(player, missing);
-        missing.forEach((stage) => {
-          if (!player.stages.has(stage)) player.stages.add(stage);
-          console.warn(
-            `[echo_progression_heal] Restored missing team stage '${stage}' for ${player.username}`
-          );
-        });
-      };
-
-      if (hasProgressed("echo_guidance_stage1_task1_completed")) {
-        restore(["echo_guidance_interact", "echo_guidance_meet"]);
+      if (echoHealHasProgressed(player, "echo_guidance_stage1_task1_completed")) {
+        echoHealRestore(player, ["echo_guidance_interact", "echo_guidance_meet"]);
       }
 
       ["quartermaster", "magician", "machinist"].forEach((echo) => {
-        if (hasProgressed(`echo_${echo}_stage1_task1_completed`)) {
-          restore([`echo_${echo}_meet`]);
+        if (echoHealHasProgressed(player, `echo_${echo}_stage1_task1_completed`)) {
+          echoHealRestore(player, [`echo_${echo}_meet`]);
         }
       });
     } catch (e) {

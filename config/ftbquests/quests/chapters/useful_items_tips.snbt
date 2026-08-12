@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "1A7308C16DEE7B32"
 			image: "ftb:textures/quests/other_titles_and_logos/useful_items_title.png"
 			rotation: 0.0d
 			width: 14.2d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 6.0d
+			id: "3B8966C8A967588C"
 			image: "tooltipoverhaul:textures/overlay/emerald_frame.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -30,6 +32,7 @@
 			alpha: 55
 			color: 0
 			height: 4.0d
+			id: "03FF533423848742"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -1
 			rotation: 0.0d
@@ -39,6 +42,7 @@
 		}
 		{
 			height: 6.0d
+			id: "2C99C3012E638F05"
 			image: "tooltipoverhaul:textures/overlay/amber_frame.png"
 			rotation: 0.0d
 			width: 4.5d
@@ -49,6 +53,7 @@
 			alpha: 55
 			color: 0
 			height: 4.0d
+			id: "2C770C57A8BE4384"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -1
 			rotation: 0.0d
@@ -60,6 +65,7 @@
 			alpha: 55
 			color: 0
 			height: 4.0d
+			id: "4C445CBC35CBB99E"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -1
 			rotation: 0.0d
@@ -71,23 +77,26 @@
 			alpha: 55
 			color: 0
 			height: 3.0d
+			id: "1BBF207F780D3557"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -1
 			rotation: 0.0d
-			width: 4.0d
+			width: 3.0d
 			x: -1.5d
 			y: 3.5d
 		}
 		{
 			height: 4.5d
+			id: "1406C25E3EA7131B"
 			image: "tooltipoverhaul:textures/overlay/silver_frame.png"
 			rotation: 0.0d
-			width: 6.0d
+			width: 4.6d
 			x: -1.5d
 			y: 3.5d
 		}
 		{
 			height: 6.0d
+			id: "4947B0576543F473"
 			image: "tooltipoverhaul:textures/overlay/amber_frame.png"
 			rotation: 0.0d
 			width: 4.5d
@@ -154,7 +163,7 @@
 				item: { count: 1, id: "gag:time_sand_pouch" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 3.0d
 		}
 		{
@@ -336,8 +345,8 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 3.0d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			icon: {
@@ -501,27 +510,6 @@
 			y: -1.0d
 		}
 		{
-			icon: {
-				id: "justdynathings:swapper_wand"
-			}
-			id: "0AFF8E28FC51B123"
-			optional: true
-			rewards: [{
-				amount: 5
-				id: "2D5B5E85D0E3F25A"
-				type: "currency"
-			}]
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				id: "64439911825F80B2"
-				item: { components: { "ftbfiltersystem:filter": "or(item(justdynathings:picker_wand)item(justdynathings:swapper_wand))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 4.0d
-		}
-		{
 			id: "5BBA51F8FE4D6C3B"
 			optional: true
 			rewards: [{
@@ -677,7 +665,7 @@
 				item: { count: 1, id: "actuallyadditions:coffee_machine" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 3.0d
 		}
 	]

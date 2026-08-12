@@ -85,4 +85,7 @@ ServerEvents.recipes((event) => {
       addRecipeOccultismCrushing(event, oreTag, [outputId, outputAmount], `ftb:occultism/crusher/raw_ore/${gemType}`);
     });
   });
+
+  //Silicon Crushing
+  addRecipeOccultismCrushing(event, "c:silicon", ["ftbmaterials:silicon_dust", 1], `ftb:occultism/crushing/gems/silicon`);
 });

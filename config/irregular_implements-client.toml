@@ -1,7 +1,9 @@
-#Should the Collapse Imbue invert the player's mouse sensitivity?
+#Should the Collapse effect invert the player's mouse movement?
 collapseInvertsMouse = true
 #Should the recipe book button be hidden in the Custom Crafting Table screen?
 hideCustomCraftingTableRecipeBookButton = false
+#Should the Collapse effect invert the player's WASD movement?
+collapseInvertsControls = true
 
 [biome_painter]
 	#The size of the cube shown on correct biome positions.

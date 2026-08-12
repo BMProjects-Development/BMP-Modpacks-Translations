@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 1.5d
+			id: "3DF4B805E941ABB2"
 			image: "ae2:item/singularity"
 			rotation: 45.0d
 			width: 1.5d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 2.0d
+			id: "7FB7B8B06887F086"
 			image: "ae2:block/glass/quartz_glass_item"
 			rotation: 0.0d
 			width: 2.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 2.0d
+			id: "2D84BDF5F5243AEE"
 			image: "ae2:block/fluix_block_empty"
 			order: -1
 			rotation: 0.0d
@@ -38,6 +41,7 @@
 		{
 			alpha: 155
 			height: 2.0d
+			id: "52F7D362A73EF540"
 			image: "advanced_ae:block/quantum_crafter_grid_on"
 			rotation: 0.0d
 			width: 2.0d
@@ -46,6 +50,7 @@
 		}
 		{
 			height: 2.0d
+			id: "74B55247A61BE1CD"
 			image: "advanced_ae:block/crafting/quantum_internal_powered_animation_tb"
 			rotation: 45.0d
 			width: 2.0d
@@ -54,6 +59,7 @@
 		}
 		{
 			height: 2.0d
+			id: "0323FB19C02B9D49"
 			image: "ae2:block/molecular_assembler_lights"
 			rotation: 0.0d
 			width: 2.0d
@@ -62,6 +68,7 @@
 		}
 		{
 			height: 3.0d
+			id: "7FA7430E113929B2"
 			image: "ftbquests:tasks/input_only"
 			rotation: 0.0d
 			width: 3.0d
@@ -70,6 +77,7 @@
 		}
 		{
 			height: 1.0d
+			id: "31CA295A849DDBCF"
 			image: "enderio:block/vacuum_portal"
 			rotation: 45.0d
 			width: 1.0d
@@ -79,6 +87,7 @@
 		{
 			alpha: 100
 			height: 1.5d
+			id: "0CB094011899294D"
 			image: "ae2:block/chest/top"
 			order: -1
 			rotation: 45.0d
@@ -88,6 +97,7 @@
 		}
 		{
 			height: 2.0d
+			id: "2652790BF9CB7A39"
 			image: "ae2:block/chest/top"
 			order: -3
 			rotation: 0.0d
@@ -97,6 +107,7 @@
 		}
 		{
 			height: 3.0d
+			id: "53626054044055D0"
 			image: "extendedae:block/ex_io_port_bottom"
 			order: -1
 			rotation: 0.0d
@@ -106,6 +117,7 @@
 		}
 		{
 			height: 2.0d
+			id: "56BA76F5A41A24DA"
 			image: "advanced_ae:block/crafting/quantum_unit"
 			rotation: 45.0d
 			width: 2.0d
@@ -114,6 +126,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0E9D2EF8637557FD"
 			image: "ae2:block/controller"
 			rotation: 0.0d
 			width: 1.0d
@@ -122,6 +135,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4B606F03B9F8BE9C"
 			image: "minecraft:block/sculk"
 			rotation: 45.0d
 			width: 1.0d
@@ -131,6 +145,7 @@
 		{
 			color: 11645361
 			height: 2.0d
+			id: "684E2ED5D566050B"
 			image: "extendedae:block/assembler_matrix/frame_block_on"
 			rotation: 45.0d
 			width: 2.0d
@@ -139,6 +154,7 @@
 		}
 		{
 			height: 1.0d
+			id: "78808732586232A7"
 			image: "replication:block/shader"
 			rotation: 45.0d
 			width: 1.0d
@@ -147,6 +163,7 @@
 		}
 		{
 			height: 2.0d
+			id: "4367A54F8D4F2C73"
 			image: "ars_nouveau:item/glyph_template"
 			rotation: 0.0d
 			width: 2.0d
@@ -155,6 +172,7 @@
 		}
 		{
 			height: 3.0d
+			id: "7C67DC82AD099D9A"
 			image: "ftb:textures/quests/other_titles_and_logos/storage_text.png"
 			rotation: 0.0d
 			width: 8.89d
@@ -165,6 +183,7 @@
 			alpha: 55
 			color: 0
 			height: 6.0d
+			id: "472B46D949815C7F"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -175,6 +194,7 @@
 			alpha: 55
 			color: 0
 			height: 6.0d
+			id: "4C50C8DD1D1EE79B"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -185,6 +205,7 @@
 			alpha: 55
 			color: 0
 			height: 6.0d
+			id: "635071480E979EED"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -195,6 +216,7 @@
 			alpha: 55
 			color: 0
 			height: 6.0d
+			id: "13DCDCCF6B059452"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -205,6 +227,7 @@
 			alpha: 55
 			color: 0
 			height: 13.0d
+			id: "6CEB1DFA59EAE138"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -5
 			rotation: 0.0d
@@ -216,6 +239,7 @@
 			alpha: 55
 			color: 0
 			height: 3.0d
+			id: "43CA2221ABF4BFB6"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -226,6 +250,7 @@
 			alpha: 55
 			color: 0
 			height: 3.0d
+			id: "58A751998F708EEE"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -234,6 +259,7 @@
 		}
 		{
 			height: 2.25d
+			id: "3221A7572A08F529"
 			image: "advanced_ae:block/quantum_crafter_bottom"
 			order: -1
 			rotation: 45.0d
@@ -243,6 +269,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5B86AC9270F2AA4C"
 			image: "refinedstorage:block/network_receiver/cutouts/orange"
 			rotation: 0.0d
 			width: 1.0d
@@ -251,6 +278,7 @@
 		}
 		{
 			height: 1.0d
+			id: "208A71022922DA5F"
 			image: "refinedstorage:block/network_receiver/cutouts/orange"
 			rotation: 0.0d
 			width: 1.0d
@@ -259,6 +287,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6A6863A1F5AEEDB2"
 			image: "refinedstorage:block/disk_interface/back"
 			rotation: 45.0d
 			width: 1.0d
@@ -267,6 +296,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6FC0006289F424AE"
 			image: "refinedstorage:block/network_receiver/cutouts/green"
 			rotation: 0.0d
 			width: 1.0d
@@ -276,6 +306,7 @@
 		{
 			color: 16755200
 			height: 1.0d
+			id: "71B276CB23BBE9A0"
 			image: "refinedstorage:block/network_receiver/cutouts/red"
 			rotation: 0.0d
 			width: 1.0d
@@ -284,6 +315,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5B8C11874D5A7CE8"
 			image: "refinedstorage:block/network_receiver/cutouts/magenta"
 			rotation: 0.0d
 			width: 1.0d
@@ -292,6 +324,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3D9ED1F987C1AB55"
 			image: "refinedstorage:block/network_receiver/cutouts/blue"
 			rotation: 0.0d
 			width: 1.0d
@@ -302,6 +335,7 @@
 			alpha: 55
 			color: 0
 			height: 10.0d
+			id: "433A469857E6064C"
 			image: "ftbquests:textures/shapes/square/shape.png"
 			order: -5
 			rotation: 0.0d
@@ -311,6 +345,7 @@
 		}
 		{
 			height: 1.5d
+			id: "6C530BCBCB054EDE"
 			image: "ae2:block/growth_accelerator_top"
 			rotation: 0.0d
 			width: 1.5d
@@ -320,6 +355,7 @@
 		{
 			color: 0
 			height: 1.25d
+			id: "633433A8A071EA3B"
 			image: "ftbquests:textures/shapes/square/background.png"
 			rotation: 0.0d
 			width: 1.25d

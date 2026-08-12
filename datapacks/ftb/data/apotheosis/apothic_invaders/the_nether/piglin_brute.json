@@ -8,7 +8,8 @@
         "constraints": {
             "biomes": [
                 "ftb:nether",
-                "ftb:upper/nether"
+                "ftb:upper/nether",
+                "ftb:lower/nether"
             ]
         },
         "name": "use_name_generation",

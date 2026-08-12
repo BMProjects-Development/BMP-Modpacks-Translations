@@ -6,6 +6,12 @@
     "#c:seeds": {
       "variant": "NONE"
     },
+    "ftbmaterials:coal_tiny": {
+      "variant": "NONE"
+    },
+    "ftbmaterials:charcoal_tiny": {
+      "variant": "NONE"
+    },
     "#mysticalagriculture:essences": {
       "neoforge:conditions": [
         {

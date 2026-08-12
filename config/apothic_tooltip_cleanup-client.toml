@@ -1,0 +1,66 @@
+[features]
+	# affix display
+	# ============================================================
+	# How many affixes show on a tooltip.
+	# all = show every affix
+	# top_n = show first N, rest under Alt
+	# alt_only = hide every affix unless Alt is held
+	affix_display_mode = "all"
+	# Affixes shown when mode is top_n.
+	# Default: 3
+	# Range: 0 ~ 99
+	affix_visible_count = 3
+	# Sort order: default or alphabetical.
+	affix_sort_order = "default"
+	# The affix prefix and suffix Apotheosis adds to the item name (Strengthened, of the Inferno).
+	# show = full affixed name
+	# alt = base item name unless Alt is held
+	# delete = always the base item name
+	affix_prefixes_mode = "show"
+	# Translation key prefixes of affixes to hide.
+	hidden_affix_ids = []
+	# affix tooltip lines
+	# ============================================================
+	# The summary block (Cold/Fire/HP%/Spell Resistance lines).
+	# show = always visible
+	# alt = hidden unless Alt is held
+	# delete = always hidden, Alt has no effect
+	summarization_mode = "alt"
+	# The "ignores X% of durability damage" line.
+	# show = always visible
+	# alt = hidden unless Alt is held
+	# delete = always hidden, Alt has no effect
+	durability_bonus_mode = "alt"
+	# Potion style affix descriptions.
+	# show = always visible
+	# alt = hidden unless Alt is held
+	# delete = always hidden, Alt has no effect
+	potion_descriptions_mode = "show"
+	# The [MM:SS] cooldown markers and [Stacking] tags on affix lines.
+	# Only the annotations are touched, never the affix text.
+	# show = always visible
+	# alt = hidden unless Alt is held
+	# delete = always hidden, Alt has no effect
+	affix_extras_mode = "alt"
+	# gem display (raw gems)
+	# ============================================================
+	# How raw gem tooltips display.
+	# full = original Apotheosis layout
+	# compact = keep the category and bonus bullets, drop the Unique tag
+	# ultra = one line for categories, one line for bonuses
+	# hidden = remove all gem info
+	gem_tooltip_mode = "compact"
+	# Gem categories to hide from 'Fits In' lists. Case insensitive.
+	# Example: ["Bows", "Crossbows"] to hide ranged weapons.
+	# No effect when gem_tooltip_mode is hidden, since that drops all gem info anyway.
+	hidden_gem_categories = []
+	# sockets
+	# ============================================================
+	# Merges empty sockets into one summary line.
+	# All empty: one line replaces the empty rows.
+	# Mixed: filled gems still render, empty count added below.
+	merge_empty_sockets = true
+	# Hides the APOTH_SOCKET_MARKER literal text.
+	# Only turn on if the marker is leaking through visibly.
+	# Can hide the socket UI on socketed items.
+	hide_apoth_marker = false

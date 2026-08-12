@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "avaritia:neutronium_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "ftb:palettes/neutronium",
   "quality": 10,
   "bonusParameters": {

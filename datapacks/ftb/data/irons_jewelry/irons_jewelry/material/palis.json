@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "actuallyadditions:palis_crystal"
   },
-  "materialType": [
-    "gem"
-  ],
   "paletteLocation": "irons_jewelry:palettes/lapis",
   "quality": 1.8,
   "bonusParameters": {

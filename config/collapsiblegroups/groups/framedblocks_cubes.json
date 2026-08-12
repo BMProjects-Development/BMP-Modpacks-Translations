@@ -1,0 +1,21 @@
+{
+  "id": "framedblocks_cubes",
+  "name": {
+    "translate": "collapsible_groups.group.framedblocks_cubes",
+    "fallback": "Framed Blocks: Cubes & Storage"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "all": [
+          { "type": "item", "namespace": "framedblocks" },
+          { "item_path_contains": "cube" }
+        ]
+      },
+      { "type": "item", "id": "framedblocks:framed_chest" },
+      { "type": "item", "id": "framedblocks:framed_secret_storage" },
+      { "type": "item", "id": "framedblocks:framed_tank" }
+    ]
+  }
+}

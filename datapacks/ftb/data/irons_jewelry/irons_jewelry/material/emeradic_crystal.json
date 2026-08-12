@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "actuallyadditions:emeradic_crystal"
   },
-  "materialType": [
-    "gem"
-  ],
   "paletteLocation": "irons_jewelry:palettes/emerald",
   "quality": 1.5,
   "bonusParameters": {

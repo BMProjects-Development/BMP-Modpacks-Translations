@@ -26,6 +26,7 @@
 			alpha: 50
 			color: 0
 			height: 2.5d
+			id: "57C8A8C176F876F5"
 			image: "ftbquests:textures/shapes/hexagon/shape.png"
 			rotation: 0.0d
 			width: 2.5d
@@ -33,27 +34,28 @@
 			y: -1.0d
 		}
 		{
-			click: "https://discord.com/invite/X5UGvBs"
+			click_action: "open_uri:https://discord.com/invite/X5UGvBs"
 			height: 1.0d
-			hover: ["ftb.hover.discord"]
+			id: "58FB752DEB6896EA"
 			image: "ftbpc:textures/gui/discord.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.5d
-			y: 0.5d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
-			click: "https://github.com/FTBTeam/FTB-Modpack-Issues/issues"
+			click_action: "open_uri:https://github.com/FTBTeam/FTB-Modpack-Issues/issues"
 			height: 1.0d
-			hover: ["ftb.hover.bug"]
+			id: "1B8538AADE27E44F"
 			image: "ftbquests:textures/gui/alert.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
-			y: 0.5d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			height: 5.0d
+			id: "504BC077997FFBC8"
 			image: "ftb:textures/quests/other_titles_and_logos/sb4_logo.png"
 			rotation: 0.0d
 			width: 13.8d
@@ -61,44 +63,44 @@
 			y: -4.5d
 		}
 		{
-			click: "https://discord.gg/9GWKBVw3Ty"
+			click_action: "open_uri:https://discord.gg/9GWKBVw3Ty"
 			height: 1.0d
-			hover: ["Discord переводчиков!"]
+			id: "68D43CA65BE4BA75"
 			image: "ftb:textures/quests/other_titles_and_logos/discord.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.5d
-			y: 2.0d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
-			click: "https://t.me/BMProjects"
+			click_action: "open_uri:https://t.me/BMProjects"
 			height: 1.0d
-			hover: ["Telegram переводчиков!"]
+			id: "1AB52F1E1DC21ACC"
 			image: "ftb:textures/quests/other_titles_and_logos/telegram.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -2.5d
-			y: 2.5d
+			y: 5.5d
 		}
 		{
-			click: "https://github.com/BMProjects-Development"
+			click_action: "open_uri:https://github.com/BMProjects-Development"
 			height: 1.0d
-			hover: ["GitHub переводчиков!"]
+			id: "63556C62E86FCC1D"
 			image: "ftb:textures/quests/other_titles_and_logos/github.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
-			y: 2.5d
+			y: 5.5d
 		}
 		{
-			click: "https://boosty.to/barmaxx"
+			click_action: "open_uri:https://boosty.to/barmaxx"
 			height: 1.0d
-			hover: ["Boosty переводчиков!"]
+			id: "32005205900401C8"
 			image: "ftb:textures/quests/other_titles_and_logos/boosty.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: 2.0d
+			x: 1.0d
+			y: 4.0d
 		}
 	]
 	order_index: 0
@@ -156,7 +158,7 @@
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			icon: {
@@ -177,7 +179,29 @@
 				type: "checkmark"
 			}]
 			x: 0.5d
-			y: -1.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/teams.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "261B2184A4839741"
+			rewards: [{
+				id: "613A44B867ED7006"
+				team_reward: false
+				type: "xp"
+				xp: 5
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "035C4884AAC6C3AB"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
 		}
 	]
 }

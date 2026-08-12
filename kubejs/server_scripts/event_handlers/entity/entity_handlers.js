@@ -106,6 +106,17 @@ EntityEvents.spawned("twilightforest:hydra", (event) => {
   event.cancel()
 })
 
+const $MFConfig = Java.loadClass("com.portingdeadmods.moofluids.MFConfig");
+
+EntityEvents.spawned("moofluids:fluid_cow", (event) => {
+  const { entity } = event;
+  if (!entity) return;
+
+  entity.setDelay($MFConfig.defaultMilkingCooldown);
+  entity.setCanBeMilked(false);
+});
+
+
 
 // LootJS.lootTables((event)=>{
 //   LootJSEntityList.removeIf((entityID)=>!(event.hasLootTable(entityID)))

@@ -96,7 +96,8 @@ FTBTeamsEvents.playerJoinedParty((event) => {
       });
     }
     // Also copy owner's player stages (catches any player-only stages)
-    let owner = Teams.getTeam(player)?.getOwner();
+    let team = Teams.getTeam(player);
+    let owner = team && team.isPartyTeam() ? team.getOwner() : null;
     let ownerPlayer = owner ? server.getPlayer(owner) : null;
     if (ownerPlayer) {
       ownerPlayer.stages.getAll().forEach((stage) => {

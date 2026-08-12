@@ -61,7 +61,7 @@ if (exceedsTotalSystemCapacity) {
     warn.withMemoryAllocationGuide();
 }
 
-// 5. High System Load Check (Current Capacity)
+// 5. High System Load Check (Current Capacity, Windows only)
 var systemAvailable = MemoryUtils.getSystemFreeMemoryBytes() + MemoryUtils.getSystemFreeSwapBytes();
 var jvmAllocated = MemoryUtils.getJvmAllocatedMemoryBytes();
 var stillNeeded = xmxBytes - jvmAllocated;

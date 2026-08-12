@@ -77,6 +77,11 @@
 				x: 2
 				y: 0
 			}
+			"createultimine:config": {
+				enabled: true
+				x: 0
+				y: 3
+			}
 			"leaderboards:leaderboards": {
 				enabled: true
 				x: 1

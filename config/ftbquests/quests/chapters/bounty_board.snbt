@@ -14,6 +14,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "1FC7B7D656E6BC40"
 			image: "ftb:textures/quests/other_titles_and_logos/bountytext2.png"
 			rotation: 0.0d
 			width: 7.0d
@@ -22,6 +23,7 @@
 		}
 		{
 			height: 1.8d
+			id: "120FACEEFF425718"
 			image: "ftb:textures/quests/theme_assets/textbox.png"
 			order: -6
 			rotation: 0.0d

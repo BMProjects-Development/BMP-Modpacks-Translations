@@ -15,6 +15,7 @@
 			alpha: 155
 			color: 0
 			height: 10.5d
+			id: "1E1DF5B32AA85BEE"
 			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -25,6 +26,7 @@
 			alpha: 155
 			color: 0
 			height: 10.5d
+			id: "43D74A9FC110DFBD"
 			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -35,6 +37,7 @@
 			alpha: 155
 			color: 0
 			height: 10.5d
+			id: "68C56C4955FA2A48"
 			image: "ftb:textures/quests/backgrounds/smallbgs/roundedbg.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -44,6 +47,7 @@
 		{
 			dependency: "106A9E7AD6051D8C"
 			height: 4.0d
+			id: "738279DCB2CEB359"
 			image: "malum:textures/gui/book/widgets/runewood_frame_gilded.png"
 			rotation: 0.0d
 			width: 4.0d
@@ -53,6 +57,7 @@
 		{
 			dependency: "106A9E7AD6051D8C"
 			height: 4.0d
+			id: "16EB69B9916434AF"
 			image: "ftbquests:tasks/input_only"
 			order: -1
 			rotation: 0.0d
@@ -63,6 +68,7 @@
 		{
 			dependency: "3819423319D1A414"
 			height: 2.0d
+			id: "54A1BA46B1FB697C"
 			image: "malum:textures/gui/book/widgets/runewood_frame_grand.png"
 			order: -1
 			rotation: 0.0d
@@ -73,6 +79,7 @@
 		{
 			dependency: "6461D19F839957B6"
 			height: 2.0d
+			id: "71AE27CF1CDE9200"
 			image: "ftbechoes:block/echo_projector_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -82,6 +89,7 @@
 		{
 			dependency: "0FD446B7912E00CB"
 			height: 2.0d
+			id: "011ACAFC28BDEEA5"
 			image: "ftbechoes:block/echo_projector_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -91,6 +99,7 @@
 		{
 			dependency: "7713D75A36D0A23D"
 			height: 2.0d
+			id: "1B8C9FD4A7EE154F"
 			image: "ftbechoes:block/echo_projector_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -100,6 +109,7 @@
 		{
 			dependency: "6461D19F839957B6"
 			height: 1.5d
+			id: "6BBC8A8045C7DD43"
 			image: "relics:textures/gui/description/ability/reroll_button_active_quick.png"
 			order: 1
 			rotation: 0.0d
@@ -110,6 +120,7 @@
 		{
 			dependency: "0FD446B7912E00CB"
 			height: 1.5d
+			id: "3177E632524611DE"
 			image: "relics:textures/gui/description/ability/page_counter.png"
 			order: 1
 			rotation: 0.0d
@@ -120,6 +131,7 @@
 		{
 			dependency: "7713D75A36D0A23D"
 			height: 1.5d
+			id: "72C108A704077F4D"
 			image: "relics:textures/gui/description/ability/reroll_button_active_warning.png"
 			order: 1
 			rotation: 0.0d

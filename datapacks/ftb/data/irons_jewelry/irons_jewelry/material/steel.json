@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "ftbmaterials:steel_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "irons_jewelry:palettes/netherite",
   "quality": 2,
   "bonusParameters": {

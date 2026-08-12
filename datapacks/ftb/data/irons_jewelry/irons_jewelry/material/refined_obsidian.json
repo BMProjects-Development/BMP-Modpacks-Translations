@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "ftbmaterials:refined_obsidian_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "irons_jewelry:palettes/sapphire",
   "quality": 2.4,
   "bonusParameters": {

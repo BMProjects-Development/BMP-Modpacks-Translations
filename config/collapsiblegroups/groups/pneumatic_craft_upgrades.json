@@ -12,14 +12,7 @@
         "namespace": "pneumaticcraft"
       },
       {
-        "any": [
-          {
-            "item_path_ends_with": "upgrade"
-          },
-          {
-            "item_path_starts_with": "jumping"
-          }
-        ]
+        "item_path_contains": "upgrade"
       }
     ]
   }

@@ -310,6 +310,11 @@
 		""
 		"The &dPearlescent Endshelf&r is the best general-purpose bookshelf, providing significant amounts of both &cQuanta&r and &dArcana&r."
 	]
+	quest.2C141655079AC173.quest_desc: [
+		"&dWyvern&r weapons consume power instead of durability and can be customised via modules placed into their inventories."
+		""
+		"Their module inventory can be accessed via the keybind &eTool Modules&r, which isn't bound by default."
+	]
 	quest.2C40123DF5EBA846.title: "Armours"
 	quest.2D110AB9A38178C5.quest_desc: [
 		"Hidden deep within netherrack, &dThe Infernal&r mentioned a buried &3Vault&r in the &cNether&r ring that is home to a very dangerous burning soul."
@@ -848,6 +853,7 @@
 		""
 		"To make these, you'll need to make &dArcane Cloth&r first. Combine several pieces of the cloth with a &aRune&r, and you can make some of the strongest mage armour!"
 	]
+	quest.674AFF1CFDE5886F.title: "Armourer"
 	quest.6B584FB6F2EEBCD0.quest_desc: [
 		"&dArcane Essence&r can be useful in making your first magic armour set from &6Iron's Spells&r."
 		""
@@ -1054,10 +1060,12 @@
 		""
 		"Note that it takes LIQUID Ethene, meaning you'll need to create a &aRotary Condensentrator&r to convert it from a gas to a liquid first. Did you pump in the gas already? Use a &aGauge Dropper&r to remove it!"
 	]
+	task.06F0C110F6DF4933.title: "Colour Guide"
 	task.0D2B50FDF033C966.title: "Iron's Armour"
 	task.1464DA1D0A45EF99.title: "Wizard Armour"
 	task.16D5556D98667242.title: "Ferricore Armour"
 	task.251CDFF26C59DD32.title: "Dark Matter Armour"
+	task.293421D07539E14B.title: "Any wizard armour"
 	task.36E4280D3F1F4D95.title: "&bCelestigem Armour"
 	task.52E6F8489C66A549.title: "Soulstained Armour"
 	task.546F475B57F686A3.title: "Red Matter Armour"

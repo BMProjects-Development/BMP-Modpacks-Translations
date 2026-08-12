@@ -6,14 +6,67 @@
   },
   "enabled": true,
   "filter": {
-    "all": [
+    "any": [
       {
-        "any": [
-          { "type": "item", "namespace": "rftoolsutility" },
-          { "type": "item", "namespace": "rftoolsstorage" }
-        ]
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsutility:text_module\"}"
       },
-      { "item_path_ends_with": "_module" }
+      {
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsutility:energy_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsutility:energyplus_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsutility:inventory_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsutility:inventoryplus_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsutility:clock_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsutility:fluid_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsutility:fluidplus_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsutility:machineinformation_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsutility:button_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsutility:redstone_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsutility:counter_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsutility:counterplus_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsstorage:dump_module\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"rftoolsstorage:storage_control_module\"}"
+      }
     ]
   }
 }

@@ -617,4 +617,34 @@ ServerEvents.recipes((event) => {
     ],
     `ftb:immersive/crusher/gem/salt`
   );
+
+  //Sulfur Crushing
+  addRecipeImmersiveEngineeringCrusher(
+    event,
+    "c:gems/sulfur",
+    [
+      ["ftbmaterials:sulfur_dust", 1]
+    ],
+    `ftb:immersive/crusher/gem/sulfur`
+  );
+
+  //Silicon Crushing
+  addRecipeImmersiveEngineeringCrusher(
+    event,
+    "c:silicon",
+    [
+      ["ftbmaterials:silicon_dust", 1]
+    ],
+    `ftb:immersive/crusher/gem/silicon`
+  );
+
+  //Silicon Ingot Crushing
+  addRecipeImmersiveEngineeringCrusher(
+    event,
+    "c:ingots/silicon",
+    [
+      ["ftbmaterials:silicon_dust", 1]
+    ],
+    `ftb:immersive/crusher/ingot/silicon`
+  );
 });

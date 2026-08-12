@@ -1,0 +1,12 @@
+{
+  "id": "neo_vitae_upgrade_tomes",
+  "name": {
+    "translate": "collapsible_groups.group.neo_vitae_upgrade_tomes",
+    "fallback": "Neo Vitae: Upgrade Tomes"
+  },
+  "enabled": true,
+  "filter": {
+    "type": "item",
+    "id": "neovitae:upgrade_tome"
+  }
+}

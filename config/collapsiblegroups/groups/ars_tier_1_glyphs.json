@@ -306,6 +306,14 @@
       {
         "type": "item",
         "stack": "{\"id\":\"not_enough_glyphs:glyph_momentum\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"not_enough_glyphs:glyph_ride\"}"
+      },
+      {
+        "type": "item",
+        "stack": "{\"id\":\"ars_controle:glyph_filter_random\"}"
       }
     ]
   }

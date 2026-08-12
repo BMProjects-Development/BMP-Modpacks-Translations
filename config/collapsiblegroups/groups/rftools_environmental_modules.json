@@ -6,9 +6,28 @@
   },
   "enabled": true,
   "filter": {
-    "all": [
-      { "type": "item", "namespace": "rftoolsutility" },
-      { "item_path_ends_with": "_module" }
+    "any": [
+      { "type": "item", "item": "rftoolsutility:noteleport_module" },
+      { "type": "item", "item": "rftoolsutility:nightvision_module" },
+      { "type": "item", "item": "rftoolsutility:luck_module" },
+      { "type": "item", "item": "rftoolsutility:glowing_module" },
+      { "type": "item", "item": "rftoolsutility:flight_module" },
+      { "type": "item", "item": "rftoolsutility:weakness_module" },
+      { "type": "item", "item": "rftoolsutility:waterbreathing_module" },
+      { "type": "item", "item": "rftoolsutility:hasteplus_module" },
+      { "type": "item", "item": "rftoolsutility:haste_module" },
+      { "type": "item", "item": "rftoolsutility:speedplus_module" },
+      { "type": "item", "item": "rftoolsutility:speed_module" },
+      { "type": "item", "item": "rftoolsutility:featherfallingplus_module" },
+      { "type": "item", "item": "rftoolsutility:featherfalling_module" },
+      { "type": "item", "item": "rftoolsutility:blindness_module" },
+      { "type": "item", "item": "rftoolsutility:slowness_module" },
+      { "type": "item", "item": "rftoolsutility:saturationplus_module" },
+      { "type": "item", "item": "rftoolsutility:saturation_module" },
+      { "type": "item", "item": "rftoolsutility:regenerationplus_module" },
+      { "type": "item", "item": "rftoolsutility:regeneration_module" },
+      { "type": "item", "item": "rftoolsutility:poison_module" },
+      { "type": "item", "item": "rftoolsutility:peaceful_module" }
     ]
   }
 }

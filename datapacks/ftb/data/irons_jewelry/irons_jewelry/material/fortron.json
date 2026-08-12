@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "ftb:fortron_infused_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "ftb:palettes/fortron",
   "quality": 2.5,
   "bonusParameters": {

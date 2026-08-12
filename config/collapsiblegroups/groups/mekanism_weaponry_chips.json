@@ -1,0 +1,19 @@
+{
+  "id": "mekanism_weaponry_chips",
+  "name": {
+    "translate": "collapsible_groups.group.mekanism_weaponry_chips",
+    "fallback": "Mekanism Weaponry: Chips"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      {
+        "type": "item",
+        "namespace": "mekanism_weaponry"
+      },
+      {
+        "item_path_contains": "chip"
+      }
+    ]
+  }
+}

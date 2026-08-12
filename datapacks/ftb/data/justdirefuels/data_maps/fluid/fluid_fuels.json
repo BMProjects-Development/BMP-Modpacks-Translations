@@ -1,0 +1,49 @@
+{
+  "values": {
+    "justdirethings:refined_t2_fluid_source": {
+      "fe_per_mb": 1440
+    },
+    "justdirethings:refined_t2_fluid_flowing": {
+      "fe_per_mb": 1440
+    },
+    "justdirethings:refined_t3_fluid_source": {
+      "fe_per_mb": 6000
+    },
+    "justdirethings:refined_t3_fluid_flowing": {
+      "fe_per_mb": 6000
+    },
+    "justdirethings:refined_t4_fluid_source": {
+      "fe_per_mb": 19400
+    },
+    "justdirethings:refined_t4_fluid_flowing": {
+      "fe_per_mb": 19400
+    },
+    "actuallyadditions:canola_oil": {
+      "fe_per_mb": 7
+    },
+    "actuallyadditions:refined_canola_oil": {
+      "fe_per_mb": 26
+    },
+    "actuallyadditions:crystallized_oil": {
+      "fe_per_mb": 46
+    },
+    "actuallyadditions:empowered_oil": {
+      "fe_per_mb": 65
+    },
+    "enderio:fluid_rocket_fuel_still": {
+      "fe_per_mb": 46
+    },
+    "minecraft:lava": {
+      "fe_per_mb": 100
+    },
+    "minecraft:flowing_lava": {
+      "fe_per_mb": 100
+    },
+    "oritech:still_heavy_oil": {
+      "fe_per_mb": 26
+    },
+    "oritech:still_fuel": {
+      "fe_per_mb": 975
+    }
+  }
+}

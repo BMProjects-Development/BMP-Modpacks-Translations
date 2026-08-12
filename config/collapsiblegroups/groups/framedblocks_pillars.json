@@ -1,0 +1,19 @@
+{
+  "id": "framedblocks_pillars",
+  "name": {
+    "translate": "collapsible_groups.group.framedblocks_pillars",
+    "fallback": "Framed Blocks: Pillars & Posts"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      {
+        "all": [
+          { "type": "item", "namespace": "framedblocks" },
+          { "item_path_contains": "pillar" }
+        ]
+      },
+      { "type": "item", "id": "framedblocks:framed_post" }
+    ]
+  }
+}

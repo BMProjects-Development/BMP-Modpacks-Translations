@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "replication:replica_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "ftb:palettes/replica",
   "quality": 2,
   "bonusParameters": {

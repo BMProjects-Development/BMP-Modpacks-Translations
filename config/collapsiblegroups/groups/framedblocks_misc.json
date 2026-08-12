@@ -1,0 +1,26 @@
+{
+  "id": "framedblocks_misc",
+  "name": {
+    "translate": "collapsible_groups.group.framedblocks_misc",
+    "fallback": "Framed Blocks: Miscellaneous"
+  },
+  "enabled": true,
+  "filter": {
+    "any": [
+      { "type": "item", "id": "framedblocks:framed_collapsible_block" },
+      { "type": "item", "id": "framedblocks:framed_collapsible_copycat_block" },
+      { "type": "item", "id": "framedblocks:framed_redstone_block" },
+      { "type": "item", "id": "framedblocks:framed_target" },
+      { "type": "item", "id": "framedblocks:framed_item_frame" },
+      { "type": "item", "id": "framedblocks:framed_glowing_item_frame" },
+      { "type": "item", "id": "framedblocks:framed_bookshelf" },
+      { "type": "item", "id": "framedblocks:framed_chiseled_bookshelf" },
+      { "type": "item", "id": "framedblocks:framed_flower_pot" },
+      { "type": "item", "id": "framedblocks:framed_hopper" },
+      { "type": "item", "id": "framedblocks:framed_lightning_rod" },
+      { "type": "item", "id": "framedblocks:framed_ladder" },
+      { "type": "item", "id": "framedblocks:framed_sign" },
+      { "type": "item", "id": "framedblocks:framed_hanging_sign" }
+    ]
+  }
+}

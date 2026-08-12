@@ -1,7 +1,8 @@
 // priority: 50
 
 remFluid.push(
-    "create_enchantment_industry:experience"
+    "create_enchantment_industry:experience",
+    "create_enchantment_industry:flowing_experience"
 )
 
 ServerEvents.recipes((event) => {
@@ -10,9 +11,9 @@ ServerEvents.recipes((event) => {
         type: "create:mixing",
         ingredients: [
           {
-            type: "neoforge:single",
+            type: "neoforge:tag",
             amount: 100,
-            fluid: "create_enchantment_industry:experience"
+            tag: "c:experience"
           }
         ],
         results: [

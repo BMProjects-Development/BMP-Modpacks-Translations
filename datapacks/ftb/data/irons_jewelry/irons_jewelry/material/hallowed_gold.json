@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "malum:hallowed_gold_ingot"
   },
-  "materialType": [
-    "metal"
-  ],
   "paletteLocation": "irons_jewelry:palettes/gold",
   "quality": 2.1,
   "bonusParameters": {

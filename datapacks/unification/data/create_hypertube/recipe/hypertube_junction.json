@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "c:plates/brass"
+    },
+    "F": {
+      "item": "create_hypertube:hypertube_funnel"
+    },
+    "H": {
+      "item": "create_hypertube:hypertube"
+    },
+    "T": {
+      "item": "create:transmitter"
+    }
+  },
+  "pattern": [
+    "BTB",
+    "FHF",
+    " F "
+  ],
+  "result": {
+    "count": 1,
+    "id": "create_hypertube:hypertube_junction"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "framedblocks_slopes",
+  "name": {
+    "translate": "collapsible_groups.group.framedblocks_slopes",
+    "fallback": "Framed Blocks: Slopes, Edges & Slope Slabs"
+  },
+  "enabled": true,
+  "filter": {
+    "all": [
+      { "type": "item", "namespace": "framedblocks" },
+      {
+        "any": [
+          { "item_path_contains": "slope_edge" },
+          { "item_path_contains": "slope_slab" },
+          {
+            "all": [
+              {
+                "any": [
+                  { "item_path_ends_with": "_slope" },
+                  { "item_path_ends_with": "_corner" }
+                ]
+              },
+              { "not": { "item_path_contains": "prism" } },
+              { "not": { "item_path_contains": "stairs" } },
+              { "not": { "item_path_contains": "slab" } },
+              { "not": { "item_path_contains": "panel" } },
+              { "not": { "item_path_contains": "pillar" } },
+              { "not": { "item_path_contains": "strip" } },
+              { "not": { "item_path_contains": "tube" } }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

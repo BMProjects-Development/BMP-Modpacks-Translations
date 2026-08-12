@@ -49,4 +49,7 @@
 		# Default: false
 		show_on_start: true
 	}
+	structure_placer: {
+		templates: { }
+	}
 }

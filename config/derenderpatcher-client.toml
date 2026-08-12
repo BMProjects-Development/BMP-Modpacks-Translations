@@ -2,5 +2,5 @@
 enableFix = true
 #Force enableUnknownShaders to true in Iris to ensure Draconic Evolution entity render. This will try to override Iris settings.
 enableIrisCompat = true
-#Force hud_batching to false in ImmediatelyFast to ensure Draconic Evolution's items can render in hud. This will try to override ImmediatelyFast settings.
+#Force ImmediatelyFast runtime hud_batching to false to ensure Draconic Evolution's items can render in hud.
 enableImmediatelyFastCompat = true
